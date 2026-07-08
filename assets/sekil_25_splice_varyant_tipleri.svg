@@ -1,0 +1,63 @@
+<svg viewBox="0 0 920 500" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="500" fill="#ffffff"/>
+  <text x="460" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">Splice varyant tipleri → mis-splicing sonucu → net etki</text>
+
+  <!-- column headers -->
+  <text x="240" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#64748B">VARYANT TİPİ (nerede?)</text>
+  <text x="660" y="56" text-anchor="middle" font-size="10" font-weight="700" fill="#64748B">TİPİK MİS-SPLICING SONUCU</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="66" width="860" height="58" rx="9" fill="#FEF6F5" stroke="#F2C9C4" stroke-width="1.3"/>
+  <text x="48" y="90" font-size="11.5" font-weight="700" fill="#B91C1C">Kanonik ±1/±2 (GT…AG)</text>
+  <text x="48" y="108" font-size="9.5" fill="#a02020">donör/akseptörün değişmez konumları — en yıkıcı</text>
+  <text x="470" y="90" font-size="10.5" font-weight="600" fill="#2E3440">Ekzon atlama veya intron tutulması</text>
+  <text x="470" y="108" font-size="9" fill="#64748B">splice bölgesi tanınmaz</text>
+  <!-- glyph: skipped exon -->
+  <rect x="772" y="80" width="26" height="16" rx="3" fill="#2563EB"/><rect x="804" y="80" width="26" height="16" rx="3" fill="#E2E8F0" stroke="#94A3B8" stroke-dasharray="2 2"/><rect x="836" y="80" width="26" height="16" rx="3" fill="#2563EB"/>
+  <text x="817" y="92" text-anchor="middle" font-size="8" fill="#94A3B8">✗</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="130" width="860" height="58" rx="9" fill="#FEF6F5" stroke="#F2C9C4" stroke-width="1.3"/>
+  <text x="48" y="154" font-size="11.5" font-weight="700" fill="#B91C1C">Dallanma noktası / polipirimidin</text>
+  <text x="48" y="172" font-size="9.5" fill="#a02020">intron içi tanıma sinyalleri</text>
+  <text x="470" y="154" font-size="10.5" font-weight="600" fill="#2E3440">Ekzon atlama (çoğunlukla)</text>
+  <text x="470" y="172" font-size="9" fill="#64748B">akseptör tanınması zayıflar</text>
+  <rect x="772" y="144" width="26" height="16" rx="3" fill="#2563EB"/><rect x="804" y="144" width="26" height="16" rx="3" fill="#E2E8F0" stroke="#94A3B8" stroke-dasharray="2 2"/><rect x="836" y="144" width="26" height="16" rx="3" fill="#2563EB"/>
+  <text x="817" y="156" text-anchor="middle" font-size="8" fill="#94A3B8">✗</text>
+
+  <!-- Row 3 -->
+  <rect x="30" y="194" width="860" height="58" rx="9" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.3"/>
+  <text x="48" y="218" font-size="11.5" font-weight="700" fill="#B45309">Ekzonik düzenleyici (ESE/ESS)</text>
+  <text x="48" y="236" font-size="9.5" fill="#92742a">sessiz (eş anlamlı) veya missense bile olabilir!</text>
+  <text x="470" y="218" font-size="10.5" font-weight="600" fill="#2E3440">Ekzon atlama — örn. SMN2 ekzon 7</text>
+  <text x="470" y="236" font-size="9" fill="#64748B">"sessiz" sanılan varyant patojen olabilir</text>
+  <rect x="772" y="208" width="26" height="16" rx="3" fill="#2563EB"/><rect x="804" y="208" width="26" height="16" rx="3" fill="#E2E8F0" stroke="#94A3B8" stroke-dasharray="2 2"/><rect x="836" y="208" width="26" height="16" rx="3" fill="#2563EB"/>
+  <text x="817" y="220" text-anchor="middle" font-size="8" fill="#94A3B8">✗</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="258" width="860" height="58" rx="9" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.3"/>
+  <text x="48" y="282" font-size="11.5" font-weight="700" fill="#B45309">Derin intronik (kriptik bölge)</text>
+  <text x="48" y="300" font-size="9.5" fill="#92742a">kodlama dışı; standart panelde gözden kaçar</text>
+  <text x="470" y="282" font-size="10.5" font-weight="600" fill="#2E3440">Sözde-ekzon (pseudoexon) eklenir</text>
+  <text x="470" y="300" font-size="9" fill="#64748B">yeni "sahte" ekzon mRNA'ya girer</text>
+  <rect x="772" y="272" width="26" height="16" rx="3" fill="#2563EB"/><rect x="804" y="272" width="22" height="16" rx="3" fill="#FCD34D" stroke="#92400E"/><rect x="832" y="272" width="26" height="16" rx="3" fill="#2563EB"/>
+  <text x="815" y="284" text-anchor="middle" font-size="7.5" fill="#92400E">ψ</text>
+
+  <!-- consequence split -->
+  <text x="460" y="344" text-anchor="middle" font-size="11" font-weight="700" fill="#1A2B4A">Sonuç okuma çerçevesine bağlıdır:</text>
+  <rect x="60" y="356" width="390" height="86" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="255" y="380" text-anchor="middle" font-size="11" font-weight="700" fill="#1D4ED8">Çerçeve KAYAR (out-of-frame)</text>
+  <text x="255" y="400" text-anchor="middle" font-size="10" fill="#2456c9">→ erken stop (PTC) → NMD</text>
+  <text x="255" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1D4ED8">→ işlev kaybı (LoF)</text>
+  <text x="255" y="434" text-anchor="middle" font-size="9" font-style="italic" fill="#64748b">çoğu splice varyantın yolu (bkz. Bölüm 2)</text>
+
+  <rect x="470" y="356" width="390" height="86" rx="10" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+  <text x="665" y="380" text-anchor="middle" font-size="11" font-weight="700" fill="#B45309">Çerçeve KORUNUR (in-frame)</text>
+  <text x="665" y="400" text-anchor="middle" font-size="10" fill="#92742a">→ değişmiş ama stabil protein</text>
+  <text x="665" y="418" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B45309">→ LoF, dominant-negatif veya GoF olabilir</text>
+  <text x="665" y="434" text-anchor="middle" font-size="9" font-style="italic" fill="#92742a">in-frame ekzon atlama → DN/GoF (Bölüm 5–6)</text>
+
+  <!-- footer -->
+  <text x="460" y="468" text-anchor="middle" font-size="10.5" fill="#2E3440">Öğreti: "sessiz" veya "intronik" etiketi varyantı masum yapmaz — splicing'i bozabilir. Etki, sadece DNA değil <tspan font-weight="700">RNA</tspan> düzeyinde anlaşılır.</text>
+  <text x="460" y="487" text-anchor="middle" font-size="9.5" font-style="italic" fill="#64748b">Tahmin için SpliceAI; kanıt için RNA-seq/cDNA (→ Şekil 26 ve test tablosu).</text>
+</svg>

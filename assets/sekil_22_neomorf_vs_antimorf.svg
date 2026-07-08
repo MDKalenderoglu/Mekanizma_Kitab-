@@ -1,0 +1,60 @@
+<svg viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft22" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker markerUnits="userSpaceOnUse" id="aR22" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B91C1C"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aA22" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#D97706"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aS22" markerWidth="12" markerHeight="12" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#64748B"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="450" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">İki dominant kazanım: sağlamı hedef almak (antimorf) vs yeni iş yaratmak (neomorf)</text>
+
+  <!-- LEFT : ANTIMORF -->
+  <rect x="24" y="48" width="408" height="338" rx="13" fill="#FEF6F5" stroke="#F2C9C4" stroke-width="1.5"/>
+  <rect x="36" y="60" width="22" height="22" rx="4" fill="#1A2B4A"/><text x="47" y="76" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">A</text>
+  <text x="240" y="76" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B91C1C">ANTİMORF — dominant-negatif</text>
+
+  <circle cx="140" cy="150" r="24" fill="#2563EB"/>
+  <text x="140" y="192" text-anchor="middle" font-size="10" fill="#1D4ED8">sağlam ürün</text>
+  <g transform="translate(320,150)"><circle r="24" fill="#B91C1C"/><polygon points="0,-11 2.7,-3.5 10.6,-3.4 4.2,1.4 6.6,9 0,4.4 -6.6,9 -4.2,1.4 -10.6,-3.4 -2.7,-3.5" fill="#FCD34D" stroke="#92400E" stroke-width="0.9"/></g>
+  <text x="320" y="192" text-anchor="middle" font-size="10" fill="#B91C1C">varyant ürün</text>
+
+  <line x1="292" y1="150" x2="172" y2="150" stroke="#B91C1C" stroke-width="3" marker-end="url(#aR22)"/>
+  <text x="232" y="138" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B91C1C">hedef alır &amp; bozar</text>
+
+  <rect x="60" y="226" width="336" height="62" rx="9" fill="#ffffff" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="228" y="250" text-anchor="middle" font-size="11" font-weight="700" fill="#B91C1C">Sağlam ürüne İHTİYAÇ DUYAR</text>
+  <text x="228" y="270" text-anchor="middle" font-size="10" fill="#a02020">onunla etkileşip işlevini sabote eder</text>
+
+  <text x="228" y="318" text-anchor="middle" font-size="10.5" fill="#2E3440">Örnek: kollajen (OI), p53 tetrameri</text>
+  <text x="228" y="338" text-anchor="middle" font-size="9.5" font-style="italic" fill="#94A3B8">→ ayrıntı: Bölüm 5</text>
+
+  <!-- RIGHT : NEOMORF -->
+  <rect x="468" y="48" width="408" height="338" rx="13" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.5"/>
+  <rect x="480" y="60" width="22" height="22" rx="4" fill="#1A2B4A"/><text x="491" y="76" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">B</text>
+  <text x="684" y="76" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B45309">NEOMORF — yeni / toksik işlev</text>
+
+  <circle cx="566" cy="150" r="24" fill="#2563EB"/>
+  <text x="566" y="192" text-anchor="middle" font-size="10" fill="#1D4ED8">sağlam ürün</text>
+  <text x="566" y="206" text-anchor="middle" font-size="9" fill="#64748B">(işini sürdürür)</text>
+
+  <g transform="translate(740,150)"><circle r="24" fill="#D97706"/><polygon points="0,-11 2.7,-3.5 10.6,-3.4 4.2,1.4 6.6,9 0,4.4 -6.6,9 -4.2,1.4 -10.6,-3.4 -2.7,-3.5" fill="#FCD34D" stroke="#92400E" stroke-width="0.9"/></g>
+  <text x="740" y="192" text-anchor="middle" font-size="10" fill="#B45309">varyant ürün</text>
+
+  <line x1="740" y1="186" x2="740" y2="232" stroke="#D97706" stroke-width="3" marker-end="url(#aA22)"/>
+  <rect x="660" y="238" width="160" height="34" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <text x="740" y="259" text-anchor="middle" font-size="10" font-weight="700" fill="#B45309">YENİ aktivite/ürün</text>
+
+  <text x="566" y="250" text-anchor="middle" font-size="20" fill="#94A3B8">≠</text>
+
+  <rect x="508" y="290" width="336" height="46" rx="9" fill="#ffffff" stroke="#D97706" stroke-width="1.5"/>
+  <text x="676" y="310" text-anchor="middle" font-size="11" font-weight="700" fill="#B45309">Sağlamdan BAĞIMSIZ</text>
+  <text x="676" y="328" text-anchor="middle" font-size="9.5" fill="#92742a">normalde hiç olmayan bir işi yapar</text>
+
+  <text x="676" y="362" text-anchor="middle" font-size="10.5" fill="#2E3440">Örnek: IDH→2-HG, H3K27M→PRC2 inhibisyonu</text>
+
+  <!-- footer -->
+  <text x="450" y="412" text-anchor="middle" font-size="11.5" fill="#2E3440">Öğreti: antimorf sağlamı <tspan font-weight="700" fill="#B91C1C">hedef alır</tspan> (sabotaj); neomorf <tspan font-weight="700" fill="#B45309">yepyeni bir aktivite yaratır</tspan> (sağlamdan bağımsız).</text>
+  <text x="450" y="432" text-anchor="middle" font-size="10.5" fill="#475569">İkisi de dominanttır ve "varyant ürünün varlığından" doğar → tam delesyon/null genelde hastalığı kopyalamaz.</text>
+</svg>

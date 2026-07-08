@@ -1,0 +1,89 @@
+<svg viewBox="0 0 920 520" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="520" fill="#ffffff"/>
+  <defs>
+    <filter id="s33shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Başlık -->
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 10.4 — 11p15.5: ayna hastalıklar (Beckwith-Wiedemann ve Silver-Russell)</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Aynı bölgede zıt yönlü metilasyon kusurları, zıt büyüme fenotipleri yaratır: aşırı büyüme (BWS) ↔ büyüme kısıtlılığı (SRS).</text>
+
+  <!-- Domain şeması -->
+  <text x="40" y="110" font-size="12" font-weight="700" fill="#1A2B4A">11p15.5</text>
+  <rect x="120" y="80" width="700" height="48" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="132" y="88" width="330" height="32" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="297" y="108" font-size="10.3" font-weight="700" fill="#1D4ED8" text-anchor="middle">Domain 1 (ICR1): IGF2 = büyüme pedalı · H19</text>
+  <rect x="478" y="88" width="330" height="32" rx="5" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <text x="643" y="108" font-size="10.3" font-weight="700" fill="#B45309" text-anchor="middle">Domain 2 (ICR2/KvDMR): CDKN1C = fren · KCNQ1OT1</text>
+  <text x="40" y="150" font-size="11" fill="#475569">IGF2 büyümeyi <tspan font-weight="700" fill="#B91C1C">hızlandırır</tspan> (paternal-ifadeli) · CDKN1C büyümeyi <tspan font-weight="700" fill="#1D4ED8">frenler</tspan> (maternal-ifadeli). Denge bozulunca aşırı ya da az büyüme.</text>
+
+  <!-- ============ SRS PANELİ ============ -->
+  <rect x="40" y="168" width="405" height="300" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2" filter="url(#s33shadow)"/>
+  <rect x="40" y="168" width="405" height="42" rx="12" fill="#DBEAFE"/>
+  <rect x="40" y="194" width="405" height="16" fill="#DBEAFE"/>
+  <text x="56" y="190" font-size="14" font-weight="700" fill="#1D4ED8">SILVER-RUSSELL ▼ büyüme kısıtlılığı</text>
+  <text x="56" y="206" font-size="10.5" fill="#475569">pedal zayıf: IGF2 ifadesi düşük</text>
+
+  <!-- SRS cause 1 -->
+  <rect x="56" y="222" width="373" height="44" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="68" y="241" font-size="11.5" font-weight="700" fill="#1A2B4A">ICR1 (H19/IGF2) hipometilasyonu</text>
+  <text x="68" y="257" font-size="9.8" fill="#64748B">IGF2 ↓ → büyüme pedalı zayıflar (en sık)</text>
+  <text x="417" y="248" font-size="12.5" font-weight="700" fill="#1D4ED8" text-anchor="end">%35–50</text>
+
+  <!-- SRS cause 2 -->
+  <rect x="56" y="274" width="373" height="44" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="68" y="293" font-size="11.5" font-weight="700" fill="#1A2B4A">Maternal UPD7</text>
+  <text x="68" y="309" font-size="9.8" fill="#64748B">farklı kromozom (kr. 7) — 11p15 dışı</text>
+  <text x="417" y="300" font-size="12.5" font-weight="700" fill="#1D4ED8" text-anchor="end">%7–10</text>
+
+  <!-- SRS sonuç -->
+  <rect x="56" y="332" width="373" height="120" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="68" y="353" font-size="11" font-weight="700" fill="#1D4ED8">FENOTİP</text>
+  <text x="68" y="373" font-size="10.5" fill="#1E293B">İntrauterin + postnatal ağır boy kısalığı,</text>
+  <text x="68" y="389" font-size="10.5" fill="#1E293B">göreli makrosefali, üçgen yüz, klinodaktili,</text>
+  <text x="68" y="405" font-size="10.5" fill="#1E293B">vücut asimetrisi (hemihipotrofi), beslenme</text>
+  <text x="68" y="421" font-size="10.5" fill="#1E293B">güçlüğü, hipoglisemi eğilimi.</text>
+  <text x="68" y="441" font-size="9.6" font-style="italic" fill="#475569">Normal metilasyon SRS'yi dışlamaz (klinik tanı).</text>
+
+  <!-- ============ BWS PANELİ ============ -->
+  <rect x="465" y="168" width="415" height="300" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2" filter="url(#s33shadow)"/>
+  <rect x="465" y="168" width="415" height="42" rx="12" fill="#FEE2E2"/>
+  <rect x="465" y="194" width="415" height="16" fill="#FEE2E2"/>
+  <text x="481" y="190" font-size="14" font-weight="700" fill="#B91C1C">BECKWITH-WIEDEMANN ▲ aşırı büyüme</text>
+  <text x="481" y="206" font-size="10.5" fill="#475569">fren kalkar ya da pedal artar</text>
+
+  <!-- BWS cause 1 -->
+  <rect x="481" y="220" width="383" height="40" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="493" y="237" font-size="11.5" font-weight="700" fill="#1A2B4A">ICR2 (KvDMR1) hipometilasyonu</text>
+  <text x="493" y="252" font-size="9.8" fill="#64748B">CDKN1C ↓ → fren kalkar (en sık)</text>
+  <text x="852" y="245" font-size="12.5" font-weight="700" fill="#B91C1C" text-anchor="end">~%50</text>
+
+  <!-- BWS cause 2 -->
+  <rect x="481" y="266" width="383" height="40" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="493" y="283" font-size="11.5" font-weight="700" fill="#1A2B4A">Paternal UPD11 (mozaik)</text>
+  <text x="493" y="298" font-size="9.8" fill="#64748B">her iki domaini etkiler; yüksek tümör riski</text>
+  <text x="852" y="291" font-size="12.5" font-weight="700" fill="#B91C1C" text-anchor="end">~%20</text>
+
+  <!-- BWS cause 3 -->
+  <rect x="481" y="312" width="383" height="40" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="493" y="329" font-size="11.5" font-weight="700" fill="#1A2B4A">ICR1 hipermetilasyonu</text>
+  <text x="493" y="344" font-size="9.8" fill="#64748B">IGF2 ↑↑ → en yüksek Wilms tümör riski</text>
+  <text x="852" y="337" font-size="12.5" font-weight="700" fill="#B91C1C" text-anchor="end">~%5–10</text>
+
+  <!-- BWS cause 4 -->
+  <rect x="481" y="358" width="383" height="40" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="493" y="375" font-size="11.5" font-weight="700" fill="#1A2B4A">CDKN1C patojenik varyantı</text>
+  <text x="493" y="390" font-size="9.8" fill="#64748B">kalıtsal olabilir (maternal geçiş)</text>
+  <text x="852" y="383" font-size="12.5" font-weight="700" fill="#B91C1C" text-anchor="end">~%5</text>
+
+  <!-- BWS sonuç -->
+  <rect x="481" y="404" width="383" height="48" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.3"/>
+  <text x="493" y="424" font-size="10.4" fill="#1E293B">Aşırı büyüme, makroglossi, karın duvarı defekti, neonatal</text>
+  <text x="493" y="440" font-size="10.4" fill="#1E293B">hipoglisemi, lateralize büyüme, embriyonal tümör (Wilms).</text>
+
+  <!-- Öğreti footer -->
+  <text x="40" y="490" font-size="11.5" font-style="italic" fill="#475569">Öğreti: ICR1 hipermetilasyon → BWS, hipometilasyon → SRS — aynı bölge zıt yönde. Alt-tip (özellikle UPD11 ve ICR1) tümör tarama yoğunluğunu belirler.</text>
+  <text x="880" y="508" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynak: Brioude ve ark. (2018) · Wakeling ve ark. (2017)</text>
+</svg>

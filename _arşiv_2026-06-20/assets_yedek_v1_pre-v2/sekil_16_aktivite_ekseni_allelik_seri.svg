@@ -1,0 +1,65 @@
+<svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="520" fill="#ffffff"/>
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 16 — Aktivite Ekseni: LoF ↔ Normal ↔ GoF ve GoF Allelik Serisi</text>
+  <text x="480" y="52" text-anchor="middle" font-size="12" fill="#555">Fenotip, işlevsel aktivitenin yönü ve derecesiyle belirlenir. LoF azaltır, GoF artırır; her iki uçta da hastalık olur.</text>
+
+  <!-- bidirectional axis -->
+  <defs>
+    <linearGradient id="axis" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c0392b"/>
+      <stop offset="50%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+  </defs>
+  <rect x="80" y="120" width="800" height="26" rx="6" fill="url(#axis)"/>
+  <text x="90" y="138" font-size="11" font-weight="700" fill="#fff">← aktivite AZALIR</text>
+  <text x="870" y="138" text-anchor="end" font-size="11" font-weight="700" fill="#fff">aktivite ARTAR →</text>
+  <line x1="480" y1="112" x2="480" y2="154" stroke="#1e8449" stroke-width="2"/>
+  <text x="480" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#1e8449">NORMAL (düzenli aktivite)</text>
+
+  <!-- left side LoF -->
+  <text x="180" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#c0392b">LoF / Haploinsufficiency</text>
+  <text x="180" y="220" text-anchor="middle" font-size="10.5" fill="#666">Bölüm 2–3</text>
+  <text x="180" y="238" text-anchor="middle" font-size="10.5" fill="#444">işlev kaybı → eksik ürün/sinyal</text>
+  <path d="M300 215 L360 215" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- right side GoF -->
+  <text x="780" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#c0392b">Gain-of-Function</text>
+  <text x="780" y="220" text-anchor="middle" font-size="10.5" fill="#666">bu bölüm</text>
+  <text x="780" y="238" text-anchor="middle" font-size="10.5" fill="#444">aşırı/sürekli/uygunsuz aktivite</text>
+
+  <!-- GoF allelic series (FGFR3) -->
+  <text x="480" y="290" text-anchor="middle" font-size="14" font-weight="700" fill="#1a2b4a">GoF allelik serisi örneği — FGFR3 aktivasyon derecesi → fenotip ağırlığı</text>
+
+  <!-- gradient bar for severity -->
+  <defs>
+    <linearGradient id="sev" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f9e79f"/>
+      <stop offset="50%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+  </defs>
+  <rect x="150" y="310" width="660" height="22" rx="5" fill="url(#sev)"/>
+  <text x="150" y="355" text-anchor="middle" font-size="11.5" font-weight="700" fill="#b9770e">Hipokondroplazi</text>
+  <text x="150" y="372" text-anchor="middle" font-size="9.5" fill="#666">hafif aktivasyon</text>
+  <text x="150" y="386" text-anchor="middle" font-size="9.5" fill="#666">(N540K vb.)</text>
+
+  <text x="400" y="355" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ca6f1e">Akondroplazi</text>
+  <text x="400" y="372" text-anchor="middle" font-size="9.5" fill="#666">orta aktivasyon</text>
+  <text x="400" y="386" text-anchor="middle" font-size="9.5" fill="#666">(G380R — en sık)</text>
+
+  <text x="700" y="355" text-anchor="middle" font-size="11.5" font-weight="700" fill="#c0392b">Tanatoforik displazi</text>
+  <text x="700" y="372" text-anchor="middle" font-size="9.5" fill="#666">güçlü/konstitütif aktivasyon</text>
+  <text x="700" y="386" text-anchor="middle" font-size="9.5" fill="#666">(R248C vb.) — perinatal letal</text>
+
+  <line x1="150" y1="332" x2="150" y2="340" stroke="#b9770e" stroke-width="2"/>
+  <line x1="400" y1="332" x2="400" y2="340" stroke="#ca6f1e" stroke-width="2"/>
+  <line x1="700" y1="332" x2="700" y2="340" stroke="#c0392b" stroke-width="2"/>
+
+  <rect x="80" y="410" width="800" height="92" rx="8" fill="#fef9e7" stroke="#e67e22"/>
+  <text x="95" y="432" font-size="11" font-weight="700" fill="#b9770e">Öğreti:</text>
+  <text x="95" y="452" font-size="11" fill="#444">• GoF'ta fenotip, aktivitenin DERECESİYLE orantılıdır: ne kadar çok aktivasyon, o kadar ağır fenotip (LoF'ta rezidüel fonksiyonun tersi mantık).</text>
+  <text x="95" y="472" font-size="11" fill="#444">• Aynı gen (FGFR3) farklı varyantlarla bir allelik seri oluşturur — "aynı gen → farklı hastalık" (Bölüm 15) bu mekanizmanın doğrudan sonucudur.</text>
+  <text x="95" y="492" font-size="11" fill="#444">• Bu yüzden varyant yorumunda spesifik allel ve onun fonksiyonel etkisi (biyofiziksel kanıt, PS3) belirleyicidir.</text>
+  <text x="872" y="500" text-anchor="end" font-size="9" fill="#999">Kaynak: Vajo ve ark. 2000</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 940 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="520" fill="#ffffff"/>
+  <text x="470" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 10 — Doz–Yanıt ve Eşik: Haploinsufficiency Neden Dominanttır?</text>
+  <text x="470" y="52" text-anchor="middle" font-size="12" fill="#555">Tek allel kaybı dozu %50'ye düşürür. Sonuç, genin "klinik eşiğinin" 50'nin altında mı üstünde mi olduğuna bağlıdır.</text>
+
+  <!-- axes -->
+  <line x1="110" y1="400" x2="870" y2="400" stroke="#333" stroke-width="2"/>
+  <line x1="110" y1="400" x2="110" y2="90" stroke="#333" stroke-width="2"/>
+  <text x="490" y="440" text-anchor="middle" font-size="13" font-weight="700" fill="#1a2b4a">İşlevsel gen dozu (% normal protein) →</text>
+  <text x="62" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#1a2b4a" transform="rotate(-90 62 245)">Hücresel / gelişimsel sonuç (normallik)</text>
+
+  <!-- x ticks -->
+  <text x="110" y="418" text-anchor="middle" font-size="11" fill="#c0392b">%0</text>
+  <text x="490" y="418" text-anchor="middle" font-size="11" fill="#e67e22">%50 (tek allel)</text>
+  <text x="870" y="418" text-anchor="end" font-size="11" fill="#27ae60">%100 (iki allel)</text>
+  <line x1="490" y1="400" x2="490" y2="95" stroke="#e67e22" stroke-width="1.3" stroke-dasharray="5 4"/>
+
+  <!-- buffered (recessive) curve: rises fast, plateau early -->
+  <path d="M110 395 C 200 150, 300 120, 490 115 C 650 112, 780 110, 870 110" fill="none" stroke="#27ae60" stroke-width="3.5"/>
+  <text x="640" y="100" font-size="12" font-weight="700" fill="#1e8449">Tamponlu gen (yüksek rezerv)</text>
+  <circle cx="490" cy="115" r="6" fill="#27ae60"/>
+  <text x="500" y="150" font-size="10" fill="#1e8449">%50'de hâlâ eşiğin üstünde → taşıyıcı SAĞLIKLI (resesif)</text>
+
+  <!-- dosage-sensitive (HI) curve: nearly linear -->
+  <path d="M110 398 C 300 320, 420 270, 490 235 C 650 150, 780 122, 870 115" fill="none" stroke="#c0392b" stroke-width="3.5"/>
+  <text x="150" y="300" font-size="12" font-weight="700" fill="#c0392b">Doz-duyarlı gen (düşük rezerv)</text>
+  <circle cx="490" cy="235" r="6" fill="#c0392b"/>
+  <text x="225" y="225" text-anchor="end" font-size="10" fill="#c0392b">%50'de eşiğin altına düşer → HASTALIK (dominant)</text>
+
+  <!-- threshold band -->
+  <line x1="110" y1="300" x2="870" y2="300" stroke="#2980b9" stroke-width="1.6" stroke-dasharray="7 4"/>
+  <text x="118" y="293" font-size="11" font-weight="700" fill="#2471a3">Klinik eşik (normal işlev için gereken asgari doz)</text>
+
+  <!-- shaded disease zone -->
+  <rect x="110" y="300" width="760" height="100" fill="#fdecea" opacity="0.55"/>
+  <text x="855" y="392" text-anchor="end" font-size="11" font-weight="700" fill="#c0392b">eşik-altı bölge = fenotip</text>
+
+  <!-- bottom takeaway -->
+  <rect x="110" y="462" width="760" height="42" rx="8" fill="#eef6fb" stroke="#2980b9"/>
+  <text x="125" y="481" font-size="11" font-weight="700" fill="#1a5276">Özet:</text>
+  <text x="125" y="497" font-size="11" fill="#444">Haploinsufficiency = genin eşiği %50 dozun ÜSTÜNDE olduğunda ortaya çıkar; aynı %50 kayıp tamponlu gende sessizdir. "Eşik" gene özgüdür.</text>
+</svg>

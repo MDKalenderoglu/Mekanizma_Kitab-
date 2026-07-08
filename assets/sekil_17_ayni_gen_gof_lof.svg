@@ -1,0 +1,63 @@
+<svg viewBox="0 0 900 478" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft17b" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker markerUnits="userSpaceOnUse" id="aR17b" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B91C1C"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aL17b" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2563EB"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="478" fill="#ffffff"/>
+
+  <!-- panel letters -->
+  <g font-size="13" font-weight="700" fill="#ffffff">
+    <rect x="16" y="92" width="23" height="23" rx="4" fill="#1A2B4A"/><text x="27.5" y="108" text-anchor="middle">A</text>
+    <rect x="16" y="232" width="23" height="23" rx="4" fill="#1A2B4A"/><text x="27.5" y="248" text-anchor="middle">B</text>
+  </g>
+
+  <!-- ===== ROW A : RET (yc=110) ===== -->
+  <rect x="52" y="80" width="176" height="60" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" filter="url(#soft17b)"/>
+  <text x="140" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Hirschsprung hastalığı</text>
+  <text x="140" y="124" text-anchor="middle" font-size="9.5" fill="#2456c9">gelişim defekti (gangliyon yok)</text>
+
+  <rect x="384" y="78" width="134" height="64" rx="32" fill="#F1F5F9" stroke="#64748B" stroke-width="1.8" filter="url(#soft17b)"/>
+  <text x="451" y="107" text-anchor="middle" font-size="18" font-weight="700" fill="#1A2B4A">RET</text>
+  <text x="451" y="125" text-anchor="middle" font-size="9" fill="#64748B">reseptör tirozin kinaz</text>
+
+  <rect x="674" y="80" width="176" height="60" rx="10" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5" filter="url(#soft17b)"/>
+  <text x="762" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">MEN2 — kanser sendromu</text>
+  <text x="762" y="124" text-anchor="middle" font-size="9" fill="#a02020">medüller tiroid Ca, feokromositoma</text>
+
+  <text x="306" y="96" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2563EB">LoF — işlev kaybı</text>
+  <line x1="380" y1="110" x2="234" y2="110" stroke="#2563EB" stroke-width="2.2" marker-end="url(#aL17b)"/>
+  <text x="596" y="96" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B91C1C">GoF — konstitütif aktivasyon</text>
+  <line x1="522" y1="110" x2="668" y2="110" stroke="#B91C1C" stroke-width="2.2" marker-end="url(#aR17b)"/>
+
+  <line x1="60" y1="180" x2="840" y2="180" stroke="#E2E8F0" stroke-width="1.4"/>
+
+  <!-- ===== ROW B : SCN2A (yc=250) ===== -->
+  <rect x="52" y="220" width="176" height="60" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" filter="url(#soft17b)"/>
+  <text x="140" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Geç başlangıç / otizm</text>
+  <text x="140" y="264" text-anchor="middle" font-size="9.5" fill="#2456c9">Na-kanal blokerinden kaçın</text>
+
+  <rect x="384" y="218" width="134" height="64" rx="32" fill="#F1F5F9" stroke="#64748B" stroke-width="1.8" filter="url(#soft17b)"/>
+  <text x="451" y="247" text-anchor="middle" font-size="16" font-weight="700" fill="#1A2B4A">SCN2A</text>
+  <text x="451" y="265" text-anchor="middle" font-size="9" fill="#64748B">nöron Na⁺ kanalı (NaV1.2)</text>
+
+  <rect x="674" y="220" width="176" height="60" rx="10" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5" filter="url(#soft17b)"/>
+  <text x="762" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">Erken (&lt;3 ay) epilepsi</text>
+  <text x="762" y="264" text-anchor="middle" font-size="9" fill="#a02020">Na-kanal blokerine iyi yanıt</text>
+
+  <text x="306" y="236" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2563EB">LoF — kanal akımı azalır</text>
+  <line x1="380" y1="250" x2="234" y2="250" stroke="#2563EB" stroke-width="2.2" marker-end="url(#aL17b)"/>
+  <text x="596" y="236" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B91C1C">GoF — kanal aşırı akım</text>
+  <line x1="522" y1="250" x2="668" y2="250" stroke="#B91C1C" stroke-width="2.2" marker-end="url(#aR17b)"/>
+
+  <!-- ===== insight box ===== -->
+  <rect x="60" y="312" width="780" height="108" rx="12" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6" filter="url(#soft17b)"/>
+  <text x="450" y="340" text-anchor="middle" font-size="14" font-weight="700" fill="#B45309">Klinik sonuç: yön = tedavi yönü</text>
+  <text x="450" y="366" text-anchor="middle" font-size="12" fill="#2E3440">Aynı genin GoF ve LoF varyantları zıt yönde işlev değişikliği yapar → zıt fenotip ve zıt tedavi.</text>
+  <text x="450" y="388" text-anchor="middle" font-size="12" fill="#2E3440">SCN2A'da GoF için Na-kanal blokeri yararlı; LoF için aynı ilaç zararlı olabilir.</text>
+  <text x="450" y="409" text-anchor="middle" font-size="10.5" font-style="italic" fill="#92742a">Rapor yalnız "patojen" dememeli; varyantın yönünü (GoF/LoF) belirtmelidir.</text>
+
+  <text x="450" y="448" text-anchor="middle" font-size="10" fill="#64748B">Kaynaklar: RET — Edery ve ark. (1997); SCN2A — Berecki ve ark. (2018), Brunklaus ve ark. (2020)</text>
+</svg>

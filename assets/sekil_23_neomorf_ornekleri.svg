@@ -1,0 +1,89 @@
+<svg viewBox="0 0 920 480" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft23" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker markerUnits="userSpaceOnUse" id="aB23" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2563EB"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aA23" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#D97706"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aR23" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B91C1C"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="480" fill="#ffffff"/>
+  <text x="460" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">Neomorfik mekanizma iki örnekte: yeni metabolit (IDH) ve yeni inhibisyon (H3K27M)</text>
+
+  <!-- PANEL A : IDH -->
+  <rect x="24" y="44" width="424" height="392" rx="13" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.5"/>
+  <rect x="36" y="56" width="22" height="22" rx="4" fill="#1A2B4A"/><text x="47" y="72" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">A</text>
+  <text x="236" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#B45309">IDH1/IDH2 — yeni metabolit kazanımı</text>
+
+  <!-- normal reaction -->
+  <text x="56" y="104" font-size="10.5" font-weight="700" fill="#1D4ED8">NORMAL</text>
+  <rect x="56" y="112" width="110" height="34" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="111" y="133" text-anchor="middle" font-size="10" fill="#1D4ED8">isositrat</text>
+  <line x1="170" y1="129" x2="248" y2="129" stroke="#2563EB" stroke-width="2" marker-end="url(#aB23)"/>
+  <text x="209" y="122" text-anchor="middle" font-size="8.5" fill="#475569">IDH (yabanıl)</text>
+  <rect x="252" y="112" width="150" height="34" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="327" y="133" text-anchor="middle" font-size="10" fill="#1D4ED8">α-ketoglutarat (α-KG)</text>
+
+  <line x1="236" y1="156" x2="236" y2="178" stroke="#94A3B8" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <!-- mutant reaction -->
+  <text x="56" y="196" font-size="10.5" font-weight="700" fill="#B45309">VARYANT (R132H / R172)</text>
+  <rect x="56" y="204" width="150" height="34" rx="7" fill="#FEF3C7" stroke="#D97706" stroke-width="1.3"/>
+  <text x="131" y="225" text-anchor="middle" font-size="10" fill="#B45309">α-KG</text>
+  <line x1="210" y1="221" x2="252" y2="221" stroke="#D97706" stroke-width="2.4" marker-end="url(#aA23)"/>
+  <text x="231" y="214" text-anchor="middle" font-size="8" fill="#92742a">mutant IDH</text>
+  <rect x="256" y="204" width="146" height="34" rx="7" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="329" y="220" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B45309">2-HG</text>
+  <text x="329" y="232" text-anchor="middle" font-size="8" fill="#92742a">(onkometabolit)</text>
+
+  <line x1="329" y1="240" x2="329" y2="262" stroke="#D97706" stroke-width="2" marker-end="url(#aA23)"/>
+  <rect x="64" y="268" width="344" height="56" rx="9" fill="#ffffff" stroke="#D97706" stroke-width="1.4"/>
+  <text x="236" y="289" text-anchor="middle" font-size="10" fill="#2E3440">2-HG, α-KG bağımlı enzimleri (TET, demetilaz)</text>
+  <text x="236" y="305" text-anchor="middle" font-size="10" fill="#2E3440">inhibe eder → epigenetik bozulma</text>
+  <text x="236" y="318" text-anchor="middle" font-size="9" font-style="italic" fill="#92742a">"normalde olmayan" yeni bir reaksiyon</text>
+
+  <rect x="64" y="338" width="344" height="78" rx="9" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="80" y="360" font-size="10" font-weight="700" fill="#1A2B4A">Klinik</text>
+  <text x="80" y="378" font-size="9.5" fill="#2E3440">• Gliomlar, AML (somatik)</text>
+  <text x="80" y="394" font-size="9.5" fill="#2E3440">• Ollier hastalığı / Maffucci sendromu</text>
+  <text x="92" y="409" font-size="9" font-style="italic" fill="#64748B">(post-zigotik mozaik IDH; bkz. Bölüm 12)</text>
+
+  <!-- PANEL B : H3K27M -->
+  <rect x="472" y="44" width="424" height="392" rx="13" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.5"/>
+  <rect x="484" y="56" width="22" height="22" rx="4" fill="#1A2B4A"/><text x="495" y="72" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">B</text>
+  <text x="684" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#B45309">Histon H3 K27M — yeni inhibisyon kazanımı</text>
+
+  <!-- normal -->
+  <text x="504" y="104" font-size="10.5" font-weight="700" fill="#1D4ED8">NORMAL</text>
+  <circle cx="540" cy="138" r="16" fill="#2563EB"/><text x="540" y="142" text-anchor="middle" font-size="8.5" fill="#fff">EZH2</text>
+  <text x="540" y="166" text-anchor="middle" font-size="8" fill="#64748B">(PRC2)</text>
+  <line x1="558" y1="138" x2="612" y2="138" stroke="#2563EB" stroke-width="2" marker-end="url(#aB23)"/>
+  <text x="585" y="131" text-anchor="middle" font-size="8" fill="#475569">metiller</text>
+  <rect x="616" y="120" width="180" height="36" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="706" y="136" text-anchor="middle" font-size="9.5" fill="#1D4ED8">H3K27me3</text>
+  <text x="706" y="149" text-anchor="middle" font-size="8" fill="#2456c9">gen baskılanması (normal)</text>
+
+  <line x1="684" y1="172" x2="684" y2="194" stroke="#94A3B8" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <!-- mutant -->
+  <text x="504" y="210" font-size="10.5" font-weight="700" fill="#B45309">VARYANT (H3 K27M)</text>
+  <rect x="500" y="222" width="126" height="38" rx="7" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <text x="563" y="239" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B45309">K27M histon</text>
+  <text x="563" y="252" text-anchor="middle" font-size="8" fill="#92742a">(Lys→Met)</text>
+  <text x="681" y="232" text-anchor="middle" font-size="8.5" fill="#a02020">inhibe eder</text>
+  <line x1="632" y1="241" x2="708" y2="241" stroke="#B91C1C" stroke-width="2.4" marker-end="url(#aR23)"/>
+  <circle cx="746" cy="241" r="16" fill="#2563EB"/><text x="746" y="245" text-anchor="middle" font-size="8.5" fill="#fff">EZH2</text>
+  <path d="M732,227 l28,28 M760,227 l-28,28" stroke="#B91C1C" stroke-width="2"/>
+
+  <line x1="746" y1="261" x2="746" y2="282" stroke="#D97706" stroke-width="2" marker-end="url(#aA23)"/>
+  <rect x="512" y="286" width="344" height="56" rx="9" fill="#ffffff" stroke="#D97706" stroke-width="1.4"/>
+  <text x="684" y="307" text-anchor="middle" font-size="10" fill="#2E3440">global H3K27me3 KAYBI → uygunsuz gen</text>
+  <text x="684" y="323" text-anchor="middle" font-size="10" fill="#2E3440">aktivasyonu (epigenetik yeniden programlama)</text>
+  <text x="684" y="336" text-anchor="middle" font-size="9" font-style="italic" fill="#92742a">tek varyant histon, enzimi yeni şekilde durdurur</text>
+
+  <rect x="512" y="356" width="344" height="60" rx="9" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="528" y="378" font-size="10" font-weight="700" fill="#1A2B4A">Klinik</text>
+  <text x="528" y="396" font-size="9.5" fill="#2E3440">• Diffüz orta hat gliomu / DIPG (pediatrik)</text>
+  <text x="528" y="411" font-size="9" font-style="italic" fill="#64748B">onkohiston; çocukluk çağı beyin tümörü</text>
+
+  <!-- footer -->
+  <text x="460" y="462" text-anchor="middle" font-size="11" fill="#2E3440">Öğreti: neomorf, ürünün <tspan font-weight="700" fill="#B45309">normalde yapmadığı</tspan> bir iş yapmasıdır — yeni metabolit üretmek (IDH→2-HG) ya da bir enzimi yeni biçimde inhibe etmek (H3K27M→EZH2).</text>
+</svg>

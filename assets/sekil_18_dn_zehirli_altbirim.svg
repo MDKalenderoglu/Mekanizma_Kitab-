@@ -1,0 +1,88 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft18" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker markerUnits="userSpaceOnUse" id="aB18" markerWidth="12" markerHeight="12" refX="5" refY="9" orient="auto"><path d="M0,0 L10,0 L5,10 Z" fill="#2563EB"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aR18" markerWidth="12" markerHeight="12" refX="5" refY="9" orient="auto"><path d="M0,0 L10,0 L5,10 Z" fill="#B91C1C"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aS18" markerWidth="12" markerHeight="12" refX="5" refY="9" orient="auto"><path d="M0,0 L10,0 L5,10 Z" fill="#64748B"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+
+  <!-- ===== LEFT PANEL : NORMAL ===== -->
+  <rect x="24" y="40" width="408" height="398" rx="13" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="36" y="52" width="22" height="22" rx="4" fill="#1A2B4A"/><text x="47" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">A</text>
+  <text x="234" y="68" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">NORMAL — iki sağlam allel</text>
+
+  <!-- alleles -->
+  <rect x="50" y="92" width="166" height="32" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="133" y="113" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1D4ED8">Allel 1 (sağlam)</text>
+  <rect x="240" y="92" width="166" height="32" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="323" y="113" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1D4ED8">Allel 2 (sağlam)</text>
+
+  <!-- arrows to subunits -->
+  <line x1="133" y1="128" x2="133" y2="158" stroke="#2563EB" stroke-width="2" marker-end="url(#aB18)"/>
+  <line x1="323" y1="128" x2="323" y2="158" stroke="#2563EB" stroke-width="2" marker-end="url(#aB18)"/>
+
+  <!-- subunits -->
+  <circle cx="133" cy="184" r="19" fill="#2563EB"/>
+  <circle cx="323" cy="184" r="19" fill="#2563EB"/>
+  <text x="228" y="222" text-anchor="middle" font-size="10.5" fill="#475569">her allel sağlam alt birim üretir</text>
+
+  <!-- assembly arrows -->
+  <line x1="150" y1="196" x2="206" y2="262" stroke="#64748B" stroke-width="1.8" marker-end="url(#aS18)"/>
+  <line x1="306" y1="196" x2="250" y2="262" stroke="#64748B" stroke-width="1.8" marker-end="url(#aS18)"/>
+
+  <!-- complex -->
+  <rect x="150" y="272" width="156" height="58" rx="10" fill="#ffffff" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="210" cy="301" r="15" fill="#2563EB"/>
+  <circle cx="246" cy="301" r="15" fill="#2563EB"/>
+  <text x="228" y="346" text-anchor="middle" font-size="10" fill="#475569">kompleks: sağlam + sağlam</text>
+
+  <!-- result -->
+  <rect x="64" y="372" width="328" height="50" rx="9" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="228" y="392" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1D4ED8">İşlevsel kompleks ✓</text>
+  <text x="228" y="410" text-anchor="middle" font-size="10" fill="#2456c9">tüm kompleksler çalışır</text>
+
+  <!-- ===== RIGHT PANEL : DOMINANT-NEGATIVE ===== -->
+  <rect x="468" y="40" width="408" height="398" rx="13" fill="#FEF6F5" stroke="#F2C9C4" stroke-width="1.5"/>
+  <rect x="480" y="52" width="22" height="22" rx="4" fill="#1A2B4A"/><text x="491" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">B</text>
+  <text x="678" y="68" text-anchor="middle" font-size="14" font-weight="700" fill="#B91C1C">DOMİNANT-NEGATİF — bir varyant allel</text>
+
+  <!-- alleles -->
+  <rect x="494" y="92" width="166" height="32" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="577" y="113" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1D4ED8">Allel 1 (sağlam)</text>
+  <rect x="684" y="92" width="166" height="32" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.4"/>
+  <text x="767" y="113" text-anchor="middle" font-size="11.5" font-weight="700" fill="#B91C1C">★ Allel 2 (VARYANT)</text>
+
+  <!-- arrows to subunits -->
+  <line x1="577" y1="128" x2="577" y2="158" stroke="#2563EB" stroke-width="2" marker-end="url(#aB18)"/>
+  <line x1="767" y1="128" x2="767" y2="158" stroke="#B91C1C" stroke-width="2" marker-end="url(#aR18)"/>
+
+  <!-- subunits -->
+  <circle cx="577" cy="184" r="19" fill="#2563EB"/>
+  <circle cx="767" cy="184" r="19" fill="#B91C1C"/>
+  <g transform="translate(767,184)"><polygon points="0,-8 2,-2.6 7.6,-2.5 3,1 4.7,6.5 0,3.2 -4.7,6.5 -3,1 -7.6,-2.5 -2,-2.6" fill="#FCD34D" stroke="#92400E" stroke-width="0.8"/></g>
+  <text x="672" y="222" text-anchor="middle" font-size="10.5" font-weight="600" fill="#a02020">varyant alt birim de ÜRETİLİR ve komplekse KATILIR</text>
+
+  <!-- assembly arrows -->
+  <line x1="594" y1="196" x2="650" y2="262" stroke="#64748B" stroke-width="1.8" marker-end="url(#aS18)"/>
+  <line x1="750" y1="196" x2="694" y2="262" stroke="#B91C1C" stroke-width="1.8" marker-end="url(#aR18)"/>
+
+  <!-- complex (poisoned) -->
+  <rect x="594" y="272" width="156" height="58" rx="10" fill="#ffffff" stroke="#B91C1C" stroke-width="1.6"/>
+  <circle cx="654" cy="301" r="15" fill="#2563EB"/>
+  <circle cx="690" cy="301" r="15" fill="#B91C1C"/>
+  <g transform="translate(690,301)"><polygon points="0,-7 1.8,-2.3 6.7,-2.2 2.6,0.9 4.1,5.7 0,2.8 -4.1,5.7 -2.6,0.9 -6.7,-2.2 -1.8,-2.3" fill="#FCD34D" stroke="#92400E" stroke-width="0.7"/></g>
+  <path d="M672,286 l-5,8 l8,-3 l-6,9" fill="none" stroke="#B91C1C" stroke-width="1.8"/>
+  <text x="672" y="346" text-anchor="middle" font-size="10" fill="#a02020">varyant alt birim kompleksi bozar</text>
+
+  <!-- result -->
+  <rect x="508" y="372" width="328" height="50" rx="9" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.6"/>
+  <text x="672" y="392" text-anchor="middle" font-size="12.5" font-weight="700" fill="#B91C1C">Kompleks zehirlenir ✗</text>
+  <text x="672" y="410" text-anchor="middle" font-size="10" fill="#a02020">tek varyant alt birim tüm kompleksi devre dışı bırakır</text>
+
+  <!-- footer teaching -->
+  <text x="450" y="462" text-anchor="middle" font-size="11.5" fill="#2E3440">Öğreti: DN'de varyant ürün üretilmeli ve sağlam ürünle etkileşmelidir — sonra onu da içine alıp "zehirler".</text>
+  <text x="450" y="482" text-anchor="middle" font-size="11" font-weight="600" fill="#B45309">Bu yüzden tek varyant allel %50'den çok daha fazla işlev kaybına yol açar (→ Şekil 19).</text>
+</svg>

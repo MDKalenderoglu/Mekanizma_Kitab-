@@ -1,0 +1,99 @@
+<svg viewBox="0 0 980 560" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="560" fill="#ffffff"/>
+  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 4 — Temel Kalıtım Kalıpları (Soyağacı / Pedigri Örnekleri)</text>
+
+  <!-- divider lines -->
+  <line x1="490" y1="50" x2="490" y2="470" stroke="#eee" stroke-width="2"/>
+  <line x1="40" y1="260" x2="940" y2="260" stroke="#eee" stroke-width="2"/>
+
+  <!-- ============ PANEL 1: OTOZOMAL DOMINANT (top-left) ============ -->
+  <text x="245" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">Otozomal Dominant (OD)</text>
+  <!-- Gen I -->
+  <rect x="198" y="88" width="24" height="24" fill="#34495e"/>            <!-- I:1 affected male -->
+  <circle cx="292" cy="100" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/> <!-- I:2 unaff female -->
+  <line x1="222" y1="100" x2="280" y2="100" stroke="#34495e" stroke-width="2"/>
+  <line x1="251" y1="100" x2="251" y2="125" stroke="#34495e" stroke-width="2"/>
+  <line x1="205" y1="125" x2="305" y2="125" stroke="#34495e" stroke-width="2"/>
+  <!-- Gen II -->
+  <line x1="205" y1="125" x2="205" y2="143" stroke="#34495e" stroke-width="2"/>
+  <rect x="193" y="143" width="24" height="24" fill="#34495e"/>           <!-- II:1 affected male -->
+  <line x1="255" y1="125" x2="255" y2="143" stroke="#34495e" stroke-width="2"/>
+  <circle cx="255" cy="155" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/> <!-- II:2 unaff female -->
+  <line x1="305" y1="125" x2="305" y2="143" stroke="#34495e" stroke-width="2"/>
+  <circle cx="305" cy="155" r="12" fill="#34495e" stroke="#34495e" stroke-width="2"/> <!-- II:3 affected female -->
+  <text x="245" y="205" text-anchor="middle" font-size="11" fill="#444">Her kuşakta etkilenen birey (dikey geçiş)</text>
+  <text x="245" y="222" text-anchor="middle" font-size="11" fill="#444">Erkek ve kadın eşit; etkilenen → ~%50 çocuk</text>
+  <text x="245" y="239" text-anchor="middle" font-size="10" font-style="italic" fill="#777">Örn: NF1, Marfan, akondroplazi</text>
+
+  <!-- ============ PANEL 2: OTOZOMAL RESESIF (top-right) ============ -->
+  <text x="730" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">Otozomal Resesif (OR)</text>
+  <!-- Gen I: two carriers -->
+  <rect x="683" y="88" width="24" height="24" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="695" cy="100" r="5" fill="#34495e"/>                        <!-- carrier dot male -->
+  <circle cx="777" cy="100" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="777" cy="100" r="4.5" fill="#34495e"/>                      <!-- carrier dot female -->
+  <line x1="707" y1="100" x2="765" y2="100" stroke="#34495e" stroke-width="2"/>
+  <line x1="736" y1="100" x2="736" y2="125" stroke="#34495e" stroke-width="2"/>
+  <line x1="690" y1="125" x2="790" y2="125" stroke="#34495e" stroke-width="2"/>
+  <!-- Gen II -->
+  <line x1="690" y1="125" x2="690" y2="143" stroke="#34495e" stroke-width="2"/>
+  <rect x="678" y="143" width="24" height="24" fill="#34495e"/>          <!-- II:1 affected male -->
+  <line x1="740" y1="125" x2="740" y2="143" stroke="#34495e" stroke-width="2"/>
+  <circle cx="740" cy="155" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="740" cy="155" r="4.5" fill="#34495e"/>                      <!-- II:2 carrier -->
+  <line x1="790" y1="125" x2="790" y2="143" stroke="#34495e" stroke-width="2"/>
+  <circle cx="790" cy="155" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/> <!-- II:3 unaffected -->
+  <text x="730" y="205" text-anchor="middle" font-size="11" fill="#444">Sağlıklı taşıyıcı ebeveynlerden etkilenen çocuk</text>
+  <text x="730" y="222" text-anchor="middle" font-size="11" fill="#444">Yatay desen; akrabalık riski artırır (~%25)</text>
+  <text x="730" y="239" text-anchor="middle" font-size="10" font-style="italic" fill="#777">Örn: kistik fibroz, PKU, SMA</text>
+
+  <!-- ============ PANEL 3: X'E BAGLI RESESIF (bottom-left) ============ -->
+  <text x="245" y="290" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">X'e Bağlı Resesif (XLR)</text>
+  <!-- Gen I: unaffected male x carrier female -->
+  <rect x="198" y="308" width="24" height="24" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="292" cy="320" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="292" cy="320" r="4.5" fill="#34495e"/>                      <!-- carrier mother -->
+  <line x1="222" y1="320" x2="280" y2="320" stroke="#34495e" stroke-width="2"/>
+  <line x1="251" y1="320" x2="251" y2="345" stroke="#34495e" stroke-width="2"/>
+  <line x1="200" y1="345" x2="305" y2="345" stroke="#34495e" stroke-width="2"/>
+  <!-- Gen II -->
+  <line x1="200" y1="345" x2="200" y2="363" stroke="#34495e" stroke-width="2"/>
+  <rect x="188" y="363" width="24" height="24" fill="#34495e"/>          <!-- affected son -->
+  <line x1="251" y1="345" x2="251" y2="363" stroke="#34495e" stroke-width="2"/>
+  <circle cx="251" cy="375" r="12" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="251" cy="375" r="4.5" fill="#34495e"/>                      <!-- carrier daughter -->
+  <line x1="305" y1="345" x2="305" y2="363" stroke="#34495e" stroke-width="2"/>
+  <rect x="293" y="363" width="24" height="24" fill="#fff" stroke="#34495e" stroke-width="2"/> <!-- unaff son -->
+  <text x="245" y="425" text-anchor="middle" font-size="11" fill="#444">Çoğunlukla erkekler etkilenir (hemizigot)</text>
+  <text x="245" y="442" text-anchor="middle" font-size="11" fill="#444">Erkekten erkeğe geçiş YOK; kadın taşıyıcı</text>
+  <text x="245" y="459" text-anchor="middle" font-size="10" font-style="italic" fill="#777">Örn: DMD, hemofili A, frajil X (özellik)</text>
+
+  <!-- ============ PANEL 4: MITOKONDRIYAL (bottom-right) ============ -->
+  <text x="730" y="290" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">Mitokondriyal (Maternal)</text>
+  <!-- affected mother x unaffected father -->
+  <rect x="683" y="308" width="24" height="24" fill="#fff" stroke="#34495e" stroke-width="2"/>
+  <circle cx="777" cy="320" r="12" fill="#c0392b" stroke="#34495e" stroke-width="2"/> <!-- affected mother -->
+  <line x1="707" y1="320" x2="765" y2="320" stroke="#34495e" stroke-width="2"/>
+  <line x1="736" y1="320" x2="736" y2="345" stroke="#34495e" stroke-width="2"/>
+  <line x1="690" y1="345" x2="790" y2="345" stroke="#34495e" stroke-width="2"/>
+  <!-- all children affected -->
+  <line x1="690" y1="345" x2="690" y2="363" stroke="#34495e" stroke-width="2"/>
+  <rect x="678" y="363" width="24" height="24" fill="#c0392b" stroke="#34495e" stroke-width="2"/>
+  <line x1="740" y1="345" x2="740" y2="363" stroke="#34495e" stroke-width="2"/>
+  <circle cx="740" cy="375" r="12" fill="#c0392b" stroke="#34495e" stroke-width="2"/>
+  <line x1="790" y1="345" x2="790" y2="363" stroke="#34495e" stroke-width="2"/>
+  <rect x="778" y="363" width="24" height="24" fill="#c0392b" stroke="#34495e" stroke-width="2"/>
+  <text x="730" y="425" text-anchor="middle" font-size="11" fill="#444">Etkilenen ANNE → tüm çocuklara geçer</text>
+  <text x="730" y="442" text-anchor="middle" font-size="11" fill="#444">Etkilenen baba → hiçbir çocuğa geçmez</text>
+  <text x="730" y="459" text-anchor="middle" font-size="10" font-style="italic" fill="#777">Örn: MELAS, LHON (heteroplazmi → Bölüm 11)</text>
+
+  <!-- ============ LEGEND ============ -->
+  <rect x="40" y="490" width="900" height="55" rx="8" fill="#f7f9fb" stroke="#dde3ea"/>
+  <text x="55" y="510" font-size="12" font-weight="700" fill="#1a2b4a">Simgeler:</text>
+  <rect x="130" y="500" width="18" height="18" fill="#fff" stroke="#34495e" stroke-width="2"/><text x="155" y="514" font-size="11" fill="#444">Sağlıklı erkek</text>
+  <circle cx="248" cy="509" r="9" fill="#fff" stroke="#34495e" stroke-width="2"/><text x="262" y="514" font-size="11" fill="#444">Sağlıklı kadın</text>
+  <rect x="360" y="500" width="18" height="18" fill="#34495e"/><text x="385" y="514" font-size="11" fill="#444">Etkilenen (otozomal)</text>
+  <circle cx="525" cy="509" r="9" fill="#fff" stroke="#34495e" stroke-width="2"/><circle cx="525" cy="509" r="3.5" fill="#34495e"/><text x="540" y="514" font-size="11" fill="#444">Taşıyıcı</text>
+  <circle cx="640" cy="509" r="9" fill="#c0392b" stroke="#34495e" stroke-width="2"/><text x="655" y="514" font-size="11" fill="#444">Etkilenen (mitokondriyal)</text>
+  <text x="55" y="535" font-size="10" font-style="italic" fill="#777">Not: Pedigri yorumu olasılıksaldır; eksik penetrans, de novo varyant, mozaiklik ve küçük aile boyutu kalıbı maskeleyebilir.</text>
+</svg>

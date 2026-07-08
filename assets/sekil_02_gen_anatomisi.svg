@@ -1,0 +1,77 @@
+<svg viewBox="0 0 980 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="520" fill="#ffffff"/>
+  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 2 — Gen Anatomisi: DNA → Transkript → Protein</text>
+
+  <!-- 1. DNA / GEN duzeyi -->
+  <text x="20" y="78" font-size="13" font-weight="700" fill="#1a2b4a">1) DNA (gen ve düzenleyici bölgeler)</text>
+  <!-- enhancer -->
+  <rect x="40" y="92" width="70" height="26" rx="5" fill="#e67e22"/>
+  <text x="75" y="110" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">Enhancer</text>
+  <!-- gap line -->
+  <line x1="110" y1="105" x2="150" y2="105" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- promoter -->
+  <polygon points="150,118 150,92 178,105" fill="#16a085"/>
+  <text x="164" y="138" text-anchor="middle" font-size="10" fill="#16a085">Promoter</text>
+  <!-- gene body: 5'UTR exon intron exon intron exon 3'UTR -->
+  <rect x="180" y="92" width="28" height="26" fill="#95a5a6"/>
+  <text x="194" y="86" text-anchor="middle" font-size="9" fill="#555">5'UTR</text>
+  <rect x="208" y="92" width="60" height="26" fill="#2980b9"/>
+  <rect x="268" y="100" width="55" height="10" fill="#d0d0d0"/>
+  <rect x="323" y="92" width="70" height="26" fill="#2980b9"/>
+  <rect x="393" y="100" width="55" height="10" fill="#d0d0d0"/>
+  <rect x="448" y="92" width="60" height="26" fill="#2980b9"/>
+  <rect x="508" y="92" width="30" height="26" fill="#95a5a6"/>
+  <text x="523" y="86" text-anchor="middle" font-size="9" fill="#555">3'UTR</text>
+  <!-- labels exon/intron -->
+  <text x="238" y="138" text-anchor="middle" font-size="10" fill="#2980b9">Ekzon 1</text>
+  <text x="295" y="138" text-anchor="middle" font-size="10" fill="#999">İntron</text>
+  <text x="358" y="138" text-anchor="middle" font-size="10" fill="#2980b9">Ekzon 2</text>
+  <text x="420" y="138" text-anchor="middle" font-size="10" fill="#999">İntron</text>
+  <text x="478" y="138" text-anchor="middle" font-size="10" fill="#2980b9">Ekzon 3</text>
+  <text x="700" y="108" font-size="11" fill="#e67e22">Enhancer uzaktan ilmekle promotere temas eder</text>
+  <path d="M75 92 Q400 40 560 92" stroke="#e67e22" stroke-width="1.4" fill="none" stroke-dasharray="3 3"/>
+
+  <text x="60" y="175" font-size="22" fill="#888">↓</text>
+  <text x="80" y="172" font-size="12" fill="#666" font-style="italic">Transkripsiyon (pre-mRNA üretimi)</text>
+
+  <!-- 2. pre-mRNA -->
+  <text x="20" y="208" font-size="13" font-weight="700" fill="#1a2b4a">2) pre-mRNA (henüz intronlu)</text>
+  <rect x="180" y="220" width="28" height="22" fill="#95a5a6"/>
+  <rect x="208" y="220" width="60" height="22" fill="#2980b9"/>
+  <rect x="268" y="225" width="55" height="12" fill="#f1c40f"/>
+  <rect x="323" y="220" width="70" height="22" fill="#2980b9"/>
+  <rect x="393" y="225" width="55" height="12" fill="#f1c40f"/>
+  <rect x="448" y="220" width="60" height="22" fill="#2980b9"/>
+  <rect x="508" y="220" width="30" height="22" fill="#95a5a6"/>
+  <text x="295" y="216" text-anchor="middle" font-size="9" fill="#b8860b">intron</text>
+
+  <text x="60" y="278" font-size="22" fill="#888">↓</text>
+  <text x="80" y="275" font-size="12" fill="#666" font-style="italic">Splicing (intronlar çıkarılır, ekzonlar birleşir) — alternatif splicing farklı izoformlar üretebilir</text>
+
+  <!-- 3. olgun mRNA -->
+  <text x="20" y="312" font-size="13" font-weight="700" fill="#1a2b4a">3) Olgun mRNA</text>
+  <rect x="200" y="324" width="28" height="22" fill="#95a5a6"/>
+  <rect x="228" y="324" width="60" height="22" fill="#2980b9"/>
+  <rect x="288" y="324" width="70" height="22" fill="#2980b9"/>
+  <rect x="358" y="324" width="60" height="22" fill="#2980b9"/>
+  <rect x="418" y="324" width="30" height="22" fill="#95a5a6"/>
+  <text x="214" y="362" text-anchor="middle" font-size="9" fill="#555">5'UTR</text>
+  <text x="318" y="362" text-anchor="middle" font-size="10" fill="#2980b9">kodlayan bölge (ekzonlar bitişik)</text>
+  <text x="433" y="362" text-anchor="middle" font-size="9" fill="#555">3'UTR</text>
+
+  <text x="60" y="398" font-size="22" fill="#888">↓</text>
+  <text x="80" y="395" font-size="12" fill="#666" font-style="italic">Translasyon (kodonlar → aminoasitler; AUG başlangıç, stop kodonu bitiş)</text>
+
+  <!-- 4. protein with domains -->
+  <text x="20" y="432" font-size="13" font-weight="700" fill="#1a2b4a">4) Protein (katlanır, domain ve motiflerle işlev kazanır)</text>
+  <rect x="200" y="446" width="250" height="28" rx="14" fill="#dfe6e9" stroke="#b2bec3"/>
+  <rect x="220" y="446" width="80" height="28" rx="6" fill="#8e44ad"/>
+  <text x="260" y="465" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">Domain A</text>
+  <rect x="330" y="446" width="90" height="28" rx="6" fill="#c0392b"/>
+  <text x="372" y="465" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">Domain B</text>
+  <circle cx="410" cy="460" r="4" fill="#f1c40f" stroke="#7f5300"/>
+  <text x="470" y="455" font-size="10" fill="#7f5300">● Fonksiyonel motif (ör. aktif bölge)</text>
+  <text x="470" y="472" font-size="10" fill="#2d3436">N-ucu (sol) → C-ucu (sağ)</text>
+
+  <text x="490" y="505" text-anchor="middle" font-size="11" fill="#777" font-style="italic">Bir varyantın "nereye düştüğü" (UTR, ekzon, intron, hangi domain) etkisinin yönünü ve şiddetini belirler.</text>
+</svg>

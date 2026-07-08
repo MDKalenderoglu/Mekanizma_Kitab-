@@ -1,0 +1,51 @@
+<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft32" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker markerUnits="userSpaceOnUse" id="aA32" markerWidth="12" markerHeight="12" refX="6" refY="10" orient="auto"><path d="M0,0 L12,0 L6,11 Z" fill="#D97706"/></marker>
+    <marker markerUnits="userSpaceOnUse" id="aR32" markerWidth="12" markerHeight="12" refX="6" refY="10" orient="auto"><path d="M0,0 L12,0 L6,11 Z" fill="#B91C1C"/></marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">FMR1 (CGG): aynı gen, tekrar boyutuna göre iki farklı mekanizma</text>
+
+  <!-- top: locus -->
+  <rect x="350" y="52" width="200" height="44" rx="9" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6" filter="url(#soft32)"/>
+  <text x="450" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B4A">FMR1 (5′UTR CGG)</text>
+  <text x="450" y="88" text-anchor="middle" font-size="8.5" fill="#64748B">FMRP → sinaptik protein sentezi</text>
+
+  <!-- split arrows -->
+  <line x1="410" y1="100" x2="270" y2="146" stroke="#D97706" stroke-width="2.4" marker-end="url(#aA32)"/>
+  <line x1="490" y1="100" x2="630" y2="146" stroke="#B91C1C" stroke-width="2.4" marker-end="url(#aR32)"/>
+
+  <!-- LEFT : premutation -->
+  <rect x="40" y="150" width="380" height="240" rx="13" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.5"/>
+  <text x="230" y="174" text-anchor="middle" font-size="12.5" font-weight="700" fill="#B45309">PREMUTASYON (~55–200 CGG)</text>
+  <text x="230" y="196" text-anchor="middle" font-size="10" fill="#2E3440">gen hâlâ AÇIK — hatta mRNA ↑</text>
+  <rect x="80" y="210" width="300" height="34" rx="7" fill="#FEF3C7" stroke="#D97706" stroke-width="1.3"/>
+  <text x="230" y="231" text-anchor="middle" font-size="10" font-weight="600" fill="#B45309">aşırı CGG'li mRNA → toksik RNA</text>
+  <line x1="230" y1="248" x2="230" y2="270" stroke="#D97706" stroke-width="2" marker-end="url(#aA32)"/>
+  <rect x="80" y="276" width="300" height="34" rx="7" fill="#FEF3C7" stroke="#D97706" stroke-width="1.3"/>
+  <text x="230" y="297" text-anchor="middle" font-size="10" fill="#92742a">proteinleri tuzaklar (RNA toksisitesi)</text>
+  <rect x="80" y="326" width="300" height="48" rx="8" fill="#ffffff" stroke="#D97706" stroke-width="1.5"/>
+  <text x="230" y="347" text-anchor="middle" font-size="11" font-weight="700" fill="#B45309">FXTAS (tremor/ataksi) · FXPOI</text>
+  <text x="230" y="364" text-anchor="middle" font-size="9" fill="#92742a">geç başlangıç; mekanizma = RNA kazanımı</text>
+
+  <!-- RIGHT : full mutation -->
+  <rect x="480" y="150" width="380" height="240" rx="13" fill="#FEF6F5" stroke="#F2C9C4" stroke-width="1.5"/>
+  <text x="670" y="174" text-anchor="middle" font-size="12.5" font-weight="700" fill="#B91C1C">TAM MUTASYON (&gt;200 CGG)</text>
+  <text x="670" y="196" text-anchor="middle" font-size="10" fill="#2E3440">CpG adası hipermetillenir</text>
+  <rect x="520" y="210" width="300" height="34" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.3"/>
+  <text x="670" y="231" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">kromatin kapanır → FMR1 SUSAR</text>
+  <line x1="670" y1="248" x2="670" y2="270" stroke="#B91C1C" stroke-width="2" marker-end="url(#aR32)"/>
+  <rect x="520" y="276" width="300" height="34" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.3"/>
+  <text x="670" y="297" text-anchor="middle" font-size="10" fill="#a02020">FMRP üretilmez (işlev kaybı)</text>
+  <rect x="520" y="326" width="300" height="48" rx="8" fill="#ffffff" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="670" y="347" text-anchor="middle" font-size="11" font-weight="700" fill="#B91C1C">Frajil X sendromu</text>
+  <text x="670" y="364" text-anchor="middle" font-size="9" fill="#a02020">ID/otizm; mekanizma = LoF (susturma)</text>
+
+  <!-- footer -->
+  <rect x="120" y="404" width="660" height="56" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="450" y="426" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1A2B4A">Öğreti: aynı gende tekrar BOYUTU mekanizmayı değiştirir</text>
+  <text x="450" y="445" text-anchor="middle" font-size="9.5" fill="#2E3440">Premutasyon → gen açık, RNA toksik (FXTAS/FXPOI). Tam mutasyon → gen susar, protein yok (Frajil X). Aynı lokus, zıt mekanizma.</text>
+</svg>

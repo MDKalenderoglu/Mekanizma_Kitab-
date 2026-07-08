@@ -1,0 +1,236 @@
+<svg viewBox="0 0 1100 820" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="sh09b">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#B91C1C"/>
+    </marker>
+    <marker id="arr-amber" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#D97706"/>
+    </marker>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <!-- Beyaz zemin -->
+  <rect width="1100" height="820" fill="#ffffff"/>
+
+  <!-- Başlık bandı -->
+  <rect x="0" y="0" width="1100" height="52" fill="#1A2B4A"/>
+  <text x="550" y="33" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Tekrar Genişlemesinin Üç Patojenik Mekanizması</text>
+
+  <!-- Alt başlık -->
+  <rect x="0" y="52" width="1100" height="28" fill="#E2E8F0"/>
+  <text x="550" y="71" text-anchor="middle" font-size="11" fill="#475569">Aynı tekrar genişlemesi; konumuna ve çevrilip çevrilmediğine göre farklı biyolojik yollarla hastalık yaratır</text>
+
+  <!-- ============================== -->
+  <!-- PANEL A: LoF / Epigenetik Sessizleşme (sol) -->
+  <!-- ============================== -->
+  <rect x="20" y="90" width="330" height="580" rx="12" fill="#F8FAFC" stroke="#93C5FD" stroke-width="2" filter="url(#sh09b)"/>
+
+  <!-- Panel rozeti A -->
+  <rect x="28" y="98" width="26" height="20" rx="5" fill="#2563EB"/>
+  <text x="41" y="113" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">A</text>
+
+  <text x="175" y="113" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">Loss-of-Function</text>
+  <text x="175" y="128" text-anchor="middle" font-size="10" fill="#64748B">Epigenetik sessizleşme</text>
+  <text x="175" y="141" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Örnek: FMR1 (CGG &gt;200)</text>
+
+  <!-- Normal durum -->
+  <rect x="60" y="160" width="210" height="34" rx="8" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <text x="165" y="181" text-anchor="middle" font-size="10" fill="#1D4ED8">Normal FMR1 promotörü</text>
+  <text x="165" y="193" text-anchor="middle" font-size="9" fill="#1D4ED8">(5–44 CGG; açık kromatın)</text>
+
+  <!-- Ok aşağı: genişleme -->
+  <line x1="165" y1="194" x2="165" y2="220" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+  <text x="175" y="212" font-size="9" fill="#B91C1C">Genişleme &gt;200</text>
+
+  <!-- DNA Metilasyonu kutusu -->
+  <rect x="60" y="224" width="210" height="50" rx="8" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+  <text x="165" y="243" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">CpG Metilasyonu</text>
+  <text x="165" y="257" text-anchor="middle" font-size="9" fill="#B91C1C">Histon deasetilasyonu</text>
+  <text x="165" y="269" text-anchor="middle" font-size="9" fill="#B91C1C">Heterokromatin oluşumu</text>
+
+  <!-- Ok aşağı -->
+  <line x1="165" y1="274" x2="165" y2="298" stroke="#64748B" stroke-width="2" marker-end="url(#arr-gray)"/>
+
+  <!-- Transkripsiyon baskı -->
+  <rect x="60" y="302" width="210" height="38" rx="8" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1"/>
+  <text x="165" y="323" text-anchor="middle" font-size="10" font-weight="600" fill="#475569">FMR1 transkripsiyonu</text>
+  <text x="165" y="336" text-anchor="middle" font-size="9" fill="#475569">tamamen durur</text>
+
+  <!-- Ok aşağı -->
+  <line x1="165" y1="340" x2="165" y2="362" stroke="#64748B" stroke-width="2" marker-end="url(#arr-gray)"/>
+
+  <!-- FMRP kaybı -->
+  <rect x="55" y="365" width="220" height="50" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2"/>
+  <text x="165" y="386" text-anchor="middle" font-size="11" font-weight="700" fill="#B91C1C">FMRP proteini KAYBI</text>
+  <text x="165" y="400" text-anchor="middle" font-size="9" fill="#B91C1C">mRNA taşıma/çeviri regülasyonu bozulur</text>
+  <text x="165" y="412" text-anchor="middle" font-size="9" fill="#B91C1C">Dendritik mRNA işlemi etkilenir</text>
+
+  <!-- Ok aşağı -->
+  <line x1="165" y1="415" x2="165" y2="437" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Fenotip -->
+  <rect x="55" y="440" width="220" height="60" rx="8" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1"/>
+  <text x="165" y="460" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">Klinik: Frajil X Sendromu</text>
+  <text x="165" y="474" text-anchor="middle" font-size="9" fill="#475569">Zihinsel yetersizlik (X'e bağlı en sık)</text>
+  <text x="165" y="487" text-anchor="middle" font-size="9" fill="#475569">Otizm spektrumu, makroorşidizm</text>
+  <text x="165" y="500" text-anchor="middle" font-size="9" fill="#475569">Karakteristik yüz görünümü</text>
+
+  <!-- Not kutusu -->
+  <rect x="40" y="518" width="290" height="40" rx="6" fill="#DBEAFE"/>
+  <text x="175" y="534" text-anchor="middle" font-size="9" font-weight="600" fill="#1D4ED8">Mekanizma türü: LoF (epigenetik)</text>
+  <text x="175" y="547" text-anchor="middle" font-size="9" fill="#1D4ED8">Premutasyon (55–200): RNA GoF → FXTAS/FXPOI</text>
+
+  <!-- Öğreti satırı -->
+  <rect x="20" y="575" width="330" height="45" rx="8" fill="#EFF6FF"/>
+  <text x="175" y="594" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1D4ED8">Protein yokluğu hastalığa yol açar;</text>
+  <text x="175" y="608" text-anchor="middle" font-size="9.5" fill="#1D4ED8">transkripsiyon değil, gen susması sorunun kaynağıdır.</text>
+
+  <!-- ============================== -->
+  <!-- PANEL B: RNA GoF / MBNL Sekestrasyon (orta) -->
+  <!-- ============================== -->
+  <rect x="385" y="90" width="330" height="580" rx="12" fill="#F8FAFC" stroke="#FCD34D" stroke-width="2" filter="url(#sh09b)"/>
+
+  <rect x="393" y="98" width="26" height="20" rx="5" fill="#D97706"/>
+  <text x="406" y="113" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">B</text>
+
+  <text x="550" y="113" text-anchor="middle" font-size="13" font-weight="700" fill="#D97706">RNA Gain-of-Function</text>
+  <text x="550" y="128" text-anchor="middle" font-size="10" fill="#64748B">Toksik RNA birikimi</text>
+  <text x="550" y="141" text-anchor="middle" font-size="10" font-weight="600" fill="#B45309">Örnek: DMPK (CTG &gt;50) — DM1</text>
+
+  <!-- Normal DMPK transkripsiyon -->
+  <rect x="420" y="160" width="260" height="34" rx="8" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <text x="550" y="180" text-anchor="middle" font-size="10" fill="#92400E">DMPK geni 3'UTR'da CTG genişlemesi</text>
+  <text x="550" y="192" text-anchor="middle" font-size="9" fill="#92400E">Gen transkripsiyonu devam eder</text>
+
+  <!-- Ok -->
+  <line x1="550" y1="194" x2="550" y2="218" stroke="#D97706" stroke-width="2" marker-end="url(#arr-amber)"/>
+
+  <!-- CUG RNA birikimi -->
+  <rect x="415" y="222" width="270" height="54" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="550" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="#B45309">CUG tekrarlı RNA birikir</text>
+  <text x="550" y="255" text-anchor="middle" font-size="9" fill="#475569">Saç tokası (hairpin) yapısı oluşturur</text>
+  <text x="550" y="269" text-anchor="middle" font-size="9" fill="#475569">Çekirdekte RNA foci görülür</text>
+
+  <!-- Ok -->
+  <line x1="550" y1="276" x2="550" y2="300" stroke="#D97706" stroke-width="2" marker-end="url(#arr-amber)"/>
+
+  <!-- MBNL sekestrasyon -->
+  <rect x="415" y="303" width="270" height="58" rx="8" fill="#FED7AA" stroke="#F59E0B" stroke-width="2"/>
+  <text x="550" y="323" text-anchor="middle" font-size="10" font-weight="700" fill="#92400E">MBNL1/2 proteini sekestre edilir</text>
+  <text x="550" y="337" text-anchor="middle" font-size="9" fill="#475569">RNA splice faktörü işlev göremez</text>
+  <text x="550" y="349" text-anchor="middle" font-size="9" fill="#475569">CELF1 aktivitesi artar (paralel yol)</text>
+  <text x="550" y="361" text-anchor="middle" font-size="9" fill="#475569">Fetal splicing izoformlarına geri dönüş</text>
+
+  <!-- Ok -->
+  <line x1="550" y1="361" x2="550" y2="385" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Splicing bozulması -->
+  <rect x="415" y="388" width="270" height="52" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2"/>
+  <text x="550" y="408" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">Çoklu pre-mRNA splicing hatası</text>
+  <text x="550" y="422" text-anchor="middle" font-size="9" fill="#B91C1C">ClC1 (klorür kanalı) → miyotoni</text>
+  <text x="550" y="435" text-anchor="middle" font-size="9" fill="#B91C1C">İnsülin reseptörü → insülin direnci</text>
+
+  <!-- Ok -->
+  <line x1="550" y1="440" x2="550" y2="460" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Fenotip -->
+  <rect x="415" y="463" width="270" height="62" rx="8" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1"/>
+  <text x="550" y="484" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">Klinik: Miyotonik Distrofi Tip 1</text>
+  <text x="550" y="498" text-anchor="middle" font-size="9" fill="#475569">Miyotoni, kas zayıflığı</text>
+  <text x="550" y="512" text-anchor="middle" font-size="9" fill="#475569">Katarakt, kardiyak iletim bozukluğu</text>
+  <text x="550" y="525" text-anchor="middle" font-size="9" fill="#475569">Konjenital form: hipotoni, solunum yetmezliği</text>
+
+  <!-- Not kutusu -->
+  <rect x="400" y="535" width="300" height="28" rx="6" fill="#FEF3C7"/>
+  <text x="550" y="547" text-anchor="middle" font-size="9" font-weight="600" fill="#92400E">Mekanizma türü: RNA GoF (protein değil RNA toksik)</text>
+  <text x="550" y="559" text-anchor="middle" font-size="9" fill="#92400E">Gen ürünü yok; toksik transcript var</text>
+
+  <!-- Öğreti satırı -->
+  <rect x="385" y="575" width="330" height="45" rx="8" fill="#FFFBEB"/>
+  <text x="550" y="594" text-anchor="middle" font-size="9.5" font-weight="600" fill="#92400E">DNA değil RNA hastalığa yol açar;</text>
+  <text x="550" y="608" text-anchor="middle" font-size="9.5" fill="#92400E">protein dizisi sağlam olsa da toksik transkript yeterlidir.</text>
+
+  <!-- ============================== -->
+  <!-- PANEL C: Protein GoF / PolyQ (sağ) -->
+  <!-- ============================== -->
+  <rect x="750" y="90" width="330" height="580" rx="12" fill="#F8FAFC" stroke="#FCA5A5" stroke-width="2" filter="url(#sh09b)"/>
+
+  <rect x="758" y="98" width="26" height="20" rx="5" fill="#B91C1C"/>
+  <text x="771" y="113" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">C</text>
+
+  <text x="915" y="113" text-anchor="middle" font-size="13" font-weight="700" fill="#B91C1C">Protein Gain-of-Function</text>
+  <text x="915" y="128" text-anchor="middle" font-size="10" fill="#64748B">PolyQ agregasyonu</text>
+  <text x="915" y="141" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Örnek: HTT (CAG ≥40) — Huntington</text>
+
+  <!-- Normal HTT -->
+  <rect x="785" y="160" width="250" height="34" rx="8" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <text x="910" y="180" text-anchor="middle" font-size="10" fill="#1D4ED8">Normal Huntingtin proteini</text>
+  <text x="910" y="192" text-anchor="middle" font-size="9" fill="#1D4ED8">(≤26 CAG; kısa polyQ; işlevsel)</text>
+
+  <!-- Ok -->
+  <line x1="910" y1="194" x2="910" y2="218" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+  <text x="928" y="211" font-size="9" fill="#B91C1C">CAG ≥40</text>
+
+  <!-- mHTT protein -->
+  <rect x="780" y="222" width="260" height="52" rx="8" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="910" y="244" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">Uzamış PolyQ (mHTT)</text>
+  <text x="910" y="258" text-anchor="middle" font-size="9" fill="#B91C1C">β-yaprak kıvrımı eğilimi artar</text>
+  <text x="910" y="271" text-anchor="middle" font-size="9" fill="#B91C1C">Yanlış katlanma (misfolding)</text>
+
+  <!-- Ok -->
+  <line x1="910" y1="274" x2="910" y2="298" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Agregasyon -->
+  <rect x="780" y="302" width="260" height="56" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2"/>
+  <text x="910" y="323" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">İntranükleer/sitoplazmik</text>
+  <text x="910" y="337" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">agregat oluşumu</text>
+  <text x="910" y="351" text-anchor="middle" font-size="9" fill="#B91C1C">Ubikitin-proteazom sistemi tıkandı</text>
+  <text x="910" y="365" text-anchor="middle" font-size="9" fill="#B91C1C">Otofaji zorlanıyor</text>
+
+  <!-- Ok -->
+  <line x1="910" y1="358" x2="910" y2="382" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Nöronal disfonksiyon -->
+  <rect x="780" y="385" width="260" height="54" rx="8" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1"/>
+  <text x="910" y="406" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Mitokondri disfonksiyonu</text>
+  <text x="910" y="420" text-anchor="middle" font-size="9" fill="#475569">Transkripsiyon faktörleri sekestre edilir</text>
+  <text x="910" y="434" text-anchor="middle" font-size="9" fill="#475569">BDNF yolağı bozulur</text>
+  <text x="910" y="448" text-anchor="middle" font-size="9" fill="#475569">→ Striatal nöron kaybı (özellikle MSN)</text>
+
+  <!-- Ok -->
+  <line x1="910" y1="439" x2="910" y2="462" stroke="#B91C1C" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Fenotip -->
+  <rect x="780" y="465" width="260" height="60" rx="8" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1"/>
+  <text x="910" y="485" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">Klinik: Huntington Hastalığı</text>
+  <text x="910" y="499" text-anchor="middle" font-size="9" fill="#475569">Kore, demans, psikiyatrik</text>
+  <text x="910" y="513" text-anchor="middle" font-size="9" fill="#475569">Otozomal dominant, tam penetrans (≥40)</text>
+  <text x="910" y="527" text-anchor="middle" font-size="9" fill="#475569">Başlangıç yaşı ∝ 1/tekrar sayısı</text>
+
+  <!-- Not kutusu -->
+  <rect x="765" y="535" width="300" height="28" rx="6" fill="#FEE2E2"/>
+  <text x="910" y="547" text-anchor="middle" font-size="9" font-weight="600" fill="#B91C1C">Mekanizma türü: Protein GoF (toksik polyQ)</text>
+  <text x="910" y="559" text-anchor="middle" font-size="9" fill="#B91C1C">LoF bileşeni de tartışmalı ama GoF primer</text>
+
+  <!-- Öğreti satırı -->
+  <rect x="750" y="575" width="330" height="45" rx="8" fill="#FEF6F5"/>
+  <text x="915" y="594" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B91C1C">Protein var ama toksik; yanlış katlanmış</text>
+  <text x="915" y="608" text-anchor="middle" font-size="9.5" fill="#B91C1C">protein agregasyonu nöronu öldürür.</text>
+
+  <!-- Footer -->
+  <rect x="0" y="682" width="1100" height="60" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="550" y="704" text-anchor="middle" font-size="11" font-weight="700" fill="#1A2B4A">Mekanizma → Test → Yorum Bağı</text>
+  <text x="183" y="724" text-anchor="middle" font-size="9.5" fill="#1D4ED8">A: WES/WGS tekrar'ı göremez → PCR/RP-PCR</text>
+  <text x="550" y="724" text-anchor="middle" font-size="9.5" fill="#D97706">B: RNA GoF → short-read WGS sınırlı → LR-WGS/PCR</text>
+  <text x="917" y="724" text-anchor="middle" font-size="9.5" fill="#B91C1C">C: CAG tekrar → PCR; uzun tekrar → LR-WGS/Southern</text>
+  <text x="1090" y="812" text-anchor="end" font-size="8.5" fill="#94A3B8">Şekil 9.2 · Mekanizma Kitabı</text>
+
+</svg>

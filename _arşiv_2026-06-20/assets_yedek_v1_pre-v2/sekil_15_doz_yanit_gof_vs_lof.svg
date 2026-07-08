@@ -1,0 +1,46 @@
+<svg viewBox="0 0 840 520" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="840" height="520" fill="#ffffff"/>
+  <text x="420" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#1a1a1a">İşlev kaybı ve işlev kazanımı: zıt yönlerde hastalık</text>
+  <text x="420" y="56" text-anchor="middle" font-size="13" fill="#555">LoF eşiğin ALTINA iner (yetersizlik); GoF eşiğin ÜSTÜNE çıkar veya yeni/zararlı aktivite ekler</text>
+
+  <!-- axes -->
+  <line x1="110" y1="420" x2="760" y2="420" stroke="#333" stroke-width="2"/>
+  <line x1="110" y1="420" x2="110" y2="90" stroke="#333" stroke-width="2"/>
+  <text x="435" y="455" text-anchor="middle" font-size="13" fill="#333">Protein işlevi / aktivite düzeyi  →</text>
+  <text x="78" y="255" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90 78 255)">Hastalık riski / zarar  →</text>
+
+  <!-- normal zone band -->
+  <rect x="360" y="90" width="150" height="330" fill="#27ae60" opacity="0.10"/>
+  <text x="435" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#16a085">SAĞLIKLI</text>
+  <text x="435" y="124" text-anchor="middle" font-size="11" fill="#16a085">(normal aralık ≈ %100)</text>
+
+  <!-- markers on x -->
+  <text x="180" y="438" text-anchor="middle" font-size="10.5" fill="#c0392b">düşük (LoF)</text>
+  <text x="435" y="438" text-anchor="middle" font-size="10.5" fill="#16a085">normal</text>
+  <text x="690" y="438" text-anchor="middle" font-size="10.5" fill="#c0392b">yüksek/yeni (GoF)</text>
+
+  <!-- LoF curve: risk rises as function drops (left side) -->
+  <path d="M 360 400 C 300 395 240 360 180 230 C 160 185 140 150 120 120" fill="none" stroke="#2980b9" stroke-width="3.5"/>
+  <text x="150" y="150" font-size="12" font-weight="bold" fill="#2980b9">LoF</text>
+  <text x="135" y="168" font-size="10" fill="#2980b9">yetersizlik</text>
+
+  <!-- GoF curve: risk rises as function increases (right side) -->
+  <path d="M 510 400 C 570 395 630 360 690 230 C 710 185 730 150 750 120" fill="none" stroke="#c0392b" stroke-width="3.5"/>
+  <text x="700" y="150" font-size="12" font-weight="bold" fill="#c0392b">GoF</text>
+  <text x="690" y="168" font-size="10" fill="#c0392b">aşırı/yeni aktivite</text>
+
+  <!-- threshold dashed lines -->
+  <line x1="360" y1="90" x2="360" y2="420" stroke="#16a085" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="510" y1="90" x2="510" y2="420" stroke="#16a085" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- info boxes -->
+  <rect x="120" y="465" width="330" height="44" rx="7" fill="#eaf2f8" stroke="#2980b9" stroke-width="1.3"/>
+  <text x="285" y="483" text-anchor="middle" font-size="11" fill="#1f5c8b" font-weight="bold">LoF / haploinsufficiency (Bölüm 2–3)</text>
+  <text x="285" y="500" text-anchor="middle" font-size="10" fill="#1f5c8b">çözüm: dozu artır · PVS1 (null=patojen) uygulanır</text>
+
+  <rect x="470" y="465" width="330" height="44" rx="7" fill="#fdf0ee" stroke="#c0392b" stroke-width="1.3"/>
+  <text x="635" y="483" text-anchor="middle" font-size="11" fill="#a93226" font-weight="bold">GoF (bu bölüm)</text>
+  <text x="635" y="500" text-anchor="middle" font-size="10" fill="#a93226">çözüm: aktiviteyi engelle · PVS1 UYGULANMAZ; PM1/PS3</text>
+
+  <text x="420" y="86" text-anchor="middle" font-size="10" fill="#999">Şekil 15 — Doz–yanıt ekseninde LoF ile GoF'un ayna ilişkisi</text>
+</svg>

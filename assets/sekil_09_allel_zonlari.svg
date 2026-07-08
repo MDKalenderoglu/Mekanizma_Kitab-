@@ -1,0 +1,165 @@
+<svg viewBox="0 0 1100 760" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow09a">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Beyaz zemin -->
+  <rect width="1100" height="760" fill="#ffffff"/>
+
+  <!-- Başlık -->
+  <rect x="0" y="0" width="1100" height="52" fill="#1A2B4A"/>
+  <text x="550" y="33" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Tekrar Dizisi Hastalıklarında Alel Bölgeleri</text>
+
+  <!-- Legend kutusu -->
+  <rect x="100" y="58" width="900" height="32" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="120" y="68" width="18" height="12" rx="3" fill="#DBEAFE"/>
+  <text x="144" y="79" font-size="10" fill="#475569">Normal</text>
+  <rect x="210" y="68" width="18" height="12" rx="3" fill="#FEF3C7"/>
+  <text x="234" y="79" font-size="10" fill="#475569">Ara / Gri Zon</text>
+  <rect x="330" y="68" width="18" height="12" rx="3" fill="#FED7AA"/>
+  <text x="354" y="79" font-size="10" fill="#475569">Premutasyon</text>
+  <rect x="450" y="68" width="18" height="12" rx="3" fill="#FEE2E2"/>
+  <text x="474" y="79" font-size="10" fill="#475569">Tam Mutasyon (Hastalık)</text>
+  <rect x="640" y="68" width="18" height="12" rx="3" fill="#E9D5FF"/>
+  <text x="664" y="79" font-size="10" fill="#475569">İndirgенmiş penetrans</text>
+  <text x="820" y="79" font-size="10" fill="#94A3B8" font-style="italic">Her hastalık için ölçek farklıdır</text>
+
+  <!-- ===== PANEL 1: FMR1 (CGG) ===== -->
+  <rect x="30" y="108" width="1040" height="140" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" filter="url(#shadow09a)"/>
+
+  <!-- Panel rozeti A -->
+  <rect x="40" y="115" width="28" height="22" rx="5" fill="#1A2B4A"/>
+  <text x="54" y="131" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">A</text>
+
+  <!-- Panel başlığı -->
+  <text x="80" y="131" font-size="13" font-weight="700" fill="#2563EB">FMR1 (CGG tekrarı) — Frajil X Spektrumu</text>
+  <text x="80" y="146" font-size="10" fill="#64748B" font-style="italic">Ölçek: 0 – 300 tekrar (görsel temsil; &gt;200 yeniden ölçeklendi)</text>
+
+  <!-- Bar -->
+  <!-- Normal: x=150 w=120 -->
+  <rect x="150" y="158" width="120" height="48" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Gray: x=270 w=27 -->
+  <rect x="270" y="158" width="30" height="48" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <!-- Premutation: x=300 w=340 -->
+  <rect x="300" y="158" width="340" height="48" fill="#FED7AA" stroke="#F59E0B" stroke-width="1"/>
+  <!-- Full mutation: x=640 w=330 -->
+  <rect x="640" y="158" width="330" height="48" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+
+  <!-- Bar etiketleri üstte -->
+  <text x="210" y="154" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Normal</text>
+  <text x="285" y="154" text-anchor="middle" font-size="9" fill="#D97706">Gri</text>
+  <text x="470" y="154" text-anchor="middle" font-size="10" font-weight="600" fill="#B45309">Premutasyon</text>
+  <text x="805" y="154" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Tam Mutasyon</text>
+
+  <!-- Tekrar sayıları altta -->
+  <text x="150" y="220" font-size="9" fill="#475569">5</text>
+  <text x="202" y="220" text-anchor="middle" font-size="9" fill="#475569">5–44</text>
+  <text x="270" y="220" font-size="9" fill="#475569">45</text>
+  <text x="285" y="220" text-anchor="middle" font-size="9" fill="#D97706">45–54</text>
+  <text x="300" y="220" font-size="9" fill="#475569">55</text>
+  <text x="470" y="220" text-anchor="middle" font-size="9" fill="#B45309">55–200</text>
+  <text x="638" y="220" font-size="9" fill="#475569">200</text>
+  <text x="805" y="220" text-anchor="middle" font-size="9" fill="#B91C1C">&gt;200 tekrar</text>
+
+  <!-- Hastalık notları bar içinde -->
+  <text x="210" y="178" text-anchor="middle" font-size="9" fill="#1D4ED8">Taşıyıcı değil</text>
+  <text x="210" y="192" text-anchor="middle" font-size="9" fill="#1D4ED8">FMRP normal</text>
+  <text x="470" y="174" text-anchor="middle" font-size="9" fill="#92400E">FMR1 aşırı</text>
+  <text x="470" y="186" text-anchor="middle" font-size="9" fill="#92400E">transkripsiyon</text>
+  <text x="470" y="198" text-anchor="middle" font-size="9" fill="#92400E">→ FXTAS / FXPOI</text>
+  <text x="805" y="176" text-anchor="middle" font-size="9" fill="#B91C1C">Metilasyon + sessizlik</text>
+  <text x="805" y="190" text-anchor="middle" font-size="9" fill="#B91C1C">FMRP kaybı</text>
+  <text x="805" y="204" text-anchor="middle" font-size="9" fill="#B91C1C">→ Frajil X Sendromu</text>
+
+  <!-- ===== PANEL 2: HTT (CAG) ===== -->
+  <rect x="30" y="265" width="1040" height="140" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" filter="url(#shadow09a)"/>
+
+  <rect x="40" y="272" width="28" height="22" rx="5" fill="#1A2B4A"/>
+  <text x="54" y="288" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">B</text>
+
+  <text x="80" y="288" font-size="13" font-weight="700" fill="#B91C1C">HTT (CAG tekrarı) — Huntington Hastalığı</text>
+  <text x="80" y="303" font-size="10" fill="#64748B" font-style="italic">Ölçek: 0 – 100 tekrar (görsel temsil)</text>
+
+  <!-- HTT Bar: x=150-970, w=820 -->
+  <!-- Normal 10-26: (26/100)*820=213 → x=150 w=213 -->
+  <rect x="150" y="315" width="213" height="48" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Intermediate 27-35: (9/100)*820=74 → x=363 w=74 -->
+  <rect x="363" y="315" width="74" height="48" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <!-- Reduced penetrance 36-39: (4/100)*820=33 → x=437 w=33 -->
+  <rect x="437" y="315" width="33" height="48" fill="#E9D5FF" stroke="#C4B5FD" stroke-width="1"/>
+  <!-- Full penetrance ≥40: x=470 w=500 -->
+  <rect x="470" y="315" width="500" height="48" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+
+  <text x="256" y="311" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Normal</text>
+  <text x="400" y="311" text-anchor="middle" font-size="9" fill="#D97706">Ara</text>
+  <text x="454" y="311" text-anchor="middle" font-size="9" fill="#7C3AED">İnd.Pen.</text>
+  <text x="720" y="311" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Tam Penetrans (HD)</text>
+
+  <text x="150" y="377" font-size="9" fill="#475569">10</text>
+  <text x="256" y="377" text-anchor="middle" font-size="9" fill="#475569">10–26</text>
+  <text x="363" y="377" font-size="9" fill="#475569">27</text>
+  <text x="400" y="377" text-anchor="middle" font-size="9" fill="#D97706">27–35</text>
+  <text x="437" y="377" font-size="9" fill="#7C3AED">36</text>
+  <text x="470" y="377" font-size="9" fill="#475569">40</text>
+  <text x="720" y="377" text-anchor="middle" font-size="9" fill="#B91C1C">≥40 tekrar → HD kesin</text>
+
+  <text x="256" y="335" text-anchor="middle" font-size="9" fill="#1D4ED8">Etkilenmez</text>
+  <text x="400" y="335" text-anchor="middle" font-size="9" fill="#D97706">Kararsız</text>
+  <text x="400" y="349" text-anchor="middle" font-size="9" fill="#D97706">nesil atlayabilir</text>
+  <text x="720" y="333" text-anchor="middle" font-size="9" fill="#B91C1C">PolyQ proteini → agregasyon</text>
+  <text x="720" y="347" text-anchor="middle" font-size="9" fill="#B91C1C">Nöronal ölüm (striatum)</text>
+  <text x="720" y="361" text-anchor="middle" font-size="9" fill="#B91C1C">Başlangıç yaşı ∝ 1/tekrar sayısı</text>
+
+  <!-- ===== PANEL 3: DMPK (CTG) ===== -->
+  <rect x="30" y="422" width="1040" height="140" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" filter="url(#shadow09a)"/>
+
+  <rect x="40" y="429" width="28" height="22" rx="5" fill="#1A2B4A"/>
+  <text x="54" y="445" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">C</text>
+
+  <text x="80" y="445" font-size="13" font-weight="700" fill="#D97706">DMPK (CTG tekrarı) — Miyotonik Distrofi Tip 1</text>
+  <text x="80" y="460" font-size="10" fill="#64748B" font-style="italic">Ölçek: 0 – 400 tekrar (görsel temsil; &gt;400 sıkıştırıldı)</text>
+
+  <!-- DMPK Bar: x=150-970, w=820 -->
+  <!-- Normal 5-34: (34/400)*820=70 → x=150 w=70 -->
+  <rect x="150" y="472" width="70" height="48" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Premut 35-49: (15/400)*820=31 → x=220 w=31 -->
+  <rect x="220" y="472" width="31" height="48" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <!-- Mild 50-150: (100/400)*820=205 → x=251 w=205 -->
+  <rect x="251" y="472" width="205" height="48" fill="#FED7AA" stroke="#F59E0B" stroke-width="1"/>
+  <!-- Classical/Congenital >150: x=456 w=514 -->
+  <rect x="456" y="472" width="514" height="48" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+
+  <text x="185" y="468" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Normal</text>
+  <text x="235" y="468" text-anchor="middle" font-size="9" fill="#D97706">Gri</text>
+  <text x="353" y="468" text-anchor="middle" font-size="10" font-weight="600" fill="#B45309">Hafif / Geç Başlangıç</text>
+  <text x="713" y="468" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Klasik / Konjenital DM1</text>
+
+  <text x="150" y="534" font-size="9" fill="#475569">5</text>
+  <text x="185" y="534" text-anchor="middle" font-size="9" fill="#475569">5–34</text>
+  <text x="220" y="534" font-size="9" fill="#475569">35</text>
+  <text x="251" y="534" font-size="9" fill="#475569">50</text>
+  <text x="353" y="534" text-anchor="middle" font-size="9" fill="#B45309">50–150</text>
+  <text x="456" y="534" font-size="9" fill="#475569">150</text>
+  <text x="713" y="534" text-anchor="middle" font-size="9" fill="#B91C1C">&gt;150 (klasik); &gt;1000 (konjenital)</text>
+
+  <text x="185" y="492" text-anchor="middle" font-size="9" fill="#1D4ED8">Etkilenmez</text>
+  <text x="353" y="490" text-anchor="middle" font-size="9" fill="#92400E">CUG RNA birikimi</text>
+  <text x="353" y="504" text-anchor="middle" font-size="9" fill="#92400E">Hafif miyotoni/katarakt</text>
+  <text x="713" y="489" text-anchor="middle" font-size="9" fill="#B91C1C">CUG foci → MBNL sekestrasyon</text>
+  <text x="713" y="503" text-anchor="middle" font-size="9" fill="#B91C1C">Alternatif splicing bozulması</text>
+  <text x="713" y="517" text-anchor="middle" font-size="9" fill="#B91C1C">→ Çoklu doku tutulumu</text>
+
+  <!-- Footer -->
+  <rect x="0" y="582" width="1100" height="52" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="550" y="601" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1A2B4A">Öğreti: Tekrar sayısı hem hastalık varlığını hem başlangıç yaşını hem de kuşaktan kuşağa değişkenliği (anticipasyon) belirler.</text>
+  <text x="550" y="620" text-anchor="middle" font-size="9.5" fill="#475569">FMR1: Hoogeveen &amp;amp; Oostra (1997); Hagerman &amp;amp; Hagerman (2015) | HTT: Ross &amp;amp; Tabrizi (2011) | DMPK: Chau &amp;amp; Kalsotra (2015) | Genel: Paulson (2018)</text>
+
+  <!-- Alt kaynak notu -->
+  <text x="550" y="648" text-anchor="middle" font-size="9" fill="#94A3B8" font-style="italic">Tekrar sayısı eşikleri literatür konsensusu olup bireyler arası küçük farklılıklar bildirilmiştir; klinik yorumda güncel gen-spesifik klavuzlar kullanılmalıdır.</text>
+
+  <!-- Sağ alt köşe: kaynak notu -->
+  <text x="1090" y="742" text-anchor="end" font-size="8.5" fill="#94A3B8">Şekil 9.1 · Mekanizma Kitabı</text>
+
+</svg>

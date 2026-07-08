@@ -1,0 +1,67 @@
+<svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="520" fill="#ffffff"/>
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 14 — Gain-of-Function: İşlevin Yön Değiştirmesi Değil, ARTMASI</text>
+  <text x="480" y="52" text-anchor="middle" font-size="12" fill="#555">GoF, mevcut işlevin niceliksel/zamansal olarak fazlalaşmasıdır. (Yeni işlev = neomorfik, Bölüm 6; ters etki = dominant-negatif, Bölüm 5.)</text>
+
+  <!-- reference: normal -->
+  <text x="480" y="86" text-anchor="middle" font-size="12" font-style="italic" fill="#1e8449">Karşılaştırma: normal protein, düzenlenmiş/uygun düzeyde aktiftir</text>
+
+  <!-- Panel A: hypermorph (artmış aktivite) -->
+  <rect x="40" y="105" width="280" height="350" rx="10" fill="#fbfdff" stroke="#2980b9"/>
+  <text x="180" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#2471a3">A. Artmış aktivite (hypermorph)</text>
+  <circle cx="180" cy="185" r="34" fill="#27ae60"/>
+  <text x="180" y="190" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">enzim</text>
+  <text x="180" y="240" text-anchor="middle" font-size="11" fill="#555">aynı işlev, ama</text>
+  <text x="180" y="258" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">daha hızlı / daha çok ürün</text>
+  <!-- output arrows bigger -->
+  <path d="M180 280 L180 320" stroke="#c0392b" stroke-width="6" marker-end="url(#ar)"/>
+  <path d="M150 290 L120 330" stroke="#c0392b" stroke-width="4" marker-end="url(#ar)"/>
+  <path d="M210 290 L240 330" stroke="#c0392b" stroke-width="4" marker-end="url(#ar)"/>
+  <text x="180" y="360" text-anchor="middle" font-size="11" fill="#444">ürün/sinyal fazlalığı</text>
+  <text x="180" y="395" text-anchor="middle" font-size="10.5" fill="#7e5109">Örn: bazı metabolik/enzim GoF</text>
+  <text x="180" y="430" text-anchor="middle" font-size="10.5" font-style="italic" fill="#888">çoğu DOMİNANT</text>
+
+  <!-- Panel B: constitutive activation -->
+  <rect x="340" y="105" width="280" height="350" rx="10" fill="#fbfdff" stroke="#2980b9"/>
+  <text x="480" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#2471a3">B. Konstitütif aktivasyon</text>
+  <text x="480" y="152" text-anchor="middle" font-size="10.5" fill="#888">("hep AÇIK" — ligandsız sinyal)</text>
+  <!-- membrane -->
+  <rect x="360" y="190" width="240" height="14" fill="#eaf2fb" stroke="#95a5a6"/>
+  <text x="610" y="200" text-anchor="end" font-size="9" fill="#999"> </text>
+  <!-- receptor stuck dimerized, no ligand -->
+  <rect x="430" y="170" width="16" height="80" rx="4" fill="#8e44ad"/>
+  <rect x="452" y="170" width="16" height="80" rx="4" fill="#8e44ad"/>
+  <text x="510" y="178" font-size="10.5" fill="#c0392b">ligand YOK</text>
+  <text x="510" y="193" font-size="10.5" fill="#c0392b">ama dimer kilitli</text>
+  <path d="M449 250 L449 300" stroke="#c0392b" stroke-width="6" marker-end="url(#ar)"/>
+  <text x="480" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">sürekli aşağı-akış sinyali</text>
+  <text x="480" y="360" text-anchor="middle" font-size="10.5" fill="#7e5109">Örn: FGFR3 (akondroplazi),</text>
+  <text x="480" y="376" text-anchor="middle" font-size="10.5" fill="#7e5109">RET, aktive reseptör tirozin kinazlar</text>
+  <text x="480" y="430" text-anchor="middle" font-size="10.5" font-style="italic" fill="#888">DOMİNANT; sıklıkla de novo</text>
+
+  <!-- Panel C: ectopic / expanded -->
+  <rect x="640" y="105" width="280" height="350" rx="10" fill="#fbfdff" stroke="#2980b9"/>
+  <text x="780" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#2471a3">C. Uygunsuz/genişlemiş aktivite</text>
+  <text x="780" y="152" text-anchor="middle" font-size="10.5" fill="#888">(yanlış yer/zaman, açık eşik)</text>
+  <!-- ion channel example -->
+  <rect x="690" y="185" width="180" height="14" fill="#eaf2fb" stroke="#95a5a6"/>
+  <rect x="760" y="175" width="14" height="34" rx="3" fill="#e67e22"/>
+  <rect x="786" y="175" width="14" height="34" rx="3" fill="#e67e22"/>
+  <text x="780" y="232" text-anchor="middle" font-size="10.5" fill="#c0392b">kanal geç/eksik kapanır</text>
+  <text x="780" y="250" text-anchor="middle" font-size="10.5" fill="#c0392b">→ kalıcı (persistan) akım</text>
+  <path d="M780 262 L780 300" stroke="#c0392b" stroke-width="6" marker-end="url(#ar)"/>
+  <text x="780" y="325" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">nöron aşırı uyarılır</text>
+  <text x="780" y="360" text-anchor="middle" font-size="10.5" fill="#7e5109">Örn: SCN8A/SCN2A GoF</text>
+  <text x="780" y="376" text-anchor="middle" font-size="10.5" fill="#7e5109">(epileptik ensefalopati)</text>
+  <text x="780" y="430" text-anchor="middle" font-size="10.5" font-style="italic" fill="#888">DOMİNANT; biyofiziksel kanıt değerli</text>
+
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="470" width="880" height="40" rx="8" fill="#f6eefb" stroke="#8e44ad"/>
+  <text x="55" y="489" font-size="11" font-weight="700" fill="#6c3483">Ortak öğreti:</text>
+  <text x="55" y="504" font-size="11" fill="#444">Üç tipte de protein "daha fazla/daha uzun/uygunsuz" çalışır. Doz mantığı LoF'un tersidir: sorun eksiklik değil FAZLALIK → ekstra kopya bile (gen değil aktivite) zarar verir; tedavi inhibisyon yönündedir.</text>
+</svg>

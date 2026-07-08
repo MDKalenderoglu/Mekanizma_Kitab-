@@ -1,0 +1,82 @@
+<svg viewBox="0 0 940 540" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="540" fill="#ffffff"/>
+  <text x="470" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 11 — Transkripsiyon Faktörleri Neden Doza Duyarlıdır?</text>
+  <text x="470" y="52" text-anchor="middle" font-size="12" fill="#555">TF konsantrasyonu %50'ye düşünce, hedef promotorların doluluğu eşik-altına iner ve aşağı akış ağı yetersiz uyarılır.</text>
+
+  <!-- divider -->
+  <line x1="470" y1="80" x2="470" y2="500" stroke="#ccc" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- ===== LEFT: normal (100%) ===== -->
+  <text x="245" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#1e8449">İki işlevsel allel — %100 TF</text>
+
+  <!-- TF pool -->
+  <g>
+    <circle cx="150" cy="140" r="11" fill="#8e44ad"/>
+    <circle cx="185" cy="150" r="11" fill="#8e44ad"/>
+    <circle cx="220" cy="138" r="11" fill="#8e44ad"/>
+    <circle cx="255" cy="152" r="11" fill="#8e44ad"/>
+    <circle cx="290" cy="140" r="11" fill="#8e44ad"/>
+    <circle cx="325" cy="150" r="11" fill="#8e44ad"/>
+    <circle cx="170" cy="178" r="11" fill="#8e44ad"/>
+    <circle cx="240" cy="178" r="11" fill="#8e44ad"/>
+    <circle cx="305" cy="178" r="11" fill="#8e44ad"/>
+  </g>
+  <text x="245" y="208" text-anchor="middle" font-size="11" fill="#6c3483">bol TF molekülü (yüksek konsantrasyon)</text>
+
+  <!-- promoters -->
+  <line x1="100" y1="250" x2="395" y2="250" stroke="#2980b9" stroke-width="3"/>
+  <rect x="120" y="238" width="26" height="24" rx="3" fill="#8e44ad"/>
+  <rect x="200" y="238" width="26" height="24" rx="3" fill="#8e44ad"/>
+  <rect x="280" y="238" width="26" height="24" rx="3" fill="#8e44ad"/>
+  <rect x="350" y="238" width="26" height="24" rx="3" fill="#8e44ad"/>
+  <text x="245" y="282" text-anchor="middle" font-size="11" fill="#2471a3">hedef gen promotorları DOLU (eşik üstü doluluk)</text>
+
+  <!-- downstream network ON -->
+  <circle cx="140" cy="330" r="16" fill="#27ae60"/>
+  <circle cx="200" cy="350" r="16" fill="#27ae60"/>
+  <circle cx="260" cy="330" r="16" fill="#27ae60"/>
+  <circle cx="320" cy="350" r="16" fill="#27ae60"/>
+  <circle cx="230" cy="395" r="16" fill="#27ae60"/>
+  <line x1="146" y1="266" x2="150" y2="316" stroke="#27ae60" stroke-width="1.5"/>
+  <line x1="226" y1="266" x2="255" y2="316" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="245" y="440" text-anchor="middle" font-size="12" font-weight="700" fill="#1e8449">Gen ağı yeterli uyarılır → normal gelişim</text>
+
+  <!-- ===== RIGHT: 50% ===== -->
+  <text x="700" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Tek allel kaybı — %50 TF</text>
+
+  <g>
+    <circle cx="620" cy="142" r="11" fill="#8e44ad"/>
+    <circle cx="660" cy="155" r="11" fill="#8e44ad"/>
+    <circle cx="705" cy="140" r="11" fill="#8e44ad"/>
+    <circle cx="745" cy="155" r="11" fill="#8e44ad"/>
+    <!-- missing (faded) -->
+    <circle cx="640" cy="180" r="11" fill="#e8dff0" stroke="#c9b6dd" stroke-dasharray="3 3"/>
+    <circle cx="690" cy="180" r="11" fill="#e8dff0" stroke="#c9b6dd" stroke-dasharray="3 3"/>
+    <circle cx="740" cy="180" r="11" fill="#e8dff0" stroke="#c9b6dd" stroke-dasharray="3 3"/>
+    <circle cx="780" cy="158" r="11" fill="#e8dff0" stroke="#c9b6dd" stroke-dasharray="3 3"/>
+    <circle cx="600" cy="165" r="11" fill="#e8dff0" stroke="#c9b6dd" stroke-dasharray="3 3"/>
+  </g>
+  <text x="700" y="208" text-anchor="middle" font-size="11" fill="#c0392b">TF molekülü yarıya iner (düşük konsantrasyon)</text>
+
+  <!-- promoters partially occupied -->
+  <line x1="555" y1="250" x2="850" y2="250" stroke="#2980b9" stroke-width="3"/>
+  <rect x="575" y="238" width="26" height="24" rx="3" fill="#8e44ad"/>
+  <rect x="655" y="238" width="26" height="24" rx="3" fill="#ffffff" stroke="#c0392b" stroke-width="1.5"/>
+  <rect x="735" y="238" width="26" height="24" rx="3" fill="#8e44ad"/>
+  <rect x="805" y="238" width="26" height="24" rx="3" fill="#ffffff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="700" y="282" text-anchor="middle" font-size="11" fill="#c0392b">düşük afiniteli promotorlar BOŞ kalır (eşik-altı doluluk)</text>
+
+  <!-- downstream network partly off -->
+  <circle cx="595" cy="330" r="16" fill="#27ae60"/>
+  <circle cx="655" cy="350" r="16" fill="#f1948a"/>
+  <circle cx="715" cy="330" r="16" fill="#f1948a"/>
+  <circle cx="775" cy="350" r="16" fill="#27ae60"/>
+  <circle cx="685" cy="395" r="16" fill="#f1948a"/>
+  <text x="700" y="440" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">Ağ kısmen sessiz → gelişimsel kusur (hastalık)</text>
+
+  <!-- bottom takeaway -->
+  <rect x="100" y="470" width="740" height="50" rx="8" fill="#f6eefb" stroke="#8e44ad"/>
+  <text x="115" y="490" font-size="11" font-weight="700" fill="#6c3483">Öğreti:</text>
+  <text x="115" y="506" font-size="11" fill="#444">Doz–yanıt doğrusal değildir: TF/yapısal protein/morfojen gibi "stokiyometri-bağımlı" ürünlerde %50, hedef ağını eşik-altı bırakır.</text>
+  <text x="838" y="514" text-anchor="end" font-size="9" fill="#999">Kaynak: Seidman &amp; Seidman 2002; Bruneau ve ark. 2001</text>
+</svg>

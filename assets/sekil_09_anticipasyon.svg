@@ -1,0 +1,185 @@
+<svg viewBox="0 0 1100 680" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="sh09c">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arr-ped" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#475569"/>
+    </marker>
+    <marker id="arr-exp" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#B91C1C"/>
+    </marker>
+  </defs>
+
+  <!-- Beyaz zemin -->
+  <rect width="1100" height="680" fill="#ffffff"/>
+
+  <!-- Başlık bandı -->
+  <rect x="0" y="0" width="1100" height="52" fill="#1A2B4A"/>
+  <text x="550" y="33" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Anticipasyon: Tekrar Genişlemesi Kuşaktan Kuşağa Büyür</text>
+
+  <!-- Alt açıklama -->
+  <rect x="0" y="52" width="1100" height="26" fill="#E2E8F0"/>
+  <text x="550" y="70" text-anchor="middle" font-size="10.5" fill="#475569">Dinamik mutasyon özelliği — her nesilde tekrar sayısı artabilir, hastalık daha erken ve daha ağır başlar</text>
+
+  <!-- ===== SOL PANEL: Pedigri ===== -->
+  <rect x="20" y="88" width="480" height="450" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" filter="url(#sh09c)"/>
+
+  <rect x="28" y="96" width="28" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="42" y="111" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">A</text>
+  <text x="260" y="111" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2B4A">Üç Kuşaklı Anticipasyon Örneği (DM1)</text>
+
+  <!-- KUŞAK I (büyükanne/büyükbaba) -->
+  <text x="40" y="148" font-size="10" font-weight="600" fill="#64748B">I. Kuşak</text>
+
+  <!-- Büyükbaba (etkilenmemiş taşıyıcı) — kare -->
+  <rect x="130" y="158" width="44" height="44" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="152" y="185" text-anchor="middle" font-size="9" fill="#1D4ED8">55</text>
+  <text x="152" y="215" text-anchor="middle" font-size="8.5" fill="#64748B">Premut.</text>
+  <text x="152" y="226" text-anchor="middle" font-size="8.5" fill="#64748B">FXTAS riski</text>
+
+  <!-- Eş (normal) — daire -->
+  <ellipse cx="290" cy="180" rx="22" ry="22" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="290" y="184" text-anchor="middle" font-size="9" fill="#475569">22</text>
+  <text x="290" y="208" text-anchor="middle" font-size="8.5" fill="#64748B">Normal</text>
+
+  <!-- Yatay birleşme çizgisi -->
+  <line x1="174" y1="180" x2="268" y2="180" stroke="#475569" stroke-width="1.5"/>
+  <!-- Dikey iniş -->
+  <line x1="221" y1="180" x2="221" y2="252" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- KUŞAK II -->
+  <text x="40" y="272" font-size="10" font-weight="600" fill="#64748B">II. Kuşak</text>
+
+  <!-- Kız (premutasyon daha büyük) — daire -->
+  <ellipse cx="152" cy="290" rx="22" ry="22" fill="#FED7AA" stroke="#D97706" stroke-width="2"/>
+  <text x="152" y="293" text-anchor="middle" font-size="9" fill="#92400E">120</text>
+  <text x="152" y="306" text-anchor="middle" font-size="8" fill="#92400E">Premut. ↑</text>
+  <text x="152" y="316" text-anchor="middle" font-size="8" fill="#92400E">FXTAS/FXPOI</text>
+
+  <!-- Oğul (normal aralıkta kaldı) — kare -->
+  <rect x="268" y="268" width="44" height="44" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="290" y="292" text-anchor="middle" font-size="9" fill="#475569">42</text>
+  <text x="290" y="316" text-anchor="middle" font-size="8.5" fill="#64748B">Normal</text>
+
+  <!-- II. kuşak bağlantıları (I'den) -->
+  <line x1="221" y1="252" x2="152" y2="268" stroke="#475569" stroke-width="1.5"/>
+  <line x1="221" y1="252" x2="290" y2="268" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- Kızın eşi -->
+  <rect x="62" y="268" width="44" height="44" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="84" y="292" text-anchor="middle" font-size="9" fill="#475569">30</text>
+  <text x="84" y="316" text-anchor="middle" font-size="8.5" fill="#64748B">Normal</text>
+  <line x1="106" y1="290" x2="130" y2="290" stroke="#475569" stroke-width="1.5"/>
+  <!-- Dikey II→III -->
+  <line x1="152" y1="312" x2="152" y2="368" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- KUŞAK III -->
+  <text x="40" y="388" font-size="10" font-weight="600" fill="#64748B">III. Kuşak</text>
+
+  <!-- Çocuk A: tam mutasyon — daire -->
+  <ellipse cx="100" cy="408" rx="24" ry="24" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <text x="100" y="411" text-anchor="middle" font-size="9" font-weight="700" fill="#B91C1C">&gt;200</text>
+  <text x="100" y="423" text-anchor="middle" font-size="8" fill="#B91C1C">Tam mutasyon</text>
+  <text x="100" y="445" text-anchor="middle" font-size="8" fill="#B91C1C">Frajil X Sendromu</text>
+
+  <!-- Çocuk B: tam mutasyon — kare -->
+  <rect x="186" y="384" width="48" height="48" rx="4" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <text x="210" y="411" text-anchor="middle" font-size="9" font-weight="700" fill="#B91C1C">&gt;200</text>
+  <text x="210" y="423" text-anchor="middle" font-size="8" fill="#B91C1C">Tam mutasyon</text>
+  <text x="210" y="445" text-anchor="middle" font-size="8" fill="#B91C1C">Frajil X Sendromu</text>
+
+  <line x1="152" y1="368" x2="100" y2="384" stroke="#475569" stroke-width="1.5"/>
+  <line x1="152" y1="368" x2="210" y2="384" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- Anticipasyon ok ve etiket - sağda dikey ok -->
+  <line x1="360" y1="170" x2="360" y2="415" stroke="#B91C1C" stroke-width="2.5" marker-end="url(#arr-exp)" stroke-dasharray="6,3"/>
+  <rect x="368" y="255" width="112" height="90" rx="8" fill="#FEE2E2"/>
+  <text x="424" y="275" text-anchor="middle" font-size="10" font-weight="700" fill="#B91C1C">ANTİSİPASYON</text>
+  <text x="424" y="291" text-anchor="middle" font-size="9" fill="#B91C1C">I. Kuşak: 55</text>
+  <text x="424" y="305" text-anchor="middle" font-size="9" fill="#B91C1C">II. Kuşak: 120</text>
+  <text x="424" y="319" text-anchor="middle" font-size="9" fill="#B91C1C">III. Kuşak: &gt;200</text>
+  <text x="424" y="333" text-anchor="middle" font-size="9" fill="#B91C1C">Her nesil: ↑ ağırlık</text>
+
+  <!-- Açıklama notu -->
+  <rect x="28" y="480" width="462" height="46" rx="8" fill="#FEF3C7"/>
+  <text x="259" y="499" text-anchor="middle" font-size="9.5" font-weight="600" fill="#92400E">Not: HTT (CAG) anticipasyonu paternal aktarımda belirgin;</text>
+  <text x="259" y="513" text-anchor="middle" font-size="9.5" fill="#92400E">FMR1 (CGG) tam mutasyona geçiş yalnızca maternal aktarımda olur.</text>
+
+  <!-- ===== SAĞ PANEL: Tekrar Genişleme Mekanizması ===== -->
+  <rect x="520" y="88" width="560" height="450" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" filter="url(#sh09c)"/>
+
+  <rect x="528" y="96" width="28" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="542" y="111" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">B</text>
+  <text x="800" y="111" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2B4A">DNA Kopyalanmasında Tekrar Genişlemesi</text>
+
+  <!-- Mekanizma şeması: slippage -->
+  <text x="800" y="140" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569">Replikasyon kayması (slippage) modeli</text>
+
+  <!-- Normal DNA çift sarmalı -->
+  <text x="548" y="172" font-size="10" font-weight="600" fill="#1D4ED8">Normal alel</text>
+  <!-- Üst şerit -->
+  <rect x="548" y="178" width="240" height="22" rx="4" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <text x="668" y="193" text-anchor="middle" font-size="9" fill="#1D4ED8">5'——CAG CAG CAG CAG——3'  (×15)</text>
+  <!-- Alt şerit -->
+  <rect x="548" y="202" width="240" height="22" rx="4" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <text x="668" y="217" text-anchor="middle" font-size="9" fill="#1D4ED8">3'——GTC GTC GTC GTC——5'  (×15)</text>
+
+  <!-- Ok sağa: kopyalama -->
+  <line x1="800" y1="200" x2="860" y2="200" stroke="#64748B" stroke-width="1.5" marker-end="url(#arr-ped)"/>
+  <text x="830" y="193" text-anchor="middle" font-size="8.5" fill="#64748B">Replikasyon</text>
+
+  <!-- Kopya şeridi kayması -->
+  <text x="548" y="252" font-size="10" font-weight="600" fill="#D97706">Replikasyon kayması (slippage)</text>
+  <rect x="548" y="258" width="290" height="22" rx="4" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <text x="693" y="273" text-anchor="middle" font-size="9" fill="#92400E">5'——CAG CAG [CAG CAG] CAG CAG——3' (döngü)</text>
+  <rect x="548" y="282" width="240" height="22" rx="4" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <text x="668" y="297" text-anchor="middle" font-size="9" fill="#92400E">3'——GTC GTC GTC GTC——5' (şablon)</text>
+
+  <!-- Hata düzeltilmezse -->
+  <line x1="693" y1="305" x2="693" y2="330" stroke="#B91C1C" stroke-width="1.5" marker-end="url(#arr-exp)"/>
+  <text x="700" y="320" font-size="9" fill="#B91C1C">MMR hatası / tamir yok</text>
+
+  <!-- Genişlemiş alel -->
+  <text x="548" y="350" font-size="10" font-weight="600" fill="#B91C1C">Genişlemiş alel</text>
+  <rect x="548" y="356" width="340" height="22" rx="4" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="718" y="371" text-anchor="middle" font-size="9" fill="#B91C1C">5'——CAG CAG CAG CAG CAG CAG CAG CAG——3'  (×17+)</text>
+  <rect x="548" y="380" width="340" height="22" rx="4" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+  <text x="718" y="395" text-anchor="middle" font-size="9" fill="#B91C1C">3'——GTC GTC GTC GTC GTC GTC GTC GTC——5'  (×17+)</text>
+
+  <!-- Sağ bilgi kutusu -->
+  <rect x="870" y="155" width="192" height="270" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="966" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2B4A">Genişleme Faktörleri</text>
+  <line x1="880" y1="185" x2="1052" y2="185" stroke="#CBD5E1" stroke-width="1"/>
+
+  <text x="880" y="202" font-size="9" font-weight="600" fill="#D97706">Kararsızlık artar:</text>
+  <text x="882" y="217" font-size="9" fill="#475569">• Tekrar sayısı uzadıkça</text>
+  <text x="882" y="231" font-size="9" fill="#475569">• Germline &gt; somatik</text>
+  <text x="882" y="245" font-size="9" fill="#475569">• Ebeveyn cinsiyeti</text>
+  <text x="882" y="259" font-size="9" fill="#475569">  (hastalığa göre değişir)</text>
+
+  <text x="880" y="278" font-size="9" font-weight="600" fill="#2563EB">Koruyucu faktörler:</text>
+  <text x="882" y="293" font-size="9" fill="#475569">• CAT/histidin kesintileri</text>
+  <text x="882" y="307" font-size="9" fill="#475569">  (SCA1'de) → stabilize</text>
+  <text x="882" y="321" font-size="9" fill="#475569">• Kısa tekrar uzunluğu</text>
+
+  <text x="880" y="340" font-size="9" font-weight="600" fill="#B91C1C">Somatik mozaiklik:</text>
+  <text x="882" y="355" font-size="9" fill="#475569">• Doku bazında farklı</text>
+  <text x="882" y="369" font-size="9" fill="#475569">  tekrar uzunluğu</text>
+  <text x="882" y="383" font-size="9" fill="#475569">• Beyin &gt; kan</text>
+  <text x="882" y="397" font-size="9" fill="#475569">• Test duyarlılığını etkiler</text>
+  <text x="882" y="411" font-size="9" fill="#475569">• LR-WGS + PCR her ikisi de</text>
+  <text x="882" y="423" font-size="9" fill="#475569">  gerekebilir</text>
+
+  <!-- Alt bilgi kutusu -->
+  <rect x="535" y="418" width="320" height="60" rx="8" fill="#EFF6FF"/>
+  <text x="695" y="438" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1D4ED8">Neden GERMLINE kararsızlığı önemli?</text>
+  <text x="695" y="453" text-anchor="middle" font-size="9" fill="#475569">Sperm/yumurta oluşumu sırasında tekrar sayısı değişirse</text>
+  <text x="695" y="467" text-anchor="middle" font-size="9" fill="#475569">yeni nesilde farklı (genellikle daha büyük) alel bulunur → anticipasyon</text>
+
+  <!-- Footer -->
+  <rect x="0" y="552" width="1100" height="60" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="550" y="574" text-anchor="middle" font-size="11" font-weight="700" fill="#1A2B4A">Öğreti: Tekrar genişleme hastalıklarında hem aile öyküsü hem nesil sırası önemlidir; kardeşler aynı aile içinde farklı şiddetle etkilenebilir.</text>
+  <text x="550" y="596" text-anchor="middle" font-size="9.5" fill="#475569">Kaynaklar: Paulson (2018) · Kraus-Perrotta &amp;amp; Lagalwar (2016) — SCA1 genişleme mekanizmaları</text>
+  <text x="1090" y="670" text-anchor="end" font-size="8.5" fill="#94A3B8">Şekil 9.3 · Mekanizma Kitabı</text>
+</svg>

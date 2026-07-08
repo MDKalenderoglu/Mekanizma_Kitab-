@@ -1,0 +1,60 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="500" fill="#ffffff"/>
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 17 — GoF Varyantların "İmzası": Neden LoF'tan Farklı Görünür?</text>
+  <text x="480" y="52" text-anchor="middle" font-size="12" fill="#555">GoF tipik olarak BELİRLİ pozisyonlarda kümelenen missense varyantlardır; LoF ise gen boyunca dağılmış işlev-yıkan varyantlardır.</text>
+
+  <!-- LoF gene track -->
+  <text x="80" y="100" font-size="13" font-weight="700" fill="#2471a3">LoF imzası — gen boyunca dağınık, işlevi yıkan varyantlar</text>
+  <rect x="80" y="115" width="800" height="30" rx="4" fill="#eaf2fb" stroke="#2980b9"/>
+  <!-- exon boundaries -->
+  <line x1="220" y1="115" x2="220" y2="145" stroke="#c5d8ec"/>
+  <line x1="360" y1="115" x2="360" y2="145" stroke="#c5d8ec"/>
+  <line x1="500" y1="115" x2="500" y2="145" stroke="#c5d8ec"/>
+  <line x1="640" y1="115" x2="640" y2="145" stroke="#c5d8ec"/>
+  <line x1="760" y1="115" x2="760" y2="145" stroke="#c5d8ec"/>
+  <!-- scattered truncating marks (X) -->
+  <text x="150" y="137" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">✕</text>
+  <text x="300" y="137" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">✕</text>
+  <text x="430" y="137" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">✕</text>
+  <text x="560" y="137" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">✕</text>
+  <text x="700" y="137" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">✕</text>
+  <text x="820" y="137" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">✕</text>
+  <text x="80" y="166" font-size="10.5" fill="#666">nonsense/frameshift/splice — her yerde; "her tür LoF aynı sonucu (kayıp) verir" → constraint: pLI/LOEUF yüksek</text>
+
+  <!-- GoF gene track -->
+  <text x="80" y="225" font-size="13" font-weight="700" fill="#c0392b">GoF imzası — dar bölgelerde KÜMELENEN missense (hotspot)</text>
+  <rect x="80" y="240" width="800" height="30" rx="4" fill="#fdf2f2" stroke="#c0392b"/>
+  <line x1="220" y1="240" x2="220" y2="270" stroke="#f1c0c0"/>
+  <line x1="360" y1="240" x2="360" y2="270" stroke="#f1c0c0"/>
+  <line x1="500" y1="240" x2="500" y2="270" stroke="#f1c0c0"/>
+  <line x1="640" y1="240" x2="640" y2="270" stroke="#f1c0c0"/>
+  <line x1="760" y1="240" x2="760" y2="270" stroke="#f1c0c0"/>
+  <!-- clustered dots at one hotspot -->
+  <circle cx="495" cy="255" r="6" fill="#8e44ad"/>
+  <circle cx="505" cy="255" r="6" fill="#8e44ad"/>
+  <circle cx="500" cy="247" r="6" fill="#8e44ad"/>
+  <circle cx="500" cy="263" r="6" fill="#8e44ad"/>
+  <circle cx="512" cy="250" r="6" fill="#8e44ad"/>
+  <!-- second smaller hotspot -->
+  <circle cx="300" cy="255" r="6" fill="#8e44ad"/>
+  <circle cx="308" cy="251" r="6" fill="#8e44ad"/>
+  <text x="500" y="292" text-anchor="middle" font-size="10" fill="#6c3483">fonksiyonel domain / aktivasyon bölgesi (hotspot)</text>
+  <text x="80" y="313" font-size="10.5" fill="#666">aynı pozisyon defalarca (recurrent), sıklıkla de novo — "belirli değişim belirli etki yapar" → PM1 (hotspot), PS1/PM5, PP2</text>
+
+  <!-- interpretation implications -->
+  <rect x="80" y="345" width="390" height="130" rx="8" fill="#eef6fb" stroke="#2980b9"/>
+  <text x="95" y="368" font-size="12" font-weight="700" fill="#1a5276">Yorum ipuçları (GoF lehine):</text>
+  <text x="95" y="390" font-size="10.5" fill="#444">• Missense kümelenmesi / mutasyonel hotspot → PM1</text>
+  <text x="95" y="409" font-size="10.5" fill="#444">• Aynı/benzer rezidüde bilinen patojen → PS1 / PM5</text>
+  <text x="95" y="428" font-size="10.5" fill="#444">• Missense'e dar, truncating'e toleranslı gen → PP2</text>
+  <text x="95" y="447" font-size="10.5" fill="#444">• De novo (anne-baba sağlam) → PS2</text>
+  <text x="95" y="466" font-size="10.5" fill="#444">• Fonksiyonel "aktivite artışı" gösterimi → PS3</text>
+
+  <rect x="490" y="345" width="390" height="130" rx="8" fill="#fdecea" stroke="#c0392b"/>
+  <text x="505" y="368" font-size="12" font-weight="700" fill="#922b21">Tuzaklar:</text>
+  <text x="505" y="390" font-size="10.5" fill="#444">• GoF gende PVS1 (LoF kriteri) UYGULAMA —</text>
+  <text x="505" y="406" font-size="10.5" fill="#444">  truncating varyant patojen olmayabilir!</text>
+  <text x="505" y="426" font-size="10.5" fill="#444">• Yüksek pLI tek başına GoF'u göstermez;</text>
+  <text x="505" y="442" font-size="10.5" fill="#444">  mekanizma yönü ayrıca belirlenmeli.</text>
+  <text x="505" y="462" font-size="10.5" fill="#444">• "Aktive edici" varsayımını fonksiyonel kanıt destekler.</text>
+</svg>

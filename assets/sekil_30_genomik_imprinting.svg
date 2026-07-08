@@ -1,0 +1,84 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <defs>
+    <filter id="s30shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Başlık -->
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 10.1 — Genomik imprinting: ebeveyn kökenine göre tek-alel ifade</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">İmprintli bir gen, iki kopyadan yalnızca birinden — hangi ebeveynden geldiğine bağlı olarak — ifade edilir; diğeri metilasyonla susturulur.</text>
+
+  <!-- Sütun başlıkları -->
+  <text x="335" y="92" font-size="13" font-weight="700" fill="#2563EB" text-anchor="middle">GEN A — paternal-ifadeli</text>
+  <text x="335" y="108" font-size="10.5" fill="#64748B" text-anchor="middle">(ör. SNRPN, IGF2)</text>
+  <text x="640" y="92" font-size="13" font-weight="700" fill="#D97706" text-anchor="middle">GEN B — maternal-ifadeli</text>
+  <text x="640" y="108" font-size="10.5" fill="#64748B" text-anchor="middle">(ör. UBE3A, CDKN1C)</text>
+
+  <!-- ============ PATERNAL SIRA ============ -->
+  <text x="42" y="150" font-size="13" font-weight="700" fill="#2563EB">PATERNAL</text>
+  <text x="42" y="167" font-size="10.5" fill="#64748B">(baba kökenli)</text>
+
+  <!-- ICR metilasyon işaretleri (paternal) -->
+  <!-- Gen A: metilsiz (açık daireler) -->
+  <circle cx="290" cy="132" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+  <circle cx="305" cy="132" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+  <circle cx="320" cy="132" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+  <!-- Gen B: metile (dolu daireler) -->
+  <circle cx="595" cy="132" r="4.5" fill="#1A2B4A"/>
+  <circle cx="610" cy="132" r="4.5" fill="#1A2B4A"/>
+  <circle cx="625" cy="132" r="4.5" fill="#1A2B4A"/>
+
+  <!-- Paternal kromozom çubuğu -->
+  <rect x="180" y="145" width="640" height="52" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2" filter="url(#s30shadow)"/>
+  <!-- Gen A kutusu (aktif) -->
+  <rect x="270" y="155" width="130" height="32" rx="6" fill="#2563EB"/>
+  <text x="335" y="176" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Gen A ✓</text>
+  <!-- Gen B kutusu (susturulmuş) -->
+  <rect x="575" y="155" width="130" height="32" rx="6" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.3"/>
+  <text x="640" y="176" font-size="13" font-weight="700" fill="#94A3B8" text-anchor="middle">Gen B ✗</text>
+
+  <!-- Durum etiketleri (paternal) -->
+  <text x="335" y="222" font-size="11" font-weight="700" fill="#1D4ED8" text-anchor="middle">mRNA → İFADE VAR</text>
+  <text x="640" y="222" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">SUSTURULMUŞ (metile)</text>
+
+  <!-- ============ MATERNAL SIRA ============ -->
+  <text x="42" y="312" font-size="13" font-weight="700" fill="#D97706">MATERNAL</text>
+  <text x="42" y="329" font-size="10.5" fill="#64748B">(anne kökenli)</text>
+
+  <!-- ICR metilasyon işaretleri (maternal) -->
+  <!-- Gen A: metile (dolu) -->
+  <circle cx="290" cy="294" r="4.5" fill="#1A2B4A"/>
+  <circle cx="305" cy="294" r="4.5" fill="#1A2B4A"/>
+  <circle cx="320" cy="294" r="4.5" fill="#1A2B4A"/>
+  <!-- Gen B: metilsiz (açık) -->
+  <circle cx="595" cy="294" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+  <circle cx="610" cy="294" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+  <circle cx="625" cy="294" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+
+  <!-- Maternal kromozom çubuğu -->
+  <rect x="180" y="307" width="640" height="52" rx="12" fill="#FEF3C7" stroke="#D97706" stroke-width="2" filter="url(#s30shadow)"/>
+  <!-- Gen A kutusu (susturulmuş) -->
+  <rect x="270" y="317" width="130" height="32" rx="6" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.3"/>
+  <text x="335" y="338" font-size="13" font-weight="700" fill="#94A3B8" text-anchor="middle">Gen A ✗</text>
+  <!-- Gen B kutusu (aktif) -->
+  <rect x="575" y="317" width="130" height="32" rx="6" fill="#D97706"/>
+  <text x="640" y="338" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Gen B ✓</text>
+
+  <!-- Durum etiketleri (maternal) -->
+  <text x="335" y="384" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle">SUSTURULMUŞ (metile)</text>
+  <text x="640" y="384" font-size="11" font-weight="700" fill="#B45309" text-anchor="middle">mRNA → İFADE VAR</text>
+
+  <!-- Lejant -->
+  <rect x="180" y="408" width="640" height="34" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <circle cx="205" cy="425" r="4.5" fill="#1A2B4A"/>
+  <text x="216" y="429" font-size="10.5" fill="#2E3440">● Metile CpG = alel susturulur</text>
+  <circle cx="470" cy="425" r="4.5" fill="#ffffff" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="481" y="429" font-size="10.5" fill="#2E3440">○ Metilsiz CpG = alel aktif (ifade)</text>
+
+  <!-- Öğreti footer -->
+  <text x="40" y="470" font-size="11.5" font-style="italic" fill="#475569">Öğreti: İmprint, DNA dizisini değil, hangi alelin okunacağını belirleyen kalıtsal bir epigenetik işarettir. Aynı gen bir ebeveynden aktif, diğerinden sessizdir —</text>
+  <text x="40" y="486" font-size="11.5" font-style="italic" fill="#475569">bu yüzden tek bir alelin kaybı bile hastalık yapabilir ve etki, varyantın hangi ebeveynden geldiğine bağlıdır.</text>
+  <text x="820" y="486" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynak: Reik &amp; Walter (2001)</text>
+</svg>

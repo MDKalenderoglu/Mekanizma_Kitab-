@@ -1,0 +1,105 @@
+<svg viewBox="0 0 920 500" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="500" fill="#ffffff"/>
+  <defs>
+    <filter id="s32shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker id="s32arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1,1 L9,5 L1,9 Z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <!-- Başlık -->
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 10.3 — Uniparental dizomi (UPD): oluşum yolları ve resesif maskeleme</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Bir kromozom çiftinin iki kopyasının da tek ebeveynden gelmesi (UPD); izo- ve heterodizomi ayrımı klinik sonucu belirler.</text>
+
+  <!-- Kromozom lejantı -->
+  <rect x="640" y="70" width="260" height="18" rx="5" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.8"/>
+  <rect x="650" y="73" width="10" height="12" rx="3" fill="#93C5FD" stroke="#2563EB" stroke-width="1"/>
+  <text x="664" y="83" font-size="9.5" fill="#2E3440">paternal</text>
+  <rect x="720" y="73" width="10" height="12" rx="3" fill="#FDE68A" stroke="#D97706" stroke-width="1"/>
+  <text x="734" y="83" font-size="9.5" fill="#2E3440">maternal homolog 1 / 2</text>
+
+  <!-- ============ PANEL A: TRİZOMİ KURTARMA ============ -->
+  <rect x="40" y="100" width="270" height="272" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2" filter="url(#s32shadow)"/>
+  <rect x="40" y="100" width="270" height="30" rx="12" fill="#F1F5F9"/>
+  <rect x="40" y="118" width="270" height="12" fill="#F1F5F9"/>
+  <text x="54" y="120" font-size="12.5" font-weight="700" fill="#1A2B4A">A · Trizomi kurtarma (en sık)</text>
+
+  <text x="56" y="152" font-size="10.5" font-weight="700" fill="#475569">① Trizomik zigot</text>
+  <!-- 3 kromozom: 1 paternal + 2 farklı maternal -->
+  <rect x="60" y="158" width="18" height="46" rx="5" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="86" y="158" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <rect x="112" y="158" width="18" height="46" rx="5" fill="#FBBF24" stroke="#B45309" stroke-width="1.3"/>
+  <text x="150" y="176" font-size="10" fill="#2E3440">3 kopya:</text>
+  <text x="150" y="191" font-size="10" fill="#64748B">1 baba + 2 anne</text>
+
+  <line x1="90" y1="212" x2="90" y2="236" stroke="#475569" stroke-width="1.6" marker-end="url(#s32arrow)"/>
+  <text x="104" y="228" font-size="9.8" fill="#B91C1C" font-weight="700">− paternal atılır</text>
+
+  <text x="56" y="258" font-size="10.5" font-weight="700" fill="#475569">② Maternal UPD</text>
+  <rect x="60" y="264" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <rect x="86" y="264" width="18" height="46" rx="5" fill="#FBBF24" stroke="#B45309" stroke-width="1.3"/>
+  <text x="118" y="282" font-size="10" font-weight="700" fill="#D97706">Heterodizomi</text>
+  <text x="118" y="297" font-size="9.6" fill="#64748B">2 farklı homolog</text>
+  <text x="56" y="335" font-size="9.6" fill="#475569">Mayoz-I hatası kaynaklı;</text>
+  <text x="56" y="349" font-size="9.6" fill="#475569">plasenta mozaikliği olabilir.</text>
+
+  <!-- ============ PANEL B: MONOZOMİ KURTARMA ============ -->
+  <rect x="325" y="100" width="270" height="272" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2" filter="url(#s32shadow)"/>
+  <rect x="325" y="100" width="270" height="30" rx="12" fill="#F1F5F9"/>
+  <rect x="325" y="118" width="270" height="12" fill="#F1F5F9"/>
+  <text x="339" y="120" font-size="12.5" font-weight="700" fill="#1A2B4A">B · Monozomi kurtarma</text>
+
+  <text x="341" y="152" font-size="10.5" font-weight="700" fill="#475569">① Monozomik zigot</text>
+  <rect x="345" y="158" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <text x="378" y="176" font-size="10" fill="#2E3440">1 kopya:</text>
+  <text x="378" y="191" font-size="10" fill="#64748B">kayıp gamet</text>
+
+  <line x1="354" y1="212" x2="354" y2="236" stroke="#475569" stroke-width="1.6" marker-end="url(#s32arrow)"/>
+  <text x="368" y="228" font-size="9.8" fill="#1D4ED8" font-weight="700">+ kopya ikilenir</text>
+
+  <text x="341" y="258" font-size="10.5" font-weight="700" fill="#475569">② Maternal UPD</text>
+  <rect x="345" y="264" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <rect x="371" y="264" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <text x="403" y="282" font-size="10" font-weight="700" fill="#D97706">İzodizomi</text>
+  <text x="403" y="297" font-size="9.6" fill="#64748B">özdeş 2 kopya</text>
+  <text x="341" y="335" font-size="9.6" fill="#475569">Postzigotik mitotik hata;</text>
+  <text x="341" y="349" font-size="9.6" fill="#475569">tüm lokuslar homozigot.</text>
+
+  <!-- ============ PANEL C: REZESİF MASKELEME ============ -->
+  <rect x="610" y="100" width="290" height="272" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2" filter="url(#s32shadow)"/>
+  <rect x="610" y="100" width="290" height="30" rx="12" fill="#FEF6F5"/>
+  <rect x="610" y="118" width="290" height="12" fill="#FEF6F5"/>
+  <text x="624" y="120" font-size="12.5" font-weight="700" fill="#B91C1C">C · İzodizomi → resesif maskeleme</text>
+
+  <text x="626" y="152" font-size="10.5" font-weight="700" fill="#475569">① Anne taşıyıcı (heterozigot)</text>
+  <rect x="630" y="158" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <path d="M639,167 l2.8,5.7 6.3,0.9 -4.5,4.4 1.1,6.3 -5.7,-3 -5.7,3 1.1,-6.3 -4.5,-4.4 6.3,-0.9 Z" fill="#FCD34D" stroke="#92400E" stroke-width="1"/>
+  <rect x="656" y="158" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <text x="690" y="174" font-size="9.8" fill="#2E3440">yalnız 1 alelde</text>
+  <text x="690" y="188" font-size="9.8" fill="#64748B">patojen varyant (★)</text>
+
+  <line x1="643" y1="212" x2="643" y2="236" stroke="#475569" stroke-width="1.6" marker-end="url(#s32arrow)"/>
+  <text x="657" y="223" font-size="9.6" fill="#B91C1C" font-weight="700">izodizomi: ★'lı</text>
+  <text x="657" y="235" font-size="9.6" fill="#B91C1C" font-weight="700">homolog ikilenir</text>
+
+  <text x="626" y="258" font-size="10.5" font-weight="700" fill="#475569">② Çocuk homozigot ★★</text>
+  <rect x="630" y="264" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <path d="M639,273 l2.8,5.7 6.3,0.9 -4.5,4.4 1.1,6.3 -5.7,-3 -5.7,3 1.1,-6.3 -4.5,-4.4 6.3,-0.9 Z" fill="#FCD34D" stroke="#92400E" stroke-width="1"/>
+  <rect x="656" y="264" width="18" height="46" rx="5" fill="#FDE68A" stroke="#D97706" stroke-width="1.3"/>
+  <path d="M665,273 l2.8,5.7 6.3,0.9 -4.5,4.4 1.1,6.3 -5.7,-3 -5.7,3 1.1,-6.3 -4.5,-4.4 6.3,-0.9 Z" fill="#FCD34D" stroke="#92400E" stroke-width="1"/>
+  <text x="690" y="282" font-size="10" font-weight="700" fill="#B91C1C">Resesif hastalık</text>
+  <text x="690" y="297" font-size="9.6" fill="#64748B">baba taşıyıcı değil!</text>
+  <text x="626" y="335" font-size="9.6" fill="#475569">İzodizomi, tek ebeveyn taşıyıcı</text>
+  <text x="626" y="349" font-size="9.6" fill="#475569">olsa bile resesif hastalık yapar.</text>
+
+  <!-- Alt şerit: UPD iki yolla hastalık yapar -->
+  <rect x="40" y="388" width="860" height="46" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="58" y="408" font-size="11" font-weight="700" fill="#1A2B4A">UPD nasıl hastalık yapar?</text>
+  <text x="58" y="425" font-size="10.5" fill="#2E3440">① İmprintli bölgede ebeveyn-doz dengesi bozulur (PWS/AS, BWS/SRS gibi)   ·   ② İzodizomide resesif patojen varyant homozigotlaşır (maskelenme kalkar).</text>
+
+  <!-- Öğreti footer -->
+  <text x="40" y="462" font-size="11.5" font-style="italic" fill="#475569">Öğreti: SNP array/trio-WES, UPD'yi yakalayabilir; heterodizomi–izodizomi ayrımı hem resesif hastalık riskini hem oluşum mekanizmasını (mayoz vs mitoz) gösterir.</text>
+  <text x="900" y="480" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynak: Kotzot (2001) · Mergenthaler ve ark. (2000)</text>
+</svg>

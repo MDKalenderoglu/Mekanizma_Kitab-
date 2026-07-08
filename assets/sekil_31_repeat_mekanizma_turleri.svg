@@ -1,0 +1,61 @@
+<svg viewBox="0 0 920 480" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="480" fill="#ffffff"/>
+  <text x="460" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">Tekrar genişlemesi dört farklı mekanizmayla hastalık yapar</text>
+  <text x="460" y="48" text-anchor="middle" font-size="10.5" fill="#64748B">Belirleyici: tekrarın tipi ve gendeki konumu (kodlayan / 5′UTR / 3′UTR / intron)</text>
+
+  <!-- headers -->
+  <text x="150" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#64748B">TEKRAR + KONUM</text>
+  <text x="460" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#64748B">MEKANİZMA</text>
+  <text x="800" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#64748B">ETKİ + ÖRNEK</text>
+
+  <!-- Row 1 : polyQ -->
+  <rect x="24" y="84" width="872" height="86" rx="10" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.3"/>
+  <text x="44" y="112" font-size="11.5" font-weight="700" fill="#B45309">CAG — kodlayan bölge</text>
+  <text x="44" y="130" font-size="9.5" fill="#92742a">poliglutamin (poliQ) uzar</text>
+  <text x="44" y="150" font-size="9" fill="#64748B">protein üretilir, içine uzun Q dizisi girer</text>
+  <text x="460" y="118" text-anchor="middle" font-size="10.5" font-weight="600" fill="#2E3440">Toksik protein → yanlış katlanma → agregat</text>
+  <text x="460" y="136" text-anchor="middle" font-size="9.5" fill="#64748B">kazanılmış zararlı işlev (neomorf/toksik kazanım)</text>
+  <rect x="690" y="98" width="190" height="58" rx="8" fill="#ffffff" stroke="#D97706" stroke-width="1.3"/>
+  <text x="785" y="120" text-anchor="middle" font-size="10" font-weight="700" fill="#B45309">GoF / toksik kazanım</text>
+  <text x="785" y="138" text-anchor="middle" font-size="9" fill="#92742a">HTT/Huntington, SCA'lar</text>
+  <text x="785" y="151" text-anchor="middle" font-size="8" fill="#64748b">→ Bölüm 6 (neomorf)</text>
+
+  <!-- Row 2 : CGG methylation -->
+  <rect x="24" y="178" width="872" height="86" rx="10" fill="#EFF4FB" stroke="#BFD3EE" stroke-width="1.3"/>
+  <text x="44" y="206" font-size="11.5" font-weight="700" fill="#1D4ED8">CGG — 5′UTR (promotör yakını)</text>
+  <text x="44" y="224" font-size="9.5" fill="#2456c9">tam genişlemede hipermetilasyon</text>
+  <text x="44" y="244" font-size="9" fill="#64748B">CpG adası metillenir → kromatin kapanır</text>
+  <text x="460" y="212" text-anchor="middle" font-size="10.5" font-weight="600" fill="#2E3440">Gen SUSTURULUR → protein üretilmez</text>
+  <text x="460" y="230" text-anchor="middle" font-size="9.5" fill="#64748B">epigenetik susturma (Bölüm 10 ile köprü)</text>
+  <rect x="690" y="192" width="190" height="58" rx="8" fill="#ffffff" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="785" y="214" text-anchor="middle" font-size="10" font-weight="700" fill="#1D4ED8">işlev kaybı (LoF)</text>
+  <text x="785" y="232" text-anchor="middle" font-size="9" fill="#2456c9">FMR1/Frajil X</text>
+  <text x="785" y="245" text-anchor="middle" font-size="8" fill="#64748b">→ Şekil 32</text>
+
+  <!-- Row 3 : CTG RNA toxicity -->
+  <rect x="24" y="272" width="872" height="86" rx="10" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.3"/>
+  <text x="44" y="300" font-size="11.5" font-weight="700" fill="#B45309">CTG — 3′UTR (kodlama dışı)</text>
+  <text x="44" y="318" font-size="9.5" fill="#92742a">uzun CUG'lu RNA üretilir</text>
+  <text x="44" y="338" font-size="9" fill="#64748B">RNA çekirdekte odaklar (foci) oluşturur</text>
+  <text x="460" y="306" text-anchor="middle" font-size="10.5" font-weight="600" fill="#2E3440">Toksik RNA, bağlayıcı proteinleri (MBNL) tuzaklar</text>
+  <text x="460" y="324" text-anchor="middle" font-size="9.5" fill="#64748B">splicing düzensizliği → RNA "gain-of-function"</text>
+  <rect x="690" y="286" width="190" height="58" rx="8" fill="#ffffff" stroke="#D97706" stroke-width="1.3"/>
+  <text x="785" y="308" text-anchor="middle" font-size="10" font-weight="700" fill="#B45309">RNA toksisitesi</text>
+  <text x="785" y="326" text-anchor="middle" font-size="9" fill="#92742a">DMPK/miyotonik distrofi (DM1)</text>
+  <text x="785" y="339" text-anchor="middle" font-size="8" fill="#64748b">premutasyonda FXTAS</text>
+
+  <!-- Row 4 : intronic LoF -->
+  <rect x="24" y="366" width="872" height="86" rx="10" fill="#EFF4FB" stroke="#BFD3EE" stroke-width="1.3"/>
+  <text x="44" y="394" font-size="11.5" font-weight="700" fill="#1D4ED8">GAA — intron</text>
+  <text x="44" y="412" font-size="9.5" fill="#2456c9">transkripsiyonu engeller</text>
+  <text x="44" y="432" font-size="9" fill="#64748B">gen ifadesi azalır (iki allelde → resesif)</text>
+  <text x="460" y="400" text-anchor="middle" font-size="10.5" font-weight="600" fill="#2E3440">Protein AZALIR (susma değil, kısma)</text>
+  <text x="460" y="418" text-anchor="middle" font-size="9.5" fill="#64748B">azalmış ifade → işlev kaybı</text>
+  <rect x="690" y="380" width="190" height="58" rx="8" fill="#ffffff" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="785" y="402" text-anchor="middle" font-size="10" font-weight="700" fill="#1D4ED8">LoF (resesif)</text>
+  <text x="785" y="420" text-anchor="middle" font-size="9" fill="#2456c9">FXN/Friedreich ataksisi</text>
+  <text x="785" y="433" text-anchor="middle" font-size="8" fill="#64748b">azalmış frataksin</text>
+
+  <!-- footer -->
+  <text x="460" y="472" text-anchor="middle" font-size="9.5" font-style="italic" fill="#64748b">Öğreti: aynı "tekrar genişlemesi" başlığı altında dört zıt mekanizma vardır — konum mekanizmayı, mekanizma da tedavi hedefini belirler.</text>
+</svg>

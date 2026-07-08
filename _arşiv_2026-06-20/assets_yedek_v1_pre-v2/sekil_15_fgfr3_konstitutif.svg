@@ -1,0 +1,55 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="540" fill="#ffffff"/>
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 15 — FGFR3: Konstitütif Aktivasyon Nasıl Kıkırdağı Baskılar?</text>
+  <text x="480" y="52" text-anchor="middle" font-size="12" fill="#555">FGFR3, büyüme plağında kondrosit çoğalmasını FRENLER. GoF varyantı bu freni "hep basılı" yapar → kemik uzaması azalır (akondroplazi).</text>
+
+  <line x1="480" y1="78" x2="480" y2="430" stroke="#ccc" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- LEFT: normal -->
+  <text x="240" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#1e8449">Normal FGFR3 (ligand-bağımlı)</text>
+  <rect x="90" y="150" width="300" height="14" fill="#eaf2fb" stroke="#95a5a6"/>
+  <text x="100" y="145" font-size="10" fill="#999">hücre zarı</text>
+  <!-- ligand -->
+  <circle cx="232" cy="125" r="10" fill="#27ae60"/>
+  <text x="232" y="129" text-anchor="middle" font-size="9" fill="#fff">FGF</text>
+  <!-- receptor monomers come together only with ligand -->
+  <rect x="216" y="135" width="14" height="70" rx="3" fill="#2980b9"/>
+  <rect x="234" y="135" width="14" height="70" rx="3" fill="#2980b9"/>
+  <text x="240" y="230" text-anchor="middle" font-size="10.5" fill="#1e8449">ligand bağlanınca DÜZENLİ sinyal</text>
+  <path d="M240 240 L240 275" stroke="#27ae60" stroke-width="3" marker-end="url(#g)"/>
+  <text x="240" y="298" text-anchor="middle" font-size="11" fill="#1e8449">kondrosit çoğalması ölçülü frenlenir</text>
+  <!-- growth plate normal -->
+  <rect x="170" y="320" width="140" height="20" fill="#aed6f1"/>
+  <rect x="170" y="342" width="140" height="20" fill="#aed6f1"/>
+  <rect x="170" y="364" width="140" height="20" fill="#aed6f1"/>
+  <rect x="170" y="386" width="140" height="20" fill="#aed6f1"/>
+  <text x="240" y="424" text-anchor="middle" font-size="11" font-weight="700" fill="#1e8449">düzenli büyüme plağı → normal uzun kemik</text>
+
+  <!-- RIGHT: GoF -->
+  <text x="720" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">GoF FGFR3 G380R (ligand-BAĞIMSIZ)</text>
+  <rect x="570" y="150" width="300" height="14" fill="#eaf2fb" stroke="#95a5a6"/>
+  <text x="760" y="125" font-size="10.5" fill="#c0392b">ligand YOK</text>
+  <!-- receptor stuck dimer -->
+  <rect x="700" y="135" width="14" height="70" rx="3" fill="#8e44ad"/>
+  <rect x="718" y="135" width="14" height="70" rx="3" fill="#8e44ad"/>
+  <path d="M700 150 q16 -10 32 0" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="716" y="230" text-anchor="middle" font-size="10.5" fill="#c0392b">dimer kilitli → SÜREKLI sinyal</text>
+  <path d="M716 240 L716 275" stroke="#c0392b" stroke-width="6" marker-end="url(#r)"/>
+  <text x="716" y="298" text-anchor="middle" font-size="11" font-weight="700" fill="#c0392b">kondrosit çoğalması AŞIRI frenlenir</text>
+  <!-- growth plate compressed -->
+  <rect x="650" y="320" width="140" height="11" fill="#f5b7b1"/>
+  <rect x="650" y="333" width="140" height="11" fill="#f5b7b1"/>
+  <rect x="650" y="346" width="140" height="11" fill="#f5b7b1"/>
+  <text x="720" y="424" text-anchor="middle" font-size="11" font-weight="700" fill="#c0392b">daralmış büyüme plağı → kısa kemik (rizomelik)</text>
+
+  <defs>
+    <marker id="g" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3 L0,6 z" fill="#27ae60"/></marker>
+    <marker id="r" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3 L0,6 z" fill="#c0392b"/></marker>
+  </defs>
+
+  <rect x="60" y="452" width="840" height="74" rx="8" fill="#eef6fb" stroke="#2980b9"/>
+  <text x="75" y="473" font-size="11" font-weight="700" fill="#1a5276">Anahtar nokta — "negatif düzenleyicide GoF":</text>
+  <text x="75" y="492" font-size="11" fill="#444">FGFR3 büyümeyi BASKILAYAN bir reseptördür; aktivitesinin artması büyümeyi DAHA ÇOK baskılar. Bu yüzden GoF burada "küçük kemik" yapar — sezgiye aykırı ama mekanizma nettir.</text>
+  <text x="75" y="511" font-size="11" fill="#444">Aktivasyon derecesi arttıkça fenotip ağırlaşır: hipokondroplazi (hafif) → akondroplazi → tanatoforik displazi (letal) — bir allelik seri (Şekil 16).</text>
+  <text x="892" y="521" text-anchor="end" font-size="9" fill="#999">Kaynak: Shiang ve ark. 1994; Vajo ve ark. 2000</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg viewBox="0 0 920 470" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft24" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+    <marker markerUnits="userSpaceOnUse" id="aS24" markerWidth="12" markerHeight="12" refX="6" refY="10" orient="auto"><path d="M0,0 L12,0 L6,11 Z" fill="#64748B"/></marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="470" fill="#ffffff"/>
+  <text x="460" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">Splicing: pre-mRNA'dan olgun mRNA'ya — ve onu yöneten sinyaller</text>
+  <text x="460" y="50" text-anchor="middle" font-size="10.5" fill="#64748B">Varyantlar bu dört kanonik sinyali veya düzenleyici dizileri bozarak splicing'i değiştirir</text>
+
+  <!-- pre-mRNA label -->
+  <text x="40" y="120" font-size="11" font-weight="700" fill="#1A2B4A">pre-mRNA</text>
+  <text x="40" y="135" font-size="9" fill="#64748B">(intronlu)</text>
+
+  <!-- exon1 -->
+  <rect x="120" y="104" width="150" height="34" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="195" y="125" text-anchor="middle" font-size="11" font-weight="600" fill="#1D4ED8">Ekzon 1</text>
+  <!-- intron -->
+  <rect x="270" y="114" width="380" height="14" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="460" y="108" text-anchor="middle" font-size="9.5" fill="#94A3B8">intron</text>
+  <!-- exon2 -->
+  <rect x="650" y="104" width="150" height="34" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="725" y="125" text-anchor="middle" font-size="11" font-weight="600" fill="#1D4ED8">Ekzon 2</text>
+
+  <!-- canonical signals -->
+  <!-- 5' donor GT -->
+  <rect x="272" y="113" width="26" height="16" rx="3" fill="#D97706"/>
+  <text x="285" y="125" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GT</text>
+  <text x="285" y="162" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B45309">5′ donör</text>
+  <!-- branch point A -->
+  <circle cx="545" cy="121" r="9" fill="#B45309"/>
+  <text x="545" y="124.5" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">A</text>
+  <text x="528" y="162" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B45309">dallanma noktası</text>
+  <!-- polypyrimidine -->
+  <rect x="575" y="113" width="50" height="16" rx="3" fill="#FDE9C8" stroke="#D97706" stroke-width="1"/>
+  <text x="600" y="125" text-anchor="middle" font-size="8.5" fill="#92742a">(Y)ₙ</text>
+  <text x="600" y="190" text-anchor="middle" font-size="8.5" fill="#92742a">polipirimidin</text>
+  <!-- 3' acceptor AG -->
+  <rect x="622" y="113" width="26" height="16" rx="3" fill="#D97706"/>
+  <text x="635" y="125" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AG</text>
+  <text x="654" y="162" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B45309">3′ akseptör</text>
+
+  <!-- cis regulators -->
+  <text x="195" y="92" text-anchor="middle" font-size="8.5" fill="#2563EB">ESE / ESS (ekzonik düzenleyici)</text>
+  <text x="725" y="92" text-anchor="middle" font-size="8.5" fill="#2563EB">ESE / ESS</text>
+  <text x="430" y="146" text-anchor="middle" font-size="8.5" font-style="italic" fill="#94A3B8">ISE / ISS (intronik düzenleyici)</text>
+
+  <!-- spliceosome arrow -->
+  <line x1="460" y1="196" x2="460" y2="250" stroke="#64748B" stroke-width="2.5" marker-end="url(#aS24)"/>
+  <rect x="330" y="200" width="260" height="40" rx="9" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="460" y="218" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1A2B4A">Spliceozom (snRNP'ler)</text>
+  <text x="460" y="232" text-anchor="middle" font-size="9.5" fill="#475569">sinyalleri tanır → intronu çıkarır</text>
+
+  <!-- mature mRNA -->
+  <text x="40" y="300" font-size="11" font-weight="700" fill="#1A2B4A">olgun mRNA</text>
+  <text x="40" y="315" font-size="9" fill="#64748B">(ekzonlar birleşti)</text>
+  <rect x="305" y="284" width="150" height="34" rx="5" fill="#2563EB"/>
+  <text x="380" y="305" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">Ekzon 1</text>
+  <rect x="455" y="284" width="150" height="34" rx="5" fill="#2563EB"/>
+  <text x="530" y="305" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">Ekzon 2</text>
+  <text x="455" y="338" text-anchor="middle" font-size="9" fill="#64748B">intron çıkarıldı; ekzon 1–2 bitişik → protein kodlanır</text>
+
+  <!-- footer takeaway -->
+  <rect x="120" y="372" width="680" height="78" rx="10" fill="#FFFBEB" stroke="#FCE8B6" stroke-width="1.3"/>
+  <text x="460" y="395" text-anchor="middle" font-size="11" font-weight="700" fill="#B45309">Anahtar: splicing'in doğruluğu birkaç kısa diziye bağlıdır</text>
+  <text x="460" y="416" text-anchor="middle" font-size="10" fill="#2E3440">Kanonik ±1/±2 konumlar (GT…AG), dallanma noktası ve polipirimidin yolu kritik; ESE/ESS gibi düzenleyiciler ince ayarı yapar.</text>
+  <text x="460" y="435" text-anchor="middle" font-size="10" fill="#2E3440">Bir varyant bu sinyallerin herhangi birini bozarsa ekzon atlanır, intron tutulur veya gizli (kriptik) bölge aktive olur (→ Şekil 25).</text>
+</svg>

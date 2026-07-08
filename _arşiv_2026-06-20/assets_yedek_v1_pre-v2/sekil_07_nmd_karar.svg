@@ -1,0 +1,73 @@
+<svg viewBox="0 0 940 500" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="500" fill="#ffffff"/>
+  <text x="470" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 7 — NMD Kararı: Erken Stop Kodonu (PTC) Nerede?</text>
+  <text x="470" y="52" text-anchor="middle" font-size="12" fill="#555">Kural (basitleştirilmiş): PTC, son ekzon-ekzon bağlantısının ~50 nt ÖNCESİNDEYSE transkript NMD ile yıkılır.</text>
+
+  <!-- SENARYO A: PTC erken -> NMD -->
+  <text x="40" y="90" font-size="14" font-weight="700" fill="#16a085">A) PTC erken ekzonda (son bağlantının &gt;50 nt öncesinde)</text>
+  <!-- transcript with exons -->
+  <g>
+    <rect x="60" y="105" width="120" height="26" fill="#2980b9"/>
+    <rect x="180" y="105" width="120" height="26" fill="#2980b9"/>
+    <rect x="300" y="105" width="120" height="26" fill="#2980b9"/>
+    <rect x="420" y="105" width="90" height="26" fill="#95a5a6"/>
+    <!-- exon junctions -->
+    <line x1="180" y1="100" x2="180" y2="136" stroke="#fff" stroke-width="2"/>
+    <line x1="300" y1="100" x2="300" y2="136" stroke="#fff" stroke-width="2"/>
+    <line x1="420" y1="100" x2="420" y2="136" stroke="#fff" stroke-width="2"/>
+    <!-- PTC marker early -->
+    <polygon points="150,105 144,90 156,90" fill="#c0392b"/>
+    <text x="150" y="84" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">PTC (erken)</text>
+    <text x="465" y="100" text-anchor="middle" font-size="9" fill="#555">son ekzon</text>
+  </g>
+  <text x="540" y="115" font-size="22" fill="#16a085">→</text>
+  <rect x="575" y="98" width="150" height="40" rx="6" fill="#e8f8f5" stroke="#16a085" stroke-width="2"/>
+  <text x="650" y="114" text-anchor="middle" font-size="12" font-weight="700" fill="#0e6655">NMD: transkript YIKILIR</text>
+  <text x="650" y="130" text-anchor="middle" font-size="11" fill="#0e6655">→ "temiz" fonksiyonel null</text>
+  <text x="745" y="118" font-size="10" fill="#555">Genelde haploinsufficiency</text>
+  <text x="745" y="132" font-size="10" fill="#555">veya resesif LoF mantığı</text>
+
+  <line x1="40" y1="165" x2="900" y2="165" stroke="#eee" stroke-width="1.5"/>
+
+  <!-- SENARYO B: PTC son ekzon -> kacis -->
+  <text x="40" y="195" font-size="14" font-weight="700" fill="#c0392b">B) PTC son ekzonda (veya son bağlantıya çok yakın)</text>
+  <g>
+    <rect x="60" y="210" width="120" height="26" fill="#2980b9"/>
+    <rect x="180" y="210" width="120" height="26" fill="#2980b9"/>
+    <rect x="300" y="210" width="120" height="26" fill="#2980b9"/>
+    <rect x="420" y="210" width="90" height="26" fill="#2980b9"/>
+    <line x1="180" y1="205" x2="180" y2="241" stroke="#fff" stroke-width="2"/>
+    <line x1="300" y1="205" x2="300" y2="241" stroke="#fff" stroke-width="2"/>
+    <line x1="420" y1="205" x2="420" y2="241" stroke="#fff" stroke-width="2"/>
+    <polygon points="465,210 459,195 471,195" fill="#c0392b"/>
+    <text x="465" y="189" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="700">PTC (son ekzon)</text>
+  </g>
+  <text x="540" y="220" font-size="22" fill="#c0392b">→</text>
+  <rect x="575" y="203" width="150" height="40" rx="6" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
+  <text x="650" y="219" text-anchor="middle" font-size="12" font-weight="700" fill="#922b21">NMD KAÇIŞI</text>
+  <text x="650" y="235" text-anchor="middle" font-size="11" fill="#922b21">→ truncated protein üretilir</text>
+  <text x="745" y="216" font-size="10" fill="#555">İşlevsiz / yarı-işlevsel</text>
+  <text x="745" y="230" font-size="10" fill="#c0392b" font-weight="700">veya dominant-negatif/toksik!</text>
+
+  <!-- ALT: KLINIK SONUC TABLOSU -->
+  <text x="470" y="285" text-anchor="middle" font-size="14" font-weight="700" fill="#1a2b4a">Klinik &amp; varyant-yorum sonucu</text>
+  <g font-size="11">
+    <rect x="120" y="300" width="700" height="30" fill="#eef2f7" stroke="#cfd8e3"/>
+    <text x="135" y="320" font-weight="700" fill="#1a2b4a">Durum</text>
+    <text x="350" y="320" font-weight="700" fill="#1a2b4a">Mekanizma sonucu</text>
+    <text x="620" y="320" font-weight="700" fill="#1a2b4a">PVS1 gücü (ClinGen SVI)</text>
+
+    <rect x="120" y="330" width="700" height="34" fill="#fff" stroke="#e3e8ee"/>
+    <text x="135" y="351" fill="#0e6655">A) NMD (+) erken PTC</text>
+    <text x="350" y="351" fill="#444">Temiz null → LoF</text>
+    <text x="620" y="351" fill="#0e6655" font-weight="700">PVS1 (güçlü) — gen LoF-mekanizmalıysa</text>
+
+    <rect x="120" y="364" width="700" height="34" fill="#fff" stroke="#e3e8ee"/>
+    <text x="135" y="385" fill="#922b21">B) NMD (−) son ekzon</text>
+    <text x="350" y="385" fill="#444">Truncated protein (DN/GoF olası)</text>
+    <text x="620" y="385" fill="#922b21" font-weight="700">PVS1 gücü DÜŞER; ek kanıt gerek</text>
+  </g>
+
+  <text x="470" y="440" text-anchor="middle" font-size="11" font-style="italic" fill="#777">Bu yüzden "son ekzon nonsense = her zaman hafif/benign" varsayımı YANLIŞTIR; kesilen domain kritikse veya protein DN ise daha ağır olabilir.</text>
+  <text x="470" y="468" text-anchor="middle" font-size="10" fill="#999">Kaynak (mekanizma): Khajavi, Inoue, Lupski 2006 · (PVS1 derecelendirme): Abou Tayoun ve ark. 2018</text>
+</svg>

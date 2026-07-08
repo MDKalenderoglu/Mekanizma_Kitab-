@@ -1,0 +1,88 @@
+<svg viewBox="0 0 920 470" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft21" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="920" height="470" fill="#ffffff"/>
+  <text x="460" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">Müller'in allel serisi — bir varyantın altı olası etkisi</text>
+  <text x="460" y="50" text-anchor="middle" font-size="10.5" fill="#64748B">Sınıflama "ürün yapılıyor mu ve ne yapıyor?" sorusuna göre; her sınıf bir mekanizma bölümüne bağlanır</text>
+
+  <!-- 6 cards -->
+  <!-- 1 Wild type -->
+  <rect x="10" y="66" width="144" height="318" rx="11" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="10" y="66" width="144" height="40" rx="11" fill="#E2E8F0"/>
+  <text x="82" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2B4A">Yabanıl-tip</text>
+  <text x="82" y="99" text-anchor="middle" font-size="9" fill="#64748B">(referans)</text>
+  <circle cx="82" cy="150" r="22" fill="#64748B"/><text x="82" y="156" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">✓</text>
+  <text x="82" y="200" text-anchor="middle" font-size="10" fill="#2E3440">normal ürün,</text>
+  <text x="82" y="215" text-anchor="middle" font-size="10" fill="#2E3440">normal işlev</text>
+  <text x="82" y="360" text-anchor="middle" font-size="9" font-style="italic" fill="#94A3B8">karşılaştırma temeli</text>
+
+  <!-- 2 Amorf -->
+  <rect x="162" y="66" width="144" height="318" rx="11" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="162" y="66" width="144" height="40" rx="11" fill="#DBEAFE"/>
+  <text x="234" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Amorf</text>
+  <text x="234" y="99" text-anchor="middle" font-size="9" fill="#2456c9">(null)</text>
+  <circle cx="234" cy="150" r="22" fill="#ffffff" stroke="#2563EB" stroke-width="1.8" stroke-dasharray="4 3"/><text x="234" y="156" text-anchor="middle" font-size="15" fill="#94A3B8">∅</text>
+  <text x="234" y="200" text-anchor="middle" font-size="10" fill="#2E3440">ürün yok /</text>
+  <text x="234" y="215" text-anchor="middle" font-size="10" fill="#2E3440">tam işlev kaybı</text>
+  <text x="234" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1D4ED8">↓ işlev</text>
+  <text x="234" y="356" text-anchor="middle" font-size="9" fill="#475569">= LoF</text>
+  <text x="234" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#1D4ED8">Bölüm 2 / 3</text>
+
+  <!-- 3 Hipomorf -->
+  <rect x="314" y="66" width="144" height="318" rx="11" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="314" y="66" width="144" height="40" rx="11" fill="#DBEAFE"/>
+  <text x="386" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Hipomorf</text>
+  <text x="386" y="99" text-anchor="middle" font-size="9" fill="#2456c9">(kısmi kayıp)</text>
+  <circle cx="386" cy="150" r="14" fill="#2563EB"/>
+  <text x="386" y="200" text-anchor="middle" font-size="10" fill="#2E3440">azalmış ama</text>
+  <text x="386" y="215" text-anchor="middle" font-size="10" fill="#2E3440">kısmen var</text>
+  <text x="386" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1D4ED8">↓ işlev (kısmi)</text>
+  <text x="386" y="356" text-anchor="middle" font-size="9" fill="#475569">= kısmi LoF</text>
+  <text x="386" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#1D4ED8">Bölüm 2</text>
+
+  <!-- 4 Hipermorf -->
+  <rect x="466" y="66" width="144" height="318" rx="11" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="466" y="66" width="144" height="40" rx="11" fill="#FEE2E2"/>
+  <text x="538" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">Hipermorf</text>
+  <text x="538" y="99" text-anchor="middle" font-size="9" fill="#a02020">(artmış)</text>
+  <circle cx="538" cy="150" r="26" fill="#B91C1C"/>
+  <text x="538" y="200" text-anchor="middle" font-size="10" fill="#2E3440">aynı işin</text>
+  <text x="538" y="215" text-anchor="middle" font-size="10" fill="#2E3440">fazlası</text>
+  <text x="538" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B91C1C">↑ işlev</text>
+  <text x="538" y="356" text-anchor="middle" font-size="9" fill="#a02020">= GoF</text>
+  <text x="538" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#B91C1C">Bölüm 4</text>
+
+  <!-- 5 Antimorf -->
+  <rect x="618" y="66" width="144" height="318" rx="11" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.8" filter="url(#soft21)"/>
+  <rect x="618" y="66" width="144" height="40" rx="11" fill="#FEE2E2"/>
+  <text x="690" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">Antimorf</text>
+  <text x="690" y="99" text-anchor="middle" font-size="9" fill="#a02020">(= dominant-negatif)</text>
+  <circle cx="676" cy="150" r="15" fill="#2563EB"/>
+  <circle cx="702" cy="150" r="15" fill="#B91C1C"/>
+  <path d="M690,136 l-4,7 l6,-2 l-5,8" fill="none" stroke="#B91C1C" stroke-width="1.6"/>
+  <text x="690" y="200" text-anchor="middle" font-size="10" fill="#2E3440">sağlam ürünü</text>
+  <text x="690" y="215" text-anchor="middle" font-size="10" fill="#2E3440">bozar (zehirler)</text>
+  <text x="690" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B91C1C">↓↓ işlev</text>
+  <text x="690" y="356" text-anchor="middle" font-size="9" fill="#a02020">= DN</text>
+  <text x="690" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#B91C1C">Bölüm 5</text>
+
+  <!-- 6 Neomorf -->
+  <rect x="766" y="66" width="144" height="318" rx="11" fill="#FFFBEB" stroke="#D97706" stroke-width="1.8" filter="url(#soft21)"/>
+  <rect x="766" y="66" width="144" height="40" rx="11" fill="#FEF3C7"/>
+  <text x="838" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#B45309">Neomorf</text>
+  <text x="838" y="99" text-anchor="middle" font-size="9" fill="#92742a">(yeni işlev)</text>
+  <g transform="translate(838,150)"><polygon points="0,-24 6,-7 24,-7 9.5,3.5 15,21 0,10 -15,21 -9.5,3.5 -24,-7 -6,-7" fill="#FCD34D" stroke="#92400E" stroke-width="1.1"/></g>
+  <text x="838" y="200" text-anchor="middle" font-size="10" fill="#2E3440">normalde olmayan</text>
+  <text x="838" y="215" text-anchor="middle" font-size="10" fill="#2E3440">yepyeni iş</text>
+  <text x="838" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B45309">≠ işlev (yeni)</text>
+  <text x="838" y="356" text-anchor="middle" font-size="9" fill="#92742a">= toksik/yeni kazanım</text>
+  <text x="838" y="370" text-anchor="middle" font-size="9" font-weight="700" fill="#B45309">BU BÖLÜM</text>
+
+  <!-- footer -->
+  <rect x="10" y="396" width="900" height="60" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="460" y="418" text-anchor="middle" font-size="11" font-weight="700" fill="#1A2B4A">Sınıflama refleksi: ürün yapılıyor mu? Daha az mı (amorf/hipomorf) · daha çok mu (hipermorf) · sağlamı mı bozuyor (antimorf=DN) · yepyeni iş mi yapıyor (neomorf)?</text>
+  <text x="460" y="440" text-anchor="middle" font-size="10" fill="#475569">Neomorf ve antimorf dominanttır; ikisi de "varyant ürünün varlığından" doğar — bu yüzden tam delesyon/null çoğu kez hastalığı kopyalamaz.</text>
+</svg>
