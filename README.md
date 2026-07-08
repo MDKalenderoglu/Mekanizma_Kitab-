@@ -23,10 +23,8 @@ Güncel durumun **tek doğ­ru kaynağı**: [`Bölüm_00_İçindekiler_ve_İlerl
 ## 🔄 Başka bir PC'de nasıl devam edilir? (adım adım)
 
 1. **Depoyu indir:**
-   ```bash
-   git clone <repo-URL>
-   cd Mekanizma_Kitabı
-   ```
+   - **GitHub Desktop ile (önerilen):** File → Clone Repository → listeden bu repoyu seç → Clone.
+   - **Terminal ile:** `git clone <repo-URL> && cd Mekanizma_Kitabı`
 2. **Bağımlılıkları kur** (kitap derlemek için):
    ```bash
    python3 -m pip install --user markdown
@@ -92,10 +90,20 @@ Kök dizinde tek dosyalık, kendi kendine yeten `Genetik_Hastalık_Mekanizmalar�
 
 ## 💾 Yedekleme / senkron alışkanlığı
 
-Her önemli ilerlemeden sonra (yeni bölüm, düzeltme) değişiklikleri GitHub'a gönder:
+Her önemli ilerlemeden sonra (yeni bölüm, düzeltme) değişiklikleri GitHub'a gönder.
+
+**GitHub Desktop ile (önerilen):**
+1. Uygulamayı aç → değişiklikler sol panelde otomatik görünür.
+2. Altta **Summary** kutusuna kısa bir not yaz (ör. "Bölüm 11 tamamlandı").
+3. **Commit to main** → sonra sağ üstte **Push origin**.
+
+**Terminal ile (alternatif):**
 ```bash
-git add -A
-git commit -m "Bölüm NN tamamlandı"
-git push
+git add -A && git commit -m "Bölüm NN tamamlandı" && git push
 ```
-Böylece hangi PC'de çalışırsan çalış, `git pull` ile en güncel hâli alırsın ve hiçbir emek kaybolmaz.
+
+**Diğer PC'ye geçerken:** çalışmaya başlamadan önce **Fetch/Pull** (Desktop'ta "Pull origin",
+terminalde `git pull`) yap ki en güncel hâli alasın. Böylece hangi PC'de olursan ol hiçbir emek kaybolmaz.
+
+> ⚠️ **Altın kural:** Aynı anda iki PC'de değişiklik yapıp ikisinden de push etme; önce push et,
+> diğer PC'de önce pull et. Bu, çakışmaları (merge conflict) tümüyle önler.
