@@ -1,0 +1,139 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="600" fill="#ffffff"/>
+  <defs>
+    <filter id="s34shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Başlık -->
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 11.1 — Mitokondriyal genom: yapı, poliplazmi ve maternal kalıtım</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">mtDNA nükleer genomdan üç açıdan ayrılır: küçük ve intronsuzdur, hücre başına binlerce kopya hâlinde bulunur, ve yalnızca anneden aktarılır.</text>
+
+  <!-- ================= PANEL A ================= -->
+  <rect x="40" y="80" width="390" height="250" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#2563EB">mtDNA: küçük, dairesel, intronsuz</text>
+
+  <!-- mtDNA halkası -->
+  <circle cx="165" cy="210" r="60" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- protein-kodlayan arklar (mavi) -->
+  <path d="M 165 150 A 60 60 0 0 1 224.1 220.4" fill="none" stroke="#2563EB" stroke-width="11" stroke-linecap="butt"/>
+  <path d="M 211.0 248.6 A 60 60 0 0 1 119.0 248.6" fill="none" stroke="#2563EB" stroke-width="11" stroke-linecap="butt"/>
+  <path d="M 105.9 220.4 A 60 60 0 0 1 135.0 158.0" fill="none" stroke="#2563EB" stroke-width="11" stroke-linecap="butt"/>
+  <!-- rRNA arkları (koyu slate) -->
+  <path d="M 221.4 230.5 A 60 60 0 0 1 211.0 248.6" fill="none" stroke="#475569" stroke-width="11" stroke-linecap="butt"/>
+  <path d="M 113.0 240.0 A 60 60 0 0 1 105.9 220.4" fill="none" stroke="#475569" stroke-width="11" stroke-linecap="butt"/>
+  <!-- tRNA kısa çentikleri (amber) -->
+  <path d="M 224.1 220.4 A 60 60 0 0 1 221.4 230.5" fill="none" stroke="#D97706" stroke-width="11" stroke-linecap="butt"/>
+  <path d="M 119.0 248.6 A 60 60 0 0 1 113.0 240.0" fill="none" stroke="#D97706" stroke-width="11" stroke-linecap="butt"/>
+  <path d="M 135.0 158.0 A 60 60 0 0 1 144.5 153.6" fill="none" stroke="#D97706" stroke-width="11" stroke-linecap="butt"/>
+  <!-- D-loop (açık) -->
+  <path d="M 144.5 153.6 A 60 60 0 0 1 165 150" fill="none" stroke="#CBD5E1" stroke-width="11" stroke-linecap="butt"/>
+
+  <text x="165" y="206" font-size="13" font-weight="700" fill="#1A2B4A" text-anchor="middle">mtDNA</text>
+  <text x="165" y="223" font-size="10" fill="#64748B" text-anchor="middle">16.569 bp</text>
+
+  <!-- Panel A lejant -->
+  <rect x="250" y="159" width="11" height="11" rx="2" fill="#2563EB"/>
+  <text x="267" y="168" font-size="10" fill="#2E3440">13 protein-kodlayan gen</text>
+  <text x="267" y="181" font-size="9.5" fill="#64748B">(OXPHOS alt birimleri)</text>
+  <rect x="250" y="194" width="11" height="11" rx="2" fill="#D97706"/>
+  <text x="267" y="203" font-size="10" fill="#2E3440">22 tRNA geni</text>
+  <rect x="250" y="216" width="11" height="11" rx="2" fill="#475569"/>
+  <text x="267" y="225" font-size="10" fill="#2E3440">2 rRNA geni</text>
+  <rect x="250" y="238" width="11" height="11" rx="2" fill="#CBD5E1"/>
+  <text x="267" y="247" font-size="10" fill="#2E3440">D-loop (kontrol bölgesi)</text>
+
+  <text x="52" y="294" font-size="9.5" fill="#475569">İntron yok · histon koruması sınırlı · onarım kapasitesi kısıtlı</text>
+  <text x="52" y="309" font-size="9.5" fill="#475569">Bu 37 gen, OXPHOS'un yalnızca küçük bir bölümünü kodlar (bkz. Şekil 11.4).</text>
+
+  <!-- ================= PANEL B ================= -->
+  <rect x="460" y="80" width="400" height="250" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="472" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="482" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="500" y="105" font-size="13" font-weight="700" fill="#2563EB">Poliplazmi: hücrede binlerce kopya</text>
+
+  <!-- Hücre -->
+  <ellipse cx="660" cy="205" rx="175" ry="82" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <ellipse cx="560" cy="205" rx="42" ry="32" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.3"/>
+  <text x="560" y="209" font-size="10" font-weight="700" fill="#475569" text-anchor="middle">Nükleus</text>
+
+  <!-- Mitokondriler (3x3) -->
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6">
+    <rect x="625" y="158" width="44" height="22" rx="11"/>
+    <rect x="690" y="158" width="44" height="22" rx="11"/>
+    <rect x="755" y="158" width="44" height="22" rx="11"/>
+    <rect x="625" y="194" width="44" height="22" rx="11"/>
+    <rect x="690" y="194" width="44" height="22" rx="11"/>
+    <rect x="755" y="194" width="44" height="22" rx="11"/>
+    <rect x="625" y="230" width="44" height="22" rx="11"/>
+    <rect x="690" y="230" width="44" height="22" rx="11"/>
+    <rect x="755" y="230" width="44" height="22" rx="11"/>
+  </g>
+  <g fill="#1A2B4A">
+    <circle cx="637" cy="169" r="3"/><circle cx="647" cy="169" r="3"/><circle cx="657" cy="169" r="3"/>
+    <circle cx="702" cy="169" r="3"/><circle cx="712" cy="169" r="3"/><circle cx="722" cy="169" r="3"/>
+    <circle cx="767" cy="169" r="3"/><circle cx="777" cy="169" r="3"/><circle cx="787" cy="169" r="3"/>
+    <circle cx="637" cy="205" r="3"/><circle cx="647" cy="205" r="3"/><circle cx="657" cy="205" r="3"/>
+    <circle cx="702" cy="205" r="3"/><circle cx="712" cy="205" r="3"/><circle cx="722" cy="205" r="3"/>
+    <circle cx="767" cy="205" r="3"/><circle cx="777" cy="205" r="3"/><circle cx="787" cy="205" r="3"/>
+    <circle cx="637" cy="241" r="3"/><circle cx="647" cy="241" r="3"/><circle cx="657" cy="241" r="3"/>
+    <circle cx="702" cy="241" r="3"/><circle cx="712" cy="241" r="3"/><circle cx="722" cy="241" r="3"/>
+    <circle cx="767" cy="241" r="3"/><circle cx="777" cy="241" r="3"/><circle cx="787" cy="241" r="3"/>
+  </g>
+
+  <rect x="472" y="298" width="376" height="0" fill="none"/>
+  <rect x="474" y="290" width="12" height="9" rx="2" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="492" y="298" font-size="9.5" fill="#2E3440">mitokondri</text>
+  <circle cx="570" cy="294" r="3" fill="#1A2B4A"/>
+  <text x="580" y="298" font-size="9.5" fill="#2E3440">mtDNA kopyası (her mitokondride 2–10 adet)</text>
+  <text x="472" y="315" font-size="9.5" fill="#475569">Bir hücrede 10³–10⁴ mtDNA kopyası → varyant "var/yok" değil, YÜZDE olarak taşınır.</text>
+
+  <!-- ================= PANEL C ================= -->
+  <rect x="40" y="345" width="820" height="185" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="355" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="370" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="80" y="370" font-size="13" font-weight="700" fill="#2563EB">Maternal kalıtım: mtDNA yalnızca anneden geçer — babadan geçmez</text>
+
+  <!-- Ayraç -->
+  <line x1="450" y1="386" x2="450" y2="522" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- SOL: anne etkilenmiş -->
+  <text x="245" y="395" font-size="11.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Anne etkilenmiş</text>
+  <line x1="208" y1="418" x2="282" y2="418" stroke="#475569" stroke-width="1.6"/>
+  <line x1="245" y1="418" x2="245" y2="442" stroke="#475569" stroke-width="1.6"/>
+  <line x1="195" y1="442" x2="295" y2="442" stroke="#475569" stroke-width="1.6"/>
+  <line x1="195" y1="442" x2="195" y2="456" stroke="#475569" stroke-width="1.6"/>
+  <line x1="245" y1="442" x2="245" y2="456" stroke="#475569" stroke-width="1.6"/>
+  <line x1="295" y1="442" x2="295" y2="456" stroke="#475569" stroke-width="1.6"/>
+  <rect x="182" y="405" width="26" height="26" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <circle cx="295" cy="418" r="13" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <rect x="182" y="456" width="26" height="26" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <circle cx="245" cy="469" r="13" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <rect x="282" y="456" width="26" height="26" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <text x="245" y="503" font-size="10.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Tüm çocuklar mtDNA'yı alır</text>
+  <text x="245" y="518" font-size="9.5" fill="#64748B" text-anchor="middle">(şiddet heteroplazmiye göre değişir)</text>
+
+  <!-- SAĞ: baba etkilenmiş -->
+  <text x="655" y="395" font-size="11.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Baba etkilenmiş</text>
+  <line x1="618" y1="418" x2="692" y2="418" stroke="#475569" stroke-width="1.6"/>
+  <line x1="655" y1="418" x2="655" y2="442" stroke="#475569" stroke-width="1.6"/>
+  <line x1="605" y1="442" x2="705" y2="442" stroke="#475569" stroke-width="1.6"/>
+  <line x1="605" y1="442" x2="605" y2="456" stroke="#475569" stroke-width="1.6"/>
+  <line x1="655" y1="442" x2="655" y2="456" stroke="#475569" stroke-width="1.6"/>
+  <line x1="705" y1="442" x2="705" y2="456" stroke="#475569" stroke-width="1.6"/>
+  <rect x="592" y="405" width="26" height="26" fill="#FEE2E2" stroke="#B91C1C" stroke-width="2.5"/>
+  <circle cx="705" cy="418" r="13" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <rect x="592" y="456" width="26" height="26" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <circle cx="655" cy="469" r="13" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <rect x="692" y="456" width="26" height="26" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <text x="655" y="503" font-size="10.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">Hiçbir çocuk etkilenmez</text>
+  <text x="655" y="518" font-size="9.5" fill="#64748B" text-anchor="middle">(sperm mitokondrileri zigotta elenir)</text>
+
+  <!-- Öğreti footer -->
+  <text x="40" y="556" font-size="11.5" font-style="italic" fill="#475569">Öğreti: Etkilenmiş bir babanın çocuklarının risk altında olmaması, mitokondriyal kalıtımın en güçlü klinik ipucudur. Pedigride "babadan geçiş yok"</text>
+  <text x="40" y="572" font-size="11.5" font-style="italic" fill="#475569">görüldüğünde mtDNA; her iki cinsten de geçiş görüldüğünde nükleer bir mitokondriyal gen düşünülmelidir.</text>
+  <text x="860" y="590" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Gorman ve ark. (2016); Stewart &amp; Chinnery (2015)</text>
+</svg>

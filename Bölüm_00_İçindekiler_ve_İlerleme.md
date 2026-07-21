@@ -19,8 +19,8 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 8 | CNV / yapısal varyantlar | `Bölüm_08_CNV_Yapisal_Varyantlar.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 6/6 |
 | 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 10/10 |
 | 10 | İmprinting, UPD, epigenetik | `Bölüm_10_Imprinting_UPD_Epigenetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
-| 11 | Mitokondriyal genetik | — | ⬜ Bekliyor | — | — |
-| 12 | Mozaiklik | — | ⬜ Bekliyor | — | — |
+| 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 12/12 |
+| 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 12/12 |
 | 13 | Noncoding / regülatör varyantlar | — | ⬜ Bekliyor | — | — |
 | 14 | Digenik / oligogenik / modifier | — | ⬜ Bekliyor | — | — |
 | 15 | Aynı gen → farklı hastalık | — | ⬜ Bekliyor | — | — |
@@ -94,6 +94,28 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 10818216 | Mergenthaler ve ark. (2000) | Ann Genet | 10.1016/s0003-3995(00)00010-1 | Mekanizma (trizomi kurtarma; UPD7 izo vs heterodizomi oranları) | 10 |
 | 33920525 | Eggermann ve ark. (2021) | Genes (Basel) | 10.3390/genes12040585 | Metodoloji/review (imprintli gen ağı; MLID; büyüme fenotipleri) | 10 |
 | 36377076 | Eggermann &amp; Prawitt (2022) | Expert Rev Endocrinol Metab | 10.1080/17446651.2022.2144228 | Klinik/mekanizma (BWS paternal UPD11; tümör riski; tanısal izlem) | 10 |
+| 27775730 | Gorman ve ark. (2016) | Nat Rev Dis Primers | 10.1038/nrdp.2016.80 | Landmark review (mitokondriyal hastalıklar; çift genom; heteroplazmi; tanı ve üreme) | 11 |
+| 26281784 | Stewart &amp; Chinnery (2015) | Nat Rev Genet | 10.1038/nrg3966 | Landmark mekanizma (heteroplazmi dinamiği; eşik; germline darboğaz; mitotik segregasyon) | 11 |
+| 32906214 | McCormick ve ark. (2020) | Hum Mutat | 10.1002/humu.24107 | Guideline (ClinGen mtDNA-özgü ACMG/AMP spesifikasyonu; haplogrup/heteroplazmi/PS3 tek-lif) | 11 |
+| 25503498 | Parikh ve ark. (2015) | Genet Med | 10.1038/gim.2014.177 | Guideline (Mitochondrial Medicine Society; tanı/yönetim; doku seçimi; kas biyopsisinin yeri) | 11 |
+| 26506407 | Lake ve ark. (2016) | Ann Neurol | 10.1002/ana.24551 | Klinik örnek (Leigh sendromu; 75'ten fazla monogenik neden; lokus heterojenitesi) | 11 |
+| 2102678 | Goto, Nonaka, Horai (1990) | Nature | 10.1038/348651a0 | Landmark (m.3243A>G / MT-TL1 tRNA varyantı → MELAS) | 11 |
+| 2830540 | Holt, Harding, Morgan-Hughes (1988) | Nature | 10.1038/331717a0 | Landmark (kasta büyük mtDNA delesyonları; Pearson/KSS zemini) | 11 |
+| 3201231 | Wallace ve ark. (1988) | Science | 10.1126/science.3201231 | Landmark (LHON; insan hastalığının mtDNA'ya bağlandığı ilk çalışma; eksik penetrans) | 11 |
+| 23385875 | El-Hattab &amp; Scaglia (2013) | Neurotherapeutics | 10.1007/s13311-013-0177-6 | Klinik/mekanizma (mtDNA deplesyon sendromları; nükleer genler; fenotipik sınıflama) | 11 |
+| 29950321 | Almannai, El-Hattab, Scaglia (2018) | Essays Biochem | 10.1042/EBC20170101 | Mekanizma (mtDNA replikasyonunun nükleer denetimi; deplesyon/çoklu delesyon) | 11 |
+| 25652200 | Gorman ve ark. (2015) | Ann Neurol | 10.1002/ana.24362 | Epidemiyoloji (erişkin mitokondriyal hastalık prevalansı; nükleer vs mtDNA payı) | 11 |
+| 28651360 | Craven ve ark. (2017) | Hum Reprod Update | 10.1093/humupd/dmx018 | Klinik yönetim (PGT, oosit donasyonu, mitokondri donasyonu; sınırlılıklar) | 11 |
+| 23594909 | Biesecker &amp; Spinner (2013) | Nat Rev Genet | 10.1038/nrg3424 | Landmark review (mozaikliğin klinik/moleküler sınıfları; saptama; yaygınlık) | 12 |
+| 3033033 | Happle (1987) | J Am Acad Dermatol | 10.1016/s0190-9622(87)80249-9 | Landmark kavram (letal-mozaik hipotezi; sporadik segmental sendromlar) | 12 |
+| 3720010 | Happle (1986) | Clin Genet | 10.1111/j.1399-0004.1986.tb01261.x | Landmark (MAS pigmentasyonu Blaschko çizgilerinde; mozaiklik hipotezi) | 12 |
+| 1944469 | Weinstein ve ark. (1991) | N Engl J Med | 10.1056/NEJM199112123252403 | Landmark moleküler doğrulama (GNAS p.Arg201His/Cys; dokular arası değişen yük) | 12 |
+| 21793738 | Lindhurst ve ark. (2011) | N Engl J Med | 10.1056/NEJMoa1104017 | Klinik/mekanizma (Proteus; AKT1 p.Glu17Lys; VAF %1–~50) | 12 |
+| 23656586 | Shirley ve ark. (2013) | N Engl J Med | 10.1056/NEJMoa1213507 | Klinik/mekanizma (Sturge-Weber ve porto-şarabı lekesi; GNAQ p.Arg183Gln; VAF %1–18,1) | 12 |
+| 25557259 | Keppler-Noreuil ve ark. (2015) | Am J Med Genet A | 10.1002/ajmg.a.36836 | Uzlaşı/guideline (PROS şemsiye terimi; tanı ve test uygunluk ölçütleri) | 12 |
+| 25087610 | Campbell ve ark. (2014) | Am J Hum Genet | 10.1016/j.ajhg.2014.07.003 | Metodoloji/danışmanlık (ebeveyn somatik mozaikliği; "de novo" sınırları; tekrar riski) | 12 |
+| 35163267 | Lee ve ark. (2022) | Int J Mol Sci | 10.3390/ijms23031344 | Mekanizma/klinik (FCD tip II; beyne sınırlı mozaiklik; germline+somatik iki vuruş) | 12 |
+| 37324239 | Checri ve ark. (2023) | Brain Commun | 10.1093/braincomms/fcad174 | Metodoloji (stereo-EEG elektrotlarından beyin somatik varyant saptanması) | 12 |
 
 ---
 
@@ -134,11 +156,19 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_31_15q11_pws_as.svg | 10 | 15q11-q13: tek bölge iki hastalık (PWS ↔ AS); alt-tipler ve sıklıklar |
 | sekil_32_upd_mekanizmalari.svg | 10 | UPD oluşum yolları (trizomi/monozomi kurtarma); izo/heterodizomi; resesif maskeleme |
 | sekil_33_11p15_bws_srs.svg | 10 | 11p15.5 ayna hastalıklar (BWS ↔ SRS); ICR1/ICR2 metilasyon kusurları |
+| sekil_34_mtdna_yapisi_maternal_kalitim.svg | 11 | mtDNA yapısı (37 gen) · poliplazmi · maternal kalıtım pedigrisi (anne vs baba) |
+| sekil_35_heteroplazmi_esik.svg | 11 | Homoplazmi ↔ heteroplazmi · eşik eğrisi · dokuya göre eşik · mekanizma→test→yorum şeridi |
+| sekil_36_darbogaz_segregasyon.svg | 11 | Germline darboğaz (oosit yükü saçılması) · mitotik segregasyon (kan/kas/idrar seyri) |
+| sekil_37_cift_genom_oxphos.svg | 11 | OXPHOS alt birimlerinin genom kaynağı (Kompleks I–V) · aynı fenotip farklı kalıtım · Leigh lokus heterojenitesi |
+| sekil_38_mozaiklik_zaman_ekseni.svg | 12 | Postzigotik zamanlama → dağılım (hücre soyu ağacı); germline tutulumu; ≈%50/%25/%12 |
+| sekil_39_mozaiklik_tipleri_risk.svg | 12 | Somatik / germline (gonadal) / gonozomal mozaiklik → tekrarlanma riski karşılaştırması |
+| sekil_40_vaf_saptama_doku.svg | 12 | VAF nedir (okuma yüzdesi) · yöntem saptama tabanları (Sanger→ddPCR) · doku seçimi |
+| sekil_41_letal_mozaik_blaschko.svg | 12 | Happle letal-mozaik hipotezi (zigot vs postzigot) · Blaschko çizgileri (V/S/çizgisel) |
 
 ---
 
 ## 4. Sonraki adım
 
-- **Sıradaki bölüm:** Bölüm 11 — Mitokondriyal genetik.
-- Planlanan görseller: mtDNA yapısı ve maternal kalıtım · heteroplazmi ve eşik etkisi (segregasyon) · OXPHOS/çift-genom (nükleer + mitokondriyal) katkısı · tanı akışı (mtDNA dizileme, heteroplazmi %, doku seçimi; nükleer gen paneli).
-- Not: Bölüm 10'da imprinting (ebeveyn kökeni), UPD (izo/heterodizomi + resesif maskeleme) ve epimutasyon işlendi; FMR1 metilasyon-susturma (Bölüm 9) ve doz-eşik (Bölüm 3) köprülendi; iki aşamalı tanı (metilasyon → alt-tip) ve BWS'de alt-tibe göre tümör tarama vurgulandı. Bölüm 11'de maternal kalıtım ve heteroplazmi-eşik, imprinting'teki "ebeveyn kökeni" ekseniyle kontrast oluşturacak; mitokondriyal doz (heteroplazmi %) Bölüm 3'teki doz-eşik mantığına bağlanacak.
+- **Sıradaki bölüm:** Bölüm 13 — Noncoding / regülatör varyantlar.
+- Planlanan görseller: gen düzenleyici anatomisi (promotör, enhancer, silencer, izolatör/CTCF, UTR) · enhancer–promotör döngüsü ve TAD sınırı ihlali (Bölüm 8 köprüsü) · noncoding varyant tiplerinin sonuç haritası (promotör/5'UTR uORF/3'UTR miRNA bölgesi/derin intronik/poli-A) · noncoding varyant yorumlama ve kanıt hiyerarşisi (fonksiyonel test, MPRA, ATAC/ChIP verisi, korunmuşluk).
+- Not: Bölüm 12'de postzigotik zamanlama → dağılım → bölme (somatik/germline/gonozomal) → VAF → letal-mozaik zinciri kuruldu; heteroplazmi (Bölüm 11) ile mozaiklik "yüzde olarak taşınan varyant + doku seçimi tanının kendisidir" ekseninde kardeş kavramlar olarak bağlandı; segmental UPD ile Bölüm 10'a, mozaik IDH ile Bölüm 6'ya, FCD'deki iki-vuruş ile Bölüm 2'ye köprü kuruldu. **Bölüm 13 için köprü:** Bölüm 8'de TAD bozulması/enhancer hijacking (Lupiáñez 2015) yapısal varyant ekseninden işlenmişti; Bölüm 13 aynı düzenleyici mimariyi **tek nükleotid** ölçeğinde ele alacak. Ayrıca Bölüm 7'deki derin intronik/kriptik splice varyantları (SpliceAI) ile sınır netleştirilmeli: "noncoding" olan her varyant regülatör değildir. Bölüm 16'daki ACMG sentezine, noncoding varyantlarda PVS1'in neden uygulanamadığı ve PS3'ün neden ağırlık kazandığı taşınacaktır.

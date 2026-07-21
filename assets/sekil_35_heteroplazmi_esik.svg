@@ -1,0 +1,126 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="600" fill="#ffffff"/>
+  <defs>
+    <filter id="s35shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 11.2 — Heteroplazmi ve eşik etkisi: yüzde neden "var/yok"tan önemlidir</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Mitokondriyal hastalıkta doz, alel sayısı değil mutant mtDNA yüzdesidir; klinik ancak dokuya özgü eşik aşıldığında ortaya çıkar.</text>
+
+  <!-- ================= PANEL A ================= -->
+  <rect x="40" y="80" width="390" height="270" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#2563EB">Homoplazmi ↔ heteroplazmi</text>
+
+  <!-- Hücre 1: homoplazmik yabanıl -->
+  <circle cx="110" cy="200" r="42" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <g fill="#2563EB">
+    <circle cx="94" cy="184" r="6"/><circle cx="110" cy="184" r="6"/><circle cx="126" cy="184" r="6"/>
+    <circle cx="94" cy="200" r="6"/><circle cx="110" cy="200" r="6"/><circle cx="126" cy="200" r="6"/>
+    <circle cx="94" cy="216" r="6"/><circle cx="110" cy="216" r="6"/><circle cx="126" cy="216" r="6"/>
+  </g>
+  <text x="110" y="262" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">Homoplazmi</text>
+  <text x="110" y="276" font-size="9.5" fill="#64748B" text-anchor="middle">(hepsi yabanıl)</text>
+  <text x="110" y="294" font-size="11" font-weight="700" fill="#1A2B4A" text-anchor="middle">%0 mutant</text>
+
+  <!-- Hücre 2: heteroplazmik -->
+  <circle cx="235" cy="200" r="42" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <g>
+    <circle cx="219" cy="184" r="6" fill="#B91C1C"/><circle cx="235" cy="184" r="6" fill="#2563EB"/><circle cx="251" cy="184" r="6" fill="#B91C1C"/>
+    <circle cx="219" cy="200" r="6" fill="#2563EB"/><circle cx="235" cy="200" r="6" fill="#B91C1C"/><circle cx="251" cy="200" r="6" fill="#2563EB"/>
+    <circle cx="219" cy="216" r="6" fill="#B91C1C"/><circle cx="235" cy="216" r="6" fill="#2563EB"/><circle cx="251" cy="216" r="6" fill="#2563EB"/>
+  </g>
+  <text x="235" y="262" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">Heteroplazmi</text>
+  <text x="235" y="276" font-size="9.5" fill="#64748B" text-anchor="middle">(karışık)</text>
+  <text x="235" y="294" font-size="11" font-weight="700" fill="#1A2B4A" text-anchor="middle">%44 mutant</text>
+
+  <!-- Hücre 3: homoplazmik mutant -->
+  <circle cx="360" cy="200" r="42" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <g fill="#B91C1C">
+    <circle cx="344" cy="184" r="6"/><circle cx="360" cy="184" r="6"/><circle cx="376" cy="184" r="6"/>
+    <circle cx="344" cy="200" r="6"/><circle cx="360" cy="200" r="6"/><circle cx="376" cy="200" r="6"/>
+    <circle cx="344" cy="216" r="6"/><circle cx="360" cy="216" r="6"/><circle cx="376" cy="216" r="6"/>
+  </g>
+  <text x="360" y="262" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">Homoplazmi</text>
+  <text x="360" y="276" font-size="9.5" fill="#64748B" text-anchor="middle">(hepsi mutant)</text>
+  <text x="360" y="294" font-size="11" font-weight="700" fill="#1A2B4A" text-anchor="middle">%100 mutant</text>
+
+  <text x="52" y="322" font-size="9.5" fill="#475569">Yabanıl ve mutant mtDNA aynı hücrede bir arada bulunabilir; bu duruma heteroplazmi denir.</text>
+  <text x="52" y="337" font-size="9.5" fill="#475569">Klinik soru artık "varyant var mı?" değil, "yüzde kaç ve hangi dokuda?"dır.</text>
+
+  <!-- ================= PANEL B ================= -->
+  <rect x="460" y="80" width="400" height="270" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="472" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="482" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="500" y="105" font-size="13" font-weight="700" fill="#2563EB">Eşik etkisi: doğrusal değil, basamaklı</text>
+
+  <!-- Eşik bandı -->
+  <rect x="702" y="130" width="64" height="155" fill="#FEF3C7" opacity="0.75"/>
+  <text x="734" y="124" font-size="9.5" font-weight="700" fill="#B45309" text-anchor="middle">EŞİK</text>
+
+  <!-- Eksenler -->
+  <line x1="510" y1="130" x2="510" y2="285" stroke="#94A3B8" stroke-width="1.5"/>
+  <line x1="510" y1="285" x2="836" y2="285" stroke="#94A3B8" stroke-width="1.5"/>
+
+  <!-- Eğri -->
+  <path d="M 510 142 L 690 147 C 715 152, 735 180, 752 210 C 768 240, 790 268, 830 279" fill="none" stroke="#B91C1C" stroke-width="3"/>
+  <text x="600" y="134" font-size="9.5" fill="#64748B" text-anchor="middle">OXPHOS işlevi korunur</text>
+
+  <!-- y ekseni başlığı -->
+  <text x="486" y="207" font-size="10" fill="#475569" text-anchor="middle" transform="rotate(-90 486 207)">OXPHOS işlevi →</text>
+
+  <!-- Bölge bandı -->
+  <rect x="510" y="292" width="192" height="16" fill="#DBEAFE"/>
+  <text x="606" y="304" font-size="9.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">klinik olarak sessiz</text>
+  <rect x="702" y="292" width="64" height="16" fill="#FEF3C7"/>
+  <text x="734" y="304" font-size="9.5" font-weight="700" fill="#B45309" text-anchor="middle">eşik</text>
+  <rect x="766" y="292" width="64" height="16" fill="#FEE2E2"/>
+  <text x="798" y="304" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">hastalık</text>
+
+  <text x="670" y="328" font-size="10" fill="#475569" text-anchor="middle">Mutant mtDNA yüzdesi (heteroplazmi) →</text>
+  <text x="472" y="344" font-size="9.5" fill="#475569">Eşiğin altında hücre normal çalışır; eşik aşılınca işlev hızla çöker.</text>
+
+  <!-- ================= PANEL C ================= -->
+  <rect x="40" y="365" width="820" height="130" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="375" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="390" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="80" y="390" font-size="13" font-weight="700" fill="#2563EB">Eşik dokuya göre değişir: en çok enerji harcayan doku ilk çöker</text>
+
+  <text x="52" y="412" font-size="9.5" fill="#475569">Aynı heteroplazmi yüzdesi her dokuda aynı sonucu vermez; eşik, dokunun oksidatif enerji talebiyle ters orantılıdır.</text>
+
+  <text x="160" y="433" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Beyin / SSS</text>
+  <text x="310" y="433" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Kalp kası</text>
+  <text x="460" y="433" font-size="9.5" font-weight="700" fill="#D97706" text-anchor="middle">İskelet kası</text>
+  <text x="610" y="433" font-size="9.5" font-weight="700" fill="#D97706" text-anchor="middle">Retina / optik sinir</text>
+  <text x="760" y="433" font-size="9.5" font-weight="700" fill="#2563EB" text-anchor="middle">Deri / fibroblast</text>
+
+  <line x1="120" y1="445" x2="800" y2="445" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="160" cy="445" r="5.5" fill="#B91C1C"/>
+  <circle cx="310" cy="445" r="5.5" fill="#B91C1C"/>
+  <circle cx="460" cy="445" r="5.5" fill="#D97706"/>
+  <circle cx="610" cy="445" r="5.5" fill="#D97706"/>
+  <circle cx="760" cy="445" r="5.5" fill="#2563EB"/>
+
+  <text x="120" y="470" font-size="9.5" font-weight="700" fill="#B91C1C">◀ enerji talebi yüksek → eşik DÜŞÜK (erken etkilenir)</text>
+  <text x="800" y="470" font-size="9.5" font-weight="700" fill="#1D4ED8" text-anchor="end">enerji talebi düşük → eşik YÜKSEK (dayanır) ▶</text>
+  <text x="52" y="487" font-size="9.5" fill="#64748B">Bu yüzden mitokondriyal hastalıklar tipik olarak çok-sistemli, ama nörolojik/kardiyak ağırlıklı seyreder.</text>
+
+  <!-- ============ mekanizma → test → yorum şeridi ============ -->
+  <rect x="40" y="510" width="820" height="40" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.2"/>
+  <line x1="300" y1="516" x2="300" y2="544" stroke="#CBD5E1" stroke-width="1.3"/>
+  <line x1="590" y1="516" x2="590" y2="544" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="170" y="527" font-size="9.5" font-weight="700" fill="#1A2B4A" text-anchor="middle">MEKANİZMA</text>
+  <text x="170" y="541" font-size="10" fill="#2E3440" text-anchor="middle">eşik aşılır → OXPHOS düşer</text>
+  <text x="445" y="527" font-size="9.5" font-weight="700" fill="#1A2B4A" text-anchor="middle">TEST</text>
+  <text x="445" y="541" font-size="10" fill="#2E3440" text-anchor="middle">heteroplazmi % — doğru dokuda ölç</text>
+  <text x="725" y="527" font-size="9.5" font-weight="700" fill="#1A2B4A" text-anchor="middle">YORUM</text>
+  <text x="725" y="541" font-size="10" fill="#2E3440" text-anchor="middle">düşük % "zararsız" demek değildir</text>
+
+  <!-- Öğreti footer -->
+  <text x="40" y="576" font-size="11.5" font-style="italic" fill="#475569">Öğreti: Heteroplazmi, Bölüm 3'teki doz–eşik mantığının mitokondriyal karşılığıdır — ama doz burada "%50 alel" değil, ölçülen mutant mtDNA yüzdesidir</text>
+  <text x="40" y="592" font-size="11.5" font-style="italic" fill="#475569">ve her dokuda farklıdır. Bu yüzden tek bir yüzde değeri tek başına ne tanı koydurur ne de dışlar.</text>
+  <text x="860" y="592" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Stewart &amp; Chinnery (2015); Gorman ve ark. (2016)</text>
+</svg>

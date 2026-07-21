@@ -1,0 +1,166 @@
+<svg viewBox="0 0 900 530" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="530" fill="#ffffff"/>
+  <defs>
+    <filter id="s38shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 12.1 — Mozaikliğin zaman ekseni: varyant ne zaman oluştuysa oraya dağılır</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Postzigotik bir varyantın hangi hücrelerde bulunacağını belirleyen tek değişken, embriyogenezin hangi anında ortaya çıktığıdır.</text>
+
+  <!-- ============ PANEL A ============ -->
+  <rect x="40" y="80" width="270" height="308" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#B91C1C">Çok erken</text>
+  <text x="52" y="124" font-size="10" fill="#64748B">İlk bölünmeler (2–4 hücre evresi)</text>
+
+  <!-- Kenarlar -->
+  <g stroke="#CBD5E1" stroke-width="1.6" fill="none">
+    <line x1="175" y1="154" x2="235" y2="192"/>
+    <line x1="235" y1="192" x2="205" y2="230"/>
+    <line x1="235" y1="192" x2="265" y2="230"/>
+    <line x1="205" y1="230" x2="190" y2="268"/>
+    <line x1="205" y1="230" x2="220" y2="268"/>
+    <line x1="265" y1="230" x2="250" y2="268"/>
+    <line x1="265" y1="230" x2="280" y2="268"/>
+  </g>
+  <g stroke="#B91C1C" stroke-width="2" fill="none">
+    <line x1="175" y1="154" x2="115" y2="192"/>
+    <line x1="115" y1="192" x2="85" y2="230"/>
+    <line x1="115" y1="192" x2="145" y2="230"/>
+    <line x1="85" y1="230" x2="70" y2="268"/>
+    <line x1="85" y1="230" x2="100" y2="268"/>
+    <line x1="145" y1="230" x2="130" y2="268"/>
+    <line x1="145" y1="230" x2="160" y2="268"/>
+  </g>
+  <!-- Düğümler -->
+  <circle cx="175" cy="154" r="9" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <circle cx="235" cy="192" r="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <circle cx="115" cy="192" r="8" fill="#B91C1C"/>
+  <circle cx="205" cy="230" r="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="265" cy="230" r="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="85" cy="230" r="7" fill="#B91C1C"/>
+  <circle cx="145" cy="230" r="7" fill="#B91C1C"/>
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5">
+    <circle cx="190" cy="268" r="7"/><circle cx="220" cy="268" r="7"/>
+    <circle cx="250" cy="268" r="7"/><circle cx="280" cy="268" r="7"/>
+  </g>
+  <g fill="#B91C1C">
+    <circle cx="70" cy="268" r="7"/><circle cx="100" cy="268" r="7"/>
+    <circle cx="130" cy="268" r="7"/><circle cx="160" cy="268" r="7"/>
+  </g>
+  <text x="115" y="176" font-size="14" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+
+  <text x="175" y="292" font-size="9" fill="#94A3B8" text-anchor="middle">★ = varyantın oluştuğu an</text>
+  <text x="175" y="314" font-size="15" font-weight="700" fill="#B91C1C" text-anchor="middle">Hücrelerin ≈%50'si</text>
+  <rect x="70" y="326" width="210" height="22" rx="6" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.4"/>
+  <text x="175" y="341" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">Germline TUTULUR</text>
+  <text x="52" y="362" font-size="9.5" fill="#475569">Yaygın dağılım; kanda bile saptanır.</text>
+  <text x="52" y="376" font-size="9.5" fill="#475569">Klinik: konstitüsyonel hastalığa yakın.</text>
+
+  <!-- ============ PANEL B ============ -->
+  <rect x="320" y="80" width="270" height="308" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="332" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="342" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="360" y="105" font-size="13" font-weight="700" fill="#D97706">Erken–orta</text>
+  <text x="332" y="124" font-size="10" fill="#64748B">Gastrülasyon civarı</text>
+
+  <g stroke="#CBD5E1" stroke-width="1.6" fill="none">
+    <line x1="455" y1="154" x2="515" y2="192"/>
+    <line x1="455" y1="154" x2="395" y2="192"/>
+    <line x1="515" y1="192" x2="485" y2="230"/>
+    <line x1="515" y1="192" x2="545" y2="230"/>
+    <line x1="395" y1="192" x2="365" y2="230"/>
+    <line x1="485" y1="230" x2="470" y2="268"/>
+    <line x1="485" y1="230" x2="500" y2="268"/>
+    <line x1="545" y1="230" x2="530" y2="268"/>
+    <line x1="545" y1="230" x2="560" y2="268"/>
+    <line x1="365" y1="230" x2="350" y2="268"/>
+    <line x1="365" y1="230" x2="380" y2="268"/>
+  </g>
+  <g stroke="#B91C1C" stroke-width="2" fill="none">
+    <line x1="395" y1="192" x2="425" y2="230"/>
+    <line x1="425" y1="230" x2="410" y2="268"/>
+    <line x1="425" y1="230" x2="440" y2="268"/>
+  </g>
+  <circle cx="455" cy="154" r="9" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <circle cx="515" cy="192" r="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <circle cx="395" cy="192" r="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <circle cx="485" cy="230" r="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="545" cy="230" r="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="365" cy="230" r="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="425" cy="230" r="7" fill="#B91C1C"/>
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5">
+    <circle cx="470" cy="268" r="7"/><circle cx="500" cy="268" r="7"/>
+    <circle cx="530" cy="268" r="7"/><circle cx="560" cy="268" r="7"/>
+    <circle cx="350" cy="268" r="7"/><circle cx="380" cy="268" r="7"/>
+  </g>
+  <g fill="#B91C1C">
+    <circle cx="410" cy="268" r="7"/><circle cx="440" cy="268" r="7"/>
+  </g>
+  <text x="425" y="214" font-size="14" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+
+  <text x="455" y="292" font-size="9" fill="#94A3B8" text-anchor="middle">★ = varyantın oluştuğu an</text>
+  <text x="455" y="314" font-size="15" font-weight="700" fill="#B45309" text-anchor="middle">Hücrelerin ≈%25'i</text>
+  <rect x="350" y="326" width="210" height="22" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <text x="455" y="341" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">Germline TUTULABİLİR</text>
+  <text x="332" y="362" font-size="9.5" fill="#475569">Segmental/yamalı dağılım (Blaschko).</text>
+  <text x="332" y="376" font-size="9.5" fill="#475569">Klinik: tipik mozaik sendrom tablosu.</text>
+
+  <!-- ============ PANEL C ============ -->
+  <rect x="600" y="80" width="260" height="308" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="612" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="622" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="640" y="105" font-size="13" font-weight="700" fill="#2563EB">Geç</text>
+  <text x="612" y="124" font-size="10" fill="#64748B">Organogenez ve sonrası</text>
+
+  <g stroke="#CBD5E1" stroke-width="1.6" fill="none">
+    <line x1="730" y1="154" x2="790" y2="192"/>
+    <line x1="730" y1="154" x2="670" y2="192"/>
+    <line x1="790" y1="192" x2="760" y2="230"/>
+    <line x1="790" y1="192" x2="820" y2="230"/>
+    <line x1="670" y1="192" x2="640" y2="230"/>
+    <line x1="670" y1="192" x2="700" y2="230"/>
+    <line x1="760" y1="230" x2="745" y2="268"/>
+    <line x1="760" y1="230" x2="775" y2="268"/>
+    <line x1="820" y1="230" x2="805" y2="268"/>
+    <line x1="820" y1="230" x2="835" y2="268"/>
+    <line x1="640" y1="230" x2="625" y2="268"/>
+    <line x1="640" y1="230" x2="655" y2="268"/>
+    <line x1="700" y1="230" x2="685" y2="268"/>
+  </g>
+  <line x1="700" y1="230" x2="715" y2="268" stroke="#B91C1C" stroke-width="2"/>
+  <circle cx="730" cy="154" r="9" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <circle cx="790" cy="192" r="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <circle cx="670" cy="192" r="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6">
+    <circle cx="760" cy="230" r="7"/><circle cx="820" cy="230" r="7"/>
+    <circle cx="640" cy="230" r="7"/><circle cx="700" cy="230" r="7"/>
+  </g>
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5">
+    <circle cx="745" cy="268" r="7"/><circle cx="775" cy="268" r="7"/>
+    <circle cx="805" cy="268" r="7"/><circle cx="835" cy="268" r="7"/>
+    <circle cx="625" cy="268" r="7"/><circle cx="655" cy="268" r="7"/>
+    <circle cx="685" cy="268" r="7"/>
+  </g>
+  <circle cx="715" cy="268" r="7" fill="#B91C1C"/>
+  <text x="719" y="250" font-size="14" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+
+  <text x="730" y="292" font-size="9" fill="#94A3B8" text-anchor="middle">★ = varyantın oluştuğu an</text>
+  <text x="730" y="314" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle">Hücrelerin ≈%12'si</text>
+  <rect x="625" y="326" width="210" height="22" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.4"/>
+  <text x="730" y="341" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">Germline TUTULMAZ</text>
+  <text x="612" y="362" font-size="9.5" fill="#475569">Tek dokuya sınırlı (ör. beyin, deri).</text>
+  <text x="612" y="376" font-size="9.5" fill="#475569">Klinik: fokal lezyon; kanda GÖRÜNMEZ.</text>
+
+  <!-- ============ ALT BANT ============ -->
+  <rect x="40" y="402" width="820" height="56" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="450" y="424" font-size="11.5" font-weight="700" fill="#1A2B4A" text-anchor="middle">Kural: Varyant ne kadar ERKEN oluşursa o kadar çok hücre soyuna dağılır — ve germline'a ulaşma olasılığı o kadar artar.</text>
+  <text x="450" y="443" font-size="10.5" fill="#2E3440" text-anchor="middle">Bu tek cümle hem hangi dokuyu test edeceğinizi hem de aileye vereceğiniz tekrarlanma riskini belirler.</text>
+
+  <text x="40" y="484" font-size="11.5" font-style="italic" fill="#475569">Öğreti: Mozaiklikte "varyant var mı?" sorusu eksiktir; doğru soru "varyant hangi hücrelerde ve hangi oranda var?"dır. Zamanlama, dağılımı;</text>
+  <text x="40" y="500" font-size="11.5" font-style="italic" fill="#475569">dağılım hem fenotipi hem test edilecek dokuyu hem de tekrarlanma riskini belirler.</text>
+  <text x="860" y="518" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Biesecker &amp; Spinner (2013); Happle (1987)</text>
+</svg>

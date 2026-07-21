@@ -1,0 +1,111 @@
+<svg viewBox="0 0 900 535" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="535" fill="#ffffff"/>
+  <defs>
+    <marker id="s41arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748B"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 12.4 — Letal-mozaik hipotezi ve Blaschko çizgileri</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Bazı varyantlar tüm hücrelerde bulunduklarında embriyoyu öldürür; ancak mozaik hâlde, sağlam hücrelerle karışık olarak yaşayabilirler (Happle, 1987).</text>
+
+  <!-- ============ PANEL A ============ -->
+  <rect x="40" y="80" width="410" height="306" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#B91C1C">"Mozaiklikle hayatta kalan letal gen"</text>
+  <text x="52" y="124" font-size="9.5" fill="#64748B">Aynı varyant, dağılımına göre ya öldürür ya hastalık yapar.</text>
+
+  <!-- Senaryo 1 -->
+  <text x="52" y="152" font-size="10.5" font-weight="700" fill="#1A2B4A">1) Varyant ZİGOTTA — tüm hücrelerde</text>
+  <rect x="58" y="160" width="150" height="62" rx="10" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.5"/>
+  <g fill="#B91C1C">
+    <rect x="66" y="166" width="24" height="14" rx="3"/><rect x="98" y="166" width="24" height="14" rx="3"/>
+    <rect x="130" y="166" width="24" height="14" rx="3"/><rect x="162" y="166" width="24" height="14" rx="3"/>
+    <rect x="66" y="182" width="24" height="14" rx="3"/><rect x="98" y="182" width="24" height="14" rx="3"/>
+    <rect x="130" y="182" width="24" height="14" rx="3"/><rect x="162" y="182" width="24" height="14" rx="3"/>
+    <rect x="66" y="198" width="24" height="14" rx="3"/><rect x="98" y="198" width="24" height="14" rx="3"/>
+    <rect x="130" y="198" width="24" height="14" rx="3"/><rect x="162" y="198" width="24" height="14" rx="3"/>
+  </g>
+  <line x1="216" y1="191" x2="248" y2="191" stroke="#64748B" stroke-width="1.8" marker-end="url(#s41arrow)"/>
+  <rect x="256" y="168" width="180" height="46" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.8"/>
+  <text x="346" y="186" font-size="10.5" font-weight="700" fill="#B91C1C" text-anchor="middle">EMBRİYONİK LETAL</text>
+  <text x="346" y="202" font-size="9.5" fill="#2E3440" text-anchor="middle">canlı doğum gözlenmez</text>
+
+  <!-- Senaryo 2 -->
+  <text x="52" y="262" font-size="10.5" font-weight="700" fill="#1A2B4A">2) Varyant POSTZİGOTİK — hücrelerin bir kısmında</text>
+  <rect x="58" y="270" width="150" height="62" rx="10" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5"/>
+  <g>
+    <rect x="66" y="276" width="24" height="14" rx="3" fill="#B91C1C"/><rect x="98" y="276" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="130" y="276" width="24" height="14" rx="3" fill="#B91C1C"/><rect x="162" y="276" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="66" y="292" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/><rect x="98" y="292" width="24" height="14" rx="3" fill="#B91C1C"/>
+    <rect x="130" y="292" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/><rect x="162" y="292" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+    <rect x="66" y="308" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/><rect x="98" y="308" width="24" height="14" rx="3" fill="#B91C1C"/>
+    <rect x="130" y="308" width="24" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/><rect x="162" y="308" width="24" height="14" rx="3" fill="#B91C1C"/>
+  </g>
+  <line x1="216" y1="301" x2="248" y2="301" stroke="#64748B" stroke-width="1.8" marker-end="url(#s41arrow)"/>
+  <rect x="256" y="278" width="180" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="346" y="296" font-size="10.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">YAŞAYABİLİR</text>
+  <text x="346" y="312" font-size="9.5" fill="#2E3440" text-anchor="middle">mozaik / segmental hastalık</text>
+
+  <text x="52" y="352" font-size="9.5" fill="#475569">Sağlam hücreler, mutant hücrelerin yol açtığı kusuru tolere edilebilir kılar.</text>
+  <text x="52" y="366" font-size="9.5" font-weight="700" fill="#B45309">Sonuç: bu sendromlar DAİMA sporadiktir — aile öyküsü beklenmez.</text>
+
+  <!-- ============ PANEL B ============ -->
+  <rect x="470" y="80" width="390" height="306" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="482" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="492" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="510" y="105" font-size="13" font-weight="700" fill="#B91C1C">Blaschko çizgileri</text>
+  <text x="482" y="124" font-size="9.5" fill="#64748B">Mozaikliğin deri üzerindeki haritası</text>
+
+  <text x="482" y="162" font-size="9.5" fill="#64748B">Blaschko çizgileri,</text>
+  <text x="482" y="176" font-size="9.5" fill="#64748B">embriyoda hücre</text>
+  <text x="482" y="190" font-size="9.5" fill="#64748B">soylarının göç</text>
+  <text x="482" y="204" font-size="9.5" fill="#64748B">izleridir.</text>
+
+  <!-- Vücut -->
+  <g fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5">
+    <circle cx="665" cy="150" r="22"/>
+    <rect x="628" y="176" width="74" height="105" rx="16"/>
+    <rect x="596" y="183" width="26" height="80" rx="13"/>
+    <rect x="708" y="183" width="26" height="80" rx="13"/>
+    <rect x="634" y="281" width="28" height="68" rx="14"/>
+    <rect x="668" y="281" width="28" height="68" rx="14"/>
+  </g>
+
+  <!-- Blaschko çizgileri -->
+  <g stroke="#B91C1C" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M 634 188 L 665 206 L 696 188"/>
+    <path d="M 634 202 L 665 220 L 696 202"/>
+    <path d="M 634 238 C 650 232, 655 250, 668 244 C 680 238, 690 252, 698 246"/>
+    <path d="M 634 254 C 650 248, 655 266, 668 260 C 680 254, 690 268, 698 262"/>
+    <path d="M 640 288 L 644 344"/>
+    <path d="M 652 288 L 654 344"/>
+    <path d="M 674 288 L 676 344"/>
+    <path d="M 686 288 L 684 344"/>
+    <path d="M 604 193 L 606 256"/>
+    <path d="M 614 193 L 614 256"/>
+    <path d="M 716 193 L 714 256"/>
+    <path d="M 726 193 L 724 256"/>
+  </g>
+
+  <line x1="738" y1="199" x2="752" y2="198" stroke="#94A3B8" stroke-width="1"/>
+  <text x="756" y="201" font-size="9.5" font-weight="700" fill="#B91C1C">V şeklinde</text>
+  <line x1="738" y1="251" x2="752" y2="250" stroke="#94A3B8" stroke-width="1"/>
+  <text x="756" y="253" font-size="9.5" font-weight="700" fill="#B91C1C">S şeklinde</text>
+  <line x1="700" y1="316" x2="752" y2="316" stroke="#94A3B8" stroke-width="1"/>
+  <text x="756" y="319" font-size="9.5" font-weight="700" fill="#B91C1C">çizgisel</text>
+
+  <text x="482" y="362" font-size="9.5" fill="#475569">Deri lezyonu bu çizgileri izliyorsa altta mozaik bir varyant vardır —</text>
+  <text x="482" y="376" font-size="9.5" font-weight="700" fill="#B45309">lezyon dokusu doğrudan test edilmelidir, kan değil.</text>
+
+  <!-- ============ PANEL C ============ -->
+  <rect x="40" y="400" width="820" height="62" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="52" y="421" font-size="10.5" font-weight="700" fill="#1A2B4A">Letal-mozaik örnekleri (hepsi sporadik, hiçbiri kalıtılmaz):</text>
+  <text x="52" y="440" font-size="9.5" fill="#2E3440">McCune-Albright (GNAS p.Arg201His/Cys) · Proteus (AKT1 p.Glu17Lys) · Sturge-Weber ve porto-şarabı lekesi (GNAQ p.Arg183Gln) · PROS (PIK3CA)</text>
+  <text x="52" y="455" font-size="9" fill="#64748B">Ortak örüntü: hepsi büyüme/sinyal yolaklarında işlev kazanımı (GoF) varyantlarıdır — bkz. Bölüm 4 ve Bölüm 6.</text>
+
+  <text x="40" y="490" font-size="11.5" font-style="italic" fill="#475569">Öğreti: "Sporadik + segmental/asimetrik + Blaschko çizgilerini izleyen" üçlüsü, mozaik bir işlev-kazanımı varyantının klasik imzasıdır.</text>
+  <text x="40" y="506" font-size="11.5" font-style="italic" fill="#475569">Bu üçlüyü gören hekim, kan yerine lezyon dokusunu istemelidir.</text>
+  <text x="860" y="524" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Happle (1986, 1987); Lindhurst ve ark. (2011); Shirley ve ark. (2013)</text>
+</svg>
