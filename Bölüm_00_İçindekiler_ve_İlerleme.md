@@ -19,9 +19,9 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 8 | CNV / yapısal varyantlar | `Bölüm_08_CNV_Yapisal_Varyantlar.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 6/6 |
 | 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 10/10 |
 | 10 | İmprinting, UPD, epigenetik | `Bölüm_10_Imprinting_UPD_Epigenetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
-| 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 12/12 |
+| 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 14/14 |
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 12/12 |
-| 13 | Noncoding / regülatör varyantlar | — | ⬜ Bekliyor | — | — |
+| 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 14 | Digenik / oligogenik / modifier | — | ⬜ Bekliyor | — | — |
 | 15 | Aynı gen → farklı hastalık | — | ⬜ Bekliyor | — | — |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | — | ⬜ Bekliyor | — | — |
@@ -38,7 +38,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 | PMID | Yazar (yıl) | Dergi | DOI | Tip / kullanım | Kullanıldığı bölümler |
 |------|-------------|-------|-----|----------------|------------------------|
-| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3 |
+| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13 |
 | 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2 |
 | 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; pLI/LOEUF) | 1, 2, 3 |
 | 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1 |
@@ -59,21 +59,21 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 11704759 | Tartaglia ve ark. (2001) | Nat Genet | 10.1038/ng772 | Klinik/mekanizma (PTPN11/SHP-2 GoF; Noonan; hotspot arayüz) | 4 |
 | 29844171 | Berecki ve ark. (2018) | PNAS | 10.1073/pnas.1800077115 | Mekanizma/klinik (SCN2A GoF vs LoF elektrofizyolojik ayrım) | 4 |
 | 32090326 | Brunklaus ve ark. (2020) | Epilepsia | 10.1111/epi.16438 | Klinik (Na-kanal GoF→erken başlangıç + SCB yanıtı; yön-tedavi) | 4 |
-| 31892348 | Brnich ve ark. (2019) | Genome Med | 10.1186/s13073-019-0690-2 | Guideline (PS3/BS3 fonksiyonel kanıt; "mekanizmayı tanımla") | 4 |
+| 31892348 | Brnich ve ark. (2019) | Genome Med | 10.1186/s13073-019-0690-2 | Guideline (PS3/BS3 fonksiyonel kanıt; "mekanizmayı tanımla") | 4, 11, 13 |
 | 2442619 | Herskowitz (1987) | Nature | 10.1038/329219a0 | Landmark kavram (dominant-negatif tanımı; mutant ürün yabanıl-tipi bozar) | 5, 6 |
 | 11001814 | Forlino &amp; Marini (2000) | Mol Genet Metab | 10.1006/mgme.2000.3039 | Klinik/mekanizma (OI = DN hastalığı; null→hafif tip I vs glisin→ağır) | 5 |
 | 35794153 | Gerasimavicius ve ark. (2022) | Nat Commun | 10.1038/s41467-022-31686-6 | Metodoloji (DN/GoF/neomorf arayüz/3B kümelenme; tahmin araçları zayıf) | 5, 6 |
 | 40704418 | Kamada ve ark. (2025) | Chembiochem | 10.1002/cbic.202500330 | Klinik/mekanizma (TP53 tetramer DN; hetero-tetramer işlev kaybı) | 5 |
 | 19935646 | Dang ve ark. (2009) | Nature | 10.1038/nature08617 | Landmark neomorf (IDH1 R132 → 2-HG onkometaboliti) | 6 |
 | 23539183 | Lewis ve ark. (2013) | Science | 10.1126/science.1232245 | Mekanizma/klinik (H3 K27M onkohiston; PRC2/EZH2 inhibisyonu; DIPG) | 6 |
-| 22057236 | Amary ve ark. (2011) | Nat Genet | 10.1038/ng.994 | Klinik (Ollier/Maffucci = mozaik IDH1/IDH2; neomorf–mozaiklik) | 6 |
+| 22057236 | Amary ve ark. (2011) | Nat Genet | 10.1038/ng.994 | Klinik (Ollier/Maffucci = mozaik IDH1/IDH2; neomorf–mozaiklik) | 6, 12 |
 | 26593421 | Scotti &amp; Swanson (2016) | Nat Rev Genet | 10.1038/nrg.2015.3 | Landmark review (splicing mekanizması; mis-splicing hastalıkları) | 7 |
-| 30661751 | Jaganathan ve ark. (2019) | Cell | 10.1016/j.cell.2018.12.015 | Metodoloji (SpliceAI; sessiz/derin intronik kriptik splice; ~%9–11) | 7 |
+| 30661751 | Jaganathan ve ark. (2019) | Cell | 10.1016/j.cell.2018.12.015 | Metodoloji (SpliceAI; sessiz/derin intronik kriptik splice; ~%9–11) | 7, 13 |
 | 37352859 | Walker ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.06.002 | Guideline (ClinGen SVI splice; PVS1/PS3/PP3/BP4/BP7/PS1) | 7 |
 | 10339583 | Lorson ve ark. (1999) | PNAS | 10.1073/pnas.96.11.6307 | Landmark/klinik (SMN2 ekzon 7 sessiz C>T → ESE → SMA) | 7 |
 | 20059347 | Stankiewicz &amp; Lupski (2010) | Annu Rev Med | 10.1146/annurev-med-100708-204735 | Landmark review (SV/CNV; genomik bozukluklar; NAHR/FoSTeS) | 8 |
 | 1677316 | Lupski ve ark. (1991) | Cell | 10.1016/0092-8674(91)90613-4 | Landmark dozaj CNV (CMT1A 17p duplikasyonu) | 8 |
-| 25959774 | Lupiáñez ve ark. (2015) | Cell | 10.1016/j.cell.2015.04.004 | Mekanizma (TAD bozulması/pozisyon etkisi; enhancer hijacking) | 8 |
+| 25959774 | Lupiáñez ve ark. (2015) | Cell | 10.1016/j.cell.2015.04.004 | Mekanizma (TAD bozulması/pozisyon etkisi; enhancer hijacking) | 8, 13 |
 | 20466091 | Miller ve ark. (2010) | Am J Hum Genet | 10.1016/j.ajhg.2010.04.006 | Guideline (CMA birinci-basamak test; getiri %15–20) | 8 |
 | 29325606 | Paulson H. (2018) | Handb Clin Neurol | 10.1016/B978-0-444-63233-3.00009-9 | Landmark review (tüm tekrar genişlemesi hastalıkları; mekanizma sınıflaması; anticipasyon) | 9 |
 | 21163446 | Ross &amp; Tabrizi (2011) | Lancet Neurol | 10.1016/S1474-4422(10)70245-3 | HD landmark klinik/mekanistik; polyQ agregasyonu; striatal patoloji | 9 |
@@ -88,7 +88,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 11253064 | Reik &amp; Walter (2001) | Nat Rev Genet | 10.1038/35047554 | Landmark (genomik imprinting; epigenetik işaret; ebeveyn-çatışması; büyüme geni asimetrisi) | 10 |
 | 22237428 | Cassidy ve ark. (2012) | Genet Med | 10.1038/gim.0b013e31822bead0 | Klinik/mekanizma (PWS alt-tip sıklıkları; metilasyon >%99; SNORD116) | 10 |
 | 17347796 | Lalande &amp; Calciano (2007) | Cell Mol Life Sci | 10.1007/s00018-007-6460-0 | Mekanizma (UBE3A maternal ifade; antisens susturma; AS alt-tipleri) | 10 |
-| 29377879 | Brioude ve ark. (2018) | Nat Rev Endocrinol | 10.1038/nrendo.2017.166 | Guideline (BWS 11p15.5 alt-tipleri; tümör riski; alt-tibe göre tarama) | 10 |
+| 29377879 | Brioude ve ark. (2018) | Nat Rev Endocrinol | 10.1038/nrendo.2017.166 | Guideline (BWS 11p15.5 alt-tipleri; tümör riski; alt-tipe göre tarama) | 10 |
 | 27585961 | Wakeling ve ark. (2017) | Nat Rev Endocrinol | 10.1038/nrendo.2016.138 | Guideline (SRS tanı/yönetim; ICR1 hipometilasyon; matUPD7) | 10 |
 | 11483637 | Kotzot (2001) | J Med Genet | 10.1136/jmg.38.8.497 | Metodoloji (UPD oluşum mekanizmaları; izo/heterodizomi) | 10 |
 | 10818216 | Mergenthaler ve ark. (2000) | Ann Genet | 10.1016/s0003-3995(00)00010-1 | Mekanizma (trizomi kurtarma; UPD7 izo vs heterodizomi oranları) | 10 |
@@ -116,6 +116,13 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 25087610 | Campbell ve ark. (2014) | Am J Hum Genet | 10.1016/j.ajhg.2014.07.003 | Metodoloji/danışmanlık (ebeveyn somatik mozaikliği; "de novo" sınırları; tekrar riski) | 12 |
 | 35163267 | Lee ve ark. (2022) | Int J Mol Sci | 10.3390/ijms23031344 | Mekanizma/klinik (FCD tip II; beyne sınırlı mozaiklik; germline+somatik iki vuruş) | 12 |
 | 37324239 | Checri ve ark. (2023) | Brain Commun | 10.1093/braincomms/fcad174 | Metodoloji (stereo-EEG elektrotlarından beyin somatik varyant saptanması) | 12 |
+| 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13 |
+| 32461616 | Whiffin ve ark. (2020) | Nat Commun | 10.1038/s41467-019-10717-9 | Mekanizma/metodoloji (5′UTR uORF varyantları; negatif seçilim; NF2) | 13 |
+| 12837695 | Lettice ve ark. (2003) | Hum Mol Genet | 10.1093/hmg/ddg180 | Landmark (ZRS enhancer; 1 Mb uzaktan düzenleme; ektopik SHH → polidaktili) | 13 |
+| 17152067 | Gurnett ve ark. (2007) | Am J Med Genet A | 10.1002/ajmg.a.31563 | Klinik örnek (ZRS varyantları; trifalanjeal başparmak; eksik penetrans %82) | 13 |
+| 24212882 | Weedon ve ark. (2014) | Nat Genet | 10.1038/ng.2826 | Klinik/metodoloji (PTF1A distal enhancer; izole pankreas agenezisi; epigenomik açıklama) | 13 |
+| 23348503 | Horn ve ark. (2013) | Science | 10.1126/science.1230062 | Klinik/mekanizma (TERT promotörü; germline + somatik; yeni Ets/TCF motifi) | 13 |
+| 24646999 | Smemo ve ark. (2014) | Nature | 10.1038/nature13138 | Mekanizma (FTO varyantları → IRX3; hedef gen en yakın gen değildir) | 13 |
 
 ---
 
@@ -152,6 +159,9 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_27_sv_tipleri.svg | 8 | Yapısal varyant tipleri (del/dup/inv/translok); dengeli-dengesiz |
 | sekil_28_cnv_hastalik_yollari.svg | 8 | CNV'nin 5 hastalık yolu (doz/kesinti/füzyon/pozisyon/maske) |
 | sekil_29_pmp22_dozaj.svg | 8 | PMP22: aynı lokus zıt doz (HNPP del vs CMT1A dup) |
+| sekil_09_allel_zonlari.svg | 9 | Tekrar dizisi hastalıklarında alel bölgeleri (normal/ara/pre/tam mutasyon) |
+| sekil_09_mekanizma_uclu.svg | 9 | Tekrar genişlemesinin üç patojenik mekanizması |
+| sekil_09_anticipasyon.svg | 9 | Anticipasyon: tekrar kuşaktan kuşağa büyür |
 | sekil_30_genomik_imprinting.svg | 10 | Genomik imprinting: ebeveyn kökenine göre tek-alel ifade; DMR metilasyonu |
 | sekil_31_15q11_pws_as.svg | 10 | 15q11-q13: tek bölge iki hastalık (PWS ↔ AS); alt-tipler ve sıklıklar |
 | sekil_32_upd_mekanizmalari.svg | 10 | UPD oluşum yolları (trizomi/monozomi kurtarma); izo/heterodizomi; resesif maskeleme |
@@ -164,11 +174,17 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_39_mozaiklik_tipleri_risk.svg | 12 | Somatik / germline (gonadal) / gonozomal mozaiklik → tekrarlanma riski karşılaştırması |
 | sekil_40_vaf_saptama_doku.svg | 12 | VAF nedir (okuma yüzdesi) · yöntem saptama tabanları (Sanger→ddPCR) · doku seçimi |
 | sekil_41_letal_mozaik_blaschko.svg | 12 | Happle letal-mozaik hipotezi (zigot vs postzigot) · Blaschko çizgileri (V/S/çizgisel) |
+| sekil_42_regulator_anatomi.svg | 13 | Düzenleyici anatomi: promotör/enhancer/silencer/CTCF-TAD + 5′UTR-uORF/3′UTR/poli-A |
+| sekil_43_noncoding_bes_yol.svg | 13 | Kodlamayan varyantın beş hastalık yolu (promotör, uORF, enhancer kaybı, ektopik, TAD) |
+| sekil_44_zrs_shh_ornegi.svg | 13 | ZRS: 1 Mb uzaktan SHH düzenlemesi; normal ZPA vs ektopik anterior ifade → polidaktili |
+| sekil_45_noncoding_kanit_hiyerarsisi.svg | 13 | Kodlamayan yorumlama: düşen kriterler (PVS1/PM1/PP3) vs güçlenenler (PS3) + üç şart |
+
+> ⚠️ **Arşiv notu (final pass'te ele alınacak):** `assets/` klasöründe hiçbir bölümde kullanılmayan üç yetim dosya bulunmaktadır: `sekil_30_repeat_esik_antisipasyon.svg`, `sekil_31_repeat_mekanizma_turleri.svg`, `sekil_32_fmr1_ornegi.svg`. Bunlar Bölüm 9 için üretilmiş ancak kullanılmayan erken sürümlerdir; numaraları Bölüm 10'un kullandığı dosyalarla çakışmaktadır. Ayrıca Bölüm 9 tek istisna olarak ardışık numara yerine `sekil_09_*` adlandırması kullanmaktadır (diğer tüm bölümler ardışıktır: Bölüm 8 → 27–29, Bölüm 10 → 30–33, Bölüm 11 → 34–37, Bölüm 12 → 38–41). Yeniden numaralandırma aşağı yönlü bütün bölümleri etkileyeceğinden final pass'e bırakılmıştır.
 
 ---
 
 ## 4. Sonraki adım
 
-- **Sıradaki bölüm:** Bölüm 13 — Noncoding / regülatör varyantlar.
-- Planlanan görseller: gen düzenleyici anatomisi (promotör, enhancer, silencer, izolatör/CTCF, UTR) · enhancer–promotör döngüsü ve TAD sınırı ihlali (Bölüm 8 köprüsü) · noncoding varyant tiplerinin sonuç haritası (promotör/5'UTR uORF/3'UTR miRNA bölgesi/derin intronik/poli-A) · noncoding varyant yorumlama ve kanıt hiyerarşisi (fonksiyonel test, MPRA, ATAC/ChIP verisi, korunmuşluk).
-- Not: Bölüm 12'de postzigotik zamanlama → dağılım → bölme (somatik/germline/gonozomal) → VAF → letal-mozaik zinciri kuruldu; heteroplazmi (Bölüm 11) ile mozaiklik "yüzde olarak taşınan varyant + doku seçimi tanının kendisidir" ekseninde kardeş kavramlar olarak bağlandı; segmental UPD ile Bölüm 10'a, mozaik IDH ile Bölüm 6'ya, FCD'deki iki-vuruş ile Bölüm 2'ye köprü kuruldu. **Bölüm 13 için köprü:** Bölüm 8'de TAD bozulması/enhancer hijacking (Lupiáñez 2015) yapısal varyant ekseninden işlenmişti; Bölüm 13 aynı düzenleyici mimariyi **tek nükleotid** ölçeğinde ele alacak. Ayrıca Bölüm 7'deki derin intronik/kriptik splice varyantları (SpliceAI) ile sınır netleştirilmeli: "noncoding" olan her varyant regülatör değildir. Bölüm 16'daki ACMG sentezine, noncoding varyantlarda PVS1'in neden uygulanamadığı ve PS3'ün neden ağırlık kazandığı taşınacaktır.
+- **Sıradaki bölüm:** Bölüm 14 — Digenik / oligogenik / modifier.
+- Planlanan görseller: monogenik → digenik → oligogenik → kompleks süreklilik (eşik/yük modeli) · digenik kalıtımın pedigri imzası ve neden Mendel oranı vermediği · modifiye edici genlerin penetrans ve ekspresiviteye etkisi (Bölüm 1 köprüsü) · ikinci-lokus kanıt hiyerarşisi ve ACMG'nin tek-gen varsayımının nerede kırıldığı.
+- Not: Bölüm 13'te düzenleyici anatomi → beş yol → doku-özgülük → hedef gen belirsizliği zinciri kuruldu; Bölüm 8'deki TAD/enhancer hijacking tek-nükleotid ölçeğine indirildi, Bölüm 7'deki splice varyantlarıyla sınır bilinçli olarak çizildi ("kodlamayan olan her varyant regülatör değildir"); yorumlamada PVS1'in uygulanamaması ve PS3'ün ağırlık kazanması işlendi (Ellingford 2022). **Bölüm 14 için köprü:** Bölüm 1'deki eksik penetrans/değişken ekspresivite (Cooper 2013) tartışması, Bölüm 14'te modifiye edici lokuslar üzerinden mekanizmaya bağlanacak; Bölüm 13'teki "düzenleyici varyantlar ifade dozunu ayarlar" fikri, modifier etkinin en somut moleküler zemini olarak kullanılacak. Ayrıca Bölüm 16'daki ACMG sentezine, ACMG çerçevesinin tek-gen/tek-lokus varsayımının digenik kalıtımda nerede kırıldığı taşınacaktır.

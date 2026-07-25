@@ -51,7 +51,7 @@ Bu bilgiyi somutlaştırmak için üç terimi baştan netleştirelim. **Diferans
 
 ![Şekil 10.1 — Genomik imprinting: ebeveyn kökenine göre tek-alel ifade](assets/sekil_30_genomik_imprinting.svg)
 
-Metilasyonun aleli her zaman doğrudan susturmadığını vurgulamak gerekir; kimi ICR'ler bir **izolatör (insulator)** üzerinden çalışır. Bunun ders kitabı örneği 11p15.5'teki *IGF2/H19* bölgesidir (Bölüm 7'de göreceğimiz). Burada ICR1, metilsiz maternal alelde CTCF proteinini bağlayarak bir izolatör kurar; bu izolatör, ortak enhancer'ların *IGF2*'ye ulaşmasını engeller, dolayısıyla maternal alelde *H19* ifade edilir, *IGF2* susar. Paternal alelde ise ICR1 metilidir, CTCF bağlanamaz, izolatör kurulamaz ve enhancer'lar *IGF2*'yi çalıştırır. Böylece **aynı metilasyon işareti**, bağlamına göre bir geni açar (*IGF2*, paternal) başka birini kapatır (*H19*, paternal) — imprintin "tek şalter, çift sonuç" mantığı budur.
+Metilasyonun aleli her zaman doğrudan susturmadığını vurgulamak gerekir; kimi ICR'ler bir **izolatör (insulator)** üzerinden çalışır. Bunun ders kitabı örneği, bu bölümün ilerleyen kısmında Beckwith-Wiedemann ve Silver-Russell sendromları bağlamında ayrıntılandıracağımız 11p15.5'teki *IGF2/H19* bölgesidir. Burada ICR1, metilsiz maternal alelde CTCF proteinini bağlayarak bir izolatör kurar; bu izolatör, ortak enhancer'ların *IGF2*'ye ulaşmasını engeller, dolayısıyla maternal alelde *H19* ifade edilir, *IGF2* susar. Paternal alelde ise ICR1 metilidir, CTCF bağlanamaz, izolatör kurulamaz ve enhancer'lar *IGF2*'yi çalıştırır. Böylece **aynı metilasyon işareti**, bağlamına göre bir geni açar (*IGF2*, paternal) başka birini kapatır (*H19*, paternal) — imprintin "tek şalter, çift sonuç" mantığı budur.
 
 > **🔬 Deep-dive — Antisens transkript ile susturma (UBE3A örneği):** Angelman sendromunun anahtar geni *UBE3A*, beyinde neredeyse yalnızca maternal alelden ifade edilir. Ancak *UBE3A* promotörünün kendisi klasik anlamda metile değildir; susturma dolaylıdır. Paternal alelde, komşu *SNRPN* lokusundan başlayan uzun bir **antisens transkript (*UBE3A-ATS*)** *UBE3A*'nın üzerinden ters yönde okunur ve onu *cis*'te susturur. Maternal alelde ise ICR (SNRPN-DMR) metile olduğu için bu antisens başlatılmaz ve *UBE3A* ifade edilir (Lalande ve Calciano, 2007). Bu, imprintin yalnızca "promotör metilasyonu" olmadığını; noncoding RNA, antisens transkripsiyon ve kromatin döngülerini de kapsayan çok katmanlı bir düzenleme olduğunu gösterir. Klinik yansıması derindir: paternal alelin antisensini susturup *UBE3A*'yı "geri açmayı" hedefleyen antisens-oligonükleotid tedavileri Angelman'da aktif araştırma alanıdır.
 
@@ -169,7 +169,7 @@ flowchart TD
 
 **Angelman sendromu (15q11-q13, maternal kayıp).** Konuşması hiç gelişmeyen, ataksik, nöbetli ve sık gülen bir çocuk; EEG'de tipik yüksek-amplitüdlü yavaş dalgalar. Nedenler: maternal delesyon (~%70), *UBE3A* varyantı (~%10, kalıtsal olabilir), paternal UPD15 ve ID (~%2–5'er). Metilasyon normalse bile AS dışlanamaz — *UBE3A* dizilemesi gerekir; bu, imprintli tek-gen varyantının ayrı bir test basamağı olduğunun en iyi örneğidir (Lalande ve Calciano, 2007).
 
-**Beckwith-Wiedemann sendromu (11p15.5, aşırı büyüme).** Makroglossi, karın duvarı defekti (omfalosel), yenidoğan hipoglisemisi, lateralize aşırı büyüme ve **embriyonal tümör** (özellikle Wilms tümörü, hepatoblastom) yatkınlığıyla tanınır. Moleküler alt-tipler tümör riskini doğrudan belirler: ICR1 hipermetilasyonu (*IGF2* ↑↑) ve paternal UPD11 en yüksek Wilms riskini taşırken, ICR2 hipometilasyonu (*CDKN1C* ↓; en sık, ~%50) görece düşük tümör riskindedir. Bu yüzden uluslararası konsensüs, tümör tarama yoğunluğunu **moleküler alt-tibe göre** ayarlamayı önerir (Brioude ve ark., 2018). Öğreti: burada moleküler tanı, doğrudan bir kanser-tarama protokolüne dönüşür.
+**Beckwith-Wiedemann sendromu (11p15.5, aşırı büyüme).** Makroglossi, karın duvarı defekti (omfalosel), yenidoğan hipoglisemisi, lateralize aşırı büyüme ve **embriyonal tümör** (özellikle Wilms tümörü, hepatoblastom) yatkınlığıyla tanınır. Moleküler alt-tipler tümör riskini doğrudan belirler: ICR1 hipermetilasyonu (*IGF2* ↑↑) ve paternal UPD11 en yüksek Wilms riskini taşırken, ICR2 hipometilasyonu (*CDKN1C* ↓; en sık, ~%50) görece düşük tümör riskindedir. Bu yüzden uluslararası konsensüs, tümör tarama yoğunluğunu **moleküler alt-tipe göre** ayarlamayı önerir (Brioude ve ark., 2018). Öğreti: burada moleküler tanı, doğrudan bir kanser-tarama protokolüne dönüşür.
 
 **Silver-Russell sendromu (11p15.5/kr.7, büyüme kısıtlılığı).** BWS'nin ayna görüntüsüdür: intrauterin ve postnatal ağır boy kısalığı, göreli makrosefali, üçgen yüz, vücut asimetrisi ve beslenme güçlüğü. En sık neden ICR1 **hipo**metilasyonudur (*IGF2* ↓; %35–50) — yani BWS'yi yapan ICR1 hipermetilasyonunun tam tersi. İkinci sıklıkta neden **maternal UPD7**'dir (%7–10), ki bu bambaşka bir kromozomdur ve SRS'nin neden "tek lokuslu" düşünülemeyeceğini gösterir. Konsensüs, SRS'nin öncelikle **klinik** bir tanı olduğunu ve normal metilasyonun tanıyı dışlamadığını vurgular (Wakeling ve ark., 2017).
 
@@ -187,7 +187,7 @@ flowchart TD
 > 3. **Metilasyon anormalliğini alt-tiple karıştırmak.** "Metilasyon PWS paterni" tanıyı koyar ama delesyon/UPD/ID ayrımını yapmaz; tekrarlanma riski için alt-tip şarttır.
 > 4. **İmprinting defektini otomatik "sporadik/düşük risk" saymak.** ID'lerin bir kısmı ailevi ICR mikrodelesyonundan kaynaklanır (%50 risk); danışmadan önce dışlanmalıdır.
 > 5. **İzodizomiyi yalnızca imprint sorunu sanmak.** İzodizomi resesif bir varyantı homozigotlaştırarak, ebeveyn taşıyıcılığıyla açıklanamayan resesif hastalık da yapabilir.
-> 6. **BWS'de tüm alt-tipleri aynı tümör riskiyle izlemek.** Tarama yoğunluğu moleküler alt-tibe göre ayarlanmalıdır (ICR1 hipermetilasyon / UPD11 en yüksek risk).
+> 6. **BWS'de tüm alt-tipleri aynı tümör riskiyle izlemek.** Tarama yoğunluğu moleküler alt-tipe göre ayarlanmalıdır (ICR1 hipermetilasyon / UPD11 en yüksek risk).
 
 > **🟦 Klinikte dikkat kutusu**
 > - Yardımcı üreme teknikleri (ART) ile imprinting bozukluklarında (özellikle BWS, ICR2 hipometilasyonu) hafif bir risk artışı bildirilmiştir; öykü alırken sorulmalıdır.
@@ -211,7 +211,7 @@ flowchart TD
   C -->|"Hayır"| H{"İmprintli gen<br/>tek gen mi?<br/>(UBE3A / CDKN1C)"}
   H -->|"Evet"| I["Gen dizilemesi<br/>(ebeveyn kökeniyle yorumla)"]
   H -->|"Hayır"| J["Klinik yeniden değerlendir<br/>± methylation array (MLID?)<br/>± geniş panel/ES"]
-  E --> K["Genetik danışma:<br/>alt-tibe göre tekrar riski<br/>+ (BWS'de) tümör tarama planı"]
+  E --> K["Genetik danışma:<br/>alt-tipe göre tekrar riski<br/>+ (BWS'de) tümör tarama planı"]
   F --> K
   G --> K
   I --> K
@@ -229,7 +229,7 @@ flowchart TD
 
 3. **Lalande M, Calciano MA. (2007).** Molecular epigenetics of Angelman syndrome. *Cell Mol Life Sci* 64(7-8):947-960. **PMID: 17347796** · DOI: [10.1007/s00018-007-6460-0](https://doi.org/10.1007/s00018-007-6460-0) — *Kullanım amacı: UBE3A'nın maternal ifadesi, antisens transkriptle susturma ve AS moleküler alt-tipleri.*
 
-4. **Brioude F, Kalish JM, Mussa A, ve ark. (2018).** Clinical and molecular diagnosis, screening and management of Beckwith-Wiedemann syndrome: an international consensus statement. *Nat Rev Endocrinol* 14(4):229-249. **PMID: 29377879** · DOI: [10.1038/nrendo.2017.166](https://doi.org/10.1038/nrendo.2017.166) — *Kullanım amacı: BWS 11p15.5 moleküler alt-tipleri, tümör riski ve alt-tibe göre tarama önerileri (guideline).*
+4. **Brioude F, Kalish JM, Mussa A, ve ark. (2018).** Clinical and molecular diagnosis, screening and management of Beckwith-Wiedemann syndrome: an international consensus statement. *Nat Rev Endocrinol* 14(4):229-249. **PMID: 29377879** · DOI: [10.1038/nrendo.2017.166](https://doi.org/10.1038/nrendo.2017.166) — *Kullanım amacı: BWS 11p15.5 moleküler alt-tipleri, tümör riski ve alt-tipe göre tarama önerileri (guideline).*
 
 5. **Wakeling EL, Brioude F, Lokulo-Sodipe O, ve ark. (2017).** Diagnosis and management of Silver-Russell syndrome: first international consensus statement. *Nat Rev Endocrinol* 13(2):105-124. **PMID: 27585961** · DOI: [10.1038/nrendo.2016.138](https://doi.org/10.1038/nrendo.2016.138) — *Kullanım amacı: SRS klinik/moleküler tanı, ICR1 hipometilasyonu ve matUPD7; normal metilasyonun tanıyı dışlamaması (guideline).*
 

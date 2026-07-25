@@ -1,0 +1,102 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="600" fill="#ffffff"/>
+  <defs>
+    <marker id="s42arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 1 L 10 5.5 L 0 10 z" fill="#2563EB"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 13.1 — Bir genin düzenleyici anatomisi: protein kodlamayan ama işlev taşıyan bölgeler</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Ekzomun görmediği bu bölgeler genin "ne zaman, nerede ve ne kadar" ifade edileceğini belirler.</text>
+
+  <!-- ================= PANEL A ================= -->
+  <rect x="40" y="80" width="820" height="212" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#2563EB">Uzak düzenleyici manzara — enhancer'lar genden yüzlerce kb uzakta olabilir</text>
+
+  <!-- TAD yayı -->
+  <path d="M 100 216 C 100 146, 700 146, 700 216" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="400" y="141" font-size="10" font-weight="700" fill="#475569" text-anchor="middle">TAD (topolojik alan) — düzenleyici trafiğin sınırı</text>
+
+  <!-- Enhancer-promotör döngüsü -->
+  <path d="M 176 226 C 200 186, 330 186, 358 222" fill="none" stroke="#2563EB" stroke-width="2.2" marker-end="url(#s42arrow)"/>
+  <text x="266" y="184" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">üç boyutlu döngü ile temas</text>
+
+  <!-- DNA ekseni -->
+  <line x1="70" y1="238" x2="830" y2="238" stroke="#CBD5E1" stroke-width="3"/>
+
+  <rect x="96" y="226" width="14" height="24" rx="3" fill="#475569"/>
+  <text x="103" y="268" font-size="9.5" font-weight="700" fill="#475569" text-anchor="middle">CTCF</text>
+
+  <rect x="150" y="228" width="52" height="20" rx="5" fill="#D97706"/>
+  <text x="176" y="242" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">ENH</text>
+  <text x="176" y="268" font-size="9" fill="#64748B" text-anchor="middle">doku-özgü</text>
+
+  <rect x="252" y="228" width="52" height="20" rx="5" fill="#94A3B8"/>
+  <text x="278" y="242" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">SIL</text>
+  <text x="278" y="268" font-size="9" fill="#64748B" text-anchor="middle">baskılayıcı</text>
+
+  <rect x="350" y="224" width="30" height="28" rx="4" fill="#B91C1C"/>
+  <text x="365" y="268" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">PROM</text>
+  <rect x="382" y="228" width="185" height="20" rx="4" fill="#2563EB"/>
+  <text x="474" y="242" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">GEN (transkripsiyon birimi)</text>
+
+  <rect x="600" y="228" width="52" height="20" rx="5" fill="#D97706"/>
+  <text x="626" y="242" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">ENH</text>
+  <text x="626" y="268" font-size="9" fill="#64748B" text-anchor="middle">gen-içi/uzak</text>
+
+  <rect x="694" y="226" width="14" height="24" rx="3" fill="#475569"/>
+  <text x="701" y="268" font-size="9.5" font-weight="700" fill="#475569" text-anchor="middle">CTCF</text>
+
+  <rect x="756" y="228" width="66" height="20" rx="4" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.2"/>
+  <text x="789" y="242" font-size="9" font-weight="700" fill="#475569" text-anchor="middle">komşu gen</text>
+  <text x="789" y="268" font-size="9" fill="#64748B" text-anchor="middle">TAD dışında</text>
+
+  <text x="56" y="286" font-size="9.5" fill="#475569">Enhancer hedefine doğrusal komşulukla değil, döngüyle bağlanır; CTCF sınırları bu trafiğin hangi genle kurulacağını belirler.</text>
+
+  <!-- ================= PANEL B ================= -->
+  <rect x="40" y="308" width="820" height="200" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="318" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="333" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="80" y="333" font-size="13" font-weight="700" fill="#2563EB">Transkript anatomisi — mRNA'nın kodlamayan uçları da düzenleyicidir</text>
+
+  <!-- üst etiketler -->
+  <rect x="86" y="352" width="42" height="14" rx="3" fill="#B91C1C"/>
+  <text x="107" y="363" font-size="8.5" font-weight="700" fill="#ffffff" text-anchor="middle">uORF</text>
+  <line x1="107" y1="366" x2="107" y2="376" stroke="#B91C1C" stroke-width="1.4"/>
+
+  <rect x="646" y="352" width="66" height="14" rx="3" fill="#475569"/>
+  <text x="679" y="363" font-size="8.5" font-weight="700" fill="#ffffff" text-anchor="middle">miRNA yeri</text>
+  <line x1="679" y1="366" x2="679" y2="376" stroke="#475569" stroke-width="1.4"/>
+
+  <!-- mRNA çubuğu -->
+  <rect x="70" y="376" width="120" height="30" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="130" y="396" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="middle">5′ UTR</text>
+
+  <rect x="190" y="376" width="380" height="30" fill="#2563EB"/>
+  <text x="380" y="396" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">KODLAYAN DİZİ (CDS)</text>
+
+  <rect x="570" y="376" width="200" height="30" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="670" y="396" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="middle">3′ UTR</text>
+
+  <rect x="770" y="376" width="60" height="30" rx="6" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.3"/>
+  <text x="800" y="396" font-size="9.5" font-weight="700" fill="#475569" text-anchor="middle">poli-A</text>
+
+  <line x1="190" y1="408" x2="190" y2="418" stroke="#1A2B4A" stroke-width="1.4"/>
+  <text x="196" y="428" font-size="9" font-weight="700" fill="#1A2B4A">AUG (asıl başlangıç)</text>
+
+  <text x="56" y="452" font-size="9.5" font-weight="700" fill="#B45309">5′ UTR:</text>
+  <text x="114" y="452" font-size="9.5" fill="#2E3440">translasyonun ne kadar verimli başlayacağını belirler. Yeni bir başlangıç kodonu (uORF) yaratan varyant,</text>
+  <text x="56" y="466" font-size="9.5" fill="#2E3440">ribozomu asıl AUG'den önce yakalar ve protein üretimini düşürür — dizi hiç değişmediği hâlde işlev kaybı doğar.</text>
+
+  <text x="56" y="488" font-size="9.5" font-weight="700" fill="#B45309">3′ UTR:</text>
+  <text x="114" y="488" font-size="9.5" fill="#2E3440">mRNA'nın kararlılığını, yerleşimini ve miRNA denetimini taşır; poli-A sinyali transkriptin sonlanmasını belirler.</text>
+
+  <!-- ================= ALT ŞERİT ================= -->
+  <rect x="40" y="524" width="820" height="36" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="450" y="547" font-size="11" font-weight="700" fill="#1A2B4A" text-anchor="middle">Kritik nokta: Bu bölgelerin tamamı standart bir EKZOM analizinin dışındadır — görmek için WGS gerekir.</text>
+
+  <text x="40" y="580" font-size="11.5" font-style="italic" fill="#475569">Öğreti: "Kodlamayan" bölge, "işlevsiz" bölge demek değildir. Gen bir protein tarifidir; düzenleyici bölgeler o tarifin ne zaman ve hangi dozda okunacağını yazar.</text>
+  <text x="860" y="596" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Ellingford ve ark. (2022); Whiffin ve ark. (2020)</text>
+</svg>

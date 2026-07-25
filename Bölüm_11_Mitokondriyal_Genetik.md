@@ -60,7 +60,7 @@ Bütün bunların üzerine, klinik olarak en çok gözden kaçan gerçek gelir: 
 
 mtDNA'nın hastalık üretmeye yatkınlığı, üç yapısal özelliğinin bileşimidir. Birincisi **bilgi yoğunluğudur**: 16.569 bazda 37 gen sıkıştırılmıştır, intron yoktur ve genler arası boşluk neredeyse hiç bulunmaz. Nükleer genomda bir nokta değişikliğinin intronik veya intergenik bir bölgeye düşme olasılığı yüksekken, mtDNA'da rastgele bir değişiklik büyük olasılıkla işlevsel bir diziyi bozar. İkincisi **konumudur**: mtDNA, elektron taşıma zincirinin hemen yanında, reaktif oksijen türlerinin sürekli üretildiği bir mikroçevrede bulunur ve nükleer DNA'yı saran histon paketlemesinden yoksundur. Üçüncüsü **onarım kapasitesinin darlığıdır**; mitokondri bazı DNA onarım yollarına sahiptir ama nükleer genomun onarım repertuvarına kıyasla sınırlıdır.
 
-Bu üçlünün pratik sonucu, mtDNA'nın nükleer genoma göre belirgin biçimde daha yüksek bir varyasyon oranına sahip olmasıdır. Bu yüksek varyasyon, mitokondriyal hastalıkların görece sık olmasının bir nedenidir: erişkinlerde mitokondriyal hastalık, en az yaklaşık 1/5.000 düzeyinde bir prevalansla, kalıtsal nörolojik bozuklukların en yaygın gruplarından birini oluşturur (Gorman ve ark., 2015). Aynı yüksek varyasyon, aşağıda göreceğimiz üzere varyant yorumlamayı da zorlaştırır: mtDNA'da çok sayıda **haplogrup polimorfizmi** vardır ve bunlar homoplazmik oldukları hâlde tümüyle zararsızdır.
+Bu üçlünün pratik sonucu, mtDNA'nın nükleer genoma göre belirgin biçimde daha yüksek bir varyasyon oranına sahip olmasıdır. Bu yüksek varyasyon, mitokondriyal hastalıkların görece sık olmasının bir nedenidir. Kuzeydoğu İngiltere'de yürütülen kapsamlı bir prevalans çalışmasında, erişkinlerde **mtDNA varyantları** için minimum prevalans **1/5.000** (100.000'de 20) bulunmuş; nükleer kaynaklı olgular da eklendiğinde erişkin mitokondriyal hastalığın toplam prevalansı **yaklaşık 1/4.300**'e ulaşmıştır. Bu rakam, mitokondriyal hastalığı kalıtsal nörolojik bozuklukların en yaygın gruplarından biri hâline getirir (Gorman ve ark., 2015). Aynı yüksek varyasyon, aşağıda göreceğimiz üzere varyant yorumlamayı da zorlaştırır: mtDNA'da çok sayıda **haplogrup polimorfizmi** vardır ve bunlar homoplazmik oldukları hâlde tümüyle zararsızdır.
 
 ### 2.2 Poliplazmiden eşiğe: dozun sürekli hâle gelmesi
 
@@ -144,7 +144,7 @@ flowchart TD
 
 ### 4.3 Neden aynı hastalık farklı genlerden olur?
 
-Önceki sorunun aynadaki görüntüsü de aynı ölçüde önemlidir. **Leigh sendromu** — bebeklik veya erken çocuklukta başlayan, bazal ganglion ve beyin sapında simetrik nekrotizan lezyonlarla giden, psikomotor gerileme, distoni, solunum düzensizliği ve laktik asidozla seyreden ilerleyici bir ensefalopati — tek bir gene değil, 75'ten fazla farklı gene bağlı olarak ortaya çıkabilir (Lake ve ark., 2015). Bu genlerin bir kısmı mtDNA'da (*MT-ATP6*, *MT-ND* genleri), büyük çoğunluğu ise nükleer genomdadır (*SURF1*, *NDUFS4*, *NDUFV1*, *SDHA*, *PDHA1* ve diğerleri).
+Önceki sorunun aynadaki görüntüsü de aynı ölçüde önemlidir. **Leigh sendromu** — bebeklik veya erken çocuklukta başlayan, bazal ganglion ve beyin sapında simetrik nekrotizan lezyonlarla giden, psikomotor gerileme, distoni, solunum düzensizliği ve laktik asidozla seyreden ilerleyici bir ensefalopati — tek bir gene değil, 75'ten fazla farklı gene bağlı olarak ortaya çıkabilir (Lake ve ark., 2016). Bu genlerin bir kısmı mtDNA'da (*MT-ATP6*, *MT-ND* genleri), büyük çoğunluğu ise nükleer genomdadır (*SURF1*, *NDUFS4*, *NDUFV1*, *SDHA*, *PDHA1* ve diğerleri).
 
 Bu, Bölüm 1'de tanıştığımız **lokus heterojenitesinin** en uç örneklerinden biridir ve mitokondriyal hastalıkların neden fenotipe dayalı tek-gen testleriyle çözülemediğini açıklar. Klinik tablo "Leigh sendromu" demek, tanıyı bir gene değil, ancak **ortak bir son yola** (OXPHOS yetmezliği) indirgemiş olmaktır. Genetik tanıya ulaşmak, bu son yola çıkan onlarca yoldan hangisinin kullanıldığını bulmayı gerektirir — ve bu, yalnızca geniş kapsamlı genom analiziyle mümkündür.
 
@@ -220,7 +220,7 @@ flowchart TD
 
 ## 7. Pediatrik genetikten klinik örnekler
 
-**Leigh sendromu — tek fenotip, iki genom.** Süt çocukluğunda psikomotor gerileme, hipotoni, distoni, beslenme güçlüğü, solunum düzensizliği ve laktik asidozla başvuran bir bebekte, MR'da bazal ganglionlarda ve beyin sapında simetrik T2 hiperintens lezyonlar Leigh sendromunu düşündürür. Moleküler neden mtDNA'daki *MT-ATP6* m.8993T>G olabilir — bu durumda yüksek heteroplazmi düzeyleri Leigh fenotipi, orta düzeyler NARP (nöropati, ataksi, retinitis pigmentoza) fenotipi yapar ve kalıtım maternaldir. Ya da neden *SURF1* gibi bir nükleer montaj genindeki biallelik varyant olabilir; o zaman kalıtım otozomal resesiftir ve tekrarlanma riski %25'tir. Leigh sendromunun 75'ten fazla farklı monogenik nedeni tanımlanmıştır (Lake ve ark., 2015). **Öğreti:** aynı fenotip karşısında "mitokondriyal" demek tanı değildir; hangi genomda olduğunu bilmeden aileye risk verilemez.
+**Leigh sendromu — tek fenotip, iki genom.** Süt çocukluğunda psikomotor gerileme, hipotoni, distoni, beslenme güçlüğü, solunum düzensizliği ve laktik asidozla başvuran bir bebekte, MR'da bazal ganglionlarda ve beyin sapında simetrik T2 hiperintens lezyonlar Leigh sendromunu düşündürür. Moleküler neden mtDNA'daki *MT-ATP6* m.8993T>G olabilir — bu durumda yüksek heteroplazmi düzeyleri Leigh fenotipi, orta düzeyler NARP (nöropati, ataksi, retinitis pigmentoza) fenotipi yapar ve kalıtım maternaldir. Ya da neden *SURF1* gibi bir nükleer montaj genindeki biallelik varyant olabilir; o zaman kalıtım otozomal resesiftir ve tekrarlanma riski %25'tir. Leigh sendromunun 75'ten fazla farklı monogenik nedeni tanımlanmıştır (Lake ve ark., 2016). **Öğreti:** aynı fenotip karşısında "mitokondriyal" demek tanı değildir; hangi genomda olduğunu bilmeden aileye risk verilemez.
 
 **MELAS ve m.3243A>G — yüzdenin fenotipi yazması.** Goto ve arkadaşlarının 1990'da *MT-TL1* (lösin tRNA'sı) genindeki m.3243A>G değişimini MELAS ile ilişkilendirmesi, tRNA varyantlarının mitokondriyal hastalıktaki merkezî rolünü ortaya koyan dönüm noktalarından biridir (Goto ve ark., 1990). Klinik olarak çocuk veya genç erişkinde tekrarlayan inme-benzeri ataklar, nöbetler, migren benzeri baş ağrısı, kusma, boy kısalığı, sensörinöral işitme kaybı ve laktik asidoz görülür; inme-benzeri lezyonlar tipik olarak damar sulama alanlarına uymaz. Aynı varyantın daha düşük yüklerde MIDD tablosuna dönüşmesi, 4.2'de anlatılan yüzde–doku çarpımının en iyi belgelenmiş örneğidir. **Öğreti:** tRNA varyantı tüm mitokondriyal translasyonu bozduğu için tek bir baz değişimi çok sistemli ağır hastalık üretebilir.
 
@@ -314,6 +314,10 @@ flowchart TD
 
 12. **Craven L, Tang MX, Gorman GS, De Sutter P, Heindryckx B (2017).** Novel reproductive technologies to prevent mitochondrial disease. *Human Reproduction Update* 23(5):501–519. **PMID: 28651360** · DOI: [10.1093/humupd/dmx018](https://doi.org/10.1093/humupd/dmx018) — *Kullanım amacı: Klinik yönetim — mtDNA hastalıklarında PGT, oosit donasyonu ve mitokondri donasyonu seçenekleri ve sınırlılıkları.*
 
+13. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — standart ACMG/AMP çerçevesi; mtDNA spesifikasyonunun uyarladığı temel kriterler. Kaynak kütüğünden yeniden kullanılmıştır.*
+
+14. **Brnich SE, Abou Tayoun AN, Couch FJ, ve ark. (2019).** Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework. *Genome Medicine* 12(1):3. **PMID: 31892348** · DOI: [10.1186/s13073-019-0690-2](https://doi.org/10.1186/s13073-019-0690-2) — *Kullanım amacı: Guideline — fonksiyonel kanıtın (PS3/BS3) mekanizmayı tanımlaması ilkesi; mtDNA'da tek-lif çalışmalarının dayanağı. Kaynak kütüğünden yeniden kullanılmıştır.*
+
 > **İkincil/destekleyici kaynak notu:** MITOMAP, HelixMTdb, GeneReviews, OMIM ve ClinVar bu bölümde yalnızca destekleyici/başvuru kaynağı olarak anılmıştır; hiçbiri ana mekanizma kaynağı olarak kullanılmamıştır.
 
 ---
@@ -328,7 +332,7 @@ flowchart TD
 | Pediatrik örnek verildi mi? | ✅ | Leigh, MELAS, Pearson/KSS, mtDNA deplesyon sendromları (Alpers), LHON — hepsi kaynaklı |
 | Test seçimi açıklandı mı? | ✅ | Standart 8 satırlık tablo + mtDNA-özgü satır; doku seçimi ayrıca vurgulandı |
 | ACMG/ClinGen bağlantısı doğru mu? | ✅ | ClinGen mtDNA spesifikasyonu (McCormick 2020): frekans/haplogrup, heteroplazmi, PS3 tek-lif, PM1 |
-| Kaynaklar PMID/DOI ile verildi mi? | ✅ | 12/12 kaynak PMID + DOI-link + kullanım amacı ile |
+| Kaynaklar PMID/DOI ile verildi mi? | ✅ | 14/14 kaynak PMID + DOI-link + kullanım amacı ile (12 yeni doğrulama + 2 kütükten yeniden kullanım) |
 | Spekülatif iddialar işaretlendi mi? | ✅ | Paternal mtDNA geçişi ⚠️ ile işaretlendi; eşik yüzdeleri "temsilî" olarak verildi |
 | Kaynak uydurma riski var mı? | ✅ Yok | Tüm PMID/DOI'ler PubMed MCP ile bu oturumda tek tek doğrulandı |
 | Görsel/şema/algoritma desteği yeterli mi? (≥3 SVG, ≥2 Mermaid) | ✅ | **4 SVG + 3 Mermaid**; tüm SVG'ler PNG'ye render edilip gözle denetlendi |
@@ -338,6 +342,6 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** **12/12 kaynak PMID+DOI doğrulandı** (PubMed MCP; başlık, yazar, dergi, yıl ve DOI alanları tek tek teyit edildi).
+> **Bu bölüm için durum:** **14/14 kaynak PMID+DOI doğrulandı** (12'si PubMed MCP ile bu bölüm için; 2'si — Richards 2015, Brnich 2019 — Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
 >
 > **İşaretlenen iddialar:** (1) Paternal mtDNA geçişi bildirimlerinin sıklığı ve mekanizması ⚠️ tartışmalıdır — klinik danışmada esas alınmaz. (2) Eşik yüzdeleri (%60–90) ve hücre başına mtDNA kopya sayısı aralıkları **temsilî** değerlerdir; varyanta ve dokuya göre değişir. (3) Mitokondriyal işleve katkı veren nükleer gen sayısı (~1500) bir **tahmindir**.

@@ -1,0 +1,85 @@
+<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="580" fill="#ffffff"/>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 13.4 — Kodlamayan varyantı yorumlamak: kanıt neden yeniden dizilir?</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">ACMG çerçevesi protein-kodlayan varyantlar için tasarlandı; kodlamayan bölgede kriterlerin bir kısmı düşer, bir kısmı ağırlık kazanır.</text>
+
+  <!-- ============ PANEL A: düşen kriterler ============ -->
+  <rect x="40" y="80" width="400" height="216" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#B91C1C">Kullanılamayan / zayıflayan kanıtlar</text>
+
+  <rect x="56" y="122" width="368" height="40" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="68" y="139" font-size="10.5" font-weight="700" fill="#B91C1C">PVS1 — "çok güçlü" işlev kaybı kanıtı</text>
+  <text x="68" y="154" font-size="9.5" fill="#2E3440">Uygulanamaz: nonsense/çerçeve kayması/NMD kavramları burada yoktur.</text>
+
+  <rect x="56" y="168" width="368" height="40" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="68" y="185" font-size="10.5" font-weight="700" fill="#B91C1C">PM1 — kritik fonksiyonel alan</text>
+  <text x="68" y="200" font-size="9.5" fill="#2E3440">"Protein domaini" yerine TF bağlanma motifi tanımlanmalıdır.</text>
+
+  <rect x="56" y="214" width="368" height="40" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <text x="68" y="231" font-size="10.5" font-weight="700" fill="#B45309">PP3 / BP4 — in siliko öngörü</text>
+  <text x="68" y="246" font-size="9.5" fill="#2E3440">Kodlayan araçlar (ör. missense öngörücüleri) burada geçerli değildir.</text>
+
+  <rect x="56" y="260" width="368" height="26" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="240" y="277" font-size="9.5" font-style="italic" fill="#475569" text-anchor="middle">Sonuç: varsayılan olarak çok daha fazla varyant VUS'ta kalır.</text>
+
+  <!-- ============ PANEL B: güçlenen kanıtlar ============ -->
+  <rect x="460" y="80" width="400" height="216" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="472" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="482" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="500" y="105" font-size="13" font-weight="700" fill="#2563EB">Ağırlık kazanan kanıtlar</text>
+
+  <rect x="476" y="122" width="368" height="40" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="488" y="139" font-size="10.5" font-weight="700" fill="#1D4ED8">PS3 — fonksiyonel kanıt (en belirleyici)</text>
+  <text x="488" y="154" font-size="9.5" fill="#2E3440">Reporter/MPRA, RNA-seq'te ifade kaybı, alel-spesifik ifade, hasta dokusu.</text>
+
+  <rect x="476" y="168" width="368" height="40" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="488" y="185" font-size="10.5" font-weight="700" fill="#1D4ED8">Segregasyon + fenotip uyumu</text>
+  <text x="488" y="200" font-size="9.5" fill="#2E3440">Ailede birlikte ayrışma; fenotibin bilinen gen fenotipiyle örtüşmesi.</text>
+
+  <rect x="476" y="214" width="368" height="40" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="488" y="231" font-size="10.5" font-weight="700" fill="#1D4ED8">Element tanımı + doku uyumu</text>
+  <text x="488" y="246" font-size="9.5" fill="#2E3440">Varyant, HEDEF DOKUDA etkin bir düzenleyici elementin içinde mi?</text>
+
+  <rect x="476" y="260" width="368" height="26" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="660" y="277" font-size="9.5" font-style="italic" fill="#475569" text-anchor="middle">Sonuç: kanıtın ağırlık merkezi hesaplamadan deneye kayar.</text>
+
+  <!-- ============ PANEL C: üç şart ============ -->
+  <rect x="40" y="312" width="820" height="182" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="322" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="337" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="80" y="337" font-size="13" font-weight="700" fill="#2563EB">Bir kodlamayan varyantı ciddiye almak için üç şart birlikte sağlanmalı</text>
+
+  <rect x="56" y="352" width="256" height="94" rx="10" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="80" cy="376" r="13" fill="#2563EB"/>
+  <text x="80" y="381" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="102" y="381" font-size="11" font-weight="700" fill="#1D4ED8">ELEMENT gerçek mi?</text>
+  <text x="68" y="402" font-size="9.5" fill="#2E3440">Varyant, tanımlanmış bir düzenleyici</text>
+  <text x="68" y="416" font-size="9.5" fill="#2E3440">elementin içinde mi? (ATAC/ChIP,</text>
+  <text x="68" y="430" font-size="9.5" fill="#2E3440">korunmuşluk, TF motifi)</text>
+
+  <rect x="322" y="352" width="256" height="94" rx="10" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="346" cy="376" r="13" fill="#2563EB"/>
+  <text x="346" y="381" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="368" y="381" font-size="11" font-weight="700" fill="#1D4ED8">HEDEF gen doğru mu?</text>
+  <text x="334" y="402" font-size="9.5" fill="#2E3440">Element hangi geni yönetiyor?</text>
+  <text x="334" y="416" font-size="9.5" fill="#2E3440">En yakın gen olmak zorunda</text>
+  <text x="334" y="430" font-size="9.5" fill="#2E3440">DEĞİLDİR (bkz. FTO → IRX3).</text>
+
+  <rect x="588" y="352" width="256" height="94" rx="10" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.6"/>
+  <circle cx="612" cy="376" r="13" fill="#2563EB"/>
+  <text x="612" y="381" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="634" y="381" font-size="11" font-weight="700" fill="#1D4ED8">MEKANİZMA uyuyor mu?</text>
+  <text x="600" y="402" font-size="9.5" fill="#2E3440">O gende beklenen mekanizma</text>
+  <text x="600" y="416" font-size="9.5" fill="#2E3440">(doz kaybı mı, ektopik ifade mi)</text>
+  <text x="600" y="430" font-size="9.5" fill="#2E3440">hastanın fenotipini açıklıyor mu?</text>
+
+  <text x="450" y="470" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="middle">Üçü birden sağlanmıyorsa varyant VUS olarak kalmalıdır — "kodlamayan bölgede ve nadir" tek başına kanıt değildir.</text>
+  <text x="450" y="486" font-size="9.5" fill="#64748B" text-anchor="middle">Genom, milyonlarca nadir kodlamayan varyant içerir; seçicilik olmadan her WGS bir yanlış pozitif üretecektir.</text>
+
+  <text x="40" y="522" font-size="11.5" font-style="italic" fill="#475569">Öğreti: Kodlamayan varyant yorumlamada asıl soru "bu varyant nadir mi?" değil, "bu varyant, hastanın fenotipini açıklayan bir geni, doğru dokuda,</text>
+  <text x="40" y="538" font-size="11.5" font-style="italic" fill="#475569">bilinen bir mekanizmayla bozuyor mu?"dur. Kanıt yükü fonksiyonel çalışmaya kayar.</text>
+  <text x="860" y="566" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Ellingford ve ark. (2022); Richards ve ark. (2015); Smemo ve ark. (2014)</text>
+</svg>

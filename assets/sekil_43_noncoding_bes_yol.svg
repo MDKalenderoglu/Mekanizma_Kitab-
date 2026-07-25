@@ -1,0 +1,119 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="620" fill="#ffffff"/>
+  <defs>
+    <marker id="s43arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#B91C1C"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 13.2 — Kodlamayan varyantın beş hastalık yolu</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Hepsinin ortak paydası aynıdır: proteinin dizisi değişmez, ama ifade edilen MİKTAR, YER veya ZAMAN bozulur.</text>
+
+  <!-- ===== 1: PROMOTÖR ===== -->
+  <rect x="40" y="76" width="820" height="94" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="86" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="101" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="80" y="101" font-size="12.5" font-weight="700" fill="#B91C1C">Promotör varyantı — transkripsiyon hiç veya az başlar</text>
+
+  <line x1="70" y1="134" x2="300" y2="134" stroke="#CBD5E1" stroke-width="3"/>
+  <rect x="96" y="122" width="30" height="24" rx="4" fill="#B91C1C"/>
+  <rect x="130" y="124" width="140" height="20" rx="4" fill="#2563EB"/>
+  <text x="200" y="138" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">GEN</text>
+  <text x="111" y="116" font-size="13" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+  <text x="111" y="160" font-size="9" font-weight="700" fill="#B91C1C" text-anchor="middle">promotör</text>
+
+  <line x1="316" y1="134" x2="352" y2="134" stroke="#B91C1C" stroke-width="1.8" marker-end="url(#s43arrowRed)"/>
+
+  <text x="366" y="124" font-size="10" fill="#2E3440">TF bağlanma yeri bozulur → mRNA düzeyi düşer (veya artar)</text>
+  <text x="366" y="139" font-size="9.5" fill="#475569">Sonuç Bölüm 3'teki doz eksikliğiyle aynı: haploinsufficiency benzeri tablo.</text>
+  <text x="366" y="156" font-size="9.5" font-weight="700" fill="#1D4ED8">Örnek: <tspan font-style="italic">TERT</tspan> promotörü (germline ve somatik) — Horn ve ark. (2013)</text>
+
+  <!-- ===== 2: 5'UTR / uORF ===== -->
+  <rect x="40" y="180" width="820" height="94" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="190" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="205" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="80" y="205" font-size="12.5" font-weight="700" fill="#B91C1C">5′ UTR / uORF varyantı — translasyon asıl başlangıca ulaşamaz</text>
+
+  <rect x="96" y="232" width="86" height="22" rx="5" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+  <text x="139" y="247" font-size="9.5" font-weight="700" fill="#B45309" text-anchor="middle">5′ UTR</text>
+  <rect x="182" y="232" width="118" height="22" rx="0" fill="#2563EB"/>
+  <text x="241" y="247" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">CDS</text>
+  <rect x="200" y="216" width="46" height="13" rx="3" fill="#B91C1C"/>
+  <text x="223" y="226" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle">yeni AUG</text>
+  <text x="126" y="228" font-size="13" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+  <line x1="223" y1="229" x2="126" y2="234" stroke="#B91C1C" stroke-width="1.2"/>
+
+  <line x1="316" y1="235" x2="352" y2="235" stroke="#B91C1C" stroke-width="1.8" marker-end="url(#s43arrowRed)"/>
+
+  <text x="366" y="226" font-size="10" fill="#2E3440">Ribozom erken başlar; asıl proteinin üretimi azalır</text>
+  <text x="366" y="241" font-size="9.5" fill="#475569">Popülasyon verisinde bu varyantlar güçlü negatif seçilim altındadır.</text>
+  <text x="366" y="258" font-size="9.5" font-weight="700" fill="#1D4ED8">Örnek: <tspan font-style="italic">NF2</tspan> uORF çerçeve kayması — Whiffin ve ark. (2020)</text>
+
+  <!-- ===== 3: ENHANCER KAYBI ===== -->
+  <rect x="40" y="284" width="820" height="94" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="294" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="309" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="80" y="309" font-size="12.5" font-weight="700" fill="#B91C1C">Enhancer kaybı — gen yalnız BELİRLİ dokuda susar</text>
+
+  <line x1="70" y1="342" x2="300" y2="342" stroke="#CBD5E1" stroke-width="3"/>
+  <rect x="90" y="332" width="46" height="20" rx="5" fill="#D97706"/>
+  <text x="113" y="346" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">ENH</text>
+  <text x="113" y="330" font-size="13" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+  <rect x="200" y="332" width="86" height="20" rx="4" fill="#2563EB"/>
+  <text x="243" y="346" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">GEN</text>
+  <path d="M 130 334 C 148 324, 205 324, 240 332" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <line x1="176" y1="320" x2="192" y2="334" stroke="#B91C1C" stroke-width="2.4"/>
+  <line x1="192" y1="320" x2="176" y2="334" stroke="#B91C1C" stroke-width="2.4"/>
+
+  <line x1="316" y1="342" x2="352" y2="342" stroke="#B91C1C" stroke-width="1.8" marker-end="url(#s43arrowRed)"/>
+
+  <text x="366" y="332" font-size="10" fill="#2E3440">Gen diğer dokularda normal, hedef dokuda ifade edilmez</text>
+  <text x="366" y="347" font-size="9.5" fill="#475569">Bu yüzden fenotip tek organa sınırlı ve şaşırtıcı biçimde dardır.</text>
+  <text x="366" y="364" font-size="9.5" font-weight="700" fill="#1D4ED8">Örnek: <tspan font-style="italic">PTF1A</tspan> distal enhancer'ı → izole pankreas agenezisi — Weedon ve ark. (2014)</text>
+
+  <!-- ===== 4: ENHANCER KAZANIMI / EKTOPİK ===== -->
+  <rect x="40" y="388" width="820" height="94" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="398" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="413" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="80" y="413" font-size="12.5" font-weight="700" fill="#B91C1C">Ektopik aktivasyon — gen YANLIŞ yerde açılır (kazanım yönü)</text>
+
+  <line x1="70" y1="446" x2="300" y2="446" stroke="#CBD5E1" stroke-width="3"/>
+  <rect x="90" y="436" width="46" height="20" rx="5" fill="#D97706"/>
+  <text x="113" y="450" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">ENH</text>
+  <text x="113" y="430" font-size="13" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+  <rect x="200" y="436" width="86" height="20" rx="4" fill="#2563EB"/>
+  <text x="243" y="450" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">GEN</text>
+  <path d="M 113 434 C 130 420, 200 420, 240 432" fill="none" stroke="#B91C1C" stroke-width="2"/>
+  <text x="176" y="470" font-size="9" font-weight="700" fill="#B91C1C" text-anchor="middle">YENİ / ek ifade alanı</text>
+
+  <line x1="316" y1="446" x2="352" y2="446" stroke="#B91C1C" stroke-width="1.8" marker-end="url(#s43arrowRed)"/>
+
+  <text x="366" y="436" font-size="10" fill="#2E3440">Enhancer'ın etki alanı genişler veya yeni bir bölgede etkinleşir</text>
+  <text x="366" y="451" font-size="9.5" fill="#475569">Mekanizma işlev KAZANIMI yönündedir (Bölüm 4) — ama protein normaldir.</text>
+  <text x="366" y="468" font-size="9.5" font-weight="700" fill="#1D4ED8">Örnek: ZRS nokta varyantı → ektopik <tspan font-style="italic">SHH</tspan> → polidaktili — Lettice ve ark. (2003)</text>
+
+  <!-- ===== 5: TAD / İZOLATÖR ===== -->
+  <rect x="40" y="492" width="820" height="94" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="502" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="517" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="80" y="517" font-size="12.5" font-weight="700" fill="#B91C1C">TAD sınırı / izolatör bozulması — enhancer YANLIŞ geni kaçırır</text>
+
+  <line x1="70" y1="552" x2="300" y2="552" stroke="#CBD5E1" stroke-width="3"/>
+  <rect x="88" y="542" width="42" height="20" rx="5" fill="#D97706"/>
+  <text x="109" y="556" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">ENH</text>
+  <rect x="168" y="540" width="12" height="24" rx="3" fill="#475569"/>
+  <text x="174" y="534" font-size="13" fill="#FCD34D" stroke="#92400E" stroke-width="0.6" text-anchor="middle">★</text>
+  <rect x="214" y="542" width="80" height="20" rx="4" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.2"/>
+  <text x="254" y="556" font-size="9" font-weight="700" fill="#475569" text-anchor="middle">komşu gen</text>
+  <path d="M 109 540 C 130 518, 220 518, 252 538" fill="none" stroke="#B91C1C" stroke-width="2"/>
+  <text x="180" y="576" font-size="9" font-weight="700" fill="#475569" text-anchor="middle">sınır yıkıldı (CTCF)</text>
+
+  <line x1="316" y1="552" x2="352" y2="552" stroke="#B91C1C" stroke-width="1.8" marker-end="url(#s43arrowRed)"/>
+
+  <text x="366" y="542" font-size="10" fill="#2E3440">Enhancer, komşu TAD'deki geni ele geçirir ("enhancer hijacking")</text>
+  <text x="366" y="557" font-size="9.5" fill="#475569">Yanlış gen, yanlış dokuda açılır. Bölüm 8'deki yapısal varyant köprüsü.</text>
+  <text x="366" y="574" font-size="9.5" font-weight="700" fill="#1D4ED8">Örnek: uzuv malformasyonlarında TAD bozulması — Lupiáñez ve ark. (2015)</text>
+
+  <text x="40" y="606" font-size="11.5" font-style="italic" fill="#475569">Öğreti: Kodlamayan varyantlar da tıpkı kodlayanlar gibi hem KAYIP (1–3) hem KAZANIM (4–5) yönünde çalışır; fark, hedefin protein dizisi değil ifade programı olmasıdır.</text>
+  <text x="860" y="616" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Ellingford ve ark. (2022); Lettice (2003); Weedon (2014); Whiffin (2020); Lupiáñez (2015)</text>
+</svg>
