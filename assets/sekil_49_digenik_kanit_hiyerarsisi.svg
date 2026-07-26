@@ -1,0 +1,93 @@
+<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="580" fill="#ffffff"/>
+
+  <text x="40" y="34" font-size="18" font-weight="700" fill="#1A2B4A">Şekil 14.4 — "Bu hastalık digenik" demek için ne gerekir?</text>
+  <text x="40" y="56" font-size="12" fill="#64748B">Digenik iddia, monogenik iddiadan daha zordur: iki ayrı lokusun her birinin gerekli, hiçbirinin tek başına yeterli olmadığı gösterilmelidir.</text>
+
+  <!-- ================= PANEL A: kanıt basamakları ================= -->
+  <rect x="40" y="80" width="440" height="290" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="80" y="105" font-size="13" font-weight="700" fill="#2563EB">Kanıt basamakları (aşağıdan yukarı)</text>
+
+  <!-- basamaklar -->
+  <rect x="56" y="316" width="408" height="40" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <circle cx="80" cy="336" r="12" fill="#B91C1C"/>
+  <text x="80" y="341" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="102" y="332" font-size="10" font-weight="700" fill="#B91C1C">İki gende nadir varyant bulundu</text>
+  <text x="102" y="347" font-size="9" fill="#2E3440">Tek başına kanıt DEĞİL — her genomda rastlantısal olarak bulunur.</text>
+
+  <rect x="56" y="266" width="408" height="40" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <circle cx="80" cy="286" r="12" fill="#D97706"/>
+  <text x="80" y="291" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="102" y="282" font-size="10" font-weight="700" fill="#B45309">İki ürün biyolojik olarak ilişkili</text>
+  <text x="102" y="297" font-size="9" fill="#2E3440">Aynı kompleks/yolak; protein–protein etkileşimi gösterilmiş.</text>
+
+  <rect x="56" y="216" width="408" height="40" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <circle cx="80" cy="236" r="12" fill="#D97706"/>
+  <text x="80" y="241" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="102" y="232" font-size="10" font-weight="700" fill="#B45309">Ailede birlikte ayrışma</text>
+  <text x="102" y="247" font-size="9" fill="#2E3440">Yalnız çift-taşıyıcılar hasta; tek-taşıyıcı akrabalar sağlıklı.</text>
+
+  <rect x="56" y="166" width="408" height="40" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <circle cx="80" cy="186" r="12" fill="#2563EB"/>
+  <text x="80" y="191" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="102" y="182" font-size="10" font-weight="700" fill="#1D4ED8">Bağımsız ailelerde tekrarlanma</text>
+  <text x="102" y="197" font-size="9" fill="#2E3440">Aynı gen çifti, ilgisiz ailelerde yeniden gösterildi.</text>
+
+  <rect x="56" y="122" width="408" height="34" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <circle cx="80" cy="139" r="12" fill="#1D4ED8"/>
+  <text x="80" y="144" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="102" y="136" font-size="10" font-weight="700" fill="#1D4ED8">Fonksiyonel kanıt: birlikte-etki</text>
+  <text x="102" y="150" font-size="9" fill="#2E3440">Modelde yalnız çift varyant fenotipi üretiyor.</text>
+
+  <!-- ================= PANEL B: ACMG nerede kırılır ================= -->
+  <rect x="496" y="80" width="364" height="290" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="508" y="90" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="518" y="105" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="536" y="105" font-size="13" font-weight="700" fill="#B91C1C">ACMG'nin tek-lokus varsayımı</text>
+
+  <rect x="512" y="122" width="332" height="70" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="524" y="140" font-size="10" font-weight="700" fill="#1A2B4A">Çerçevenin sessiz varsayımı</text>
+  <text x="524" y="157" font-size="9.5" fill="#2E3440">"Bir varyant, TEK BAŞINA, tek bir gende,</text>
+  <text x="524" y="171" font-size="9.5" fill="#2E3440">hastalığa neden olur mu?"</text>
+  <text x="524" y="186" font-size="9" font-style="italic" fill="#64748B">Digenik senaryoda bu soru yanlış kurulmuştur.</text>
+
+  <rect x="512" y="202" width="332" height="52" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="524" y="220" font-size="10" font-weight="700" fill="#B91C1C">Sonuç 1 — sınıflandırma sıkışır</text>
+  <text x="524" y="236" font-size="9" fill="#2E3440">Her iki varyant da "tek başına" yeterli olmadığı için</text>
+  <text x="524" y="248" font-size="9" fill="#2E3440">ayrı ayrı VUS'ta kalır; birlikte etkileri kaybolur.</text>
+
+  <rect x="512" y="264" width="332" height="52" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="524" y="282" font-size="10" font-weight="700" fill="#B91C1C">Sonuç 2 — segregasyon kriteri yanıltır</text>
+  <text x="524" y="298" font-size="9" fill="#2E3440">Tek gene bakan segregasyon analizi "uyumsuz"</text>
+  <text x="524" y="310" font-size="9" fill="#2E3440">görünür; oysa uyumsuzluğun nedeni ikinci lokustur.</text>
+
+  <rect x="512" y="326" width="332" height="32" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="678" y="346" font-size="9.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">Çözüm: varyant çiftini birlikte raporla + kanıtı açıkça yaz</text>
+
+  <!-- ================= PANEL C: danışma ================= -->
+  <rect x="40" y="386" width="820" height="106" rx="12" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="52" y="396" width="20" height="20" rx="5" fill="#1A2B4A"/>
+  <text x="62" y="411" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="80" y="411" font-size="13" font-weight="700" fill="#2563EB">Genetik danışmada ne söylenir?</text>
+
+  <rect x="56" y="424" width="256" height="54" rx="8" fill="#F8FAFC" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="184" y="442" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">DİGENİK</text>
+  <text x="68" y="458" font-size="9" fill="#2E3440">Risk, iki lokusun birlikte geçme</text>
+  <text x="68" y="470" font-size="9" fill="#2E3440">olasılığından hesaplanır — %25 değildir.</text>
+
+  <rect x="322" y="424" width="256" height="54" rx="8" fill="#F8FAFC" stroke="#D97706" stroke-width="1.5"/>
+  <text x="450" y="442" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">OLİGOGENİK / MODIFIER</text>
+  <text x="334" y="458" font-size="9" fill="#2E3440">Kesin oran verilemez; taşıyıcılık</text>
+  <text x="334" y="470" font-size="9" fill="#2E3440">hastalık demek değildir (eksik penetrans).</text>
+
+  <rect x="588" y="424" width="256" height="54" rx="8" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="716" y="442" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">HER İKİSİNDE</text>
+  <text x="600" y="458" font-size="9" fill="#2E3440">Belirsizliği açıkça söyle; ailede ek</text>
+  <text x="600" y="470" font-size="9" fill="#2E3440">test ve izlem planını birlikte kur.</text>
+
+  <text x="40" y="522" font-size="11.5" font-style="italic" fill="#475569">Öğreti: Digenik/oligogenik iddia, kanıt çıtası yükselen bir iddiadır. "İki gende varyant bulduk" bir gözlemdir; "bu hastalık digeniktir" ise ancak</text>
+  <text x="40" y="538" font-size="11.5" font-style="italic" fill="#475569">biyolojik bağ, birlikte ayrışma, bağımsız tekrarlanma ve fonksiyonel birlikte-etki gösterildiğinde kurulabilecek bir sonuçtur.</text>
+  <text x="860" y="566" font-size="9.5" fill="#94A3B8" text-anchor="end">Kaynaklar: Schäffer (2013); MacArthur ve ark. (2014); Richards ve ark. (2015)</text>
+</svg>

@@ -22,7 +22,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 14/14 |
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 12/12 |
 | 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
-| 14 | Digenik / oligogenik / modifier | — | ⬜ Bekliyor | — | — |
+| 14 | Digenik / oligogenik / modifier | `Bölüm_14_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 15 | Aynı gen → farklı hastalık | — | ⬜ Bekliyor | — | — |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | — | ⬜ Bekliyor | — | — |
 | 17 | Klinik senaryolarla sentez | — | ⬜ Bekliyor | — | — |
@@ -38,14 +38,14 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 | PMID | Yazar (yıl) | Dergi | DOI | Tip / kullanım | Kullanıldığı bölümler |
 |------|-------------|-------|-----|----------------|------------------------|
-| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13 |
-| 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2 |
+| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13, 14 |
+| 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2, 14 |
 | 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; pLI/LOEUF) | 1, 2, 3 |
-| 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1 |
+| 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1, 14 |
 | 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI) | 2 |
 | 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip) | 2, 7 |
 | 3384440 | Monaco ve ark. (1988) | Genomics | 10.1016/0888-7543(88)90113-9 | Landmark mekanizma (okuma çerçevesi; DMD/BMD) | 2 |
-| 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR allelik heterojenite) | 2 |
+| 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR allelik heterojenite) | 2, 14 |
 | 32668217 | Hillert ve ark. (2020) | Am J Hum Genet | 10.1016/j.ajhg.2020.06.006 | Klinik örnek (PAH/PKU genotip-fenotip) | 2 |
 | 11854316 | Seidman & Seidman (2002) | J Clin Invest | 10.1172/JCI15043 | Landmark (TF haploinsufficiency; doz-eşik) | 3 |
 | 11572777 | Bruneau ve ark. (2001) | Cell | 10.1016/s0092-8674(01)00493-7 | Mekanizma/klinik (TBX5 HI; Holt-Oram) | 3 |
@@ -123,6 +123,13 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 24212882 | Weedon ve ark. (2014) | Nat Genet | 10.1038/ng.2826 | Klinik/metodoloji (PTF1A distal enhancer; izole pankreas agenezisi; epigenomik açıklama) | 13 |
 | 23348503 | Horn ve ark. (2013) | Science | 10.1126/science.1230062 | Klinik/mekanizma (TERT promotörü; germline + somatik; yeni Ets/TCF motifi) | 13 |
 | 24646999 | Smemo ve ark. (2014) | Nature | 10.1038/nature13138 | Mekanizma (FTO varyantları → IRX3; hedef gen en yakın gen değildir) | 13 |
+| 23785127 | Schäffer (2013) | J Med Genet | 10.1136/jmedgenet-2013-101713 | Ana çerçeve/review (digenik kalıtım; kanıt türleri; PPI ve aday gen bilgisinin rolü) | 14 |
+| 8202715 | Kajiwara, Berson, Dryja (1994) | Science | 10.1126/science.8202715 | Landmark (digenik retinitis pigmentosa; RDS + ROM1 çift heterozigot) | 14 |
+| 11567139 | Katsanis ve ark. (2001) | Science | 10.1126/science.1063525 | Landmark (Bardet-Biedl trialelik kalıtım; kalıtım modelinin sorgulanması) | 14 |
+| 29433793 | Calucho ve ark. (2018) | Neuromuscul Disord | 10.1016/j.nmd.2018.01.003 | Klinik/modifier (SMN2 kopya sayısı → SMA tipi; 3.459 hasta derlemesi) | 14 |
+| 26417704 | Corvol ve ark. (2015) | Nat Commun | 10.1038/ncomms9382 | Klinik/modifier (KF akciğer ağırlığı; GWAS meta-analizi; 5 modifiye edici lokus) | 14 |
+| 15829955 | Emison ve ark. (2005) | Nature | 10.1038/nature03467 | Mekanizma/klinik (RET intron 1 enhancer; kodlamayan modifier; düşük penetrans) | 13, 14 |
+| 37165203 | Li ve ark. (2023) | Rev Endocr Metab Disord | 10.1007/s11154-023-09809-1 | Klinik/kavramsal (monogenik diyabette eksik penetrans; modifiye ediciler; koruyucu varyant) | 14 |
 
 ---
 
@@ -178,6 +185,10 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_43_noncoding_bes_yol.svg | 13 | Kodlamayan varyantın beş hastalık yolu (promotör, uORF, enhancer kaybı, ektopik, TAD) |
 | sekil_44_zrs_shh_ornegi.svg | 13 | ZRS: 1 Mb uzaktan SHH düzenlemesi; normal ZPA vs ektopik anterior ifade → polidaktili |
 | sekil_45_noncoding_kanit_hiyerarsisi.svg | 13 | Kodlamayan yorumlama: düşen kriterler (PVS1/PM1/PP3) vs güçlenenler (PS3) + üç şart |
+| sekil_46_monogenik_poligenik_sureklilik.svg | 14 | Monogenik→digenik→oligogenik→poligenik sürekliliği · eşik (yük) modeli · klinik sonuçlar |
+| sekil_47_digenik_pedigri.svg | 14 | Digenik pedigri imzası (RDS+ROM1) · genotip–fenotip tablosu · "iki varyant ≠ digenik" uyarısı |
+| sekil_48_modifier_mekanizmalari.svg | 14 | SMN2 kopya sayısı doz modifier'ı · modifier'ın dört yolu · KF akciğer modifier lokusları |
+| sekil_49_digenik_kanit_hiyerarsisi.svg | 14 | Digenik iddianın 5 kanıt basamağı · ACMG tek-lokus varsayımının kırılması · danışma |
 
 > ⚠️ **Arşiv notu (final pass'te ele alınacak):** `assets/` klasöründe hiçbir bölümde kullanılmayan üç yetim dosya bulunmaktadır: `sekil_30_repeat_esik_antisipasyon.svg`, `sekil_31_repeat_mekanizma_turleri.svg`, `sekil_32_fmr1_ornegi.svg`. Bunlar Bölüm 9 için üretilmiş ancak kullanılmayan erken sürümlerdir; numaraları Bölüm 10'un kullandığı dosyalarla çakışmaktadır. Ayrıca Bölüm 9 tek istisna olarak ardışık numara yerine `sekil_09_*` adlandırması kullanmaktadır (diğer tüm bölümler ardışıktır: Bölüm 8 → 27–29, Bölüm 10 → 30–33, Bölüm 11 → 34–37, Bölüm 12 → 38–41). Yeniden numaralandırma aşağı yönlü bütün bölümleri etkileyeceğinden final pass'e bırakılmıştır.
 
@@ -185,6 +196,6 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 ## 4. Sonraki adım
 
-- **Sıradaki bölüm:** Bölüm 14 — Digenik / oligogenik / modifier.
-- Planlanan görseller: monogenik → digenik → oligogenik → kompleks süreklilik (eşik/yük modeli) · digenik kalıtımın pedigri imzası ve neden Mendel oranı vermediği · modifiye edici genlerin penetrans ve ekspresiviteye etkisi (Bölüm 1 köprüsü) · ikinci-lokus kanıt hiyerarşisi ve ACMG'nin tek-gen varsayımının nerede kırıldığı.
-- Not: Bölüm 13'te düzenleyici anatomi → beş yol → doku-özgülük → hedef gen belirsizliği zinciri kuruldu; Bölüm 8'deki TAD/enhancer hijacking tek-nükleotid ölçeğine indirildi, Bölüm 7'deki splice varyantlarıyla sınır bilinçli olarak çizildi ("kodlamayan olan her varyant regülatör değildir"); yorumlamada PVS1'in uygulanamaması ve PS3'ün ağırlık kazanması işlendi (Ellingford 2022). **Bölüm 14 için köprü:** Bölüm 1'deki eksik penetrans/değişken ekspresivite (Cooper 2013) tartışması, Bölüm 14'te modifiye edici lokuslar üzerinden mekanizmaya bağlanacak; Bölüm 13'teki "düzenleyici varyantlar ifade dozunu ayarlar" fikri, modifier etkinin en somut moleküler zemini olarak kullanılacak. Ayrıca Bölüm 16'daki ACMG sentezine, ACMG çerçevesinin tek-gen/tek-lokus varsayımının digenik kalıtımda nerede kırıldığı taşınacaktır.
+- **Sıradaki bölüm:** Bölüm 15 — Aynı gen → farklı hastalık (allelik seri).
+- Planlanan görseller: tek gen–çok fenotip haritası (allelik seri; mekanizma yönüne göre dallanma) · aynı gende LoF vs GoF vs DN'in zıt hastalıklar üretmesi (Bölüm 2/4/5 sentezi) · varyant konumu → fenotip ilişkisi (domain haritası; hotspot vs dağınık) · fenotip-öncelikli mi gen-öncelikli mi tanı stratejisi.
+- Not: Bölüm 14'te monogenik–poligenik sürekliliği, eşik/yük modeli, digenik (ortak işlevsel havuz), trialelik kalıtım ve modifier'ın dört yolu işlendi; Bölüm 1'deki eksik penetrans/ekspresivite tartışmasına moleküler zemin verildi, Bölüm 13'teki kodlamayan varyantlar (RET intron 1) modifier olarak köprülendi, ACMG'nin tek-lokus varsayımının kırılması gösterildi. **Bölüm 15 için köprü:** Bölüm 4'te RET ve SCN2A üzerinden, Bölüm 5'te OI üzerinden, Bölüm 6'da Müller allel serisi üzerinden kısmen açılan "aynı gen, farklı mekanizma → farklı hastalık" fikri Bölüm 15'te sistematik hâle getirilecek; Bölüm 14'teki modifier kavramı, aynı varyantın farklı ailelerde farklı fenotip vermesini açıklayan ikinci eksen olarak kullanılacaktır. Bölüm 16'daki ACMG sentezine, "gen değil mekanizma sınıflandırılır" ilkesi taşınacaktır.
