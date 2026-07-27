@@ -63,7 +63,7 @@ Bu ayrım klinik olarak belirleyicidir, çünkü:
 - **NMD (+):** Transkript yok → "temiz" LoF → fenotip haploinsufficiency (dominant gende) veya resesif LoF mantığıyla; toksik protein riski düşük.
 - **NMD (−) / escape:** Truncated protein üretilir → işlevsiz, yarı-işlevsel **veya dominant-negatif/toksik** olabilir → mekanizma sınıfı kayabilir (Bölüm 5) ve PVS1 gücü düşer (§6).
 
-> **🔬 Deep-dive — NMD verimliliği mutlak değildir.** NMD'nin etkinliği transkripte, hücre tipine ve fizyolojik duruma göre değişir; bazı transkriptler kısmen kaçar. Bu nedenle in silico "NMD bekleniyor" tahmini, mümkünse **RNA çalışmasıyla** (allel-spesifik ekspresyon) doğrulanmalıdır.
+> **🔬 Deep-dive — NMD verimliliği mutlak değildir.** NMD'nin etkinliği transkripte, hücre tipine ve fizyolojik duruma göre değişir; bazı transkriptler kısmen kaçar. Bu nedenle *in silico* "NMD bekleniyor" tahmini, mümkünse **RNA çalışmasıyla** (allel-spesifik ekspresyon) doğrulanmalıdır.
 
 ### 2.3. Okuma çerçevesi (reading-frame) kuralı
 
@@ -255,7 +255,7 @@ flowchart TD
 
 > **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden alınmış ve doğrulanmıştır; her kaynağın PMID **ve** DOI'si bu oturumda tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
 
-1. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants... *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Guideline / PVS1 dahil kanıt çerçevesi.*
+1. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Guideline / PVS1 dahil kanıt çerçevesi.*
 2. **Abou Tayoun AN, Pesaran T, DiStefano MT, ve ark. (2018).** Recommendations for interpreting the loss of function PVS1 ACMG/AMP variant criterion. *Human Mutation* 39(11):1517–1524. **PMID: 30192042** · DOI: [10.1002/humu.23626](https://doi.org/10.1002/humu.23626) — *Guideline / PVS1 karar ağacı ve güç derecelendirmesi.*
 3. **Khajavi M, Inoue K, Lupski JR (2006).** Nonsense-mediated mRNA decay modulates clinical outcome of genetic disease. *European Journal of Human Genetics* 14(10):1074–1081. **PMID: 16757948** · DOI: [10.1038/sj.ejhg.5201649](https://doi.org/10.1038/sj.ejhg.5201649) — *Mekanizma/review; NMD ve genotip-fenotip, NMD-escape toksisitesi.*
 4. **Monaco AP, Bertelson CJ, Liechti-Gallati S, Moser H, Kunkel LM (1988).** An explanation for the phenotypic differences between patients bearing partial deletions of the DMD locus. *Genomics* 2(1):90–95. **PMID: 3384440** · DOI: [10.1016/0888-7543(88)90113-9](https://doi.org/10.1016/0888-7543(88)90113-9) — *Landmark mekanistik; okuma çerçevesi hipotezi (Duchenne vs Becker).*

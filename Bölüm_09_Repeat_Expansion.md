@@ -245,7 +245,7 @@ flowchart TD
 
 > **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl kullanılmış, kaynakçada DOI linkleri verilmiştir.
 
-1. **Paulson H. (2018).** Repeat expansion diseases. *Handbook of Clinical Neurology* 147:105–123. **PMID: 29325606** · DOI: [10.1016/B978-0-444-63233-3.00009-9](https://doi.org/10.1016/B978-0-444-63233-3.00009-9) — *Kullanım amacı: Genel landmark review; tüm tekrar genişlemesi hastalıkları, mekanizma sınıflaması, anticipasyon ve klinik çeşitlilik.*
+1. **Paulson H (2018).** Repeat expansion diseases. *Handbook of Clinical Neurology* 147:105–123. **PMID: 29325606** · DOI: [10.1016/B978-0-444-63233-3.00009-9](https://doi.org/10.1016/B978-0-444-63233-3.00009-9) — *Kullanım amacı: Genel landmark review; tüm tekrar genişlemesi hastalıkları, mekanizma sınıflaması, anticipasyon ve klinik çeşitlilik.*
 
 2. **Ross CA ve Tabrizi SJ (2011).** Huntington's disease: from molecular pathogenesis to clinical treatment. *Lancet Neurology* 10(1):83–98. **PMID: 21163446** · DOI: [10.1016/S1474-4422(10)70245-3](https://doi.org/10.1016/S1474-4422(10)70245-3) — *Kullanım amacı: HD landmark klinik/mekanistik review; polyQ agregasyonu, striatal patoloji, presemptomatik evre.*
 

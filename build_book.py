@@ -4,7 +4,9 @@
 build_book.py — Mekanizma Kitabı tek-dosya HTML kitap üreticisi.
 
 Ne yapar:
+  • Önsöz.md varsa kitabın başına (içindekilerden sonra) koyar.
   • Bölüm_NN_*.md dosyalarını (Bölüm_00 hariç) sırayla okur.
+  • Bölüm kaynakçalarından PMID'ye göre tekilleştirilmiş TOPLU KAYNAKÇA üretir.
   • Markdown → HTML (tablolar, kod, başlık id'leri, dipnotlar).
   • Mermaid kod bloklarını <pre class="mermaid"> olarak gömer (offline render).
   • assets/*.svg görsellerini doğrudan HTML içine GÖMER (img değil, inline SVG)
@@ -178,8 +180,10 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 .toc h2{border:none;}
 .toc ol{font-family:"Helvetica Neue",Arial,sans-serif;font-size:1.02rem;line-height:2;
   list-style:none;padding-left:0;counter-reset:ch;}
-.toc ol li{counter-increment:ch;border-bottom:1px dotted var(--rule);}
-.toc ol li::before{content:"Bölüm " counter(ch) " · ";color:var(--muted);font-size:.85em;}
+.toc ol li{border-bottom:1px dotted var(--rule);padding:.1em 0;}
+.toc ol li.plain{font-weight:700;}
+.toc ol.front{margin-bottom:.6em;}
+.toc ol.back{margin-top:.6em;}
 .chapter{page-break-before:always;}
 /* Yazdırma / PDF */
 @media print{
@@ -190,6 +194,33 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
   @page{margin:18mm 14mm;}
 }
 """
+
+
+def collect_bibliography(chapters):
+    """Bölüm kaynakçalarını PMID'ye göre tekilleştirip toplu kaynakça üretir."""
+    seen = {}  # pmid -> (authors, rest)
+    used = {}  # pmid -> set(bölüm no)
+    for n, f in chapters:
+        with open(f, encoding="utf-8") as fh:
+            txt = fh.read()
+        for line in txt.splitlines():
+            m = re.match(r"^\d+\.\s+\*\*(.+?)\*\*\s*(.*?\*\*PMID:\s*(\d+)\*\*[^—]*)", line)
+            if not m:
+                continue
+            au, rest, pmid = m.group(1).strip(), m.group(2).strip().rstrip(" —"), m.group(3)
+            seen.setdefault(pmid, (au, rest))
+            used.setdefault(pmid, set()).add(n)
+
+    def sortkey(pmid):
+        au = seen[pmid][0]
+        return (au.split()[0].lower(), au)
+
+    rows = []
+    for i, pmid in enumerate(sorted(seen, key=sortkey), 1):
+        au, rest = seen[pmid]
+        chs = ", ".join(str(x) for x in sorted(used[pmid]))
+        rows.append(f"{i}. **{au}** {rest} · *Bölüm: {chs}*")
+    return rows, len(seen)
 
 
 def build():
@@ -211,18 +242,41 @@ def build():
         body = convert_chapter(md_text)
         bodies.append(f'<section class="chapter" id="{anchor}">{body}</section>')
 
+    # Toplu kaynakça
+    bib_rows, bib_n = collect_bibliography(chapters)
+    bib_md = (
+        "# Toplu Kaynakça\n\n"
+        "> Bu liste, bölüm kaynakçalarının PMID'ye göre tekilleştirilmiş birleşimidir; "
+        "her kaynağın sonunda kullanıldığı bölümler belirtilmiştir. "
+        "Bibliyografik veriler PubMed üzerinden doğrulanmıştır.\n\n" + "\n\n".join(bib_rows) + "\n"
+    )
+    bodies.append(f'<section class="chapter" id="toplu-kaynakca">{convert_chapter(bib_md)}</section>')
+
+    # Önsöz (varsa)
+    front = ""
+    onsoz_path = os.path.join(ROOT, "Önsöz.md")
+    if os.path.exists(onsoz_path):
+        with open(onsoz_path, encoding="utf-8") as fh:
+            front = f'<section class="chapter" id="onsoz">{convert_chapter(fh.read())}</section>'
+
+    n_fig = len(glob.glob(os.path.join(ASSETS, "*.svg")))
     cover = f"""
     <section class="cover">
       <div class="big">{html.escape(BOOK_TITLE)}</div>
       <div class="rule"></div>
       <div class="sub">{html.escape(BOOK_SUBTITLE)}</div>
-      <div class="meta">Sürüm taslağı · {today} · {len(chapters)} bölüm</div>
+      <div class="meta">{len(chapters)} bölüm · {n_fig} şekil · {bib_n} doğrulanmış kaynak<br>
+      Sürüm taslağı · {today}</div>
     </section>"""
 
+    toc_extra = ('<li class="plain"><a href="#onsoz">Önsöz — Bu kitap neden yazıldı, nasıl okunmalı?</a></li>'
+                 if front else "")
     toc = f"""
     <section class="toc">
       <h2>İçindekiler</h2>
+      <ol class="front">{toc_extra}</ol>
       <ol>{''.join(toc_items)}</ol>
+      <ol class="back"><li class="plain"><a href="#toplu-kaynakca">Toplu Kaynakça ({bib_n} kaynak)</a></li></ol>
     </section>"""
 
     doc = f"""<!DOCTYPE html>
@@ -237,6 +291,7 @@ def build():
 <div class="page">
 {cover}
 {toc}
+{front}
 {''.join(bodies)}
 </div>
 <script>{mermaid_js}</script>

@@ -127,7 +127,7 @@ Oligogenik ve modifier'a bağlı tablolarda ise durum daha zordur: **kesin bir o
 
 Oligogenik mimarinin en tipik klinik yansıması **eksik penetranstır**. Ana lokusta patojen varyantı taşıyan bir birey, ek katkılar eşiğe ulaşmadığı için sağlıklı kalabilir. Bölüm 1'de bu olguyu tanımlamış ve Cooper ve arkadaşlarının derlemesine dayanmıştık (Cooper ve ark., 2013); bu bölüm o tanımın altına mekanizma koyar — penetransın bir kısmı, ana genin dışındaki genetik bağlamdır.
 
-Aynı olgu monogenik diyabet tablolarında da iyi belgelenmiştir. Monogenik diyabet formlarında azalmış penetrans ve değişken ekspresivite yaygın olarak görülür; bu, hem tanıyı hem hastalık yönetimini zorlaştırır. Ancak bu değişkenliği yaratan modifiye edici varyantların tanımlanması yalnızca bir sorun değil, aynı zamanda bir fırsattır: **koruyucu** genetik varyantların belirlenmesi, daha yaygın diyabet formlarının mekanizmalarını aydınlatabilir ve yeni tedavi stratejilerine işaret edebilir (Li ve ark., 2023).
+Aynı olgu monogenik diyabet tablolarında da iyi belgelenmiştir. Monogenik diyabet formlarında eksik penetrans ve değişken ekspresivite yaygın olarak görülür; bu, hem tanıyı hem hastalık yönetimini zorlaştırır. Ancak bu değişkenliği yaratan modifiye edici varyantların tanımlanması yalnızca bir sorun değil, aynı zamanda bir fırsattır: **koruyucu** genetik varyantların belirlenmesi, daha yaygın diyabet formlarının mekanizmalarını aydınlatabilir ve yeni tedavi stratejilerine işaret edebilir (Li ve ark., 2023).
 
 ### 4.3 Ekspresivite: "aynı varyant, neden kardeşimde daha hafif?"
 
@@ -234,7 +234,7 @@ Bu zorluklar karşısında dayanılacak ilke, gen–hastalık ilişkisinin geçe
 
 **Hirschsprung hastalığı — kodlamayan modifier ve düşük penetrans.** *RET*'in intron 1'indeki korunmuş enhancer-benzeri dizide yer alan yaygın bir kodlamayan varyant, hastalık yatkınlığıyla anlamlı biçimde ilişkilidir ve riske katkısı nadir kodlayan alellerden yaklaşık 20 kat büyüktür; varyant *in vitro* enhancer aktivitesini azaltır, düşük penetrans gösterir ve cinsiyete göre farklı etki yaratır (Emison ve ark., 2005). **Öğreti:** bu örnek Bölüm 4 (RET'in iki yüzü), Bölüm 13 (kodlamayan/enhancer) ve bu bölümü (modifier/düşük penetrans) tek bir lokusta birleştirir — ve yaygın, düşük penetranslı varyantların hem sık hem nadir hastalıkların temelinde yatabileceğini gösterir.
 
-**Monogenik diyabet — modifiye edici varyantlar fırsat olarak.** Monogenik diyabet formlarında azalmış penetrans ve değişken ekspresivite yaygındır; bunları belirleyen genetik modifiye edicilerin tanımlanması hem tanı zorluğunu açıklar hem de **koruyucu** varyantların keşfi yoluyla yeni tedavi hedeflerine işaret edebilir (Li ve ark., 2023). **Öğreti:** modifier araştırması yalnızca "neden bu hasta farklı?" sorusunu yanıtlamaz; koruyucu yönü bulmak, doğanın kendi tedavi denemesini okumaktır.
+**Monogenik diyabet — modifiye edici varyantlar fırsat olarak.** Monogenik diyabet formlarında eksik penetrans ve değişken ekspresivite yaygındır; bunları belirleyen genetik modifiye edicilerin tanımlanması hem tanı zorluğunu açıklar hem de **koruyucu** varyantların keşfi yoluyla yeni tedavi hedeflerine işaret edebilir (Li ve ark., 2023). **Öğreti:** modifier araştırması yalnızca "neden bu hasta farklı?" sorusunu yanıtlamaz; koruyucu yönü bulmak, doğanın kendi tedavi denemesini okumaktır.
 
 ---
 
@@ -317,7 +317,7 @@ flowchart TD
 
 9. **MacArthur DG, Manolio TA, Dimmock DP, ve ark. (2014).** Guidelines for investigating causality of sequence variants in human disease. *Nature* 508(7497):469–476. **PMID: 24759409** · DOI: [10.1038/nature13127](https://doi.org/10.1038/nature13127) — *Kullanım amacı: Metodoloji — nedensellik iddiasının kanıt gücüne göre derecelendirilmesi; digenik iddiada kanıt çıtası. Kaynak kütüğünden yeniden kullanılmıştır.*
 
-10. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — tek-lokus varsayımı ve segregasyon kriterinin digenik senaryoda kırılması. Kaynak kütüğünden yeniden kullanılmıştır.*
+10. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — tek-lokus varsayımı ve segregasyon kriterinin digenik senaryoda kırılması. Kaynak kütüğünden yeniden kullanılmıştır.*
 
 11. **Sosnay PR, Siklosi KR, Van Goor F, ve ark. (2013).** Defining the disease liability of variants in the cystic fibrosis transmembrane conductance regulator gene. *Nature Genetics* 45(10):1160–1167. **PMID: 23974870** · DOI: [10.1038/ng.2745](https://doi.org/10.1038/ng.2745) — *Kullanım amacı: Klinik örnek — *CFTR* genotip–fenotip ilişkisinin sınırları. Kaynak kütüğünden yeniden kullanılmıştır (Bölüm 2 köprüsü).*
 

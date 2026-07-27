@@ -86,16 +86,23 @@ Bu rehber, tüm bölümlerde tutarlı ton, biçim ve görsel standardını sağl
 ### Minimum sayı
 - Bölüm başına **≥3 SVG** + **≥2 Mermaid**.
 
-## 4. Atıf biçimi
-- Metin içi: "… (Yazar ve ark., Yıl, *Dergi*; [DOI](https://doi.org/..))".
-- PubMed MCP kullanıldıysa "Based on articles retrieved from PubMed" + DOI **link**.
-- Kaynaklar bölümünde her madde: Yazar(lar), Yıl, Başlık, Dergi cilt(sayı):sayfa, **PMID**, DOI-link, **kullanım amacı**.
+## 4. Atıf biçimi (final pass'te standardize edildi — bu biçim bağlayıcıdır)
+- **Metin içi:** yazar-yıl → "… (Richards ve ark., 2015)". Cümleyi "Based on articles retrieved from PubMed" ile BAŞLATMA; bu yükümlülük Kaynaklar bölümündeki doğrulama notu + her maddedeki DOI linki ile karşılanır.
+- **Kaynakça maddesi (tek biçim):**
+  `N. **Yazar1 XX, Yazar2 YY, Yazar3 ZZ, ve ark. (Yıl).** Tam başlık. *Derginin tam adı* cilt(sayı):sayfa–sayfa. **PMID: …** · DOI: [10.xxxx/…](https://doi.org/10.xxxx/…) — *Kullanım amacı: …*`
+- **Yazar listesi:** 4 veya daha az yazar → hepsi yazılır; 5+ → ilk üç yazar + "ve ark.".
+- **Dergi adı:** kısaltma DEĞİL, **tam ad** ("Genetics in Medicine", "American Journal of Human Genetics", "Proceedings of the National Academy of Sciences USA"). Tek istisna, resmî adı parantezli olan dergilerdir: *Genes (Basel)*.
+- **Sayfa aralığı:** en-dash (`405–424`), kısa çizgi değil. Elektronik sayfa ekleri korunur (`535–548.e24`).
+- **Başlık:** PubMed'deki tam başlık; kısaltma/üç nokta kullanılmaz.
+- Aynı kaynak birden çok bölümde geçiyorsa **künye birebir aynı** olmalıdır (yalnız "Kullanım amacı" bölüme göre değişir). Toplu kaynakça bu künyelerden otomatik üretilir.
 
-## 5. Terminoloji tutarlılığı
-- "Varyant" (nötr) tercih; "mutasyon"u yalnız yerleşik adlandırmalarda kullan.
-- İngilizce teknik terimi ilk geçişte parantezle Türkçeleştir: "haploinsufficiency (yetersiz doz)".
+## 5. Terminoloji tutarlılığı (final pass kararları)
+- "Varyant" (nötr) tercih; "mutasyon"u yalnız yerleşik adlandırmalarda kullan (*tam mutasyon*, *premutasyon*, *gsp mutasyonu* gibi).
+- İngilizce teknik terimi ilk geçişte parantezle Türkçeleştir: "haploinsufficiency (yetersiz doz)"; sonrasında tek biçimde devam et.
 - Kısaltmalar ilk geçişte açılır (NMD, LoF, GoF, DN, CNV, UPD, VUS…).
-- Aynı kavram için tek terim kullan (final pass'te standardize edilecek).
+- **Sabitlenen tercihler:** `nonsense` (nonsens değil) · `hotspot` (ilk geçişte "hotspot (sıcak nokta)", sonra hotspot) · `eksik penetrans` (azalmış penetrans değil) · `dizileme` (sekanslama değil) · `dominant-negatif` (tireli).
+- **Latince ifadeler:** `de novo` **düz** yazılır (Türkçe klinik genetikte yerleşiktir); `*in vitro*`, `*in silico*`, `*in cis*`, `*in trans*` **italik** yazılır.
+- Gen adları italik (*LMNA*), protein adları düz (lamin A/C).
 
 ## 6. Kalite çıtası (her bölüm bunu geçmeli)
 - Mekanizma → varyant → hücre → fenotip → test → yorum zinciri kurulmuş mu?

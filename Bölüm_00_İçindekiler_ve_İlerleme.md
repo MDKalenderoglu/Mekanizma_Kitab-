@@ -26,7 +26,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 21/21 |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
 | 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 20/20 |
-| — | **Final pass** (birleştirme/standardizasyon) | — | ⬜ Bekliyor | — | — |
+| — | **Final pass** (birleştirme/standardizasyon) | `Önsöz.md` + `build_book.py` | ✅ Tamam | — | 114 (toplu kaynakça) |
 
 Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
@@ -224,11 +224,30 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_60_uctan_uca_akis.svg | 17 | Kitabın omurgası: fenotip → mekanizma → test → varyant → yorum → danışma + geri besleme |
 | sekil_61_senaryo_panosu.svg | 17 | Sekiz pediatrik senaryonun özet panosu (başvuru · mekanizma · test · ders) |
 
-> ⚠️ **Arşiv notu (final pass'te ele alınacak):** `assets/` klasöründe hiçbir bölümde kullanılmayan üç yetim dosya bulunmaktadır: `sekil_30_repeat_esik_antisipasyon.svg`, `sekil_31_repeat_mekanizma_turleri.svg`, `sekil_32_fmr1_ornegi.svg`. Bunlar Bölüm 9 için üretilmiş ancak kullanılmayan erken sürümlerdir; numaraları Bölüm 10'un kullandığı dosyalarla çakışmaktadır. Ayrıca Bölüm 9 tek istisna olarak ardışık numara yerine `sekil_09_*` adlandırması kullanmaktadır (diğer tüm bölümler ardışıktır: Bölüm 8 → 27–29, Bölüm 10 → 30–33, Bölüm 11 → 34–37, Bölüm 12 → 38–41). Yeniden numaralandırma aşağı yönlü bütün bölümleri etkileyeceğinden final pass'e bırakılmıştır.
+> ✅ **Arşiv notu (final pass'te kapatıldı):** Hiçbir bölümde kullanılmayan üç yetim dosya (`sekil_30_repeat_esik_antisipasyon.svg`, `sekil_31_repeat_mekanizma_turleri.svg`, `sekil_32_fmr1_ornegi.svg`) silindi; bunlar Bölüm 9 için üretilmiş erken sürümlerdi ve numaraları Bölüm 10'un dosyalarıyla çakışıyordu (git geçmişinde `c4f1bc1` commit'inde korunuyorlar). Böylece numara çakışması ortadan kalktı ve `assets/` klasöründeki 64 SVG'nin tamamı bir bölümde kullanılıyor. Bölüm 9, ardışık numara yerine `sekil_09_*` adlandırmasını kullanmayı sürdürüyor; çakışma kalmadığı ve dosya adları okuyucuya görünmediği (kitapta SVG'ler inline gömülüyor) için yeniden numaralandırma yapılmadı.
 
 ---
 
-## 4. Sonraki adım
+## 4. Final pass raporu (tamamlandı)
+
+Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon işlemleri:
+
+| # | İş | Sonuç |
+|---|----|-------|
+| 1 | **Kaynakça standardizasyonu** | 114 benzersiz kaynağın 19'unda bölümler arası künye farkı vardı → tümü tek biçime indirildi (dergi tam adı, en-dash sayfa aralığı, tam başlık, yazar listesi kuralı). 8 içerik düzeltmesi yapıldı (Berecki başlığında eksik *SCN2A*, Webster ve Weinstein yazar listeleri, Walker'da "de la Hoya", Richards/Riggs kısaltılmış başlıkları, Jaganathan/Collins sayfa ekleri). |
+| 2 | **Terminoloji birleştirme** | `nonsense`, `hotspot`, `eksik penetrans`, `dizileme`, `dominant-negatif` sabitlendi; Latince ifade kuralı tanımlandı (de novo düz; *in vitro*/*in silico*/*in cis*/*in trans* italik). 23 düzeltme. |
+| 3 | **Görsel envanteri** | 3 yetim SVG silindi; `assets/` içindeki 64 SVG'nin tamamı kullanılıyor, eksik referans yok. |
+| 4 | **Çapraz gönderme denetimi** | Şekil atıfları (bölüm içi) ve Bölüm N göndermeleri tarandı; geçersiz gönderme yok. 17 bölümün tamamında standart 10 başlık eksiksiz. |
+| 5 | **Toplu kaynakça** | `build_book.py` artık bölüm kaynakçalarından PMID'ye göre tekilleştirilmiş, yazar soyadına göre sıralı ve her kaynağın kullanıldığı bölümleri gösteren bir kaynakça üretiyor (otomatik, elle bakım gerektirmez). |
+| 6 | **Önsöz** | `Önsöz.md` eklendi (kitabın tezi, hedef kitle, okuma yolları, bölüm yapısı, kaynak politikası, sınırlar/sorumluluk notu); build sırasında içindekilerden sonra yerleştiriliyor. |
+| 7 | **Kapak ve içindekiler** | Kapağa bölüm/şekil/kaynak sayısı eklendi; içindekilerdeki "Bölüm N · Bölüm N — …" tekrarı giderildi; önsöz ve toplu kaynakça içindekilere alındı. |
+| 8 | **Stil rehberi** | Alınan kararlar `00_Şablonlar/Stil_Rehberi.md` §4–5'e bağlayıcı kural olarak işlendi. |
+
+**Son durum:** 17 bölüm · 64 şekil · 49 Mermaid diyagramı (49/49 hatasız render) · 114 doğrulanmış kaynak.
+
+---
+
+## 5. Sonraki adım
 
 - **Sıradaki adım:** **Final pass** — kitabın 17 bölümü tamamlandı. Yapılacaklar: (1) terminoloji standardizasyonu ve tekrar azaltma; (2) atıf biçimi birleştirme (aşağıdaki Webster notu); (3) `assets/` yetim dosya temizliği ve şekil numaralandırmasının gözden geçirilmesi (aşağıdaki arşiv notu); (4) global kaynakça üretimi (tüm bölümlerin birleşik listesi, PMID'ye göre tekilleştirilmiş); (5) bölümler arası çapraz gönderme kontrolü; (6) kapak, önsöz ve nasıl-okunmalı sayfası; (7) son build + PDF çıktısı.
 - Not: Bölüm 17'de kitabın yönü tersine çevrildi (hastadan mekanizmaya): 12 klinik ipucunun mekanizmaya çevrilmesi (Şekil 17.1), ekzomun altı kör noktası ve yeniden analizin getirisi (Şekil 17.2; Clark 2018, Wright 2018, Smedley 2021), uçtan uca omurga (Şekil 17.3) ve sekiz pediatrik senaryo (Şekil 17.4) ile bütün bölümler hastanın başında tekrar edildi.

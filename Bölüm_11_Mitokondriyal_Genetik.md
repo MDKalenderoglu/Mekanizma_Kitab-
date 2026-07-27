@@ -111,7 +111,7 @@ Mitokondriyal hastalıklarda "varyant" kategorisi, hangi genomda bulunduğuna ve
 | Nükleer OXPHOS yapısal/montaj geni | Nükleer | Kompleks kurulamaz veya kararsızdır | Genellikle otozomal resesif | *NDUFS4*, *SURF1* |
 | Nükleer mitokondriyal bakım/biyogenez geni | Nükleer | Translasyon, kofaktör veya lipid metabolizması bozulur | Genellikle otozomal resesif; nadiren XL | Mitokondriyal aminoaçil-tRNA sentetazları |
 
-Bu tablonun okunma biçimi şudur: ilk dört satır mtDNA'da doğrudan lezyondur ve **mtDNA dizileme/delesyon analizi** ile yakalanır; son dört satır nükleer genomdadır ve **WES/WGS veya nükleer panel** gerektirir. Beşinci ve altıncı satırlar özellikle sinsidir, çünkü mtDNA üzerinde ölçülebilir bir anormallik (deplesyon veya çoklu delesyon) yaratırlar ama nedensel varyant orada değildir. Ayrıca dördüncü satırın klinik önemi büyüktür: tek büyük mtDNA delesyonları tipik olarak oogenez sırasında **de novo** oluşur; bu nedenle Kearns-Sayre veya Pearson tanısı alan bir çocuğun kardeşleri için tekrarlanma riski, maternal kalıtımlı nokta varyantlarının aksine düşüktür.
+Bu tablonun okunma biçimi şudur: ilk dört satır mtDNA'da doğrudan lezyondur ve **mtDNA dizileme/delesyon analizi** ile yakalanır; son dört satır nükleer genomdadır ve **WES/WGS veya nükleer panel** gerektirir. Beşinci ve altıncı satırlar özellikle sinsidir, çünkü mtDNA üzerinde ölçülebilir bir anormallik (deplesyon veya çoklu delesyon) yaratırlar ama nedensel varyant orada değildir. Ayrıca dördüncü satırın klinik önemi büyüktür: tek büyük mtDNA delesyonları tipik olarak oogenez sırasında *de novo* oluşur; bu nedenle Kearns-Sayre veya Pearson tanısı alan bir çocuğun kardeşleri için tekrarlanma riski, maternal kalıtımlı nokta varyantlarının aksine düşüktür.
 
 ---
 
@@ -180,7 +180,7 @@ Klinik pratikte biyokimyasal ve doku bulguları da bu resmi tamamlar. Kanda ve B
 
 ## 6. Varyant yorumlama açısından önemi (ACMG/ClinGen)
 
-Bölüm 2'den beri kullandığımız ACMG/AMP çerçevesi (Richards ve ark., 2015), sessiz bir varsayım üzerine kuruludur: varyant ya heterozigot ya homozigot olarak vardır, popülasyon frekansı tek bir sayıdır ve *de novo* oluşum güçlü bir kanıttır. mtDNA'da bu varsayımların **hiçbiri** olduğu gibi geçerli değildir. Heteroplazmi yüzünden varyant "kısmen" vardır; popülasyon frekansı haplogruplara göre yapılanmıştır; ve maternal kalıtım nedeniyle klasik anlamda *de novo* kavramı farklı işler.
+Bölüm 2'den beri kullandığımız ACMG/AMP çerçevesi (Richards ve ark., 2015), sessiz bir varsayım üzerine kuruludur: varyant ya heterozigot ya homozigot olarak vardır, popülasyon frekansı tek bir sayıdır ve de novo oluşum güçlü bir kanıttır. mtDNA'da bu varsayımların **hiçbiri** olduğu gibi geçerli değildir. Heteroplazmi yüzünden varyant "kısmen" vardır; popülasyon frekansı haplogruplara göre yapılanmıştır; ve maternal kalıtım nedeniyle klasik anlamda de novo kavramı farklı işler.
 
 Bu boşluğu doldurmak için ClinGen Mitokondriyal Hastalık Varyant Kürasyon Uzman Paneli, ACMG/AMP kriterlerinin mtDNA'ya özgü bir **spesifikasyonunu** yayımlamıştır (McCormick ve ark., 2020). Bu spesifikasyonun getirdiği başlıca uyarlamalar, mekanizmayla doğrudan bağlantılıdır.
 
@@ -242,7 +242,7 @@ flowchart TD
 > 5. **"WES yaptık, mtDNA da bakılmış olur."** Standart WES mtDNA'yı güvenilir biçimde kapsamaz; heteroplazmi ölçümü ve büyük delesyon saptaması için uygun değildir. mtDNA hedefli analiz veya WGS gerekir.
 > 6. **"Homoplazmik varyant, mutlaka patojendir."** Homoplazmik değişikliklerin çoğu haplogrup polimorfizmidir. Homoplazmi bir yük göstergesidir, patojenite kanıtı değildir.
 > 7. **"Anneye tekrarlanma riski %50 dedik."** mtDNA varyantı taşıyan bir anneden **tüm** çocuklara varyant geçer; belirsiz olan geçip geçmeyeceği değil, **hangi yükte** geçeceğidir. Bu yüzden risk bir Mendel oranıyla ifade edilemez.
-> 8. **"Standart ACMG kriterlerini uyguladık."** mtDNA varyantları için ClinGen'in mtDNA'ya özgü spesifikasyonu kullanılmalıdır (McCormick ve ark., 2020); nükleer frekans eşikleri ve *de novo* mantığı doğrudan aktarılamaz.
+> 8. **"Standart ACMG kriterlerini uyguladık."** mtDNA varyantları için ClinGen'in mtDNA'ya özgü spesifikasyonu kullanılmalıdır (McCormick ve ark., 2020); nükleer frekans eşikleri ve de novo mantığı doğrudan aktarılamaz.
 
 > **🟦 Klinikte dikkat kutusu**
 > - Mitokondriyal hastalık şüphesinde **doku seçimi** ve **yüzde raporlaması** birlikte istenmelidir; "mtDNA analizi" tek başına yetersiz bir istemdir.
@@ -314,7 +314,7 @@ flowchart TD
 
 12. **Craven L, Tang MX, Gorman GS, De Sutter P, Heindryckx B (2017).** Novel reproductive technologies to prevent mitochondrial disease. *Human Reproduction Update* 23(5):501–519. **PMID: 28651360** · DOI: [10.1093/humupd/dmx018](https://doi.org/10.1093/humupd/dmx018) — *Kullanım amacı: Klinik yönetim — mtDNA hastalıklarında PGT, oosit donasyonu ve mitokondri donasyonu seçenekleri ve sınırlılıkları.*
 
-13. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — standart ACMG/AMP çerçevesi; mtDNA spesifikasyonunun uyarladığı temel kriterler. Kaynak kütüğünden yeniden kullanılmıştır.*
+13. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — standart ACMG/AMP çerçevesi; mtDNA spesifikasyonunun uyarladığı temel kriterler. Kaynak kütüğünden yeniden kullanılmıştır.*
 
 14. **Brnich SE, Abou Tayoun AN, Couch FJ, ve ark. (2019).** Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework. *Genome Medicine* 12(1):3. **PMID: 31892348** · DOI: [10.1186/s13073-019-0690-2](https://doi.org/10.1186/s13073-019-0690-2) — *Kullanım amacı: Guideline — fonksiyonel kanıtın (PS3/BS3) mekanizmayı tanımlaması ilkesi; mtDNA'da tek-lif çalışmalarının dayanağı. Kaynak kütüğünden yeniden kullanılmıştır.*
 
