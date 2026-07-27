@@ -108,6 +108,8 @@ LoF tahmini (pLoF), patojenite ile eşanlamlı **değildir**. Patojenite için e
 
 ### 4.2. LoF intoleransı ve constraint metrikleri (pLI, LOEUF, HI)
 
+Bu metriklerin ikisi de aynı mantığın nicel karşılığıdır: bir gende sağlıklı popülasyonda *beklenenden az* LoF varyantı görülüyorsa, o varyantları taşıyanlar elenmiş demektir. **pLI**, ExAC veri kümesiyle tanımlanmış ikili bir olasılık ölçüsüdür (Lek ve ark., 2016, *Nature*; [DOI](https://doi.org/10.1038/nature19057)); **LOEUF** ise gnomAD ile getirilen, sürekli ve güven aralığına dayanan ardılıdır ve yazarlarca pLI yerine tercih edilmesi önerilir (Karczewski ve ark., 2020, *Nature*; [DOI](https://doi.org/10.1038/s41586-020-2308-7)).
+
 **Tablo 2.3 — İşlev kaybı intoleransı metrikleri ve yorum yönü**
 
 | Metrik | Ne ölçer? | Yorum yönü |
@@ -132,6 +134,8 @@ flowchart TD
 ```
 
 Karar, genin **doz duyarlılığı** ve **fonksiyonel rezervi** ile belirlenir. Doz duyarlı genler (transkripsiyon faktörleri, kromatin düzenleyiciler, gelişim genleri) tipik olarak haploinsufficiency → dominant; yüksek rezervli genler (birçok metabolik enzim) resesif davranır. Constraint metrikleri bu ayrımda yön gösterir.
+
+Enzimlerin neden bu kadar sık "rezervli" davrandığının klasik açıklaması metabolik kontrol kuramından gelir: bir enzim izole çalışmaz, substrat ve ürünleri üzerinden komşu enzimlere kinetik olarak bağlıdır; bir yolağın akısı üzerindeki kontrol çok sayıda enzime dağıldığı için tek bir enzimin duyarlılık katsayısı küçüktür. Bu nedenle heterozigotta beklenen %50'lik aktivite düşüşü çoğu zaman akıya — dolayısıyla fenotipe — yansımaz ve varyant "resesif" görünür; başka bir deyişle enzimlerdeki güvenlik payı, seçilimle sonradan kazanılmış bir özellik değil, enzim ağının kinetik yapısının doğal sonucudur (Kacser & Burns, 1981, *Genetics*; [DOI](https://doi.org/10.1093/genetics/97.3-4.639)). Doz duyarlı genlerin dominant davranması ise bu kuralın istisnası değil, aynı çerçevenin öbür ucudur: kontrol katsayısı yüksek olan (dar bir miktar aralığında çalışan) genlerde %50 doz gerçekten yetmez.
 
 ### 4.4. NMD olur / olmazsa klinik sonuç (özet)
 
@@ -218,7 +222,7 @@ NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları
 Distrofin geninde out-of-frame delesyonlar truncated protein ile ağır **Duchenne**'e; in-frame delesyonlar yarı-işlevsel protein ile daha hafif **Becker**'e yol açar (Monaco ve ark., 1988; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)). *Öğreti:* aynı gen, aynı "delesyon" tipi — fakat **çerçeve etkisi** fenotip ağırlığını belirler (Şekil 2.2); ekzon-atlama tedavilerinin mantıksal temeli budur.
 
 ### 7.3. CFTR — resesif LoF ve allelik heterojenite
-Kistik fibroz, CFTR'de **iki** patojen allel gerektiren resesif bir hastalıktır; çok sayıda varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir ve patojenite klinik + fonksiyonel veriyle tanımlanmalıdır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve allel patojenitesi gösterilmelidir.
+Kistik fibroz, CFTR'de **iki** patojen allel gerektiren resesif bir hastalıktır; gende yaklaşık iki bin varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir. Bunu ölçen çalışma, 39.696 kistik fibrozlu bireyin genotip ve fenotip verisini birleştirmiş; allel frekansı ≥%0,01 olan 159 varyantı hem klinik ağırlık hem işlevsel sonuç açısından değerlendirmiş ve bunların 127'sinin (%80) her iki ölçütü de karşıladığını göstermiştir — kalan 32 varyantın 12'si nötr sayılabilmiş, 20'si belirsiz kalmıştır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve allel patojenitesi gösterilmelidir.
 
 ### 7.4. PKU/PAH — hipomorfik aleller ve rezidüel fonksiyon
 Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabolizması hastalığıdır; genotipler rezidüel enzim aktivitesini yansıtan bir spektrumda (klasik PKU → hafif PKU → hafif hiperfenilalaninemi) dağılır ve büyük genotip veritabanları fenotip ile BH4 yanıtını öngörmeyi mümkün kılar (Hillert ve ark., 2020, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2020.06.006)). *Öğreti:* **rezidüel fonksiyon = fenotip ağırlığının motoru**; compound heterozigotlarda fenotipi genellikle daha hafif allel belirler (Şekil 2.3).
@@ -277,7 +281,9 @@ flowchart TD
 4. **Monaco AP, Bertelson CJ, Liechti-Gallati S, Moser H, Kunkel LM (1988).** An explanation for the phenotypic differences between patients bearing partial deletions of the DMD locus. *Genomics* 2(1):90–95. **PMID: 3384440** · DOI: [10.1016/0888-7543(88)90113-9](https://doi.org/10.1016/0888-7543(88)90113-9) — *Landmark mekanistik; okuma çerçevesi hipotezi (Duchenne vs Becker).*
 5. **Sosnay PR, Siklosi KR, Van Goor F, ve ark. (2013).** Defining the disease liability of variants in the cystic fibrosis transmembrane conductance regulator gene. *Nature Genetics* 45(10):1160–1167. **PMID: 23974870** · DOI: [10.1038/ng.2745](https://doi.org/10.1038/ng.2745) — *Klinik örnek / allelik heterojenite, LoF varyantlarının kanıtla doğrulanması (CFTR).*
 6. **Hillert A, Anikster Y, Belanger-Quintana A, ve ark. (2020).** The Genetic Landscape and Epidemiology of Phenylketonuria. *American Journal of Human Genetics* 107(2):234–250. **PMID: 32668217** · DOI: [10.1016/j.ajhg.2020.06.006](https://doi.org/10.1016/j.ajhg.2020.06.006) — *Klinik örnek / hipomorfik allel, rezidüel fonksiyon, genotip-fenotip (PAH).*
-7. **Karczewski KJ, Francioli LC, Tiao G, ve ark. (2020).** The mutational constraint spectrum quantified from variation in 141,456 humans. *Nature* 581(7809):434–443. **PMID: 32461654** · DOI: [10.1038/s41586-020-2308-7](https://doi.org/10.1038/s41586-020-2308-7) — *Mekanizma/metodoloji; LoF intoleransı, LOEUF/pLI.*
+7. **Karczewski KJ, Francioli LC, Tiao G, ve ark. (2020).** The mutational constraint spectrum quantified from variation in 141,456 humans. *Nature* 581(7809):434–443. **PMID: 32461654** · DOI: [10.1038/s41586-020-2308-7](https://doi.org/10.1038/s41586-020-2308-7) — *Mekanizma/metodoloji; LoF intoleransı, LOEUF.*
+8. **Lek M, Karczewski KJ, Minikel EV, ve ark. (2016).** Analysis of protein-coding genetic variation in 60,706 humans. *Nature* 536(7616):285–291. **PMID: 27535533** · DOI: [10.1038/nature19057](https://doi.org/10.1038/nature19057) — *ExAC; pLI metriğinin tanımlandığı çalışma.*
+9. **Kacser H, Burns JA (1981).** The molecular basis of dominance. *Genetics* 97(3–4):639–666. **PMID: 7297851** · DOI: [10.1093/genetics/97.3-4.639](https://doi.org/10.1093/genetics/97.3-4.639) — *Landmark kuram: enzim ağının kinetik yapısı, akı kontrol/duyarlılık katsayısı ve resesifliğin kaynağı.*
 
 > **İkincil/destekleyici kaynak notu:** GeneReviews/OMIM/ClinVar/gnomAD yalnız destekleyici bilgi olarak anılmıştır.
 
@@ -295,7 +301,7 @@ flowchart TD
 | Pediatrik örnek verildi mi? | ✅ | 4 pediatrik gen, kaynaklı |
 | Test seçimi açıklandı mı? | ✅ | WES/WGS + MLPA/array + RNA-seq, doz analizi vurgusu |
 | ACMG/ClinGen bağlantısı doğru mu? | ✅ | PVS1 + SVI güç derecelendirmesi (Abou Tayoun 2018) |
-| Kaynaklar PMID/DOI ile verildi mi? | ✅ | 7 kaynak; PMID+DOI doğrulandı |
+| Kaynaklar PMID/DOI ile verildi mi? | ✅ | 9 kaynak; PMID+DOI doğrulandı (2'si doğrulama turunda eklendi: Lek 2016, Kacser & Burns 1981) |
 | Spekülatif iddialar işaretlendi mi? | ✅ | NMD "~50 nt" kuralı basitleştirme olarak işaretlendi |
 | Kaynak uydurma riski var mı? | ✅ Yok | Tüm kaynaklar PubMed metadata ile karşılaştırıldı |
 | Görsel/şema/algoritma desteği yeterli mi? | ✅ | 3 SVG (NMD, çerçeve, spektrum) + 3 Mermaid (dominant/resesif, PVS1, karar algoritması) |
@@ -305,4 +311,4 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı. NMD eşik kuralı (son ekzon-ekzon bağlantısı ~50 nt) öğretici basitleştirmedir; gen/transkripte göre istisnalar olabilir ve RNA ile doğrulama önerilir.
+> **Bu bölüm için durum:** 9/9 kaynak PMID+DOI doğrulandı. NMD eşik kuralı (son ekzon-ekzon bağlantısı ~50 nt) öğretici basitleştirmedir; gen/transkripte göre istisnalar olabilir ve RNA ile doğrulama önerilir. Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir (bkz. `Dogrulama_Kutugu.md`).

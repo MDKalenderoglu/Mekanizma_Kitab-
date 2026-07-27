@@ -196,7 +196,7 @@ Bu bölümün varyant yorumlamaya katkısı, Bölüm 16'nın çerçevesini **kli
 
 **İkincisi, aile örneği kriter üretir.** Trio ve genişletilmiş aile örneklemesi, laboratuvarın kendi başına üretemeyeceği kanıtı (PS2/PM6, PP1/BS4, PM3) sağlar. Bu nedenle "aile örneği alınamadı" cümlesi teknik bir ayrıntı değil, **kanıt kaybıdır**.
 
-**Üçüncüsü, doku seçimi kanıtın geçerliliğini belirler.** Yanlış dokudan yapılan RNA analizi PS3 üretmez; yanlış dokudan bakılan heteroplazmi düzeyi yanlış yorumlanır; kandan yapılan analiz mozaik bir varyantı hiç göstermez ve varyant "yok" sayılır.
+**Üçüncüsü, doku seçimi kanıtın geçerliliğini belirler.** Yanlış dokudan yapılan RNA analizi kullanılabilir bir kanıt üretmez (splice bulgusu için **PVS1_Strength**, etkisizlik için BP7 — Bölüm 7); yanlış dokudan bakılan heteroplazmi düzeyi yanlış yorumlanır; kandan yapılan analiz mozaik bir varyantı hiç göstermez ve varyant "yok" sayılır.
 
 **Algoritma 17.2 — Klinik senaryodan kanıt üretimine**
 
@@ -207,7 +207,7 @@ flowchart TD
 
   C -->|"İşlev kaybı"| D["PVS1 kapısı açık →<br/>basamak seç (Şekil 16.2)"]
   C -->|"İşlev kazanımı / DN"| E["PVS1 KAPALI →<br/>PM1 (hotspot) + PS3 (yön gösteren test)"]
-  C -->|"Splice"| F["RNA analizi planla →<br/>PS3 + PVS1 basamağı"]
+  C -->|"Splice"| F["RNA analizi planla →<br/>PVS1 karar ağacı +<br/>RNA kanıtı = PVS1_Strength"]
   C -->|"Doz / CNV"| G["CNV puanlama çerçevesi"]
   C -->|"Mozaiklik"| H["Doku + VAF; segregasyon YOK,<br/>PS2/PM6 dikkatle"]
   C -->|"İmprinting"| I["Metilasyon kanıtı + ebeveyn kökeni"]

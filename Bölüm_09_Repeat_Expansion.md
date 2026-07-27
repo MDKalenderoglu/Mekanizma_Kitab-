@@ -28,7 +28,7 @@ Genomumuzda, normalde birkaç ila birkaç düzine kez yinelenen, 1–6 nükleoti
 
 Bu mutasyon sınıfını daha önce ele aldığımız nokta varyantlarından, küçük indellerden ve CNV'lerden ayıran en belirgin özellik **dinamiklik**tir. Önceki bölümlerde incelediğimiz varyantlar, bir kez oluşunca nesiller boyunca olduğu gibi aktarılır. Tekrar genişlemeleri ise mitoz ve mayoz sırasında değişmeye devam edebilir; bu nedenle aynı ailenin farklı bireylerinde veya hatta aynı bireyin farklı dokularında farklı tekrar uzunlukları gözlemlenebilir.
 
-**Tekrar birimi** açısından hastalıklar gruplandırılabilir: trinükleotid tekrarlar (CAG, CGG, CTG, GAA, CGC...) tarihsel olarak ilk keşfedilenlerdir ve en iyi çalışılmış olanlarıdır. Ancak Paulson'un kapsamlı derlemesinde gösterildiği gibi, günümüzde tetra-, penta- ve hatta hekzanükleotid (GGGGCC; C9orf72) tekrar genişlemeleri de tanımlanmış olup kolektif olarak 40'tan fazla hastalıkla bağlantılıdır (Paulson, 2018).
+**Tekrar birimi** açısından hastalıklar gruplandırılabilir: trinükleotid tekrarlar (CAG, CGG, CTG, GAA, CGC...) tarihsel olarak ilk keşfedilenlerdir ve en iyi çalışılmış olanlarıdır. Ancak Paulson'un kapsamlı derlemesinde gösterildiği gibi, günümüzde tetra-, penta-, hekza- (GGGGCC; *C9orf72*) ve hatta **dodeka**nükleotid tekrar genişlemeleri de tanımlanmış olup bu grup kolektif olarak **40'tan fazla hastalıkla** bağlantılıdır; bunların büyük çoğunluğu öncelikle sinir sistemini tutar (Paulson, 2018).
 
 **Tekrarın genomdaki konumu** ne tür bir patojenik yol izleneceğini belirleyen en kritik faktördür. Kodlama bölgesindeki (ekzonikte) bir CAG genişlemesi, mRNA'ya kopyalanır ve proteinin uzamış bir glutamin zincirine dönüşür — bu, polyQ hastalıklarında gördüğümüz protein GoF mantığıdır. Bir genin 3' UTR'sindeki veya intronundaki CTG ya da GAA genişlemesi ise mRNA/pre-mRNA düzeyinde toksik bir kazanım yaratabilir ya da heterokromatin oluşturarak geni tamamen susturabilir. 5' UTR'deki CGG genişlemesi ise tam mutasyon aralığında metilasyon ve epigenetik sessizleşmeyle LoF'a yol açarken, daha kısa premutasyon aralığında aşırı transkripsiyonla RNA GoF sendromunun kapısını aralar.
 
@@ -58,9 +58,9 @@ Germline (eşey hücresi) kopyalanması bu açıdan somatik kopyalanmadan çok d
 
 ### 2.2 Patojenik mekanizma I: LoF / Epigenetik sessizleşme
 
-Frajil X Sendromu'nda (FXS) *FMR1* geninin 5' UTR bölgesindeki CGG tekrar sayısı 200'ü aştığında, normalde açık olan bu bölge CpG metilasyonu ve histon deasetilasyonu yoluyla yoğun heterokromatine dönüşür. Hoogeveen ve Oostra bu bölgenin metilasyonunu ve bunun FMRP (Frajil X Mental Retardasyon Proteini) kaybıyla ilişkisini ortaya koymuştur (Hoogeveen ve Oostra, 1997). FMRP, nöronal sinapslarda mRNA'ların dendritik taşınmasını ve çevrilmesini düzenleyen bir RNA bağlayıcı proteindir; yokluğunda sinapslarda uyarıcı girdiye bağımlı protein sentezi düzensizleşir ve öğrenme/bellek bozuklukları ortaya çıkar.
+Frajil X Sendromu'nda (FXS) *FMR1* geninin 5' UTR bölgesindeki CGG tekrar sayısı 200'ü aştığında, normalde açık olan bu bölge CpG metilasyonu ve histon deasetilasyonu yoluyla yoğun heterokromatine dönüşür. Hoogeveen ve Oostra (1997), tekrar 200 birimin ötesine geçtiğinde hem tekrarın hem *FMR1* promotör bölgesinin metillendiğini, bu metilasyon sonucunda genin susturulduğunu ve **hiç FMRP üretilmediğini** derlemiştir; frajil X fenotipi doğrudan bu FMRP yokluğundan doğar (Hoogeveen ve Oostra, 1997). FMRP bir **RNA bağlayıcı proteindir**; bu derlemede yazarlar proteinin RNA ve/veya proteinlerin çekirdekten sitoplazmaya taşınmasında rol oynadığını öne sürmüştür. Sonraki iki on yılın çalışmaları tabloyu genişletmiştir: bugün FMRP'nin nöronal sinapslarda mRNA'ların dendritik taşınmasını ve yerel çevrimini düzenlediği, yokluğunda uyarıcı girdiye bağımlı protein sentezinin düzensizleştiği kabul edilir — bu ikinci katman **yerleşik ders bilgisidir** ve 1997 derlemesinin kapsamında değildir.
 
-Önemli bir ayrıntı: epigenetik sessizleşme yalnızca tam mutasyon (>200 CGG) aralığına özgüdür. 55–200 tekrar arasındaki premutasyon alelleri metile olmaz; aksine genin transkripsiyonu artmış düzeyde devam eder. Ancak bu fazla CGA-zengini RNA doğrudan toksiktir ve RNA GoF mekanizmasıyla tamamen farklı bir klinik tablo — Frajil X ile İlişkili Tremor/Ataksi Sendromu (FXTAS) ve Frajil X ile İlişkili Primer Over Yetersizliği (FXPOI) — yaratır (Hagerman ve Hagerman, 2015).
+Önemli bir ayrıntı: epigenetik sessizleşme yalnızca tam mutasyon (>200 CGG) aralığına özgüdür. 55–200 tekrar arasındaki premutasyon alelleri metile olmaz; aksine genin transkripsiyonu artmış düzeyde devam eder. Ancak bu fazla CGG-zengini RNA doğrudan toksiktir ve RNA GoF mekanizmasıyla tamamen farklı bir klinik tablo — Frajil X ile İlişkili Tremor/Ataksi Sendromu (FXTAS) ve Frajil X ile İlişkili Primer Over Yetersizliği (FXPOI) — yaratır. Bu iki hastalığın **birbirinin karşıtı** olan mekanizmalarını akılda tutmanın pratik bir ölçütü vardır: frajil X sendromu genin **susturulmasını** gerektirirken, FXTAS genin **ifade edilmeye devam etmesini** gerektirir. Nitekim FXTAS başlangıçta yalnız premutasyon aralığına özgü sanılmışsa da, gri zonda (45–54 tekrar) ya da **metillenmemiş** tam mutasyon (>200) alleli taşıyan nadir bireylerde de bildirilmiştir; değişmeyen koşul her zaman *FMR1*'in ifade ediliyor olmasıdır (Hagerman ve Hagerman, 2015).
 
 ### 2.3 Patojenik mekanizma II: RNA GoF / Toksik RNA foci
 
@@ -72,7 +72,7 @@ Miyotonik Distrofi Tip 1 (DM1), *DMPK* geninin 3' UTR'sindeki CTG tekrar genişl
 
 Huntington hastalığında (HD) *HTT* geninin ekzon 1'indeki CAG tekrar sayısı ≥40'a ulaştığında, huntingtin proteini anormal biçimde uzun bir poliglutamin (polyQ) zincirine sahip olur. Bu uzun glutamin zincirine sahip protein, β-yaprak kıvrımları oluşturmaya başlar; doğal yapısını kaybederek (misfolding) intranükleer ve sitoplazmik agregatlara dönüşür. Ross ve Tabrizi'nin kapsamlı derlemesi, bu agregasyonun ubikitin-proteazom sistemini tıkadığını, mitokondri işlevini bozduğunu, BDNF salgısını azalttığını ve transkripsiyon faktörlerini sekestre ederek bir kısır döngü yarattığını ortaya koymuştur (Ross ve Tabrizi, 2011). Temel hasarın polyQ içeren mHTT proteinin kendisine özgü kazanılmış toksisite olduğu, normal huntingtin haploinsufficiency'sinin (LoF bileşeni) görece minör rol oynadığı düşünülmektedir.
 
-Hastalık başlangıç yaşı ile CAG tekrar sayısı arasındaki ters ilişki, polyQ agregasyon kinetiğinin tekrar uzunluğuna olan bağımlılığını yansıtır: 60 CAG tekrarına sahip bir birey genç erişkinlikte semptom gösterirken, 40 tekrarlı biri 50-60'lı yaşlara kadar semptom geliştirmeyebilir (Jimenez-Sanchez ve ark., 2017). Bu nedenle HD, "premanifest" dönemde —yani klinikte henüz belirtiler ortaya çıkmadan— beyin görüntülemede striatal atrofi başlayan nadir hastalıklardandır.
+Hastalık başlangıç yaşı ile CAG tekrar sayısı arasındaki ters ilişki, polyQ agregasyon kinetiğinin tekrar uzunluğuna olan bağımlılığını yansıtır (Jimenez-Sanchez ve ark., 2017). Bu ilişkinin klinikte kullanılan sayısal karşılığı yerleşik ders bilgisidir: *HTT*'de ≤35 tekrar normal, **36–39 azalmış penetrans**, ≥40 tam penetrans aralığıdır; erişkin başlangıçlı hastalarda tipik olarak 40–55 tekrar bulunurken, juvenil başlangıçlılarda genellikle 60'tan fazla tekrar vardır. Burada sık atlanan bir nokta şudur: tekrar sayısı **yalnızca başlangıç yaşıyla** ilişkilidir; hastalığın diğer özellikleriyle (bulgu örüntüsü, ilerleme biçimi) korele değildir. Bu nedenle HD, "premanifest" dönemde —yani klinikte henüz belirtiler ortaya çıkmadan— beyin görüntülemede striatal atrofi başlayan nadir hastalıklardandır (Ross ve Tabrizi, 2011).
 
 > **🔬 Deep-dive — RAN Translasyonu (Repeat-Associated Non-AUG translation):** C9orf72 hastalığında hekzanükleotid (GGGGCC) tekrar genişlemesi üçlü bir mekanizma işletir. Birincisi: C9orf72 proteininin LoF bileşeni (haploinsufficiency). İkincisi: tekrarı içeren RNA'nın RNA foci oluşturması (RNA GoF). Üçüncüsü ve en ilginç olanı: bu RNA'nın bir AUG başlatma kodonu olmaksızın —altı olası çerçevede— "dipeptid tekrar proteini" (DPR) adı verilen yabancı proteinlere çevrilmesidir. Schmitz ve ark.'nın derlediği beş DPR türü (GA, GR, PA, PR, GP) arasında arginin zengini olanlar (poly-GR, poly-PR) nükleolar protein kalite kontrol sistemini bozar ve en toksik görünenlerdir (Schmitz ve ark., 2021). RAN translasyonu kavramı, tekrar genişlemesi biyolojisinin ilerleyen kanser ve ALS/FTD araştırmalarına nasıl pencere açtığını göstermektedir.
 
@@ -89,9 +89,9 @@ Tekrar genişlemesi hastalıklarında "varyant tipi" kavramı, daha önce incele
 | Tekrar sayısı kategorisi | Tipik klinik anlam | Test stratejisi |
 |---|---|---|
 | Normal aralık | Taşıyıcı değil; hastalık riski popülasyon düzeyinde | Özelleşmiş test gerekmez |
-| Gri / Ara zon | Genişleme potansiyeli var; bir sonraki nesilde artabilir | Genetik danışmanlık; aile takibi |
+| Gri / Ara zon (*FMR1* için 45–54 CGG) | Genişleme potansiyeli var; bir sonraki nesilde artabilir. *FMR1*'de nadiren FXTAS bildirilmiştir | Genetik danışmanlık; aile takibi |
 | Premutasyon | Hastalık riski var (FXTAS, FXPOI gibi); tam mutasyon geçiş riski | Hedefli PCR + genetik danışmanlık |
-| İndirgенmiş penetrans (HD 36-39) | HD riski var ama garanti değil; ebeveynden geçişte genişleyebilir | Danışmanlıkta özellikle dikkat |
+| İndirgenmiş penetrans (HD 36-39) | HD riski var ama garanti değil; ebeveynden geçişte genişleyebilir | Danışmanlıkta özellikle dikkat |
 | Tam mutasyon / patolojik | Kesin hastalık tanısı (penetrans değişkendir) | Konfirmasyon PCR; Southern blot (büyük tekrarlarda) |
 
 **Tekrar birimi büyüklüğü** de önemlidir: tri-, tetra-, penta- ve hekzanükleotid tekrarlar farklı genomik bağlamlarda, farklı kararsızlık özellikleriyle bulunur. Örneğin C9orf72'deki GGGGCC hekzanükleotid tekrarı binlerce kopya üretebilirken, FMR1 CGG genişlemesi genellikle birkaç yüzle sınırlı kalır.
@@ -110,7 +110,7 @@ FMR1'in üç klinik koridoru bu eşiksel yapının en güzel örneğini sunar: 5
 
 **Anticipasyon** (*genetik beklenti*), tekrar genişlemesi hastalıklarının en çarpıcı klinik özelliğidir. Aynı aile içinde, sonraki kuşaklar hem daha erken yaşta hasta olur hem de daha ağır bir seyir izler. Bu olgunun altında yatan neden germline kararsızlığıdır: ebeveynden çocuğa aktarılan sperm veya yumurta hücresinde tekrar sayısı çoğu kez artar.
 
-Ancak bu artışın yönü ve büyüklüğü hastalıktan hastalığa büyük farklılık gösterir ve klinisyenin bilmesi gereken önemli bir nüans içerir: FMR1'de premutasyondan tam mutasyona geçiş **yalnızca maternal aktarımda** gerçekleşebilir; paternal aktarımda büyük genişleme görülmez. HTT'de ise tam tersi eğilim mevcuttur: çok büyük genişlemeler (juvenil HD) özellikle paternal aktarımla bağlantılıdır. DM1'de maternal aktarım konjenital formla ilişkilidir; konjenital DM1'in neredeyse tamamında anne etkilenmiş bireyin kendisi olup çocuğa çok büyük CTG tekrar sayısı geçmiştir (Chau ve Kalsotra, 2015).
+Ancak bu artışın yönü ve büyüklüğü hastalıktan hastalığa büyük farklılık gösterir ve klinisyenin bilmesi gereken önemli bir nüans içerir: FMR1'de premutasyondan tam mutasyona geçiş **yalnızca maternal aktarımda** gerçekleşebilir; paternal aktarımda büyük genişleme görülmez. HTT ve SCA1 gibi polyQ hastalıklarında ise tam tersi eğilim mevcuttur: çok büyük genişlemeler (juvenil formlar) özellikle **paternal** aktarımla bağlantılıdır. Bu cinsiyet asimetrisinin moleküler karşılığı SCA1'de ayrıntılı olarak çözümlenmiştir: gametik alellerdeki polyCAG genişlemesi, olgunlaşmamış haploid spermatidden olgun sperme geçiş sırasında tek ya da çift zincir kırıklarını onaran **boşluk onarımı mekanizmalarının başarısızlığından** kaynaklanır ve aynı başarısızlık dişi gamet hücrelerinde saptanamamıştır (Kraus-Perrotta ve Lagalwar, 2016). DM1'de ise maternal aktarım konjenital formla ilişkilidir; konjenital DM1'in neredeyse tamamında anne etkilenmiş bireyin kendisidir ve çocuğa çok büyük CTG tekrar sayısı geçmiştir.
 
 ![Şekil 9.3 — Anticipasyon: tekrar genişlemesi kuşaktan kuşağa büyür](assets/sekil_09_anticipasyon.svg)
 
@@ -149,7 +149,7 @@ Tekrar genişlemesi varyantlarının ACMG/ClinGen çerçevesinde yorumlanması, 
 
 **Tekrar sayısı eşiği belirleyicidir.** Her hastalık için literatürde ve klinik laboratuar rehberlerinde tanımlanmış "patolojik eşik" değerleri mevcuttur. Bu eşiğin üzerindeki varyantlar genellikle doğrudan Patojenik veya Muhtemelen Patojenik olarak sınıflandırılırken, gri/ara zon değerleri VUS sınıfına girebilir ve genetik danışmanlıkta özellikle dikkat ister.
 
-**İndirgенmiş penetrans aralığı özel bir kategoridir.** HTT için 36–39 CAG tekrar aralığı, hasta bireyin HD geliştireceğini garanti etmez; hastalık görülmeden yaşlanmak mümkündür. Ancak aynı alel sonraki nesilde genişleyebilir ve tam penetranslı HD'ye dönüşebilir. Bu nedenle bu aralıktaki varyantlar için ACMG kriterlerinin mekanik uygulanması yetmez; aile öyküsü, yaş ve üreme planları birlikte değerlendirilmelidir.
+**İndirgenmiş penetrans aralığı özel bir kategoridir.** HTT için 36–39 CAG tekrar aralığı, hasta bireyin HD geliştireceğini garanti etmez; hastalık görülmeden yaşlanmak mümkündür. Ancak aynı alel sonraki nesilde genişleyebilir ve tam penetranslı HD'ye dönüşebilir. Bu nedenle bu aralıktaki varyantlar için ACMG kriterlerinin mekanik uygulanması yetmez; aile öyküsü, yaş ve üreme planları birlikte değerlendirilmelidir.
 
 **Kesinti motifleri (interruptions) yorumu etkiler.** Bazı tekrar bölgelerindeki normal kesintiler (örneğin SCA1'de CAT motifleri) aleli stabilize eder; bu kesintilerin yokluğu patolojik genişleme riskini artırır. Long-read sequencing, bu kesinti motiflerini tek okumada gösterebilir ve yoruma katkı sağlar.
 
@@ -158,15 +158,15 @@ Tekrar genişlemesi varyantlarının ACMG/ClinGen çerçevesinde yorumlanması, 
 ```mermaid
 flowchart TD
   A["Tekrar genişlemesi varyantı saptandı"] --> B{"Tekrar sayısı?"}
-  B --> C["Patolojik eşiğin altında\n(normal veya gri zon)"]
+  B --> C["Patolojik eşiğin altında<br/>(normal veya gri zon)"]
   B --> D["Premutasyon aralığı"]
-  B --> E["İndirgенmiş penetrans\naralığı (ör. HTT 36–39)"]
-  B --> F["Tam mutasyon /\npatolojik eşik üzeri"]
-  C --> G["Benign / Muhtemelen Benign\nGenetik danışmanlık: aile riski minimal"]
-  D --> H["VUS veya Muhtemelen Patojenik\n(hastalığa bağlı)\nFXTAS/FXPOI riski; tam mut. geçiş riski\nGenetik danışmanlık zorunlu"]
-  E --> I["VUS veya Muhtemelen Patojenik\nPenetrans tam değil; nesil geçişinde\ngenişleme riski — danışmanlık kritik"]
-  F --> J["Patojenik\nHastalık tanısı; fenotip-spesifik\ntakip planı; presemptomatik test"]
-  J --> K["Aile üyeleri için\nhedefli PCR önerilir"]
+  B --> E["İndirgenmiş penetrans<br/>aralığı (ör. HTT 36–39)"]
+  B --> F["Tam mutasyon /<br/>patolojik eşik üzeri"]
+  C --> G["Benign / Muhtemelen Benign<br/>Genetik danışmanlık: aile riski minimal"]
+  D --> H["VUS veya Muhtemelen Patojenik<br/>(hastalığa bağlı)<br/>FXTAS/FXPOI riski; tam mut. geçiş riski<br/>Genetik danışmanlık zorunlu"]
+  E --> I["VUS veya Muhtemelen Patojenik<br/>Penetrans tam değil; nesil geçişinde<br/>genişleme riski — danışmanlık kritik"]
+  F --> J["Patojenik<br/>Hastalık tanısı; fenotip-spesifik<br/>takip planı; presemptomatik test"]
+  J --> K["Aile üyeleri için<br/>hedefli PCR önerilir"]
   H --> K
   I --> K
 ```
@@ -183,7 +183,7 @@ Erkek çocuklarda entelektüel yetersizliğin en yaygın kalıtsal nedeni olan F
 
 ### Huntington Hastalığı — Juvenil form ve paternal aktarım
 
-HD tipik olarak 30–50 yaşlarında başlar; ancak CAG tekrar sayısı >55–60 olan bireylerde juvenil HD görülebilir ve bu formlar genellikle paternal aktarımla gelen büyük genişlemelerdir. Juvenil HD'de kore yerine rijidite ve bradikezi ön plandadır; bu tablo Parkinson hastalığıyla karıştırılabilir. Pediatrik yaşta HD öyküsü olmayan bir çocukta rijidite + nöropsikiyatrik bozukluk varsa HD ayırıcı tanıda düşünülmelidir (Ross ve Tabrizi, 2011; Jimenez-Sanchez ve ark., 2017).
+HD tipik olarak 30–50 yaşlarında başlar; ancak CAG tekrar sayısı >55–60 olan bireylerde juvenil HD görülebilir ve bu formlar genellikle paternal aktarımla gelen büyük genişlemelerdir. Juvenil HD'de kore yerine rijidite ve bradikinezi ön plandadır; bu tablo Parkinson hastalığıyla karıştırılabilir. Pediatrik yaşta HD öyküsü olmayan bir çocukta rijidite + nöropsikiyatrik bozukluk varsa HD ayırıcı tanıda düşünülmelidir (Ross ve Tabrizi, 2011; Jimenez-Sanchez ve ark., 2017).
 
 ### Miyotonik Distrofi — Konjenital form: yenidoğan tuzağı
 
@@ -191,7 +191,7 @@ Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG 
 
 ### Friedreich Ataksisi — En sık otozomal resesif ataksi
 
-Çocukluk çağında (genellikle 5–15 yaş) başlayan serebeller ataksi, kardiyomiyopati ve periferik nöropatiyle kendini gösteren Friedreich Ataksisi (FRDA), *FXN* geninin birinci intronundaki GAA tekrar genişlemesiyle ortaya çıkar. GAA tekrarı (normal <33; patolojik >66, çoğunlukla >100) heterokromatin oluşturarak frataksin ekspresyonunu bastırır; frataksin eksikliği mitokondriyal demir birikmesine ve oksidatif strese yol açar. Çoğu hasta bileşik heterozigottur: iki allelde de uzun GAA genişlemesi. FRDA'nın ilginç bir özelliği: otozomal resesif hastalıkta anticipasyon beklenmez, ancak GAA tekrar sayısı bazı olgularda nesiller arasında hafifçe değişkenlik gösterir. Frataxin genindeki epigenetik sessizleşmenin histone deasetilaz inhibitörleriyle kısmen geri döndürülebileceği gösterilmiştir (Marmolino ve Acquaviva, 2009).
+Çocukluk çağında (genellikle 5–15 yaş) başlayan serebeller ataksi, kardiyomiyopati ve periferik nöropatiyle kendini gösteren Friedreich Ataksisi (FRDA), *FXN* geninin birinci intronundaki GAA tekrar genişlemesiyle ortaya çıkar. GAA tekrarı (normal <33; patolojik >66, çoğunlukla >100) heterokromatin oluşturarak frataksin ekspresyonunu bastırır; frataksin eksikliği mitokondriyal demir birikmesine ve oksidatif strese yol açar. Çoğu hasta bileşik heterozigottur: iki allelde de uzun GAA genişlemesi. FRDA'nın ilginç bir özelliği: otozomal resesif hastalıkta anticipasyon beklenmez, ancak GAA tekrar sayısı bazı olgularda nesiller arasında hafifçe değişkenlik gösterir. Frataksin genindeki epigenetik sessizleşmenin histon deasetilaz inhibitörleriyle kısmen geri döndürülebileceği gösterilmiştir (Marmolino ve Acquaviva, 2009).
 
 ---
 
@@ -205,7 +205,7 @@ Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG 
 >
 > 3. **Anticipasyonu dikkate almadan tek nesle bakarak risk hesaplamak.** Bir ailede premutasyon varsa, çocuklarda tekrar sayısının artmış olma ihtimali her zaman değerlendirilmelidir. Özellikle FMR1 ve DM1 ailelerinde ebeveyn testi şart.
 >
-> 4. **Gri zon / indirgенmiş penetrans alelleri için kesin yorum yapmak.** HTT 36–39 tekrar aralığı VUS benzeri bir pratik konumdadır; "hastalık olacak" veya "olmayacak" demek etik ve bilimsel açıdan yanlıştır.
+> 4. **Gri zon / indirgenmiş penetrans alelleri için kesin yorum yapmak.** HTT 36–39 tekrar aralığı VUS benzeri bir pratik konumdadır; "hastalık olacak" veya "olmayacak" demek etik ve bilimsel açıdan yanlıştır.
 >
 > 5. **Somatik mozaikliği göz ardı ederek tek doku sonucuna güvenmek.** Özellikle kan testi yapılan vakalarda semptomlar ağırsa kas, beyin veya farklı dokudan analiz gerekebilir; lab sonucunu tek doğru kabul etmemek.
 >
@@ -222,21 +222,21 @@ Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG 
 
 ```mermaid
 flowchart TD
-  A["Klinik şüphe:\nAtaksi / miyotoni / entelektüel yetersizlik\n/ nörodejenerasyon / kardiyomiyopati\n/ prematür menopoz / ALS-FTD"] --> B{"Aile öyküsü?"}
-  B --> |"Evet"| C["Hangi hastalık?\nHangi kalıtım?"]
-  B --> |"Hayır/Belirsiz"| D["Fenotipe yönelik\nhedefli tekrar PCR listesi hazırla"]
-  C --> E["Otozomal dominant\n(HD, DM1, SCA1–3)"]
-  C --> F["X'e bağlı\n(Frajil X, FXTAS)"]
-  C --> G["Otozomal resesif\n(FRDA, DM2 kısmen)"]
-  E --> H["Hedefli PCR / RP-PCR\n(CAG, CTG, GGGGCC)"]
-  F --> I["FMR1 PCR\n+ metilasyon analizi\n(tam mut. için)"]
-  G --> J["FXN GAA PCR\nSouthern blot (uzun tekrarlarda)"]
+  A["Klinik şüphe:<br/>Ataksi / miyotoni / entelektüel yetersizlik<br/>/ nörodejenerasyon / kardiyomiyopati<br/>/ prematür menopoz / ALS-FTD"] --> B{"Aile öyküsü?"}
+  B --> |"Evet"| C["Hangi hastalık?<br/>Hangi kalıtım?"]
+  B --> |"Hayır/Belirsiz"| D["Fenotipe yönelik<br/>hedefli tekrar PCR listesi hazırla"]
+  C --> E["Otozomal dominant<br/>(HD, DM1, SCA1–3)"]
+  C --> F["X'e bağlı<br/>(Frajil X, FXTAS)"]
+  C --> G["Otozomal resesif<br/>(FRDA, DM2 kısmen)"]
+  E --> H["Hedefli PCR / RP-PCR<br/>(CAG, CTG, GGGGCC)"]
+  F --> I["FMR1 PCR<br/>+ metilasyon analizi<br/>(tam mut. için)"]
+  G --> J["FXN GAA PCR<br/>Southern blot (uzun tekrarlarda)"]
   D --> K["Klinik Tablo → Test Seç"]
-  K --> |"Miyotoni + kas"| L["DMPK CTG PCR (DM1)\nCNBP CCTG PCR (DM2)"]
-  K --> |"Serebellar ataksi"| M["SCA paneli PCR\nFRDA GAA PCR"]
-  K --> |"Entel. yetmezlik / otizm"| N["FMR1 CGG PCR\n+ metilasyon"]
-  K --> |"ALS / FTD"| O["C9orf72 GGGGCC PCR\n(RP-PCR veya LR-WGS)"]
-  H --> P["Tekrar sayısına göre\nyorum + danışmanlık"]
+  K --> |"Miyotoni + kas"| L["DMPK CTG PCR (DM1)<br/>CNBP CCTG PCR (DM2)"]
+  K --> |"Serebellar ataksi"| M["SCA paneli PCR<br/>FRDA GAA PCR"]
+  K --> |"Entel. yetmezlik / otizm"| N["FMR1 CGG PCR<br/>+ metilasyon"]
+  K --> |"ALS / FTD"| O["C9orf72 GGGGCC PCR<br/>(RP-PCR veya LR-WGS)"]
+  H --> P["Tekrar sayısına göre<br/>yorum + danışmanlık"]
   I --> P
   J --> P
   L --> P
@@ -244,9 +244,9 @@ flowchart TD
   N --> P
   O --> P
   P --> Q{"Patolojik eşik üzeri?"}
-  Q --> |"Evet"| R["Tanı ✓\nFenotype yönelik takip\nAile testi\n(Presemptomatik: danışmanlıkla)"]
-  Q --> |"Belirsiz / gri zon"| S["Genetik danışmanlık\nUzun dönem takip\nLR-WGS veya Southern"]
-  Q --> |"Normal"| T["Tanı dışlandı\nAlternatif tanıyı değerlendir"]
+  Q --> |"Evet"| R["Tanı ✓<br/>Fenotype yönelik takip<br/>Aile testi<br/>(Presemptomatik: danışmanlıkla)"]
+  Q --> |"Belirsiz / gri zon"| S["Genetik danışmanlık<br/>Uzun dönem takip<br/>LR-WGS veya Southern"]
+  Q --> |"Normal"| T["Tanı dışlandı<br/>Alternatif tanıyı değerlendir"]
 ```
 
 ---
@@ -300,4 +300,4 @@ flowchart TD
 
 ### 🔎 Bölüm sonu kaynak doğrulama komutu
 
-> **Bu bölüm için durum:** 10/10 kaynak PMID + DOI doğrulandı. İşaretlenen spekülatif iddia: DPR toksisitesinin hastalıktaki rölatif ağırlığı "aktif araştırma alanı" olarak etiketlendi. Tüm tekrar eşiği sayısal değerleri literatür konsensusu kaynaklı olup "temsilî" olarak verilmiştir; klinik kullanımda güncel gen-spesifik lab kılavuzları tercih edilmelidir.
+> **Bu bölüm için durum:** 10/10 kaynak PMID + DOI doğrulandı. İşaretlenen spekülatif iddia: DPR toksisitesinin hastalıktaki rölatif ağırlığı "aktif araştırma alanı" olarak etiketlendi. Tüm tekrar eşiği sayısal değerleri literatür konsensusu kaynaklı olup "temsilî" olarak verilmiştir; klinik kullanımda güncel gen-spesifik lab kılavuzları tercih edilmelidir. Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda *HTT* eşik aralıkları ve FMRP işlevi ders kitabı çapraz kontrolüyle (Thompson & Thompson 2023) yeniden çapalanmış, iki Mermaid algoritmasındaki satır sonları proje standardına (`<br/>`) çevrilmiş ve metindeki Kiril harf bulaşması giderilmiştir (bkz. `Dogrulama_Kutugu.md`).

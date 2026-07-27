@@ -363,6 +363,6 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** **11/11 kaynak PMID+DOI doğrulandı** (7'si bu oturumda PubMed MCP ile; 4'ü — Lupiáñez 2015, Jaganathan 2019, Richards 2015, Brnich 2019 — Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
+> **Bu bölüm için durum:** **11/11 kaynak PMID+DOI doğrulandı** (7'si bu oturumda PubMed MCP ile; 4'ü — Lupiáñez 2015, Jaganathan 2019, Richards 2015, Brnich 2019 — Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; düzeltme gerektiren bulgu çıkmamıştır (bkz. `Dogrulama_Kutugu.md`).
 >
 > **İşaretlenen iddialar:** (1) Kodlamayan varyantların tanısal boşluktaki payı ⚠️ hastalıktan hastalığa büyük değişkenlik gösterir; tek bir genel oran güvenilir biçimde verilemez. (2) Genomun protein kodlayan oranı (%1–2) yerleşik ders bilgisi olarak verilmiştir. (3) Ekzom kitlerinin UTR kapsaması kit-bağımlıdır; metinde "kısmi ve güvenilir değil" olarak nitelenmiştir.

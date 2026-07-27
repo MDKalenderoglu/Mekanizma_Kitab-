@@ -30,7 +30,7 @@ Sezgisel bir benzetme yardımcı olur. Bir kürek takımında (multimerik bir pr
 
 Bu kavramı moleküler biyolojiye kazandıran klasik kaynak Herskowitz'in (1987) *Nature* makalesidir. Herskowitz, aşırı ifade edildiğinde yabanıl-tip genin etkinliğini bozan mutant polipeptitleri "dominant negative" olarak adlandırmış ve bu davranışın doğal olarak da (örneğin bazı onkogenlerde) ortaya çıkabileceğini öngörmüştür (Herskowitz, 1987, *Nature*; [DOI](https://doi.org/10.1038/329219a0)). Wilkie (1994) ise dominant hastalık mekanizmalarını sınıflandıran çerçevesinde dominant-negatifi, "artmış/yeni aktivite" (GoF) ve "haploinsufficiency"den ayrı, kendi başına bir kategori olarak listeler: burada mutant ürün, yabanıl-tip ürünün işlevine **antagonistik** biçimde karışır (Wilkie, 1994, *J Med Genet*; [DOI](https://doi.org/10.1136/jmg.31.2.89)).
 
-Buradaki kritik kavramsal nokta, GoF'ta olduğu gibi, DN'in de bir **varyant tipi değil, varyantın net etkisi** olmasıdır. Aynı missense varyant bir proteinde basit LoF (destabilizasyon → yıkım) yaparken, multimer oluşturan başka bir proteinde DN (bozuk ama hâlâ kompleksе katılabilen ürün) yapabilir. Belirleyici olan iki koşuldur: (1) varyant ürün **üretilmeli ve hücrede kalmalı** (yani genellikle missense ya da in-frame, NMD'ye uğramayan bir değişiklik), ve (2) bu ürün, sağlam ürünle **etkileşebilmeli** (çoğu kez aynı kompleksin parçası olarak). Bu iki koşul DN'in neden belirli protein sınıflarında yoğunlaştığını da açıklar — buna §2'de döneceğiz.
+Buradaki kritik kavramsal nokta, GoF'ta olduğu gibi, DN'in de bir **varyant tipi değil, varyantın net etkisi** olmasıdır. Aynı missense varyant bir proteinde basit LoF (destabilizasyon → yıkım) yaparken, multimer oluşturan başka bir proteinde DN (bozuk ama hâlâ komplekse katılabilen ürün) yapabilir. Belirleyici olan iki koşuldur: (1) varyant ürün **üretilmeli ve hücrede kalmalı** (yani genellikle missense ya da in-frame, NMD'ye uğramayan bir değişiklik), ve (2) bu ürün, sağlam ürünle **etkileşebilmeli** (çoğu kez aynı kompleksin parçası olarak). Bu iki koşul DN'in neden belirli protein sınıflarında yoğunlaştığını da açıklar — buna §2'de döneceğiz.
 
 Aşağıdaki tablo bölüm boyunca açacağımız kavramları bir arada görmek içindir; her biri ilerideki paragraflarda benzetme ve klinik notla derinleştirilecektir.
 
@@ -42,7 +42,7 @@ Aşağıdaki tablo bölüm boyunca açacağımız kavramları bir arada görmek 
 | **Zehirli alt birim (poison subunit)** | Komplekse katılıp onu bozan mutant alt birim | Multimerik proteinlerin DN'inin temeli |
 | **Multimer matematiği** | "Tümü-sağlam kompleks" oranının (½)ⁿ ile düşmesi | n (alt birim sayısı) arttıkça şiddet artar |
 | **Delesyon/null testi** | Tam gen kaybının fenotipini DN ile karşılaştırma | Mekanizma çıkarımının en güçlü aracı |
-| **Antimorfik** | DN'in klasik genetik terimi (Müller); yabanıl-tipe karşı çalışan allel | Bölüm 6 ile köprü (neomorfik/antimorfik) |
+| **Antimorfik** | DN'in klasik genetik terimi (Muller); yabanıl-tipe karşı çalışan allel | Bölüm 6 ile köprü (neomorfik/antimorfik) |
 | **Protein arayüzü (interface)** | Alt birimlerin birbirine değdiği yüzey | DN varyantlar burada kümelenir (PM1 zemini) |
 | **Hipomorfik vs DN ayrımı** | Az çalışan ürün mü, sağlamı bozan ürün mü? | Şiddet ve kalıtım kalıbını belirler |
 
@@ -72,7 +72,7 @@ Bu hesabı mekanizmalar arasında karşılaştırınca DN'in ağırlığı somut
 
 ### 2.3. Antimorfik terimi ve Bölüm 6 ile köprü
 
-Klasik genetikte (Müller'in allel sınıflaması) dominant-negatif etkiye **antimorfik** allel denir: yabanıl-tip allelin işlevine *karşı* (anti) çalışan allel. Bu terimi burada anıyoruz çünkü Bölüm 6'da neomorfik (yeni işlev) ve antimorfik alleller bir arada ele alınacaktır. Pratikte "dominant-negatif" (moleküler/klinik literatür) ve "antimorfik" (klasik genetik) çoğu zaman eşanlamlı kullanılır; bu kitapta yerleşik kullanım gereği **dominant-negatif** terimini tercih ediyoruz.
+Klasik genetikte (Muller'in allel sınıflaması) dominant-negatif etkiye **antimorfik** allel denir: yabanıl-tip allelin işlevine *karşı* (anti) çalışan allel. Bu terimi burada anıyoruz çünkü Bölüm 6'da neomorfik (yeni işlev) ve antimorfik alleller bir arada ele alınacaktır. Pratikte "dominant-negatif" (moleküler/klinik literatür) ve "antimorfik" (klasik genetik) çoğu zaman eşanlamlı kullanılır; bu kitapta yerleşik kullanım gereği **dominant-negatif** terimini tercih ediyoruz.
 
 ---
 
@@ -177,13 +177,15 @@ Osteogenesis imperfecta (OI, "kırılgan kemik hastalığı"), dominant-negatif 
 
 Mekanizma §2.2'de açıkladığımız zehirli alt birim mantığının tam karşılığıdır: glisin substitüsyonu yapan bir zincir üçlü sarmala katılır ama onu bozar; sentezlenen kollajenin yaklaşık ¾'ü anormal hale gelir → ağır kemik kırılganlığı. Buna karşılık bir *COL1A1* kopyasını tümüyle susturan null allel yalnız kollajen miktarını ~yarıya indirir (haploinsufficiency) → görece hafif tip I OI. Buradaki öğreti çok yönlüdür: aynı gen, varyant tipine göre hem hafif (null) hem ölümcül (perinatal letal tip II) hastalık yapabilir; ve bu da bize tek bir gende mekanizmanın varyanta göre değişebileceğini gösterir.
 
+> **🟦 Klinikte dikkat — "null → hafif tip I" kuralı *COL1A1*'e özgüdür, COL1A2'ye genellenemez.** Bu bölümde ve Bölüm 15'te anlatılan "niceliksel kusur → hafif OI" ilişkisi, kaynak literatürde açıkça **null *COL1A1* allelleri** için tanımlanmıştır. *COL1A2* için durum farklıdır: ClinGen dozaj küresinde *COL1A1* haploinsufficiency skoru **3** ("yeterli kanıt") iken *COL1A2* skoru **0**'dır ("kanıt yok") — yani tek bir *COL1A2* kopyasının kaybının OI yaptığına dair küre edilmiş kanıt yoktur. *COL1A2*'de hastalık esas olarak **yapısal (glisin) varyantlarla**, yani dominant-negatif yoldan ortaya çıkar. Pratik sonuç: bir *COL1A2* delesyonu/null alleli gördüğünüzde bunu otomatik olarak "hafif OI" diye yorumlamayın; mekanizma aynı değildir.
+
 > **🔴 Sık yapılan hata kutusu**
 > 1. OI'da bir *COL1A1* nonsense/frameshift (null) varyantını gördüğünde "ürünü yok ediyor, demek ki en ağır form" diye düşünmek. Tersine — null genellikle **hafif tip I** ile ilişkilidir; ağır formlar glisin substitüsyonlarındadır.
 > 2. Glisin dışı bir missense'i otomatik "iyi huylu" saymak. Kollajende glisin konumları kritik olsa da, başka kritik kalıntılar da DN yapabilir; kararı mekanizma ve kanıtla ver.
 
 ### 7.2. TP53 ve Li-Fraumeni sendromu — tetramer DN
 
-İkinci örnek, mekanizmanın kanser yatkınlığına nasıl taşındığını gösterir. p53 tümör baskılayıcı proteini bir **tetramer** olarak çalışır; DNA'ya bağlanıp hedef genleri aktive etmesi için dört alt biriminin de doğru biçimde bir araya gelmesi gerekir. Li-Fraumeni sendromunda (kalıtsal çok-kanserli yatkınlık) görülen *TP53* missense varyantlarının önemli bir kısmı **dominant-negatif** davranır: mutant p53 alt birimi, sağlam alt birimlerle aynı tetramere katılıp kompleksin işlevini (DNA bağlanma / transkripsiyon aktivasyonu) bozar. Kamada ve ark. (2025), p53 tetramerleşme alanındaki Arg337 varyantlarını (R337C, R337H) inceleyerek bu DN benzeri etkiyi doğrudan göstermiştir: mutant, yabanıl-tiple hetero-tetramer oluşturduğunda transkripsiyon aktivitesi %50'den fazla azalabilmektedir — yani tek bir varyant alt birim, kompleksin işlevini orantısız biçimde düşürür (Kamada ve ark., 2025, *Chembiochem*; [DOI](https://doi.org/10.1002/cbic.202500330)).
+İkinci örnek, mekanizmanın kanser yatkınlığına nasıl taşındığını gösterir. p53 tümör baskılayıcı proteini bir **tetramer** olarak çalışır; DNA'ya bağlanıp hedef genleri aktive etmesi için dört alt biriminin de doğru biçimde bir araya gelmesi gerekir. Li-Fraumeni sendromunda (kalıtsal çok-kanserli yatkınlık) görülen *TP53* missense varyantlarının önemli bir kısmı **dominant-negatif** davranır: mutant p53 alt birimi, sağlam alt birimlerle aynı tetramere katılıp kompleksin işlevini (DNA bağlanma / transkripsiyon aktivasyonu) bozar. Kamada ve ark. (2025), p53'ün **tetramerleşme alanındaki** Arg337 varyantlarını (R337C, R337H) canlı hücrede hem hetero-tetramer oluşumunu hem p53-bağımlı transkripsiyon aktivitesini eşzamanlı ölçen FRET temelli bir düzenekle incelemiştir. Sonuç, DN'in en öğretici yanını gösterir: **R337C**, yabanıl-tiple hetero-tetramer kurma yeteneğini neredeyse hiç kaybetmediği hâlde transkripsiyon aktivitesini **%50'den fazla** düşürmüştür; **R337H** ise hetero-tetramerleri normale yakın düzeyde oluşturmasına rağmen aktiviteyi belirgin biçimde bozmuştur. Yani kompleks kuruluyor ama çalışmıyor — işlev kaybı yalnızca "tetramer oluşamaması"ndan değil, oluşan hetero-tetramerin kararsızlığından da doğuyor. Yazarlar bunu "daha önce fark edilmemiş, **dominant-negatif benzeri** bir etki" olarak tanımlar; ilginç bir ayrıntı olarak aktivite kaybı, yüksek afiniteli hücre-döngüsü hedefi (*CDKN1A*) yerine düşük afiniteli apoptoz hedefinde (*bax*) daha belirgindir (Kamada ve ark., 2025, *Chembiochem*; [DOI](https://doi.org/10.1002/cbic.202500330)).
 
 Bu örnek iki açıdan öğreticidir. Birincisi, multimer matematiğini (n=4 → tümü-sağlam tetramer oranı yaklaşık 1/16) somut bir tümör baskılayıcıda gösterir. İkincisi, DN'in yalnız "yapısal" hastalıklara (kollajen gibi) özgü olmadığını, **kanser yatkınlığı** gibi farklı klinik alanlara da uzandığını ortaya koyar — mekanizma evrenseldir, fenotip gene/dokuya bağlıdır.
 
@@ -260,7 +262,7 @@ flowchart TD
 | Test seçimi açıklandı mı? | ✅ | §5; dizileme yakalar, doz testleri kaçırır |
 | ACMG/ClinGen bağlantısı doğru mu? | ✅ | PVS1 tuzağı (Abou Tayoun), PM1/PS3/PM5 |
 | Kaynaklar PMID/DOI ile verildi mi? | ✅ | 7/7 |
-| Spekülatif iddialar işaretlendi mi? | ✅ | §7.3 gen-spesifik uyarı; oranlar "temsilî" |
+| Spekülatif iddialar işaretlendi mi? | ✅ | §7.3 gen-spesifik uyarı; oranlar "temsilî"; §7.1'e COL1A2 sınırı eklendi (ClinGen HI=0) |
 | Kaynak uydurma riski var mı? | ✅ Yok | Tümü PubMed MCP ile doğrulandı |
 | Görsel/şema/algoritma desteği yeterli mi? (≥3 SVG, ≥2 Mermaid) | ✅ | 3 SVG (18–20) + 3 Mermaid |
 
@@ -269,4 +271,4 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddialar: multimer oranları "temsilî" (rastgele birleşme + ½ varyant varsayımı); gen-spesifik DN etiketleri için VCEP/ClinGen teyidi önerilir (§7.3).
+> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddialar: multimer oranları "temsilî" (rastgele birleşme + ½ varyant varsayımı); gen-spesifik DN etiketleri için VCEP/ClinGen teyidi önerilir (§7.3). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir: kaynak cümleleri özet düzeyinde karşılaştırılmış, *COL1A1*/*COL1A2* dozaj skorları ClinGen gen listesi indirilerek programatik olarak teyit edilmiştir (bkz. `Dogrulama_Kutugu.md`).

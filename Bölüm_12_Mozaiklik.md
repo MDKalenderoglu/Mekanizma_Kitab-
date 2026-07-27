@@ -251,7 +251,7 @@ flowchart TD
 
 **Ollier hastalığı ve Maffucci sendromu — neomorfizm ile mozaikliğin kesişimi.** Bölüm 6'da tanıştığımız neomorfik *IDH1/IDH2* varyantlarının, çoklu enkondromatozis tablolarında somatik mozaik olarak bulunduğu gösterilmiştir (Amary ve ark., 2011). **Öğreti:** mozaiklik bir mekanizma sınıfı değil, bir dağılım biçimidir; bu yüzden neomorfizm, işlev kazanımı veya işlev kaybı gibi her mekanizmayla birlikte görülebilir.
 
-**Ebeveyn germline mozaikliği — "de novo" varyantın yinelemesi.** Klinik analizde de novo kabul edilen nadir delesyon CNV'leri taşıyan 100 aileyi duyarlı yöntemle tarayan ileriye dönük bir çalışma, dört ailede ebeveyn kanında düşük düzeyli somatik mozaiklik saptamıştır (Campbell ve ark., 2014). **Öğreti:** "de novo" bir sınıflandırmadır, bir garanti değildir; genetik danışmada bu ayrımı yapmak, ailenin sonraki gebelik kararlarını doğrudan etkiler.
+**Ebeveyn germline mozaikliği — "de novo" varyantın yinelemesi.** Klinik analizde de novo kabul edilen nadir delesyon CNV'leri taşıyan 100 aileyi duyarlı yöntemle tarayan ileriye dönük bir çalışma, dört ailede ebeveyn kanında düşük düzeyli somatik mozaiklik saptamıştır. Aynı çalışmanın gametogenez modellemesi iki noktayı vurgular: ebeveyn **kanında** saptanan bir mozaiklik, yalnızca germline ile sınırlı bir mozaiklikten **belirgin biçimde daha fazla** tekrarlanma riski getirir; ve gametogenezdeki cinsiyet farkları nedeniyle somatik mozaik aktarıcıların oransal olarak daha çoğu **anne**dir — yazarlar bunun, X'e bağlı resesif hastalıklardaki beklenmedik yinelemelerin kayda değer bir kısmını açıklayabileceğini öne sürer (Campbell ve ark., 2014). **Öğreti:** "de novo" bir sınıflandırmadır, bir garanti değildir; genetik danışmada bu ayrımı yapmak, ailenin sonraki gebelik kararlarını doğrudan etkiler.
 
 ---
 
@@ -365,6 +365,6 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** **12/12 kaynak PMID+DOI doğrulandı** (10'u bu oturumda PubMed MCP ile; 2'si Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
+> **Bu bölüm için durum:** **12/12 kaynak PMID+DOI doğrulandı** (10'u bu oturumda PubMed MCP ile; 2'si Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir (bkz. `Dogrulama_Kutugu.md`).
 >
 > **İşaretlenen iddialar:** (1) Revertant mozaikliğin sıklığı ⚠️ hastalıktan hastalığa büyük değişkenlik gösterir; çoğu için sistematik sıklık verisi sınırlıdır. (2) Yöntemlerin VAF saptama tabanları (Sanger ~%15–20, WES ~%10, derin panel ~%1, ddPCR ~%0,1) **temsilî** değerlerdir; laboratuvara, okuma derinliğine ve dizi bağlamına göre değişir. (3) Array ile mozaik CNV saptama eşiği (~%20) **temsilî**dir; platforma ve segment büyüklüğüne bağlıdır.

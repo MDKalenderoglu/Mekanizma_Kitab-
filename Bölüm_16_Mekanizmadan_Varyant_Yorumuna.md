@@ -143,8 +143,8 @@ Matrisin okunma biçimi şudur. **İşlev kaybı ve yetersiz doz** satırı, çe
 | Tam gen delesyonu | CNV puanlama çerçevesi | Doz duyarlılığı kanıtlanmış mı? | Dizi varyantı kriterlerini CNV'ye uygulamak |
 | Missense — hotspot/arayüzde | PM1 → PS3 → PM2 → PP3 | GoF/DN mi, LoF mi? | Mekanizma yönünü belirlemeden PS3 yorumlamak |
 | Missense — dağınık konumda | PM2 → PP3 (kalibre) → PS3 | Genin mekanizması ne? | Kalibre edilmemiş araç oylaması |
-| Kanonik splice (±1,2) | PVS1 (splice akışı) → PS3 (RNA) | Çerçeve korunuyor mu? | Otomatik tam güç varsaymak |
-| Derin intronik / sessiz | PP3 (splice öngörüsü) → PS3 (RNA) | Kriptik bölge aktive oluyor mu? | "Sessiz = zararsız" saymak |
+| Kanonik splice (±1,2) | PVS1 (splice karar ağacı) → RNA kanıtı **PVS1_Strength** | Çerçeve korunuyor mu? | Otomatik tam güç varsaymak · RNA bulgusunu PS3 ile kodlamak |
+| Derin intronik / sessiz | PP3 (splice öngörüsü) → RNA kanıtı **PVS1_Strength**; etki yoksa **BP7** | Kriptik bölge aktive oluyor mu? | "Sessiz = zararsız" saymak · RNA bulgusunu PS3 ile kodlamak |
 | Kodlamayan / düzenleyici | PS3 → PM2; PVS1 ve PM1 genellikle yok | Element ve hedef gen tanımlı mı? | Kodlayan kriterleri olduğu gibi taşımak |
 | Tekrar genişlemesi | Ayrı çerçeve: alel boyu eşikleri | Tekrar tipi ve eşik biliniyor mu? | Dizileme temelli kriter uygulamaya çalışmak |
 | mtDNA varyantı | mtDNA'ya özgü spesifikasyon | Heteroplazmi düzeyi ve doku? | Nükleer kriterleri doğrudan kullanmak |
@@ -225,7 +225,7 @@ Bu bölümde test tablosu farklı bir soruyla okunur: **hangi test hangi kanıt�
 | **Long-read WGS** | **Faz bilgisi (PM3) ve karmaşık SV çözümü için üstün** | Maliyet/erişim; rutin varyant yorumlamada henüz standart değil |
 | **Array-CGH / SNP array** | CNV çerçevesine girdi verir; bölge büyüklüğü ve gen içeriği puanlanır | Dizi varyantı kriterleri uygulanamaz; dengeli SV'leri görmez |
 | **MLPA** | Hedefli delesyon/duplikasyon; ekzon düzeyinde çerçeve hesabı → PVS1 basamağı | Yalnız tasarlanan lokus |
-| **RNA-seq** | **PS3 ve PVS1 için doğrudan kanıt üretir** (splice sonucu, alel dengesizliği) | Doğru doku şart; ifade edilmeyen dokuda bilgi vermez |
+| **RNA-seq** | Splice sonucu ve alel dengesizliği için **doğrudan kanıt** üretir. Kod seçimi: splicing bulgusu **PVS1_Strength** (etki yoksa BP7); PS3 ise RNA-splicing testinin ölçmediği işlevsel etki içindir | Doğru doku şart; ifade edilmeyen dokuda bilgi vermez |
 | **Methylation array** | İmprinting/epimutasyon tablolarında ayırt edici; episignature desteği | Yalnız ilgili mekanizmalarda anlamlı |
 | **Karyotip** | Dengeli translokasyon/inversiyon; CNV çerçevesine dolaylı katkı | Çözünürlük düşük |
 | **(çerçeveye özgü) Aile örneklemesi ± fonksiyonel test** | **Evet — kriter üreten asıl kaynak.** PS2/PM6, PP1/BS4, PM3, PS3/BS3 buradan doğar | Zaman, erişim ve maliyet gerektirir; her gen için doğrulanmış analiz yoktur |
@@ -242,7 +242,7 @@ Bu bölümde test tablosu farklı bir soruyla okunur: **hangi test hangi kanıt�
 
 - **Kopya sayısı varyantları** için bölge/gen içeriği temelli ayrı bir puanlama sistemi kullanılır; dizi varyantı kriterleri doğrudan uygulanmaz (Riggs ve ark., 2020 — Bölüm 8).
 - **Mitokondriyal DNA varyantları** için haplogrup bağlamını, heteroplazmi düzeyini ve tek-lif çalışmalarını hesaba katan mtDNA'ya özgü bir spesifikasyon geliştirilmiştir (McCormick ve ark., 2020 — Bölüm 11).
-- **Splice varyantları** için PVS1'in uyarlanması, PS3'ün RNA verisiyle ilişkilendirilmesi ve PP3/BP4/BP7'nin splice öngörüsüyle kullanımı ayrıca tanımlanmıştır (Walker ve ark., 2023 — Bölüm 7).
+- **Splice varyantları** için PVS1'in gen-özgü karar ağacıyla uyarlanması, **RNA kanıtının PVS1_Strength koduyla** (PS3 ile değil) yakalanması, etkisizlik gösteren RNA sonucunun **BP7** ile kodlanması ve PP3/BP4'ün splice öngörüsüyle kullanımı ayrıca tanımlanmıştır; PS3/BS3, RNA-splicing testlerinin doğrudan ölçmediği işlevsel etkiye ayrılmıştır (Walker ve ark., 2023 — Bölüm 7).
 - **Kodlamayan varyantlar** için, düzenleyici elementin ve hedef geninin tanımlanmasını şart koşan bir uyarlama önerilmiştir (Ellingford ve ark., 2022 — Bölüm 13).
 - **Gen-özgü uzman panelleri (VCEP)**, kendi genlerinde kriterleri yeniden tanımlar: bir gende PM2 destekleyiciye indirilirken, başka bir gende PS3 için kabul edilen analiz listesi belirlenir.
 
@@ -419,6 +419,6 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** **24/24 kaynak PMID+DOI doğrulandı** (8'i bu oturumda PubMed MCP ile — Tavtigian 2018, Tavtigian 2020, Pejaver 2022, Whiffin 2017, Jarvik & Browning 2016, Gelman 2019, Lo 2023, Rehm 2015; 16'sı Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
+> **Bu bölüm için durum:** **24/24 kaynak PMID+DOI doğrulandı** (8'i bu oturumda PubMed MCP ile — Tavtigian 2018, Tavtigian 2020, Pejaver 2022, Whiffin 2017, Jarvik & Browning 2016, Gelman 2019, Lo 2023, Rehm 2015; 16'sı Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** dört ayrı yerde düzeltilmiştir (PS3 değil **PVS1_Strength**; etkisizlik için **BP7**) — Walker ve ark., 2023 (bkz. `Dogrulama_Kutugu.md`).
 >
 > **İşaretlenen iddialar:** (1) ⚠️ Şekil 16.3'deki mekanizma–kriter matrisi **pedagojik bir özettir**; normatif değildir ve ilgili gen/hastalık için yayımlanmış uzman panel spesifikasyonunun yerini almaz. (2) Puan karşılıkları (destekleyici +1, orta +2, güçlü +4, çok güçlü +8) ve sınıf eşikleri, doğal ölçekli puan sisteminde tanımlanan değerlerdir (Tavtigian ve ark., 2020); olasılık oranları ve sonsal olasılık aralıkları Bayes formülasyonundan gelir (Tavtigian ve ark., 2018). Uzman panelleri kendi genlerinde farklı eşikler tanımlayabilir. (3) 7. başlıktaki çözümlü örneklerin puanlamaları **öğretici amaçlıdır**; gerçek olgularda güncel spesifikasyon ve tam kanıt kümesi kullanılmalıdır.

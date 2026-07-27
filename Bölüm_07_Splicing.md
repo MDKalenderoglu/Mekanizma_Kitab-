@@ -2,7 +2,7 @@
 
 > **Bölümün çekirdek tezi:** Bir genin kodlayan bilgisi ekzonlara bölünmüştür; aradaki intronların çıkarılıp ekzonların doğru sırayla birleştirilmesi (**splicing/kırpılma**), spliceozom tarafından birkaç kısa "tanıma dizisi" üzerinden yürütülür: 5′ donör (GT), 3′ akseptör (AG), dallanma noktası ve polipirimidin yolu, artı ekzon/intron içindeki düzenleyici diziler (ESE/ESS/ISE/ISS). Bu sinyallerden herhangi birini bozan bir varyant — **kanonik ±1/±2 konumdaki klasik splice varyantından**, bir ekzondaki **"sessiz" (eş anlamlı) değişime** ya da hiçbir proteini değiştirmeyen **derin intronik** bir nükleotide kadar — splicing'i saptırarak ekzon atlamasına, intron tutulmasına veya gizli (kriptik) bölgelerin/sözde-ekzonların aktive olmasına yol açar. Sonuç çoğu kez okuma çerçevesini kaydırıp erken stop + NMD ile **işlev kaybı** üretir; ama çerçeve korunursa **dominant-negatif veya işlev kazanımı** da olabilir. Bu yüzden splicing, kitabın daha önceki tüm mekanizmalarını (LoF, DN, GoF) tek bir DNA katmanından besleyebilen, "varyantın nerede olduğu kadar RNA'ya ne yaptığı önemlidir" dersinin en saf örneğidir.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 7.1'tür: splicing'in birkaç kısa sinyale bağlı olduğunu görün, sonra Şekil 7.2 ile her sinyal tipinin bozulduğunda ne olduğunu izleyin. "Sessiz varyant masumdur" ve "intronik varyant önemsizdir" sezgilerini Şekil 7.3 (SMN1/SMN2) tek başına yıkar. Uzman okuyucu §6'da ClinGen SVI'nin splice-PVS1 yaklaşımına, SpliceAI'nin yerine ve RNA kanıtının (PS3/BP7) ağırlığına yoğunlaşabilir. Bölüm 2 (NMD/LoF) bu bölümün doğrudan zeminidir; in-frame splice → DN/GoF köprüsü için Bölüm 5–6'ya bakın.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 7.1'tür: splicing'in birkaç kısa sinyale bağlı olduğunu görün, sonra Şekil 7.2 ile her sinyal tipinin bozulduğunda ne olduğunu izleyin. "Sessiz varyant masumdur" ve "intronik varyant önemsizdir" sezgilerini Şekil 7.3 (SMN1/SMN2) tek başına yıkar. Uzman okuyucu §6'da ClinGen SVI'nin splice-PVS1 yaklaşımına, SpliceAI'nin yerine ve RNA kanıtının hangi kodla (PVS1_Strength / BP7) yakalandığına yoğunlaşabilir. Bölüm 2 (NMD/LoF) bu bölümün doğrudan zeminidir; in-frame splice → DN/GoF köprüsü için Bölüm 5–6'ya bakın.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -16,7 +16,7 @@ Bu bölümü tamamlayan okuyucu:
 3. Mis-splicing sonuçlarını (ekzon atlama, intron tutulması, kriptik bölge aktivasyonu, sözde-ekzon eklenmesi) ve bunların okuma çerçevesine göre LoF mu yoksa DN/GoF mu ürettiğini açıklayabilir.
 4. "Sessiz" (eş anlamlı) ve "derin intronik" varyantların neden patojen olabileceğini, SMN2 ekzon 7 örneğiyle gerekçelendirebilir.
 5. Splice varyantını yakalamada **dizilemenin** rolünü ve etkisini kanıtlamada **RNA-seq/cDNA'nın** vazgeçilmezliğini açıklayabilir.
-6. SpliceAI gibi öngörü araçlarının gücünü ve sınırını, in-siliko kanıtın (PP3/BP4) ve RNA kanıtının (PS3/BP7) yerini açıklayabilir.
+6. SpliceAI gibi öngörü araçlarının gücünü ve sınırını, in-siliko kanıtın (PP3/BP4) ve RNA kanıtının (PVS1_Strength / BP7) yerini açıklayabilir; RNA-splicing kanıtının neden PS3 ile kodlanmadığını gerekçelendirebilir.
 7. Kanonik ±1/±2 splice varyantlarında **PVS1**'in nasıl ve hangi koşullarla uygulandığını (ClinGen SVI splice yaklaşımı) açıklayabilir.
 8. Pediatrik genetikten splice örneklerini (SMN1/SMN2 ve SMA; NF1, CFTR, DMD ekzon atlama) mekanizma–fenotip–test–yorum zinciriyle ilişkilendirebilir.
 
@@ -28,7 +28,7 @@ Bu bölümü tamamlayan okuyucu:
 
 Splicing'in olağanüstü doğruluğu birkaç **kısa tanıma dizisine** dayanır (Şekil 7.1). Her intronun başında neredeyse değişmez bir **5′ donör bölgesi** (çoğunlukla GT dinükleotidi), sonunda bir **3′ akseptör bölgesi** (AG) bulunur; intronun 3′ ucuna yakın bir **dallanma noktası** (bir adenin) ve onu izleyen **polipirimidin yolu**, akseptörün tanınmasını sağlar. Bunlara ek olarak ekzon ve intronların içinde, spliceozomu "buraya/şuraya" diye yönlendiren **düzenleyici diziler** vardır: ekzonik kırpılma güçlendiricileri/susturucuları (ESE/ESS) ve intronik karşılıkları (ISE/ISS).
 
-Buradaki kritik kavramsal nokta şudur: **bu sinyaller çok kısa olduğu için, bir tek nükleotidlik değişim bile splicing'i bozabilir** — ve bu nükleotid proteini hiç değiştirmiyor (sessiz/eş anlamlı) ya da kodlayan bölgenin tamamen dışında (derin intronik) olabilir. Yani klasik "varyant proteini nasıl değiştirir?" sorusu burada yetersizdir; doğru soru "varyant **mRNA'nın nasıl monte edildiğini** değiştirir mi?"dir. Scotti ve Swanson (2015), splicing mekanizmasını ve mis-splicing'in giderek büyüyen bir hastalık grubunun temelinde yattığını derleyen kapsamlı bir çalışmada tam bu noktayı vurgular: splicing'in karmaşıklığı onu dizi değişimlerine özellikle duyarlı kılar (Scotti &amp; Swanson, 2015, *Nat Rev Genet*; [DOI](https://doi.org/10.1038/nrg.2015.3)).
+Buradaki kritik kavramsal nokta şudur: **bu sinyaller çok kısa olduğu için, bir tek nükleotidlik değişim bile splicing'i bozabilir** — ve bu nükleotid proteini hiç değiştirmiyor (sessiz/eş anlamlı) ya da kodlayan bölgenin tamamen dışında (derin intronik) olabilir. Yani klasik "varyant proteini nasıl değiştirir?" sorusu burada yetersizdir; doğru soru "varyant **mRNA'nın nasıl monte edildiğini** değiştirir mi?"dir. Scotti ve Swanson (2016), splicing mekanizmasını ve mis-splicing'in giderek büyüyen bir hastalık grubunun temelinde yattığını derleyen kapsamlı bir çalışmada tam bu noktayı vurgular: spliceozom ve çok sayıda kırpılma faktörünün oluşturduğu bu karmaşıklık, splicing'i dizi polimorfizmlerine ve zararlı varyantlara özellikle **duyarlı** kılar (Scotti &amp; Swanson, 2016, *Nat Rev Genet*; [DOI](https://doi.org/10.1038/nrg.2015.3)).
 
 ![Şekil 7.1 — Splicing mekanizması ve onu yöneten sinyaller](assets/sekil_24_splicing_mekanizmasi.svg)
 
@@ -111,7 +111,7 @@ flowchart TD
 
 ## 5. Tanısal testlerle ilişkisi
 
-Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama splicing etkisini RNA gösterir.** Kanonik splice varyantları WES/WGS ile yakalanır; ancak **derin intronik** varyantlar yalnız WGS ile görülür (WES intronları kapsamaz). Etkinin *kanıtı* için ise RNA-seq veya hedefe yönelik cDNA/RT-PCR gerekir — bu, splice yorumunda PS3/BP7'nin neden bu kadar değerli olduğunu açıklar (§6).
+Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama splicing etkisini RNA gösterir.** Kanonik splice varyantları WES/WGS ile yakalanır; ancak **derin intronik** varyantlar yalnız WGS ile görülür (WES intronları kapsamaz). Etkinin *kanıtı* için ise RNA-seq veya hedefe yönelik cDNA/RT-PCR gerekir — bu, splice yorumunda RNA kanıtının (PVS1_Strength / BP7) neden bu kadar değerli olduğunu açıklar (§6).
 
 **Tablo 7.3 — Splicing kusurlarını hangi test yakalar?**
 
@@ -134,7 +134,7 @@ Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama 
 
 Splice varyantları, ACMG/AMP çerçevesinde (Richards ve ark., 2015, *Genet Med*; [DOI](https://doi.org/10.1038/gim.2015.30)) **altı ayrı kriterle** ilişkilidir: PVS1, PS3, PP3, BS3, BP4 ve BP7. Bunların nasıl uygulanacağı uzun süre belirsizdi; ClinGen Sıra Varyant Yorumlama (SVI) Splice Alt Grubu bunu standardize etmiştir (Walker ve ark., 2023, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2023.06.002)).
 
-**PVS1 (splice).** Kanonik ±1/±2 splice varyantları "çok güçlü" kanıt adayıdır, ama otomatik değildir: öngörülen sonucun **gerçekten işlev kaybı** yapıp yapmadığı (örneğin in-frame ekzon atlama NMD'den kaçabilir ve PVS1 gücü düşebilir) gen-spesifik bir **PVS1 karar ağacıyla** değerlendirilmelidir. ClinGen SVI, splicing kanıtını yakalamak için **PVS1_Strength** kodunun yeniden amaçlanmasını önerir: RNA testi bir transkriptin işlev kaybına yol açtığını deneysel olarak gösteriyorsa bu, uygun güçte kullanılır. Bu yaklaşım Abou Tayoun ve ark.'nın (2018) PVS1 iyileştirmesiyle uyumludur (*Hum Mutat*; [DOI](https://doi.org/10.1002/humu.23626)). **PP3/BP4 (öngörü).** SpliceAI gibi kalibre edilmiş araçların öngörüsü, *destekleyici* in-siliko kanıt olarak kullanılır — tek başına tanı koydurmaz. **PS3/BP7 (RNA kanıtı).** Walker ve ark., RNA testi bulgularını yakalamak için net bir ayrım önerir: RNA, splicing'in bozulduğunu ve işlev kaybı yarattığını gösteriyorsa bu güçlü patojenite kanıtıdır; buna karşılık **intronik veya sessiz** bir varyantın RNA düzeyinde **hiçbir splicing etkisi yapmadığı** gösterilirse, bu **BP7** (iyi huylu yönünde) olarak kullanılır. **PS1.** Bilinen bir patojen varyantla **aynı öngörülen RNA-splicing etkisini** paylaşan bir varyant için PS1 uygulanabilir.
+**PVS1 (splice) ve RNA kanıtının kodu.** Kanonik ±1/±2 splice varyantları "çok güçlü" kanıt adayıdır, ama otomatik değildir: öngörülen sonucun **gerçekten işlev kaybı** yapıp yapmadığı (örneğin in-frame ekzon atlama NMD'den kaçabilir ve PVS1 gücü düşebilir) gen-spesifik bir **PVS1 karar ağacıyla** değerlendirilmelidir; bu yaklaşım Abou Tayoun ve ark.'nın (2018) PVS1 iyileştirmesiyle uyumludur (*Hum Mutat*; [DOI](https://doi.org/10.1002/humu.23626)). Burada çoğu okuyucunun sezgisine ters gelen ve kolayca yanlış uygulanan bir nokta vardır: **RNA testinden gelen splicing kanıtı PS3 ile kodlanmaz.** Walker ve ark., bir RNA çalışması varyantın işlev kaybına yol açan transkript(ler) ürettiğini deneysel olarak gösteriyorsa, bunun **PVS1_Strength** kodunun yeniden amaçlanmasıyla (uygun güç düzeyinde) yakalanmasını önerir. **PS3/BS3 ise yalnızca**, RNA-splicing testlerinin doğrudan ölçmediği işlevsel etkiyi ölçen **iyi kurulmuş testler** için ayrılmıştır — örneğin ortaya çıkan proteinin enzimatik/hücresel işlevini gösteren bir çalışma. Kısacası: "ekzon atlandı" bir **splicing** kanıtıdır (PVS1_Strength), "protein çalışmıyor" bir **işlev** kanıtıdır (PS3). **PP3/BP4 (öngörü).** SpliceAI gibi kalibre edilmiş araçların öngörüsü, *destekleyici* in-siliko kanıt olarak kullanılır — tek başına tanı koydurmaz. **BP7 (etkisizlik kanıtı).** **İntronik veya sessiz** bir varyantın RNA düzeyinde **hiçbir splicing etkisi yapmadığı** gösterilirse bu, iyi huyluluk yönünde kanıt olarak BP7 ile kodlanır. **PS1.** Bilinen bir patojen varyantla **aynı öngörülen RNA-splicing etkisini** paylaşan bir varyant için PS1 uygulanabilir.
 
 > **🟦 Klinikte dikkat — Öngörü ≠ kanıt:** SpliceAI'nin yüksek skoru güçlü bir *işarettir*, ama bir varyantın gerçekten ekzon atlattığını ancak **RNA görür**. Mümkünse (özellikle VUS'larda ve sessiz/derin intronik adaylarda) RNA testi isteyin; tersine, RNA'da etki yokluğu da değerli bir iyi huyluluk kanıtıdır (BP7). Öngörü aracını "kanıt" gibi raporlamayın.
 
@@ -149,7 +149,7 @@ flowchart TD
   B -->|"hayır (±3..6 / ESE / derin intronik)"| D["SpliceAI → PP3/BP4<br/>(destekleyici öngörü)"]
   C --> E{"RNA kanıtı?"}
   D --> E
-  E -->|"etki + işlev kaybı"| F["PS3 / PVS1_Strength<br/>(uygun güçte)"]
+  E -->|"etki + işlev kaybı yapan transkript"| F["PVS1_Strength<br/>(uygun güçte)<br/>— PS3 DEĞİL"]
   E -->|"etki yok (intronik/sessiz)"| G["BP7 (iyi huylu yönünde)"]
   F --> H["Sınıflandır (P/LP/VUS) + mekanizma sınıfı"]
   G --> H
@@ -161,7 +161,7 @@ flowchart TD
 
 ### 7.1. SMN1 / SMN2 ve spinal müsküler atrofi — "sessiz" varyantın ders kitabı örneği
 
-Spinal müsküler atrofi (SMA), splicing biyolojisinin pediatrik genetikteki en öğretici ve klinik açıdan en dönüştürücü örneğidir. SMA, *SMN1* geninin homozigot kaybından doğar; ancak çoğu insanda neredeyse özdeş bir kopya geni, *SMN2*, vardır. İlginç soru şudur: *SMN2* aynı proteini kodladığı hâlde neden *SMN1* kaybını telafi edemez? Lorson ve ark. (1999), yanıtın bir **splicing farkı** olduğunu göstermiştir: *SMN2*'nin ekzon 7'sinde, proteini değiştirmeyen **tek bir sessiz (eş anlamlı) C→T değişimi** (kodon 280) vardır ve bu değişim bir **ekzonik kırpılma güçlendiricisini (ESE) zayıflatarak** ekzon 7'nin büyük ölçüde **atlanmasına** yol açar (Lorson ve ark., 1999, *PNAS*; [DOI](https://doi.org/10.1073/pnas.96.11.6307)). Ekzon 7'siz ürün (SMNΔ7) kararsız ve işlevsizdir; bu yüzden *SMN2*, yalnızca az miktarda tam-uzunlukta SMN üretebilir ve *SMN1* kaybını tam kapatamaz (Şekil 7.3).
+Spinal müsküler atrofi (SMA), splicing biyolojisinin pediatrik genetikteki en öğretici ve klinik açıdan en dönüştürücü örneğidir. SMA, *SMN1* geninin homozigot kaybından doğar; ancak çoğu insanda neredeyse özdeş bir kopya geni, *SMN2*, vardır. İlginç soru şudur: *SMN2* aynı proteini kodladığı hâlde neden *SMN1* kaybını telafi edemez? Lorson ve ark. (1999), yanıtın bir **splicing farkı** olduğunu göstermiştir. İki gen arasında yalnızca **beş nükleotid** farklıdır; yazarlar bu beş farkı tek tek minigen düzeneklerine taşıyarak hangisinin ekzon 7'nin alternatif kırpılmasını belirlediğini aramış ve yanıtı bulmuşlardır: ekzon 7'deki, proteini hiç değiştirmeyen **sessiz (eş anlamlı) C→T geçişi** (kodon 280) ekzon 7 atlanması için **gerekli ve yeterlidir**. Değişim bir **ekzonik kırpılma güçlendiricisinin (ESE) etkinliğini zayıflatır** ve ekzon 7 büyük ölçüde atlanır (Lorson ve ark., 1999, *PNAS*; [DOI](https://doi.org/10.1073/pnas.96.11.6307)). Ekzon 7'siz ürün (SMNΔ7) kararsız ve işlevsizdir; bu yüzden *SMN2*, yalnızca az miktarda tam-uzunlukta SMN üretebilir ve *SMN1* kaybını tam kapatamaz (Şekil 7.3).
 
 ![Şekil 7.3 — SMN1 vs SMN2: sessiz bir nükleotid neden hastalık yapar](assets/sekil_26_smn_splice_ornegi.svg)
 
@@ -181,8 +181,9 @@ Splice varyantları birçok pediatrik gende belirgindir. **NF1** (nörofibromato
 > 1. **Eş anlamlı (sessiz) varyantı otomatik iyi huylu saymak.** ESE bozabilir → ekzon atlama (SMN2). Sessizlik masumiyet değildir.
 > 2. **İntronik varyantı "ilgisiz" görmek.** Derin intronik varyant sözde-ekzon yaratabilir; nadir hastalık varyantlarının ~%9–11'i bu sınıftandır.
 > 3. **SpliceAI öngörüsünü kanıt sanmak.** Öngörü hipotezdir; etkiyi RNA gösterir. Yüksek skoru "patojen kanıtı" gibi raporlamayın.
-> 4. **Kanonik ±1/±2'ye otomatik tam PVS1 vermek.** In-frame ekzon atlama NMD'den kaçabilir; gen-spesifik PVS1 karar ağacını uygulayın.
-> 5. **Yalnız WES'e güvenip derin intronik varyantı aramamak.** Klinik şüphe güçlüyse WGS + RNA düşünün.
+> 4. **RNA-splicing bulgusunu PS3 ile kodlamak.** ClinGen SVI, RNA'nın gösterdiği işlev-kaybı transkripti için **PVS1_Strength**'i önerir; PS3/BS3 yalnızca RNA-splicing testlerinin ölçmediği işlevsel etkiyi ölçen iyi kurulmuş testler içindir (Walker 2023).
+> 5. **Kanonik ±1/±2'ye otomatik tam PVS1 vermek.** In-frame ekzon atlama NMD'den kaçabilir; gen-spesifik PVS1 karar ağacını uygulayın.
+> 6. **Yalnız WES'e güvenip derin intronik varyantı aramamak.** Klinik şüphe güçlüyse WGS + RNA düşünün.
 
 > **🟦 Klinikte dikkat kutusu**
 > - Fenotip-gen uyumu güçlü ama "varyant yok" çıkan olgularda **splice/derin intronik** varyantları ve **RNA analizini** düşünün.
@@ -206,7 +207,7 @@ flowchart TD
   E --> F
   F -->|"evet"| G["RNA-seq/cDNA: ekzon atlama/<br/>pseudoexon/intron tutulması?"]
   F -->|"hayır"| H["Öngörü + segregasyon + fenotip ile<br/>olasılıksal yorumla (VUS olabilir)"]
-  G --> I["Çerçeveye bak → LoF mu DN/GoF mu;<br/>ACMG kodlarını ata (PS3/PVS1/BP7)"]
+  G --> I["Çerçeveye bak → LoF mu DN/GoF mu;<br/>ACMG kodlarını ata (PVS1 / PVS1_Strength / BP7)"]
   H --> I
   I --> J["Sınıflandır + (uygunsa) mekanizma-hedefli<br/>tedavi olasılığını not et"]
 ```
@@ -240,7 +241,7 @@ flowchart TD
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | §3 tablo + çerçeve→LoF/DN/GoF |
 | Pediatrik örnek verildi mi? | ✅ | SMN1/SMN2 (SMA), DMD ekzon atlama |
 | Test seçimi açıklandı mı? | ✅ | §5; DNA bulur, RNA kanıtlar; derin intronik→WGS |
-| ACMG/ClinGen bağlantısı doğru mu? | ✅ | ClinGen SVI splice (Walker 2023); PVS1/PS3/BP7 |
+| ACMG/ClinGen bağlantısı doğru mu? | ✅ | ClinGen SVI splice (Walker 2023); PVS1/PVS1_Strength/BP7 ayrımı doğrulama turunda düzeltildi |
 | Kaynaklar PMID/DOI ile verildi mi? | ✅ | 7/7 |
 | Spekülatif iddialar işaretlendi mi? | ✅ | Gen-spesifik PVS1/mekanizma için VCEP teyidi notu |
 | Kaynak uydurma riski var mı? | ✅ Yok | Tümü PubMed MCP ile doğrulandı |
@@ -251,4 +252,4 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddia: gen-spesifik PVS1 karar ağaçları ve mekanizma etiketleri için güncel VCEP/ClinGen teyidi önerilir (§6, §7.2).
+> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddia: gen-spesifik PVS1 karar ağaçları ve mekanizma etiketleri için güncel VCEP/ClinGen teyidi önerilir (§6, §7.2). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** (PS3 değil PVS1_Strength) Walker ve ark. 2023 özetiyle karşılaştırılarak düzeltilmiştir (bkz. `Dogrulama_Kutugu.md`).

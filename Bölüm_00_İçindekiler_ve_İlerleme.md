@@ -9,10 +9,10 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | # | Bölüm | Dosya | Durum | Görsel | Kaynak (doğrulanmış) |
 |---|-------|-------|-------|--------|----------------------|
 | 0 | İçindekiler & İlerleme | `Bölüm_00_İçindekiler_ve_İlerleme.md` | ✅ Canlı | — | — |
-| 1 | Genetik hastalık mekanizması nedir? | `Bölüm_01_Genetik_Hastalık_Mekanizması.md` | ✅ Tamam (textbook) | 6 SVG + 3 Mermaid | 4/4 |
-| 2 | Loss-of-function | `Bölüm_02_Loss_of_Function.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
-| 3 | Haploinsufficiency | `Bölüm_03_Haploinsufficiency.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 8/8 |
-| 4 | Gain-of-function | `Bölüm_04_Gain_of_Function.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 8/8 |
+| 1 | Genetik hastalık mekanizması nedir? | `Bölüm_01_Genetik_Hastalık_Mekanizması.md` | ✅ Tamam (textbook) | 6 SVG + 3 Mermaid | 6/6 |
+| 2 | Loss-of-function | `Bölüm_02_Loss_of_Function.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 9/9 |
+| 3 | Haploinsufficiency | `Bölüm_03_Haploinsufficiency.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
+| 4 | Gain-of-function | `Bölüm_04_Gain_of_Function.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
 | 5 | Dominant-negatif | `Bölüm_05_Dominant_Negatif.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 6 | Neomorfik & antimorfik | `Bölüm_06_Neomorfik_Antimorfik.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 7 | Splicing | `Bölüm_07_Splicing.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
@@ -23,7 +23,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 12/12 |
 | 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 14 | Digenik / oligogenik / modifier | `Bölüm_14_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
-| 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 21/21 |
+| 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 22/22 |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
 | 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 20/20 |
 | — | **Final pass** (birleştirme/standardizasyon) | `Önsöz.md` + `build_book.py` | ✅ Tamam | — | 114 (toplu kaynakça) |
@@ -40,9 +40,11 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 |------|-------------|-------|-----|----------------|------------------------|
 | 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13, 14, 15, 16, 17 |
 | 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2, 14, 16 |
-| 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; pLI/LOEUF) | 1, 2, 3, 16 |
+| 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; **LOEUF**) | 1, 2, 3, 16 |
+| 27535533 | Lek ve ark. (2016) | Nature | 10.1038/nature19057 | Metodoloji (ExAC; **pLI** metriğinin tanımlandığı çalışma) | 1, 2, 3 |
+| 7297851 | Kacser &amp; Burns (1981) | Genetics | 10.1093/genetics/97.3-4.639 | Landmark kuram (metabolik kontrol; resesifliğin moleküler temeli) | 2, 3 |
 | 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1, 14 |
-| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI) | 2, 15, 16 |
+| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI) | 1, 2, 5, 15, 16 |
 | 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip) | 2, 7 |
 | 3384440 | Monaco ve ark. (1988) | Genomics | 10.1016/0888-7543(88)90113-9 | Landmark mekanizma (okuma çerçevesi; DMD/BMD) | 2, 15 |
 | 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR allelik heterojenite) | 2, 14 |
@@ -53,11 +55,12 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 35917817 | Collins ve ark. (2022) | Cell | 10.1016/j.cell.2022.06.036 | Metodoloji (dozaj duyarlılığı haritası; pHaplo/pTriplo) | 3, 8 |
 | 31690835 | Riggs ve ark. (2020) | Genet Med | 10.1038/s41436-019-0686-8 | Guideline (ACMG/ClinGen CNV/dozaj puanlama) | 3, 8, 16, 17 |
 | 31861090 | Lima Cunha ve ark. (2019) | Genes (Basel) | 10.3390/genes10121050 | Klinik örnek (PAX6 HI; aniridi; WAGR) | 3, 15 |
-| 8182727 | Wilkie (1994) | J Med Genet | 10.1136/jmg.31.2.89 | Landmark/kavramsal (dominant varyant mekanizmaları sınıflaması; GoF tipleri; Müller serisi) | 4, 5, 6, 15 |
+| 8182727 | Wilkie (1994) | J Med Genet | 10.1136/jmg.31.2.89 | Landmark/kavramsal (dominant varyant mekanizmaları sınıflaması; GoF tipleri; Muller serisi) | 4, 5, 6, 15 |
 | 8754806 | Webster & Donoghue (1996) | Mol Cell Biol | 10.1128/MCB.16.8.4081 | Mekanizma landmark (FGFR3 konstitütif aktivasyon; ~100 kat) | 4, 15 |
 | 9174404 | Edery ve ark. (1997) | BioEssays | 10.1002/bies.950190506 | Mekanizma/klinik (RET'in iki yüzü: GoF/MEN2 vs LoF/Hirschsprung) | 4, 15 |
 | 11704759 | Tartaglia ve ark. (2001) | Nat Genet | 10.1038/ng772 | Klinik/mekanizma (PTPN11/SHP-2 GoF; Noonan; hotspot arayüz) | 4 |
-| 29844171 | Berecki ve ark. (2018) | PNAS | 10.1073/pnas.1800077115 | Mekanizma/klinik (SCN2A GoF vs LoF elektrofizyolojik ayrım) | 4, 15, 16, 17 |
+| 29844171 | Berecki ve ark. (2018) | PNAS | 10.1073/pnas.1800077115 | Mekanizma/klinik (SCN2A GoF vs LoF elektrofizyolojik ayrım; başlangıç yaşı/nöbet tipi. ⚠️ OSB/EY iddiası için kullanılamaz) | 4, 15, 16, 17 |
+| 29691040 | Sanders ve ark. (2018) | Trends Neurosci | 10.1016/j.tins.2018.03.011 | Review (SCN2A LoF → OSB/entelektüel yetersizlik) | 4, 15 |
 | 32090326 | Brunklaus ve ark. (2020) | Epilepsia | 10.1111/epi.16438 | Klinik (Na-kanal GoF→erken başlangıç + SCB yanıtı; yön-tedavi) | 4, 15, 16, 17 |
 | 31892348 | Brnich ve ark. (2019) | Genome Med | 10.1186/s13073-019-0690-2 | Guideline (PS3/BS3 fonksiyonel kanıt; "mekanizmayı tanımla") | 4, 11, 13, 16 |
 | 2442619 | Herskowitz (1987) | Nature | 10.1038/329219a0 | Landmark kavram (dominant-negatif tanımı; mutant ürün yabanıl-tipi bozar) | 5, 6 |
@@ -179,7 +182,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_18_dn_zehirli_altbirim.svg | 5 | DN "zehirli alt birim": varyant ürün sağlamı zehirler |
 | sekil_19_multimer_matematigi.svg | 5 | Multimer matematiği: (½)ⁿ → DN neden HI'dan ağır |
 | sekil_20_dn_vs_lof_hi_gof.svg | 5 | DN vs LoF vs HI vs GoF; delesyon/null testi |
-| sekil_21_muller_allel_serisi.svg | 6 | Müller allel serisi (amorf→neomorf) birleştirici harita |
+| sekil_21_muller_allel_serisi.svg | 6 | Muller allel serisi (amorf→neomorf) birleştirici harita |
 | sekil_22_neomorf_vs_antimorf.svg | 6 | Neomorf (yeni iş) vs antimorf (sağlamı bozma) ayrımı |
 | sekil_23_neomorf_ornekleri.svg | 6 | IDH→2-HG ve H3K27M→PRC2 neomorfik örnekler |
 | sekil_24_splicing_mekanizmasi.svg | 7 | Splicing sinyalleri (donör/dallanma/akseptör; ESE/ISS) |

@@ -200,6 +200,8 @@ Birincisi, **popülasyon frekansı kriterleri (BA1/BS1/PM2) yeniden kalibre edil
 
 Dördüncüsü, **kritik bölge kriteri (PM1) mtDNA'nın kendine özgü yapısına göre tanımlanır.** tRNA genlerinde varyantın hangi yapısal alana (akseptör kol, antikodon kolu, D-kolu vb.) düştüğü ve o pozisyonun evrimsel korunmuşluğu, patojenite yönünde ağırlık taşır.
 
+Beşinci ve kolayca gözden kaçan bir fark daha vardır: **mtDNA'da splicing yoktur.** İnsan mtDNA'sı intronsuzdur ve tek bir uzun transkript olarak okunup işlenir. Bunun doğrudan sonucu, Bölüm 7'nin tüm kriter setinin (kanonik ±1/±2 PVS1 mantığı, SpliceAI temelli PP3/BP4, RNA kanıtı için PVS1_Strength, BP7) mtDNA varyantlarına **hiç uygulanamamasıdır**. Uzman paneli spesifikasyonunun çıkış noktasında saydığı özellikler tam olarak bunlardır: maternal kalıtım, heteroplazmi, eşik etkisi, **splicing yokluğu** ve haplogrupların bağlamsal etkisi (McCormick ve ark., 2020).
+
 > **🟦 Klinikte dikkat — "Homoplazmik" patojenite kanıtı değildir:** mtDNA raporlarında en sık yapılan yorum hatası, homoplazmik bir değişikliğin ağırlığından ötürü patojen sayılmasıdır. Oysa her insanın mtDNA'sı, referans diziden onlarca homoplazmik pozisyonda ayrılır; bunlar haplogrup polimorfizmleridir. Tersine, patojen varyantların çoğu heteroplazmiktir. Homoplazmi–heteroplazmi ayrımı bir patojenite göstergesi değil, yalnızca bir **yük** göstergesidir; yorum daima haplogrup bağlamı, korunmuşluk, segregasyon ve fonksiyonel kanıt üzerinden yapılmalıdır.
 
 **Algoritma 11.2 — mtDNA varyantının yorumlanma akışı**
@@ -359,3 +361,5 @@ flowchart TD
 > **Bu bölüm için durum:** **14/14 kaynak PMID+DOI doğrulandı** (12'si PubMed MCP ile bu bölüm için; 2'si — Richards 2015, Brnich 2019 — Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
 >
 > **İşaretlenen iddialar:** (1) Paternal mtDNA geçişi bildirimlerinin sıklığı ve mekanizması ⚠️ tartışmalıdır — klinik danışmada esas alınmaz. (2) Eşik yüzdeleri (%60–90) ve hücre başına mtDNA kopya sayısı aralıkları **temsilî** değerlerdir; varyanta ve dokuya göre değişir. (3) Mitokondriyal işleve katkı veren nükleer gen sayısı (~1500) bir **tahmindir**.
+>
+> Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda ClinGen mtDNA spesifikasyonunun **"splicing yokluğu"** gerekçesi eklenmiş, Kompleks II'nin tümüyle nükleer kodlu olduğu ders kitabı çapraz kontrolüyle teyit edilmiştir (bkz. `Dogrulama_Kutugu.md`).

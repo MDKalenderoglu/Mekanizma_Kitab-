@@ -359,6 +359,6 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** **11/11 kaynak PMID+DOI doğrulandı** (7'si bu oturumda PubMed MCP ile; 4'ü — Cooper 2013, MacArthur 2014, Richards 2015, Sosnay 2013 — Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
+> **Bu bölüm için durum:** **11/11 kaynak PMID+DOI doğrulandı** (7'si bu oturumda PubMed MCP ile; 4'ü — Cooper 2013, MacArthur 2014, Richards 2015, Sosnay 2013 — Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; düzeltme gerektiren bulgu çıkmamıştır (bkz. `Dogrulama_Kutugu.md`).
 >
 > **İşaretlenen iddialar:** (1) Trialelik kalıtımın Bardet-Biedl sendromundaki kapsamı ve genelleştirilebilirliği ⚠️ tartışmalıdır; modelin her ailede geçerli olduğu varsayılmamalıdır. (2) Monogenik–digenik–oligogenik–poligenik ayrımının "keskin biyolojik sınırı olmadığı" kavramsal bir çerçevedir. (3) Digenik kalıtımda tekrarlanma riskinin ebeveyn genotiplerine göre hesaplanması ilkesel olarak verilmiştir; aileye özgü hesap her olguda ayrıca yapılmalıdır.
