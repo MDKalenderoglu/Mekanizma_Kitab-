@@ -53,6 +53,7 @@ Kitabın özgün çerçeveleri (allelik serinin altı ekseni, mekanizma × krite
 |---|---|---|
 | Veri tabanı sorgusu (ClinGen, gnomAD, ClinVar…) | **`curl` ile indir + Python ile tam eşleştir** | ✅ Kanıt |
 | Kaynak künyesi ve özet | PubMed MCP `get_article_metadata` | ✅ Kanıt |
+| **Kitap geneli künye taraması** | **`00_Şablonlar/kunye_denetle.py`** — NCBI esummary indirilir, alan alan eşleştirilir | ✅ Kanıt (tekrarlanabilir) |
 | Özette olmayan sayı/detay | PMC tam metin (alıntı çıkarılır) | ✅ Kanıt |
 | Keşif, yön bulma, belge listesi | `WebFetch` / `WebSearch` | ⚠️ Yalnız keşif — **kanıt değil** |
 
@@ -100,10 +101,25 @@ Bunlar her turda yeniden aranmaz; adresleri buradadır.
 | Telifli ders kitabı (EPUB/PDF) | `kaynak_pdf/` (git dışı) → `kaynak_cikar.py` → `_metin/` → `ara.py` | **T4** kaynaksız mekanizma cümleleri |
 
 ### Telifli materyal iş akışı
-1. Dosyalar `kaynak_pdf/` içine konur — bu klasör `.gitignore`'dadır, depoya girmez.
-2. `python3 00_Şablonlar/kaynak_cikar.py` → `_metin/*.txt` (EPUB: stdlib; PDF: pypdf; taranmış dosyada uyarı verir, OCR yok).
+1. Dosyalar `kaynak_pdf/` içine konur — bu klasör `.gitignore`'dadır, depoya girmez. Materyal başka bir yerde duruyorsa oraya **sembolik bağ** verilir (mevcut durum: `kaynak_pdf/textbooks → …/Moleküler Genetik/textbooks`); klasör içi alt klasörler de taranır.
+2. `python3 00_Şablonlar/kaynak_cikar.py` → `_metin/*.txt` (EPUB: stdlib; PDF: pypdf; taranmış dosyada uyarı verir, OCR yok). Argüman olarak dosya **veya klasör** verilebilir; daha önce çıkarılmış dosyalar atlanır.
 3. `python3 00_Şablonlar/ara.py "terim" "ikinci terim"` → yalnız ilgili paragraf bağlama girer; her sonuç kaynak + konum işaretiyle döner.
 4. **Telifli metin kitaba kopyalanmaz.** Bulunan pasaj yalnızca kütüğe kanıt olarak, kısa alıntı hâlinde kaydedilir.
+
+### Elde bulunan çapraz kontrol kitapları (27.07.2026)
+Tümü `_metin/` altına çıkarılmıştır (25 dosya · ~15,3 milyon karakter); `ara.py` ile aranır.
+
+| Kaynak | Kapsam / hangi bölümler için |
+|---|---|
+| Thompson & Thompson, *Genetics and Genomics in Medicine*, 2023 | Genel tıbbi genetik — T4 birinci çapa; tüm bölümler |
+| Strachan & Read, *Human Molecular Genetics*, 5. baskı (EPUB) | Moleküler mekanizma derinliği — Böl. 2, 4–7, 9, 13 |
+| Emery & Rimoin, *Principles and Practice of Medical Genetics*, 2019 (böl. 1–16 ayrı PDF) | Bölüm 5 epigenetik · 6 genomik varyantlar/kalıtsal hastalık · 9 kromozomal temel · 10 mitokondriyal biyoloji · 11 multifaktöriyel · 13 patogenetik |
+| Gardner & Sutherland, *Chromosome Abnormalities and Genetic Counseling*, 2018 | Böl. 8 (CNV/yapısal), 10 (imprinting/UPD), sitogenetik |
+| Lupski & Stankiewicz, *Genomic Disorders*, 2006 | Böl. 8 — NAHR, LCR, dozaj hastalıkları (tarihsel/mekanistik) |
+| Goodman, *Medical Cell Biology*, 2020 | Hücresel sonuç katmanı — Böl. 2, 4, 5, 11 |
+| *Cumhuriyetin 100. Yılında Tıbbi Genetik* (ed. Öztürk, 2023) | Türkçe terminoloji karşılaştırması; Türkiye verisi. ⚠️ OCR — alıntı elle kontrol edilmeli |
+
+**Sınır:** Bunlar **ikincil kaynaktır** (CLAUDE.md §2/8). Ders kitabı bir T4 önermesini "yerleşik ders bilgisi" olarak *destekleyebilir*, ama mekanizma iddiasının **ana kaynağı olamaz**; (b) grubu için yine birincil makale aranır.
 
 **Dozaj skoru kodları:** 0 = kanıt yok · 1 = az kanıt · 2 = bir miktar kanıt · 3 = yeterli kanıt · 30 = otozomal resesif fenotiple ilişkili gen · 40 = doz duyarlılığı olası değil.
 
@@ -125,7 +141,10 @@ Bunlar her turda yeniden aranmaz; adresleri buradadır.
 |---|---|---|
 | 3 | ✅ Tamamlandı (19 iddia; 0 olgusal yanlış, 6 iyileştirme) | 27.07.2026 |
 | Kitap geneli T3 gen taraması | ✅ Tamamlandı (79 gen; 0 çelişki) | 27.07.2026 |
-| 1, 2, 4–17 | 🔲 Bekliyor | — |
-| T1 ClinGen rehber taraması (Böl. 7, 12, 15, 16) | 🔲 Bekliyor | — |
-| T4/T5 kitap geneli | 🔲 Bekliyor | — |
-| Uzman değerlendirmesi | 🔲 Bekliyor — **kullanıcı organize edecek** | — |
+| **1, 2, 4–17** | ✅ **Tamamlandı** (16 bölüm; 0 olgusal yanlış, 1 normatif kural hatası, 6 atıf-kapsamı hatası düzeltildi) | 27.07.2026 |
+| **Kitap geneli künye taraması** | ✅ **Tamamlandı — programatik** (194/194 satır, 118 PMID; 0 uydurma, 0 sapma) | 27.07.2026 |
+| T1 ClinGen rehber taraması (Böl. 7, 12, 15, 16) | ✅ Tamamlandı — Walker 2023 (splice), McCormick 2020 (mtDNA), Riggs 2020 (CNV), Abou Tayoun 2018 (PVS1) kural cümlesi düzeyinde karşılaştırıldı | 27.07.2026 |
+| T4/T5 kitap geneli | ✅ Tamamlandı — 4 özgün çerçeve etiketlendi; atıfsız mekanizma cümleleri ders kitabı çapraz kontrolüne tabi tutuldu | 27.07.2026 |
+| Uzman değerlendirmesi | 🔲 Bekliyor — **kullanıcı organize edecek** (yayım ön koşulu; otomatik denetim yerine geçmez) | — |
+
+> **Turun özeti ve üç hata kalıbı için:** `Dogrulama_Kutugu.md` → "📊 Doğrulama turu — genel sonuç".

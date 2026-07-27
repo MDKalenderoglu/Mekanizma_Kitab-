@@ -130,15 +130,33 @@ def process(path):
     return dst
 
 
+def collect(paths):
+    """Dosya yollarını genişletir: klasör verilirse altındaki tüm epub/pdf'ler
+    (alt klasörler dâhil) toplanır. Böylece materyal kaynak_pdf/ dışında
+    (ör. başka projenin textbooks/ klasöründe) dursa da işlenebilir."""
+    files = []
+    for p in paths:
+        if os.path.isdir(p):
+            for ext in ("epub", "pdf"):
+                files += glob.glob(os.path.join(p, "**", f"*.{ext}"), recursive=True)
+        else:
+            files.append(p)
+    return sorted(set(files))
+
+
 def main():
     args = sys.argv[1:]
-    files = args if args else sorted(
-        glob.glob(os.path.join(SRC, "*.epub")) + glob.glob(os.path.join(SRC, "*.pdf"))
-    )
+    files = collect(args) if args else collect([SRC])
     if not files:
-        sys.exit(f"kaynak_pdf/ içinde .epub veya .pdf yok.\nDosyaları şuraya koy: {SRC}")
+        hedef = args[0] if args else SRC
+        sys.exit(f"{hedef} içinde .epub veya .pdf yok.")
     print(f"{len(files)} dosya işleniyor…")
     for f in files:
+        # zaten çıkarılmışsa tekrar işleme (yeniden çalıştırmayı ucuzlatır)
+        dst = os.path.join(OUT, os.path.splitext(os.path.basename(f))[0] + ".txt")
+        if os.path.exists(dst) and os.path.getsize(dst) > 0:
+            print(f"  ⏭  zaten çıkarılmış: {os.path.basename(f)}")
+            continue
         process(f)
     print("\nArama için:  python3 00_Şablonlar/ara.py \"aranacak ifade\"")
 

@@ -44,8 +44,9 @@ def main():
     hits = []
     for f in files:
         txt = open(f, encoding="utf-8").read()
-        # konum işaretlerinin indeksini çıkar
-        marks = [(m.start(), m.group(1)) for m in re.finditer(r"\[\[([^\]]+)\]\]", txt)]
+        # konum işaretlerinin indeksini çıkar — işaret kendi satırındadır;
+        # satır tabanlı eşleşme, dosya adında köşeli parantez olsa da çalışır
+        marks = [(m.start(), m.group(1)) for m in re.finditer(r"^\[\[(.+)\]\]$", txt, re.M)]
 
         def where(pos):
             loc = "?"
