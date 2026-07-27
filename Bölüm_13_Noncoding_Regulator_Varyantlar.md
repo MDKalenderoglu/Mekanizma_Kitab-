@@ -37,6 +37,8 @@ Bu liste transkripsiyonla bitmez. Genin ürünü olan mRNA'nın kendisi de kodla
 
 Bu mimarinin klinik önemi, tek bir cümlede toplanabilir: **bu bölgelerin hemen tamamı standart bir ekzom analizinin dışındadır.** 5′ ve 3′ UTR'ler bazı ekzom kitlerinde kısmen kapsanır ama güvenilir değildir; promotörler, enhancer'lar ve CTCF bölgeleri ise tümüyle kapsam dışıdır. Dolayısıyla bu bölümdeki mekanizmaların hiçbiri ekzomla dışlanamaz. Kodlamayan varyantların klinik olarak ciddiye alınabilmesi, **tüm genom dizilemesinin (WGS)** yaygınlaşmasıyla mümkün olmuştur (Ellingford ve ark., 2022).
 
+**Tablo 13.1 — Kodlamayan ve regülatör varyantların temel kavramları**
+
 | Kavram | Tanım | Klinik anlamı |
 |---|---|---|
 | Promotör | Transkripsiyonun başladığı, TF'lerin toplandığı bölge | Varyant → mRNA düzeyi düşer/artar; doz hastalığı doğar |
@@ -104,6 +106,8 @@ Yani sinyalin *içinde* bulunduğu gen (*FTO*) ile sinyalin *etkilediği* gen (*
 
 Kodlamayan bölgede "varyant tipi", bulunduğu elementle tanımlanır; çünkü mekanizma elementin işlevinden türer. Aşağıdaki tablo bu bölümün klinik omurgasıdır.
 
+**Tablo 13.2 — Düzenleyici element ve varyant tipleri ile gösterim yolları**
+
 | Element / varyant tipi | Moleküler sonuç | Yön | Nasıl gösterilir | Örnek |
 |---|---|---|---|---|
 | Promotör — TF motifi kaybı | Transkripsiyon azalır | Kayıp (doz) | Reporter, ifade ölçümü, alel-spesifik ifade | β-globin promotör varyantları |
@@ -135,6 +139,8 @@ Bu gözlemin klinik karşılığı bir ipucuna dönüşür: **bilinen bir sendro
 
 Kodlamayan varyantların ikinci klinik özelliği, aynı düzenleyici lokusun hem kayıp hem kazanım yönünde hastalık yapabilmesidir. ZRS bunun en temiz örneğidir: bu enhancer'ın **kaybı** (delesyonu) uzuv gelişiminde eksiklik yönünde bozukluklara yol açarken, **aktive edici nokta varyantları** ektopik *SHH* ifadesiyle fazladan parmak üretir. Aynı mantık Bölüm 8'deki *PMP22* örneğini (delesyon → HNPP, duplikasyon → CMT1A) düzenleyici düzeyde tekrarlar.
 
+**Algoritma 13.1 — Kodlamayan varyantın etki yönünün belirlenmesi**
+
 ```mermaid
 flowchart TD
   A["Kodlamayan bölgede aday varyant"] --> B{"Hangi elementte?"}
@@ -164,6 +170,8 @@ Klinik olarak güçlü şüphe taşıyan hastaların önemli bir bölümü, ekzo
 ## 5. Tanısal testlerle ilişkisi
 
 Kodlamayan varyantlarda test seçimi iki aşamalıdır ve bu iki aşamayı karıştırmamak gerekir: önce varyantı **görmek** (dizileme), sonra onun gerçekten işlev bozduğunu **göstermek** (fonksiyonel doğrulama). Standart tanısal testlerin hiçbiri tek başına ikincisini yapamaz.
+
+**Tablo 13.3 — Kodlamayan varyantları hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -198,6 +206,8 @@ Bu bölümün laboratuvar pratiğine en doğrudan dokunan kısmı burasıdır. A
 Buna karşılık **bazı kanıtlar belirgin biçimde ağırlık kazanır.** Birincisi ve en önemlisi **PS3, yani fonksiyonel kanıttır**: reporter deneyleri (tekil veya MPRA gibi paralel biçimlerde), hasta dokusunda ifade kaybının veya alel-spesifik ifadenin gösterilmesi, elementin CRISPR ile silinmesinin fenotipi tekrarlaması. Bölüm 4'te değindiğimiz "fonksiyonel kanıt önce mekanizmayı tanımlamalıdır" ilkesi (Brnich ve ark., 2019) burada özellikle kritiktir: ölçülen şey, o gen için beklenen mekanizmayla (doz kaybı mı, ektopik ifade mi) tutarlı olmalıdır. İkincisi, **ailede segregasyon ve fenotip uyumu** — kodlayan analiz negatifken bir kodlamayan varyantın aile içinde hastalıkla birlikte ayrışması güçlü bir işarettir. Üçüncüsü, **elementin hedef dokuda etkin olduğunun gösterilmesi**; ATAC-seq, ChIP-seq ve benzeri epigenomik verilerle elementin varlığının ve doku uyumunun belgelenmesi.
 
 > **🟦 Klinikte dikkat — Üç şart birlikte sağlanmalı:** Bir kodlamayan varyantı raporda öne çıkarmadan önce üç soru birlikte yanıtlanmalıdır. **(1) Element gerçek mi?** Varyant, ilgili dokuda etkin olduğu gösterilmiş tanımlı bir düzenleyici elementin içinde mi? **(2) Hedef gen doğru mu?** Elementin yönettiği gen hangisi — en yakın gen olduğu varsayılmadan, temas ve ifade verisiyle belirlendi mi (bkz. *FTO* → *IRX3*)? **(3) Mekanizma uyuyor mu?** O gende beklenen hastalık mekanizması (doz kaybı mı, ektopik ifade mi) hastanın fenotipini açıklıyor mu? Üçü birden sağlanmıyorsa varyant **VUS olarak kalmalıdır.** Bu titizliğin gerekçesi istatistikseldir: her bireyin genomunda milyonlarca kodlamayan varyant, bunların binlercesi nadirdir. "Kodlamayan bölgede ve nadir" ölçütü tek başına kullanılırsa, her WGS analizi kaçınılmaz olarak yanlış pozitif üretir.
+
+**Algoritma 13.2 — Kodlamayan aday varyantta kriter seçimi**
 
 ```mermaid
 flowchart TD
@@ -263,6 +273,8 @@ flowchart TD
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 13.3 — Ekzom negatif olguda kodlamayan varyant akışı**
 
 ```mermaid
 flowchart TD
@@ -330,6 +342,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 13.4 — Bölüm 13 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

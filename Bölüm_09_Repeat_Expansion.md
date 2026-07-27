@@ -32,6 +32,8 @@ Bu mutasyon sınıfını daha önce ele aldığımız nokta varyantlarından, k�
 
 **Tekrarın genomdaki konumu** ne tür bir patojenik yol izleneceğini belirleyen en kritik faktördür. Kodlama bölgesindeki (ekzonikte) bir CAG genişlemesi, mRNA'ya kopyalanır ve proteinin uzamış bir glutamin zincirine dönüşür — bu, polyQ hastalıklarında gördüğümüz protein GoF mantığıdır. Bir genin 3' UTR'sindeki veya intronundaki CTG ya da GAA genişlemesi ise mRNA/pre-mRNA düzeyinde toksik bir kazanım yaratabilir ya da heterokromatin oluşturarak geni tamamen susturabilir. 5' UTR'deki CGG genişlemesi ise tam mutasyon aralığında metilasyon ve epigenetik sessizleşmeyle LoF'a yol açarken, daha kısa premutasyon aralığında aşırı transkripsiyonla RNA GoF sendromunun kapısını aralar.
 
+**Tablo 9.1 — Tekrar konumuna göre başlıca mekanizmalar ve örnek hastalıklar**
+
 | Tekrar konumu | Önde gelen mekanizma | Örnek hastalık |
 |---|---|---|
 | Ekzonik (kodlayan) | Protein GoF (polyQ/polyA) | Huntington (CAG), SCA1-3-6-7, DRPLA |
@@ -82,6 +84,8 @@ Hastalık başlangıç yaşı ile CAG tekrar sayısı arasındaki ters ilişki, 
 
 Tekrar genişlemesi hastalıklarında "varyant tipi" kavramı, daha önce incelediğimiz nokta varyant sınıflandırmasından (missense, nonsense, frameshift...) farklı bir eksende düşünülmelidir. Burada birincil sınıflandırma ekseni **tekrar sayısı** ve **tekrarın konumudur**; bunlar birlikte hem mekanizmayı hem klinik çıktıyı belirler.
 
+**Tablo 9.2 — Tekrar sayısı kategorileri ve klinik anlamları**
+
 | Tekrar sayısı kategorisi | Tipik klinik anlam | Test stratejisi |
 |---|---|---|
 | Normal aralık | Taşıyıcı değil; hastalık riski popülasyon düzeyinde | Özelleşmiş test gerekmez |
@@ -120,6 +124,8 @@ Tekrar uzunluğu yalnızca nesiller arasında değil, aynı bireyin farklı doku
 
 Tekrar genişlemesi hastalıkları, genetik test yöntemlerinin sınırlarını en çarpıcı biçimde ortaya koyan hastalık grubudur. Bunun nedeni, standart kısa okuma (short-read) NGS yöntemlerinin tekrarlı bölgeleri doğru hizalamasının ve saymasının son derece güç olmasıdır.
 
+**Tablo 9.3 — Tekrar genişlemesini hangi test yakalar?**
+
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
 | WES (Exome Sequencing) | ❌ Genellikle hayır | Kısa okumalar tekrarlı bölgeleri hizalayamaz; tekrar sayısını doğru hesaplamak için özel bioinformatik gerekir; rutin raporlamada sistemik kaçırma |
@@ -146,6 +152,8 @@ Tekrar genişlemesi varyantlarının ACMG/ClinGen çerçevesinde yorumlanması, 
 **İndirgенmiş penetrans aralığı özel bir kategoridir.** HTT için 36–39 CAG tekrar aralığı, hasta bireyin HD geliştireceğini garanti etmez; hastalık görülmeden yaşlanmak mümkündür. Ancak aynı alel sonraki nesilde genişleyebilir ve tam penetranslı HD'ye dönüşebilir. Bu nedenle bu aralıktaki varyantlar için ACMG kriterlerinin mekanik uygulanması yetmez; aile öyküsü, yaş ve üreme planları birlikte değerlendirilmelidir.
 
 **Kesinti motifleri (interruptions) yorumu etkiler.** Bazı tekrar bölgelerindeki normal kesintiler (örneğin SCA1'de CAT motifleri) aleli stabilize eder; bu kesintilerin yokluğu patolojik genişleme riskini artırır. Long-read sequencing, bu kesinti motiflerini tek okumada gösterebilir ve yoruma katkı sağlar.
+
+**Algoritma 9.1 — Tekrar genişlemesinde kanıt ve yorum akışı**
 
 ```mermaid
 flowchart TD
@@ -210,6 +218,8 @@ Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG 
 
 ## 9. Klinik pratikte karar algoritması
 
+**Algoritma 9.2 — Anticipasyon şüphesinde klinik karar akışı**
+
 ```mermaid
 flowchart TD
   A["Klinik şüphe:\nAtaksi / miyotoni / entelektüel yetersizlik\n/ nörodejenerasyon / kardiyomiyopati\n/ prematür menopoz / ALS-FTD"] --> B{"Aile öyküsü?"}
@@ -270,6 +280,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 9.4 — Bölüm 9 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

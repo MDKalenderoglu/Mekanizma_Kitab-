@@ -1,6 +1,6 @@
 <svg viewBox="0 0 980 520" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <rect x="0" y="0" width="980" height="520" fill="#ffffff"/>
-  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 2 — Gen Anatomisi: DNA → Transkript → Protein</text>
+  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 1.2 — Gen Anatomisi: DNA → Transkript → Protein</text>
 
   <!-- 1. DNA / GEN duzeyi -->
   <text x="20" y="78" font-size="13" font-weight="700" fill="#1a2b4a">1) DNA (gen ve düzenleyici bölgeler)</text>

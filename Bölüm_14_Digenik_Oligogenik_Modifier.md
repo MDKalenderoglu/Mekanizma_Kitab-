@@ -37,6 +37,8 @@ Kavramları netleştirerek başlayalım. **Digenik kalıtımda** hastalık, iki 
 
 Bu sürekliliği anlamanın en yararlı aracı **eşik (yük) modelidir**. Model şunu varsayar: hastalık, bireyin taşıdığı genetik (ve çevresel) yükün belli bir eşiği aşmasıyla ortaya çıkar. Bu bakış, aynı fenotipe **farklı genetik mimarilerle** ulaşılabileceğini doğal biçimde açıklar: bir birey tek büyük etkili bir varyantla eşiği aşarken, bir başkası çok sayıda küçük katkının toplamıyla aşabilir. Aynı model, neden bazı taşıyıcıların hasta olmadığını da açıklar — o birey eşiğin altında kalmıştır. Bu, Bölüm 3'te doz–eşik, Bölüm 11'de heteroplazmi–eşik olarak gördüğümüz mantığın **lokuslar arası** karşılığıdır.
 
+**Tablo 14.1 — Digenik, oligogenik kalıtım ve modifiye edicilerin temel kavramları**
+
 | Kavram | Tanım | Klinik anlamı |
 |---|---|---|
 | Monogenik | Tek lokus; büyük etki | Mendel oranları geçerli; risk hesaplanabilir |
@@ -100,6 +102,8 @@ Buradan iki klinik sonuç çıkar. Birincisi, **genotip prognozu tam belirlemez*
 
 Bu bölümde "varyant tipi" sorusu farklı sorulur: önemli olan varyantın moleküler sınıfı değil, **kalıtım mimarisindeki rolüdür**. Aşağıdaki tablo bu rolleri ve her birinin kanıt gereksinimini toplar.
 
+**Tablo 14.2 — Varyantın kalıtım mimarisindeki rolü ve kanıt gereksinimi**
+
 | Rol | Tanım | Tek başına hastalık yapar mı? | Kanıt gereksinimi | Örnek |
 |---|---|---|---|---|
 | Tek nedensel varyant (monogenik) | Fenotibi tek başına açıklar | Evet | Standart ACMG | Kitabın Bölüm 2–13'ü |
@@ -133,6 +137,8 @@ Aynı olgu monogenik diyabet tablolarında da iyi belgelenmiştir. Monogenik diy
 
 Klinikte en sık sorulan sorulardan biridir ve ailelerin en çok zorlandığı belirsizliktir. Cevabın bir kısmı Bölüm 12'de gördüğümüz mozaikliktir, bir kısmı Bölüm 11'deki heteroplazmidir; ama nükleer, konstitüsyonel bir varyantın söz konusu olduğu durumlarda cevap çoğu zaman **modifiye edici genetik bağlamdır**. SMA'da bu bağlam ölçülebilir bir sayıya (*SMN2* kopya sayısı) indirgenebildiği için istisnai biçimde nettir; çoğu hastalıkta ise henüz böyle bir "sayaç" yoktur.
 
+**Algoritma 14.1 — Beklenmedik fenotip ağırlığında modifiye edici arayışı**
+
 ```mermaid
 flowchart TD
   A["Hastada ana lokusta patojen varyant var<br/>ama fenotip beklenenden FARKLI"] --> B{"Fark hangi yönde?"}
@@ -157,6 +163,8 @@ flowchart TD
 Şüpheyi tetikleyen örüntüler şunlardır: klinik olarak güçlü bir tanıda tek gende bulunan varyantın **fenotibi tam açıklayamaması**; ailede kalıtım kalıbının hiçbir Mendel modeline oturmaması; aynı varyantı taşıyan akrabalar arasında **açıklanamayan penetrans farkı**; bilinen bir resesif hastalıkta iki patojen alel taşıyan sağlıklı bireylerin gösterilmesi; ve fenotibin bilinen tabloya göre olağandışı biçimde ağır olması. Bu örüntüler tek başlarına tanı koydurmaz, ancak analiz stratejisini genişletmeyi gerektirir.
 
 Aşağıdaki akış, eldeki gözlemlerden hangi mimarinin düşünülmesi gerektiğini ayırt etmeye yarar. Dikkat edilmesi gereken nokta, ilk dallanmanın **varyantların aynı gende mi farklı genlerde mi olduğu** sorusu olmasıdır; pedigri görüntüsü tek başına ayırt edici değildir.
+
+**Algoritma 14.2 — Digenik ve oligogenik kalıtımın ayırt edilmesi**
 
 ```mermaid
 flowchart TD
@@ -185,6 +193,8 @@ flowchart TD
 ## 5. Tanısal testlerle ilişkisi
 
 Bu bölümde testin kendisinden çok **analiz stratejisi** belirleyicidir: aynı WES/WGS verisi, tek-gen varsayımıyla analiz edildiğinde negatif, çift-lokus/yük perspektifiyle analiz edildiğinde bilgilendirici olabilir. Ayrıca aile örneklerinin (trio veya genişletilmiş aile) değeri bu bölümde diğer bütün bölümlerden daha yüksektir.
+
+**Tablo 14.3 — Çok-lokuslu mimarileri hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -262,6 +272,8 @@ Bu zorluklar karşısında dayanılacak ilke, gen–hastalık ilişkisinin geçe
 
 ## 9. Klinik pratikte karar algoritması
 
+**Algoritma 14.3 — Çok-lokus şüphesinde klinik karar akışı**
+
 ```mermaid
 flowchart TD
   A["Güçlü klinik tanı<br/>+ genetik sonuç fenotibi TAM AÇIKLAMIYOR"] --> B{"Ana lokusta patojen<br/>varyant var mı?"}
@@ -326,6 +338,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 14.4 — Bölüm 14 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

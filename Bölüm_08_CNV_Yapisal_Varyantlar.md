@@ -2,7 +2,7 @@
 
 > **Bölümün çekirdek tezi:** Şimdiye kadar tek nükleotid düzeyindeki varyantları işledik; bu bölüm ölçeği büyütür. **Yapısal varyantlar (SV)** — delesyon, duplikasyon, inversiyon, translokasyon, insersiyon ve kompleks yeniden düzenlenmeler — kilobazlardan megabazlara uzanan DNA parçalarını etkiler; bunların **kopya sayısını değiştirenleri** (delesyon/duplikasyon) **kopya sayısı varyantı (CNV)** olarak adlandırılır. CNV/SV'ler hastalığı tek bir yoldan değil, **beş ayrı yoldan** yapar: doz değişimi (delesyon→haploinsufficiency, duplikasyon→artmış doz), kırılma noktasının bir geni bölmesi, gen füzyonu, **pozisyon etkisi/TAD bozulması** (enhancer'ın yanlış gene bağlanması) ve karşı alleldeki resesif varyantın maskesinin kalkması. Bu yüzden CNV yorumunun anahtarı boyut değil, **hangi doz-duyarlı geni veya düzenleyici sınırı etkilediğidir** — aynı büyüklükte bir CNV zararsız da olabilir, ölümcül de. Bu bölüm, kitabın doz (Bölüm 3–4), neomorfik füzyon (Bölüm 6) ve düzenleyici (Bölüm 13) iplikçiklerini genomik ölçekte birleştirir ve tanıda **kromozomal mikroarray (CMA)** ile **ClinGen dozaj puanlamasını** merkeze koyar.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga üç şekildir: Şekil 27 (SV tipleri — dengeli vs dengesiz), Şekil 28 (CNV'nin beş hastalık yolu) ve Şekil 29 (PMP22: aynı lokus, zıt doz, zıt hastalık). "CNV = sadece kaç kopya" sezgisini Şekil 28'in 2–5. yolları (kesinti, füzyon, pozisyon etkisi, maske kalkması) genişletir. Uzman okuyucu §5'te CMA'nın birinci-basamak rolüne ve §6'da ClinGen/ACMG dozaj puanlamasına (HI/TS, pHaplo/pTriplo) yoğunlaşabilir. Bölüm 3 (haploinsufficiency) ve Bölüm 4 (artmış doz) bu bölümün doz zeminidir; pozisyon etkisi Bölüm 13'e köprüdür.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga üç şekildir: Şekil 8.1 (SV tipleri — dengeli vs dengesiz), Şekil 8.2 (CNV'nin beş hastalık yolu) ve Şekil 8.3 (PMP22: aynı lokus, zıt doz, zıt hastalık). "CNV = sadece kaç kopya" sezgisini Şekil 8.2'in 2–5. yolları (kesinti, füzyon, pozisyon etkisi, maske kalkması) genişletir. Uzman okuyucu §5'te CMA'nın birinci-basamak rolüne ve §6'da ClinGen/ACMG dozaj puanlamasına (HI/TS, pHaplo/pTriplo) yoğunlaşabilir. Bölüm 3 (haploinsufficiency) ve Bölüm 4 (artmış doz) bu bölümün doz zeminidir; pozisyon etkisi Bölüm 13'e köprüdür.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -24,13 +24,15 @@ Bu bölümü tamamlayan okuyucu:
 
 ## 1. Kavramsal tanım
 
-Genetik varyasyonun büyük bir kısmı tek nükleotid değişimleri değil, **DNA segmentlerinin yapısal yeniden düzenlenmeleridir**. Bir parçanın kaybı (**delesyon**), fazladan kopyalanması (**duplikasyon**), ters çevrilmesi (**inversiyon**), başka bir konuma taşınması (**translokasyon**) ya da araya yeni dizi girmesi (**insersiyon**) — bunların hepsi yapısal varyanttır (Şekil 27). Bunlardan kopya sayısını değiştirenler (delesyon ve duplikasyon) **kopya sayısı varyantı (CNV)** olarak adlandırılır. Önemli bir kavramsal ayrım, **dengesiz** (kopya sayısı değişir: delesyon/duplikasyon) ve **dengeli** (toplam DNA aynı kalır: inversiyon/translokasyon) varyantlar arasındadır — ama dengeli bir varyant bile, kırılma noktası bir genin ortasından geçerse ya da düzenleyici bir sınırı bozarsa hastalık yapabilir.
+Genetik varyasyonun büyük bir kısmı tek nükleotid değişimleri değil, **DNA segmentlerinin yapısal yeniden düzenlenmeleridir**. Bir parçanın kaybı (**delesyon**), fazladan kopyalanması (**duplikasyon**), ters çevrilmesi (**inversiyon**), başka bir konuma taşınması (**translokasyon**) ya da araya yeni dizi girmesi (**insersiyon**) — bunların hepsi yapısal varyanttır (Şekil 8.1). Bunlardan kopya sayısını değiştirenler (delesyon ve duplikasyon) **kopya sayısı varyantı (CNV)** olarak adlandırılır. Önemli bir kavramsal ayrım, **dengesiz** (kopya sayısı değişir: delesyon/duplikasyon) ve **dengeli** (toplam DNA aynı kalır: inversiyon/translokasyon) varyantlar arasındadır — ama dengeli bir varyant bile, kırılma noktası bir genin ortasından geçerse ya da düzenleyici bir sınırı bozarsa hastalık yapabilir.
 
-![Şekil 27 — Yapısal varyant tipleri ve dengeli/dengesiz ayrımı](assets/sekil_27_sv_tipleri.svg)
+![Şekil 8.1 — Yapısal varyant tipleri ve dengeli/dengesiz ayrımı](assets/sekil_27_sv_tipleri.svg)
 
 CNV'lerin keşfi, insan genetik varyasyonuna bakışımızı değiştirmiştir. Stankiewicz ve Lupski (2010), mikroarray ve dizileme teknolojilerinin submikroskopik CNV'leri ortaya çıkardığını ve bunların — toplam nükleotid sayısı bakımından SNP'leri bile aşacak biçimde — insan çeşitliliğinin ve giderek artan sayıda hastalığın temelinde yattığını özetler; bu tür CNV-aracılı durumlar **genomik bozukluklar (genomic disorders)** olarak adlandırılır (Stankiewicz &amp; Lupski, 2010, *Annu Rev Med*; [DOI](https://doi.org/10.1146/annurev-med-100708-204735)). Buradaki kritik kavramsal nokta şudur: CNV'nin patojenitesi **boyutuyla değil içeriğiyle** belirlenir — büyük ama gen-fakir bir delesyon zararsız olabilirken, küçük ama doz-duyarlı bir geni kapsayan bir delesyon ağır hastalık yapabilir.
 
 Aşağıdaki tablo bölüm boyunca açacağımız kavramları bir arada gösterir.
+
+**Tablo 8.1 — Yapısal varyantların temel kavramları**
 
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
@@ -52,9 +54,9 @@ CNV'lerin oluşumunda iki büyük mekanizma sınıfı vardır. **Rekombinasyon t
 
 ### 2.2. CNV/SV hastalığı nasıl yapar? — beş yol
 
-Bir CNV'nin patojen olup olmadığını anlamanın anahtarı, onun hangi **mekanizma yoluyla** etki ettiğini sormaktır (Şekil 28).
+Bir CNV'nin patojen olup olmadığını anlamanın anahtarı, onun hangi **mekanizma yoluyla** etki ettiğini sormaktır (Şekil 8.2).
 
-![Şekil 28 — CNV/yapısal varyantların beş hastalık yolu](assets/sekil_28_cnv_hastalik_yollari.svg)
+![Şekil 8.2 — CNV/yapısal varyantların beş hastalık yolu](assets/sekil_28_cnv_hastalik_yollari.svg)
 
 **Birinci ve en sık yol dozajdır.** Doz-duyarlı bir geni kapsayan **delesyon** o genin dozunu %50'ye indirir (haploinsufficiency, Bölüm 3); **duplikasyon** ise %150'ye çıkarır (artmış doz/triplosensitivite, Bölüm 4). **İkinci yol gen kesintisidir:** bir kırılma noktası bir genin ortasından geçerse geni bölerek işlevsizleştirir — ve bu, kopya sayısını hiç değiştirmeyen **dengeli** bir translokasyon/inversiyonda bile olabilir. **Üçüncü yol gen füzyonudur:** iki gen uç uca birleşip kimerik (melez) bir protein oluşturur; bu, normalde olmayan yeni bir aktivite (neomorfik/GoF, Bölüm 6) taşıyabilir — özellikle kanser biyolojisinde sıktır. **Dördüncü yol pozisyon etkisidir** (§2.3). **Beşinci yol resesif maskenin kalkmasıdır:** bir delesyon, karşı alleldeki gizli bir resesif varyantı "açığa çıkarır" (unmasking) ve tek bir delesyon, beklenmedik bir resesif hastalığa yol açar.
 
@@ -67,6 +69,8 @@ CNV/SV'lerin en ince yolu, hiçbir geni silmeden veya çoğaltmadan, genlerin **
 ---
 
 ## 3. Varyant tipleri
+
+**Tablo 8.2 — Yapısal varyant tipleri, doz etkisi ve hastalık yolları**
 
 | SV tipi | Doz etkisi | Tipik hastalık yolu |
 |---|---|---|
@@ -87,15 +91,17 @@ Bölümün anahtar sorularını yanıtlayalım.
 
 **Soru 1 — Bir CNV'nin patojen olup olmadığını ne belirler?** Boyutu değil, **içeriği**: kapsadığı genlerin doz duyarlılığı (haploinsufficiency/triplosensitivite), bilinen bir genomik bozukluk bölgesiyle örtüşüp örtüşmediği ve düzenleyici sınırları bozup bozmadığı. ClinGen dozaj puanlaması tam bunu sistematize eder (§6).
 
-**Soru 2 — Delesyon mu duplikasyon mu daha ağır?** Gene bağlıdır; tek bir kural yoktur. PMP22 (Şekil 29) bunun klasik örneğidir: aynı 17p12 bölgesinin **delesyonu HNPP** (basınca duyarlı nöropati, haploinsufficiency), **duplikasyonu CMT1A** (demiyelinizan nöropati, artmış doz) yapar — aynı lokus, zıt doz, zıt hastalık.
+**Soru 2 — Delesyon mu duplikasyon mu daha ağır?** Gene bağlıdır; tek bir kural yoktur. PMP22 (Şekil 8.3) bunun klasik örneğidir: aynı 17p12 bölgesinin **delesyonu HNPP** (basınca duyarlı nöropati, haploinsufficiency), **duplikasyonu CMT1A** (demiyelinizan nöropati, artmış doz) yapar — aynı lokus, zıt doz, zıt hastalık.
 
-![Şekil 29 — PMP22: aynı lokus, zıt doz, zıt hastalık (HNPP vs CMT1A)](assets/sekil_29_pmp22_dozaj.svg)
+![Şekil 8.3 — PMP22: aynı lokus, zıt doz, zıt hastalık (HNPP vs CMT1A)](assets/sekil_29_pmp22_dozaj.svg)
 
 PMP22 örneği, Bölüm 4'teki "aynı gen, iki yön" temasının (RET, SCN2A) doz düzeyindeki karşılığıdır: orada varyantın *yönü* (GoF/LoF), burada kopya sayısının *yönü* (kayıp/kazanç) zıt fenotipler üretir. Lupski ve ark. (1991), CMT1A'nın 17p'deki bir **duplikasyondan** kaynaklandığını gösteren landmark çalışmada, doz değişiminin tek başına bir Mendel hastalığı yapabileceğini kanıtlamıştır (Lupski ve ark., 1991, *Cell*; [DOI](https://doi.org/10.1016/0092-8674(91)90613-4)).
 
 **Soru 3 — CNV neden değişken seyreder?** Penetrans/ekspresivite farkları, duyarlılık CNV'leri ve ikinci-vuruş etkileri nedeniyle (§2.2 deep-dive). Bu yüzden aile çalışması ve fenotip korelasyonu yorumun ayrılmaz parçasıdır.
 
 Aşağıdaki Mermaid, bir CNV'nin mekanizmasına nasıl gidileceğini özetler.
+
+**Algoritma 8.1 — Saptanan yapısal varyantın hastalık yolunun belirlenmesi**
 
 ```mermaid
 flowchart TD
@@ -119,6 +125,8 @@ flowchart TD
 ## 5. Tanısal testlerle ilişkisi
 
 CNV/SV'lerde test seçimi, varyantın **tipine ve boyutuna** göre değişir. Kopya-sayısı değişimleri için altın standart **kromozomal mikroarray (CMA)**'dır. Miller ve ark. (2010), gelişimsel gerilik/zihinsel yetersizlik, otizm spektrum bozukluğu veya çoklu konjenital anomalisi olan bireylerde CMA'nın tanısal getirisinin (%15–20) karyotipinkinden (~%3) çok daha yüksek olduğunu göstererek CMA'yı **birinci-basamak test** olarak önermiştir; karyotip ise yalnız belirgin kromozomal sendromlar, dengeli yeniden düzenlenme aile öyküsü veya tekrarlayan düşük öyküsü için saklanmalıdır (Miller ve ark., 2010, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2010.04.006)). Önemli sınır: CMA **dengeli** yeniden düzenlenmeleri (translokasyon/inversiyon) ve düşük düzey mozaikliği göremez.
+
+**Tablo 8.3 — CNV ve yapısal varyantları hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -145,6 +153,8 @@ Bu puanlamayı popülasyon-ölçekli metrikler tamamlar. Collins ve ark. (2022),
 
 Aşağıdaki akış CNV yorumunu özetler.
 
+**Algoritma 8.2 — CNV puanlama ve raporlama akışı**
+
 ```mermaid
 flowchart TD
   A["CNV (CMA/WGS ile saptandı)"] --> B{"Tipi: delesyon mu duplikasyon mu?"}
@@ -164,7 +174,7 @@ flowchart TD
 
 ### 7.1. PMP22 (17p12): CMT1A ve HNPP — doz yönünün ders kitabı örneği
 
-CMT1A/HNPP ikilisi, doz-duyarlılığın en saf klinik gösterimidir (§4, Şekil 29). 17p12'deki *PMP22* genini kapsayan ~1.4 Mb'lik bölge, yan dizilerindeki tekrarlar (CMT1A-REP) nedeniyle NAHR için bir hotspot bölgesidir ve bu mekanizma **resiprokal** olarak hem duplikasyon hem delesyon üretir. **Duplikasyon** (üç *PMP22* kopyası) fazla miyelin proteinine ve **CMT1A**'ya (demiyelinizan periferik nöropati) yol açar; **delesyon** (tek kopya) yetersiz proteine ve **HNPP**'ye (basınç paralizilerine yatkın herediter nöropati) yol açar (Lupski ve ark., 1991; [DOI](https://doi.org/10.1016/0092-8674(91)90613-4)). Bu örneğin dersi: bir gen doza duyarlıysa, kopya sayısının yönü doğrudan farklı hastalıklara çevrilir — ve bu, NAHR mekanizmasının neden bu iki hastalığı "ikiz" yaptığını açıklar.
+CMT1A/HNPP ikilisi, doz-duyarlılığın en saf klinik gösterimidir (§4, Şekil 8.3). 17p12'deki *PMP22* genini kapsayan ~1.4 Mb'lik bölge, yan dizilerindeki tekrarlar (CMT1A-REP) nedeniyle NAHR için bir hotspot bölgesidir ve bu mekanizma **resiprokal** olarak hem duplikasyon hem delesyon üretir. **Duplikasyon** (üç *PMP22* kopyası) fazla miyelin proteinine ve **CMT1A**'ya (demiyelinizan periferik nöropati) yol açar; **delesyon** (tek kopya) yetersiz proteine ve **HNPP**'ye (basınç paralizilerine yatkın herediter nöropati) yol açar (Lupski ve ark., 1991; [DOI](https://doi.org/10.1016/0092-8674(91)90613-4)). Bu örneğin dersi: bir gen doza duyarlıysa, kopya sayısının yönü doğrudan farklı hastalıklara çevrilir — ve bu, NAHR mekanizmasının neden bu iki hastalığı "ikiz" yaptığını açıklar.
 
 ### 7.2. Mikrodelesyon / mikroduplikasyon sendromları — genomik bozukluklar
 
@@ -191,6 +201,8 @@ Pediatrik genetikte CNV'lerin büyük kısmı **tekrarlayan mikrodelesyon/mikrod
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 8.3 — Gelişimsel gerilik ve çoklu anomalide test akışı**
 
 ```mermaid
 flowchart TD
@@ -225,9 +237,12 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 8.4 — Bölüm 8 öz-denetim tablosu**
+
 | Kriter | Durum | Not |
 |--------|-------|-----|
-| Mekanizma doğru anlatıldı mı? | ✅ | SV tipleri + 5 hastalık yolu + NAHR/TAD (Şekil 27–28) |
+| Mekanizma doğru anlatıldı mı? | ✅ | SV tipleri + 5 hastalık yolu + NAHR/TAD (Şekil 8.1–28) |
 | Klinik bağlantı kuruldu mu? | ✅ | CMT1A/HNPP, mikrodelesyon sendromları |
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | §3 tablo + dengeli/dengesiz |
 | Pediatrik örnek verildi mi? | ✅ | PMP22 (CMT1A/HNPP), 22q11/Williams/SMS |

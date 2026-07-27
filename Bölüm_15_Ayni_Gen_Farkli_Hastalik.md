@@ -34,6 +34,8 @@ Aradaki fark akademik bir incelik değildir; doğrudan raporu değiştirir. Loku
 
 Bu bölümün kavramsal omurgasını oluşturan üçüncü terim ise klinik laboratuvardan gelir: **gen–hastalık varlığı (gene–disease entity)**. ClinGen'in gen–hastalık geçerliliği çerçevesi, kanıtın gücünü değerlendirirken hiçbir zaman yalnız "gen"i değil, bir **gen ile bir hastalık arasındaki ilişkiyi** puanlar ve bu ilişkiyi "Kesin (Definitive)", "Güçlü", "Orta", "Sınırlı", "Bildirilmiş kanıt yok" veya "Çelişkili kanıt" olarak sınıflar (Strande ve ark., 2017). Yani bir gen, bir hastalık için "Kesin", başka bir hastalık için "Sınırlı" olabilir. Allelik seri, bu çerçevenin neden bu şekilde kurulduğunu gösteren esas nedendir.
 
+**Tablo 15.1 — Heterojenite türleri ve tanısal karşılıkları**
+
 | Kavram | Tanım | Klinik/laboratuvar sonucu |
 |---|---|---|
 | Lokus heterojenitesi | Aynı fenotip, **farklı genler** | Paneli genişlet; tek gen negatifliği tanıyı dışlamaz |
@@ -117,6 +119,8 @@ Son eksen, varyantın kendisiyle değil içinde bulunduğu bağlamla ilgilidir. 
 
 Bu bölümde varyant tipi sorusu ters yönde sorulur: klasik olarak "bu varyant tipi hangi mekanizmayı yapar?" diye sorarız; allelik seride ise "bu varyant tipi beni serinin **hangi ucuna** götürür?" diye sormamız gerekir. Aşağıdaki tablo bu yönlendirmeyi özetler.
 
+**Tablo 15.2 — Varyant tipinin allelik serideki tipik konumu**
+
 | Varyant tipi | Seride tipik konumu | Mekanizma sonucu | Uyarı |
 |---|---|---|---|
 | Nonsens / çerçeve kayması (NMD'ye giden) | Serinin **işlev kaybı** ucu | Null alel; yetersiz doz veya resesif tablo | NMD kaçışı varsa DN'e kayabilir (Bölüm 2) |
@@ -145,6 +149,8 @@ Pratik sonuç, **derin fenotipleme** ile ifade edilir: boy, segment oranları, i
 ### 4.2 "Bu gende varyant bulundu — hangi hastalık?"
 
 Klinik pratikte bu bölümün en sık karşılaşılan sorusu budur ve altı eksen buna sistematik bir yanıt verir.
+
+**Algoritma 15.1 — Allelik seride hangi hastalık? Ayrım akışı**
 
 ```mermaid
 flowchart TD
@@ -186,6 +192,8 @@ Allelik serinin aynası, lokus heterojenitesidir; ikisi tanısal stratejide birl
 
 Allelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığın arandığı varsayımıdır.** Aynı gen için hedefli hotspot dizilemesi bir hastalıkta yeterliyken, başka bir hastalıkta gen tamamı + delesyon/duplikasyon analizi gerekir. Aşağıdaki tablo bu bakışla okunmalıdır.
 
+**Tablo 15.3 — Allelik serilerde hangi test ne gösterir?**
+
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
 | **WES** | Evet — allelik serilerin çoğu kodlayan varyantlardan doğar; gen paneli/WES çekirdek yöntemdir | Varyantı bulur ama **serideki yerini söylemez**; fenotip verisi olmadan yorumlanamaz. Derin intronik ve düzenleyici basamakları kaçırır |
@@ -219,6 +227,8 @@ Bu bölüm, ACMG/AMP çerçevesinin (Richards ve ark., 2015) en sessiz varsayım
 **PP4 (fenotip özgüllüğü).** Allelik seri taşıyan genlerde bu kriterin gücü azalır: "hastanın fenotibi bu gen için oldukça özgül" cümlesi, gen birden çok hastalık yapıyorsa yeterince ayırt edici değildir. Kriteri kullanabilmek için fenotibin **belirli bir hastalık varlığına** özgü olduğu gösterilmelidir.
 
 Bütün bunların üstünde duran soru ise küreleme sorusudur: **aynı genin iki fenotibi tek bir hastalık varlığı mı sayılmalı, yoksa ikiye mi ayrılmalı?** ClinGen, gen–hastalık ilişkilerinin, varyant patojenitesinin ve klinik eyleme geçirilebilirliğin gücünü sınıflandırmak için çerçeveler geliştirdiğinden, değerlendirilecek **hastalık varlığının tanımlanması** zorunlu bir ön adım hâline gelmiştir; bu, birden çok durumla ve/veya geniş fenotipik spektrumla ilişkili genlerde özellikle zordur. Bu nedenle "birleştirme ve ayırma" kararlarını yönlendirecek ve monogenik gen–hastalık ilişkilerinin tanımlanmasında tutarlılığı artıracak ölçütler geliştirilmiştir; bu ölçütlerin klinik tanı, biyoinformatik ve bakım yönetimi açısından somut sonuçları vardır (Thaxton ve ark., 2022). Pratikte ölçütler üç soruya indirgenebilir: **moleküler mekanizma aynı mı, kalıtım modu aynı mı, fenotipler bir süreklilik oluşturuyor mu?** Üçüne de "evet" ise tablolar tek bir hastalık varlığı altında birleştirilir (geniş spektrum olarak tanımlanır); biri bile "hayır" ise ayrılır.
+
+**Algoritma 15.2 — Allelik seride ACMG kriterlerinin uyarlanması**
 
 ```mermaid
 flowchart TD
@@ -297,6 +307,8 @@ flowchart TD
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 15.3 — Allelik seri taşıyan gende klinik karar akışı**
 
 ```mermaid
 flowchart TD
@@ -377,6 +389,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 15.4 — Bölüm 15 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

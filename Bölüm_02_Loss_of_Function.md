@@ -21,6 +21,8 @@ Bu bölümü tamamlayan okuyucu:
 
 ## 1. Kavramsal tanım
 
+**Tablo 2.1 — İşlev kaybının temel kavramları**
+
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
 | **Loss-of-function (LoF)** | Gen ürününün işlevinin kısmen/tamamen kaybı | Mekanizmanın yönü "azalma"dır; doz/eşik mantığı geçerli |
@@ -53,11 +55,11 @@ Bu bölümü tamamlayan okuyucu:
 
 ### 2.2. NMD: LoF mekanizmasının kalbi
 
-![Şekil 7 — NMD kararı: PTC nerede?](assets/sekil_07_nmd_karar.svg)
+![Şekil 2.1 — NMD kararı: PTC nerede?](assets/sekil_07_nmd_karar.svg)
 
 NMD, erken sonlanma kodonu (PTC) taşıyan transkriptleri yıkan bir mRNA gözetim sistemidir; bu transkriptlerin yıkılmaması, dominant-negatif veya gain-of-function etkilerle hücreye toksik olabilen anormal proteinlerin sentezine yol açabilir ve NMD bilgisi çeşitli genetik hastalıklarda genotip–fenotip korelasyonunu anlamak için gereklidir (Khajavi, Inoue, Lupski, 2006, *Eur J Hum Genet*; [DOI](https://doi.org/10.1038/sj.ejhg.5201649)).
 
-**Pozisyon kuralı (basitleştirilmiş):** Bir PTC, **son ekzon-ekzon bağlantısının yaklaşık 50 nükleotid yukarısından daha önce** yer alıyorsa transkript genellikle NMD'ye uğrar (→ fonksiyonel null). PTC **son ekzonda** veya son bağlantıya çok yakınsa **NMD'den kaçar** (→ truncated protein üretilir; DN/GoF riski; Şekil 7).
+**Pozisyon kuralı (basitleştirilmiş):** Bir PTC, **son ekzon-ekzon bağlantısının yaklaşık 50 nükleotid yukarısından daha önce** yer alıyorsa transkript genellikle NMD'ye uğrar (→ fonksiyonel null). PTC **son ekzonda** veya son bağlantıya çok yakınsa **NMD'den kaçar** (→ truncated protein üretilir; DN/GoF riski; Şekil 2.1).
 
 Bu ayrım klinik olarak belirleyicidir, çünkü:
 - **NMD (+):** Transkript yok → "temiz" LoF → fenotip haploinsufficiency (dominant gende) veya resesif LoF mantığıyla; toksik protein riski düşük.
@@ -67,7 +69,7 @@ Bu ayrım klinik olarak belirleyicidir, çünkü:
 
 ### 2.3. Okuma çerçevesi (reading-frame) kuralı
 
-![Şekil 8 — Okuma çerçevesi kuralı (DMD)](assets/sekil_08_okuma_cercevesi_dmd.svg)
+![Şekil 2.2 — Okuma çerçevesi kuralı (DMD)](assets/sekil_08_okuma_cercevesi_dmd.svg)
 
 DMD lokusundaki kısmi delesyonlarda okuma çerçevesini **bozan** (out-of-frame) delesyonlar truncated/anormal protein ile ağır **Duchenne** fenotipine; çerçeveyi **koruyan** (in-frame) delesyonlar ise daha kısa ama yarı-işlevsel protein ile daha hafif **Becker** fenotipine yol açar; aynı mekanizma splice mutasyonlarına da uygulanır (Monaco ve ark., 1988, *Genomics*; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)).
 
@@ -76,6 +78,8 @@ Bu "okuma çerçevesi hipotezi" LoF biyolojisinin klasik örneğidir ve iki ders
 ---
 
 ## 3. Varyant tipleri ve beklenen LoF sonucu
+
+**Tablo 2.2 — Varyant tipleri ve beklenen işlev kaybı sonuçları**
 
 | Varyant tipi | Tipik moleküler sonuç | NMD beklentisi | Notlar |
 |--------------|------------------------|----------------|--------|
@@ -104,6 +108,8 @@ LoF tahmini (pLoF), patojenite ile eşanlamlı **değildir**. Patojenite için e
 
 ### 4.2. LoF intoleransı ve constraint metrikleri (pLI, LOEUF, HI)
 
+**Tablo 2.3 — İşlev kaybı intoleransı metrikleri ve yorum yönü**
+
 | Metrik | Ne ölçer? | Yorum yönü |
 |--------|-----------|-----------|
 | **pLI** | Genin LoF'a intolerans olasılığı (0–1) | pLI ≥ 0,9 → haploinsufficiency/dominant LoF için güçlü ipucu |
@@ -113,6 +119,8 @@ LoF tahmini (pLoF), patojenite ile eşanlamlı **değildir**. Patojenite için e
 > ⚠️ Bu metrikler **gen düzeyinde** önceliklendirme aracıdır; tek bir varyantın patojenitesini tek başına kanıtlamaz. Ayrıca **resesif LoF genleri** (her iki allel gerekir) genellikle "intoleran" görünmez — metriklerin doğru yorumlanması için kritik bir nokta.
 
 ### 4.3. Aynı gendeki LoF neden bazen dominant, bazen resesif?
+
+**Algoritma 2.1 — Aynı gendeki işlev kaybı neden farklı ağırlıkta hastalık yapar?**
 
 ```mermaid
 flowchart TD
@@ -127,6 +135,8 @@ Karar, genin **doz duyarlılığı** ve **fonksiyonel rezervi** ile belirlenir. 
 
 ### 4.4. NMD olur / olmazsa klinik sonuç (özet)
 
+**Tablo 2.4 — NMD olması ve olmaması durumunda klinik sonuçlar**
+
 | | **NMD (+)** | **NMD (−) / escape** |
 |---|------------|----------------------|
 | Ürün | Transkript yıkılır → ürün yok | Truncated protein üretilir |
@@ -139,17 +149,19 @@ Karar, genin **doz duyarlılığı** ve **fonksiyonel rezervi** ile belirlenir. 
 - **Hafif olabilir:** Kesilen C-terminal bölge işlevsel olarak az önemliyse, protein büyük ölçüde işlevini korur (yarı-işlevsel) → hafif fenotip.
 - **Ağır olabilir:** C-terminal kritik bir domain (dimerizasyon, lokalizasyon sinyali, düzenleyici bölge) içeriyorsa **veya** truncated protein dominant-negatif etki gösteriyorsa (NMD'den kaçtığı için üretilir), fenotip beklenenden ağır olur.
 
-> "Son ekzon = her zaman hafif/benign" varsayımı bu nedenle **yanlıştır** (Şekil 7B).
+> "Son ekzon = her zaman hafif/benign" varsayımı bu nedenle **yanlıştır** (Şekil 2.1B).
 
 ### 4.6. Rezidüel fonksiyon ve allelik spektrum
 
-![Şekil 9 — LoF allelik spektrumu: rezidüel fonksiyon → fenotip](assets/sekil_09_lof_spektrum.svg)
+![Şekil 2.3 — LoF allelik spektrumu: rezidüel fonksiyon → fenotip](assets/sekil_09_lof_spektrum.svg)
 
-Resesif LoF hastalıklarında fenotip ağırlığı, kalan işlevle ters orantılı bir **spektrum** oluşturur (Şekil 9). Compound heterozigotlarda pratik kural: **fenotipi genellikle daha hafif (rezidüel işlevi daha yüksek) allel belirler** — "daha iyi allel kazanır". Bu, PKU'da klasik PKU → hafif PKU → hafif hiperfenilalaninemi spektrumunun temelidir (§7.4).
+Resesif LoF hastalıklarında fenotip ağırlığı, kalan işlevle ters orantılı bir **spektrum** oluşturur (Şekil 2.3). Compound heterozigotlarda pratik kural: **fenotipi genellikle daha hafif (rezidüel işlevi daha yüksek) allel belirler** — "daha iyi allel kazanır". Bu, PKU'da klasik PKU → hafif PKU → hafif hiperfenilalaninemi spektrumunun temelidir (§7.4).
 
 ---
 
 ## 5. Tanısal testlerle ilişkisi
+
+**Tablo 2.5 — İşlev kaybı mekanizmasını hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -171,6 +183,8 @@ Resesif LoF hastalıklarında fenotip ağırlığı, kalan işlevle ters orantı
 ACMG/AMP çerçevesi predicted LoF için güçlü patojenik kriter PVS1'i tanımlar (Richards ve ark., 2015, *Genet Med*; [DOI](https://doi.org/10.1038/gim.2015.30)); ancak orijinal kılavuz LoF tiplerinin ayrımını ve güç derecelendirmesini ayrıntılandırmamıştı. ClinGen SVI çalışma grubu, PVS1'i **varyant tipi, konumu, NMD beklentisi ve genin LoF mekanizması** üzerinden karar ağacına bağlayan ve gücü (PVS1 → Strong → Moderate → Supporting) ayarlayan ayrıntılı öneriler yayımlamıştır (Abou Tayoun ve ark., 2018, *Hum Mutat*; [DOI](https://doi.org/10.1002/humu.23626)).
 
 **PVS1 karar ağacı (ClinGen SVI mantığının basitleştirilmiş özeti):**
+
+**Algoritma 2.2 — Öngörülen işlev kaybı varyantında PVS1 akışı**
 
 ```mermaid
 flowchart TD
@@ -201,13 +215,13 @@ Mekanizmadan doğan kontroller (özet):
 NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice, tam gen/ekzon delesyonu) tek allel kaybıyla **dominant** nörofibromatozis tip 1'e yol açar. *Öğreti:* hem nokta LoF hem büyük delesyonlar aynı gende hastalık yapar → tanıda **dizileme + doz analizi (MLPA/array)** birlikte. (Haploinsufficiency → Bölüm 3; tümör baskılayıcı "ikinci vuruş" → Bölüm 15.)
 
 ### 7.2. DMD — çerçeve kuralı ile Duchenne vs Becker
-Distrofin geninde out-of-frame delesyonlar truncated protein ile ağır **Duchenne**'e; in-frame delesyonlar yarı-işlevsel protein ile daha hafif **Becker**'e yol açar (Monaco ve ark., 1988; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)). *Öğreti:* aynı gen, aynı "delesyon" tipi — fakat **çerçeve etkisi** fenotip ağırlığını belirler (Şekil 8); ekzon-atlama tedavilerinin mantıksal temeli budur.
+Distrofin geninde out-of-frame delesyonlar truncated protein ile ağır **Duchenne**'e; in-frame delesyonlar yarı-işlevsel protein ile daha hafif **Becker**'e yol açar (Monaco ve ark., 1988; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)). *Öğreti:* aynı gen, aynı "delesyon" tipi — fakat **çerçeve etkisi** fenotip ağırlığını belirler (Şekil 2.2); ekzon-atlama tedavilerinin mantıksal temeli budur.
 
 ### 7.3. CFTR — resesif LoF ve allelik heterojenite
 Kistik fibroz, CFTR'de **iki** patojen allel gerektiren resesif bir hastalıktır; çok sayıda varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir ve patojenite klinik + fonksiyonel veriyle tanımlanmalıdır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve allel patojenitesi gösterilmelidir.
 
 ### 7.4. PKU/PAH — hipomorfik aleller ve rezidüel fonksiyon
-Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabolizması hastalığıdır; genotipler rezidüel enzim aktivitesini yansıtan bir spektrumda (klasik PKU → hafif PKU → hafif hiperfenilalaninemi) dağılır ve büyük genotip veritabanları fenotip ile BH4 yanıtını öngörmeyi mümkün kılar (Hillert ve ark., 2020, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2020.06.006)). *Öğreti:* **rezidüel fonksiyon = fenotip ağırlığının motoru**; compound heterozigotlarda fenotipi genellikle daha hafif allel belirler (Şekil 9).
+Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabolizması hastalığıdır; genotipler rezidüel enzim aktivitesini yansıtan bir spektrumda (klasik PKU → hafif PKU → hafif hiperfenilalaninemi) dağılır ve büyük genotip veritabanları fenotip ile BH4 yanıtını öngörmeyi mümkün kılar (Hillert ve ark., 2020, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2020.06.006)). *Öğreti:* **rezidüel fonksiyon = fenotip ağırlığının motoru**; compound heterozigotlarda fenotipi genellikle daha hafif allel belirler (Şekil 2.3).
 
 ---
 
@@ -227,6 +241,8 @@ Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabol
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 2.3 — İşlev kaybı varyantı saptandığında klinik karar akışı**
 
 ```mermaid
 flowchart TD
@@ -268,6 +284,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 2.6 — Bölüm 2 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

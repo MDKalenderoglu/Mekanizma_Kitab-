@@ -2,7 +2,7 @@
 
 > **Bölümün çekirdek tezi:** Bu bölüm, mekanizma bölümlerini birleştiren **Müller'in klasik allel serisini** tamamlar. Bir varyant gen ürününü altı yoldan biriyle değiştirebilir: ürünü yok eder (**amorf** = null/LoF), azaltır (**hipomorf** = kısmi LoF), aynı işin fazlasını yaptırır (**hipermorf** = GoF), sağlam ürünü sabote eder (**antimorf** = dominant-negatif) veya ona **normalde hiç yapmadığı yepyeni bir iş** kazandırır (**neomorf**). İlk üçünü Bölüm 2–4'te, antimorfu (DN) Bölüm 5'te işledik; bu bölüm bu çerçeveyi tamamlar ve özellikle **neomorfik** etkiye odaklanır. Neomorfizmin özü, GoF'un en radikal ucudur: protein artık eski işini "daha çok" yapmaz, **bambaşka** bir aktivite kazanır — yeni bir metabolit üretir (IDH → 2-hidroksiglutarat), bir enzimi yeni biçimde inhibe eder (histon H3 K27M → PRC2) veya toksik bir ürüne dönüşür. Hem neomorf hem antimorf **dominanttır** ve ikisi de "varyant ürünün varlığından" doğduğu için, ikisinde de **tam delesyon/null çoğu kez hastalığı kopyalamaz** — bu da varyant yorumunun (PVS1'in uygulanmaması) ortak sonucudur.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 21'dir (Müller allel serisi): altı sınıfı tek bir haritada görün, her birini bir mekanizma bölümüne bağlayın. Ardından neomorf ile antimorfu Şekil 22 üzerinden ayırın (neomorf = yeni iş yaratır; antimorf = sağlamı bozar). Uzman okuyucu §2.2–§7'de IDH ve H3K27M'in moleküler ayrıntısına, §6'da neomorfik varyantların ACMG yorumuna (PM1 hotspot, PS3) yoğunlaşabilir. Bölüm 4 (GoF) ve Bölüm 5 (DN) önce okunmalıdır; bu bölüm onların kavramsal tamamlayıcısıdır. Repeat-expansion kaynaklı toksik kazanım (poliQ vb.) Bölüm 9'a, mozaik neomorfik örnekler (Ollier/Maffucci) Bölüm 12'ye bağlanır.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 6.1'dir (Müller allel serisi): altı sınıfı tek bir haritada görün, her birini bir mekanizma bölümüne bağlayın. Ardından neomorf ile antimorfu Şekil 6.2 üzerinden ayırın (neomorf = yeni iş yaratır; antimorf = sağlamı bozar). Uzman okuyucu §2.2–§7'de IDH ve H3K27M'in moleküler ayrıntısına, §6'da neomorfik varyantların ACMG yorumuna (PM1 hotspot, PS3) yoğunlaşabilir. Bölüm 4 (GoF) ve Bölüm 5 (DN) önce okunmalıdır; bu bölüm onların kavramsal tamamlayıcısıdır. Repeat-expansion kaynaklı toksik kazanım (poliQ vb.) Bölüm 9'a, mozaik neomorfik örnekler (Ollier/Maffucci) Bölüm 12'ye bağlanır.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -26,13 +26,15 @@ Bu bölümü tamamlayan okuyucu:
 
 Önceki dört bölümde varyantların gen ürününü farklı yönlerde değiştirdiğini gördük. Bu bölüm, o parçaları **Müller'in allel serisi** denen klasik bir çerçevede birleştirir. 1930'larda Hermann Muller, bir varyant allelin yabanıl-tipe göre işlevini niteliğe göre sınıflandırmış ve bugün hâlâ kullandığımız terimleri ortaya koymuştur: **amorf** (işlev tümüyle kayıp), **hipomorf** (işlev azalmış), **hipermorf** (işlev artmış), **antimorf** (yabanıl-tip işlevine *karşı* çalışan) ve **neomorf** (yepyeni bir işlev kazanan). Wilkie (1994), dominant hastalıkların moleküler temellerini incelerken bu çerçeveyi modern genetik diline taşır ve "artmış/yeni protein işlevi" ile "dominant-negatif (antimorfik)" etkiyi ayrı dominant mekanizmalar olarak konumlandırır (Wilkie, 1994, *J Med Genet*; [DOI](https://doi.org/10.1136/jmg.31.2.89)).
 
-Bu seriyi tek bir haritada görmek, kitabın o ana kadarki tüm mekanizmalarını birbirine bağlar (Şekil 21). Soldaki yabanıl-tip referanstan başlayarak sağa doğru: amorf ve hipomorf **işlev kaybı** ucundadır (Bölüm 2–3); hipermorf **işlev kazanımı** (Bölüm 4); antimorf **sağlamı sabote etme** (Bölüm 5, dominant-negatif); ve neomorf **yeni işlev** ucunda durur (bu bölüm).
+Bu seriyi tek bir haritada görmek, kitabın o ana kadarki tüm mekanizmalarını birbirine bağlar (Şekil 6.1). Soldaki yabanıl-tip referanstan başlayarak sağa doğru: amorf ve hipomorf **işlev kaybı** ucundadır (Bölüm 2–3); hipermorf **işlev kazanımı** (Bölüm 4); antimorf **sağlamı sabote etme** (Bölüm 5, dominant-negatif); ve neomorf **yeni işlev** ucunda durur (bu bölüm).
 
-![Şekil 21 — Müller'in allel serisi: bir varyantın altı olası etkisi](assets/sekil_21_muller_allel_serisi.svg)
+![Şekil 6.1 — Müller'in allel serisi: bir varyantın altı olası etkisi](assets/sekil_21_muller_allel_serisi.svg)
 
 Bu bölümün asıl yeni kavramı **neomorf**tur, çünkü antimorfu (dominant-negatif) Bölüm 5'te ayrıntılı işledik. Neomorfik etkinin tanımı kritik bir incelik taşır: bu, "aynı işin fazlası" (hipermorf) değil, **niteliksel olarak yeni** bir aktivitedir. Sezgisel benzetmeyle: hipermorf, bir motorun fazla mesai yapmasıdır (aynı iş, daha çok); neomorf ise motorun aniden **bambaşka bir cihaza** dönüşüp, sistemde hiç olmaması gereken bir çıktı üretmesidir. Bu ayrım sadece akademik değildir; aşağıda göreceğimiz gibi, neomorfik varyantların tipik olarak **belirli kodonlarda tekrar tekrar** (hotspot) ortaya çıkması ve **fonksiyonel testlerle** doğrulanması, doğrudan bu "yeni aktivite" özelliğinden kaynaklanır.
 
 Aşağıdaki tablo, bölüm boyunca açacağımız kavramları bir arada gösterir.
+
+**Tablo 6.1 — Neomorfik ve antimorfik allellerin temel kavramları**
 
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
@@ -50,9 +52,9 @@ Aşağıdaki tablo, bölüm boyunca açacağımız kavramları bir arada göster
 
 ### 2.1. Neomorf ile antimorfu ayırmak
 
-Bu iki dominant kazanım sıklıkla karıştırılır, çünkü ikisi de "varyant ürünün zararlı varlığı" ile çalışır. Ama mekanizmaları temelden farklıdır (Şekil 22). **Antimorf (dominant-negatif)**, sağlam ürüne *ihtiyaç duyar*: varyant ürün, normal ürünle fiziksel olarak etkileşip onu sabote eder (Bölüm 5'teki zehirli alt birim). **Neomorf** ise sağlamdan *bağımsızdır*: varyant ürün, normal ürünü hedef almak yerine, hücrede daha önce hiç olmayan **yeni bir aktivite** başlatır. Sağlam allelin ürünü kendi işini yapmaya devam edebilir; sorun, sağlamın bozulması değil, **fazladan zararlı bir işlevin ortaya çıkmasıdır**.
+Bu iki dominant kazanım sıklıkla karıştırılır, çünkü ikisi de "varyant ürünün zararlı varlığı" ile çalışır. Ama mekanizmaları temelden farklıdır (Şekil 6.2). **Antimorf (dominant-negatif)**, sağlam ürüne *ihtiyaç duyar*: varyant ürün, normal ürünle fiziksel olarak etkileşip onu sabote eder (Bölüm 5'teki zehirli alt birim). **Neomorf** ise sağlamdan *bağımsızdır*: varyant ürün, normal ürünü hedef almak yerine, hücrede daha önce hiç olmayan **yeni bir aktivite** başlatır. Sağlam allelin ürünü kendi işini yapmaya devam edebilir; sorun, sağlamın bozulması değil, **fazladan zararlı bir işlevin ortaya çıkmasıdır**.
 
-![Şekil 22 — Neomorf vs antimorf: yeni iş yaratmak vs sağlamı bozmak](assets/sekil_22_neomorf_vs_antimorf.svg)
+![Şekil 6.2 — Neomorf vs antimorf: yeni iş yaratmak vs sağlamı bozmak](assets/sekil_22_neomorf_vs_antimorf.svg)
 
 > **🔬 Deep-dive — Neomorf, hipermorf ve "toksik kazanım" arasındaki bulanık sınır.** Pratikte bu kategoriler keskin çizgilerle ayrılmaz; bir spektrum oluştururlar. **Hipermorf** en hafif uçtur: aynı işlevin nicel artışı (örneğin Bölüm 4'teki FGFR3'ün ligandsız sürekli aktivasyonu — yine de "FGFR3 sinyali", sadece kontrolsüz). **Neomorf** niteliksel yeniliktir: IDH artık izositratı işlemez, bambaşka bir reaksiyonu (α-KG → 2-HG) katalize eder. **Toksik kazanım (toxic gain-of-function)** ise neomorfizmin sık görülen bir alt biçimidir: ürün, normalde olmayan zararlı bir fiziksel özellik kazanır — yanlış katlanıp **agregat** oluşturması (poliglutamin hastalıklarında mutant proteinler; ayrıntı Bölüm 9, repeat expansion) ya da anormal bir bağlanma yapması gibi. Bu kitapta bu üçlüyü ayrı etiketler olarak değil, "işlev kazanımı" şemsiyesinin (Bölüm 4) giderek radikalleşen uçları olarak ele alıyoruz; klinik/yorum açısından önemli olan ortak sonuçtur: hepsi dominanttır ve hiçbiri basit LoF değildir.
 
@@ -65,6 +67,8 @@ Neomorfik (ve çoğu antimorfik) varyantın çarpıcı bir ortak özelliği vard
 ## 3. Varyant tipleri
 
 Neomorfik etki, varyant ürünün üretilip yeni bir aktivite kazanmasını gerektirdiği için —tıpkı DN gibi— belirli varyant tipleriyle güçlü ilişki gösterir.
+
+**Tablo 6.2 — Varyant tipleri ve neomorfik sonuçları**
 
 | Varyant tipi | Neomorf açısından tipik sonuç | Notlar / ilgili bölüm |
 |---|---|---|
@@ -83,13 +87,15 @@ Bu tablonun pratik özeti şudur: neomorfik bir gende patojen varyantlar **belir
 
 Bölümün anahtar sorularını sırayla yanıtlayalım.
 
-**Soru 1 — Neomorf neden dominanttır?** Çünkü hastalık, sağlam allelin yetersizliğinden değil, varyant allelin ürettiği **fazladan zararlı aktiviteden** doğar. Tek bir varyant allel bu yeni aktiviteyi başlatmaya yeter; ikinci sağlam allelin varlığı onu durduramaz. Bu, GoF ve DN ile paylaşılan dominant kalıtım sonucudur — ama nedeni farklıdır (Şekil 21'deki birleştirici çerçeve).
+**Soru 1 — Neomorf neden dominanttır?** Çünkü hastalık, sağlam allelin yetersizliğinden değil, varyant allelin ürettiği **fazladan zararlı aktiviteden** doğar. Tek bir varyant allel bu yeni aktiviteyi başlatmaya yeter; ikinci sağlam allelin varlığı onu durduramaz. Bu, GoF ve DN ile paylaşılan dominant kalıtım sonucudur — ama nedeni farklıdır (Şekil 6.1'deki birleştirici çerçeve).
 
 **Soru 2 — Neomorfu klinik/molekülde nasıl tanırız?** Üç işaret birlikte güçlü ipucu verir: (a) varyantların **belirli hotspot kodonlarda tekrar tekrar** görülmesi, (b) o gende **tam delesyon/null'un farklı veya hiç fenotip yapmaması** (delesyon testi), ve (c) **fonksiyonel bir testin yeni aktiviteyi göstermesi** (örneğin tümörde 2-HG birikimi, ya da H3K27me3 kaybı). Bu üçlü, neomorfu hem haploinsufficiency'den hem de basit hipermorf GoF'tan ayırır.
 
 **Soru 3 — Neomorf nerede karşımıza çıkar?** Klasik olarak **kanser/tümör biyolojisinde** (IDH onkometaboliti, H3 onkohistonu), nörodejenerasyonda (toksik agregasyon; Bölüm 9) ve gelişimsel bozukluklarda. Pediatrik genetikte özellikle **mozaik neomorfik** tablolar (Ollier/Maffucci) ve **pediatrik beyin tümörleri** (DIPG) öne çıkar.
 
 Aşağıdaki Mermaid akışı, Müller serisini bir karar ağacına dönüştürerek mekanizma sınıflandırmasını özetler.
+
+**Algoritma 6.1 — Patojen varyantın Müller allel serisindeki yeri**
 
 ```mermaid
 flowchart TD
@@ -108,6 +114,8 @@ flowchart TD
 ## 5. Tanısal testlerle ilişkisi
 
 Neomorfik varyantlar tipik olarak **missense** (sıklıkla hotspot) değişiklikler olduğu için, onları yakalamanın ana yolu **dizi temelli** testlerdir; doz/kopya-sayısı testleri (array, MLPA) neomorfu göremez. Önemli bir nüans: pediatrik neomorfik tabloların önemli kısmı **somatik/mozaik** olabilir (Ollier/Maffucci, tümörler); bu durumda varyant kandan değil **etkilenen dokudan** (tümör/lezyon) ve yeterli derinlikte dizilemeyle aranmalıdır (mozaiklik ayrıntısı Bölüm 12).
+
+**Tablo 6.3 — Neomorfik mekanizmayı hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -134,6 +142,8 @@ Neomorfik (ve antimorfik) mekanizma, ACMG/AMP çerçevesinde (Richards ve ark., 
 
 Aşağıdaki akış, neomorf şüphesinde varyant yorumunu özetler.
 
+**Algoritma 6.2 — Neomorfik varyantta kanıt ve kriter seçimi**
+
 ```mermaid
 flowchart TD
   A["Aday varyant<br/>(dominant gen / tümör)"] --> B{"Bilinen neomorfik hotspot mu?<br/>(ör. IDH R132, H3 K27)"}
@@ -151,15 +161,15 @@ flowchart TD
 
 ### 7.1. IDH1/IDH2 ve onkometabolit 2-HG — neomorfik enzimin ders kitabı örneği
 
-İzositrat dehidrogenaz (IDH), normalde izositratı α-ketoglutarata (α-KG) çeviren bir metabolik enzimdir. IDH1 (Arg132) ve IDH2 (Arg172/Arg140) hotspot varyantları, bu enzime **yepyeni bir reaksiyon** kazandırır. Dang ve ark. (2009), kanserle ilişkili IDH1 mutasyonlarının enzimin yabanıl işlevini kaybetmekle kalmayıp, α-KG'yi **R(−)-2-hidroksiglutarata (2-HG)** indirgeyen yeni bir aktivite kazandığını göstermiştir; bu "onkometabolit" tümörlerde belirgin biçimde birikir (Dang ve ark., 2009, *Nature*; [DOI](https://doi.org/10.1038/nature08617)). Mekanizmanın güzelliği, tam olarak neomorfizmin tanımına oturmasıdır: tek bir kopya mutanttır (yani basit LoF beklenmez), ve mutant enzim **normalde hiç olmayan bir ürün** yapar. Biriken 2-HG, α-KG'ye bağımlı dioksijenazları (DNA/histon demetilazları, TET enzimleri) inhibe ederek hücrenin epigenetik düzenini bozar — neomorfik bir metabolik değişikliğin epigenetik sonuçlara nasıl dönüştüğünün net bir örneğidir (Şekil 23, A).
+İzositrat dehidrogenaz (IDH), normalde izositratı α-ketoglutarata (α-KG) çeviren bir metabolik enzimdir. IDH1 (Arg132) ve IDH2 (Arg172/Arg140) hotspot varyantları, bu enzime **yepyeni bir reaksiyon** kazandırır. Dang ve ark. (2009), kanserle ilişkili IDH1 mutasyonlarının enzimin yabanıl işlevini kaybetmekle kalmayıp, α-KG'yi **R(−)-2-hidroksiglutarata (2-HG)** indirgeyen yeni bir aktivite kazandığını göstermiştir; bu "onkometabolit" tümörlerde belirgin biçimde birikir (Dang ve ark., 2009, *Nature*; [DOI](https://doi.org/10.1038/nature08617)). Mekanizmanın güzelliği, tam olarak neomorfizmin tanımına oturmasıdır: tek bir kopya mutanttır (yani basit LoF beklenmez), ve mutant enzim **normalde hiç olmayan bir ürün** yapar. Biriken 2-HG, α-KG'ye bağımlı dioksijenazları (DNA/histon demetilazları, TET enzimleri) inhibe ederek hücrenin epigenetik düzenini bozar — neomorfik bir metabolik değişikliğin epigenetik sonuçlara nasıl dönüştüğünün net bir örneğidir (Şekil 6.3, A).
 
-![Şekil 23 — Neomorfik mekanizma iki örnekte: IDH → 2-HG ve H3 K27M → PRC2](assets/sekil_23_neomorf_ornekleri.svg)
+![Şekil 6.3 — Neomorfik mekanizma iki örnekte: IDH → 2-HG ve H3 K27M → PRC2](assets/sekil_23_neomorf_ornekleri.svg)
 
 Pediatrik bağlantı, bu somatik mekanizmanın **mozaik germline** bir tabloya taşınmasıyla kurulur. Amary ve ark. (2011), Ollier hastalığı ve Maffucci sendromunun (çoklu enkondrom ± hemanjiyomlarla giden iskelet displazileri) bireylerin %90'ından fazlasında **IDH1/IDH2'nin post-zigotik somatik mozaik mutasyonlarıyla** açıklandığını göstermiştir; tümörlerde 2-HG düzeyleri IDH mutasyonuyla güçlü korelasyon gösterir (Amary ve ark., 2011, *Nat Genet*; [DOI](https://doi.org/10.1038/ng.994)). Yani aynı neomorfik varyant, döllenme sonrası erken bir hücrede ortaya çıktığında mozaik bir gelişimsel sendrom oluşturur — neomorfizm ile mozaikliğin (Bölüm 12) kesiştiği öğretici bir nokta.
 
 ### 7.2. Histon H3 K27M ("onkohiston") — pediatrik beyin tümörünün neomorfik motoru
 
-İkinci örnek, neomorfizmin epigenetik makineye doğrudan saldırabildiğini gösterir. Histon H3'ün 27. lizininin (K27) trimetilasyonu (H3K27me3), PRC2 kompleksi (katalitik alt birimi EZH2) tarafından yapılır ve gen baskılanmasının temel epigenetik işaretidir. Pediatrik diffüz orta hat gliomlarında (DIPG dahil) sık görülen **H3 K27M** varyantı, 27. lizini metiyonine çevirir. Lewis ve ark. (2013), bu K→M değişiminin sıradan bir işlev kaybı olmadığını, **kazanılmış bir inhibitör işlev** olduğunu göstermiştir: K27M histonu PRC2'nin EZH2 alt birimine bağlanıp enzimi inhibe eder ve sonuçta hücre genelinde H3K27me3 düzeyleri belirgin biçimde düşer (Lewis ve ark., 2013, *Science*; [DOI](https://doi.org/10.1126/science.1232245)). Tek bir varyant histon, tüm genomun epigenetik durumunu yeniden programlayacak kadar etkilidir (Şekil 23, B).
+İkinci örnek, neomorfizmin epigenetik makineye doğrudan saldırabildiğini gösterir. Histon H3'ün 27. lizininin (K27) trimetilasyonu (H3K27me3), PRC2 kompleksi (katalitik alt birimi EZH2) tarafından yapılır ve gen baskılanmasının temel epigenetik işaretidir. Pediatrik diffüz orta hat gliomlarında (DIPG dahil) sık görülen **H3 K27M** varyantı, 27. lizini metiyonine çevirir. Lewis ve ark. (2013), bu K→M değişiminin sıradan bir işlev kaybı olmadığını, **kazanılmış bir inhibitör işlev** olduğunu göstermiştir: K27M histonu PRC2'nin EZH2 alt birimine bağlanıp enzimi inhibe eder ve sonuçta hücre genelinde H3K27me3 düzeyleri belirgin biçimde düşer (Lewis ve ark., 2013, *Science*; [DOI](https://doi.org/10.1126/science.1232245)). Tek bir varyant histon, tüm genomun epigenetik durumunu yeniden programlayacak kadar etkilidir (Şekil 6.3, B).
 
 Bu örnek iki açıdan öğreticidir. Birincisi, neomorfizmin "yeni aktivite" tanımına oturur: K27M, normalde olmayan bir iş yapar — bir metiltransferazı yeni bir biçimde durdurur. İkincisi, mekanizmanın **pediatrik onkogenez**teki merkezî rolünü gösterir; H3K27M, bugün diffüz orta hat gliomlarının tanımlayıcı moleküler belirtecidir ve "onkohiston" kavramının prototipidir.
 
@@ -187,6 +197,8 @@ Neomorfik spektrumun bir ucu **toksik kazanımdır**: ürünün zararlı bir fiz
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 6.3 — Dominant veya tümör ilişkili varyantta karar akışı**
 
 ```mermaid
 flowchart TD
@@ -223,9 +235,12 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 6.4 — Bölüm 6 öz-denetim tablosu**
+
 | Kriter | Durum | Not |
 |--------|-------|-----|
-| Mekanizma doğru anlatıldı mı? | ✅ | Müller serisi + neomorf/antimorf ayrımı (Şekil 21–22) |
+| Mekanizma doğru anlatıldı mı? | ✅ | Müller serisi + neomorf/antimorf ayrımı (Şekil 6.1–22) |
 | Klinik bağlantı kuruldu mu? | ✅ | IDH (gliom/Ollier/Maffucci), H3K27M (DIPG) |
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | §3 tablo + hotspot missense mantığı |
 | Pediatrik örnek verildi mi? | ✅ | Ollier/Maffucci (mozaik IDH), DIPG (H3K27M) |

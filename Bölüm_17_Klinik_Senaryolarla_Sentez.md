@@ -37,6 +37,8 @@ Klinik genetikte iki farklı düşünme biçimi bir arada kullanılır ve ikisi 
 
 Bu çevirinin ön koşulu **derin fenotiplemedir**. Fenotibi ne kadar ayrıntılı ve ne kadar standart biçimde kaydederseniz, hem mekanizma hipoteziniz o kadar keskinleşir hem de laboratuvarın varyant önceliklendirmesi o kadar isabetli olur. Bu amaçla geliştirilen İnsan Fenotip Ontolojisi (Human Phenotype Ontology, HPO), insan hastalıklarında görülen fenotipik anormallikleri tanımlamak ve hesaplamalı olarak analiz etmek için kapsamlı ve mantıksal bir standart sunmak üzere 2008'de başlatılmış ve bugün fenotip alışverişinde dünya çapında bir standart hâline gelmiştir; nöroloji, nefroloji, immünoloji, pulmonoloji ve yenidoğan taraması gibi alanlarda kapsamı sürekli genişletilmektedir (Köhler ve ark., 2021). Pratik karşılığı şudur: "gelişme geriliği" gibi genel bir ifade yerine standart terimlerle kaydedilmiş ayrıntılı bir fenotip, varyant önceliklendirme algoritmalarının çalışabileceği bir girdiye dönüşür.
 
+**Tablo 17.1 — Klinik akıl yürütmenin temel kavramları**
+
 | Kavram | Tanım | Pratik karşılığı |
 |---|---|---|
 | Örüntü tanıma | Bulgu kümesinin bilinen bir sendroma benzetilmesi | Hızlı; tanınabilir sendromlarda en verimli yol |
@@ -96,6 +98,8 @@ Zincirin en sık kırıldığı üç yer, üç farklı bölüme karşılık geli
 
 Bu bölümde varyant tipi sorusu klinikten başlar: **hangi başvuru tablosunda hangi varyant tipini beklemeliyim ve o tipi hangi yöntem görür?**
 
+**Tablo 17.2 — Klinik tablodan beklenen varyant tipine ve yönteme**
+
 | Klinik tablo | Beklenen varyant tipi | Görebilen yöntem | İlgili bölüm |
 |---|---|---|---|
 | Çoklu anomali + gelişimsel gerilik | Büyük delesyon/duplikasyon | CMA · CNV çözünürlüklü WGS | 3, 8 |
@@ -119,6 +123,8 @@ Tablonun okunma biçimi şudur: sol sütun **klinik**, sağ sütun **yöntem**di
 ### 4.1 Testi hipotez seçer, hipotezi fenotip kurar
 
 Genomik testlerin yaygınlaşması, "hangi testi isteyeyim?" sorusunu ortadan kaldırmadı; yalnızca sorunun biçimini değiştirdi. Bugün asıl soru, **hangi testi ilk sırada isteyeceğim ve negatif gelirse sırada ne var?** biçimindedir.
+
+**Algoritma 17.1 — İlk basamak test seçimi akışı**
 
 ```mermaid
 flowchart TD
@@ -162,6 +168,8 @@ Kitabın üç bölümü aynı uyarıyı verir. Mozaiklikte etkilenmiş doku (Bö
 
 Bu bölümde tablo, **basamaklı strateji** olarak okunmalıdır: hangi test hangi sırada ve hangi kör noktayı kapatmak için istenir.
 
+**Tablo 17.3 — Basamaklı test stratejisi ve kör noktalar**
+
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
 | **WES (tercihen trio)** | Kodlayan varyantların çoğunu; birinci basamak genomik test olarak uygundur | CNV, tekrar, derin intronik, metilasyon ve çoğu zaman mtDNA kör noktada kalır; kapsama boşlukları vardır |
@@ -190,12 +198,14 @@ Bu bölümün varyant yorumlamaya katkısı, Bölüm 16'nın çerçevesini **kli
 
 **Üçüncüsü, doku seçimi kanıtın geçerliliğini belirler.** Yanlış dokudan yapılan RNA analizi PS3 üretmez; yanlış dokudan bakılan heteroplazmi düzeyi yanlış yorumlanır; kandan yapılan analiz mozaik bir varyantı hiç göstermez ve varyant "yok" sayılır.
 
+**Algoritma 17.2 — Klinik senaryodan kanıt üretimine**
+
 ```mermaid
 flowchart TD
   A["Klinik senaryo"] --> B["Mekanizma hipotezi"]
   B --> C{"Bu mekanizma hangi<br/>kanıtı ÜRETEBİLİR?"}
 
-  C -->|"İşlev kaybı"| D["PVS1 kapısı açık →<br/>basamak seç (Şekil 16.3)"]
+  C -->|"İşlev kaybı"| D["PVS1 kapısı açık →<br/>basamak seç (Şekil 16.2)"]
   C -->|"İşlev kazanımı / DN"| E["PVS1 KAPALI →<br/>PM1 (hotspot) + PS3 (yön gösteren test)"]
   C -->|"Splice"| F["RNA analizi planla →<br/>PS3 + PVS1 basamağı"]
   C -->|"Doz / CNV"| G["CNV puanlama çerçevesi"]
@@ -269,6 +279,8 @@ Aşağıdaki sekiz senaryo, kitabın bütün bölümlerini hastanın başında t
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 17.3 — Başvurudan danışmaya: ana klinik algoritma**
 
 ```mermaid
 flowchart TD
@@ -356,6 +368,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 17.4 — Bölüm 17 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

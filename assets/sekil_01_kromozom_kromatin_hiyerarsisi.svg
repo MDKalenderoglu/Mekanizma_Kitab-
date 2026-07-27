@@ -1,6 +1,6 @@
 <svg viewBox="0 0 980 460" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
   <rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
-  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 1 — DNA'dan Kromozoma: Paketlenme Hiyerarşisi</text>
+  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 1.1 — DNA'dan Kromozoma: Paketlenme Hiyerarşisi</text>
 
   <!-- 1. KROMOZOM -->
   <g>

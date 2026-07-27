@@ -2,7 +2,7 @@
 
 > **Bölümün çekirdek tezi:** Genomik imprinting, bir genin iki alelinden yalnızca birinin — hangi ebeveynden geldiğine bağlı olarak — ifade edildiği epigenetik bir olgudur; bu nedenle imprintli lokuslarda hastalık, DNA dizisinin kendisinden çok **hangi ebeveyn kopyasının işlevsel olduğuna** bağlıdır. Bu bölüm, imprinting kontrol bölgelerindeki (ICR) metilasyonun tek-alel ifadeyi nasıl kurduğunu; delesyon, uniparental dizomi (UPD), imprinting defekti ve nokta varyantının aynı bölgede nasıl **aynı son yola** yakınsadığını; ve tek bir bölgedeki zıt yönlü epigenetik kusurların (15q11-q13'te Prader-Willi ↔ Angelman, 11p15.5'te Beckwith-Wiedemann ↔ Silver-Russell) neden zıt hastalıklar yarattığını gösterir. Önceki bölümlerdeki doz (Bölüm 3), toksik kazanım (Bölüm 6) ve metilasyon-susturma (Bölüm 9, FMR1) mekanizmalarını, "ebeveyn kökeni" ekseniyle birleştirir.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için baştan sona doğrusal okuma önerilir; imprinting sezgisi (Şekil 10.1) kurulmadan klinik tablolar ezber kalır. Klinisyenler için "Kavramsal tanım → Klinik fenotipe dönüşüm → Tanısal testler → Karar algoritması" hattı önceliklidir; UPD oluşum mekanizmaları (Şekil 10.3) ikinci turda derinleştirilebilir. Pediatrik genetik uzmanları için 15q11-q13 ve 11p15.5 alt-tip tabloları ile tümör tarama notları doğrudan kullanılabilir.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için baştan sona doğrusal okuma önerilir; imprinting sezgisi (Şekil 10.1) kurulmadan klinik tablolar ezber kalır. Klinisyenler için "Kavramsal tanım → Klinik fenotipe dönüşüm → Tanısal testler → Karar algoritması" hattı önceliklidir; UPD oluşum mekanizmaları (Şekil 10.2) ikinci turda derinleştirilebilir. Pediatrik genetik uzmanları için 15q11-q13 ve 11p15.5 alt-tip tabloları ile tümör tarama notları doğrudan kullanılabilir.
 
 > 🖼️ **Görseller hakkında not:** Şekil 10.1–10.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -32,6 +32,8 @@ Bu tek-alel ifadenin kaynağı DNA dizisi değil, **epigenetik bir işaret**tir.
 Bu bilgiyi somutlaştırmak için üç terimi baştan netleştirelim. **Diferansiyel metile bölge (DMR)**, iki ebeveyn kopyasının farklı metilasyon durumunda olduğu — biri metile, diğeri metilsiz — genomik bölgedir; alel ayrımının fiziksel taşıyıcısıdır. Bir DMR, bir gen kümesinin ifadesini merkezî olarak yönetiyorsa ona **imprinting kontrol bölgesi (ICR)** denir; ICR'deki metilasyon durumu, komşu genlerin hangi alelden okunacağını belirleyen bir "ana şalter" gibidir. Son olarak **imprinting defekti (ID)**, dizi normal olduğu hâlde bu metilasyon işaretinin yanlış kurulması (epimutasyon) durumudur — yani şalterin yanlış konumda takılıp kalmasıdır.
 
 İmprinting neden evrimleşti? En yaygın açıklama **ebeveyn çatışması (conflict) hipotezi**dir: paternal genom, anne kaynaklarını mevcut yavruya maksimum aktarmaya (büyümeyi hızlandırmaya), maternal genom ise kaynakları birden çok yavru arasında korumaya (büyümeyi frenlemeye) "eğilimlidir". Bu yüzden paternal-ifadeli imprintli genler tipik olarak fetal büyümeyi **artırır** (ör. *IGF2*), maternal-ifadeli olanlar **kısıtlar** (ör. *CDKN1C*, *H19*) (Reik ve Walter, 2001). Bu asimetri, bu bölümde göreceğimiz büyüme bozukluklarının (Beckwith-Wiedemann aşırı büyüme ↔ Silver-Russell büyüme kısıtlılığı) neden imprintli lokuslarda yoğunlaştığını doğrudan açıklar.
+
+**Tablo 10.1 — İmprinting ve uniparental dizominin temel kavramları**
 
 | Kavram | Tanım | Klinik anlamı |
 |---|---|---|
@@ -63,11 +65,11 @@ Birincisi, **delesyon**: ifade edilen alelin bulunduğu kromozom parçasının f
 
 ### 2.3 Uniparental dizomi nasıl oluşur?
 
-UPD'yi klinik olarak anlamak için oluşum mekanizmasını bilmek şarttır, çünkü mekanizma hem **hangi lokusların homozigot olduğunu** hem de **tekrarlanma riskini** belirler. Şekil 10.3'te gösterilen üç ana yol vardır. En sık yol **trizomi kurtarma**dır: mayoz sırasında (özellikle mayoz I'de) ayrılamama sonucu dizomik bir gamet oluşur; bu gamet normal bir gametle döllenince trizomik bir zigot ortaya çıkar. Trizomiler çoğu kez yaşamla bağdaşmadığından, embriyo fazla kromozomu atarak "kurtulmaya" çalışır. Eğer atılan kromozom, tek kopyayı sağlayan ebeveynden geliyorsa, geriye kalan iki kopya aynı ebeveynden olur — **UPD** oluşur. Mayoz I hatası kaynaklı olduğu için bu UPD tipik olarak **heterodizomik**tir: aynı ebeveynin iki *farklı* homoloğunu içerir (Mergenthaler ve ark., 2000).
+UPD'yi klinik olarak anlamak için oluşum mekanizmasını bilmek şarttır, çünkü mekanizma hem **hangi lokusların homozigot olduğunu** hem de **tekrarlanma riskini** belirler. Şekil 10.2'te gösterilen üç ana yol vardır. En sık yol **trizomi kurtarma**dır: mayoz sırasında (özellikle mayoz I'de) ayrılamama sonucu dizomik bir gamet oluşur; bu gamet normal bir gametle döllenince trizomik bir zigot ortaya çıkar. Trizomiler çoğu kez yaşamla bağdaşmadığından, embriyo fazla kromozomu atarak "kurtulmaya" çalışır. Eğer atılan kromozom, tek kopyayı sağlayan ebeveynden geliyorsa, geriye kalan iki kopya aynı ebeveynden olur — **UPD** oluşur. Mayoz I hatası kaynaklı olduğu için bu UPD tipik olarak **heterodizomik**tir: aynı ebeveynin iki *farklı* homoloğunu içerir (Mergenthaler ve ark., 2000).
 
 İkinci yol **monozomi kurtarma**dır: bir kromozomu hiç taşımayan (nullisomik) bir gamet, normal gametle döllenince monozomik zigot oluşur; embriyo tek kopyayı **kopyalayarak** diploidiyi geri kazanır. Sonuç, tek bir homoloğun özdeş iki kopyası, yani **izodizomi**dir. Üçüncü ve en nadir yol **gamet tamamlama**dır: dizomik bir gametin nullisomik bir gametle buluşmasıdır. Kotzot'un derlemesi, segmental ve karmaşık UPD'lerin bu mekanizmalarla (somatik rekombinasyon → izodizomi; trizomi kurtarma → izo + heterodizomi karışımı) nasıl şekillendiğini ayrıntılandırır ve kromozom segregasyonunun sanılandan çok daha karmaşık olduğunu vurgular (Kotzot, 2001).
 
-![Şekil 10.3 — Uniparental dizomi: oluşum yolları ve resesif maskeleme](assets/sekil_32_upd_mekanizmalari.svg)
+![Şekil 10.2 — Uniparental dizomi: oluşum yolları ve resesif maskeleme](assets/sekil_32_upd_mekanizmalari.svg)
 
 > **🔬 Deep-dive — İzodizomi neden iki ayrı yolla hastalık yapar?** UPD'nin iki ayrı patojenik yüzü vardır ve bunları karıştırmamak gerekir. **(1) İmprint dengesizliği:** UPD imprintli bir kromozomu tutuyorsa (15, 11, 7, 14, 6, 20…), her iki kopyanın tek ebeveynden gelmesi imprint dozunu bozar — bu yolla PWS, AS, SRS ve TNDM oluşur. Bu yol için izo/hetero ayrımı önemli değildir; önemli olan ebeveyn kökenidir. **(2) Resesif varyantın homozigotlaşması:** İzodizomi, tek bir homoloğun özdeş kopyası olduğu için, o homologdaki her varyant **homozigot** hâle gelir. Anne bir resesif hastalık için taşıyıcıysa (heterozigot) ve çocuk o kromozomun izodizomisini taşıyorsa, çocuk **baba hiç taşıyıcı olmadığı hâlde** resesif hastalığı homozigot olarak sergileyebilir. Bu, bir çocukta beklenmedik (ebeveyn taşıyıcılığıyla açıklanamayan) resesif bir hastalık görüldüğünde neden UPD'nin akla gelmesi gerektiğini açıklar. Heterodizomi ise iki farklı homolog içerdiği için bu maskeleme etkisini yaratmaz — ancak trizomi kurtarma sonrası mayotik rekombinasyon nedeniyle sıklıkla parçalı izodizomi segmentleri de barındırabilir.
 
@@ -76,6 +78,8 @@ UPD'yi klinik olarak anlamak için oluşum mekanizmasını bilmek şarttır, ç�
 ## 3. Varyant tipleri
 
 İmprinting bozukluklarında "varyant" kavramı, önceki bölümlerdeki dizi varyantlarından daha geniştir: dizi değişmeden de (epimutasyon, UPD) hastalık olur. Bu yüzden imprintli bir lokusta karşılaşılan lezyon tiplerini tek bir tabloda toplamak, hem tanısal test seçimini hem de tekrarlanma riskini netleştirir.
+
+**Tablo 10.2 — İmprinting lezyon tipleri ve metilasyon sonuçları**
 
 | Lezyon tipi | Moleküler sonuç | Metilasyon anormal mi? | Notlar / tekrarlanma riski |
 |---|---|---|---|
@@ -93,9 +97,9 @@ Bu çeşitliliğin pratik özeti şudur: ilk üç satır (delesyon, UPD, ID) met
 
 ### 4.1 Anahtar soru: Neden aynı bölge iki farklı hastalık yapar?
 
-İmprinting bozukluklarının klinik kalbini, 15q11-q13 bölgesi çarpıcı biçimde gösterir. Bu bölgede **paternal-ifadeli bir gen kümesi** (*MKRN3*, *NDN*, *SNRPN*, ve özellikle *SNORD116* snoRNA kümesi) ile **maternal-ifadeli tek bir gen** (*UBE3A*, beyinde) yan yana durur. Paternal katkının kaybı — delesyon, maternal UPD veya ID yoluyla — paternal-ifadeli genleri sıfırlar ve **Prader-Willi sendromu (PWS)** ortaya çıkar. Maternal katkının kaybı ise *UBE3A*'yı sıfırlar ve **Angelman sendromu (AS)** ortaya çıkar. Aynı fiziksel bölge, kaybın hangi ebeveyn kopyasında olduğuna göre iki tamamen farklı hastalık üretir (Şekil 10.2).
+İmprinting bozukluklarının klinik kalbini, 15q11-q13 bölgesi çarpıcı biçimde gösterir. Bu bölgede **paternal-ifadeli bir gen kümesi** (*MKRN3*, *NDN*, *SNRPN*, ve özellikle *SNORD116* snoRNA kümesi) ile **maternal-ifadeli tek bir gen** (*UBE3A*, beyinde) yan yana durur. Paternal katkının kaybı — delesyon, maternal UPD veya ID yoluyla — paternal-ifadeli genleri sıfırlar ve **Prader-Willi sendromu (PWS)** ortaya çıkar. Maternal katkının kaybı ise *UBE3A*'yı sıfırlar ve **Angelman sendromu (AS)** ortaya çıkar. Aynı fiziksel bölge, kaybın hangi ebeveyn kopyasında olduğuna göre iki tamamen farklı hastalık üretir (Şekil 10.3).
 
-![Şekil 10.2 — 15q11-q13: tek bölge, iki hastalık (Prader-Willi ve Angelman)](assets/sekil_31_15q11_pws_as.svg)
+![Şekil 10.3 — 15q11-q13: tek bölge, iki hastalık (Prader-Willi ve Angelman)](assets/sekil_31_15q11_pws_as.svg)
 
 PWS'nin fenotipi yaşa göre iki evrelidir ve bu evreleri bilmek erken tanı için kritiktir. Yenidoğan ve süt çocukluğunda tablo **ağır hipotoni, zayıf emme, beslenme güçlüğü ve gelişememe** ile hâkimdir; bebek "fazla sakin", beslenmesi zor bir bebektir. Erken çocuklukta ise tablo tam tersine döner: doyma hissinin kaybı (**hiperfaji**), kontrolsüz iştah ve tedavi edilmezse morbid obezite gelişir. Buna boy kısalığı (büyüme hormonu yetersizliği sık), hipogonadizm, hafif-orta zihinsel yetersizlik ve karakteristik davranışsal fenotip eşlik eder. *SNORD116* kümesinin tek başına kaybının PWS'nin çekirdek özelliklerini büyük ölçüde tekrarladığı gösterilmiştir; bu, bölgenin "anahtar" alt-birimidir (Cassidy ve ark., 2012).
 
@@ -106,6 +110,8 @@ Angelman ise nörolojik ağırlıklı, ayrı bir tablodur: **ağır gelişim ger
 Aynı sendrom içinde bile moleküler alt-tip fenotipi renklendirir. PWS'de maternal UPD15 taşıyanlar, delesyon taşıyanlara kıyasla daha yüksek psikoz/otizm spektrumu riski gösterme eğilimindedir; AS'de ise maternal delesyon en ağır tabloyu (daha sık nöbet, mikrosefali, hipopigmentasyon) yaparken, UPD ve ID alt-tipleri görece daha hafiftir. Bu ayrımlar, moleküler tanının yalnızca "hangi hastalık" değil, "hangi seyir ve hangi tekrar riski" sorusunu da yanıtladığını gösterir.
 
 Aşağıdaki Mermaid, 15q11-q13 için "kayıp hangi ebeveynde?" sorusunun klinik sonucu nasıl belirlediğini özetler:
+
+**Algoritma 10.1 — 15q11-q13 alel kaybının alt tipe göre ayrımı**
 
 ```mermaid
 flowchart TD
@@ -123,6 +129,8 @@ flowchart TD
 ## 5. Tanısal testlerle ilişkisi
 
 İmprinting/UPD bozukluklarının tanısında altın kural, testlerin **iki aşamalı** olmasıdır: önce "imprint anormal mi?" (metilasyon analizi), sonra "hangi alt-tip?" (kopya sayısı + UPD + dizi). Standart bir ekzom veya karyotip, tek başına bu bozuklukların çoğunu **kaçırır**, çünkü metilasyonu ve çoğu UPD'yi doğrudan okumaz.
+
+**Tablo 10.3 — İmprinting bozukluklarını hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -148,6 +156,8 @@ flowchart TD
 > **🟦 Klinikte dikkat — De novo ≠ düşük risk (her zaman değil):** İmprinting defektlerinin çoğu sporadik (primer epimutasyon) olup düşük tekrarlanma riski taşır. Ancak ID'lerin bir alt-kümesi, ICR içindeki küçük bir **mikrodelesyondan** kaynaklanır; bu genetik lezyon ebeveynden aktarılabilir ve %50'ye varan tekrarlanma riski yaratır. Bu yüzden "imprinting defekti" tanısı, danışmadan önce mutlaka **ICR mikrodelesyonu açısından incelenmelidir** — "epigenetik = sporadik" varsayımı tehlikelidir.
 
 Aşağıdaki Mermaid, imprintli bir gende dizi varyantı yorumlanırken ebeveyn kökeninin kararı nasıl yönlendirdiğini gösterir:
+
+**Algoritma 10.2 — İmprintli gende varyant yorumlama akışı**
 
 ```mermaid
 flowchart TD
@@ -200,6 +210,8 @@ flowchart TD
 
 Aşağıdaki algoritma, imprinting/UPD bozukluğu şüphesinde iki aşamalı yaklaşımı (önce metilasyon, sonra alt-tip) ve nokta-varyantı basamağını birleştirir:
 
+**Algoritma 10.3 — İmprinting bozukluğu şüphesinde tanısal akış**
+
 ```mermaid
 flowchart TD
   A["Klinik şüphe:<br/>PWS / AS / BWS / SRS<br/>ya da açıklanamayan büyüme/GG"] --> B["1. basamak:<br/>metilasyon analizi (MS-MLPA)<br/>ilgili lokus için"]
@@ -246,6 +258,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 10.4 — Bölüm 10 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

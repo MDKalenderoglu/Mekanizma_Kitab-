@@ -2,7 +2,7 @@
 
 > **Bölümün çekirdek tezi:** Gain-of-function (GoF, "işlev kazanımı"), bir varyantın gen ürününe **eksiltmek yerine fazlalık** katmasıdır: protein normalden daha aktif, yanlış zamanda/yerde aktif, sürekli (konstitütif) açık ya da tamamen yeni/zararlı bir iş yapar hâle gelir. Bölüm 2–3'te işlediğimiz işlev kaybının (LoF/haploinsufficiency) tam **ayna görüntüsüdür**: orada sorun "yeterince yok"tu, burada sorun "fazlası/yanlışı var". Tek bir patojen allelin ürünü kendi başına zarar verdiği için GoF tipik olarak **dominanttır** ve bu, bölümün en kritik klinik sonucunu doğurur: GoF mekanizmalı bir gende **işlev kaybını patojenite kanıtı sayan kurallar (PVS1) uygulanamaz**, çünkü hastalığı yapan null değil, *aşırı/yeni* aktivitedir. Bu bölüm GoF'u doz–yanıt ekseninde LoF'un karşısına koyar; oradan dominant kalıtıma, **hotspot (sıcak nokta)** kümelenmesine, "aynı gen → zıt yön → zıt tedavi" olgusuna ve ACMG/ClinGen'in fonksiyonel kanıt (PS3) ile hotspot (PM1) kriterlerine bağlar.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga şudur: *bir varyant her zaman bir şeyi "bozmaz" — bazen bir şeyi "fazla yaptırır".* Bu ayrımı Şekil 15 (LoF vs GoF doz–yanıt) ve Şekil 17 (aynı gen, iki yön) üzerinden kurun. Uzman okuyucu §6'da GoF gende PVS1'in neden uygulanmadığına, PM1/PS3'ün rolüne ve §7'deki RET/SCN2A "yön belirler tedaviyi" örneklerine yoğunlaşabilir. Bölüm 2 (LoF) ve Bölüm 3 (haploinsufficiency) önce okunmalıdır; GoF onların kavramsal zıttıdır. Bölüm 5 (dominant-negatif) ve Bölüm 6 (neomorfik) bu bölümün doğrudan devamıdır.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga şudur: *bir varyant her zaman bir şeyi "bozmaz" — bazen bir şeyi "fazla yaptırır".* Bu ayrımı Şekil 4.3 (LoF vs GoF doz–yanıt) ve Şekil 4.4 (aynı gen, iki yön) üzerinden kurun. Uzman okuyucu §6'da GoF gende PVS1'in neden uygulanmadığına, PM1/PS3'ün rolüne ve §7'deki RET/SCN2A "yön belirler tedaviyi" örneklerine yoğunlaşabilir. Bölüm 2 (LoF) ve Bölüm 3 (haploinsufficiency) önce okunmalıdır; GoF onların kavramsal zıttıdır. Bölüm 5 (dominant-negatif) ve Bölüm 6 (neomorfik) bu bölümün doğrudan devamıdır.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -32,6 +32,8 @@ GoF'un en önemli klinik imzası **dominant kalıtımdır** ve bunun mantığı 
 
 Aşağıdaki tablo, bölüm boyunca akış içinde derinleştireceğimiz kavramları bir arada görmek içindir; her biri ilerideki paragraflarda benzetme ve klinik notla açılacaktır.
 
+**Tablo 4.1 — İşlev kazanımının temel kavramları**
+
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
 | **Gain-of-function (GoF)** | Varyantın ürüne artmış/uygunsuz/yeni aktivite kazandırması | Tipik olarak **dominant** hastalık |
@@ -49,9 +51,9 @@ Aşağıdaki tablo, bölüm boyunca akış içinde derinleştireceğimiz kavraml
 
 ### 2.1. İşlev kazanımının dört yolu
 
-Gain-of-function tek bir moleküler olay değil, ortak bir sonuca ("fazla/yanlış aktivite") yakınsayan birkaç farklı mekanizmanın şemsiye adıdır. Bunları dört temel başlıkta toplamak, hem mekanizmayı hem de ileride göreceğimiz varyant tipi–fenotip ilişkisini düzenler (Şekil 14).
+Gain-of-function tek bir moleküler olay değil, ortak bir sonuca ("fazla/yanlış aktivite") yakınsayan birkaç farklı mekanizmanın şemsiye adıdır. Bunları dört temel başlıkta toplamak, hem mekanizmayı hem de ileride göreceğimiz varyant tipi–fenotip ilişkisini düzenler (Şekil 4.1).
 
-![Şekil 14 — İşlev kazanımının dört yolu](assets/sekil_14_gof_mekanizma_turleri.svg)
+![Şekil 4.1 — İşlev kazanımının dört yolu](assets/sekil_14_gof_mekanizma_turleri.svg)
 
 **Artmış aktivite (hiperaktivite).** En basit GoF biçimidir: protein normalde yaptığı işi yapmaya devam eder, ama çok daha güçlü veya hızlı. Bir enzim katalitik hızını artırır, bir fosfataz/kinaz substratını daha yoğun işler, bir bağlanma daha sıkı hâle gelir. Burada nitelik değil **nicelik** değişir — fazla mesai yapan bir motor gibi. Noonan sendromundaki PTPN11/SHP-2 fosfatazının aşırı aktivitesi bu kategorinin klasik örneğidir (§7.2).
 
@@ -65,9 +67,9 @@ Gain-of-function tek bir moleküler olay değil, ortak bir sonuca ("fazla/yanlı
 
 ### 2.2. Konstitütif aktivasyon: bir reseptörün "açık" takılması
 
-Konstitütif aktivasyonu somutlaştırmak için reseptör tirozin kinazları (RTK) ele almak öğreticidir, çünkü bunlar GoF'un en iyi karakterize edilmiş örneklerini sunar. Normal bir RTK, hücre zarında oturur; dış ortamdan bir **ligand** (büyüme faktörü) gelip bağlanınca iki reseptör eşleşir (dimerleşir), iç kısımdaki kinaz alanları birbirini fosforilleyerek aktifleşir ve hücre içine kontrollü bir büyüme/farklılaşma sinyali gönderir. Sinyal, ligand varlığına bağlıdır — yani **gerektiğinde, geçici olarak** açılır (Şekil 16, sol).
+Konstitütif aktivasyonu somutlaştırmak için reseptör tirozin kinazları (RTK) ele almak öğreticidir, çünkü bunlar GoF'un en iyi karakterize edilmiş örneklerini sunar. Normal bir RTK, hücre zarında oturur; dış ortamdan bir **ligand** (büyüme faktörü) gelip bağlanınca iki reseptör eşleşir (dimerleşir), iç kısımdaki kinaz alanları birbirini fosforilleyerek aktifleşir ve hücre içine kontrollü bir büyüme/farklılaşma sinyali gönderir. Sinyal, ligand varlığına bağlıdır — yani **gerektiğinde, geçici olarak** açılır (Şekil 4.2, sol).
 
-![Şekil 16 — Konstitütif aktivasyon: reseptör tirozin kinaz örneği](assets/sekil_16_konstitutif_aktivasyon_reseptor.svg)
+![Şekil 4.2 — Konstitütif aktivasyon: reseptör tirozin kinaz örneği](assets/sekil_16_konstitutif_aktivasyon_reseptor.svg)
 
 GoF varyant bu kontrolü bozar. FGFR3 (fibroblast büyüme faktörü reseptörü 3) bunun ders kitabı örneğidir. FGFR3'ün kinaz alanındaki belirli varyantlar (örneğin tanatoforik displazi tip II'deki Lys650Glu), reseptörü **ligand olmadan sürekli aktif** hâle getirir. Webster ve Donoghue (1996), bu aktivasyon-halkası varyantının FGFR3 kinaz aktivitesini yabanıl tipin yaklaşık **100 katına** çıkardığını ve bunun ligand bağlanmasıyla normalde tetiklenen konformasyon değişikliğini taklit ettiğini doğrudan göstermiştir (Webster &amp; Donoghue, 1996, *Mol Cell Biol*; [DOI](https://doi.org/10.1128/MCB.16.8.4081)). Bu, GoF'un soyut bir kavram değil, deneyde **ölçülebilen aşırı aktivite** olduğunu kanıtlar.
 
@@ -86,6 +88,8 @@ Bu yakınsamanın tanısal sonucu şudur: GoF varyantların büyük çoğunluğu
 ## 3. Varyant tipleri
 
 Aşağıdaki tablo, GoF'a yol açabilen varyant tiplerini ve her birinin ürüne "fazla/yanlış aktiviteyi nasıl kazandırdığını" özetler. Dikkat edilecek nokta, bu listenin Bölüm 2–3'teki LoF/HI tablolarının neredeyse **tersi** olmasıdır: orada baskın aktör nonsense/frameshift/delesyon iken, burada baskın aktör **missense** ve nadir **in-frame** değişiklikler ile **duplikasyonlardır**; nonsense/frameshift ise GoF için tipik olarak *beklenmez* (çünkü onlar ürünü yok eder, GoF için aktif ürün gerekir).
+
+**Tablo 4.2 — Varyant tipleri ve ürüne işlev kazandırma yolları**
 
 | Varyant tipi | Ürüne nasıl GoF kazandırır? | Tanısal yakalama | Notlar / ilgili bölüm |
 |--------------|------------------------------|------------------|------------------------|
@@ -109,6 +113,8 @@ Cevap, varyant ürünün **kendi başına zarar veriyor** olmasından çıkar: s
 
 ### 4.2. GoF varyantları neden missense ve hotspot ağırlıklıdır?
 
+**Algoritma 4.1 — Bir varyant gen ürününü nasıl etkiler?**
+
 ```mermaid
 flowchart TD
   A["Bir varyant gen ürününü nasıl etkiler?"] --> B{"Ürünü yok mu ediyor<br/>yoksa aktif mi tutuyor?"}
@@ -131,11 +137,11 @@ GoF'un en pratik klinik sonucu burada ortaya çıkar. LoF'ta tedavi mantığı "
 
 ### 4.5. Aynı gen, zıt yönler: GoF ve LoF neden farklı hastalık yapar?
 
-Doz–yanıt ekseni bu olguyu zarif biçimde açıklar (Şekil 15): sağlıklı işlev bir orta banttayken, eksiğe doğru kayma (LoF) bir hastalığı, fazlaya/yeniye doğru kayma (GoF) **başka bir hastalığı** üretir. Aynı genin iki yönü, iki ayrı klinik tabloya karşılık gelir.
+Doz–yanıt ekseni bu olguyu zarif biçimde açıklar (Şekil 4.3): sağlıklı işlev bir orta banttayken, eksiğe doğru kayma (LoF) bir hastalığı, fazlaya/yeniye doğru kayma (GoF) **başka bir hastalığı** üretir. Aynı genin iki yönü, iki ayrı klinik tabloya karşılık gelir.
 
-![Şekil 15 — İşlev kaybı ve işlev kazanımı: zıt yönlerde hastalık](assets/sekil_15_doz_yanit_gof_vs_lof.svg)
+![Şekil 4.3 — İşlev kaybı ve işlev kazanımı: zıt yönlerde hastalık](assets/sekil_15_doz_yanit_gof_vs_lof.svg)
 
-![Şekil 17 — Aynı gen, iki yön: GoF ve LoF farklı hastalık yapar](assets/sekil_17_ayni_gen_gof_lof.svg)
+![Şekil 4.4 — Aynı gen, iki yön: GoF ve LoF farklı hastalık yapar](assets/sekil_17_ayni_gen_gof_lof.svg)
 
 RET bunun klasik örneğidir: aynı gende konstitütif aktivasyon yapan GoF varyantları **MEN2** (multipl endokrin neoplazi tip 2 — bir kanser sendromu) yaparken, işlev kaybı yapan LoF varyantları **Hirschsprung hastalığı** (enterik sinir sisteminin gelişim defekti) yapar (Edery ve ark., 1997, *BioEssays*; [DOI](https://doi.org/10.1002/bies.950190506)). Aynı reseptörün "iki yüzü": fazlası kanser, eksiği gelişim defekti. SCN2A ise hem yönü hem **tedaviyi** birlikte gösterir: GoF varyantları (örn. Arg1882) yenidoğan döneminde başlayan ağır epilepsiye yol açarken, LoF varyantları (örn. Arg853) daha geç başlangıçlı tablo ve otizm spektrum bozukluğuyla ilişkilidir; dinamik aksiyon potansiyeli "clamp" çalışmaları bu iki varyantın elektrofizyolojik olarak zıt yönde olduğunu doğrudan göstermiştir (Berecki ve ark., 2018, *PNAS*; [DOI](https://doi.org/10.1073/pnas.1800077115)).
 
@@ -144,6 +150,8 @@ RET bunun klasik örneğidir: aynı gende konstitütif aktivasyon yapan GoF vary
 ## 5. Tanısal testlerle ilişkisi
 
 GoF'un tanısal "imzası", §2.3'te gördüğümüz gibi, hastalığa yol açan varyantların büyük çoğunlukla **küçük, dizi düzeyinde değişiklikler** (özellikle missense) olmasıdır. Bu, GoF'u haploinsufficiency'den ayırır: orada doz/CNV testleri (delesyon araması) merkezîydi; burada merkez **dizilemededir**. İstisna, doz artışıyla GoF benzeri etki yapan duplikasyonlardır. Aşağıdaki tablo her yöntemin GoF'u yakalama gücünü ve sınırını gösterir.
+
+**Tablo 4.3 — İşlev kazanımı mekanizmasını hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -167,6 +175,8 @@ Gain-of-function, ACMG/AMP varyant yorumlamasında **özel bir dikkat** gerektir
 **PVS1 neden uygulanmaz?** PVS1 (çok güçlü patojenik), "öngörülen işlev kaybı (null) varyantı, o gen için bilinen hastalık mekanizması işlev kaybı olduğunda" uygulanır (Richards ve ark., 2015, *Genet Med*; [DOI](https://doi.org/10.1038/gim.2015.30); Bölüm 2 §6, Bölüm 3 §6). GoF mekanizmalı bir gende ise hastalığı yapan **null değil, aşırı/yeni aktivitedir**; bir null varyant (nonsense, tam delesyon) bu genlerde çoğu kez **hastalık yapmaz** (RET-Hirschsprung gibi farklı/zıt bir fenotip yapabilir veya sessiz kalabilir). Dolayısıyla GoF gende bir LoF varyantı görmek patojenite *lehine* değil; mekanizma uyumsuzluğuna işaret eder. Bu, "mekanizmayı bilmeden varyant yorumlanamaz" ilkesinin en net örneğidir.
 
 **GoF gende öne çıkan kriterler.** PVS1'in yerini şu kriterler alır: **PM1** (varyant, iyi tanımlanmış bir mutasyonel **hotspot** ve/veya kritik fonksiyonel alanda yer alıyor — GoF'un kümelenme özelliği bunu sık uygulanır kılar, §2.2); **PS3** (iyi kurulmuş bir **fonksiyonel test** varyantın aktiviteyi artırdığını/değiştirdiğini gösteriyor); **PS2/PM6** (varyant *de novo*, özellikle tekrarlayan de novo hotspot ise güçlü kanıt); **PS1/PM5** (aynı/benzer kodonda daha önce patojen bildirilmiş varyant). ClinGen SVI'nin PS3/BS3 çerçevesi, fonksiyonel kanıtın nasıl değerlendirileceğini standardize eder ve ilk adımının **"hastalık mekanizmasını tanımlamak"** olduğunu vurgular — yani bir testin GoF'u mu yoksa LoF'u mu ölçtüğü, kanıtın yönünü belirler (Brnich ve ark., 2019, *Genome Med*; [DOI](https://doi.org/10.1186/s13073-019-0690-2)).
+
+**Algoritma 4.2 — İşlev kazanımı şüphesinde kanıt ve kriter seçimi**
 
 ```mermaid
 flowchart TD
@@ -225,6 +235,8 @@ SCN2A (nöronal sodyum kanalı NaV1.2) varyantları, GoF/LoF ayrımının **teda
 
 ## 9. Klinik pratikte karar algoritması
 
+**Algoritma 4.3 — Dominant kalıtım/de novo şüphesinde klinik karar akışı**
+
 ```mermaid
 flowchart TD
   A["Dominant kalıtım/de novo şüphesi olan hasta"] --> B["Aday gende varyant bulundu (sıklıkla missense)"]
@@ -266,6 +278,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 4.4 — Bölüm 4 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

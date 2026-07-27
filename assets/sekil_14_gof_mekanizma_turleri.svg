@@ -60,5 +60,5 @@
   <text x="637" y="455" text-anchor="middle" font-size="10.5" fill="#777" font-style="italic">Bölüm 6 (neomorfik) ile köprü; toksik kazanım dahil</text>
 
   <text x="430" y="520" text-anchor="middle" font-size="11.5" fill="#444">Öğreti: GoF varyantlar dominanttır, sıklıkla <tspan font-weight="bold">hotspot</tspan> bölgelerde kümelenir ve LoF beklentisi (PVS1) BURADA geçerli değildir.</text>
-  <text x="430" y="544" text-anchor="middle" font-size="10" fill="#999">Şekil 14 — İşlev kazanımı mekanizmalarının dört temel tipi</text>
+  <text x="430" y="544" text-anchor="middle" font-size="10" fill="#999">Şekil 4.1 — İşlev kazanımı mekanizmalarının dört temel tipi</text>
 </svg>

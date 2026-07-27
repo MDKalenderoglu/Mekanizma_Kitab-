@@ -18,7 +18,7 @@ Bu bölüm bir sözlük değildir; kavramları, aralarındaki ilişkiyi göstere
 
 ### 1.A — Hücre, kromozom ve DNA mimarisi: bilgi nasıl paketlenir?
 
-![Şekil 1 — Kromozom ve kromatin hiyerarşisi](assets/sekil_01_kromozom_kromatin_hiyerarsisi.svg)
+![Şekil 1.1 — Kromozom ve kromatin hiyerarşisi](assets/sekil_01_kromozom_kromatin_hiyerarsisi.svg)
 
 İnsan **genomu**, yani bir hücredeki tüm kalıtsal bilgi, yaklaşık 3,2 milyar **baz çiftinden** (bp) oluşur. Bu bilginin taşıyıcısı, iki ipliği A-T ve G-C eşleşmeleriyle birbirine bağlanan **DNA** çift sarmalıdır. Çift sarmalın zarafeti, bir ipliğin diğeri için şablon görevi görmesinde yatar: hücre bölünürken DNA bu sayede doğru kopyalanır, hasar gördüğünde de sağlam iplik onarım için referans olur. Klinik açıdan bu, replikasyon ve onarım kusurlarının neden hastalık (ve kanser) yapabildiğinin temelidir.
 
@@ -32,7 +32,7 @@ Bu mimaride iki adresleme kavramı işimize yarayacaktır. **Lokus**, bir genin 
 
 ### 1.B — Genin yapısı ve santral dogma: bilgi nasıl ürüne dönüşür?
 
-![Şekil 2 — Gen anatomisi: DNA → transkript → protein](assets/sekil_02_gen_anatomisi.svg)
+![Şekil 1.2 — Gen anatomisi: DNA → transkript → protein](assets/sekil_02_gen_anatomisi.svg)
 
 Bir varyantın etkisini öngörebilmek için, önce o varyantın genin hangi parçasına düştüğünü anlamak gerekir; çünkü aynı nükleotid değişikliği, bir promoterde, bir ekzonda, bir splice bölgesinde veya bir 3′UTR'de tamamen farklı sonuçlar doğurur. Bu yüzden genin anatomisini ve santral dogmanın akışını adım adım izlemek, klinik genetiğin temel becerilerinden biridir.
 
@@ -43,6 +43,8 @@ Transkripsiyon sonucu önce **pre-mRNA** üretilir; bu ham kopya hem proteine ç
 Translasyon aşamasında mRNA, üçer bazlık **kodonlar** hâlinde okunur; her kodon bir aminoaside (ya da başlangıç/bitiş sinyaline) karşılık gelir. Okuma, **başlangıç kodonundan** (AUG) başlar ve bir **stop kodonunda** biter. Kodonların bu üçerli okunma düzenine **okuma çerçevesi** denir ve son derece kırılgandır: araya giren ya da çıkan bir-iki baz (frameshift), çerçeveyi kaydırarak aşağı akıştaki tüm kodonların anlamını değiştirir ve genellikle erken bir stop kodonu doğurur. Ortaya çıkan **protein** ise düz bir aminoasit zinciri değildir; katlanarak işlevsel bir üç boyutlu yapı kazanır. Bu yapının bağımsız katlanan, belirli bir işi (DNA'ya bağlanma, kinaz aktivitesi gibi) yürüten bölümlerine **domain**, domain içindeki kritik ve evrimsel olarak korunmuş kısa dizilere ise **motif** denir (örneğin bir enzimin aktif bölgesi). Bir motifteki tek bir aminoasidin değişmesi bile proteinin işlevini bütünüyle yok edebilir; bu, ileride varyant yorumunda göreceğimiz "kritik bölge" mantığının (PM1) temelidir.
 
 Tüm bu basamakları tek bir cümlede özetlersek: bir DNA varyantı, ürüne dönüşürken birçok katmandan geçer ve her katmanda "süzülür". Aşağıdaki şema bu süzülme kaskadını ve her dalın kitabın hangi bölümüne bağlandığını gösterir.
+
+**Algoritma 1.1 — DNA varyantından fenotipe: bilgi akışı**
 
 ```mermaid
 flowchart TD
@@ -74,6 +76,8 @@ Diploid olduğumuz için her otozomal gende iki allelimiz vardır ve hastalık �
 
 Compound heterozigotlukta kritik soru, iki varyantın kromozomlar üzerindeki dizilişidir; buna **faz** denir. İki varyant karşıt homolog kromozomlarda yer alıyorsa **trans** konumdadır, aynı kromozom üzerindeyse **cis** konumdadır. Bu ayrım tanısal kararı doğrudan değiştirir: resesif bir hastalık ancak genin *her iki* kopyası da işlevsizse ortaya çıkar. İki patojen varyant *trans* ise her allel ayrı ayrı bozulmuştur ve tanı desteklenir; *cis* ise iki varyant da tek allelde toplanmıştır, diğer allel sağlamdır ve kişi yalnızca taşıyıcıdır. Faz çoğunlukla ebeveyn testiyle çözülür (her varyantın hangi ebeveynden geldiğine bakılır); birbirine yakın varyantlarda okuma temelli ya da long-read fazlama da kullanılabilir.
 
+**Algoritma 1.2 — Zigotluk ve faz: iki kopyanın durumunun belirlenmesi**
+
 ```mermaid
 flowchart TD
   V["Resesif aday gende iki patojen varyant"] --> Q{"Faz: cis mi, trans mı?"}
@@ -84,21 +88,21 @@ flowchart TD
 
 ### 1.E — Varyantın kökeni ve kalıtım kalıpları
 
-![Şekil 4 — Temel kalıtım kalıpları (pedigri örnekleri)](assets/sekil_04_kalitim_kaliplari_pedigri.svg)
+![Şekil 1.3 — Temel kalıtım kalıpları (pedigri örnekleri)](assets/sekil_04_kalitim_kaliplari_pedigri.svg)
 
 Bir varyantın nereden geldiği, hem rekürrens riski hem de yorum açısından belirleyicidir. **Germline** (eşey hücresi) varyantları gametlerde bulunur, döllenmeyle bireyin tüm hücrelerine geçer ve sonraki kuşaklara aktarılabilir. **Somatik** varyantlar ise döllenmeden sonra tek bir hücrede ortaya çıkar ve yalnızca o hücrenin soyunda bulunur; kanserlerin ve birçok mozaik tablonun temelinde bunlar yatar. Çocukta yeni beliren ve ebeveynlerin kanında saptanamayan varyantlara *de novo* denir; bunların tipik rekürrens riski düşüktür, ancak ebeveynin eşey hücrelerinde gizli bir mozaiklik (gonadal mozaiklik) bulunabileceği için risk asla tam olarak sıfır değildir (Bölüm 12). Aynı bireyde genetik olarak farklı hücre popülasyonlarının bir arada bulunmasına ise **mozaiklik** denir ve kendi başına bir bölümü hak edecek kadar önemlidir.
 
-Germline varyantların ailedeki dağılımı, klasik kalıtım kalıplarını oluşturur (Şekil 4). **Otozomal dominant** kalıtımda tek bir patojen allel hastalık için yeterlidir; soyağacında her kuşakta etkilenen bireyler görülür, geçiş dikeydir ve cinsiyetler eşit etkilenir — NF1, Marfan ve akondroplazi tipik örneklerdir. **Otozomal resesif** kalıtımda hastalık için iki patojen allel gerekir; bu nedenle sağlıklı taşıyıcı iki ebeveynden etkilenen bir çocuk doğabilir, desen daha yataydır ve akraba evliliği riski belirgin biçimde artırır (kistik fibroz, PKU, SMA). **X'e bağlı resesif** kalıtımda hemizigot oldukları için çoğunlukla erkekler etkilenir, kadınlar genellikle taşıyıcıdır ve karakteristik biçimde erkekten erkeğe geçiş görülmez (DMD, hemofili A). **X'e bağlı dominant** kalıtımda heterozigot kadınlar da etkilenir; bazı genlerde varyant erkekte erken letal olduğundan ailede tekrarlayan erkek kayıpları/düşükler bir ipucu olabilir. Son olarak **mitokondriyal (maternal)** kalıtımda varyant yalnızca anneden tüm çocuklara geçer, babadan hiçbirine geçmez; heteroplazmi nedeniyle ifade oldukça değişkendir (Bölüm 11).
+Germline varyantların ailedeki dağılımı, klasik kalıtım kalıplarını oluşturur (Şekil 1.3). **Otozomal dominant** kalıtımda tek bir patojen allel hastalık için yeterlidir; soyağacında her kuşakta etkilenen bireyler görülür, geçiş dikeydir ve cinsiyetler eşit etkilenir — NF1, Marfan ve akondroplazi tipik örneklerdir. **Otozomal resesif** kalıtımda hastalık için iki patojen allel gerekir; bu nedenle sağlıklı taşıyıcı iki ebeveynden etkilenen bir çocuk doğabilir, desen daha yataydır ve akraba evliliği riski belirgin biçimde artırır (kistik fibroz, PKU, SMA). **X'e bağlı resesif** kalıtımda hemizigot oldukları için çoğunlukla erkekler etkilenir, kadınlar genellikle taşıyıcıdır ve karakteristik biçimde erkekten erkeğe geçiş görülmez (DMD, hemofili A). **X'e bağlı dominant** kalıtımda heterozigot kadınlar da etkilenir; bazı genlerde varyant erkekte erken letal olduğundan ailede tekrarlayan erkek kayıpları/düşükler bir ipucu olabilir. Son olarak **mitokondriyal (maternal)** kalıtımda varyant yalnızca anneden tüm çocuklara geçer, babadan hiçbirine geçmez; heteroplazmi nedeniyle ifade oldukça değişkendir (Bölüm 11).
 
 > **🟦 Klinikte dikkat — Soyağacının "temiz" olması hastalığı dışlamaz.** Aile öyküsünün negatif olması, dominant bir tanıyı dışlamak için yeterli değildir. De novo varyantlar, eksik penetrans, küçük aile boyutu, mozaiklik ve hatalı babalık beklenen kalıbı kolaylıkla maskeleyebilir. "Ailede başka kimse yok" cümlesi, çoğu zaman "varyant de novo ortaya çıkmış olabilir" anlamına gelir.
 
 ### 1.F — Genotip ile fenotip arasındaki ilişki neden bulanıktır?
 
-![Şekil 5 — Allelik heterojenite vs lokus heterojenitesi](assets/sekil_05_allelik_vs_lokus_heterojenite.svg)
+![Şekil 1.4 — Allelik heterojenite vs lokus heterojenitesi](assets/sekil_05_allelik_vs_lokus_heterojenite.svg)
 
 Tıp öğrencilerinin genetiği "tek gen → tek hastalık" şeklinde hatırlama eğilimi, klinikte hızla çöker; çünkü genotip ile fenotip arasındaki ilişki bire bir değildir. Bu bulanıklığın birkaç temel kaynağı vardır ve her biri doğrudan test ve yorum stratejisini etkiler.
 
-İlk kaynak heterojenitedir ve iki biçimi vardır (Şekil 5). **Allelik heterojenitede** aynı gende çok sayıda farklı varyant aynı hastalığa yol açabilir; CFTR'de tanımlanmış binlerce varyant bunun çarpıcı örneğidir. Bunun pratik sonucu nettir: yalnızca tek bir bilinen varyantı arayan bir test, başka bir varyant taşıyan hastayı kaçırır, bu yüzden genin tamamı taranmalıdır. **Lokus heterojenitesinde** ise klinik olarak benzer bir tablo, farklı genlerdeki varyantlardan kaynaklanabilir; retinitis pigmentosa ve epileptik ensefalopatiler onlarca farklı genle ilişkilidir. Bu durumda tek bir gene bakmak yetersizdir ve panel ya da ekzom gerekir. İlginç olan, lokus heterojenitesi gösteren genlerin çoğu zaman aynı biyolojik yolakta buluşmasıdır — yani fenotipin ortaklığı, mekanizmanın ortaklığını yansıtır.
+İlk kaynak heterojenitedir ve iki biçimi vardır (Şekil 1.4). **Allelik heterojenitede** aynı gende çok sayıda farklı varyant aynı hastalığa yol açabilir; CFTR'de tanımlanmış binlerce varyant bunun çarpıcı örneğidir. Bunun pratik sonucu nettir: yalnızca tek bir bilinen varyantı arayan bir test, başka bir varyant taşıyan hastayı kaçırır, bu yüzden genin tamamı taranmalıdır. **Lokus heterojenitesinde** ise klinik olarak benzer bir tablo, farklı genlerdeki varyantlardan kaynaklanabilir; retinitis pigmentosa ve epileptik ensefalopatiler onlarca farklı genle ilişkilidir. Bu durumda tek bir gene bakmak yetersizdir ve panel ya da ekzom gerekir. İlginç olan, lokus heterojenitesi gösteren genlerin çoğu zaman aynı biyolojik yolakta buluşmasıdır — yani fenotipin ortaklığı, mekanizmanın ortaklığını yansıtır.
 
 Bulanıklığın bir diğer kaynağı **pleiotropidir**: tek bir gen, görünüşte birbiriyle ilgisiz birçok sistemi aynı anda etkileyebilir, çünkü o gen farklı dokularda ve farklı gelişim dönemlerinde farklı işler görür. Buna ek olarak fenotip, ana hastalık geninden bağımsız başka genlerin — **modifiye edici genlerin** — ve bireyin tüm diğer varyantlarının oluşturduğu **genetik zeminin** etkisiyle yumuşar ya da ağırlaşır. Hastalığın bazen iki gen (**digenik**), birkaç gen (**oligogenik**) ya da çok sayıda küçük etkili varyantın toplamıyla (**poligenik**) ortaya çıkması da bu çerçeveye girer (Bölüm 14); burada sık yapılan hata, ikinci bir varyant bulunduğunda bunu hemen "digenik kalıtım" diye yorumlamaktır — oysa bu, ancak güçlü kanıtla iddia edilebilecek bir sonuçtur. Son olarak, bazı hastalıklarda fenotip kuşaklar boyu giderek erken ve ağır seyreder; **antisipasyon** denen bu olgu tipik olarak tekrar genişlemesi hastalıklarında görülür (Bölüm 9).
 
@@ -122,15 +126,15 @@ Son olarak, popülasyon ölçeği bize bir varyantın **allel frekansını** (ve
 
 ### 1.I — Penetrans ve ekspresivite: en sık karıştırılan ikili
 
-![Şekil 3 — Penetrans vs Ekspresivite](assets/sekil_03_penetrans_ekspresivite.svg)
+![Şekil 1.5 — Penetrans vs Ekspresivite](assets/sekil_03_penetrans_ekspresivite.svg)
 
 Penetrans ve ekspresivite, klinik genetikte en çok karıştırılan iki kavramdır; oysa farkları, doğru soruyu sormakla netleşir. **Penetrans**, "bir genotipi taşıyanların *kaçının* hastalandığı" sorusunun yanıtıdır; özünde bir var/yok sorusudur ve yüzde olarak ifade edilir. **Ekspresivite** ise "hastalananlarda tablonun *ne kadar şiddetli ya da ne biçimde* ortaya çıktığı" sorusunun yanıtıdır; bir derece/biçim sorusudur. Bir varyant taşıyan on kişiden yedisi hastalanıp üçü tamamen sağlıklı kalıyorsa, bu bir penetrans (≈%70) ifadesidir; hastalanan yedi kişiden kimi çok hafif kimi çok ağır seyrediyorsa, bu bir ekspresivite ifadesidir. İki eksen birbirinden bağımsızdır: bir hastalık aynı anda hem eksik penetranslı hem de değişken ekspresiviteli olabilir.
 
 Bu ayrımı somutlaştırmak için üç durumu düşünelim. Eksik penetransta, bir ailede aynı patojen varyantı taşıyan sekiz kişiden altısı hastalanır, ikisi yaşam boyu sağlıklı kalır; penetrans kabaca 6/8'dir ve sağlıklı kalan iki kişi varyantı taşımaya ve çocuklarına aktarmaya devam eder. Bunun en önemli klinik sonucu şudur: sağlıklı bir ebeveynde aynı varyantın bulunması, o varyantı otomatik olarak "benign" yapmaz; bu durum pekâlâ eksik penetransla uyumlu olabilir. Değişken ekspresivitede ise, örneğin aynı NF1 varyantını taşıyan bir ailede herkes etkilenmiştir (yani penetrans yüksektir), ama biri yalnızca birkaç sütlü-kahve lekesi taşırken diğeri çok sayıda nörofibrom ve ciddi komplikasyon yaşar; dolayısıyla "akrabası hafif seyretmişti" demek, eldeki hastanın da hafif olacağını asla garanti etmez. Üçüncü durumda bu ikisi bir aradadır: bir kardiyak iyon kanalı hastalığında bazı taşıyıcılar hiç bulgu vermezken (eksik penetrans), bulgu verenlerin kimi yalnızca hafif bir EKG değişikliği gösterir, kimi ani ölüm riski taşır (değişken ekspresivite).
 
-![Şekil 6 — Yaşa bağlı penetrans](assets/sekil_06_yasa_bagli_penetrans.svg)
+![Şekil 1.6 — Yaşa bağlı penetrans](assets/sekil_06_yasa_bagli_penetrans.svg)
 
-Penetransla ilgili kritik ve sıkça gözden kaçan bir nokta, onun sabit bir sayı olmadığıdır; çoğu zaman **yaşa bağlı bir eğridir** (Şekil 6). Geç başlangıçlı hastalıklarda — özellikle herediter kanser sendromlarında — genç bir taşıyıcı henüz tamamen sağlıklı olabilir, ancak riski yaşla birlikte artar. Penetrans ayrıca cinsiyete de bağlı olabilir. Bunun pratik karşılığı, presemptomatik taramanın ve genetik danışmanın temelini oluşturur: "bu yaşta sağlıklı olması" bir varyantı dışlamaz. Tüm bu olguların — eksik penetransın ve değişken ekspresivitenin — altında yatan moleküler nedenler arasında allel dozu, diferansiyel allelik ekspresyon, kopya sayısı varyasyonu, cis ya da trans konumdaki modifiye edici varyantlar, yaş, cinsiyet ve epigenetik/çevresel etkenler sayılır (Cooper ve ark., 2013). Aklımızda tutmamız gereken basit pusula şudur: **Penetrans** "var mı?" (Presence), **Ekspresivite** "ne kadar?" (Extent) sorusudur.
+Penetransla ilgili kritik ve sıkça gözden kaçan bir nokta, onun sabit bir sayı olmadığıdır; çoğu zaman **yaşa bağlı bir eğridir** (Şekil 1.6). Geç başlangıçlı hastalıklarda — özellikle herediter kanser sendromlarında — genç bir taşıyıcı henüz tamamen sağlıklı olabilir, ancak riski yaşla birlikte artar. Penetrans ayrıca cinsiyete de bağlı olabilir. Bunun pratik karşılığı, presemptomatik taramanın ve genetik danışmanın temelini oluşturur: "bu yaşta sağlıklı olması" bir varyantı dışlamaz. Tüm bu olguların — eksik penetransın ve değişken ekspresivitenin — altında yatan moleküler nedenler arasında allel dozu, diferansiyel allelik ekspresyon, kopya sayısı varyasyonu, cis ya da trans konumdaki modifiye edici varyantlar, yaş, cinsiyet ve epigenetik/çevresel etkenler sayılır (Cooper ve ark., 2013). Aklımızda tutmamız gereken basit pusula şudur: **Penetrans** "var mı?" (Presence), **Ekspresivite** "ne kadar?" (Extent) sorusudur.
 
 ---
 
@@ -139,6 +143,8 @@ Penetransla ilgili kritik ve sıkça gözden kaçan bir nokta, onun sabit bir sa
 Önceki bölümün ortaya koyduğu temel fikir, bir varyantın etkisinin santral dogmanın katmanları boyunca süzülerek fenotipe dönüştüğüydü. Bu süzülmenin sonunda ortaya çıkan tablo, mekanizmanın hangi sınıfa girdiğine göre köklü biçimde değişir ve bu sınıflandırma, kitabın geri kalanının iskeletidir. En temel ayrım, varyantın gen ürününü **niceliksel** olarak mı (miktarı azaltarak) yoksa **niteliksel** olarak mı (işlevini değiştirerek) etkilediğidir.
 
 Niceliksel bozukluğun ucunda **loss-of-function** durur: ürün azalır ya da kaybolur. Bu, genin doz duyarlılığına göre ya resesif bir hastalık (tek sağlam kopya yeterliyken iki kopyanın da kaybı gerekir) ya da dominant bir hastalık (tek kopyanın kaybı bile yeterliyse, yani haploinsufficiency) doğurur — bunlar sırasıyla Bölüm 2 ve 3'ün konusudur. Niteliksel bozukluk tarafında ise ürün vardır, ama yanlış davranır. Eğer mutant ürün aşırı ya da sürekli aktifse buna **gain-of-function** (Bölüm 4); eğer mutant ürün, kompleks içindeki sağlam ürünleri de bozarak işlevi felç ediyorsa **dominant-negatif** (Bölüm 5); eğer ürün tamamen yeni, normalde olmayan bir işlev kazanmışsa **neomorfik** etki (Bölüm 6) söz konusudur. Bunlara ek olarak, ürün tamamen normal olduğu hâlde sırf kopya sayısı arttığı için zararlı olabilir; bu **doz fazlalığı** durumudur (Bölüm 4, 8). Aşağıdaki tablo bu sınıfları, tipik kalıtımlarını ve ilgili bölümleri bir arada özetler — ancak tablonun her satırının arkasındaki mekanizma, kendi bölümünde anlatıyla açılacaktır.
+
+**Tablo 1.1 — Mekanizma sınıflarının karşılaştırması**
 
 | Mekanizma sınıfı | Özünde ne olur? | Tipik kalıtım | Bölüm |
 |------------------|-----------------|---------------|-------|
@@ -156,6 +162,8 @@ Niceliksel bozukluğun ucunda **loss-of-function** durur: ürün azalır ya da k
 ## 3. Varyant tipleri ve mekanizmaya köprü
 
 Aşağıdaki tablo, §1.C'de anlatı içinde tanıttığımız varyant tiplerini hızlı referans olarak toplar ve her birinin hangi bölümde mekanizma düzeyinde derinleştiğini gösterir. Tablodaki kritik ders, bir önceki bölümde vurguladığımız gibi, **aynı varyant tipinin farklı genlerde farklı sonuç verebileceğidir**; tipin kendisi mekanizmayı tek başına belirlemez.
+
+**Tablo 1.2 — Varyant tipleri ve mekanizmaya köprüleri**
 
 | Varyant tipi | Tipik moleküler sonuç | Derinleştiği bölüm |
 |--------------|------------------------|---------------------|
@@ -180,6 +188,8 @@ Bir varyantın klinik tabloya dönüşürken geçtiği süzgeçleri §1 boyunca 
 ## 5. Tanısal testlerle ilişkisi
 
 Bölüm 1 tek bir mekanizmayı değil, mekanizmaları birbirinden ayırma çerçevesini öğrettiği için, buradaki test tablosu da hangi katmanın hangi testle görüldüğünü özetler. Bu tablodan çıkarılacak ana ders, aşağıdaki kutuda vurgulanan ilkedir: doğru test, beklenen mekanizmaya göre seçilir. Her tekniğin ayrıntıları ilgili mekanizma bölümünde derinleştirilecektir.
+
+**Tablo 1.3 — Tanısal testlerin baktığı katmanlar ve sınırlılıkları**
 
 | Test | Hangi katmana bakar? | Sınırlılığı |
 |------|----------------------|-------------|
@@ -218,6 +228,8 @@ Bu bölüm kavramsal olduğu için örnekleri ilkeleri göstermek amacıyla veri
 
 ## 9. Klinik pratikte karar algoritması (Bölüm 1 düzeyi)
 
+**Algoritma 1.3 — Mekanizma odaklı tanısal yaklaşım**
+
 ```mermaid
 flowchart TD
   A["1) Fenotipi netleştir<br/>organ tutulumu, başlangıç yaşı, seyir, aile öyküsü"] --> B["2) Olası kalıtım kalıbı + mekanizmayı düşün<br/>OD/OR/XL/mito? Doz mu, GoF/DN mi, tekrar/imprint/mito mu?"]
@@ -250,6 +262,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 1.4 — Bölüm 1 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

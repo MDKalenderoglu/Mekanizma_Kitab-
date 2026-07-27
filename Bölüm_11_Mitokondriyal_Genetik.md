@@ -41,6 +41,8 @@ Son iki kavram, yüzdenin neden sabit olmadığını açıklar. **Germline darbo
 
 Bütün bunların üzerine, klinik olarak en çok gözden kaçan gerçek gelir: **mitokondri iki genomun ortak ürünüdür.** OXPHOS komplekslerinin alt birimlerinin büyük çoğunluğu — ve mtDNA'nın replikasyonu, transkripsiyonu, onarımı için gereken bütün proteinler — nükleer genomdan kodlanır (Almannai ve ark., 2018). Bu yüzden mitokondriyal fenotipli bir hastanın altında yatan varyant pekâlâ nükleer bir gende olabilir; o durumda kalıtım otozomal resesif, otozomal dominant veya X'e bağlı olur ve tekrarlanma riski Mendel oranlarıyla hesaplanır.
 
+**Tablo 11.1 — Mitokondriyal genetiğin temel kavramları**
+
 | Kavram | Tanım | Klinik anlamı |
 |---|---|---|
 | Poliplazmi | Bir hücrede binlerce mtDNA kopyasının bulunması | Varyant "var/yok" değil, yüzde olarak taşınır |
@@ -100,6 +102,8 @@ Nükleer genin bozulmasının mtDNA üzerinde ikincil, ölçülebilir izler bır
 
 Mitokondriyal hastalıklarda "varyant" kategorisi, hangi genomda bulunduğuna ve mtDNA üzerinde doğrudan mı yoksa dolaylı mı etki yaptığına göre ayrışır. Aşağıdaki tablo, bu bölümün klinik omurgasını oluşturur; çünkü satırlardan hangisinde olduğunuz hem testi hem tekrarlanma riskini belirler.
 
+**Tablo 11.2 — Mitokondriyal lezyon tipleri, kalıtım ve tekrarlanma riski**
+
 | Lezyon tipi | Genom | Moleküler sonuç | Kalıtım / tekrarlanma riski | Örnek |
 |---|---|---|---|---|
 | mtDNA protein-kodlayan nokta varyantı | mtDNA | Tek OXPHOS alt biriminin işlev kaybı; tek kompleks tutulur | Maternal; heteroplazmi bağımlı | *MT-ATP6* m.8993T>G (NARP/Leigh) |
@@ -129,6 +133,8 @@ Mitokondriyal genetiğin en kafa karıştırıcı gözlemi, tek bir varyantın b
 
 Bu spektrumun açıklaması iki değişkenin çarpımıdır: **heteroplazmi düzeyi** ve **dokusal dağılım**. Aynı toplam yüke sahip iki kişide, mutant moleküllerin embriyogenez sırasında hangi doku öncüllerine düştüğü farklıysa, biri ağırlıklı olarak beyin, diğeri ağırlıklı olarak pankreas ve iç kulak tutulumu gösterir. Bu yüzden mitokondriyal hastalıkta genotip–fenotip ilişkisi, önceki bölümlerdeki gibi "varyant → fenotip" biçiminde tek yönlü değil; **varyant × yüzde × doku dağılımı → fenotip** biçiminde üç değişkenlidir.
 
+**Algoritma 11.1 — Aynı mtDNA varyantı neden farklı hastalıklar yapar?**
+
 ```mermaid
 flowchart TD
   A["Tek mtDNA varyantı<br/>m.3243A&gt;G (MT-TL1)"] --> B{"Heteroplazmi düzeyi<br/>ve doku dağılımı"}
@@ -157,6 +163,8 @@ Pratikte şüpheyi tetikleyen bir kırmızı bayrak kümesi vardır. Açıklanam
 ## 5. Tanısal testlerle ilişkisi
 
 Mitokondriyal hastalıkta test seçimi iki soruyu birden yanıtlamak zorundadır: **hangi genoma bakılacak** ve **hangi dokuda bakılacak**. Bu ikinci soru, kitabın başka hiçbir bölümünde bu kadar belirleyici değildir; çünkü mitotik segregasyon nedeniyle yanlış doku, gerçekten var olan bir varyantı tümüyle gizleyebilir.
+
+**Tablo 11.3 — Mitokondriyal hastalıkları hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -193,6 +201,8 @@ Birincisi, **popülasyon frekansı kriterleri (BA1/BS1/PM2) yeniden kalibre edil
 Dördüncüsü, **kritik bölge kriteri (PM1) mtDNA'nın kendine özgü yapısına göre tanımlanır.** tRNA genlerinde varyantın hangi yapısal alana (akseptör kol, antikodon kolu, D-kolu vb.) düştüğü ve o pozisyonun evrimsel korunmuşluğu, patojenite yönünde ağırlık taşır.
 
 > **🟦 Klinikte dikkat — "Homoplazmik" patojenite kanıtı değildir:** mtDNA raporlarında en sık yapılan yorum hatası, homoplazmik bir değişikliğin ağırlığından ötürü patojen sayılmasıdır. Oysa her insanın mtDNA'sı, referans diziden onlarca homoplazmik pozisyonda ayrılır; bunlar haplogrup polimorfizmleridir. Tersine, patojen varyantların çoğu heteroplazmiktir. Homoplazmi–heteroplazmi ayrımı bir patojenite göstergesi değil, yalnızca bir **yük** göstergesidir; yorum daima haplogrup bağlamı, korunmuşluk, segregasyon ve fonksiyonel kanıt üzerinden yapılmalıdır.
+
+**Algoritma 11.2 — mtDNA varyantının yorumlanma akışı**
 
 ```mermaid
 flowchart TD
@@ -255,6 +265,8 @@ flowchart TD
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 11.3 — Mitokondriyal hastalık şüphesinde tanısal akış**
 
 ```mermaid
 flowchart TD
@@ -323,6 +335,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 11.4 — Bölüm 11 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

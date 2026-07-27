@@ -228,7 +228,45 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 ---
 
-## 4. Final pass raporu (tamamlandı)
+## 4. Kitap mimarisi (akademik textbook düzeni)
+
+Ön/arka madde dosyaları `kitap/` klasöründedir; `build_book.py` bunları aşağıdaki sırayla gömer. ✍️ = elle doldurulacak.
+
+| Sıra | Öğe | Dosya | Durum |
+|---|---|---|---|
+| 1 | Dış kapak | *(build üretir)* | ✅ |
+| 2 | İç kapak | *(build üretir)* | ✅ |
+| 3 | Künye ve telif | `kitap/01_Kunye.md` | ✍️ şablon (sorumluluk reddi, sürüm notu, kaynak beyanı hazır) |
+| 4 | İthaf | `kitap/02_Ithaf.md` | ✍️ şablon |
+| 5 | Önsöz | `kitap/03_Onsoz.md` | ✅ |
+| 6 | Teşekkür | `kitap/04_Tesekkur.md` | ✍️ şablon |
+| 7 | Yazar ve editörler | `kitap/05_Yazar.md` | ✍️ şablon |
+| 8 | İçindekiler | *(build üretir)* | ✅ |
+| 9 | Şekiller listesi (64) | *(build üretir)* | ✅ |
+| 10 | Algoritmalar listesi (49) | *(build üretir)* | ✅ |
+| 11 | Tablolar listesi (70) | *(build üretir)* | ✅ |
+| 12 | Kısaltmalar | `kitap/06_Kisaltmalar.md` | ✅ |
+| 13 | Terminoloji ve yazım kuralları | `kitap/07_Terminoloji_ve_Yazim_Kurallari.md` | ✅ (HGVS/HGNC/ISCN dahil) |
+| 14 | **Kısım I–VI + 17 bölüm** | `Bölüm_NN_*.md` | ✅ |
+| 15 | Ekler (A–D) | `kitap/20_Ekler.md` | ✅ |
+| 16 | Sözlük (~105 terim) | `kitap/21_Sozluk.md` | ✅ |
+| 17 | Toplu kaynakça (114) | *(build üretir)* | ✅ |
+| 18 | Gen dizini (79) | `kitap/22_Gen_Dizini.md` | ✅ |
+| 19 | Hastalık dizini (59) | `kitap/23_Hastalik_Dizini.md` | ✅ |
+| 20 | Yazar özgeçmişi | `kitap/24_Ozgecmis.md` | ✍️ şablon |
+| 21 | Arka kapak | `kitap/25_Arka_Kapak.md` | ✅ (künye satırı ✍️) |
+
+**Kısım yapısı:** I — Çerçeve (1) · II — Protein düzeyinde mekanizmalar (2–6) · III — Transkript ve genom yapısı (7–9) · IV — Epigenetik, organel ve mozaiklik (10–12) · V — Genomik bağlam ve karmaşık mimari (13–15) · VI — Yorum ve klinik sentez (16–17).
+
+**Numaralandırma:** Şekil/Algoritma/Tablo numaraları `bölüm.sıra` biçimindedir ve metinde ilk anıldıkları sıraya göre verilir. Bölüm 1–8'in eski global şekil numaraları (Şekil 1–29) bu aşamada bölüm.sıra biçimine çevrildi; SVG'lerin iç başlıkları da eşitlendi.
+
+**Dizinler:** Kitap tek dosya HTML olarak üretildiğinden sayfa numarası yerine **bölüm bağlantısı** kullanılmıştır.
+
+**Kalan iş:** yalnız ✍️ işaretli kişisel/künye bilgileri.
+
+---
+
+## 5. Final pass raporu (tamamlandı)
 
 Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon işlemleri:
 
@@ -247,7 +285,7 @@ Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon 
 
 ---
 
-## 5. Sonraki adım
+## 6. Sonraki adım
 
 - **Sıradaki adım:** **Final pass** — kitabın 17 bölümü tamamlandı. Yapılacaklar: (1) terminoloji standardizasyonu ve tekrar azaltma; (2) atıf biçimi birleştirme (aşağıdaki Webster notu); (3) `assets/` yetim dosya temizliği ve şekil numaralandırmasının gözden geçirilmesi (aşağıdaki arşiv notu); (4) global kaynakça üretimi (tüm bölümlerin birleşik listesi, PMID'ye göre tekilleştirilmiş); (5) bölümler arası çapraz gönderme kontrolü; (6) kapak, önsöz ve nasıl-okunmalı sayfası; (7) son build + PDF çıktısı.
 - Not: Bölüm 17'de kitabın yönü tersine çevrildi (hastadan mekanizmaya): 12 klinik ipucunun mekanizmaya çevrilmesi (Şekil 17.1), ekzomun altı kör noktası ve yeniden analizin getirisi (Şekil 17.2; Clark 2018, Wright 2018, Smedley 2021), uçtan uca omurga (Şekil 17.3) ve sekiz pediatrik senaryo (Şekil 17.4) ile bütün bölümler hastanın başında tekrar edildi.

@@ -41,6 +41,8 @@ Son olarak iki özel kavram, tabloyu tamamlar. **Letal-mozaik hipotezi**, bazı 
 
 > **🧠 Kavram karışıklığı uyarısı — "fonksiyonel mozaiklik":** Kadınlarda X-kromozomu inaktivasyonu sonucu hücrelerin bir kısmında maternal, bir kısmında paternal X'in aktif olması da bazen "mozaiklik" olarak adlandırılır. Ancak bu bir **DNA dizisi farkı değildir**; her hücre aynı iki X'i taşır, yalnızca hangisinin okunduğu farklıdır. Bu bölümün konusu olan mozaiklik ise gerçek bir **dizi/kopya sayısı farkıdır**. İkisini ayırmak için ilkine "fonksiyonel mozaiklik", ikincisine "genetik mozaiklik" demek yerinde olur.
 
+**Tablo 12.1 — Mozaikliğin temel kavramları**
+
 | Kavram | Tanım | Klinik anlamı |
 |---|---|---|
 | Mozaiklik | Tek zigottan köken alan, genetik olarak farklı ≥2 hücre popülasyonu | Kan tüm vücudu temsil etmeyebilir |
@@ -113,6 +115,8 @@ Bu hipotez, sonraki yıllarda moleküler olarak **doğrulanmıştır**: Proteus 
 
 Mozaiklik bir varyant *tipi* değil, varyantın **dağılım biçimidir**; bu nedenle önceki bölümlerde gördüğümüz hemen her lezyon tipi mozaik olarak karşımıza çıkabilir. Aşağıdaki tablo, klinikte ayrı ayrı ele alınması gereken mozaik lezyon kategorilerini toplar.
 
+**Tablo 12.2 — Mozaik lezyon tipleri ve saptanma yolları**
+
 | Mozaik lezyon tipi | Tipik mekanizma | Nasıl saptanır | Klinik örnek / not |
 |---|---|---|---|
 | Mozaik nokta varyantı (SNV) | Postzigotik replikasyon hatası; sıklıkla GoF | Derin hedefli panel, ddPCR; lezyon dokusunda | *AKT1*, *GNAQ*, *GNAS*, *PIK3CA* |
@@ -143,6 +147,8 @@ Mozaikliğin en öğretici yanı, aynı gendeki varyantın konstitüsyonel ve mo
 *PIK3CA* bunun en zengin örneğidir. Bu gendeki aktive edici varyantlar, mozaik olarak ortaya çıktıklarında bir dizi segmental aşırı büyüme tablosuna yol açar; bu tabloların hepsi 2014'teki bir NIH uzlaşı toplantısında **PIK3CA ile ilişkili aşırı büyüme spektrumu (PROS)** başlığı altında toplanmıştır. Bu şemsiye terim, daha önce ayrı sendromlar olarak adlandırılan makrodaktili, fibroadipöz aşırı büyüme, CLOVES sendromu, hemihiperplazi-multipl lipomatozis ve megalensefali ile giden MCAP/DMEG tablolarını kapsar (Keppler-Noreuil ve ark., 2015). Bu klinik çeşitliliğin kaynağı tek bir şeydir: varyantın hangi dokularda ve hangi oranda bulunduğu.
 
 Aynı mantık *NF2* için de geçerlidir. Konstitüsyonel bir *NF2* varyantı klasik, yaygın ve iki taraflı vestibüler schwannomlarla giden nörofibromatozis tip 2 yapar. Aynı varyant postzigotik oluştuğunda ise **segmental (mozaik) NF2** ortaya çıkar: bulgular tek bir vücut bölgesiyle sınırlıdır, başlangıç yaşı daha geçtir, seyir daha hafiftir — ama kanda varyant sıklıkla saptanamaz ve bu hastalar yıllarca tanısız kalabilir.
+
+**Algoritma 12.1 — Aynı varyantın germline ve mozaik hâlleri**
 
 ```mermaid
 flowchart TD
@@ -175,6 +181,8 @@ Bu, klinik olarak rahatsız edici bir sonuca yol açar: genetik nedeni kesin ola
 
 Mozaiklikte test seçimi, önceki bölümlerdekinden farklı olarak **üç** soruyu birden yanıtlamak zorundadır: hangi **doku**, hangi **yöntem** (ve hangi derinlik), ve sonuç **nasıl raporlanacak** (VAF belirtilmeli). Bu üçünden biri eksikse test tanısal değildir.
 
+**Tablo 12.3 — Mozaikliği hangi test yakalar?**
+
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
 | **WES** | Kısmen. Standart derinlikte (~100×) yaklaşık ≥%10 VAF'ı görür | Düşük düzeyli mozaikliği kaçırır; doğru doku alınmamışsa tümüyle negatif çıkar |
@@ -206,6 +214,8 @@ En önemli etkilenen kriter **PS2/PM6**, yani de novo oluşum kanıtıdır. Bir 
 Dördüncüsü ve ters yöndeki tuzak, **klonal hematopoezdir.** Yaş ilerledikçe, kan kök hücrelerinde biriken somatik varyantlar taşıyan klonlar genişleyebilir. Erişkin bir bireyin kanında düşük VAF'lı bir somatik varyant saptanması, bu varyantın hastanın klinik tablosuyla ilgili olduğu anlamına gelmez; özellikle *DNMT3A*, *TET2*, *ASXL1* gibi genlerdeki düşük düzeyli bulgular yaşla ilişkili klonal hematopoezin işareti olabilir. Bu nedenle kanda saptanan düşük VAF'lı bir varyantın hastalıkla ilişkisi, klinik tabloyla ve mümkünse **ikinci bir dokuyla** doğrulanmadan kurulmamalıdır.
 
 > **🟦 Klinikte dikkat — Ebeveyn taraması yalnızca hasta için değil, aile için yapılır:** Çocukta de novo kabul edilen bir varyant bulunduğunda, ebeveyn örneklerinin duyarlı yöntemle taranması iki nedenle önemlidir. Birincisi, düşük düzeyli ebeveyn mozaikliği saptanırsa tekrarlanma riski belirgin biçimde yükselir ve gebelikte tanı seçenekleri gündeme gelir. İkincisi — ve daha az düşünülen yanı — **saptanmaması bile bilgi verir**: kanda mozaiklik yoksa risk saf germline mozaiklikle sınırlı kalır ve bu, kanda mozaiklik saptanan duruma göre daha düşüktür. Her iki durumda da aileye "risk sıfır" denmez.
+
+**Algoritma 12.2 — Düşük VAF'lı varyantın değerlendirilmesi**
 
 ```mermaid
 flowchart TD
@@ -268,6 +278,8 @@ flowchart TD
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 12.3 — Mozaiklik şüphesinde tanısal akış**
 
 ```mermaid
 flowchart TD
@@ -332,6 +344,8 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 12.4 — Bölüm 12 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

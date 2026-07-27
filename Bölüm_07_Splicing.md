@@ -2,7 +2,7 @@
 
 > **Bölümün çekirdek tezi:** Bir genin kodlayan bilgisi ekzonlara bölünmüştür; aradaki intronların çıkarılıp ekzonların doğru sırayla birleştirilmesi (**splicing/kırpılma**), spliceozom tarafından birkaç kısa "tanıma dizisi" üzerinden yürütülür: 5′ donör (GT), 3′ akseptör (AG), dallanma noktası ve polipirimidin yolu, artı ekzon/intron içindeki düzenleyici diziler (ESE/ESS/ISE/ISS). Bu sinyallerden herhangi birini bozan bir varyant — **kanonik ±1/±2 konumdaki klasik splice varyantından**, bir ekzondaki **"sessiz" (eş anlamlı) değişime** ya da hiçbir proteini değiştirmeyen **derin intronik** bir nükleotide kadar — splicing'i saptırarak ekzon atlamasına, intron tutulmasına veya gizli (kriptik) bölgelerin/sözde-ekzonların aktive olmasına yol açar. Sonuç çoğu kez okuma çerçevesini kaydırıp erken stop + NMD ile **işlev kaybı** üretir; ama çerçeve korunursa **dominant-negatif veya işlev kazanımı** da olabilir. Bu yüzden splicing, kitabın daha önceki tüm mekanizmalarını (LoF, DN, GoF) tek bir DNA katmanından besleyebilen, "varyantın nerede olduğu kadar RNA'ya ne yaptığı önemlidir" dersinin en saf örneğidir.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 24'tür: splicing'in birkaç kısa sinyale bağlı olduğunu görün, sonra Şekil 25 ile her sinyal tipinin bozulduğunda ne olduğunu izleyin. "Sessiz varyant masumdur" ve "intronik varyant önemsizdir" sezgilerini Şekil 26 (SMN1/SMN2) tek başına yıkar. Uzman okuyucu §6'da ClinGen SVI'nin splice-PVS1 yaklaşımına, SpliceAI'nin yerine ve RNA kanıtının (PS3/BP7) ağırlığına yoğunlaşabilir. Bölüm 2 (NMD/LoF) bu bölümün doğrudan zeminidir; in-frame splice → DN/GoF köprüsü için Bölüm 5–6'ya bakın.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 7.1'tür: splicing'in birkaç kısa sinyale bağlı olduğunu görün, sonra Şekil 7.2 ile her sinyal tipinin bozulduğunda ne olduğunu izleyin. "Sessiz varyant masumdur" ve "intronik varyant önemsizdir" sezgilerini Şekil 7.3 (SMN1/SMN2) tek başına yıkar. Uzman okuyucu §6'da ClinGen SVI'nin splice-PVS1 yaklaşımına, SpliceAI'nin yerine ve RNA kanıtının (PS3/BP7) ağırlığına yoğunlaşabilir. Bölüm 2 (NMD/LoF) bu bölümün doğrudan zeminidir; in-frame splice → DN/GoF köprüsü için Bölüm 5–6'ya bakın.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -26,13 +26,15 @@ Bu bölümü tamamlayan okuyucu:
 
 İnsan genlerinin büyük kısmı parçalıdır: kodlayan **ekzonlar**, aralarına serpiştirilmiş kodlamayan **intronlar** ile bölünmüştür. Olgun bir mRNA elde etmek için hücre, pre-mRNA'dan intronları kesip çıkarmalı ve ekzonları doğru sırayla, **tek bir nükleotid kaymadan** birbirine eklemelidir. Bu işleme **splicing** (Türkçe "kırpılma" veya yaygın kullanımıyla "splicing") denir ve onu yürüten makine **spliceozom**dur — küçük nükleer RNP'lerden (snRNP) oluşan, dinamik bir moleküler montaj hattı.
 
-Splicing'in olağanüstü doğruluğu birkaç **kısa tanıma dizisine** dayanır (Şekil 24). Her intronun başında neredeyse değişmez bir **5′ donör bölgesi** (çoğunlukla GT dinükleotidi), sonunda bir **3′ akseptör bölgesi** (AG) bulunur; intronun 3′ ucuna yakın bir **dallanma noktası** (bir adenin) ve onu izleyen **polipirimidin yolu**, akseptörün tanınmasını sağlar. Bunlara ek olarak ekzon ve intronların içinde, spliceozomu "buraya/şuraya" diye yönlendiren **düzenleyici diziler** vardır: ekzonik kırpılma güçlendiricileri/susturucuları (ESE/ESS) ve intronik karşılıkları (ISE/ISS).
+Splicing'in olağanüstü doğruluğu birkaç **kısa tanıma dizisine** dayanır (Şekil 7.1). Her intronun başında neredeyse değişmez bir **5′ donör bölgesi** (çoğunlukla GT dinükleotidi), sonunda bir **3′ akseptör bölgesi** (AG) bulunur; intronun 3′ ucuna yakın bir **dallanma noktası** (bir adenin) ve onu izleyen **polipirimidin yolu**, akseptörün tanınmasını sağlar. Bunlara ek olarak ekzon ve intronların içinde, spliceozomu "buraya/şuraya" diye yönlendiren **düzenleyici diziler** vardır: ekzonik kırpılma güçlendiricileri/susturucuları (ESE/ESS) ve intronik karşılıkları (ISE/ISS).
 
 Buradaki kritik kavramsal nokta şudur: **bu sinyaller çok kısa olduğu için, bir tek nükleotidlik değişim bile splicing'i bozabilir** — ve bu nükleotid proteini hiç değiştirmiyor (sessiz/eş anlamlı) ya da kodlayan bölgenin tamamen dışında (derin intronik) olabilir. Yani klasik "varyant proteini nasıl değiştirir?" sorusu burada yetersizdir; doğru soru "varyant **mRNA'nın nasıl monte edildiğini** değiştirir mi?"dir. Scotti ve Swanson (2015), splicing mekanizmasını ve mis-splicing'in giderek büyüyen bir hastalık grubunun temelinde yattığını derleyen kapsamlı bir çalışmada tam bu noktayı vurgular: splicing'in karmaşıklığı onu dizi değişimlerine özellikle duyarlı kılar (Scotti &amp; Swanson, 2015, *Nat Rev Genet*; [DOI](https://doi.org/10.1038/nrg.2015.3)).
 
-![Şekil 24 — Splicing mekanizması ve onu yöneten sinyaller](assets/sekil_24_splicing_mekanizmasi.svg)
+![Şekil 7.1 — Splicing mekanizması ve onu yöneten sinyaller](assets/sekil_24_splicing_mekanizmasi.svg)
 
 Aşağıdaki tablo bölüm boyunca açacağımız kavramları bir arada gösterir.
+
+**Tablo 7.1 — Splicing mekanizmasının temel kavramları**
 
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
@@ -50,9 +52,9 @@ Aşağıdaki tablo bölüm boyunca açacağımız kavramları bir arada gösteri
 
 ### 2.1. Bir sinyal bozulunca ne olur?
 
-Splice varyantlarının ortak teması, spliceozomun bir ekzon-intron sınırını **yanlış okumasıdır**. Bunun birkaç tipik sonucu vardır (Şekil 25). En sık görülen, varyantın bulunduğu ekzonun **atlanmasıdır** (exon skipping): spliceozom o ekzonu tanıyamaz ve onu intronun bir parçasıymış gibi çıkarır. İkinci sık sonuç **intron tutulmasıdır** (intron retention): donör/akseptör tanınmazsa intron çıkarılamaz ve olgun mRNA'da kalır. Üçüncüsü, varyantın yeni bir **kriptik (gizli) splice bölgesi** oluşturması veya var olan birini güçlendirmesidir; bu, ekzonun bir kısmının kesilmesine ya da intronik bir parçanın eklenmesine yol açar. Özellikle **derin intronik** varyantlar, intronun ortasında uyuyan bir bölgeyi uyandırarak **sözde-ekzon (pseudoexon)** eklenmesine neden olabilir — kodlayan diziyi hiç değiştirmeyen bir varyantın nasıl hastalık yaptığının çarpıcı örneği.
+Splice varyantlarının ortak teması, spliceozomun bir ekzon-intron sınırını **yanlış okumasıdır**. Bunun birkaç tipik sonucu vardır (Şekil 7.2). En sık görülen, varyantın bulunduğu ekzonun **atlanmasıdır** (exon skipping): spliceozom o ekzonu tanıyamaz ve onu intronun bir parçasıymış gibi çıkarır. İkinci sık sonuç **intron tutulmasıdır** (intron retention): donör/akseptör tanınmazsa intron çıkarılamaz ve olgun mRNA'da kalır. Üçüncüsü, varyantın yeni bir **kriptik (gizli) splice bölgesi** oluşturması veya var olan birini güçlendirmesidir; bu, ekzonun bir kısmının kesilmesine ya da intronik bir parçanın eklenmesine yol açar. Özellikle **derin intronik** varyantlar, intronun ortasında uyuyan bir bölgeyi uyandırarak **sözde-ekzon (pseudoexon)** eklenmesine neden olabilir — kodlayan diziyi hiç değiştirmeyen bir varyantın nasıl hastalık yaptığının çarpıcı örneği.
 
-![Şekil 25 — Splice varyant tipleri, mis-splicing sonucu ve net etki](assets/sekil_25_splice_varyant_tipleri.svg)
+![Şekil 7.2 — Splice varyant tipleri, mis-splicing sonucu ve net etki](assets/sekil_25_splice_varyant_tipleri.svg)
 
 > **🔬 Deep-dive — Aynı mis-splicing, zıt mekanizmalar: çerçeve her şeyi belirler.** Bir ekzonun atlanması ya da bir intronun tutulması, sonuçta okuma çerçevesini ya korur ya kaydırır — ve mekanizma sınıfı buna bağlıdır. **Çerçeve kayarsa** (atlanan/eklenen baz sayısı 3'ün katı değilse), aşağı akışta erken bir stop kodonu (PTC) oluşur; bu transkript çoğunlukla **NMD ile yıkılır** ve sonuç saf **işlev kaybıdır** (Bölüm 2'deki mekanizmanın bir splice versiyonu) (Khajavi, Inoue, Lupski, 2006, *Eur J Hum Genet*; [DOI](https://doi.org/10.1038/sj.ejhg.5201649)). **Çerçeve korunursa** (in-frame ekzon atlama), kısalmış ama stabil bir protein üretilir; bu ürün multimer oluşturup sağlamı zehirliyorsa **dominant-negatif** (Bölüm 5), yeni/aşırı bir aktivite kazanıyorsa **işlev kazanımı** (Bölüm 4–6) olabilir. Bu yüzden bir splice varyantını gördüğünüzde refleks, "RNA'ya ne olur **ve** çerçeve ne olur?" diye sormaktır — şiddet ve mekanizma sınıfı bu iki yanıttan çıkar. İlginç bir terapötik sonuç: bazı hastalıklarda (Duchenne MD) tedavi, **bilerek bir ekzonu atlatarak** out-of-frame bir transkripti in-frame'e çevirmeyi hedefler (ekzon atlama tedavisi) — yani mekanizmayı tersine çevirir.
 
@@ -63,6 +65,8 @@ Splicing'in en önemli klinik dersi, varyant sınıflamasındaki iki yaygın yan
 ---
 
 ## 3. Varyant tipleri
+
+**Tablo 7.2 — Varyantın yerine göre tipik splicing sonuçları**
 
 | Varyant tipi (yer) | Tipik splicing sonucu | Notlar / ilgili bölüm |
 |---|---|---|
@@ -89,6 +93,8 @@ Bölümün anahtar sorularını yanıtlayalım.
 
 Aşağıdaki Mermaid akışı, bir aday splice varyantından yoruma giden yolu özetler.
 
+**Algoritma 7.1 — Splice varyantının transkript sonucuna göre sınıflanması**
+
 ```mermaid
 flowchart TD
   A["Aday varyant<br/>(kanonik / sessiz / intronik)"] --> B{"SpliceAI / öngörü<br/>splicing etkisi öngörüyor mu?"}
@@ -106,6 +112,8 @@ flowchart TD
 ## 5. Tanısal testlerle ilişkisi
 
 Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama splicing etkisini RNA gösterir.** Kanonik splice varyantları WES/WGS ile yakalanır; ancak **derin intronik** varyantlar yalnız WGS ile görülür (WES intronları kapsamaz). Etkinin *kanıtı* için ise RNA-seq veya hedefe yönelik cDNA/RT-PCR gerekir — bu, splice yorumunda PS3/BP7'nin neden bu kadar değerli olduğunu açıklar (§6).
+
+**Tablo 7.3 — Splicing kusurlarını hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -132,6 +140,8 @@ Splice varyantları, ACMG/AMP çerçevesinde (Richards ve ark., 2015, *Genet Med
 
 Aşağıdaki akış, splice varyant yorumunu özetler.
 
+**Algoritma 7.2 — Splice aday varyantında kriter seçimi**
+
 ```mermaid
 flowchart TD
   A["Splice aday varyantı"] --> B{"Kanonik ±1/±2 mi?"}
@@ -151,9 +161,9 @@ flowchart TD
 
 ### 7.1. SMN1 / SMN2 ve spinal müsküler atrofi — "sessiz" varyantın ders kitabı örneği
 
-Spinal müsküler atrofi (SMA), splicing biyolojisinin pediatrik genetikteki en öğretici ve klinik açıdan en dönüştürücü örneğidir. SMA, *SMN1* geninin homozigot kaybından doğar; ancak çoğu insanda neredeyse özdeş bir kopya geni, *SMN2*, vardır. İlginç soru şudur: *SMN2* aynı proteini kodladığı hâlde neden *SMN1* kaybını telafi edemez? Lorson ve ark. (1999), yanıtın bir **splicing farkı** olduğunu göstermiştir: *SMN2*'nin ekzon 7'sinde, proteini değiştirmeyen **tek bir sessiz (eş anlamlı) C→T değişimi** (kodon 280) vardır ve bu değişim bir **ekzonik kırpılma güçlendiricisini (ESE) zayıflatarak** ekzon 7'nin büyük ölçüde **atlanmasına** yol açar (Lorson ve ark., 1999, *PNAS*; [DOI](https://doi.org/10.1073/pnas.96.11.6307)). Ekzon 7'siz ürün (SMNΔ7) kararsız ve işlevsizdir; bu yüzden *SMN2*, yalnızca az miktarda tam-uzunlukta SMN üretebilir ve *SMN1* kaybını tam kapatamaz (Şekil 26).
+Spinal müsküler atrofi (SMA), splicing biyolojisinin pediatrik genetikteki en öğretici ve klinik açıdan en dönüştürücü örneğidir. SMA, *SMN1* geninin homozigot kaybından doğar; ancak çoğu insanda neredeyse özdeş bir kopya geni, *SMN2*, vardır. İlginç soru şudur: *SMN2* aynı proteini kodladığı hâlde neden *SMN1* kaybını telafi edemez? Lorson ve ark. (1999), yanıtın bir **splicing farkı** olduğunu göstermiştir: *SMN2*'nin ekzon 7'sinde, proteini değiştirmeyen **tek bir sessiz (eş anlamlı) C→T değişimi** (kodon 280) vardır ve bu değişim bir **ekzonik kırpılma güçlendiricisini (ESE) zayıflatarak** ekzon 7'nin büyük ölçüde **atlanmasına** yol açar (Lorson ve ark., 1999, *PNAS*; [DOI](https://doi.org/10.1073/pnas.96.11.6307)). Ekzon 7'siz ürün (SMNΔ7) kararsız ve işlevsizdir; bu yüzden *SMN2*, yalnızca az miktarda tam-uzunlukta SMN üretebilir ve *SMN1* kaybını tam kapatamaz (Şekil 7.3).
 
-![Şekil 26 — SMN1 vs SMN2: sessiz bir nükleotid neden hastalık yapar](assets/sekil_26_smn_splice_ornegi.svg)
+![Şekil 7.3 — SMN1 vs SMN2: sessiz bir nükleotid neden hastalık yapar](assets/sekil_26_smn_splice_ornegi.svg)
 
 Bu örneğin iki büyük dersi vardır. **Birincisi kavramsaldır:** "sessiz" bir nükleotid, amino asidi hiç değiştirmeden, bir düzenleyici diziyi bozarak ağır bir hastalığın belirleyicisi olabilir — varyant yorumunda eş anlamlı değişimleri otomatik iyi huylu saymanın tehlikesi. **İkincisi terapötiktir:** mekanizmayı bilmek tedaviyi açar. SMA, ekzon 7'nin atlanmasından kaynaklandığına göre, ekzon 7'nin **dahil edilmesini artıran** moleküller (antisens oligonükleotid ve küçük-molekül splicing düzenleyiciler) hastalık seyrini değiştirebilir — nitekim bu sınıf ilaçlar SMA tedavisini kökten dönüştürmüştür. Splice mekanizmasını anlamak, burada doğrudan klinik faydaya dönüşür.
 
@@ -182,6 +192,8 @@ Splice varyantları birçok pediatrik gende belirgindir. **NF1** (nörofibromato
 ---
 
 ## 9. Klinik pratikte karar algoritması
+
+**Algoritma 7.3 — Splice şüphesinde klinik karar akışı**
 
 ```mermaid
 flowchart TD
@@ -218,9 +230,12 @@ flowchart TD
 ---
 
 ## ✅ Bölüm öz-denetim tablosu
+
+**Tablo 7.4 — Bölüm 7 öz-denetim tablosu**
+
 | Kriter | Durum | Not |
 |--------|-------|-----|
-| Mekanizma doğru anlatıldı mı? | ✅ | Splice sinyalleri + mis-splicing sonuçları (Şekil 24–25) |
+| Mekanizma doğru anlatıldı mı? | ✅ | Splice sinyalleri + mis-splicing sonuçları (Şekil 7.1–25) |
 | Klinik bağlantı kuruldu mu? | ✅ | SMA (SMN1/SMN2), NF1, CFTR, DMD |
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | §3 tablo + çerçeve→LoF/DN/GoF |
 | Pediatrik örnek verildi mi? | ✅ | SMN1/SMN2 (SMA), DMD ekzon atlama |
