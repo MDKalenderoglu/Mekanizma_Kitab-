@@ -19,3 +19,10 @@ svgcheck/
 
 # NOT: Bölüm_*.md, assets/, 00_Şablonlar/, build_assets/, CLAUDE.md,
 # Bölüm_00_*.md, README.md ve derlenmiş HTML BİLEREK dahil edilir — bunları ASLA ignore etme.
+
+# === Telifli doğrulama materyali — ASLA depoya girmez ===
+kaynak_pdf/
+_metin/
+
+# === Geçici görsel önizleme ===
+_svgview.html

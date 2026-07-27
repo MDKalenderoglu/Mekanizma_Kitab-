@@ -1,6 +1,6 @@
 # Yazar ve Editörler
 
-**`[DOLDURULACAK — Ad Soyad]`**
+**Muhammed Doğukan Kalenderoğlu**
 `[Unvan]` · `[Anabilim Dalı / Bölüm]` · `[Kurum]`
 
 **Rolü:** Kitabın tamamının yazımı, şekillerin tasarımı, kaynak doğrulaması ve editöryal düzenlemesi.

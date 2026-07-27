@@ -1,6 +1,6 @@
 # Yazar Özgeçmişi
 
-**`[DOLDURULACAK — Ad Soyad, unvan]`**
+**Muhammed Doğukan Kalenderoğlu**
 
 `[DOLDURULACAK — 150–250 kelimelik akademik özgeçmiş. Genellikle şu sırayla yazılır:]`
 

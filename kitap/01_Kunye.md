@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Yazar** | `[DOLDURULACAK — ad, unvan]` |
+| **Yazar** | Muhammed Doğukan Kalenderoğlu |
 | **Kurum** | `[DOLDURULACAK]` |
 | **Sürüm** | `[DOLDURULACAK — ör. 1.0]` |
 | **Basım/yayım tarihi** | `[DOLDURULACAK]` |
