@@ -97,6 +97,13 @@ Bunlar her turda yeniden aranmaz; adresleri buradadır.
 | ClinGen varyant sınıflandırma rehberleri | `https://www.clinicalgenome.org/tools/clingen-variant-classification-guidance/` | T1 belge listesi |
 | PubMed | MCP `search_articles` / `get_article_metadata` | T2 künye ve özet |
 | PMC tam metin | `https://pmc.ncbi.nlm.nih.gov/articles/PMC…/` | T2 özette olmayan sayılar |
+| Telifli ders kitabı (EPUB/PDF) | `kaynak_pdf/` (git dışı) → `kaynak_cikar.py` → `_metin/` → `ara.py` | **T4** kaynaksız mekanizma cümleleri |
+
+### Telifli materyal iş akışı
+1. Dosyalar `kaynak_pdf/` içine konur — bu klasör `.gitignore`'dadır, depoya girmez.
+2. `python3 00_Şablonlar/kaynak_cikar.py` → `_metin/*.txt` (EPUB: stdlib; PDF: pypdf; taranmış dosyada uyarı verir, OCR yok).
+3. `python3 00_Şablonlar/ara.py "terim" "ikinci terim"` → yalnız ilgili paragraf bağlama girer; her sonuç kaynak + konum işaretiyle döner.
+4. **Telifli metin kitaba kopyalanmaz.** Bulunan pasaj yalnızca kütüğe kanıt olarak, kısa alıntı hâlinde kaydedilir.
 
 **Dozaj skoru kodları:** 0 = kanıt yok · 1 = az kanıt · 2 = bir miktar kanıt · 3 = yeterli kanıt · 30 = otozomal resesif fenotiple ilişkili gen · 40 = doz duyarlılığı olası değil.
 
