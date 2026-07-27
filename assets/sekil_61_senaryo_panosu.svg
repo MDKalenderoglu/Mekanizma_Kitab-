@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 458" width="1120" height="458" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="458" fill="#ffffff"/>
+  <defs><filter id="sh61" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/></filter></defs>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 17.4 — Sekiz senaryo panosu: başvurudan mekanizmaya, mekanizmadan teste</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Her kart, 7. başlıkta ayrıntılandırılan bir olgunun omurgasıdır: başvuru tablosu, düşünülen mekanizma, o mekanizmayı görebilen test ve tek cümlelik ders.</text>
+  <g filter="url(#sh61)"><rect x="32" y="76" width="255" height="146" rx="10" fill="#ffffff" stroke="#2563EB" stroke-width="1.2"/></g>
+  <rect x="32" y="76" width="255" height="28" rx="10" fill="#2563EB"/>
+  <rect x="32" y="94" width="255" height="10" fill="#2563EB"/>
+  <text x="46" y="95" font-size="10.5" font-weight="700" fill="#ffffff">1 · Yenidoğan · ağır hipotoni</text>
+  <text x="46" y="119" font-size="9" fill="#64748B">solunum yetmezliği, dil fasikülasyonu</text>
+  <rect x="46" y="126" width="227" height="20" rx="6" fill="#DBEAFE"/>
+  <text x="160" y="140" font-size="9.5" font-weight="700" fill="#2563EB" text-anchor="middle">SMN1 biallelik kayıp</text>
+  <text x="46" y="162" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="78" y="162" font-size="9" fill="#2E3440">SMN1 delesyon testi (MLPA)</text>
+  <text x="78" y="174" font-size="9" fill="#2E3440">+ SMN2 KOPYA SAYISI</text>
+  <line x1="46" y1="184" x2="273" y2="184" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="46" y="199" font-size="9" fill="#B45309">Modifier ölçümü tedavi kararını değiştirir</text>
+  <text x="273" y="214" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 2 · 7 · 14</text>
+  <g filter="url(#sh61)"><rect x="299" y="76" width="255" height="146" rx="10" fill="#ffffff" stroke="#B91C1C" stroke-width="1.2"/></g>
+  <rect x="299" y="76" width="255" height="28" rx="10" fill="#B91C1C"/>
+  <rect x="299" y="94" width="255" height="10" fill="#B91C1C"/>
+  <text x="313" y="95" font-size="10.5" font-weight="700" fill="#ffffff">2 · 6 aylık · dirençli nöbet</text>
+  <text x="313" y="119" font-size="9" fill="#64748B">erken başlangıç, EEG örüntüsü</text>
+  <rect x="313" y="126" width="227" height="20" rx="6" fill="#FEE2E2"/>
+  <text x="426" y="140" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Kanalda işlev KAZANIMI</text>
+  <text x="313" y="162" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="345" y="162" font-size="9" fill="#2E3440">Trio panel/WES</text>
+  <text x="345" y="174" font-size="9" fill="#2E3440">+ fonksiyonel yön verisi</text>
+  <line x1="313" y1="184" x2="540" y2="184" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="313" y="199" font-size="9" fill="#B45309">Mekanizma yönü ilaç seçimini belirler</text>
+  <text x="540" y="214" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 4 · 16</text>
+  <g filter="url(#sh61)"><rect x="566" y="76" width="255" height="146" rx="10" fill="#ffffff" stroke="#2563EB" stroke-width="1.2"/></g>
+  <rect x="566" y="76" width="255" height="28" rx="10" fill="#2563EB"/>
+  <rect x="566" y="94" width="255" height="10" fill="#2563EB"/>
+  <text x="580" y="95" font-size="10.5" font-weight="700" fill="#ffffff">3 · 2 yaş · gerilik + dismorfi</text>
+  <text x="580" y="119" font-size="9" fill="#64748B">çoklu anomali, tanınabilir sendrom yok</text>
+  <rect x="580" y="126" width="227" height="20" rx="6" fill="#DBEAFE"/>
+  <text x="694" y="140" font-size="9.5" font-weight="700" fill="#2563EB" text-anchor="middle">Yetersiz doz (CNV)</text>
+  <text x="580" y="162" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="612" y="162" font-size="9" fill="#2E3440">CMA veya CNV çözünürlüklü WGS</text>
+  <text x="612" y="174" font-size="9" fill="#2E3440">(ekzom CNV'yi kaçırabilir)</text>
+  <line x1="580" y1="184" x2="807" y2="184" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="580" y="199" font-size="9" fill="#B45309">Doz mekanizması ayrı bir çerçeveyle puanlanır</text>
+  <text x="807" y="214" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 3 · 8</text>
+  <g filter="url(#sh61)"><rect x="833" y="76" width="255" height="146" rx="10" fill="#ffffff" stroke="#B45309" stroke-width="1.2"/></g>
+  <rect x="833" y="76" width="255" height="28" rx="10" fill="#B45309"/>
+  <rect x="833" y="94" width="255" height="10" fill="#B45309"/>
+  <text x="847" y="95" font-size="10.5" font-weight="700" fill="#ffffff">4 · Süt çocuğu · asimetrik aşırı büyüme</text>
+  <text x="847" y="119" font-size="9" fill="#64748B">damar/yumuşak doku malformasyonu</text>
+  <rect x="847" y="126" width="227" height="20" rx="6" fill="#FEF3C7"/>
+  <text x="960" y="140" font-size="9.5" font-weight="700" fill="#B45309" text-anchor="middle">Postzigotik MOZAİKLİK</text>
+  <text x="847" y="162" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="879" y="162" font-size="9" fill="#2E3440">ETKİLENMİŞ DOKUDAN derin dizileme</text>
+  <text x="879" y="174" font-size="9" fill="#2E3440">kan sonucu negatif olabilir</text>
+  <line x1="847" y1="184" x2="1074" y2="184" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="847" y="199" font-size="9" fill="#B45309">Doku seçimi testin kendisinden önemlidir</text>
+  <text x="1074" y="214" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 12</text>
+  <g filter="url(#sh61)"><rect x="32" y="234" width="255" height="146" rx="10" fill="#ffffff" stroke="#B91C1C" stroke-width="1.2"/></g>
+  <rect x="32" y="234" width="255" height="28" rx="10" fill="#B91C1C"/>
+  <rect x="32" y="252" width="255" height="10" fill="#B91C1C"/>
+  <text x="46" y="253" font-size="10.5" font-weight="700" fill="#ffffff">5 · 5 yaş · hipotoni + laktat ↑</text>
+  <text x="46" y="277" font-size="9" fill="#64748B">oftalmopleji, işitme kaybı, maternal öykü</text>
+  <rect x="46" y="284" width="227" height="20" rx="6" fill="#FEE2E2"/>
+  <text x="160" y="298" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">Mitokondriyal (heteroplazmi)</text>
+  <text x="46" y="320" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="78" y="320" font-size="9" fill="#2E3440">Uygun dokudan mtDNA dizileme</text>
+  <text x="78" y="332" font-size="9" fill="#2E3440">+ nükleer gen paneli</text>
+  <line x1="46" y1="342" x2="273" y2="342" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="46" y="357" font-size="9" fill="#B45309">Eşik ve doku olmadan sonuç yorumlanamaz</text>
+  <text x="273" y="372" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 11</text>
+  <g filter="url(#sh61)"><rect x="299" y="234" width="255" height="146" rx="10" fill="#ffffff" stroke="#B45309" stroke-width="1.2"/></g>
+  <rect x="299" y="234" width="255" height="28" rx="10" fill="#B45309"/>
+  <rect x="299" y="252" width="255" height="10" fill="#B45309"/>
+  <text x="313" y="253" font-size="10.5" font-weight="700" fill="#ffffff">6 · Yenidoğan · makrozomi + hipoglisemi</text>
+  <text x="313" y="277" font-size="9" fill="#64748B">hemihipertrofi, makroglossi</text>
+  <rect x="313" y="284" width="227" height="20" rx="6" fill="#FEF3C7"/>
+  <text x="426" y="298" font-size="9.5" font-weight="700" fill="#B45309" text-anchor="middle">İMPRİNTİNG kusuru</text>
+  <text x="313" y="320" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="345" y="320" font-size="9" fill="#2E3440">11p15.5 METİLASYON analizi</text>
+  <text x="345" y="332" font-size="9" fill="#2E3440">dizileme tek başına yetmez</text>
+  <line x1="313" y1="342" x2="540" y2="342" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="313" y="357" font-size="9" fill="#B45309">Tümör tarama planı alt tipe göre kurulur</text>
+  <text x="540" y="372" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 10</text>
+  <g filter="url(#sh61)"><rect x="566" y="234" width="255" height="146" rx="10" fill="#ffffff" stroke="#475569" stroke-width="1.2"/></g>
+  <rect x="566" y="234" width="255" height="28" rx="10" fill="#475569"/>
+  <rect x="566" y="252" width="255" height="10" fill="#475569"/>
+  <text x="580" y="253" font-size="10.5" font-weight="700" fill="#ffffff">7 · 8 yaş · kas güçsüzlüğü, CK ↑</text>
+  <text x="580" y="277" font-size="9" fill="#64748B">panel ve ekzom NEGATİF</text>
+  <rect x="580" y="284" width="227" height="20" rx="6" fill="#E2E8F0"/>
+  <text x="694" y="298" font-size="9.5" font-weight="700" fill="#475569" text-anchor="middle">Derin intronik SPLICE</text>
+  <text x="580" y="320" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="612" y="320" font-size="9" fill="#2E3440">Kas dokusundan RNA analizi</text>
+  <text x="612" y="332" font-size="9" fill="#2E3440">(+ WGS)</text>
+  <line x1="580" y1="342" x2="807" y2="342" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="580" y="357" font-size="9" fill="#B45309">RNA, öngörüyü ölçüme çevirir ve PS3'ü açar</text>
+  <text x="807" y="372" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 7 · 13</text>
+  <g filter="url(#sh61)"><rect x="833" y="234" width="255" height="146" rx="10" fill="#ffffff" stroke="#B91C1C" stroke-width="1.2"/></g>
+  <rect x="833" y="234" width="255" height="28" rx="10" fill="#B91C1C"/>
+  <rect x="833" y="252" width="255" height="10" fill="#B91C1C"/>
+  <text x="847" y="253" font-size="10.5" font-weight="700" fill="#ffffff">8 · 12 yaş · ilerleyici ataksi</text>
+  <text x="847" y="277" font-size="9" fill="#64748B">ailede her kuşakta daha erken başlangıç</text>
+  <rect x="847" y="284" width="227" height="20" rx="6" fill="#FEE2E2"/>
+  <text x="960" y="298" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">TEKRAR GENİŞLEMESİ</text>
+  <text x="847" y="320" font-size="9" font-weight="700" fill="#1A2B4A">Test:</text>
+  <text x="879" y="320" font-size="9" fill="#2E3440">Hedefli tekrar analizi</text>
+  <text x="879" y="332" font-size="9" fill="#2E3440">standart dizileme GÖRMEZ</text>
+  <line x1="847" y1="342" x2="1074" y2="342" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="847" y="357" font-size="9" fill="#B45309">Anticipasyon öyküsü testi doğrudan seçtirir</text>
+  <text x="1074" y="372" font-size="8.5" font-weight="700" fill="#94A3B8" text-anchor="end">Bölüm 9</text>
+  <rect x="32" y="396" width="1056" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="560" y="416" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: Sekiz senaryonun ortak yapısı aynıdır — değişen tek şey, doğru testi seçtiren mekanizma hipotezidir.</text>
+</svg>

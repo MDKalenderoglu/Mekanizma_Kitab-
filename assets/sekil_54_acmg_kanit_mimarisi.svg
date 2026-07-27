@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 640" width="1120" height="640" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="640" fill="#ffffff"/>
+  <defs>
+    <filter id="sh54" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 16.1 — ACMG/AMP kanıt mimarisi: kriterler sayılmaz, tartılır</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Her kriterin bir ağırlığı vardır; ağırlıklar puana, puanlar patojenite olasılığına çevrilebilir. Sınıf, kriter sayısının değil toplam ağırlığın sonucudur.</text>
+
+  <!-- PANEL A -->
+  <rect x="24" y="72" width="532" height="248" rx="12" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.2"/>
+  <rect x="36" y="82" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="98" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="68" y="98" font-size="13" font-weight="700" fill="#B91C1C">Patojenite LEHİNE kanıt</text>
+
+  <text x="40" y="124" font-size="9.5" font-weight="700" fill="#64748B">GÜÇ DÜZEYİ</text>
+  <text x="280" y="124" font-size="9.5" font-weight="700" fill="#64748B">KRİTER</text>
+  <text x="380" y="124" font-size="9.5" font-weight="700" fill="#64748B">PUAN</text>
+  <text x="544" y="124" font-size="9.5" font-weight="700" fill="#64748B" text-anchor="end">OLASILIK ORANI</text>
+
+  <text x="40" y="152" font-size="10.5" font-weight="700" fill="#2E3440">Çok güçlü</text>
+  <rect x="150" y="140" width="112" height="18" rx="5" fill="#B91C1C"/>
+  <text x="280" y="152" font-size="11" font-weight="700" fill="#B91C1C">PVS1</text>
+  <text x="380" y="152" font-size="11" font-weight="700" fill="#2E3440">+8</text>
+  <text x="544" y="152" font-size="10.5" fill="#2E3440" text-anchor="end">≈ 350 : 1</text>
+
+  <text x="40" y="192" font-size="10.5" font-weight="700" fill="#2E3440">Güçlü</text>
+  <rect x="150" y="180" width="56" height="18" rx="5" fill="#DC2626"/>
+  <text x="280" y="192" font-size="11" font-weight="700" fill="#B91C1C">PS1 – PS4</text>
+  <text x="380" y="192" font-size="11" font-weight="700" fill="#2E3440">+4</text>
+  <text x="544" y="192" font-size="10.5" fill="#2E3440" text-anchor="end">≈ 18,7 : 1</text>
+
+  <text x="40" y="232" font-size="10.5" font-weight="700" fill="#2E3440">Orta</text>
+  <rect x="150" y="220" width="28" height="18" rx="5" fill="#EF4444"/>
+  <text x="280" y="232" font-size="11" font-weight="700" fill="#B91C1C">PM1 – PM6</text>
+  <text x="380" y="232" font-size="11" font-weight="700" fill="#2E3440">+2</text>
+  <text x="544" y="232" font-size="10.5" fill="#2E3440" text-anchor="end">≈ 4,33 : 1</text>
+
+  <text x="40" y="272" font-size="10.5" font-weight="700" fill="#2E3440">Destekleyici</text>
+  <rect x="150" y="260" width="14" height="18" rx="4" fill="#FCA5A5" stroke="#B91C1C" stroke-width="0.8"/>
+  <text x="280" y="272" font-size="11" font-weight="700" fill="#B91C1C">PP1 – PP5</text>
+  <text x="380" y="272" font-size="11" font-weight="700" fill="#2E3440">+1</text>
+  <text x="544" y="272" font-size="10.5" fill="#2E3440" text-anchor="end">≈ 2,08 : 1</text>
+
+  <text x="40" y="302" font-size="9.5" fill="#64748B">Puanlar toplanabilir; her basamak bir öncekinin karesi ölçeğinde artar (2,08 → 4,33 → 18,7 → 350).</text>
+
+  <!-- PANEL B -->
+  <rect x="572" y="72" width="524" height="248" rx="12" fill="#F1F5F9" stroke="#2563EB" stroke-width="1.2"/>
+  <rect x="584" y="82" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="595" y="98" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="616" y="98" font-size="13" font-weight="700" fill="#2563EB">Benignlik LEHİNE kanıt</text>
+
+  <text x="588" y="124" font-size="9.5" font-weight="700" fill="#64748B">GÜÇ DÜZEYİ</text>
+  <text x="828" y="124" font-size="9.5" font-weight="700" fill="#64748B">KRİTER</text>
+  <text x="940" y="124" font-size="9.5" font-weight="700" fill="#64748B">PUAN</text>
+
+  <text x="588" y="152" font-size="10.5" font-weight="700" fill="#2E3440">Tek başına yeterli</text>
+  <rect x="712" y="140" width="100" height="18" rx="5" fill="#1D4ED8"/>
+  <text x="828" y="152" font-size="11" font-weight="700" fill="#1D4ED8">BA1</text>
+  <text x="940" y="152" font-size="10.5" fill="#2E3440">doğrudan benign</text>
+
+  <text x="588" y="192" font-size="10.5" font-weight="700" fill="#2E3440">Güçlü</text>
+  <rect x="712" y="180" width="56" height="18" rx="5" fill="#2563EB"/>
+  <text x="828" y="192" font-size="11" font-weight="700" fill="#1D4ED8">BS1 – BS4</text>
+  <text x="940" y="192" font-size="11" font-weight="700" fill="#2E3440">−4</text>
+
+  <text x="588" y="232" font-size="10.5" font-weight="700" fill="#2E3440">Destekleyici</text>
+  <rect x="712" y="220" width="14" height="18" rx="4" fill="#93C5FD" stroke="#2563EB" stroke-width="0.8"/>
+  <text x="828" y="232" font-size="11" font-weight="700" fill="#1D4ED8">BP1 – BP7</text>
+  <text x="940" y="232" font-size="11" font-weight="700" fill="#2E3440">−1</text>
+
+  <text x="588" y="266" font-size="10" fill="#2E3440">Dikkat: ACMG'de “orta güçte benign” kriteri yoktur; benign kanıt üç</text>
+  <text x="588" y="281" font-size="10" fill="#2E3440">basamaklıdır. Bu asimetri, benign kanıtın daha az granüler olması demektir.</text>
+  <text x="588" y="302" font-size="9.5" fill="#64748B">Karşıt yönlü kanıtlar bir arada bulunabilir; toplam puan işaretine göre sınıf belirlenir.</text>
+
+  <!-- PANEL C -->
+  <rect x="24" y="332" width="1072" height="196" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="342" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="358" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="68" y="358" font-size="13" font-weight="700" fill="#1A2B4A">Toplam puan → sınıf → patojenite olasılığı</text>
+
+  <g filter="url(#sh54)">
+    <rect x="60" y="384" width="192" height="46" rx="8" fill="#1D4ED8"/>
+    <rect x="252" y="384" width="269" height="46" fill="#93C5FD"/>
+    <rect x="521" y="384" width="231" height="46" fill="#E2E8F0"/>
+    <rect x="752" y="384" width="154" height="46" fill="#FCA5A5"/>
+    <rect x="906" y="384" width="154" height="46" rx="8" fill="#B91C1C"/>
+  </g>
+  <text x="156" y="404" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">BENİGN</text>
+  <text x="156" y="420" font-size="9.5" fill="#DBEAFE" text-anchor="middle">≤ −7 puan</text>
+  <text x="386" y="404" font-size="11" font-weight="700" fill="#1A2B4A" text-anchor="middle">OLASI BENİGN</text>
+  <text x="386" y="420" font-size="9.5" fill="#1A2B4A" text-anchor="middle">−6 … −1 puan</text>
+  <text x="636" y="404" font-size="11" font-weight="700" fill="#475569" text-anchor="middle">VUS — belirsiz</text>
+  <text x="636" y="420" font-size="9.5" fill="#475569" text-anchor="middle">0 … +5 puan</text>
+  <text x="829" y="404" font-size="11" font-weight="700" fill="#7F1D1D" text-anchor="middle">OLASI PATOJENİK</text>
+  <text x="829" y="420" font-size="9.5" fill="#7F1D1D" text-anchor="middle">+6 … +9 puan</text>
+  <text x="983" y="404" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">PATOJENİK</text>
+  <text x="983" y="420" font-size="9.5" fill="#FEE2E2" text-anchor="middle">≥ +10 puan</text>
+
+  <line x1="60" y1="442" x2="1060" y2="442" stroke="#94A3B8" stroke-width="1"/>
+  <g font-size="9.5" fill="#64748B" text-anchor="middle">
+    <text x="156" y="458">olasılık &lt; %0,1</text>
+    <text x="386" y="458">%0,1 – %10</text>
+    <text x="636" y="458">%10 – %90</text>
+    <text x="829" y="458">%90 – %99</text>
+    <text x="983" y="458">olasılık &gt; %99</text>
+  </g>
+
+  <text x="60" y="486" font-size="10.5" fill="#2E3440">Bu ölçek üç şeyi görünür kılar. <tspan font-weight="700">Birincisi</tspan>, VUS bir “ara sınıf” değil, kanıtın henüz karar verdirecek ağırlığa ulaşmadığı bir <tspan font-weight="700">durum</tspan>dur.</text>
+  <text x="60" y="502" font-size="10.5" fill="#2E3440"><tspan font-weight="700">İkincisi</tspan>, tek bir güçlü kanıt (ör. PVS1 = +8) bile tek başına patojenik sınıfa yetmez; en az bir destek daha gerekir. <tspan font-weight="700">Üçüncüsü</tspan>, karşıt yönlü</text>
+  <text x="60" y="518" font-size="10.5" fill="#2E3440">kanıtlar birbirini götürür — bu yüzden “kaç kriter işaretlendi?” sorusu yanlış, “toplam ağırlık nedir?” sorusu doğrudur.</text>
+
+  <rect x="24" y="540" width="1072" height="32" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="40" y="561" font-size="10" fill="#64748B">Kaynaklar: Richards ve ark. (2015) — kriter tanımları · Tavtigian ve ark. (2018) — Bayes çerçevesi ve olasılık oranları · Tavtigian ve ark. (2020) — doğal ölçekli puan sistemi</text>
+
+  <rect x="24" y="582" width="1072" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="560" y="602" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: Mekanizma bilgisi bu tabloya “hangi kriteri, hangi güçte kullanabilirim?” sorusuyla girer — Bölüm 2–15'in tamamı bu soruya hizmet eder.</text>
+</svg>

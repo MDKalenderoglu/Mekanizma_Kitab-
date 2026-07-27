@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 640" width="1120" height="640" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="640" fill="#ffffff"/>
+  <defs>
+    <filter id="sh56" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+    <marker id="ok56" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="9" refX="10" refY="4.5" orient="auto">
+      <path d="M0 0 L11 4.5 L0 9 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 16.3 — PVS1: önce mekanizma kapısı, sonra güç basamakları</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">“Null varyant = PVS1” kestirmesi, kitabın en pahalı hatalarından biridir. PVS1 önce bir mekanizma koşuluna, sonra varyantın gen içindeki konumuna bağlıdır.</text>
+
+  <!-- PANEL A: kapı -->
+  <rect x="24" y="72" width="1072" height="96" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="82" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="98" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="68" y="98" font-size="13" font-weight="700" fill="#1A2B4A">Kapı sorusu — basamaklara geçmeden önce sorulur</text>
+
+  <rect x="44" y="112" width="330" height="44" rx="10" fill="#1A2B4A"/>
+  <text x="209" y="130" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">İşlev kaybı, DEĞERLENDİRİLEN gen–hastalık</text>
+  <text x="209" y="146" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">ilişkisinin bilinen mekanizması mı?</text>
+
+  <path d="M382 122 H426" stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#ok56)"/>
+  <path d="M382 146 H426" stroke="#475569" stroke-width="1.6" fill="none" marker-end="url(#ok56)"/>
+  <text x="404" y="118" font-size="9.5" font-weight="700" fill="#B91C1C" text-anchor="middle">HAYIR</text>
+  <text x="404" y="160" font-size="9.5" font-weight="700" fill="#2563EB" text-anchor="middle">EVET</text>
+
+  <rect x="434" y="108" width="316" height="24" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.1"/>
+  <text x="592" y="124" font-size="10.5" font-weight="700" fill="#B91C1C" text-anchor="middle">PVS1 UYGULANAMAZ — hiçbir basamağı kullanma</text>
+
+  <rect x="434" y="136" width="316" height="24" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.1"/>
+  <text x="592" y="152" font-size="10.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">Basamak seçimine geç (Panel B)</text>
+
+  <rect x="766" y="104" width="314" height="58" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="778" y="122" font-size="10" fill="#B45309">Örnek: <tspan font-weight="700">RET</tspan> null varyantı Hirschsprung hastalığı için</text>
+  <text x="778" y="136" font-size="10" fill="#B45309">mekanizmaya uygundur; aynı varyant <tspan font-weight="700">MEN2</tspan> için</text>
+  <text x="778" y="150" font-size="10" fill="#B45309">değildir. Aynı gen, aynı varyant, farklı kapı sonucu.</text>
+
+  <!-- PANEL B: basamaklar -->
+  <rect x="24" y="180" width="1072" height="252" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="190" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="206" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="68" y="206" font-size="13" font-weight="700" fill="#1A2B4A">Güç basamakları — varyantın gen içindeki konumu gücü belirler</text>
+
+  <g filter="url(#sh56)">
+    <rect x="48" y="222" width="248" height="196" rx="10" fill="#ffffff" stroke="#B91C1C" stroke-width="1.2"/>
+    <rect x="312" y="222" width="248" height="196" rx="10" fill="#ffffff" stroke="#DC2626" stroke-width="1.2"/>
+    <rect x="576" y="222" width="248" height="196" rx="10" fill="#ffffff" stroke="#EF4444" stroke-width="1.2"/>
+    <rect x="840" y="222" width="248" height="196" rx="10" fill="#ffffff" stroke="#94A3B8" stroke-width="1.2"/>
+  </g>
+
+  <rect x="48" y="222" width="248" height="34" rx="10" fill="#B91C1C"/>
+  <rect x="48" y="246" width="248" height="10" fill="#B91C1C"/>
+  <text x="172" y="244" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">PVS1 — Çok güçlü · +8</text>
+  <text x="64" y="280" font-size="10" fill="#2E3440">• NMD'ye giren erken sonlanma</text>
+  <text x="64" y="294" font-size="10" fill="#2E3440">  kodonu (son ekzon ve öncesindeki</text>
+  <text x="64" y="308" font-size="10" fill="#2E3440">  50 nükleotid dışında)</text>
+  <text x="64" y="330" font-size="10" fill="#2E3440">• Tüm genin delesyonu</text>
+  <text x="64" y="352" font-size="10" fill="#2E3440">• Bilinen tek başlangıç kodonunun</text>
+  <text x="64" y="366" font-size="10" fill="#2E3440">  kaybı</text>
+  <text x="64" y="396" font-size="9.5" fill="#64748B">Tipik zemin: yetersiz doz (Bölüm 3)</text>
+
+  <rect x="312" y="222" width="248" height="34" rx="10" fill="#DC2626"/>
+  <rect x="312" y="246" width="248" height="10" fill="#DC2626"/>
+  <text x="436" y="244" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Güçlü · +4</text>
+  <text x="328" y="280" font-size="10" fill="#2E3440">• NMD'den kaçan, ancak proteinin</text>
+  <text x="328" y="294" font-size="10" fill="#2E3440">  işlevsel olarak büyük bir bölümünü</text>
+  <text x="328" y="308" font-size="10" fill="#2E3440">  ortadan kaldıran kesilme</text>
+  <text x="328" y="330" font-size="10" fill="#2E3440">• Çerçeveyi koruyan ama kritik bir</text>
+  <text x="328" y="344" font-size="10" fill="#2E3440">  domaini silen delesyon</text>
+  <text x="328" y="396" font-size="9.5" fill="#64748B">Karar: kaybedilen bölge ne kadar kritik?</text>
+
+  <rect x="576" y="222" width="248" height="34" rx="10" fill="#EF4444"/>
+  <rect x="576" y="246" width="248" height="10" fill="#EF4444"/>
+  <text x="700" y="244" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Orta · +2</text>
+  <text x="592" y="280" font-size="10" fill="#2E3440">• Son ekzonda görece küçük bir</text>
+  <text x="592" y="294" font-size="10" fill="#2E3440">  protein kaybı</text>
+  <text x="592" y="316" font-size="10" fill="#2E3440">• Alternatif bir başlangıç kodonuyla</text>
+  <text x="592" y="330" font-size="10" fill="#2E3440">  kısmen kurtarılabilen varyant</text>
+  <text x="592" y="352" font-size="10" fill="#2E3440">• Çerçeveyi koruyan ekzon atlaması</text>
+  <text x="592" y="396" font-size="9.5" fill="#64748B">Karar: kalan protein işlev görebilir mi?</text>
+
+  <rect x="840" y="222" width="248" height="34" rx="10" fill="#64748B"/>
+  <rect x="840" y="246" width="248" height="10" fill="#64748B"/>
+  <text x="964" y="244" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Destekleyici · +1 / uygulanmaz</text>
+  <text x="856" y="280" font-size="10" fill="#2E3440">• Etkilenen ekzon, klinik olarak ilgili</text>
+  <text x="856" y="294" font-size="10" fill="#2E3440">  transkriptte ifade edilmiyor</text>
+  <text x="856" y="316" font-size="10" fill="#2E3440">• Protein kaybı çok küçük; işlevsel</text>
+  <text x="856" y="330" font-size="10" fill="#2E3440">  etki beklenmiyor</text>
+  <text x="856" y="352" font-size="10" fill="#2E3440">• İzoform verisi yetersiz → temkinli</text>
+  <text x="856" y="366" font-size="10" fill="#2E3440">  davran, gücü düşür</text>
+  <text x="856" y="396" font-size="9.5" fill="#64748B">Sonuç: tek başına VUS'tan çıkarmaz</text>
+
+  <!-- PANEL C -->
+  <rect x="24" y="444" width="1072" height="118" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="454" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="470" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="68" y="470" font-size="13" font-weight="700" fill="#1A2B4A">İki özel durum: splice varyantları ve RNA verisi</text>
+
+  <text x="44" y="494" font-size="10.5" fill="#2E3440"><tspan font-weight="700">Splice bölgesi varyantları</tspan> doğrudan “null” sayılmaz. Öngörülen sonuç (ekzon atlanması · intron tutulumu · kriptik bölge kullanımı) belirlenir, bunun</text>
+  <text x="44" y="510" font-size="10.5" fill="#2E3440">okuma çerçevesine ve NMD'ye etkisi hesaplanır; PVS1'in gücü buna göre ayarlanır. Kanonik ±1,2 pozisyonları bile otomatik olarak tam güç vermez.</text>
+  <text x="44" y="532" font-size="10.5" fill="#2E3440"><tspan font-weight="700">RNA analizi</tspan> bu zincirdeki öngörüyü ölçüme çevirir: gerçekleşen transkript sonucu gösterildiğinde hem PVS1'in basamağı netleşir hem de PS3 devreye</text>
+  <text x="44" y="548" font-size="10.5" fill="#2E3440">girebilir. Bu, kitapta “ek veri hangi kriteri açar?” sorusunun en net yanıtlarından biridir (bkz. Şekil 16.4).</text>
+
+  <rect x="24" y="574" width="1072" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="560" y="594" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: PVS1 bir varyant tipi etiketi değil, bir mekanizma iddiasıdır. Kapı kapalıysa basamaklara hiç bakılmaz.</text>
+
+  <text x="1084" y="622" font-size="9" fill="#94A3B8" text-anchor="end">Kaynaklar: Abou Tayoun ve ark. (2018) · Walker ve ark. (2023)</text>
+</svg>

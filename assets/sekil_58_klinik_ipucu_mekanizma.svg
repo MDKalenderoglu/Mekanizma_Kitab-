@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 780" width="1120" height="780" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="780" fill="#ffffff"/>
+  <defs><filter id="sh58" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/></filter></defs>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 17.1 — Klinik ipucundan mekanizmaya: hastadan geriye doğru okumak</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Kitabın önceki bölümleri mekanizmadan kliniğe ilerledi. Klinik pratik ise ters yönde çalışır: elinizde bir hasta vardır ve doğru mekanizma hipotezi doğru testi seçtirir.</text>
+  <rect x="32" y="72" width="1056" height="28" rx="7" fill="#1A2B4A"/>
+  <text x="52" y="91" font-size="10.5" font-weight="700" fill="#ffffff">KLİNİK İPUCU</text>
+  <text x="500" y="91" font-size="10.5" font-weight="700" fill="#ffffff">DÜŞÜNÜLECEK MEKANİZMA</text>
+  <text x="700" y="91" font-size="10.5" font-weight="700" fill="#ffffff">BÖLÜM</text>
+  <text x="768" y="91" font-size="10.5" font-weight="700" fill="#ffffff">İLK TANISAL ADIM</text>
+  <rect x="32" y="108" width="1056" height="44" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="108" width="5" height="44" rx="2.5" fill="#B45309"/>
+  <text x="52" y="127" font-size="11" font-weight="700" fill="#1A2B4A">Segmental · çizgisel (Blaschko) · asimetrik tutulum</text>
+  <text x="52" y="142" font-size="9.5" fill="#64748B">mozaik pigmentasyon, tek taraflı aşırı büyüme</text>
+  <rect x="486" y="119" width="196" height="22" rx="7" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+  <text x="584" y="134" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">MOZAİKLİK</text>
+  <text x="722" y="134" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">12</text>
+  <text x="768" y="134" font-size="10" fill="#2E3440">Etkilenmiş DOKUDAN derin dizileme (kan yanıltır)</text>
+  <rect x="32" y="158" width="1056" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="158" width="5" height="44" rx="2.5" fill="#B91C1C"/>
+  <text x="52" y="177" font-size="11" font-weight="700" fill="#1A2B4A">Kuşaklar boyunca erkenleşen ve ağırlaşan tablo</text>
+  <text x="52" y="192" font-size="9.5" fill="#64748B">anticipasyon; anne/babadan geçişte fark</text>
+  <rect x="486" y="169" width="196" height="22" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1"/>
+  <text x="584" y="184" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">TEKRAR GENİŞLEMESİ</text>
+  <text x="722" y="184" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">9</text>
+  <text x="768" y="184" font-size="10" fill="#2E3440">Hedefli tekrar analizi — standart dizileme görmez</text>
+  <rect x="32" y="208" width="1056" height="44" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="208" width="5" height="44" rx="2.5" fill="#B91C1C"/>
+  <text x="52" y="227" font-size="11" font-weight="700" fill="#1A2B4A">Maternal kalıtım + çok sistemli tutulum + laktat ↑</text>
+  <text x="52" y="242" font-size="9.5" fill="#64748B">kas, beyin, göz, işitme, endokrin birlikte</text>
+  <rect x="486" y="219" width="196" height="22" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1"/>
+  <text x="584" y="234" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">MİTOKONDRİYAL</text>
+  <text x="722" y="234" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">11</text>
+  <text x="768" y="234" font-size="10" fill="#2E3440">mtDNA dizileme (uygun doku) + nükleer gen paneli</text>
+  <rect x="32" y="258" width="1056" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="258" width="5" height="44" rx="2.5" fill="#B45309"/>
+  <text x="52" y="277" font-size="11" font-weight="700" fill="#1A2B4A">Büyüme asimetrisi · hemihipertrofi · aşırı/az büyüme</text>
+  <text x="52" y="292" font-size="9.5" fill="#64748B">ebeveyn kökenine bağlı farklı tablo</text>
+  <rect x="486" y="269" width="196" height="22" rx="7" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+  <text x="584" y="284" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">İMPRİNTİNG · UPD</text>
+  <text x="722" y="284" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">10</text>
+  <text x="768" y="284" font-size="10" fill="#2E3440">Metilasyon analizi — dizileme tek başına yetmez</text>
+  <rect x="32" y="308" width="1056" height="44" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="308" width="5" height="44" rx="2.5" fill="#2563EB"/>
+  <text x="52" y="327" font-size="11" font-weight="700" fill="#1A2B4A">Sağlıklı ebeveynler, hasta çocuk</text>
+  <text x="52" y="342" font-size="9.5" fill="#64748B">akrabalık öyküsü olabilir</text>
+  <rect x="486" y="319" width="196" height="22" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+  <text x="584" y="334" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">RESESİF İŞLEV KAYBI</text>
+  <text x="722" y="334" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">2</text>
+  <text x="768" y="334" font-size="10" fill="#2E3440">Trio analizi + faz (in trans doğrulaması)</text>
+  <rect x="32" y="358" width="1056" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="358" width="5" height="44" rx="2.5" fill="#2563EB"/>
+  <text x="52" y="377" font-size="11" font-weight="700" fill="#1A2B4A">Aynı ailede çok farklı ağırlıkta tablo</text>
+  <text x="52" y="392" font-size="9.5" fill="#64748B">aynı varyant, farklı seyir</text>
+  <rect x="486" y="369" width="196" height="22" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+  <text x="584" y="384" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">REZİDÜEL İŞLEV · MODIFIER</text>
+  <text x="722" y="384" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">14–15</text>
+  <text x="768" y="384" font-size="10" fill="#2E3440">Doz/kopya sayısı ölçümü; genotip–fenotip incelemesi</text>
+  <rect x="32" y="408" width="1056" height="44" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="408" width="5" height="44" rx="2.5" fill="#B91C1C"/>
+  <text x="52" y="427" font-size="11" font-weight="700" fill="#1A2B4A">Dominant aile öyküsü + hotspot varyant + iskelet tablosu</text>
+  <text x="52" y="442" font-size="9.5" fill="#64748B">tekrarlayan aynı kodon</text>
+  <rect x="486" y="419" width="196" height="22" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1"/>
+  <text x="584" y="434" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">İŞLEV KAZANIMI</text>
+  <text x="722" y="434" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">4</text>
+  <text x="768" y="434" font-size="10" fill="#2E3440">Hedefli hotspot dizileme; mekanizma YÖNÜNÜ belirle</text>
+  <rect x="32" y="458" width="1056" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="458" width="5" height="44" rx="2.5" fill="#B91C1C"/>
+  <text x="52" y="477" font-size="11" font-weight="700" fill="#1A2B4A">Kemik kırılganlığı · mavi sklera · dentinogenez</text>
+  <text x="52" y="492" font-size="9.5" fill="#64748B">yapısal protein hastalığı</text>
+  <rect x="486" y="469" width="196" height="22" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1"/>
+  <text x="584" y="484" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">DOMİNANT-NEGATİF</text>
+  <text x="722" y="484" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">5</text>
+  <text x="768" y="484" font-size="10" fill="#2E3440">Gen paneli; null alel ile glisin değişimini AYIR</text>
+  <rect x="32" y="508" width="1056" height="44" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="508" width="5" height="44" rx="2.5" fill="#2563EB"/>
+  <text x="52" y="527" font-size="11" font-weight="700" fill="#1A2B4A">Gelişimsel gerilik + dismorfi + çoklu anomali</text>
+  <text x="52" y="542" font-size="9.5" fill="#64748B">tanınabilir sendrom yoksa</text>
+  <rect x="486" y="519" width="196" height="22" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+  <text x="584" y="534" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">YETERSİZ DOZ · CNV</text>
+  <text x="722" y="534" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">3, 8</text>
+  <text x="768" y="534" font-size="10" fill="#2E3440">CMA veya WGS (CNV çözünürlüğü ile)</text>
+  <rect x="32" y="558" width="1056" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="558" width="5" height="44" rx="2.5" fill="#B91C1C"/>
+  <text x="52" y="577" font-size="11" font-weight="700" fill="#1A2B4A">Nöbet başlangıç yaşı + EEG örüntüsü + ilaç yanıtı</text>
+  <text x="52" y="592" font-size="9.5" fill="#64748B">erken başlangıç mı, geç mi?</text>
+  <rect x="486" y="569" width="196" height="22" rx="7" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1"/>
+  <text x="584" y="584" font-size="10" font-weight="700" fill="#B91C1C" text-anchor="middle">KANAL MEKANİZMA YÖNÜ</text>
+  <text x="722" y="584" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">4</text>
+  <text x="768" y="584" font-size="10" fill="#2E3440">Gen paneli + fonksiyonel veri; yön tedaviyi değiştirir</text>
+  <rect x="32" y="608" width="1056" height="44" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="608" width="5" height="44" rx="2.5" fill="#2563EB"/>
+  <text x="52" y="627" font-size="11" font-weight="700" fill="#1A2B4A">İzole, ilerleyici organ tutulumu + biyokimyasal imza</text>
+  <text x="52" y="642" font-size="9.5" fill="#64748B">metabolik kriz öyküsü</text>
+  <rect x="486" y="619" width="196" height="22" rx="7" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+  <text x="584" y="634" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">ENZİMATİK İŞLEV KAYBI</text>
+  <text x="722" y="634" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">2</text>
+  <text x="768" y="634" font-size="10" fill="#2E3440">Biyokimyasal doğrulama + hedefli gen analizi</text>
+  <rect x="32" y="658" width="1056" height="44" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+  <rect x="32" y="658" width="5" height="44" rx="2.5" fill="#475569"/>
+  <text x="52" y="677" font-size="11" font-weight="700" fill="#1A2B4A">Klinik tanı GÜÇLÜ ama panel/ekzom NEGATİF</text>
+  <text x="52" y="692" font-size="9.5" fill="#64748B">fenotip tipik, sonuç yok</text>
+  <rect x="486" y="669" width="196" height="22" rx="7" fill="#E2E8F0" stroke="#475569" stroke-width="1"/>
+  <text x="584" y="684" font-size="10" font-weight="700" fill="#475569" text-anchor="middle">KÖR NOKTA (Şekil 17.2)</text>
+  <text x="722" y="684" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">8·9·12·13</text>
+  <text x="768" y="684" font-size="10" fill="#2E3440">WGS + RNA analizi + yeniden analiz planı</text>
+  <rect x="32" y="712" width="1056" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="560" y="732" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: Doğru test, doğru mekanizma hipotezinden çıkar. Hipotezsiz istenen geniş test, kör noktaları da beraberinde getirir.</text>
+</svg>

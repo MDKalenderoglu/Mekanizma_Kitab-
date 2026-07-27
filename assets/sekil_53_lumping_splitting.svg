@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 630" width="1120" height="630" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="630" fill="#ffffff"/>
+  <defs>
+    <filter id="sh53" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+    <marker id="oks53" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="9" refX="10" refY="4.5" orient="auto">
+      <path d="M0 0 L11 4.5 L0 9 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 15.4 — Birleştirmek mi, ayırmak mı? Küre edilen birim gen değildir</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Allelik seri, “bu gen hastalık yapar mı?” sorusunu geçersiz kılar. Değerlendirilen birim gen–hastalık–mekanizma üçlüsüdür.</text>
+
+  <!-- PANEL A -->
+  <rect x="24" y="72" width="1072" height="136" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="82" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="98" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="68" y="98" font-size="13" font-weight="700" fill="#1A2B4A">Yanlış birim ve doğru birim</text>
+
+  <g filter="url(#sh53)">
+    <rect x="48" y="112" width="500" height="82" rx="10" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.2"/>
+  </g>
+  <text x="66" y="134" font-size="12" font-weight="700" fill="#B91C1C">✖ YANLIŞ BİRİM — “gen”</text>
+  <text x="66" y="154" font-size="10.5" fill="#2E3440">“LMNA patojendir.” · “FGFR3 hastalık genidir.”</text>
+  <text x="66" y="172" font-size="10" fill="#64748B">Hangi hastalık? Hangi kalıtım? Hangi mekanizma? Bu cümle</text>
+  <text x="66" y="186" font-size="10" fill="#64748B">bir varyantı sınıflandırmak için gereken hiçbir bilgiyi taşımaz.</text>
+
+  <g filter="url(#sh53)">
+    <rect x="572" y="112" width="500" height="82" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2"/>
+  </g>
+  <text x="590" y="134" font-size="12" font-weight="700" fill="#1D4ED8">✔ DOĞRU BİRİM — gen + kalıtım + mekanizma</text>
+  <text x="590" y="154" font-size="10.5" fill="#2E3440">“LMNA — OD, Emery-Dreifuss musküler distrofisi.”</text>
+  <text x="590" y="172" font-size="10" fill="#64748B">Gen–hastalık geçerliliği, varyant patojenitesi ve klinik eylem</text>
+  <text x="590" y="186" font-size="10" fill="#64748B">değerlendirmesi ancak bu üçlü tanımlandıktan sonra yapılabilir.</text>
+
+  <!-- PANEL B -->
+  <rect x="24" y="220" width="1072" height="234" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="230" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="246" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="68" y="246" font-size="13" font-weight="700" fill="#1A2B4A">Ön-küreleme: aynı genin iki fenotibi tek varlık mı, iki ayrı varlık mı?</text>
+  <text x="1084" y="246" font-size="10" fill="#64748B" text-anchor="end">Thaxton ve ark. (2022) ölçütleri</text>
+
+  <g filter="url(#sh53)">
+    <rect x="48" y="264" width="320" height="76" rx="10" fill="#ffffff" stroke="#94A3B8" stroke-width="1.2"/>
+    <rect x="388" y="264" width="320" height="76" rx="10" fill="#ffffff" stroke="#94A3B8" stroke-width="1.2"/>
+    <rect x="728" y="264" width="320" height="76" rx="10" fill="#ffffff" stroke="#94A3B8" stroke-width="1.2"/>
+  </g>
+  <text x="66" y="286" font-size="11.5" font-weight="700" fill="#1A2B4A">1 · Moleküler mekanizma aynı mı?</text>
+  <text x="66" y="306" font-size="10" fill="#2E3440">İşlev kaybı ile işlev kazanımı aynı hastalık</text>
+  <text x="66" y="320" font-size="10" fill="#2E3440">varlığı sayılamaz.</text>
+  <text x="66" y="334" font-size="9.5" fill="#64748B">Örnek: RET — Hirschsprung ↔ MEN2</text>
+
+  <text x="406" y="286" font-size="11.5" font-weight="700" fill="#1A2B4A">2 · Kalıtım modu aynı mı?</text>
+  <text x="406" y="306" font-size="10" fill="#2E3440">Monoalelik ve bialelik tablolar ayrı risk</text>
+  <text x="406" y="320" font-size="10" fill="#2E3440">hesabı gerektirir; ayrı küre edilir.</text>
+  <text x="406" y="334" font-size="9.5" fill="#64748B">Örnek: COL4A3/A4 — ince BM ↔ Alport</text>
+
+  <text x="746" y="286" font-size="11.5" font-weight="700" fill="#1A2B4A">3 · Fenotipler örtüşüyor mu?</text>
+  <text x="746" y="306" font-size="10" fill="#2E3440">Aralarında ara formlar varsa süreklilik,</text>
+  <text x="746" y="320" font-size="10" fill="#2E3440">yoksa ayrık varlık düşünülür.</text>
+  <text x="746" y="334" font-size="9.5" fill="#64748B">Örnek: PAH — PKU ↔ hafif HPA (süreklilik)</text>
+
+  <g stroke="#475569" stroke-width="1.4" fill="none" marker-end="url(#oks53)">
+    <path d="M300 344 V364"/>
+    <path d="M800 344 V364"/>
+  </g>
+
+  <g filter="url(#sh53)">
+    <rect x="48" y="372" width="500" height="66" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2"/>
+    <rect x="572" y="372" width="500" height="66" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="1.2"/>
+  </g>
+  <text x="66" y="394" font-size="12" font-weight="700" fill="#1D4ED8">ÜÇÜNE DE “EVET” → BİRLEŞTİR (lump)</text>
+  <text x="66" y="414" font-size="10" fill="#2E3440">Tek bir hastalık varlığı, geniş bir fenotipik spektrum olarak tanımlanır;</text>
+  <text x="66" y="428" font-size="10" fill="#2E3440">ağırlık farkı “ayrı hastalık” değil, aynı serinin basamağıdır.</text>
+
+  <text x="590" y="394" font-size="12" font-weight="700" fill="#B45309">BİRİNE “HAYIR” → AYIR (split)</text>
+  <text x="590" y="414" font-size="10" fill="#2E3440">İki ayrı gen–hastalık varlığı tanımlanır; her biri kendi kanıtı, kendi</text>
+  <text x="590" y="428" font-size="10" fill="#2E3440">kalıtımı ve kendi varyant yorumu ile ayrı ayrı değerlendirilir.</text>
+
+  <!-- PANEL C -->
+  <rect x="24" y="466" width="1072" height="112" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="36" y="476" width="22" height="22" rx="6" fill="#1A2B4A"/>
+  <text x="47" y="492" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="68" y="492" font-size="13" font-weight="700" fill="#1A2B4A">Kararın üç pratik sonucu</text>
+
+  <line x1="392" y1="502" x2="392" y2="566" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="756" y1="502" x2="756" y2="566" stroke="#CBD5E1" stroke-width="1"/>
+
+  <text x="48" y="522" font-size="11" font-weight="700" fill="#2563EB">Test ve panel kapsamı</text>
+  <text x="48" y="540" font-size="10" fill="#2E3440">Gen hangi panelde yer alacak? Ayrılan iki</text>
+  <text x="48" y="554" font-size="10" fill="#2E3440">varlık farklı endikasyon panellerine girer;</text>
+  <text x="48" y="568" font-size="10" fill="#2E3440">“gen panelde var” yeterli bilgi değildir.</text>
+
+  <text x="412" y="522" font-size="11" font-weight="700" fill="#B45309">Varyant yorumu</text>
+  <text x="412" y="540" font-size="10" fill="#2E3440">Sınıflandırma hastalığa özgüdür: PS1/PM5</text>
+  <text x="412" y="554" font-size="10" fill="#2E3440">“aynı fenotip için mi?”, PM1 “bu hastalığın</text>
+  <text x="412" y="568" font-size="10" fill="#2E3440">hotspot'u mu?” diye sorulmalıdır.</text>
+
+  <text x="776" y="522" font-size="11" font-weight="700" fill="#B91C1C">Danışma ve izlem</text>
+  <text x="776" y="540" font-size="10" fill="#2E3440">Tekrarlanma riski, prognoz ve tarama planı</text>
+  <text x="776" y="554" font-size="10" fill="#2E3440">gene değil, tanımlanan hastalık varlığına</text>
+  <text x="776" y="568" font-size="10" fill="#2E3440">göre kurulur.</text>
+
+  <rect x="24" y="590" width="1072" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="560" y="610" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: Rapor cümlesi gen adıyla değil, gen–kalıtım–hastalık üçlüsüyle kurulur; varyant o üçlü için sınıflandırılır.</text>
+</svg>

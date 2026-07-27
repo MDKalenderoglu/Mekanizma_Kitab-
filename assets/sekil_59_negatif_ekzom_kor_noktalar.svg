@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 686" width="1120" height="686" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="686" fill="#ffffff"/>
+  <defs>
+    <filter id="sh59" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 17.2 — "Ekzom negatif" ne demektir? Altı kör nokta</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Negatif bir sonuç çoğu zaman "genetik neden yok" demek değildir; "kullandığım yöntemin göremediği bir yerde olabilir" demektir. Kör noktalar önceden bilinir ve sırayla kapatılır.</text>
+
+  <!-- Üst istatistik şeridi -->
+  <rect x="32" y="72" width="1056" height="82" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="52" y="94" font-size="12" font-weight="700" fill="#1A2B4A">Önce beklentiyi doğru kurun</text>
+  <text x="52" y="116" font-size="10.5" fill="#2E3440">• Çocuklarda tanı oranı: <tspan font-weight="700">WGS ≈ 0,41</tspan> · <tspan font-weight="700">WES ≈ 0,36</tspan> · <tspan font-weight="700">CMA ≈ 0,10</tspan></text>
+  <text x="52" y="134" font-size="10.5" fill="#2E3440">• <tspan font-weight="700">Trio</tspan> analizi tanı olasılığını ~2 katına çıkarır (OR 2,04) — 37 çalışma, 20.068 çocuk</text>
+  <text x="656" y="116" font-size="10.5" fill="#2E3440">• Aynı veriyi <tspan font-weight="700">yeniden analiz etmek</tspan>: 1.133 ailede tanı oranı</text>
+  <text x="656" y="134" font-size="10.5" fill="#2E3440">  <tspan font-weight="700">%27 → %40</tspan>'a çıkmıştır (yeni gen bilgisi + yeni yöntemler)</text>
+  <text x="1072" y="94" font-size="9" fill="#94A3B8" text-anchor="end">Clark ve ark. (2018) · Wright ve ark. (2018)</text>
+
+  <!-- Kartlar -->
+  <g filter="url(#sh59)">
+    <rect x="32" y="168" width="344" height="152" rx="10" fill="#ffffff" stroke="#2563EB" stroke-width="1.2"/>
+    <rect x="392" y="168" width="344" height="152" rx="10" fill="#ffffff" stroke="#2563EB" stroke-width="1.2"/>
+    <rect x="752" y="168" width="344" height="152" rx="10" fill="#ffffff" stroke="#2563EB" stroke-width="1.2"/>
+    <rect x="32" y="336" width="344" height="152" rx="10" fill="#ffffff" stroke="#B45309" stroke-width="1.2"/>
+    <rect x="392" y="336" width="344" height="152" rx="10" fill="#ffffff" stroke="#B45309" stroke-width="1.2"/>
+    <rect x="752" y="336" width="344" height="152" rx="10" fill="#ffffff" stroke="#B45309" stroke-width="1.2"/>
+  </g>
+
+  <rect x="32" y="168" width="344" height="30" rx="10" fill="#2563EB"/>
+  <rect x="32" y="188" width="344" height="10" fill="#2563EB"/>
+  <text x="48" y="188" font-size="12" font-weight="700" fill="#ffffff">1 · CNV ve yapısal varyantlar</text>
+  <text x="356" y="188" font-size="10" fill="#DBEAFE" text-anchor="end">Bölüm 8</text>
+  <text x="48" y="222" font-size="10" font-weight="700" fill="#B91C1C">Neden kaçtı?</text>
+  <text x="48" y="238" font-size="10" fill="#2E3440">Ekzom verisinden kopya sayısı çağrısı</text>
+  <text x="48" y="252" font-size="10" fill="#2E3440">güvenilmezdir; dengeli translokasyon ve</text>
+  <text x="48" y="266" font-size="10" fill="#2E3440">inversiyonlar ise hiç görünmez.</text>
+  <text x="48" y="288" font-size="10" font-weight="700" fill="#1D4ED8">Nasıl yakalanır?</text>
+  <text x="48" y="304" font-size="10" fill="#2E3440">CMA · WGS (SV çağrısı) · MLPA · uzun-okuma</text>
+
+  <rect x="392" y="168" width="344" height="30" rx="10" fill="#2563EB"/>
+  <rect x="392" y="188" width="344" height="10" fill="#2563EB"/>
+  <text x="408" y="188" font-size="12" font-weight="700" fill="#ffffff">2 · Kodlamayan ve derin intronik</text>
+  <text x="716" y="188" font-size="10" fill="#DBEAFE" text-anchor="end">Bölüm 13</text>
+  <text x="408" y="222" font-size="10" font-weight="700" fill="#B91C1C">Neden kaçtı?</text>
+  <text x="408" y="238" font-size="10" fill="#2E3440">Ekzom bu bölgeleri hedeflemez; enhancer,</text>
+  <text x="408" y="252" font-size="10" fill="#2E3440">promotör, uORF ve derin intronik kriptik</text>
+  <text x="408" y="266" font-size="10" fill="#2E3440">splice bölgeleri kapsam dışında kalır.</text>
+  <text x="408" y="288" font-size="10" font-weight="700" fill="#1D4ED8">Nasıl yakalanır?</text>
+  <text x="408" y="304" font-size="10" fill="#2E3440">WGS + kalibre splice öngörüsü + RNA analizi</text>
+
+  <rect x="752" y="168" width="344" height="30" rx="10" fill="#2563EB"/>
+  <rect x="752" y="188" width="344" height="10" fill="#2563EB"/>
+  <text x="768" y="188" font-size="12" font-weight="700" fill="#ffffff">3 · Tekrar genişlemeleri</text>
+  <text x="1076" y="188" font-size="10" fill="#DBEAFE" text-anchor="end">Bölüm 9</text>
+  <text x="768" y="222" font-size="10" font-weight="700" fill="#B91C1C">Neden kaçtı?</text>
+  <text x="768" y="238" font-size="10" fill="#2E3440">Kısa okumalar, okuma uzunluğunu aşan</text>
+  <text x="768" y="252" font-size="10" fill="#2E3440">tekrar dizilerini güvenilir biçimde</text>
+  <text x="768" y="266" font-size="10" fill="#2E3440">ölçemez; alel boyu görülmez.</text>
+  <text x="768" y="288" font-size="10" font-weight="700" fill="#1D4ED8">Nasıl yakalanır?</text>
+  <text x="768" y="304" font-size="10" fill="#2E3440">Hedefli tekrar analizi · uzun-okuma dizileme</text>
+
+  <rect x="32" y="336" width="344" height="30" rx="10" fill="#B45309"/>
+  <rect x="32" y="356" width="344" height="10" fill="#B45309"/>
+  <text x="48" y="356" font-size="12" font-weight="700" fill="#ffffff">4 · Mozaiklik</text>
+  <text x="356" y="356" font-size="10" fill="#FEF3C7" text-anchor="end">Bölüm 12</text>
+  <text x="48" y="390" font-size="10" font-weight="700" fill="#B91C1C">Neden kaçtı?</text>
+  <text x="48" y="406" font-size="10" fill="#2E3440">Düşük varyant alel frekansı standart</text>
+  <text x="48" y="420" font-size="10" fill="#2E3440">filtrelerde elenir; üstelik kan, etkilenmiş</text>
+  <text x="48" y="434" font-size="10" fill="#2E3440">dokuyu temsil etmeyebilir.</text>
+  <text x="48" y="456" font-size="10" font-weight="700" fill="#1D4ED8">Nasıl yakalanır?</text>
+  <text x="48" y="472" font-size="10" fill="#2E3440">Etkilenmiş dokudan derin dizileme · ddPCR</text>
+
+  <rect x="392" y="336" width="344" height="30" rx="10" fill="#B45309"/>
+  <rect x="392" y="356" width="344" height="10" fill="#B45309"/>
+  <text x="408" y="356" font-size="12" font-weight="700" fill="#ffffff">5 · İmprinting ve epimutasyon</text>
+  <text x="716" y="356" font-size="10" fill="#FEF3C7" text-anchor="end">Bölüm 10</text>
+  <text x="408" y="390" font-size="10" font-weight="700" fill="#B91C1C">Neden kaçtı?</text>
+  <text x="408" y="406" font-size="10" fill="#2E3440">DNA dizisi normaldir; kusur metilasyon</text>
+  <text x="408" y="420" font-size="10" fill="#2E3440">örüntüsünde ya da alelin ebeveyn</text>
+  <text x="408" y="434" font-size="10" fill="#2E3440">kökenindedir (UPD).</text>
+  <text x="408" y="456" font-size="10" font-weight="700" fill="#1D4ED8">Nasıl yakalanır?</text>
+  <text x="408" y="472" font-size="10" fill="#2E3440">Metilasyon analizi · UPD testi · SNP array</text>
+
+  <rect x="752" y="336" width="344" height="30" rx="10" fill="#B45309"/>
+  <rect x="752" y="356" width="344" height="10" fill="#B45309"/>
+  <text x="768" y="356" font-size="12" font-weight="700" fill="#ffffff">6 · Mitokondriyal genom</text>
+  <text x="1076" y="356" font-size="10" fill="#FEF3C7" text-anchor="end">Bölüm 11</text>
+  <text x="768" y="390" font-size="10" font-weight="700" fill="#B91C1C">Neden kaçtı?</text>
+  <text x="768" y="406" font-size="10" fill="#2E3440">mtDNA her panelde kapsanmaz; kapsansa</text>
+  <text x="768" y="420" font-size="10" fill="#2E3440">bile heteroplazmi düzeyi kanda eşiğin</text>
+  <text x="768" y="434" font-size="10" fill="#2E3440">altında kalabilir.</text>
+  <text x="768" y="456" font-size="10" font-weight="700" fill="#1D4ED8">Nasıl yakalanır?</text>
+  <text x="768" y="472" font-size="10" fill="#2E3440">Uygun dokudan mtDNA dizileme (idrar/kas)</text>
+
+  <!-- Alt şerit -->
+  <rect x="32" y="504" width="1056" height="104" rx="10" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.2"/>
+  <text x="52" y="526" font-size="12" font-weight="700" fill="#B91C1C">Yedinci kör nokta: teknoloji değil, YORUM</text>
+  <text x="52" y="548" font-size="10.5" fill="#2E3440">Varyant görülmüş olabilir ama yanlış hastalık varlığı için değerlendirilmiş (Bölüm 15), mekanizma kapısı gözden kaçtığı için kriter yanlış güçte</text>
+  <text x="52" y="564" font-size="10.5" fill="#2E3440">uygulanmış (Bölüm 16) ya da VUS olarak bırakılıp bir daha bakılmamış olabilir. Bu kör noktanın çözümü yeni bir cihaz değil, yeniden analizdir.</text>
+  <text x="52" y="588" font-size="10" fill="#64748B">Ulusal ölçekli genom programında konan tanıların <tspan font-weight="700" fill="#2E3440">%14'ü</tspan> araştırma ve otomatik yaklaşımların birleşimiyle elde edilmiştir; bu, özellikle kodlamayan, yapısal ve</text>
+  <text x="52" y="602" font-size="10" fill="#64748B">mitokondriyal genom varyantları ile ekzomun iyi kapsamadığı kodlayan varyantlar için belirleyici olmuştur. Tanısı konmamış kas hastalıklarında RNA dizileme <tspan font-weight="700" fill="#2E3440">%35</tspan> tanı sağlamıştır.</text>
+
+  <rect x="32" y="620" width="1056" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="560" y="640" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: "Negatif" bir zaman damgasıdır. Kör noktaları sırayla kapatın ve yeniden değerlendirmeyi takvime bağlayın (ör. 12–24 ay).</text>
+
+  <text x="1088" y="670" font-size="9" fill="#94A3B8" text-anchor="end">Kaynaklar: Clark ve ark. (2018) · Wright ve ark. (2018) · Smedley ve ark. (2021) · Cummings ve ark. (2017)</text>
+</svg>

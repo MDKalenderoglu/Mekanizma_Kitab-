@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 700" width="1120" height="700" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="700" fill="#ffffff"/>
+  <defs>
+    <filter id="sh50" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 15.1 — Aynı gen neden farklı hastalıklar yapar? Altı eksen</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Allelik seri: tek lokus, çok fenotip. Fenotibi belirleyen genin kimliği değil, varyantın bu altı eksendeki konumudur.</text>
+
+  <!-- Sol: gen kolonu -->
+  <rect x="32" y="76" width="140" height="572" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="102" y="99" font-size="12.5" font-weight="700" fill="#1A2B4A" text-anchor="middle">AYNI GEN</text>
+  <text x="102" y="114" font-size="10" fill="#475569" text-anchor="middle">farklı varyantlar</text>
+  <rect x="90" y="126" width="24" height="494" rx="6" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1"/>
+
+  <g fill="#FCD34D" stroke="#92400E" stroke-width="1">
+    <path d="M102 148 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 236 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 324 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 412 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 500 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 588 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+  </g>
+
+  <!-- Bağlantı çizgileri -->
+  <g stroke="#94A3B8" stroke-width="1.2" fill="none">
+    <path d="M172 156 H196"/>
+    <path d="M172 244 H196"/>
+    <path d="M172 332 H196"/>
+    <path d="M172 420 H196"/>
+    <path d="M172 508 H196"/>
+    <path d="M172 596 H196"/>
+  </g>
+
+  <!-- SATIR 1 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="118" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="132" width="26" height="26" rx="7" fill="#B91C1C"/>
+  <text x="225" y="150" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="250" y="146" font-size="13" font-weight="700" fill="#B91C1C">MEKANİZMA YÖNÜ — kayıp mı, kazanım mı?</text>
+  <text x="250" y="166" font-size="10.5" fill="#2E3440">Aynı gende işlev kaybı ve işlev kazanımı çoğu zaman birbirinin</text>
+  <text x="250" y="181" font-size="10.5" fill="#2E3440">zıddı fenotipler üretir; yön değişince hastalığın adı da değişir.</text>
+  <line x1="706" y1="132" x2="706" y2="180" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="146" font-size="11" font-weight="700" fill="#1A2B4A">RET: Hirschsprung (LoF) ↔ MEN2 (GoF)</text>
+  <text x="722" y="166" font-size="10" fill="#64748B">FGFR3: CATSHL (LoF) ↔ akondroplazi (GoF)</text>
+  <text x="722" y="181" font-size="10" fill="#64748B">SCN2A: yön → tedavi yönü (Bölüm 4)</text>
+
+  <!-- SATIR 2 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="206" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="220" width="26" height="26" rx="7" fill="#2563EB"/>
+  <text x="225" y="238" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="250" y="234" font-size="13" font-weight="700" fill="#2563EB">REZİDÜEL İŞLEV — alelin ağırlığı</text>
+  <text x="250" y="254" font-size="10.5" fill="#2E3440">Kalan işlev yüzdesi tabloyu hafiften ağıra doğru kaydırır; klinik</text>
+  <text x="250" y="269" font-size="10.5" fill="#2E3440">eşik geçildiğinde aynı genin hastalığı yeni bir ad alır.</text>
+  <line x1="706" y1="220" x2="706" y2="268" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="234" font-size="11" font-weight="700" fill="#1A2B4A">PAH: klasik PKU ↔ hafif hiperfenilalaninemi</text>
+  <text x="722" y="254" font-size="10" fill="#64748B">ATP7A: Menkes ↔ oksipital boynuz sendromu</text>
+  <text x="722" y="269" font-size="10" fill="#64748B">DMD: Duchenne ↔ Becker (okuma çerçevesi)</text>
+
+  <!-- SATIR 3 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="294" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="308" width="26" height="26" rx="7" fill="#1A2B4A"/>
+  <text x="225" y="326" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="250" y="322" font-size="13" font-weight="700" fill="#1A2B4A">VARYANT KONUMU — domain ve izoform</text>
+  <text x="250" y="342" font-size="10.5" fill="#2E3440">Proteinin farklı bölgeleri farklı ortaklarla çalışır; varyant hangi</text>
+  <text x="250" y="357" font-size="10.5" fill="#2E3440">arayüzü bozarsa hastalık o dokunun adını taşır.</text>
+  <line x1="706" y1="308" x2="706" y2="356" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="322" font-size="11" font-weight="700" fill="#1A2B4A">LMNA: kas ↔ yağ dokusu ↔ progeria</text>
+  <text x="722" y="342" font-size="10" fill="#64748B">COL1A1: sarmal glisin ↔ N-propeptid (EDS)</text>
+  <text x="722" y="357" font-size="10" fill="#64748B">PAX6: aniridi ↔ ön segment anomalileri</text>
+
+  <!-- SATIR 4 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="382" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="396" width="26" height="26" rx="7" fill="#D97706"/>
+  <text x="225" y="414" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="250" y="410" font-size="13" font-weight="700" fill="#B45309">KALITIM MODU — tek alel mi, iki alel mi?</text>
+  <text x="250" y="430" font-size="10.5" fill="#2E3440">Aynı gen monoalelik durumda hafif/geç bir tablo, bialelik durumda</text>
+  <text x="250" y="445" font-size="10.5" fill="#2E3440">ayrı adı olan ağır bir hastalık üretebilir.</text>
+  <line x1="706" y1="396" x2="706" y2="444" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="410" font-size="11" font-weight="700" fill="#1A2B4A">COL4A3/A4: ince bazal membran ↔ Alport</text>
+  <text x="722" y="430" font-size="10" fill="#64748B">RYR1: malign hipertermi ↔ konjenital miyopati</text>
+  <text x="722" y="445" font-size="10" fill="#64748B">Danışmada risk hesabı tümüyle değişir</text>
+
+  <!-- SATIR 5 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="470" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="484" width="26" height="26" rx="7" fill="#B45309"/>
+  <text x="225" y="502" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="250" y="498" font-size="13" font-weight="700" fill="#B45309">ZAMANLAMA — germline mi, mozaik mi?</text>
+  <text x="250" y="518" font-size="10.5" fill="#2E3440">Varyant zigottan önce mi sonra mı ortaya çıktı? Germline hâlde</text>
+  <text x="250" y="533" font-size="10.5" fill="#2E3440">letal olan bir varyant, mozaik hâlde yaşanabilir bir sendrom yapar.</text>
+  <line x1="706" y1="484" x2="706" y2="532" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="498" font-size="11" font-weight="700" fill="#1A2B4A">GNAS: PHP (germline) ↔ McCune-Albright</text>
+  <text x="722" y="518" font-size="10" fill="#64748B">IDH1: germline yok ↔ mozaik Ollier hastalığı</text>
+  <text x="722" y="533" font-size="10" fill="#64748B">Bölüm 12 ile doğrudan köprü</text>
+
+  <!-- SATIR 6 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="558" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="572" width="26" height="26" rx="7" fill="#475569"/>
+  <text x="225" y="590" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+  <text x="250" y="586" font-size="13" font-weight="700" fill="#475569">BAĞLAM — ebeveyn kökeni ve genetik zemin</text>
+  <text x="250" y="606" font-size="10.5" fill="#2E3440">İmprintli lokusta alelin hangi ebeveynden geldiği, ayrıca modifiye</text>
+  <text x="250" y="621" font-size="10.5" fill="#2E3440">edici lokuslar aynı varyantı farklı hastalığa çevirebilir.</text>
+  <line x1="706" y1="572" x2="706" y2="620" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="586" font-size="11" font-weight="700" fill="#1A2B4A">GNAS: maternal → PHP1A ↔ paternal → PPHP</text>
+  <text x="722" y="606" font-size="10" fill="#64748B">Modifiye ediciler: Bölüm 14</text>
+  <text x="722" y="621" font-size="10" fill="#64748B">İmprinting: Bölüm 10</text>
+
+  <!-- Öğreti -->
+  <rect x="32" y="660" width="1060" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="562" y="680" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: “Bu gende varyant var” bir tanı değildir. Tanı, varyantın bu altı eksendeki konumundan doğar.</text>
+</svg>
