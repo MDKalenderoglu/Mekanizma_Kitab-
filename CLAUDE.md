@@ -14,6 +14,18 @@ Bu dosya her oturumda otomatik yüklenir. Amacı: bu projede **nasıl çalışac
 
 ---
 
+## 1B. Yayım standardı ve doğrulama (KARAR VERİLDİ — yeniden tartışma)
+
+Kitap **hekimlere yönelik yayımlanacaktır**. Bu nedenle:
+
+- **"Bu kitapta hata yok" iddiası ASLA kullanılmaz.** Savunulan şey hatasızlık değil **denetlenebilirliktir**.
+- Her iddia beş türden birine ayrılır (T1 normatif · T2 çalışma bulgusu · T3 gen/varyant/dozaj · T4 ders bilgisi · T5 kitabın özgün sentezi) ve **türüne uygun otoriteyle** doğrulanır.
+- **T5 (kitabın özgün pedagojik çerçeveleri) doğrulanmaz, ETİKETLENİR** — yerleşik sınıflama gibi sunulamaz.
+- ⛔ **Doğrulama, veriyi bir modele okutarak yapılamaz.** `WebFetch` uydurabilir (kanıtlandı: ClinGen'de olmayan bir geni "HI = 3" diye bildirdi). Veri tabanı kanıtı **`curl` ile indirilir + Python ile tam eşleştirilir**. WebFetch yalnız keşif içindir.
+- Uzman insan değerlendirmesi **yayım ön koşuludur**; model bunun yerine geçemez.
+
+> **Tam protokol:** `00_Şablonlar/Dogrulama_Protokolu.md` — işlem sırası, sabit veri kaynakları, ClinGen skor kodları ve gen/bölge tuzağı orada. **Uygulama kaydı:** `Dogrulama_Kutugu.md`.
+
 ## 2. Altın kurallar (asla ihlal etme)
 
 1. **Anlatı (paragraf) önce gelir — bu en kritik kuraldır.** Bölümler **akıcı, öğretici paragraflarla** yazılır; madde listesi ancak gerçekten liste olan içerik için (kaynakça, hızlı referans) kullanılır. Bir kavramı madde madde sıralamak ONU AÇIKLAMAK DEĞİLDİR. Her zor kavram, okuyucunun (özellikle tıp öğrencisinin) "ne olduğunu, neden önemli olduğunu, nasıl yorumlandığını" anlayacağı şekilde **paragraf içinde, örnek/benzetmeyle** anlatılır. Tablolar açıklayıcı paragrafın yerini almaz; onu özetler.
