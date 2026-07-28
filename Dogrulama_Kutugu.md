@@ -644,8 +644,30 @@ Bu tur sonunda savunulabilir cümle şudur:
 
 Savunulamayacak cümle ise değişmemiştir: **"Bu kitapta hata yoktur" denemez.** Özellikle T4-(a) kategorisi — kaynaksız, kulağa doğru gelen, yerleşik ders bilgisi sayılıp geçilen mekanizma cümleleri — hiçbir otomatik denetimle kapanmaz. **Uzman insan değerlendirmesi hâlâ yayım ön koşuludur.**
 ✅ *Kapandı:* Bölüm 3'ün "imprintli lokuslarda gen skoru yanıltıcı" açık kalemi (bulgu 10.9).
-🔎 *Kitap geneli kontrol edilecek:* Mermaid etiketlerinde `\n` kullanımı (yalnız Bölüm 9'da vardı, düzeltildi) ve Kiril/karışık alfabe bulaşması — kapanış turunda tüm dosyalarda taranacak.
-🔎 *İzlenecek:* PS3'ün splice bağlamında kullanımı Bölüm 13 ve 16'da da geçiyor olabilir; o turlarda kontrol edilecek.
-🔎 *İzlenecek:* Berecki 2018 Bölüm 15, 16, 17'de de kullanılıyor; oralarda da yalnızca elektrofizyolojik ayrım için kullanıldığı doğrulanacak.
-✅ *Kapandı:* Bölüm 3'ün "%50 dozda akı korunur" açık kalemi — Kacser & Burns (1981) eklendi.
-🔎 *Kitap geneli izlenecek kalıp:* pLI'nin Karczewski 2020'ye atfı (doğrusu Lek 2016). Bölüm 1, 2, 3'te düzeltildi; Bölüm 16'da kontrol edilecek.
+✅ *Kapandı:* Bölüm 3'ün "%50 dozda akı korunur" açık kalemi — Kacser &amp; Burns (1981) eklendi.
+
+---
+
+# 🔒 Kapanış turu (28.07.2026)
+
+Doğrulama turundan kalan beş "izlenecek" kalemin tamamı kitap geneli taramayla kapatıldı.
+
+| # | İzlenen kalem | Yöntem | Sonuç |
+|---|---|---|---|
+| K1 | Mermaid etiketlerinde `\n` kullanımı | Tüm `Bölüm_*.md` üzerinde düz metin taraması | ✅ **0 eşleşme** — Bölüm 9 düzeltmesi dışında hiç yokmuş |
+| K2 | Kiril / karışık alfabe bulaşması | Tüm `Bölüm_*.md` + `kitap/*.md` üzerinde `[\x{0400}-\x{04FF}]` taraması | ✅ **0 eşleşme** |
+| K3 | PS3'ün splice bağlamında kullanımı (Böl. 13, 16, 17) | Bölümlerde tüm `PS3` geçişlerinin bağlam okuması | ✅ Splicing kanıtı **PVS1_Strength**, etkisizlik **BP7** olarak kodlanmış (Böl. 16 §hızlı-referans ve §özet). Böl. 13'teki PS3 kullanımı **kodlamayan** varyantların reporter/MPRA kanıtı içindir — doğru. Böl. 17'deki PS3 kullanımları GoF/DN yön testi içindir — doğru |
+| K4 | Berecki 2018'in kapsam dışı kullanımı (Böl. 15, 16, 17) | Üç bölümdeki tüm geçişlerin okunması | ✅ Üçünde de yalnızca **elektrofizyolojik yön ayrımı** için kullanılmış; OSB/EY iddiası Böl. 15'te ayrıca **Sanders 2018**'e bağlanmış ve künyede "Berecki 2018'in kapsamı dışındadır" notu düşülmüş |
+| K5 | pLI'nin Karczewski 2020'ye atfı (doğrusu Lek 2016) | Böl. 16'da `pLI` taraması | ⚠️→✅ **Bulundu ve düzeltildi.** §PM2 klinik kutusunda "pLI/LOEUF; Karczewski ve ark., 2020" duruyordu; metin pLI → **Lek 2016**, LOEUF → Karczewski 2020 olarak ayrıştırıldı, Lek 2016 künyesi Böl. 16 kaynakçasına (no. 25) eklendi ve Bölüm 0 kütüğünde bölüm listesi güncellendi |
+
+**Ek düzeltme (biçim):** Bölüm 0 indeksinde Bölüm 16 için "3 Mermaid" yazıyordu; dosyada 2 Mermaid var — indeks düzeltildi.
+
+**Programatik yeniden doğrulama (28.07.2026):** `python3 00_Şablonlar/kunye_denetle.py` → **196/196 kaynak satırı · 118 benzersiz PMID · 0 uyuşmazlık, 0 eksik.** (Turdaki 194 sayısı, sonradan eklenen künyelerle 196'ya çıkmıştır.)
+
+## Kapanış turundan çıkan ders
+
+K5, doğrulama turunun üçüncü kalıbını (*"düzeltmenin tek bölümde kalması"*) bir kez daha doğruladı: hata Bölüm 1, 2 ve 3'te düzeltilmiş, Bölüm 16'da kalmıştı — ve orada da metnin gövdesinde değil, bir **klinik kutusunun içinde** duruyordu. Bu, kitap-geneli taramanın yalnızca ana metni değil kutuları, tablo hücrelerini ve künye "kullanım amacı" notlarını da kapsaması gerektiğini gösterir.
+
+Buna karşılık K1–K4'ün temiz çıkması, turda yapılan düzeltmelerin **tek seferde ve tutarlı** biçimde uygulandığını gösteriyor. Kitabın denetlenebilirlik iddiası bu turla birlikte tamamlanmıştır.
+
+**Değişmeyen sınır:** Bu tur bir biçim ve tutarlılık turudur; T4-(a) kategorisini (kaynaksız, yerleşik sayılıp geçilen mekanizma cümleleri) kapatmaz. **Uzman insan değerlendirmesi hâlâ yayım ön koşuludur.**

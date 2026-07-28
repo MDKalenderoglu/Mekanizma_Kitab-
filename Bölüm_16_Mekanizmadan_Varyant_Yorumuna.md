@@ -74,7 +74,7 @@ Whiffin ve arkadaşları buna niceliksel bir çözüm getirdiler: aday hastalık
 
 Bu, bu kitabın mekanizma bölümleriyle doğrudan bağlanır. Penetrans eksikse (Bölüm 1, 14) izin verilen frekans yükselir; hastalık resesifse alel frekansı eşiği baskın kalıtıma göre farklıdır; alelik heterojenite yüksekse (ör. *CFTR*) tek bir varyantın taşıyabileceği pay küçülür. Aynı gnomAD frekansı, bir hastalık için "çok sık — BS1", başka bir hastalık için "beklenen düzeyde — PM2" olabilir.
 
-> **🟦 Klinikte dikkat — Bir varyantın "gnomAD'de yok" olması ne kadar kanıttır?** Yokluk, PM2'yi (orta güçte değil, günümüzde çoğu uzman grubunda **destekleyici** güce indirilmiş biçimde) destekler; ama tek başına patojenite kanıtı değildir. Her insan genomunda çok sayıda nadir, işlevsel olarak zararsız varyant vardır. Gen düzeyinde kısıt ölçütleri (pLI/LOEUF; Karczewski ve ark., 2020) bu kanıtı bağlamlandırır: kısıtlı bir gende nadir bir kesici varyant anlamlıyken, kısıtsız bir gende aynı bulgu çok daha zayıftır.
+> **🟦 Klinikte dikkat — Bir varyantın "gnomAD'de yok" olması ne kadar kanıttır?** Yokluk, PM2'yi (orta güçte değil, günümüzde çoğu uzman grubunda **destekleyici** güce indirilmiş biçimde) destekler; ama tek başına patojenite kanıtı değildir. Her insan genomunda çok sayıda nadir, işlevsel olarak zararsız varyant vardır. Gen düzeyinde kısıt ölçütleri bu kanıtı bağlamlandırır — **pLI** ExAC veri kümesiyle tanımlanmış (Lek ve ark., 2016), **LOEUF** ise gnomAD ile getirilmiştir (Karczewski ve ark., 2020): kısıtlı bir gende nadir bir kesici varyant anlamlıyken, kısıtsız bir gende aynı bulgu çok daha zayıftır.
 
 ### 2.2 Hesaplamalı kanıt: "araçlar hemfikir" yeterli değildir
 
@@ -381,7 +381,7 @@ flowchart TD
 
 18. **MacArthur DG, Manolio TA, Dimmock DP, ve ark. (2014).** Guidelines for investigating causality of sequence variants in human disease. *Nature* 508(7497):469–476. **PMID: 24759409** · DOI: [10.1038/nature13127](https://doi.org/10.1038/nature13127) — *Kullanım amacı: Nedensellik iddiasının kanıt gücüne göre derecelendirilmesi. Kaynak kütüğünden yeniden kullanılmıştır.*
 
-19. **Karczewski KJ, Francioli LC, Tiao G, ve ark. (2020).** The mutational constraint spectrum quantified from variation in 141,456 humans. *Nature* 581(7809):434–443. **PMID: 32461654** · DOI: [10.1038/s41586-020-2308-7](https://doi.org/10.1038/s41586-020-2308-7) — *Kullanım amacı: Gen düzeyinde kısıt ölçütlerinin (pLI/LOEUF) popülasyon kanıtını bağlamlandırması. Kaynak kütüğünden yeniden kullanılmıştır.*
+19. **Karczewski KJ, Francioli LC, Tiao G, ve ark. (2020).** The mutational constraint spectrum quantified from variation in 141,456 humans. *Nature* 581(7809):434–443. **PMID: 32461654** · DOI: [10.1038/s41586-020-2308-7](https://doi.org/10.1038/s41586-020-2308-7) — *Kullanım amacı: **LOEUF** kısıt ölçütünün tanımlandığı çalışma; popülasyon kanıtının gen düzeyinde bağlamlandırılması. Kaynak kütüğünden yeniden kullanılmıştır.*
 
 20. **Jaganathan K, Kyriazopoulou Panagiotopoulou S, McRae JF, ve ark. (2019).** Predicting Splicing from Primary Sequence with Deep Learning. *Cell* 176(3):535–548.e24. **PMID: 30661751** · DOI: [10.1016/j.cell.2018.12.015](https://doi.org/10.1016/j.cell.2018.12.015) — *Kullanım amacı: Splice öngörüsünün hesaplamalı kanıt olarak gücü. Kaynak kütüğünden yeniden kullanılmıştır.*
 
@@ -392,6 +392,8 @@ flowchart TD
 23. **Berecki G, Howell KB, Deerasooriya YH, ve ark. (2018).** Dynamic action potential clamp predicts functional separation in mild familial and severe de novo forms of *SCN2A* epilepsy. *Proceedings of the National Academy of Sciences USA* 115(24):E5516–E5525. **PMID: 29844171** · DOI: [10.1073/pnas.1800077115](https://doi.org/10.1073/pnas.1800077115) — *Kullanım amacı: Çözümlü örnek 1'de fonksiyonel kanıtın (PS3) mekanizma yönünü göstermesi. Kaynak kütüğünden yeniden kullanılmıştır.*
 
 24. **Brunklaus A, Du J, Steckler F, ve ark. (2020).** Biological concepts in human sodium channel epilepsies and their relevance in clinical practice. *Epilepsia* 61(3):387–399. **PMID: 32090326** · DOI: [10.1111/epi.16438](https://doi.org/10.1111/epi.16438) — *Kullanım amacı: Mekanizma yönünün tedavi kararına çevrilmesi. Kaynak kütüğünden yeniden kullanılmıştır.*
+
+25. **Lek M, Karczewski KJ, Minikel EV, ve ark. (2016).** Analysis of protein-coding genetic variation in 60,706 humans. *Nature* 536(7616):285–291. **PMID: 27535533** · DOI: [10.1038/nature19057](https://doi.org/10.1038/nature19057) — *Kullanım amacı: **pLI** metriğinin tanımlandığı çalışma (ExAC); PM2'nin kısıtlılık bağlamında yorumlanması. Kaynak kütüğünden yeniden kullanılmıştır.*
 
 > **İkincil/destekleyici kaynak notu:** ClinVar, ClinGen VCEP spesifikasyonları, gnomAD ve OMIM bu bölümde yalnızca destekleyici/başvuru kaynağı olarak anılmıştır. Puan eşikleri ve olasılık aralıkları, ilgili yöntem makalelerinde tanımlanan değerlerdir; gerçek olgularda ilgili uzman panel spesifikasyonu esas alınmalıdır.
 
