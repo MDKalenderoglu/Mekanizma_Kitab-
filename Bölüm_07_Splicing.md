@@ -111,7 +111,7 @@ flowchart TD
 
 ## 5. Tanısal testlerle ilişkisi
 
-Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama splicing etkisini RNA gösterir.** Kanonik splice varyantları WES/WGS ile yakalanır; ancak **derin intronik** varyantlar yalnız WGS ile görülür (WES intronları kapsamaz). Etkinin *kanıtı* için ise RNA-seq veya hedefe yönelik cDNA/RT-PCR gerekir — bu, splice yorumunda RNA kanıtının (PVS1_Strength / BP7) neden bu kadar değerli olduğunu açıklar (§6).
+Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama splicing etkisini RNA gösterir.** Kanonik splice varyantları WES/WGS ile yakalanır; ancak **derin intronik** varyantlar yalnız WGS ile görülür (WES intronları kapsamaz). Burada bir basamak daha vardır: kısa okuma WGS intronları kapsasa da, tekrar bakımından zengin bölgelerdeki, yapısal olaylara gömülü veya karmaşık splice-bozucu lezyonları kaçırabilir; bu durumlarda **uzun okuma WGS** hem varyantı hem de onun bulunduğu haplotipi daha güvenilir gösterir. Etkinin *kanıtı* için ise RNA-seq veya hedefe yönelik cDNA/RT-PCR gerekir — bu, splice yorumunda RNA kanıtının (PVS1_Strength / BP7) neden bu kadar değerli olduğunu açıklar (§6).
 
 **Tablo 7.3 — Splicing kusurlarını hangi test yakalar?**
 

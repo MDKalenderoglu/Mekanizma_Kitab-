@@ -192,7 +192,7 @@ Allelik serinin aynası, lokus heterojenitesidir; ikisi tanısal stratejide birl
 
 ## 5. Tanısal testlerle ilişkisi
 
-Allelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığın arandığı varsayımıdır.** Aynı gen için hedefli hotspot dizilemesi bir hastalıkta yeterliyken, başka bir hastalıkta gen tamamı + delesyon/duplikasyon analizi gerekir. Aşağıdaki tablo bu bakışla okunmalıdır.
+Allelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığın arandığı varsayımıdır.** Bunun bugünkü pratik karşılığını doğru kurmak gerekir: tanısal aşamada **genin tamamına bakmak artık varsayılan yaklaşımdır** — dizileme maliyeti düştüğü ve serinin hangi ucunda olunduğu baştan bilinemediği için, hedefli hotspot dizilemesiyle işe başlamak nadiren doğrudur. Hedefli, tek bölgeye inen dizileme esas olarak **aile taramasında** yerini bulur: probandda patojen varyant tanımlandıktan sonra akrabalarda yalnızca o varyantın bulunduğu bölge incelenir. Buna karşılık "hangi hastalık?" sorusu ortadan kalkmaz, yalnızca **yer değiştirir**: cihaz seçiminden çıkıp **kapsam ve yorum** kararına girer — genin tamamı dizilendiğinde bile delesyon/duplikasyon analizinin eklenip eklenmeyeceği, tekrar ya da derin intronik bölgelerin ayrıca aranıp aranmayacağı ve bulunan varyantın hangi hastalık varlığına karşı yorumlanacağı bu soruya bağlıdır. Aşağıdaki tablo bu bakışla okunmalıdır.
 
 **Tablo 15.3 — Allelik serilerde hangi test ne gösterir?**
 
