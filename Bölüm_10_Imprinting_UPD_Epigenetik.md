@@ -143,7 +143,7 @@ flowchart TD
 | **Methylation array** | Evet — DMR metilasyonunu ve **çok-lokuslu imprint bozukluğunu (MLID)** tarar | Alt-tipi (delesyon/UPD/ID) tek başına ayırmaz; doğrulama gerekir |
 | **Karyotip** | Yalnızca büyük/dengesiz yeniden düzenlenmeleri, Robertsonian translokasyonu | Metilasyon, UPD ve mikrodelesyonları göremez |
 
-> **Bu mekanizmayı hangi test yakalar? (özet):** İlk basamak daima **metilasyon-duyarlı bir test**tir (PWS/AS ve BWS/SRS için MS-MLPA veya metilasyon-spesifik PCR); bu test delesyon, UPD ve ID'nin üçünü birden yakalar. Metilasyon anormalse alt-tip belirlenir: **kopya sayısı** (delesyon?) MS-MLPA/array ile, **UPD** SNP array veya mikrosatellit/trio analiziyle, **ID** ise ne delesyon ne UPD bulunduğunda dışlamayla konur. İmprintli gen tek gense ve metilasyon normalse, sıra **dizilemeye** (nokta varyantı) gelir.
+> **Bu mekanizmayı hangi test yakalar? (özet):** İlk basamak **metilasyon-duyarlı bir testtir** (PWS/AS ve BWS/SRS için MS-MLPA veya metilasyon-spesifik PCR); bu test delesyon, UPD ve ID'nin üçünü birden yakalar. Metilasyon anormalse alt-tip belirlenir: **kopya sayısı** (delesyon?) MS-MLPA/array ile, **UPD** SNP array veya mikrosatellit/trio analiziyle, **ID** ise ne delesyon ne UPD bulunduğunda dışlamayla konur. İmprintli gen tek gense ve metilasyon normalse, sıra **dizilemeye** (nokta varyantı) gelir.
 
 ---
 
@@ -153,9 +153,9 @@ flowchart TD
 
 İkinci nüans, imprinting bozukluklarının büyük bölümünün **dizi varyantı olmayan** (epimutasyon, UPD) lezyonlardan kaynaklanmasıdır. Bu lezyonlar klasik ACMG dizi-kriterlerinin (PVS1, PM1, PP3…) kapsamı dışındadır; bunlar için ClinGen'in **kopya sayısı/dozaj** çerçevesi (Bölüm 8'de işlenen HI/TS puanlaması) ve metilasyon/UPD'ye özgü laboratuvar kriterleri kullanılır. Pratikte bir imprinting bozukluğu raporu, çoğu zaman bir "varyant sınıflandırması"ndan çok bir **metilasyon paterni + alt-tip** tanımıdır.
 
-> **🟦 Klinikte dikkat — ClinGen'in *gen düzeyi* dozaj skorları imprintli lokuslarda yanıltıcıdır.** Bölüm 8'de tanıtılan haploinsufficiency (HI) skorunu imprintli bir gende sorguladığınızda beklediğinizi bulamazsınız: ClinGen gen dozaj listesinde *SNRPN*, *NDN*, *H19* ve *IGF2*'nin HI skoru **0**'dır ("kanıt yok"). Bu, bu genlerin doza duyarlı olmadığı anlamına **gelmez**; anlamı, patojenitenin **gen düzeyinde tek kopya kaybıyla** değil, **bölge ve damgalama düzeyinde** — yani hangi ebeveyn kopyasının kaybedildiğiyle — tanımlanmasıdır. Aynı tuzağın CNV'lerdeki karşılığını Bölüm 3'te *PMP22* üzerinden görmüştük: gen kaydı ile bölge kaydı farklı şeyler söyler. İmprintli bir lokusta refleks, **gen skoruna değil bölge kaydına ve metilasyon paternine** bakmaktır.
+> **🟦 Klinikte dikkat — ClinGen'in *gen düzeyi* dozaj skorları imprintli lokuslarda yanıltıcıdır.** Bölüm 8'de tanıtılan haploinsufficiency (HI) skorunu imprintli bir gende sorguladığınızda beklediğinizi bulamazsınız: ClinGen gen dozaj listesinde *SNRPN*, *NDN*, *H19* ve *IGF2*'nin HI skoru **0**'dır ("kanıt yok"). Bu, bu genlerin doza duyarlı olmadığı anlamına **gelmez**; anlamı, patojenitenin **gen düzeyinde tek kopya kaybıyla** değil, **bölge ve damgalama düzeyinde** — yani hangi ebeveyn kopyasının kaybedildiğiyle — tanımlanmasıdır. Aynı tuzağın CNV'lerdeki karşılığını Bölüm 3'te *PMP22* üzerinden görmüştük: gen kaydı ile bölge kaydı farklı şeyler söyler. İmprintli bir lokusta refleks, gen skorunun dışına çıkıp **DMR'ye ve metilasyon paternine** bakmaktır (§1'de tanımlanan diferansiyel metile bölge).
 >
-> **🟦 Klinikte dikkat — De novo ≠ düşük risk (her zaman değil):** İmprinting defektlerinin çoğu sporadik (primer epimutasyon) olup düşük tekrarlanma riski taşır. Ancak ID'lerin bir alt-kümesi, ICR içindeki küçük bir **mikrodelesyondan** kaynaklanır; bu genetik lezyon ebeveynden aktarılabilir ve %50'ye varan tekrarlanma riski yaratır. Bu yüzden "imprinting defekti" tanısı, danışmadan önce mutlaka **ICR mikrodelesyonu açısından incelenmelidir** — "epigenetik = sporadik" varsayımı tehlikelidir.
+> **🟦 Klinikte dikkat — De novo ≠ düşük risk (her zaman değil):** İmprinting defektlerinin çoğu sporadik (primer epimutasyon) olup düşük tekrarlanma riski taşır. Ancak ID'lerin bir alt-kümesi, ICR içindeki küçük bir **mikrodelesyondan** kaynaklanır; bu genetik lezyon ebeveynden aktarılabilir ve %50'ye varan tekrarlanma riski yaratır. Bu yüzden "imprinting defekti" tanısı, danışmadan önce **ICR mikrodelesyonu açısından incelenmelidir** — "epigenetik = sporadik" varsayımı tehlikelidir.
 
 Aşağıdaki Mermaid, imprintli bir gende dizi varyantı yorumlanırken ebeveyn kökeninin kararı nasıl yönlendirdiğini gösterir:
 
@@ -196,7 +196,7 @@ flowchart TD
 > **🔴 Sık yapılan hata kutusu**
 > 1. **"Ekzom normalse imprinting bozukluğu dışlanır" sanmak.** Standart WES metilasyonu ve çoğu UPD'yi okumaz; PWS/AS/BWS/SRS'yi kaçırır. İmprinting bozukluğu şüphesinde **metilasyon testi** ayrıca istenmelidir.
 > 2. **"İki sağlam alel var, o hâlde hastalık olmaz" varsaymak.** İmprintli lokusta işlevsel doz zaten tek alelden gelir; UPD'de "iki kopya" olması normal işlevi garanti etmez.
-> 3. **Metilasyon anormalliğini alt-tiple karıştırmak.** "Metilasyon PWS paterni" tanıyı koyar ama delesyon/UPD/ID ayrımını yapmaz; tekrarlanma riski için alt-tip şarttır.
+> 3. **Metilasyon anormalliğini alt-tiple karıştırmak.** "Metilasyon PWS paterni" tanıyı koyar ama delesyon/UPD/ID ayrımını yapmaz; tekrarlanma riskinin konuşulabilmesi için alt-tip belirlenmesi önerilir.
 > 4. **İmprinting defektini otomatik "sporadik/düşük risk" saymak.** ID'lerin bir kısmı ailevi ICR mikrodelesyonundan kaynaklanır (%50 risk); danışmadan önce dışlanmalıdır.
 > 5. **İzodizomiyi yalnızca imprint sorunu sanmak.** İzodizomi resesif bir varyantı homozigotlaştırarak, ebeveyn taşıyıcılığıyla açıklanamayan resesif hastalık da yapabilir.
 > 6. **BWS'de tüm alt-tipleri aynı tümör riskiyle izlemek.** Tarama yoğunluğu moleküler alt-tipe göre ayarlanmalıdır (ICR1 hipermetilasyon / UPD11 en yüksek risk).
