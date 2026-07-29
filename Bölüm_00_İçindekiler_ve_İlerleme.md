@@ -20,7 +20,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 10/10 |
 | 10 | İmprinting, UPD, epigenetik | `Bölüm_10_Imprinting_UPD_Epigenetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
 | 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 14/14 |
-| 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 17/17 |
+| 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 21/21 |
 | 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 14 | Digenik / oligogenik / modifier | `Bölüm_14_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 22/22 |
@@ -123,6 +123,10 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 30569724 | Urbanova ve ark. (2018) | Neoplasma | 10.4149/neo_2018_180731N559 | Metodoloji (analiz hattı eşiği: ≥%20 okuma süzgeci %17'lik APC mozaikliğini atladı) | 12 |
 | 30731206 | Coppin ve ark. (2019) | J Mol Diagn | 10.1016/j.jmoldx.2019.01.005 | Metodoloji (mozaik doğrulama duyarlılığı: SNaPshot ~%5, ddPCR ~%1) | 12 |
 | 36707240 | Xu ve ark. (2023) | J Med Genet | 10.1136/jmg-2022-108920 | Metodoloji (>5000× derinlikte %0,5 VAF sınırı; ebeveyn/sperm mozaikliği ve tekrarlanma riski) | 12 |
+| 31349857 | Cao ve ark. (2019) | Genome Med | 10.1186/s13073-019-0658-2 | Metodoloji (~12.000 klinik ekzom; ortalama 130× derinlikte bile <%10 AAF süzgeçle elenebilir; %3,1'e kadar mozaik) | 12 |
+| 32655138 | Gambin ve ark. (2020) | Genet Med | 10.1038/s41436-020-0897-z | Metodoloji (~2.000 trio; mozaikliğe özgü hatla %1–10 ve <%1 ebeveyn mozaikliği) | 12 |
+| 34930489 | Domogala ve ark. (2021) | Hum Genomics | 10.1186/s40246-021-00369-6 | Metodoloji (VAF <%10 rutin yöntemlerle saptanamaz; amplikon NGS/ddPCR doğrulama; dokular arası %0,03–%9) | 12 |
+| 33927380 | Rehder ve ark. (2021) | Genet Med | 10.1038/s41436-021-01139-4 | Guideline (ACMG konstitüsyonel NGS teknik standardı; düşük allel fraksiyonu laboratuvarın doğrulanmış performansına bağlı) | 12 |
 | 37324239 | Checri ve ark. (2023) | Brain Commun | 10.1093/braincomms/fcad174 | Metodoloji (stereo-EEG elektrotlarından beyin somatik varyant saptanması) | 12 |
 | 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13, 16 |
 | 32461616 | Whiffin ve ark. (2020) | Nat Commun | 10.1038/s41467-019-10717-9 | Mekanizma/metodoloji (5′UTR uORF varyantları; negatif seçilim; NF2) | 13 |
