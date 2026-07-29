@@ -9,7 +9,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | # | Bölüm | Dosya | Durum | Görsel | Kaynak (doğrulanmış) |
 |---|-------|-------|-------|--------|----------------------|
 | 0 | İçindekiler & İlerleme | `Bölüm_00_İçindekiler_ve_İlerleme.md` | ✅ Canlı | — | — |
-| 1 | Genetik hastalık mekanizması nedir? | `Bölüm_01_Genetik_Hastalık_Mekanizması.md` | ✅ Tamam (textbook) | 6 SVG + 3 Mermaid | 6/6 |
+| 1 | Genetik hastalık mekanizması nedir? | `Bölüm_01_Genetik_Hastalık_Mekanizması.md` | ✅ Tamam (textbook) | 6 SVG + 3 Mermaid | 7/7 |
 | 2 | Loss-of-function | `Bölüm_02_Loss_of_Function.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 9/9 |
 | 3 | Haploinsufficiency | `Bölüm_03_Haploinsufficiency.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 4 | Gain-of-function | `Bölüm_04_Gain_of_Function.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
@@ -117,7 +117,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 21793738 | Lindhurst ve ark. (2011) | N Engl J Med | 10.1056/NEJMoa1104017 | Klinik/mekanizma (Proteus; AKT1 p.Glu17Lys; VAF %1–~50) | 12 |
 | 23656586 | Shirley ve ark. (2013) | N Engl J Med | 10.1056/NEJMoa1213507 | Klinik/mekanizma (Sturge-Weber ve porto-şarabı lekesi; GNAQ p.Arg183Gln; VAF %1–18,1) | 12 |
 | 25557259 | Keppler-Noreuil ve ark. (2015) | Am J Med Genet A | 10.1002/ajmg.a.36836 | Uzlaşı/guideline (PROS şemsiye terimi; tanı ve test uygunluk ölçütleri) | 12, 17 |
-| 25087610 | Campbell ve ark. (2014) | Am J Hum Genet | 10.1016/j.ajhg.2014.07.003 | Metodoloji/danışmanlık (ebeveyn somatik mozaikliği; "de novo" sınırları; tekrar riski) | 12, 16, 17 |
+| 25087610 | Campbell ve ark. (2014) | Am J Hum Genet | 10.1016/j.ajhg.2014.07.003 | Metodoloji/danışmanlık (ebeveyn somatik mozaikliği; "de novo" sınırları; tekrar riski; 100 ailede 4 ebeveynde kanda mozaiklik) | 1, 12, 16, 17 |
 | 35163267 | Lee ve ark. (2022) | Int J Mol Sci | 10.3390/ijms23031344 | Mekanizma/klinik (FCD tip II; beyne sınırlı mozaiklik; germline+somatik iki vuruş) | 12 |
 | 23619277 | Pritchard ve ark. (2013) | Genet Med | 10.1038/gim.2013.51 | Metodoloji (Sanger'ın saptama sınırı; %1,7 VAF'lı PTEN mozaikliği yalnız derin dizilemeyle bulundu) | 12 |
 | 30569724 | Urbanova ve ark. (2018) | Neoplasma | 10.4149/neo_2018_180731N559 | Metodoloji (analiz hattı eşiği: ≥%20 okuma süzgeci %17'lik APC mozaikliğini atladı) | 12 |
