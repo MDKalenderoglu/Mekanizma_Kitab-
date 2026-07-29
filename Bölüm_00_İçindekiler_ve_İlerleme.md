@@ -78,6 +78,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 1677316 | Lupski ve ark. (1991) | Cell | 10.1016/0092-8674(91)90613-4 | Landmark dozaj CNV (CMT1A 17p duplikasyonu) | 8 |
 | 25959774 | Lupiáñez ve ark. (2015) | Cell | 10.1016/j.cell.2015.04.004 | Mekanizma (TAD bozulması/pozisyon etkisi; enhancer hijacking) | 8, 13 |
 | 20466091 | Miller ve ark. (2010) | Am J Hum Genet | 10.1016/j.ajhg.2010.04.006 | Guideline (CMA birinci-basamak test; getiri %15–20) | 8, 17 |
+| 835578 | Hook EB (1977) | Am J Hum Genet | *(DOI yok; PMC1685228)* | Metodoloji (mozaikliğin dışlanmasında hücre sayısı–güven düzeyi tabloları; 30 hücre→%10, 60 hücre→%5, %95 güven) | 8, 12 |
 | 29325606 | Paulson H. (2018) | Handb Clin Neurol | 10.1016/B978-0-444-63233-3.00009-9 | Landmark review (tüm tekrar genişlemesi hastalıkları; mekanizma sınıflaması; anticipasyon) | 9, 17 |
 | 21163446 | Ross &amp; Tabrizi (2011) | Lancet Neurol | 10.1016/S1474-4422(10)70245-3 | HD landmark klinik/mekanistik; polyQ agregasyonu; striatal patoloji | 9 |
 | 27940602 | Jimenez-Sanchez ve ark. (2017) | Cold Spring Harb Perspect Med | 10.1101/cshperspect.a024240 | HD mekanizma derinleme; otofaji/mitokondri/BDNF yolağı | 9 |
@@ -155,6 +156,15 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 34758253 | Smedley ve ark. (2021) | N Engl J Med | 10.1056/NEJMoa2035790 | Klinik (100.000 Genom pilotu; %25 tanı; kodlamayan/SV/mito payı) | 17 |
 | 33264411 | Köhler ve ark. (2021) | Nucleic Acids Res | 10.1093/nar/gkaa1043 | Metodoloji (HPO; derin fenotipleme standardı) | 17 |
 | 28424332 | Cummings ve ark. (2017) | Sci Transl Med | 10.1126/scitranslmed.aal5209 | Klinik/metodoloji (kas RNA-seq; %35 tanı; derin intronik splice) | 17 |
+
+### 2.1 Kılavuz belgeleri (PubMed'de indekslenmeyen normatif kaynaklar)
+
+> Bu belgelerin PMID/DOI'si yoktur; **sürüm numarası ve tarihle** kayda geçirilir ve `curl` ile indirilip alıntılanan ölçütler metinle birebir eşleştirilerek doğrulanır. Güncellenebilir belgeler oldukları için kitapta sürüm açıkça yazılır.
+
+| Belge | Sürüm / tarih | Doğrulama | Kullanıldığı bölümler |
+|---|---|---|---|
+| ACGS, *Best Practice Guidelines for Constitutional Karyotype Analysis and Targeted Chromosome Analysis* | v1.0 · onay 20.08.2024 | ✅ PDF indirildi; KA/TCA tanımları, TCA endikasyonları, 30/60 hücre eşikleri birebir eşleşti (29.07.2026) | 8 |
+| NHS England, *National Genomic Test Directory — Rare and Inherited Disease* | v9.1 · 20.05.2026 | ✅ PDF indirildi; tekrarlayan gebelik kaybı (üç/beş kayıp) ve infertilite ölçütleri birebir eşleşti (29.07.2026) | 8 |
 
 ---
 

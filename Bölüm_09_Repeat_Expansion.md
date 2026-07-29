@@ -137,9 +137,9 @@ Tekrar genişlemesi hastalıkları, genetik test yöntemlerinin sınırlarını 
 | Methylation array | ✅ FMR1 için değerli | Tam mutasyon CGG'de metilasyon örüntüsünü gösterir; FRDA'da FXN lokusundaki epigenetik değişikliği değerlendirebilir |
 | Karyotip | ⚠️ Kısmen (tarihsel) | Frajil X'te yüksek folat-yoksun kültürde kırılgan bant görülebilir; günümüzde tanısal değeri düşük |
 
-> **Bu mekanizmayı hangi test yakalar? (özet):** Hedefli PCR (triplet-primed PCR, RP-PCR) altın standarttır. Uzun tekrarlı vakalar için Southern blot veya long-read WGS gereklidir. Standart NGS platformları tekrar genişlemesini rutin olarak kaçırır; klinik şüphe varsa hedefli test zorunludur.
+> **Bu mekanizmayı hangi test yakalar? (özet):** Hedefli PCR (triplet-primed PCR, RP-PCR) en yaygın kullanılan yöntemdir. Çok uzun tekrarlarda Southern blot veya long-read WGS gerekebilir. Standart NGS platformları tekrar genişlemesini rutin olarak kaçırır; klinik şüphe varsa hedefli bir test gerekebilir.
 
-> **🟦 Klinikte dikkat — WES negatifliği tekrar hastalığını ekarte etmez:** Ataksi, miyotoni, entelektüel yetersizlik veya nörodejenerasyon ile başvuran bir hastada WES negatif çıksa bile, klinik tablo tekrar genişlemesi hastalıklarıyla uyumluysa hedefli PCR veya long-read WGS yapılmalıdır. Tekrar genişlemesi WES'in "kör noktasıdır."
+> **🟦 Klinikte dikkat — WES negatifliği tekrar hastalığını ekarte etmez:** Ataksi, miyotoni, entelektüel yetersizlik veya nörodejenerasyon ile başvuran bir hastada WES negatif çıksa bile, klinik tablo tekrar genişlemesi hastalıklarıyla uyumluysa hedefli PCR veya long-read WGS yapılabilir. Tekrar genişlemesi WES'in "kör noktalarından biridir."
 
 ---
 
@@ -199,7 +199,7 @@ Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG 
 
 > **🔴 Sık yapılan hata kutusu**
 >
-> 1. **"WES negatifse tekrar hastalığı ekarte edildi" yanılgısı.** WES tekrar genişlemelerini rutin olarak kaçırır; klinik şüphe devam ediyorsa hedefli PCR/RP-PCR zorunludur.
+> 1. **"WES negatifse tekrar hastalığı ekarte edildi" yanılgısı.** WES tekrar genişlemelerini rutin olarak kaçırır; klinik şüphe devam ediyorsa hedefli PCR/RP-PCR gerekebilir.
 >
 > 2. **Premutasyon taşıyıcısını sağlıklı saymak.** FMR1 premutasyonlu (55–200 CGG) bireyler Frajil X Sendromu yaşamaz; ancak FXTAS (tremor, ataksi, parkinsonizm) ve FXPOI (prematür over yetersizliği) riski taşır. Bu fark hem aile danışmanlığı hem sağlık takibini etkiler.
 >
