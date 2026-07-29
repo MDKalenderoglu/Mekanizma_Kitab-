@@ -12,7 +12,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 1 | Genetik hastalık mekanizması nedir? | `Bölüm_01_Genetik_Hastalık_Mekanizması.md` | ✅ Tamam (textbook) | 6 SVG + 3 Mermaid | 7/7 |
 | 2 | Loss-of-function | `Bölüm_02_Loss_of_Function.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 9/9 |
 | 3 | Haploinsufficiency | `Bölüm_03_Haploinsufficiency.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
-| 4 | Gain-of-function | `Bölüm_04_Gain_of_Function.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
+| 4 | Gain-of-function | `Bölüm_04_Gain_of_Function.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 13/13 |
 | 5 | Dominant-negatif | `Bölüm_05_Dominant_Negatif.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 6 | Neomorfik & antimorfik | `Bölüm_06_Neomorfik_Antimorfik.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 7 | Splicing | `Bölüm_07_Splicing.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
@@ -44,8 +44,8 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 27535533 | Lek ve ark. (2016) | Nature | 10.1038/nature19057 | Metodoloji (ExAC; **pLI** metriğinin tanımlandığı çalışma) | 1, 2, 3, 16 |
 | 7297851 | Kacser &amp; Burns (1981) | Genetics | 10.1093/genetics/97.3-4.639 | Landmark kuram (metabolik kontrol; resesifliğin moleküler temeli) | 2, 3 |
 | 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1, 14 |
-| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI) | 1, 2, 5, 15, 16 |
-| 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip) | 2, 7 |
+| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI; NMD kuralı: son ekzon + sondan bir öncekinin son 50 nt'si) | 1, 2, 4, 5, 15, 16 |
+| 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip; NMD'den kaçan PTC → DN/GoF riski) | 2, 4, 7 |
 | 3384440 | Monaco ve ark. (1988) | Genomics | 10.1016/0888-7543(88)90113-9 | Landmark mekanizma (okuma çerçevesi; DMD/BMD) | 2, 15 |
 | 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR allelik heterojenite) | 2, 14 |
 | 32668217 | Hillert ve ark. (2020) | Am J Hum Genet | 10.1016/j.ajhg.2020.06.006 | Klinik örnek (PAH/PKU genotip-fenotip) | 2, 15 |
@@ -62,6 +62,8 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 29844171 | Berecki ve ark. (2018) | PNAS | 10.1073/pnas.1800077115 | Mekanizma/klinik (SCN2A GoF vs LoF elektrofizyolojik ayrım; başlangıç yaşı/nöbet tipi. ⚠️ OSB/EY iddiası için kullanılamaz) | 4, 15, 16, 17 |
 | 29691040 | Sanders ve ark. (2018) | Trends Neurosci | 10.1016/j.tins.2018.03.011 | Review (SCN2A LoF → OSB/entelektüel yetersizlik) | 4, 15 |
 | 32090326 | Brunklaus ve ark. (2020) | Epilepsia | 10.1111/epi.16438 | Klinik (Na-kanal GoF→erken başlangıç + SCB yanıtı; yön-tedavi) | 4, 15, 16, 17 |
+| 25491639 | Canalis &amp; Zanotti (2014) | Orphanet J Rare Dis | 10.1186/s13023-014-0200-y | Klinik/mekanizma (Hajdu-Cheney; NOTCH2 ekzon 34 kesilmesi → PEST kaybı → kararlı protein → GoF) | 4 |
+| 23389697 | Zhao ve ark. (2013) | Osteoporos Int | 10.1007/s00198-013-2298-5 | Klinik (dokuz HCS hastasında son NOTCH2 ekzonunda kesici varyant; aktive edici mekanizma) | 4 |
 | 31892348 | Brnich ve ark. (2019) | Genome Med | 10.1186/s13073-019-0690-2 | Guideline (PS3/BS3 fonksiyonel kanıt; "mekanizmayı tanımla") | 4, 11, 13, 16 |
 | 2442619 | Herskowitz (1987) | Nature | 10.1038/329219a0 | Landmark kavram (dominant-negatif tanımı; mutant ürün yabanıl-tipi bozar) | 5, 6 |
 | 11001814 | Forlino &amp; Marini (2000) | Mol Genet Metab | 10.1006/mgme.2000.3039 | Klinik/mekanizma (OI = DN hastalığı; null→hafif tip I vs glisin→ağır) | 5, 15 |
