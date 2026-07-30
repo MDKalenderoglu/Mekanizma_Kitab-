@@ -17,7 +17,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 6 | Neomorfik & antimorfik | `Bölüm_06_Neomorfik_Antimorfik.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 7 | Splicing | `Bölüm_07_Splicing.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 8 | CNV / yapısal varyantlar | `Bölüm_08_CNV_Yapisal_Varyantlar.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 6/6 |
-| 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 10/10 |
+| 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 13/13 |
 | 10 | İmprinting, UPD, epigenetik | `Bölüm_10_Imprinting_UPD_Epigenetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
 | 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 14/14 |
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 21/21 |
@@ -91,6 +91,9 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 33679328 | Schmitz ve ark. (2021) | Front Cell Neurosci | 10.3389/fncel.2021.637548 | C9orf72; GGGGCC genişlemesi; RNA foci; DPR/RAN translasyonu; üçlü mekanizma | 9 |
 | 34655747 | De Serres-Bérard ve ark. (2021) | Neurobiol Dis | 10.1016/j.nbd.2021.105532 | CDM1; büyük CUG tekrarlarının korteks gelişimine etkisi; metilasyon biyobelirteci | 9 |
 | 27895927 | Kraus-Perrotta &amp; Lagalwar (2016) | Cerebellum Ataxias | 10.1186/s40673-016-0058-y | SCA1 CAG genişleme mekanizması; MMR; CAT kesinti motifleri; somatik mozaiklik | 9 |
+| 22990145 | Losekoot ve ark. (2012) | Eur J Hum Genet | 10.1038/ejhg.2012.200 | Guideline (EMQN/CMGS HD; HTT CAG aralıkları — **ara allel 27–35** dahil; aile riski <%10; başlangıç yaşı varyansının ~%70'i) | 9 |
+| 22643181 | Kamsteeg ve ark. (2012) | Eur J Hum Genet | 10.1038/ejhg.2012.108 | Guideline (EMQN DM1/DM2; DMPK CTG aralıkları 5–35/36–50/51–150/>150; konjenital DM1 neredeyse yalnız maternal) | 9 |
+| 33795824 | Spector ve ark. (2021) | Genet Med | 10.1038/s41436-021-01115-y | Guideline (ACMG frajil X teknik standardı 2021; FMR1 CGG kategorileri) ⚠️ künye düzeyinde çapalandı, tam metin açık erişim değil | 9 |
 | 11253064 | Reik &amp; Walter (2001) | Nat Rev Genet | 10.1038/35047554 | Landmark (genomik imprinting; epigenetik işaret; ebeveyn-çatışması; büyüme geni asimetrisi) | 10 |
 | 22237428 | Cassidy ve ark. (2012) | Genet Med | 10.1038/gim.0b013e31822bead0 | Klinik/mekanizma (PWS alt-tip sıklıkları; metilasyon >%99; SNORD116) | 10 |
 | 17347796 | Lalande &amp; Calciano (2007) | Cell Mol Life Sci | 10.1007/s00018-007-6460-0 | Mekanizma (UBE3A maternal ifade; antisens susturma; AS alt-tipleri) | 10 |
