@@ -187,7 +187,7 @@ HD tipik olarak 30–50 yaşlarında başlar; ancak CAG tekrar sayısı >55–60
 
 ### Miyotonik Distrofi — Konjenital form: yenidoğan tuzağı
 
-Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG tekrar sayısı (genellikle >1000) miras alan yenidoğanlarda görülür. Ciddi hipotoni ("floppy infant"), solunum yetmezliği ve beslenme güçlükleriyle yoğun bakım başvurusuna yol açar. Annede bilinen DM1 yoksa (çünkü anne hafif etkilenmiş ve farkında olmayabilir), yenidoğanda açıklanamayan hipotoni varlığında anne değerlendirmesi ve DM1 PCR testi hayat kurtarabilir. CDM1, annenin miyotonisine bakılarak anlaşılabilecek bir durumdur (De Serres-Bérard ve ark., 2021; Chau ve Kalsotra, 2015).
+Konjenital DM1 (CDM1), neredeyse her zaman etkilenmiş anneden çok büyük CTG tekrar sayısı miras alan yenidoğanlarda görülür; bildirilen olgularda tekrar sayısı tipik olarak 1000'in üzerindedir. Bu sayı **tipik dağılımı** tarif eder — zorunlu bir eşik ya da tanı ölçütü değildir. Ciddi hipotoni ("floppy infant"), solunum yetmezliği ve beslenme güçlükleriyle yoğun bakım başvurusuna yol açar. Annede bilinen DM1 yoksa (çünkü anne hafif etkilenmiş ve farkında olmayabilir), yenidoğanda açıklanamayan hipotoni varlığında anne değerlendirmesi ve DM1 PCR testi hayat kurtarabilir. CDM1, annenin miyotonisine bakılarak anlaşılabilecek bir durumdur (De Serres-Bérard ve ark., 2021; Chau ve Kalsotra, 2015).
 
 ### Friedreich Ataksisi — En sık otozomal resesif ataksi
 
