@@ -42,7 +42,21 @@ Bu tablodan çıkan üç kavramsal sonuç, bölümün geri kalanını taşır.
 
 **Birincisi, VUS bir "ara tanı" değildir.** VUS, varyantın "biraz patojen" olduğunu söylemez; kanıtın henüz herhangi bir yöne karar verdirecek ağırlığa ulaşmadığını söyler. Bu nedenle VUS klinik karar için kullanılamaz — ama aynı nedenle **çözülebilir** bir durumdur: eksik olan şey varyantın doğası değil, veridir.
 
-**İkincisi, tek bir kriter nadiren yeter.** En güçlü kriter olan PVS1 bile tek başına patojenik sınıfa ulaştırmaz; yanına en az bir destekleyici kanıt gerekir. Bu, çerçevenin muhafazakârlığının kasıtlı bir özelliğidir.
+**İkincisi, tek bir kriter yetmez — ve bunun sayısal karşılığı sanıldığından katıdır.** Bayes türevi puan sisteminde kanıt ağırlıkları şöyledir: **Çok güçlü = 8, Güçlü = 4, Orta = 2, Destekleyici = 1** (benignlik için sırasıyla −4, −2, −1). Sınıf sınırları ise:
+
+| Toplam puan | Sınıf |
+|---:|---|
+| **≥10** | Patojenik |
+| 6–9 | Olası patojenik |
+| 0–5 | VUS |
+| −1 ila −5 | Olası benign |
+| ≤−6 | Benign |
+
+Buradan çıkan sonuç öğreticidir. **Çok güçlü** düzeyde uygulanan PVS1 **8 puandır** ve patojenik için gereken 10'a **ulaşmaz** — saf puan hesabında *olası patojenik* aralığında kalır. Sık yapılan hata, "yanına bir destekleyici kanıt eklenirse patojenik olur" varsayımıdır: bir destekleyici kriter yalnızca **+1** getirir, toplam **9** olur ve sınıf **hâlâ olası patojeniktir**. Patojenik sınıfa geçmek için **en az +2 puan** gerekir; bu da bir **orta** düzey kriterle ya da **iki bağımsız destekleyici** kriterle sağlanır.
+
+Bazı ulusal uygulama kılavuzları buna bir güvenlik kuralı daha ekler: BA1 istisnası dışında bir varyantı (olası) patojenik ya da (olası) benign sınıflamak için **en az iki bağımsız kanıt kriteri** aranır; dolayısıyla elinde yalnızca PVS1_ÇokGüçlü (8 puan) bulunan bir varyant, ikinci bir doğrulayıcı kanıt gelene kadar **VUS olarak tutulur** (ACGS, 2024).
+
+Son bir uyarı: **PVS1 her zaman 8 puan değildir.** ClinGen'in PVS1 karar ağacı, varyantın konumuna ve öngörülen sonucuna göre kriteri kademeli olarak düşürür — PVS1_Güçlü (4), PVS1_Orta (2), PVS1_Destekleyici (1). NMD'den kaçan, klinik olarak ilgisiz bir izoformu etkileyen ya da proteinin yalnızca küçük bir bölümünü kaybettiren varyantlarda tam güç uygulanamaz (Abou Tayoun ve ark., 2018; §3). Kriterin **adı** aynı kalırken **ağırlığı** değişir — ve sınıfı belirleyen ağırlıktır.
 
 **Üçüncüsü ve bu bölümün asıl konusu: her kriterin uygulanabilirliği ve gücü, mekanizmaya bağlıdır.** Kriterin adı sabittir; anlamı değildir.
 
@@ -394,6 +408,8 @@ flowchart TD
 24. **Brunklaus A, Du J, Steckler F, ve ark. (2020).** Biological concepts in human sodium channel epilepsies and their relevance in clinical practice. *Epilepsia* 61(3):387–399. **PMID: 32090326** · DOI: [10.1111/epi.16438](https://doi.org/10.1111/epi.16438) — *Kullanım amacı: Mekanizma yönünün tedavi kararına çevrilmesi. Kaynak kütüğünden yeniden kullanılmıştır.*
 
 25. **Lek M, Karczewski KJ, Minikel EV, ve ark. (2016).** Analysis of protein-coding genetic variation in 60,706 humans. *Nature* 536(7616):285–291. **PMID: 27535533** · DOI: [10.1038/nature19057](https://doi.org/10.1038/nature19057) — *Kullanım amacı: **pLI** metriğinin tanımlandığı çalışma (ExAC); PM2'nin kısıtlılık bağlamında yorumlanması. Kaynak kütüğünden yeniden kullanılmıştır.*
+
+> **Kılavuz belgesi (§1).** **Association for Clinical Genomic Science (ACGS) (2024).** *ACGS Best Practice Guidelines for Variant Classification in Rare Disease*, v1.2; 2024. [Belge (PDF)](https://www.genomicseducation.hee.nhs.uk/wp-content/uploads/2024/08/ACGS-2024_UK-practice-guidelines-for-variant-classification.pdf) — *Kullanım amacı: Bayes türevi kanıt puanları (Çok güçlü 8 · Güçlü 4 · Orta 2 · Destekleyici 1) ve sınıf eşikleri (≥10 · 6–9 · 0–5 · −1…−5 · ≤−6); BA1 istisnası dışında **en az iki bağımsız kriter** kuralı ve yalnızca PVS1_ÇokGüçlü bulunan varyantın ikinci kanıt gelene kadar VUS tutulması.* ⚠️ PubMed'de indekslenmeyen, sürüme bağlı normatif bir belgedir; alıntılanan puan ve eşikler belge metniyle birebir eşleştirilmiştir (29.07.2026).
 
 > **İkincil/destekleyici kaynak notu:** ClinVar, ClinGen VCEP spesifikasyonları, gnomAD ve OMIM bu bölümde yalnızca destekleyici/başvuru kaynağı olarak anılmıştır. Puan eşikleri ve olasılık aralıkları, ilgili yöntem makalelerinde tanımlanan değerlerdir; gerçek olgularda ilgili uzman panel spesifikasyonu esas alınmalıdır.
 
