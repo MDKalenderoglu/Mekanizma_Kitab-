@@ -25,7 +25,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 14 | Digenik / oligogenik / modifier | `Bölüm_14_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 22/22 |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 2 Mermaid | 25/25 |
-| 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 20/20 |
+| 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
 | — | **Final pass** (birleştirme/standardizasyon) | `Önsöz.md` + `build_book.py` | ✅ Tamam | — | 114 (toplu kaynakça) |
 
 Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
@@ -169,6 +169,10 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 34758253 | Smedley ve ark. (2021) | N Engl J Med | 10.1056/NEJMoa2035790 | Klinik (100.000 Genom pilotu; %25 tanı; kodlamayan/SV/mito payı) | 17 |
 | 33264411 | Köhler ve ark. (2021) | Nucleic Acids Res | 10.1093/nar/gkaa1043 | Metodoloji (HPO; derin fenotipleme standardı) | 17 |
 | 28424332 | Cummings ve ark. (2017) | Sci Transl Med | 10.1126/scitranslmed.aal5209 | Klinik/metodoloji (kas RNA-seq; %35 tanı; derin intronik splice) | 17 |
+| 41084864 | Hayeems ve ark. (2025) | Genet Med | 10.1016/j.gim.2025.101605 | Randomize (ES %33,8 vs GS %33,6; n=1.048) — "GS her zaman daha çok tanı koyar" beklentisinin düzeltilmesi | 17 |
+| 40963120 | Kaschta ve ark. (2025) | Genome Med | 10.1186/s13073-025-01516-7 | Prospektif (standart bakım/tek birey GS/trio GS; trio'nun katkısı deneyimi az ekipte belirgin) | 17 |
+| 34791078 | Hiz Kurul ve ark. (2022) | Brain | 10.1093/brain/awab395 | Türkiye akraba kohortu (%72→%86; %82 homozigot; panelin kaçıracağı %52; en yüksek akrabalıkta getiri düşüyor) | 17 |
+| 34211152 | Manickam ve ark. (2021) | Genet Med | 10.1038/s41436-021-01242-6 | Guideline (ACMG: CA/DD/ID'de ES/GS birinci ya da ikinci basamak) | 17 |
 
 ### 2.1 Kılavuz belgeleri (PubMed'de indekslenmeyen normatif kaynaklar)
 
