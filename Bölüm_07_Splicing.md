@@ -66,18 +66,33 @@ Splicing'in en önemli klinik dersi, varyant sınıflamasındaki iki yaygın yan
 
 ## 3. Varyant tipleri
 
-**Tablo 7.2 — Varyantın yerine göre tipik splicing sonuçları**
+Splice varyantlarını okurken **iki ayrı basamağı** karıştırmamak gerekir. Birinci basamak, varyantın konumundan **hangi RNA sonucunun** doğabileceğidir. İkinci basamak, o RNA sonucunun **protein düzeyinde ne anlama geldiğidir**. Aşağıdaki iki tablo bu iki basamağı ayrı ayrı verir; birleştirildiğinde yorum hatası kaçınılmaz olur.
 
-| Varyant tipi (yer) | Tipik splicing sonucu | Notlar / ilgili bölüm |
+**Tablo 7.2 — Varyantın konumuna göre olası splicing sonuçları**
+
+| Varyant konumu / mekanizması | Olası splicing sonuçları | Klinik yorum notu |
 |---|---|---|
-| **Kanonik ±1/±2 (GT…AG)** | Ekzon atlama veya intron tutulması | En öngörülebilir; PVS1 (splice) zemini (§6) |
-| **Splice bölgesi ±3…±6** | Değişken; zayıflamış tanıma | Öngörü + RNA kanıtı gerekir |
-| **Dallanma noktası / polipirimidin** | Ekzon atlama (çoğunlukla) | İntronik ama kritik |
-| **Ekzonik ESE/ESS (sessiz veya missense)** | Ekzon atlama (örn. SMN2 ekzon 7) | "Sessiz patojen"; missense'in ikinci yüzü |
-| **Derin intronik** | Sözde-ekzon eklenmesi / kriptik bölge | Standart panelde gözden kaçar; WGS + SpliceAI |
-| **Çerçeveye etki** | Out-of-frame → NMD/LoF · in-frame → DN/GoF olabilir | §2.1; Bölüm 2, 5, 6 |
+| **Kanonik bölge — donor `+1/+2`, acceptor `−2/−1`** | Tam veya kısmi ekzon atlama; tam/kısmi intron tutulması; kriptik donor ya da acceptor kullanımı; intronik dizinin bir kısmının ekzona eklenmesi; birden çok anormal transkriptin bir arada oluşması | LoF mekanizması ve öngörülen transkript sonucu uygunsa PVS1 karar ağacı uygulanır — **kanonik konum tek başına otomatik PVS1 değildir** (§6) |
+| **Uzatılmış donor bölgesi (özellikle `+3…+6`)** | Doğal donorun zayıflaması → ekzon atlama, intron tutulması veya kriptik donor kullanımı | Kalibre edilmiş öngörü aracı gerekir; RNA analizi burada özellikle sınıflandırıcı olabilir |
+| **Uzatılmış acceptor bölgesi (`−3`, polipirimidin traktı, AG-dışlama bölgesi)** | Ekzon atlama, intron tutulması, yeni ya da kriptik acceptor kullanımı | ⚠️ Donor tarafıyla simetrik bir "`−3…−6`" modeli **kullanılamaz**; acceptor tanınması daha geniş bir intronik bağlama dayanır |
+| **Dallanma noktası (branchpoint)** | Ekzon atlama, tam/kısmi intron tutulması, alternatif branchpoint kullanımı, kriptik acceptor aktivasyonu | Bir intronda **birden çok** branchpoint bulunabilir; tahmin belirsizliği yüksektir, kritiklik varyant bazında doğrulanmalıdır |
+| **Ekzonik düzenleyici eleman (ESE/ESS) veya yeni splice bölgesi oluşumu** | Ekzon tanınmasının **azalması ya da artması**; tam/kısmi ekzon atlama; intron tutulması | Varyant sinonim ya da missense olabilir; **protein etkisi ile splice etkisi ayrı ayrı** değerlendirilmelidir |
+| **Derin intronik** | Pseudoekzon (sözde-ekzon) inklüzyonu, kriptik splice bölgesi aktivasyonu, kısmi/tam intron tutulması, doğal ekzonun atlanması | WES ve hedefli paneller yakalama tasarımına bağlı olarak kaçırır; WGS + öngörü aracı **adayı bulur**, patojen RNA sonucu tercihen ilgili dokuda RNA analiziyle doğrulanır |
 
-Bu tablonun pratik özeti: bir splice varyantının **konumu** (kanonik mi, ESE mi, derin intronik mi) olası sonucu, **çerçeveye etkisi** ise mekanizma sınıfını (LoF vs DN/GoF) belirler. İkisi birlikte değerlendirilmeden ne şiddet ne de yorum kestirilebilir.
+Tabloyu okurken üç noktaya dikkat edin. **Birincisi, konum sonucu belirlemez.** Kanonik bir splice varyantı sıklıkla ekzon atlamaya yol açar, ama RNA sonucu varyantın konumundan tek başına kestirilemez — yukarıdaki altı sonucun herhangi biri ortaya çıkabilir. **İkincisi, ESE ve ESS zıt yönde çalışır**: bir ESE'nin bozulması ekzon tanınmasını azaltıp atlamayı artırırken, bir ESS'nin bozulması baskıyı kaldırıp **inklüzyonu artırabilir**; ikisini tek bir "ekzon atlama" satırına indirgemek yanlıştır. **Üçüncüsü, öngörü aracı sonucu değil adayı verir**: bir SpliceAI skoru hangi anormal transkriptin oluşacağını ya da anormal transkriptin oranını göstermez.
+
+> **🔬 Deep-dive — *SMN2* ekzon 7 örneği neyi gösterir, neyi göstermez?** *SMN1* ile *SMN2* arasındaki ekzon 7'deki `C>T` farkı, translasyon açısından **sinonimdir** ve ekzon 7'nin inklüzyonunu azaltır; mekanizma ESE kaybı ve/veya ESS oluşumu modelleriyle açıklanır. Bu, dizilim değiştirmeden splicing bozulabileceğinin en öğretici örneğidir. Ancak örneği doğru çerçevelemek gerekir: bu, bir hastada saptanmış klasik bir "patojen sinonim varyant" değil, **paralog-spesifik alternatif splicing düzenlenmesi** örneğidir. Terminoloji notu: bu tür değişiklikler için "sessiz patojen" ifadesi yerine **splice-değiştirici sinonim varyant** demek daha doğrudur — "sessiz" sözcüğü tam da yanlış olan şeyi ima eder.
+
+**Tablo 7.3 — Anormal transkriptin protein düzeyindeki sonucu**
+
+| RNA sonucu | Olası moleküler sonuç |
+|---|---|
+| **Çerçeve dışı (out-of-frame)** | PTC oluşabilir → NMD; ya da NMD'den kaçan kesilmiş protein, hipomorfik etki, nadiren DN/GoF |
+| **Çerçeve içi (in-frame) ekzon/dizi kaybı** | LoF, hipomorfik etki, DN, GoF **veya klinik olarak önemsiz** sonuç |
+| **Çerçeve içi intronik ekleme** | Yeni amino asitler; protein kararsızlığı, domain bozukluğu ya da yeni işlev |
+| **Normal transkriptin kısmen korunması** | Etki, anormal/normal transkript **oranına** bağlıdır; hipomorfik fenotip olasıdır |
+
+⚠️ Bu ikinci tablonun en sık ihlal edilen kuralı şudur: **çerçeve içi sonuç otomatik olarak DN/GoF demek değildir.** İşlevsel bir domainin kaybı ya da protein kararsızlığı nedeniyle çerçeve içi bir delesyon pekâlâ basit LoF da üretebilir. Aynı biçimde çerçeve dışı sonuç da otomatik "tam null" değildir — NMD'den kaçış, kesilmiş proteinin kaderi ve kalan normal transkript oranı birlikte değerlendirilmelidir (Bölüm 2 §2).
 
 ---
 
@@ -113,7 +128,7 @@ flowchart TD
 
 Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama splicing etkisini RNA gösterir.** Kanonik splice varyantları WES/WGS ile yakalanır; ancak **derin intronik** varyantlar yalnız WGS ile görülür (WES intronları kapsamaz). Burada bir basamak daha vardır: kısa okuma WGS intronları kapsasa da, tekrar bakımından zengin bölgelerdeki, yapısal olaylara gömülü veya karmaşık splice-bozucu lezyonları kaçırabilir; bu durumlarda **uzun okuma WGS** hem varyantı hem de onun bulunduğu haplotipi daha güvenilir gösterir. Etkinin *kanıtı* için ise RNA-seq veya hedefe yönelik cDNA/RT-PCR gerekir — bu, splice yorumunda RNA kanıtının (PVS1_Strength / BP7) neden bu kadar değerli olduğunu açıklar (§6).
 
-**Tablo 7.3 — Splicing kusurlarını hangi test yakalar?**
+**Tablo 7.4 — Splicing kusurlarını hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -221,7 +236,7 @@ flowchart TD
 1. **Scotti MM, Swanson MS (2016).** RNA mis-splicing in disease. *Nature Reviews Genetics* 17(1):19–32. **PMID: 26593421** · DOI: [10.1038/nrg.2015.3](https://doi.org/10.1038/nrg.2015.3) — *Kullanım amacı: Splicing mekanizması ve mis-splicing hastalıklarının landmark derlemesi; sinyallerin varyantlara duyarlılığı.*
 2. **Jaganathan K, Kyriazopoulou Panagiotopoulou S, McRae JF, ve ark. (2019).** Predicting Splicing from Primary Sequence with Deep Learning. *Cell* 176(3):535–548.e24. **PMID: 30661751** · DOI: [10.1016/j.cell.2018.12.015](https://doi.org/10.1016/j.cell.2018.12.015) — *Kullanım amacı: SpliceAI; sessiz/derin intronik kriptik splice varyantlarının öngörüsü ve patojen varyantların ~%9–11'ini oluşturması.*
 3. **Walker LC, de la Hoya M, Wiggins GAR, ve ark. (2023).** Using the ACMG/AMP framework to capture evidence related to predicted and observed impact on splicing: Recommendations from the ClinGen SVI Splicing Subgroup. *American Journal of Human Genetics* 110(7):1046–1067. **PMID: 37352859** · DOI: [10.1016/j.ajhg.2023.06.002](https://doi.org/10.1016/j.ajhg.2023.06.002) — *Kullanım amacı: Splice varyantlarında ACMG kodlarının (PVS1/PS3/PP3/BP4/BP7/PS1) uygulanması; RNA kanıtının ağırlıklandırılması.*
-4. **Lorson CL, Hahnen E, Androphy EJ, Wirth B (1999).** A single nucleotide in the SMN gene regulates splicing and is responsible for spinal muscular atrophy. *Proceedings of the National Academy of Sciences USA* 96(11):6307–6311. **PMID: 10339583** · DOI: [10.1073/pnas.96.11.6307](https://doi.org/10.1073/pnas.96.11.6307) — *Kullanım amacı: SMN2 ekzon 7 sessiz C>T → ESE zayıflaması → ekzon atlama → SMA; "sessiz patojen" ve mekanizma-hedefli tedavi temeli.*
+4. **Lorson CL, Hahnen E, Androphy EJ, Wirth B (1999).** A single nucleotide in the SMN gene regulates splicing and is responsible for spinal muscular atrophy. *Proceedings of the National Academy of Sciences USA* 96(11):6307–6311. **PMID: 10339583** · DOI: [10.1073/pnas.96.11.6307](https://doi.org/10.1073/pnas.96.11.6307) — *Kullanım amacı: SMN2 ekzon 7 sessiz C>T → ESE zayıflaması → ekzon atlama → SMA; splice-değiştirici sinonim varyant kavramı ve mekanizma-hedefli tedavi temeli.*
 5. **Abou Tayoun AN, Pesaran T, DiStefano MT, ve ark. (2018).** Recommendations for interpreting the loss of function PVS1 ACMG/AMP variant criterion. *Human Mutation* 39(11):1517–1524. **PMID: 30192042** · DOI: [10.1002/humu.23626](https://doi.org/10.1002/humu.23626) — *Kullanım amacı: Kanonik splice varyantlarında PVS1'in koşullu uygulanması (karar ağacı).*
 6. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: ACMG kriter çerçevesi; splice ile ilişkili altı kod.*
 7. **Khajavi M, Inoue K, Lupski JR (2006).** Nonsense-mediated mRNA decay modulates clinical outcome of genetic disease. *European Journal of Human Genetics* 14(10):1074–1081. **PMID: 16757948** · DOI: [10.1038/sj.ejhg.5201649](https://doi.org/10.1038/sj.ejhg.5201649) — *Kullanım amacı: Çerçeve kaydıran splice sonuçlarının NMD ile LoF'a dönüşmesi.*
@@ -232,7 +247,7 @@ flowchart TD
 
 ## ✅ Bölüm öz-denetim tablosu
 
-**Tablo 7.4 — Bölüm 7 öz-denetim tablosu**
+**Tablo 7.5 — Bölüm 7 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|
@@ -253,3 +268,5 @@ flowchart TD
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
 > **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddia: gen-spesifik PVS1 karar ağaçları ve mekanizma etiketleri için güncel VCEP/ClinGen teyidi önerilir (§6, §7.2). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** (PS3 değil PVS1_Strength) Walker ve ark. 2023 özetiyle karşılaştırılarak düzeltilmiştir (bkz. `Dogrulama_Kutugu.md`).
+>
+> **Uzman değerlendirmesi turu (29.07.2026) — §3 varyant tipi tablosu yeniden kuruldu.** Uzman, tablonun **hiçbir satırının mevcut biçimiyle güvenli olmadığını** belirtti; altı düzeltme yapıldı. *(1)* "Kanonik ±1/±2" kısaltması **donor `+1/+2` ve acceptor `−2/−1`** olarak ayrıldı ve olası RNA sonuçları altıya çıkarıldı (tam/kısmi ekzon atlama, tam/kısmi intron tutulması, kriptik donor/acceptor kullanımı, intronik dizinin ekzona eklenmesi, birden çok anormal transkript) — **konum sonucu belirlemez**. *(2)* "Splice bölgesi ±3…±6" satırı **hatalıydı**: bu aralık donor tarafı için anlamlıdır, acceptor tarafı simetrik değildir (`−3`, polipirimidin traktı, AG-dışlama bölgesi ve daha geniş intronik bağlam); satır ikiye ayrıldı. *(3)* **ESE ile ESS aynı yönde gösteriliyordu** — oysa ESE bozulması ekzon atlamayı artırırken **ESS bozulması inklüzyonu artırır**; satır iki yönlü yazıldı. *(4)* Dallanma noktası satırı genişletildi (alternatif branchpoint kullanımı, kriptik acceptor aktivasyonu; bir intronda birden çok branchpoint bulunabilir). *(5)* Derin intronik satırı yalnız pseudoekzonla sınırlıydı; kriptik bölge aktivasyonu, kısmi/tam intron tutulması ve doğal ekzon atlaması eklendi, ayrıca **öngörü aracının sonucu değil adayı verdiği** yazıldı. *(6)* "Çerçeveye etki" satırı bu tablodan **çıkarıldı** — çünkü çerçeve, varyantın *yeri* değil oluşan RNA ürününün protein düzeyindeki *sonucudur*; ayrı bir **Tablo 7.3** olarak kuruldu ve "in-frame → DN/GoF" kestirmesi düzeltildi (çerçeve içi kayıp basit LoF da yapabilir; çerçeve dışı sonuç da otomatik tam null değildir). Ayrıca *SMN2* örneği bir deep-dive'a taşınarak **paralog-spesifik alternatif splicing düzenlenmesi** olduğu netleştirildi ve **"sessiz patojen" terimi terk edilip "splice-değiştirici sinonim varyant"** kullanıldı. Tablo numaraları buna göre kaydırıldı (eski 7.3 → 7.4, eski 7.4 → 7.5).
