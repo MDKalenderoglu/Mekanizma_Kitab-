@@ -1,60 +1,90 @@
-<svg viewBox="0 0 940 500" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="940" height="500" fill="#ffffff"/>
-  <text x="470" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 3.4 — Dozaj Duyarlılığı Spektrumu ve Onu Ölçen Metrikler</text>
-  <text x="470" y="52" text-anchor="middle" font-size="12" fill="#555">Genler, tek kopya kaybına dayanıklılık açısından bir yelpazede dizilir; popülasyon metrikleri bu yeri öngörür.</text>
-
-  <!-- spectrum bar -->
+<svg viewBox="0 0 1120 762" width="1120" height="762" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="762" fill="#ffffff"/>
   <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#27ae60"/>
-      <stop offset="50%" stop-color="#e67e22"/>
-      <stop offset="100%" stop-color="#c0392b"/>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+    <linearGradient id="lossGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="52%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+    <linearGradient id="gainGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
     </linearGradient>
   </defs>
-  <rect x="90" y="110" width="760" height="34" rx="6" fill="url(#grad)"/>
-  <text x="100" y="133" font-size="12" font-weight="700" fill="#ffffff">Tampona dayanıklı (resesif)</text>
-  <text x="840" y="133" text-anchor="end" font-size="12" font-weight="700" fill="#ffffff">Doz-duyarlı (haploinsufficient)</text>
-  <polygon points="855,127 875,118 875,136" fill="#c0392b"/>
 
-  <!-- gene class labels under bar -->
-  <text x="170" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#1e8449">Çoğu enzim</text>
-  <text x="170" y="188" text-anchor="middle" font-size="9.5" fill="#666">yüksek rezerv; %50 yeter</text>
+  <text x="560" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 3.4 — Tek kopya kaybına duyarlılık spektrumu ve onu değerlendiren kanıt katmanları</text>
+  <text x="560" y="56" text-anchor="middle" font-size="11.5" fill="#475569">Genler heterozigot tek-kopya kaybına tolerans bakımından sürekli bir dağılım gösterir; ancak aşağıdaki göstergeler aynı şeyi ölçmez ve birbirine dönüştürülemez.</text>
 
-  <text x="470" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#b9770e">Reseptör / taşıyıcı</text>
-  <text x="470" y="188" text-anchor="middle" font-size="9.5" fill="#666">ara duyarlılık</text>
+  <rect x="48" y="82" width="26" height="26" rx="7" fill="#1A2B4A"/>
+  <text x="61" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">A</text>
+  <text x="84" y="101" font-size="13.5" font-weight="700" fill="#1A2B4A">Tek kopya KAYBINA duyarlılık spektrumu</text>
 
-  <text x="770" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#c0392b">TF, kromatin, yapısal,</text>
-  <text x="770" y="186" text-anchor="middle" font-size="11" font-weight="700" fill="#c0392b">gelişim genleri</text>
-  <text x="770" y="200" text-anchor="middle" font-size="9.5" fill="#666">stokiyometri/eşik bağımlı</text>
+  <rect x="60" y="120" width="1000" height="38" rx="9" fill="url(#lossGrad)"/>
+  <text x="78" y="144" font-size="11.5" font-weight="700" fill="#ffffff">Heterozigot tek-kopya kaybına görece toleranslı</text>
+  <text x="1042" y="144" text-anchor="end" font-size="11.5" font-weight="700" fill="#ffffff">Heterozigot tek-kopya kaybına duyarlı / HI ile uyumlu</text>
 
-  <!-- metrics table region -->
-  <text x="90" y="245" font-size="13" font-weight="700" fill="#1a2b4a">Bu yeri öngören popülasyon metrikleri:</text>
+  <text x="60" y="180" font-size="10.5" fill="#475569">Gen sınıfları bu eksende sabit bir yer tutmaz, yalnız olasılıksal zenginleşme gösterir: bazı transkripsiyon faktörleri, kromatin düzenleyicileri ve gelişimsel düzenleyiciler</text>
+  <text x="60" y="196" font-size="10.5" fill="#475569">HI genleri arasında zenginleşir. Gen sınıfı tek başına ne doz duyarlılığını ne hastalık mekanizmasını belirler — yapısal proteinlerde ağır dominant fenotip çoğu zaman</text>
+  <text x="60" y="212" font-size="10.5" fill="#475569">haploinsufficiency'den değil <tspan font-weight="700" fill="#B91C1C">dominant-negatif etkiden</tspan> kaynaklanır (Bölüm 5); yüksek katalitik rezervli enzimlerde tek kopya sıklıkla yeterlidir, ama bu da kural değildir.</text>
 
-  <!-- pLI -->
-  <rect x="90" y="260" width="240" height="92" rx="8" fill="#f8fbfe" stroke="#2980b9"/>
-  <text x="105" y="282" font-size="13" font-weight="700" fill="#2471a3">pLI</text>
-  <text x="105" y="302" font-size="10.5" fill="#444">LoF intoleransı olasılığı (0–1).</text>
-  <text x="105" y="320" font-size="10.5" fill="#444">pLI ≥ 0,9 → güçlü HI ipucu.</text>
-  <text x="105" y="342" font-size="10" fill="#888">(Karczewski ve ark., 2020)</text>
+  <rect x="48" y="234" width="26" height="26" rx="7" fill="#1A2B4A"/>
+  <text x="61" y="252" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">B</text>
+  <text x="84" y="253" font-size="13.5" font-weight="700" fill="#1A2B4A">Aynı soruyu farklı açılardan yanıtlayan üç kanıt katmanı</text>
 
-  <!-- LOEUF -->
-  <rect x="350" y="260" width="240" height="92" rx="8" fill="#f8fbfe" stroke="#2980b9"/>
-  <text x="365" y="282" font-size="13" font-weight="700" fill="#2471a3">LOEUF</text>
-  <text x="365" y="302" font-size="10.5" fill="#444">Gözlenen/beklenen LoF üst</text>
-  <text x="365" y="318" font-size="10.5" fill="#444">güven sınırı. DÜŞÜK → intoleran.</text>
-  <text x="365" y="342" font-size="10" fill="#888">sürekli ölçek; pLI'den ayrıntılı</text>
+  <rect x="60" y="270" width="320" height="164" rx="11" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="78" y="294" font-size="11.5" font-weight="700" fill="#1D4ED8">1 · Popülasyonel pLoF constraint</text>
+  <text x="78" y="316" font-size="11" font-weight="700" fill="#1A2B4A">LOEUF</text>
+  <text x="78" y="332" font-size="10.5" fill="#2E3440">gözlenen/beklenen pLoF üst güven sınırı;</text>
+  <text x="78" y="347" font-size="10.5" fill="#2E3440">DÜŞÜK = popülasyonda daha güçlü heterozigot</text>
+  <text x="78" y="362" font-size="10.5" fill="#2E3440">pLoF azalması. Sürekli okunur.</text>
+  <text x="78" y="384" font-size="11" font-weight="700" fill="#1A2B4A">pLI ≥ 0,9</text>
+  <text x="78" y="400" font-size="10.5" fill="#2E3440">aynı veri ailesinin eski ve kategorik biçimi;</text>
+  <text x="78" y="415" font-size="10.5" fill="#2E3440">güçlü constraint sinyali — HI kanıtı değil.</text>
+  <text x="366" y="428" text-anchor="end" font-size="9.5" fill="#64748B">Lek 2016 · Karczewski 2020</text>
 
-  <!-- pHaplo -->
-  <rect x="610" y="260" width="240" height="92" rx="8" fill="#fdf2f2" stroke="#c0392b"/>
-  <text x="625" y="282" font-size="13" font-weight="700" fill="#c0392b">pHaplo</text>
-  <text x="625" y="302" font-size="10.5" fill="#444">Delesyon-intoleransı olasılığı</text>
-  <text x="625" y="318" font-size="10.5" fill="#444">(CNV temelli). ≥0,86 → HI.</text>
-  <text x="625" y="342" font-size="10" fill="#888">(Collins ve ark., 2022)</text>
+  <rect x="400" y="270" width="320" height="164" rx="11" fill="#FFFBF3" stroke="#D97706" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="418" y="294" font-size="11.5" font-weight="700" fill="#B45309">2 · Model-temelli delesyon duyarlılığı</text>
+  <text x="418" y="316" font-size="11" font-weight="700" fill="#1A2B4A">pHaplo ≥ 0,86</text>
+  <text x="418" y="332" font-size="10.5" fill="#2E3440">geniş CNV veri setlerinden türetilmiş yüksek</text>
+  <text x="418" y="347" font-size="10.5" fill="#2E3440">tahmini delesyon duyarlılığı; klinik kürasyonun</text>
+  <text x="418" y="362" font-size="10.5" fill="#2E3440">yerine geçmez.</text>
+  <text x="418" y="384" font-size="11" font-weight="700" fill="#1A2B4A">HI-indeksi</text>
+  <text x="418" y="400" font-size="10.5" fill="#2E3440">tarihsel model. Dikkat: DECIPHER yüzdeliğinde</text>
+  <text x="418" y="415" font-size="10.5" font-weight="700" fill="#B45309">DÜŞÜK yüzde = daha yüksek HI olasılığı (ters yön).</text>
+  <text x="706" y="428" text-anchor="end" font-size="9.5" fill="#64748B">Huang 2010 · Collins 2022</text>
 
-  <!-- caution -->
-  <rect x="90" y="372" width="760" height="100" rx="10" fill="#fef9e7" stroke="#e67e22"/>
-  <text x="108" y="396" font-size="12" font-weight="700" fill="#b9770e">⚠ Metrikleri doğru okumak:</text>
-  <text x="108" y="418" font-size="11" fill="#444">• Yüksek pLI / düşük LOEUF / yüksek pHaplo → gen büyük olasılıkla HI; "tek allel kaybı patojen olabilir" hipotezini güçlendirir.</text>
-  <text x="108" y="438" font-size="11" fill="#444">• Resesif LoF genleri (her iki allel gerekir) genelde "tolerant" görünür — metrik HI'ı dışlamaz, yalnızca önceliklendirir.</text>
-  <text x="108" y="458" font-size="11" font-weight="700" fill="#c0392b">• Metrik GEN düzeyinde ipucudur; tek bir varyantın patojenitesini tek başına KANITLAMAZ.</text>
+  <rect x="740" y="270" width="320" height="164" rx="11" fill="#F1F5F9" stroke="#1A2B4A" stroke-width="1.2" filter="url(#sh)"/>
+  <text x="758" y="294" font-size="11.5" font-weight="700" fill="#1A2B4A">3 · Klinik kürasyon (en güçlü katman)</text>
+  <text x="758" y="316" font-size="11" font-weight="700" fill="#1A2B4A">ClinGen dozaj duyarlılığı HI skoru</text>
+  <text x="758" y="332" font-size="10.5" fill="#2E3440">gen ya da bölge için klinik ve deneysel kanıtın</text>
+  <text x="758" y="347" font-size="10.5" fill="#2E3440">uzman değerlendirmesi — tahmin değil.</text>
+  <text x="758" y="369" font-size="11" font-weight="700" fill="#1A2B4A">Yanında sorulacak iki soru</text>
+  <text x="758" y="385" font-size="10.5" fill="#2E3440">gen–hastalık ilişkisi geçerli mi? İşlev kaybı bu</text>
+  <text x="758" y="400" font-size="10.5" fill="#2E3440">hastalık için yerleşik mekanizma mı?</text>
+  <text x="758" y="415" font-size="10.5" fill="#2E3440">PVS1 kapısını yalnız bu katman ilgilendirir.</text>
+  <text x="1046" y="428" text-anchor="end" font-size="9.5" fill="#64748B">Riggs 2020</text>
+
+  <rect x="48" y="456" width="26" height="26" rx="7" fill="#1A2B4A"/>
+  <text x="61" y="474" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">C</text>
+  <text x="84" y="475" font-size="13.5" font-weight="700" fill="#1A2B4A">Kopya ARTIŞINA duyarlılık — aynı çizginin devamı değil, ayrı bir eksendir</text>
+
+  <rect x="60" y="492" width="1000" height="34" rx="9" fill="url(#gainGrad)"/>
+  <text x="78" y="514" font-size="11.5" font-weight="700" fill="#ffffff">Duplikasyona toleranslı</text>
+  <text x="1042" y="514" text-anchor="end" font-size="11.5" font-weight="700" fill="#ffffff">Kopya artışına duyarlı (triplosensitive)</text>
+
+  <text x="60" y="548" font-size="10.5" fill="#475569"><tspan font-weight="700" fill="#1A2B4A">pTriplo ≥ 0,94</tspan> ve <tspan font-weight="700" fill="#1A2B4A">ClinGen TS skoru</tspan> bu ekseni değerlendirir. pHaplo ile pTriplo aynı çalışmanın iki <tspan font-weight="700">ayrı</tspan> çıktısıdır: bir gen kayba duyarlı olup artışa</text>
+  <text x="60" y="564" font-size="10.5" fill="#475569">toleranslı olabilir, tersi de mümkündür. ClinGen haploinsufficiency ve triplosensitivity'yi birbirinden bağımsız olarak kürate eder.</text>
+
+  <rect x="60" y="588" width="1000" height="116" rx="11" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.2"/>
+  <text x="80" y="612" font-size="12" font-weight="700" fill="#B91C1C">⚠ Bu göstergeleri doğru okumak</text>
+  <text x="80" y="634" font-size="10.8" fill="#2E3440">• Yüksek pLI, düşük LOEUF ve yüksek pHaplo <tspan font-weight="700">kısmen örtüşen</tspan> göstergelerdir; HI hipotezini destekler, hiçbiri klinik olarak kanıtlanmış HI mekanizması anlamına gelmez.</text>
+  <text x="80" y="654" font-size="10.8" fill="#2E3440">• Bialelik LoF ile hastalık yapan genler heterozigot pLoF constraint göstermeyebilir; düşük constraint <tspan font-weight="700">resesif mekanizmayı da genin klinik önemini de dışlamaz.</tspan></text>
+  <text x="80" y="674" font-size="10.8" fill="#2E3440">• Üç katman aynı şeyi ölçmez ve birbirine dönüştürülemez: biri popülasyon ölçümü, biri model tahmini, biri uzman kürasyonudur.</text>
+  <text x="80" y="694" font-size="10.8" font-weight="700" fill="#B91C1C">• Bu göstergeler GEN düzeyinde bağlamsal ipucudur; tek bir varyantın patojenitesini tek başına KANITLAMAZ.</text>
+
+  <text x="560" y="730" text-anchor="middle" font-size="11.5" font-style="italic" fill="#1A2B4A">Öğreti: Constraint verisi size hangi genin ilginç olduğunu söyler; hangi mekanizmanın işlediğini ve hangi varyantın patojen olduğunu söylemez.</text>
+  <text x="1060" y="752" text-anchor="end" font-size="9.5" fill="#64748B">Kaynaklar: Huang ve ark. (2010) · Lek ve ark. (2016) · Karczewski ve ark. (2020) · Riggs ve ark. (2020) · Collins ve ark. (2022)</text>
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 706" width="1120" height="706" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
   <rect x="0" y="0" width="1120" height="706" fill="#ffffff"/>
-  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 16.3 — Mekanizma → kriter matrisi: kitabın on dört bölümü tek tabloda</text>
-  <text x="32" y="56" font-size="11.5" fill="#64748B">Aynı ACMG kriteri her mekanizmada aynı şeyi ifade etmez. Bu matris, mekanizma bilgisinin hangi kriteri açtığını, hangisini zayıflattığını ve hangisini geçersiz kıldığını özetler.</text>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 16.3 — Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez · NORMATİF DEĞİLDİR)</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Aynı ACMG kriteri her mekanizmada aynı şeyi ifade etmez. Semboller kriter gücü veya ACMG puanı göstermez; hangi kanıt alanının sorgulanacağını gösterir. İşaret = kriter kazanıldı değildir.</text>
   <rect x="32" y="76" width="270" height="40" rx="8" fill="#1A2B4A"/>
   <text x="48" y="101" font-size="11" font-weight="700" fill="#ffffff">MEKANİZMA (bölüm)</text>
   <rect x="304" y="76" width="94" height="40" rx="8" fill="#1A2B4A"/>
@@ -276,10 +276,10 @@
   <text x="352.0" y="626" font-size="10" fill="#2E3440">gücü DÜŞÜRÜLMELİ</text>
   <rect x="525.6" y="611" width="30" height="20" rx="6" fill="#E2E8F0" stroke="#475569" stroke-width="0.9"/>
   <text x="540.6" y="626" font-size="11" font-weight="700" fill="#475569" text-anchor="middle">✖</text>
-  <text x="563.6" y="626" font-size="10" fill="#2E3440">UYGULANAMAZ</text>
+  <text x="563.6" y="626" font-size="10" fill="#2E3440">genellikle UYGULANMAZ</text>
   <rect x="653.2" y="611" width="30" height="20" rx="6" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="0.9"/>
   <text x="668.2" y="626" font-size="11" font-weight="700" fill="#1D4ED8" text-anchor="middle">◆</text>
-  <text x="691.2" y="626" font-size="10" fill="#2E3440">ÖZEL çerçeve gerekir</text>
+  <text x="691.2" y="626" font-size="10" fill="#2E3440">ÖZEL yorumlama çerçevesi</text>
   <rect x="831.2" y="611" width="30" height="20" rx="6" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.9"/>
   <text x="846.2" y="626" font-size="11" font-weight="700" fill="#94A3B8" text-anchor="middle">●</text>
   <text x="869.2" y="626" font-size="10" fill="#2E3440">standart</text>

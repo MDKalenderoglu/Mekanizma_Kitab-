@@ -218,7 +218,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_10_doz_yanit_esigi.svg | 3 | Doz–yanıt ve klinik eşik (HI neden dominant) |
 | sekil_11_tf_doz_duyarliligi.svg | 3 | TF doz duyarlılığı (%100 vs %50 promotör doluluğu) |
 | sekil_12_varyant_delesyon_esdegerligi.svg | 3 | Farklı varyant tipleri → ortak %50 doz son yolu |
-| sekil_13_dozaj_duyarlilik_spektrumu.svg | 3 | Dozaj duyarlılığı spektrumu + metrikler (pLI/LOEUF/pHaplo) |
+| sekil_13_dozaj_duyarlilik_spektrumu.svg | 3 | Tek kopya KAYBINA duyarlılık spektrumu · üç kanıt katmanı (LOEUF-pLI · pHaplo-HI indeksi · ClinGen HI kürasyonu) · ayrı kopya ARTIŞI ekseni (pTriplo) |
 | sekil_14_gof_mekanizma_turleri.svg | 4 | İşlev kazanımının 4 yolu (artmış/konstitütif/ektopik/neomorfik) |
 | sekil_15_doz_yanit_gof_vs_lof.svg | 4 | Doz–yanıt: LoF vs GoF zıt yönde hastalık |
 | sekil_16_konstitutif_aktivasyon_reseptor.svg | 4 | Konstitütif aktivasyon (FGFR3/RET; ligand-bağımlı vs bağımsız) |
@@ -263,7 +263,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_52_lmna_domain_fenotip.svg | 15 | LMNA domain haritası ve fenotip kümeleri + HGPS'de kriptik splice → progerin akışı |
 | sekil_53_lumping_splitting.svg | 15 | Küre edilen birim: gen değil gen–kalıtım–mekanizma üçlüsü; birleştirme/ayırma ölçütleri |
 | sekil_54_acmg_kanit_mimarisi.svg | 16 | ACMG kanıt güçleri → olasılık oranı → puan → beş sınıf; patojenik/benign asimetrisi |
-| sekil_55_mekanizma_kriter_matrisi.svg | 16 | Mekanizma × kriter matrisi (13 mekanizma × 8 kriter ailesi); güçlenir/zayıflar/uygulanamaz |
+| sekil_55_mekanizma_kriter_matrisi.svg | 16 | Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez, normatif değil); güçlenir/zayıflar/genellikle uygulanmaz |
 | sekil_56_pvs1_mekanizma_kapisi.svg | 16 | PVS1 mekanizma kapısı + dört güç basamağı + splice/RNA özel durumu |
 | sekil_57_vus_cozme_haritasi.svg | 16 | VUS'u çözme haritası: sekiz ek veri türü → açtığı kriter → tipik güç → koşul |
 | sekil_58_klinik_ipucu_mekanizma.svg | 17 | 12 klinik ipucu → aday mekanizma → bölüm → ilk tanısal adım |
