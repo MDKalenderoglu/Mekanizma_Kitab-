@@ -308,7 +308,7 @@ flowchart TD
 ---
 
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
-> "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
+> "Bu bölümdeki her kaynağın **türüne uygun kalıcı kimliğini** kontrol et: hakemli makalede PMID + DOI; kılavuz/uzman panel spesifikasyonunda kurum + sürüm + tarih + kalıcı bağlantı; veri tabanında veri sürümü + sorgu tarihi. Kimliği doğrulanamayan kaynağı çıkar. Kaynağı olmayan spesifik iddiayı 'kaynak doğrulaması gerekli' olarak işaretle. Kitabın kendi pedagojik çerçevesini doğrulamaya çalışma — 🏷️ ile etiketle." *(Politika 01.08.2026 uzman turunda güncellendi: eski 'PMID veya DOI veremediğin kaynağı çıkar' kuralı HGVS, ClinGen/CSpec, gnomAD sürüm notları gibi PMID'siz ama yetkili kaynakları dışlıyordu.)*
 >
 > **Bu bölüm için durum:** 13/13 kaynak PMID+DOI doğrulandı (Wilkie 1994, Webster &amp; Donoghue 1996, Edery 1997, Tartaglia 2001, Berecki 2018, Brunklaus 2020, Brnich 2019, Richards 2015, Sanders 2018, Abou Tayoun 2018, Khajavi 2006, Canalis &amp; Zanotti 2014, Zhao 2013). Sayısal ifadeler (FGFR3 ~100 kat aktivite artışı; GoF'ta <3 ay başlangıç; SCN2A R853Q'da ortanca 8 ay) ilgili kaynakların özetlerinde birebir doğrulanmıştır ve birey/bağlama göre değişebilir. Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir (bkz. `Dogrulama_Kutugu.md`).
 >

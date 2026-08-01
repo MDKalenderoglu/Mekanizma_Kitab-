@@ -451,7 +451,7 @@ flowchart TD
 ---
 
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
-> "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
+> "Bu bölümdeki her kaynağın **türüne uygun kalıcı kimliğini** kontrol et: hakemli makalede PMID + DOI; kılavuz/uzman panel spesifikasyonunda kurum + sürüm + tarih + kalıcı bağlantı; veri tabanında veri sürümü + sorgu tarihi. Kimliği doğrulanamayan kaynağı çıkar. Kaynağı olmayan spesifik iddiayı 'kaynak doğrulaması gerekli' olarak işaretle. Kitabın kendi pedagojik çerçevesini doğrulamaya çalışma — 🏷️ ile etiketle." *(Politika 01.08.2026 uzman turunda güncellendi: eski 'PMID veya DOI veremediğin kaynağı çıkar' kuralı HGVS, ClinGen/CSpec, gnomAD sürüm notları gibi PMID'siz ama yetkili kaynakları dışlıyordu.)*
 >
 > **Bu bölüm için durum:** **24/24 kaynak PMID+DOI doğrulandı** (8'i bu oturumda PubMed MCP ile — Tavtigian 2018, Tavtigian 2020, Pejaver 2022, Whiffin 2017, Jarvik & Browning 2016, Gelman 2019, Lo 2023, Rehm 2015; 16'sı Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** dört ayrı yerde düzeltilmiştir (PS3 değil **PVS1_Strength**; etkisizlik için **BP7**) — Walker ve ark., 2023 (bkz. `Dogrulama_Kutugu.md`).
 >

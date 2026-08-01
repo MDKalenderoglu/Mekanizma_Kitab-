@@ -68,14 +68,46 @@ Kitap boyunca aşağıdaki tercihler tek biçimde uygulanır:
 
 | Kullanılan | Kullanılmayan | Not |
 |---|---|---|
-| varyant | mutasyon | "mutasyon" yalnız yerleşik adlandırmalarda (tam mutasyon, premutasyon) |
+| varyant | mutasyon | "mutasyon" yalnız yerleşik adlandırmalarda (tam mutasyon, premutasyon, mutasyonel hotspot, de novo mutasyon oranı) |
 | nonsense | nonsens | |
 | hotspot | sıcak nokta | ilk geçişte "hotspot (sıcak nokta)" |
 | eksik penetrans | azalmış penetrans | |
 | dizileme | sekanslama | |
-| dominant-negatif | dominant negatif | tireli yazılır |
-| yetersiz doz | — | "haploinsufficiency (yetersiz doz)" ilk geçişte |
-| kodlamayan | nonkoding | |
+| dominant-negatif | dominant negatif · baskın-olumsuz | tireli yazılır; "baskın-olumsuz" yalnız ilk tanımda açıklayıcı karşılık olabilir |
+| alel · alelik · bialelik · monoalelik | allel · allelik · biallelik | tek "l" ile; kitap geneli sabittir |
+| haploinsufficiency | haployetersizlik · yalnız "yetersiz doz" | ilk geçişte **"haploinsufficiency — tek işlevsel kopyanın yetersizliği"**; sonra HI |
+| kodlamayan | nonkoding | "kodlamayan" ≠ "düzenleyici"; ayrımı §7B'de |
+| kriptik splice bölgesi | — | ilk geçişte "kriptik splice bölgesi (*cryptic splice site*)" |
+| ekzon atlama · intron tutulması | ekzon skipping · intron retansiyonu | kitap geneli bu iki biçimi kullanır |
+| donör (5′) / akseptör (3′) splice bölgesi | donor / acceptor (düz İngilizce) · verici / alıcı | Bölüm 7'de ilk geçişte İngilizce karşılık parantezde verilir; dallanma noktası (*branchpoint*) ve polipirimidin yolu aynı biçimde |
+
+### 7A. İngilizce terime Türkçe ek getirme (E5 kararı)
+
+Uzun İngilizce ortak adlara kesme işaretiyle art arda Türkçe ek yapıştırmak okunabilir ama kitap dili açısından tercih edilmez. **Sıralama şudur:**
+
+1. **Yeğlenen:** terimden sonra Türkçe bir taşıyıcı sözcük — "haploinsufficiency **durumunda**", "triplosensitivity **kavramının**", "splicing **sırasında**", "enhancer **bölgesinde**".
+2. **Kabul edilen:** kısaltmalara ek — **HI'de**, **LoF'un**, **PVS1'in**, **ACMG/AMP'nin**, **VAF'ı**.
+3. **Kaçınılan:** "haploinsufficiency'sinin", "triplosensitivity'ye", "enhancer'ının" gibi uzun terim + zincirleme ek.
+
+Kısa ve yerleşmiş terimlerde (splicing'de, hotspot'ta) tek ek kabul edilebilir; asıl kaçınılması gereken **uzun terim + iyelik + hâl eki** zinciridir.
+
+### 7B. Birbirine indirgenmemesi gereken kavram çiftleri
+
+Bu liste, uzman turunun (G2.2) "otomatik eşitleme" uyarısının yazım kuralına çevrilmiş hâlidir. Aşağıdaki eşitlemeler metinde **kurulamaz**:
+
+| Eşitlenmemeli | Neden |
+|---|---|
+| kesici (truncating) varyant = gerçek null | NMD'den kaçan transkript ürün verir; mekanizma DN/GoF'a kayabilir |
+| düşük LOEUF = kanıtlanmış haploinsufficiency | Constraint popülasyon ölçümüdür, klinik mekanizma kanıtı değildir |
+| missense + multimerik protein = dominant-negatif | DN net etkidir; ürünün üretilmesi *ve* trans etkisi gösterilmelidir |
+| toksik işlev kazanımı = neomorfik | Neomorfi *neyin değiştiğini*, toksisite *sonucu* anlatır |
+| son ekzon = otomatik düşürülmüş PVS1 | Güç, kesilen bölgenin kritikliğine göre belirlenir |
+| kanonik splice = PVS1_VeryStrong | Gen-spesifik karar ağacı ve NMD beklentisi gerekir |
+| kodlamayan varyant = PVS1 asla uygulanamaz | Splicing mekanizmalı intronik varyantta PVS1_Strength(RNA) olabilir |
+| iki gende nadir varyant = digenik hastalık | Kanıt basamakları tamamlanmadan yalnız *aday* modeldir |
+| domain konumu = fenotip/prognoz | Kohort düzeyinde zenginleşme, bireysel öngörü değildir |
+| kodlamayan = düzenleyici | Derin intronik splice, kodlamayan RNA ve tekrar varyantları da kodlamayandır |
+| VAF = mutant hücre oranı | Heterozigot varyantta VAF ≈ hücre oranının yarısıdır |
 
 **Latince ifadeler:** *de novo* düz yazılır (Türkçe klinik genetikte yerleşiktir); *in vitro*, *in silico*, *in cis*, *in trans* italik yazılır.
 

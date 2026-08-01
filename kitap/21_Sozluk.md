@@ -6,7 +6,8 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 
 - **Alel** — Bir lokusun bir kromozomdaki belirli sürümü. İnsanda otozomal her lokus için iki alel bulunur.
 - **Alelik heterojenite** — Aynı gendeki farklı varyantların **aynı** hastalığa yol açması. Kistik fibrozdaki yüzlerce *CFTR* varyantı tipik örnektir.
-- **Alelik seri** — Aynı gendeki farklı varyantların **farklı** hastalıklar üretmesi; kitapta altı eksen üzerinden incelenir (Bölüm 15).
+- **Alelik gereksinim** — Hastalığın ortaya çıkması için genin kaç alelinin etkilenmesi gerektiği (monoalelik, bialelik…). **Kalıtım biçiminden ve hastalık mekanizmasından ayrı bir kavramdır**; uluslararası kürasyon terminolojisi üçünü ayrı ayrı tanımlar.
+- **Alelik seri** — Aynı gendeki farklı varyantların **farklı** hastalıklar üretmesi; kitapta altı yorumlama ekseni üzerinden incelenir (Bölüm 15).
 - **Amorf** — İşlevin tümüyle kaybolduğu alel (null). Muller serisinin bir ucudur.
 - **Antimorf** — Ürünü yabanıl-tip ürünün işlevini bozacak biçimde değiştiren alel; dominant-negatif etkinin Muller serisindeki karşılığı.
 - **Anticipasyon** — Bir hastalığın kuşaktan kuşağa daha erken başlaması ve ağırlaşması; tekrar dizisi genişlemelerinin klinik imzasıdır.
@@ -27,12 +28,13 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **De novo varyant** — Ebeveynlerde bulunmayan, çocukta yeni ortaya çıkan varyant.
 - **Digenik kalıtım** — Hastalığın **iki farklı** lokustaki varyantların birlikte bulunmasını gerektirmesi; hiçbiri tek başına yeterli değildir.
 - **Dominant-negatif etki** — Varyant ürünün, aynı hücrede üretilen sağlam ürünün işlevini bozması; çoğu zaman basit işlev kaybından daha ağır tablo yapar.
-- **Doz duyarlılığı** — Bir genin ürün miktarındaki değişime tolerans göstermemesi; yetersiz doz ve fazla doz duyarlılığı olarak iki yönlüdür.
+- **Doz duyarlılığı** — Bir genin ürün miktarındaki değişime tolerans göstermemesi. **İki yön birbirinden bağımsızdır:** tek kopya kaybına duyarlılık (haploinsufficiency) ile kopya artışına duyarlılık (triplosensitivity) ayrı ayrı kürate edilir; biri diğerini gerektirmez. Bir CNV'nin patojen sayılması da bu iki eksenin hangisine dokunduğuna bağlıdır — CNV, doz duyarlılığı ve haploinsufficiency eş anlamlı değildir.
 - **DMR (farklı metillenen bölge)** — Ebeveyn kökenine göre farklı metillenen genomik bölge; damgalamanın moleküler taşıyıcısı.
 
 **E**
 
-- **Ekspresivite** — Hastalığın taşıyıcılar arasında ne kadar farklı ağırlıkta ortaya çıktığı.
+- **Ebeveyn kökeni (parent-of-origin)** — Varyantın anneden mi babadan mı geldiği. Damgalı lokuslarda fenotipi, tekrar genişlemelerinde kararsızlığı, mozaiklikte tekrarlanma riskini değiştirir.
+- **Ekspresivite** — Fenotip ortaya çıktığında hangi özelliklerle, hangi kapsamda ve ne şiddette görüldüğü. Yalnız "ağırlık" değildir: aynı varyant bir bireyde izole, başka bir bireyde çok sistemli bir tablo verebilir. Penetransla karıştırılmamalıdır.
 - **Ekzon atlama (exon skipping)** — Bir ekzonun olgun mRNA'ya alınmaması; okuma çerçevesini koruyabilir ya da bozabilir.
 - **Ektopik ifade** — Bir genin normalde ifade edilmediği doku ya da zamanda ifade edilmesi.
 - **Enhancer** — Hedef genin ifadesini uzaktan artıran düzenleyici DNA elementi.
@@ -65,7 +67,8 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Hipermorf** — İşlevi artmış alel.
 - **Hipomorf** — İşlevi kısmen azalmış alel; rezidüel işlev bırakır.
 - **Homoplazmi** — Hücredeki tüm mtDNA moleküllerinin aynı olması.
-- **Hotspot** — Varyantların beklenenden sık biriktiği kodon ya da bölge; genellikle mekanizmaya işaret eder.
+- **Haploinsufficiency (HI) — tek işlevsel kopyanın yetersizliği** — Genin iki kopyasından birinin kaybı ya da işlevsizleşmesi sonucu kalan tek kopyanın normal işlev için yetmemesi. Bir **mekanizmadır**; pLI/LOEUF gibi constraint göstergeleriyle *desteklenebilir*, ancak onlar tarafından kanıtlanmaz. Klinik referans katmanı ClinGen dozaj duyarlılığı kürasyonudur.
+- **Hotspot** — Varyantların beklenenden sık biriktiği kodon ya da bölge. PM1 açısından **gen–hastalık–mekanizma spesifiktir**: bir hastalık için tanımlanmış hotspot, aynı gendeki başka bir alelik hastalığa taşınamaz; somatik kanser hotspot'u da germline PM1'i otomatik açmaz.
 
 **İ**
 
@@ -76,6 +79,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 **K**
 
 - **Kanonik splice bölgesi** — İntron sınırındaki değişmez GT (donör) ve AG (akseptör) dinükleotidleri.
+- **Kalıtım biçimi** — Fenotipin ailede aktarılma örüntüsü (otozomal dominant, otozomal resesif, X'e bağlı…). Alelik gereksinim ve hastalık mekanizmasıyla ilişkilidir ama onlarla aynı şey değildir.
 - **Kimerizm** — İki farklı zigottan köken alan hücre popülasyonlarının bir bireyde bulunması; mozaiklikten köken bakımından ayrılır.
 - **Kodlamayan varyant** — Protein kodlamayan bölgelerde (promotör, enhancer, UTR, intron) yer alan varyant.
 - **Konstitütif aktivasyon** — Bir reseptör ya da enzimin uyarı olmaksızın sürekli açık kalması.
@@ -86,7 +90,9 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 **L**
 
 - **Letal-mozaik hipotezi** — Germline hâlde embriyoyu yaşatmayan bir varyantın, yalnızca mozaik hâlde görülebilir hastalık yapması.
-- **LOEUF** — Bir gende gözlenen/beklenen işlev kaybı varyantı oranının üst sınırı; düşük değer kısıtı gösterir.
+- **LoF (işlev kaybı)** — Gen ürününün işlevinin azalması ya da yok olması; bir **mekanizmadır**.
+- **pLoF (öngörülen işlev kaybı) varyantı** — Nonsense, çerçeve kayması, kanonik splice gibi işlev kaybı **öngörülen** varyant sınıfı; popülasyon constraint hesaplarının girdisidir. "Öngörülen" sözcüğü kritiktir: pLoF olmak gerçek null olmayı garanti etmez.
+- **LOEUF** — Bir gende gözlenen/beklenen pLoF varyantı oranının üst güven sınırı; **düşük** değer popülasyonda daha güçlü heterozigot pLoF azalması gösterir. Klinik haploinsufficiency olasılığı **değildir**; sürekli bir ölçü olarak okunur.
 - **Lokus heterojenitesi** — Aynı klinik tablonun farklı genlerdeki varyantlarla ortaya çıkması.
 
 **M**
@@ -121,7 +127,9 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 
 - **Paralog** — Gen çoğalmasıyla oluşmuş, benzer işlevli ikinci gen (ör. *SMN1* ve *SMN2*).
 - **Penetrans** — Bir varyantı taşıyanların hastalanma oranı.
-- **pLI** — Bir genin işlev kaybı varyantlarına tahammülsüz olma olasılığı.
+- **pHaplo** — Geniş CNV veri setlerinden türetilmiş, delesyona duyarlılık (haploinsufficiency) **tahmini**; ≥0,86 yüksek tahmin eşiğidir. Model çıktısıdır, klinik kürasyon değildir.
+- **pLI** — Bir genin, popülasyon constraint modelinde "pLoF-intoleran" sınıfa ait olma olasılığı. "Bu genin haploinsufficient olma olasılığı" **değildir**; LOEUF'un daha eski ve kategorik akrabasıdır.
+- **pTriplo** — Kopya **artışına** duyarlılık tahmini; ≥0,94 yüksek tahmin eşiğidir. pHaplo ile aynı eksende okunmaz.
 - **Pleiotropi** — Tek bir lokusun birden çok, görünüşte ilgisiz özelliği etkilemesi.
 - **Poligenik** — Çok sayıda küçük etkili lokusun toplamıyla belirlenen kalıtım.
 - **Postzigotik** — Döllenmeden sonra ortaya çıkan; mozaikliğin tanımlayıcı özelliği.
@@ -135,6 +143,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 **R**
 
 - **RAN translasyonu** — Tekrar dizilerinin AUG başlangıç kodonu olmadan çevrilmesi; toksik dipeptit ürünler oluşturur.
+- **Revertant mozaiklik** — Konstitüsyonel patojenik varyant taşıyan bir bireyde, postzigotik bir olayın bazı hücrelerde patojenik etkiyi ortadan kaldırması. Kurtarma gerçek geri mutasyonla olabileceği gibi ikinci bölge varyantı, çerçeveyi düzelten ikinci indel, mitotik gen dönüşümü ya da rekombinasyonla da gerçekleşir; klon her zaman tam yabanıl-tip genotipe dönmez, **işlevsel olarak kurtarılmış** olabilir.
 - **Rezidüel işlev** — Varyant sonrası kalan işlev miktarı; hastalık ağırlığının başlıca belirleyicilerinden biri.
 - **ROH (homozigotluk bölgesi)** — Uzun homozigot genomik bölge; akrabalık ya da uniparental dizomi göstergesi olabilir.
 
@@ -144,15 +153,18 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Sessiz (senonim) varyant** — Amino asidi değiştirmeyen varyant; kırpılmayı etkileyerek yine de hastalık yapabilir.
 - **Somatik mozaiklik** — Varyantın yalnızca vücut hücrelerinin bir bölümünde bulunması.
 - **Spliceozom** — İntronları çıkaran ribonükleoprotein kompleksi.
-- **Splicing (kırpılma)** — Öncü mRNA'dan intronların çıkarılıp ekzonların birleştirilmesi.
+- **Splicing (kırpılma)** — Öncü mRNA'dan intronların çıkarılıp ekzonların birleştirilmesi. Splicing varyantlarında üç düzey birbirinden ayrı tutulur ve birbirinin yerine kullanılmaz: **(1) varyantın konumu** (kanonik ±1/±2, kanonik dışı, derin intronik, ekzonik sessiz); **(2) gözlenen RNA sonucu** (ekzon atlanması, intron tutulumu, kriptik bölge kullanımı, psödoekzon); **(3) protein sonucu** (çerçeve korunuyor mu, NMD bekleniyor mu). Kanıt kodlaması bu üçüne birden bakar: konum tek başına gücü belirlemez.
+- **Somatik genetik kurtarma** — Konstitüsyonel patojenik etkinin, postzigotik ikinci bir olayla hücrelerin bir bölümünde tamamen ya da kısmen ortadan kalkması. Aynı geni/aleli düzelten olaylar **revertant mozaiklik**, patojenik yolu başka yerden telafi edenler ise daha geniş anlamda somatik genetik kurtarmadır.
 
 **T**
 
 - **TAD (topolojik ilişkili alan)** — Enhancer–promotör etkileşimlerini sınırlayan genom mimarisi birimi.
 - **Tam mutasyon** — Hastalık yapan eşiği aşmış tekrar aleli.
 - **Tekrar genişlemesi** — Kısa dizi tekrarlarının kuşaklar boyunca sayıca artması.
+- **Toksik işlev kazanımı** — Mutant ürünün varlığının hücreye zarar vermesi. **Neomorfizmle eş anlamlı değildir:** neomorfi işlevde *neyin* değiştiğini, toksisite ise bu değişikliğin *sonucunu* anlatır. Toksik kazanım hem neomorfik hem hipermorfik zeminde oluşabilir; dominant-negatif etki ve toksik RNA da ürün varlığını gerektirir.
 - **Trialelik kalıtım** — Fenotipin ortaya çıkması için iki lokusta toplam üç mutant alelin gerekmesi.
 - **Trio analizi** — Hasta ve her iki ebeveyninin birlikte incelenmesi; de novo ve faz bilgisini üretir.
+- **Triplosensitivity (kopya artışına duyarlılık)** — Bir genin ya da bölgenin fazladan kopyasının hastalık yapması. Haploinsufficiency'nin karşıtı değil, **bağımsız** bir özelliktir; ClinGen ikisini ayrı ayrı kürate eder.
 
 **U**
 
@@ -161,7 +173,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 
 **V**
 
-- **VAF (varyant alel frekansı)** — Dizileme okumalarında varyantı taşıyan okumaların oranı; mozaikliğin göstergesi.
+- **VAF (varyant alel fraksiyonu)** — Dizileme okumalarında varyant aleli taşıyan okumaların oranı; mozaikliğin niceliksel göstergesi. **Mutant hücre oranıyla eşit değildir:** kopya-nötr diploid bir lokusta heterozigot varyantta VAF ≈ taşıyıcı hücre oranının **yarısıdır**. Heteroplazmi (mtDNA) ve mozaik hücre fraksiyonu da VAF ile eşitlenemez; üçü farklı biyolojik büyüklüklerdir.
 - **Varyant** — Referans diziden farklılık; patojenite hakkında yargı içermeyen nötr terim.
 - **VCEP** — Belirli genler için ACMG kriterlerini uzmanlaştıran ClinGen paneli.
 - **VUS (belirsiz önemde varyant)** — Kanıtın karar verdirecek ağırlığa ulaşmadığı durum; bir sonuç değil, eksik veri hâlidir.
@@ -170,7 +182,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 
 - **Yapısal varyant (SV)** — Genomun büyük ölçekli yeniden düzenlenmesi (delesyon, duplikasyon, inversiyon, translokasyon).
 - **Yeniden analiz** — Var olan dizileme verisinin yeni bilgi ışığında yeniden değerlendirilmesi; yeni örnek gerektirmeden tanı kazandırabilir.
-- **Yetersiz doz (haploinsufficiency)** — Tek işlevsel kopyanın normal işlev için yetmemesi.
+- **Yetersiz doz** → bkz. **Haploinsufficiency**. ("Yetersiz doz" tek başına belirsizdir ve ilaç dozu çağrışımı yapar; kitapta ana terim *haploinsufficiency*'dir.)
 
 **Z**
 

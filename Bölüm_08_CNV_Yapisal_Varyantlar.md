@@ -292,7 +292,7 @@ flowchart TD
 ---
 
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
-> "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
+> "Bu bölümdeki her kaynağın **türüne uygun kalıcı kimliğini** kontrol et: hakemli makalede PMID + DOI; kılavuz/uzman panel spesifikasyonunda kurum + sürüm + tarih + kalıcı bağlantı; veri tabanında veri sürümü + sorgu tarihi. Kimliği doğrulanamayan kaynağı çıkar. Kaynağı olmayan spesifik iddiayı 'kaynak doğrulaması gerekli' olarak işaretle. Kitabın kendi pedagojik çerçevesini doğrulamaya çalışma — 🏷️ ile etiketle." *(Politika 01.08.2026 uzman turunda güncellendi: eski 'PMID veya DOI veremediğin kaynağı çıkar' kuralı HGVS, ClinGen/CSpec, gnomAD sürüm notları gibi PMID'siz ama yetkili kaynakları dışlıyordu.)*
 >
 > **Bu bölüm için durum:** 6/6 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddia: gen/bölge-spesifik HI/TS, penetrans ve sendrom sınırları için güncel ClinGen Dozaj Haritası/VCEP teyidi önerilir (§6, §7.2). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda CMA getiri karşılaştırmasının koşulu (Down sendromu ve tanınabilir sendromların dışlanması) ve dengeli/mozaik sınırın büyüklüğü (<%1) kaynak özetinden eklenmiş, *PMP22* bölgesine ait 1,4 Mb/CMT1A-REP bilgisi Lupski 1991'e yüklenmek yerine sonraki literatüre ve ders kitabı çapraz kontrolüne dayandırılmıştır (bkz. `Dogrulama_Kutugu.md`).
 >

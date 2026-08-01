@@ -31,8 +31,8 @@ Kitap **hekimlere yönelik yayımlanacaktır**. Bu nedenle:
 1. **Anlatı (paragraf) önce gelir — bu en kritik kuraldır.** Bölümler **akıcı, öğretici paragraflarla** yazılır; madde listesi ancak gerçekten liste olan içerik için (kaynakça, hızlı referans) kullanılır. Bir kavramı madde madde sıralamak ONU AÇIKLAMAK DEĞİLDİR. Her zor kavram, okuyucunun (özellikle tıp öğrencisinin) "ne olduğunu, neden önemli olduğunu, nasıl yorumlandığını" anlayacağı şekilde **paragraf içinde, örnek/benzetmeyle** anlatılır. Tablolar açıklayıcı paragrafın yerini almaz; onu özetler.
 2. **Textbook derinliği, özet değil.** Her bölüm derin anlatım + deep-dive kutuları + bol görsel + çok sayıda algoritma içerir.
 3. **Atıf doğal olmalı — cümleyi "Based on articles retrieved from PubMed" ile BAŞLATMA.** Bir textbook bu şekilde yazılmaz. Metin içinde **yazar-yıl** biçimi kullanılır (ör. "… (Richards ve ark., 2015)"); DOI linkleri **kaynakça bölümünde** verilir; PubMed atıf yükümlülüğü her bölümün Kaynaklar bölümündeki **tek bir doğrulama/atıf notu** + her kaynaktaki DOI linki ile karşılanır. Akış bozulmaz.
-4. **Kaynak uydurma YASAK.** Her mekanizma/yorum iddiası, **PubMed MCP ile bizzat doğrulanmış** PMID **ve** DOI'ye dayanır. Bkz. `00_Şablonlar/Kaynak_Protokolü.md`.
-5. **Doğrulanamayan iddiayı** "⚠️ kaynak doğrulaması gerekli" diye işaretle veya çıkar. Spekülasyonu açıkça etiketle.
+4. **Kaynak uydurma YASAK.** Her mekanizma/yorum iddiası, **kaynak türüne uygun kalıcı kimliği bizzat doğrulanmış** bir kaynağa dayanır: hakemli makalede PubMed MCP ile teyit edilmiş **PMID + DOI**; kılavuz/uzman panel spesifikasyonunda (HGVS, ClinGen SVI, VCEP/CSpec, ACMG teknik standardı, ACGS, EMQN) **kurum + belge + sürüm + tarih + kalıcı bağlantı + erişim tarihi**; veri tabanında **veri sürümü + sorgu tarihi**. ⚠️ *01.08.2026'da güncellendi:* eski "PMID/DOI veremediğin kaynağı çıkar" kuralı, alanın en yetkili PMID'siz kaynaklarını dışladığı için terk edildi — **titizlik değil, kimlik biçimi** esnedi. Bkz. `00_Şablonlar/Kaynak_Protokolü.md` §1.
+5. **Doğrulanamayan iddiayı** "⚠️ kaynak doğrulaması gerekli" diye işaretle veya çıkar. Spekülasyonu açıkça etiketle. **Bibliyografik doğrulama ile iddia-düzeyi doğrulama ayrı denetimlerdir**: "X/X kaynağın künyesi doğrulandı" cümlesi, metindeki her iddianın o kaynaklarca desteklendiğini göstermez ve öyleymiş gibi yazılamaz.
 6. **Görsel bol olmalı (üst sınır yok).** Her bölümde **en az ≥3 SVG + ≥2 Mermaid**; konu gerektiriyorsa **daha fazlasını yap** — sayı tavanı yoktur. Anlamayı kolaylaştıran her yere görsel ekle.
 7. **Standart 10-başlık formatı** (aşağıda) her bölümde eksiksiz uygulanır.
 8. **İkincil kaynaklar** (GeneReviews/OMIM/ClinVar/gnomAD) yalnızca destekleyici; ana mekanizma kaynağı olamaz.
@@ -98,7 +98,7 @@ Bölüm sonu: **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama
 2. PubMed MCP ile **doğrula:** `search_articles` → `lookup_article_by_citation` → `get_article_metadata` (PMID + DOI + başlık teyidi).
 3. Önce **Bölüm_00 kaynak kütüğüne** bak; daha önce doğrulanmış kaynağı **yeniden doğrulama**, tekrar kullan.
 4. Metinde her iddiayı kaynağa bağla; PubMed atıf + DOI linki ver.
-5. Bölüm sonunda doğrulama durumunu raporla (X/X doğrulandı). Doğrulanamayan → işaretle/çıkar.
+5. Bölüm sonunda doğrulama durumunu **iki satırda** raporla: (a) bibliyografik — X/X kaynağın künyesi, türlerine göre; (b) iddia düzeyi — hangi tarihte turdan geçtiği ve işaretlenen iddialar. Doğrulanamayan → işaretle/çıkar.
 6. Yeni doğrulanan kaynakları **Bölüm_00 kütüğüne ekle**.
 
 ---

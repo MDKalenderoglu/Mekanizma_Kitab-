@@ -4,15 +4,31 @@ Bu protokolün tek amacı: **kaynak uydurmayı imkânsız kılmak.** Hiçbir PMI
 
 ---
 
-## 1. Kabul edilen kaynaklar
-1. PubMed indeksli, hakemli dergi makaleleri.
-2. Klinik/moleküler genetik, genomik, pediatri, nörogenetik, metabolik hastalık, epigenetik, varyant yorumu alanları.
-3. Review, systematic review, guideline, consensus statement, landmark mekanistik veya yüksek kaliteli orijinal araştırma.
-4. Varyant yorumu için ACMG/AMP, ClinGen SVI, ClinGen Dosage, VCEP/CSpec — **amacı açıkça etiketlenerek**.
-5. GeneReviews/OMIM/ClinVar/gnomAD → **yalnız destekleyici/ikincil**; ana mekanizma kaynağı olamaz.
+## 1. Kabul edilen kaynaklar ve her birinin künye biçimi
+
+> **01.08.2026 politika değişikliği (uzman turu G2.1).** Eski kural — *"PMID veya DOI veremediğin kaynağı çıkar"* — bilimsel olarak fazla katıydı ve alanın **en yetkili** kaynaklarının bir bölümünü dışlıyordu: HGVS nomenklatür önerileri, ClinGen web spesifikasyonları ve CSpec kayıtları, gnomAD sürüm notları, ACGS/EMQN gibi kılavuz belgeleri ve resmî veri tabanı kürasyonlarının her zaman PMID/DOI'si yoktur. Kural artık "kaynak türüne uygun kalıcı kimlik" biçimindedir. Uydurma yasağı **aynen sürer**; gevşeyen şey kimlik biçimi, titizlik değil.
+
+| Kaynak türü | Zorunlu künye | Not |
+|---|---|---|
+| **Hakemli makale** | PMID **+** DOI (yoksa PMC linki) | PubMed MCP ile teyit; ana mekanizma kaynağı budur |
+| **Resmî kılavuz / uzman panel spesifikasyonu** (ClinGen SVI, VCEP/CSpec, ACMG teknik standardı, ACGS, EMQN, HGVS) | Kurum · belge adı · **sürüm** · yayın veya güncelleme tarihi · kalıcı bağlantı · **erişim tarihi** | PMID'si varsa o da yazılır; yoksa eksik sayılmaz |
+| **Veri tabanı / kürasyon** (ClinGen Dosage, gnomAD, ClinVar, DECIPHER) | Veri tabanı adı · **veri sürümü/release** · sorgu tarihi | Sayı alıntılanıyorsa sürüm zorunludur |
+| **Kitabın pedagojik sentezi** | 🏷️ etiket | Doğrulanmaz, **etiketlenir** (bkz. §7) |
+| **Kaynaksız spesifik iddia** | — | ⚠️ işaretle veya çıkar |
+
+Alan kapsamı: klinik/moleküler genetik, genomik, pediatri, nörogenetik, metabolik hastalık, epigenetik, varyant yorumu. Tür olarak review, sistematik derleme, kılavuz, uzlaşı bildirisi, landmark mekanistik çalışma ve yüksek kaliteli orijinal araştırma kabul edilir. GeneReviews/OMIM/ClinVar/gnomAD → **yalnız destekleyici/ikincil**; ana mekanizma kaynağı olamaz.
 
 ## 2. Reddedilen kaynaklar
-Blog, haber, Wikipedia, hasta forumu, firma sayfası, kaynağı belirsiz slayt, DOI/PMID verilemeyen iddia, predatory/şüpheli dergi, **uydurma kaynak**.
+Blog, haber, Wikipedia, hasta forumu, firma sayfası, kaynağı belirsiz slayt, predatory/şüpheli dergi, **uydurma kaynak**. Ayrıca: kalıcı kimliği (PMID/DOI ya da kurum+sürüm+tarih+bağlantı) verilemeyen hiçbir spesifik iddia metinde kaynaklıymış gibi sunulamaz.
+
+## 2B. İki ayrı denetim — karıştırılmamalı
+
+Bu ayrım uzman turunun en önemli metodolojik uyarısıdır:
+
+- **Bibliyografik doğrulama:** Künyenin gerçek olduğunu gösterir. "22/22 kaynağın PMID/DOI'si doğrulandı" cümlesi **yalnız bunu** söyler.
+- **İddia düzeyi doğrulama:** Metindeki cümlenin gerçekten o kaynak tarafından desteklendiğini gösterir. Ayrı bir iştir ve ayrı raporlanır.
+
+Biri yapılmışken diğeri yapılmış gibi yazılamaz. Bölüm sonu raporu ikisini **ayrı satırlarda** bildirir.
 
 ---
 
@@ -45,6 +61,15 @@ Blog, haber, Wikipedia, hasta forumu, firma sayfası, kaynağı belirsiz slayt, 
 ---
 
 ## 6. Bölüm sonu doğrulama raporu (her bölümde)
-> "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
+> "Bu bölümdeki her kaynağın **türüne uygun kalıcı kimliğini** kontrol et: hakemli makalede PMID + DOI; kılavuz/spesifikasyonda kurum + sürüm + tarih + kalıcı bağlantı; veri tabanında veri sürümü + sorgu tarihi. Kimliği doğrulanamayan kaynağı çıkar. Kaynağı olmayan spesifik iddiayı 'kaynak doğrulaması gerekli' olarak işaretle. Kitabın kendi pedagojik çerçevesini doğrulamaya çalışma — 🏷️ ile etiketle."
 
-Rapor formatı: **X/X kaynak PMID+DOI doğrulandı.** İşaretlenen iddia varsa listele.
+Rapor formatı **iki satırdır**:
+1. **Bibliyografik:** X/X kaynağın künyesi doğrulandı (türlerine göre dağılım verilir).
+2. **İddia düzeyi:** Bölümün hangi tarihte iddia-düzeyi turundan geçtiği; işaretlenen iddialar listelenir.
+
+## 7. Kitabın pedagojik sentezleri (T5) — doğrulanmaz, etiketlenir
+Kitabın kendi çerçeveleri (ör. "tamponlama, rezerv ve eşik"; "alelik seriyi yorumlamanın altı ekseni"; mekanizma × kanıt ailesi matrisi) literatürde bu adla yerleşik sınıflandırmalar değildir. Bunlar için kural:
+- Etiket **başlıkta** görünür (🏷️ Pedagojik sentez — …).
+- İlk cümlede statüsü söylenir ("literatürde bu adla yerleşik bir model değildir").
+- Bileşenlerinin her biri kendi bölümünde kaynaklıdır; **gruplama editöryaldir**.
+- Klinik sınıflandırma kriteri, kürasyon standardı veya normatif tablo gibi sunulmaz.
