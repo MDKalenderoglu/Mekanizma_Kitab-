@@ -19,7 +19,7 @@ Bu bölümü tamamlayan okuyucu:
 6. Prader-Willi ve Angelman sendromlarını ebeveyn kökeni, moleküler alt-tip ve fenotip açısından karşılaştırır; her alt-tipin tekrarlanma riskini yorumlar.
 7. Beckwith-Wiedemann ve Silver-Russell sendromlarını 11p15.5'teki zıt metilasyon kusurları ("ayna hastalıklar") üzerinden açıklar ve tümör tarama gereğini alt-tiple ilişkilendirir.
 8. İmprinting/UPD bozukluklarında uygun tanısal test dizisini (metilasyon analizi → alt-tip belirleme) seçer ve standart WES/karyotipin sınırlılığını bilir.
-9. İmprintli genlerde varyant yorumlamada ebeveyn kökeninin (allelik faz) ACMG kriterlerini nasıl değiştirdiğini açıklar.
+9. İmprintli genlerde varyant yorumlamada ebeveyn kökeninin (alelik faz) ACMG kriterlerini nasıl değiştirdiğini açıklar.
 
 ---
 
@@ -149,7 +149,7 @@ flowchart TD
 
 ## 6. Varyant yorumlama açısından önemi (ACMG/ClinGen)
 
-İmprinting, ACMG/AMP dizi-varyantı çerçevesine (Bölüm 16'da ayrıntılanacak) iki temel nüans ekler. Birincisi ve en önemlisi **allelik faz / ebeveyn kökenidir**: imprintli bir gende bir varyantın patojenik olup olmaması, hangi ebeveynden geldiğine bağlıdır. *UBE3A*'da patojenik bir varyant yalnızca **maternal** alelde ise Angelman yapar; aynı varyant paternal alelde ise (o alel zaten susturulduğu için) klinik olarak sessiz kalır. Aynı mantık *CDKN1C* (maternal-ifadeli, Beckwith-Wiedemann) ve *MKRN3* gibi paternal-ifadeli genler için ters yönde geçerlidir. Bu nedenle imprintli bir gende varyant sınıflandırırken **segregasyon ve de novo kanıtı ebeveyn kökeniyle birlikte** değerlendirilmelidir; kökeni bilinmeyen bir varyantın penetransı yorumlanamaz.
+İmprinting, ACMG/AMP dizi-varyantı çerçevesine (Bölüm 16'da ayrıntılanacak) iki temel nüans ekler. Birincisi ve en önemlisi **alelik faz / ebeveyn kökenidir**: imprintli bir gende bir varyantın patojenik olup olmaması, hangi ebeveynden geldiğine bağlıdır. *UBE3A*'da patojenik bir varyant yalnızca **maternal** alelde ise Angelman yapar; aynı varyant paternal alelde ise (o alel zaten susturulduğu için) klinik olarak sessiz kalır. Aynı mantık *CDKN1C* (maternal-ifadeli, Beckwith-Wiedemann) ve *MKRN3* gibi paternal-ifadeli genler için ters yönde geçerlidir. Bu nedenle imprintli bir gende varyant sınıflandırırken **segregasyon ve de novo kanıtı ebeveyn kökeniyle birlikte** değerlendirilmelidir; kökeni bilinmeyen bir varyantın penetransı yorumlanamaz.
 
 İkinci nüans, imprinting bozukluklarının büyük bölümünün **dizi varyantı olmayan** (epimutasyon, UPD) lezyonlardan kaynaklanmasıdır. Bu lezyonlar klasik ACMG dizi-kriterlerinin (PVS1, PM1, PP3…) kapsamı dışındadır; bunlar için ClinGen'in **kopya sayısı/dozaj** çerçevesi (Bölüm 8'de işlenen HI/TS puanlaması) ve metilasyon/UPD'ye özgü laboratuvar kriterleri kullanılır. Pratikte bir imprinting bozukluğu raporu, çoğu zaman bir "varyant sınıflandırması"ndan çok bir **metilasyon paterni + alt-tip** tanımıdır.
 
@@ -270,7 +270,7 @@ flowchart TD
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | Delesyon/UPD/ID/nokta varyantı tablosu; metilasyon-bozan vs bozmayan ayrımı |
 | Pediatrik örnek verildi mi? | ✅ | PWS, AS, BWS, SRS + imprinting ailesi/MLID, hepsi kaynaklı |
 | Test seçimi açıklandı mı? | ✅ | İki aşamalı: metilasyon → alt-tip; standart test tablosu + WES/karyotip sınırlılığı |
-| ACMG/ClinGen bağlantısı doğru mu? | ✅ | Allelik faz/ebeveyn kökeni; epimutasyon/UPD'nin dizi-kriterleri dışı kalması |
+| ACMG/ClinGen bağlantısı doğru mu? | ✅ | Alelik faz/ebeveyn kökeni; epimutasyon/UPD'nin dizi-kriterleri dışı kalması |
 | Kaynaklar PMID/DOI ile verildi mi? | ✅ | 9/9 kaynak PubMed'de doğrulandı |
 | Spekülatif iddialar işaretlendi mi? | ✅ | ART risk artışı "bildirilmiştir" olarak sınırlı verildi; spekülasyon yok |
 | Kaynak uydurma riski var mı? | ✅ Yok | Tüm PMID+DOI bu oturumda MCP ile teyit edildi |

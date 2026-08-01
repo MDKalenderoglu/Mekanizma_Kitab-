@@ -1,8 +1,8 @@
 # Bölüm 3 — Haploinsufficiency (Yetersiz Doz)
 
-> **Bölümün çekirdek tezi:** Haploinsufficiency, tek işlevsel allelin sağladığı **%50 gen dozunun, normal işlev için yetmediği** durumdur. Bölüm 2'de gördüğümüz işlev kaybının (LoF) özel ve klinik olarak en sık karşılaşılan dominant hâlidir: kaybın *kendisi* niceliksel olarak aynı kalır (bir allel sustu), ama **fenotip, genin "doz duyarlılığına" (eşiğine) bağlıdır**. Aynı %50 kayıp doza duyarlı bir gende ağır gelişimsel hastalık yaparken, tamponlu bir gende tamamen sessiz kalır. Bu bölüm, "neden bazı genlerde yarım yetmez?" sorusunu doz–yanıt eğrisi, eşik ve stokiyometri üzerinden kurar; oradan dominant kalıtıma, değişken penetransa, tanıda **dizileme + doz analizinin birlikteliği** zorunluluğuna ve ACMG/ClinGen'in dozaj (CNV) yorumlamasına bağlar.
+> **Bölümün çekirdek tezi:** Haploinsufficiency, tek işlevsel alelin sağladığı **%50 gen dozunun, normal işlev için yetmediği** durumdur. Bölüm 2'de gördüğümüz işlev kaybının (LoF) özel ve klinik olarak en sık karşılaşılan dominant hâlidir: kaybın *kendisi* niceliksel olarak aynı kalır (bir alel sustu), ama **fenotip, genin "doz duyarlılığına" (eşiğine) bağlıdır**. Aynı %50 kayıp doza duyarlı bir gende ağır gelişimsel hastalık yaparken, tamponlu bir gende tamamen sessiz kalır. Bu bölüm, "neden bazı genlerde yarım yetmez?" sorusunu doz–yanıt eğrisi, eşik ve stokiyometri üzerinden kurar; oradan dominant kalıtıma, değişken penetransa, tanıda **dizileme + doz analizinin birlikteliği** zorunluluğuna ve ACMG/ClinGen'in dozaj (CNV) yorumlamasına bağlar.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga şudur: *bir allel yeterli mi?* sorusunun cevabı gene göre değişir (§2, Şekil 3.1). Uzman okuyucu §6'da ClinGen dozaj puanlaması ve PVS1'in haploinsufficiency'ye özgü uygulanışına, §7'de pediatrik HI genlerine yoğunlaşabilir. Bölüm 2 (LoF) önce okunmalıdır; haploinsufficiency onun "dominant doz" koludur.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga şudur: *bir alel yeterli mi?* sorusunun cevabı gene göre değişir (§2, Şekil 3.1). Uzman okuyucu §6'da ClinGen dozaj puanlaması ve PVS1'in haploinsufficiency'ye özgü uygulanışına, §7'de pediatrik HI genlerine yoğunlaşabilir. Bölüm 2 (LoF) önce okunmalıdır; haploinsufficiency onun "dominant doz" koludur.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -26,7 +26,7 @@ Bu bölümü tamamlayan okuyucu:
 
 Haploinsufficiency'yi anlamanın en sezgisel yolu bir soru sormaktır: *Bir genin iki kopyasından biri tamamen susarsa, kalan tek kopya (yani normalin %50'si) hücrenin/organizmanın ihtiyacını karşılamaya yeter mi?* Çoğu gen için cevap **evet**'tir — bu genler "tamponludur", %50 üretim hâlâ eşiğin üstündedir ve heterozigot birey sağlıklı bir **taşıyıcı** olur (resesif kalıtımın temeli, Bölüm 2). Bir azınlık gen için ise cevap **hayır**'dır: %50 doz, normal işlev için gereken asgari miktarın altına düşer ve heterozigot birey hastalanır. İşte bu ikinci duruma **haploinsufficiency (haplo = tek, insufficiency = yetersizlik; "tek kopya yetmezliği")** denir ve **dominant** kalıtımın en sık moleküler nedenlerinden biridir.
 
-Buradaki kritik kavramsal kayma şudur: haploinsufficiency bir **varyant tipi değil, bir gen özelliğidir**. "Bu varyant haploinsufficiency yapar" demek aslında "bu varyant genin bir allelini susturur **ve** bu gen doza duyarlı olduğu için tek allel yetmez" demenin kısaltmasıdır. Aynı null varyant, doza duyarlı olmayan bir gende sadece sessiz bir taşıyıcılık yaratırdı. Dolayısıyla mekanizmayı belirleyen iki ayrı bileşeni hep birlikte düşünmek gerekir: *(1)* varyant gerçekten bir alleli işlevsiz bırakıyor mu (LoF kanıtı, Bölüm 2), ve *(2)* gen bu kayba duyarlı mı (doz/eşik kanıtı, bu bölüm).
+Buradaki kritik kavramsal kayma şudur: haploinsufficiency bir **varyant tipi değil, bir gen özelliğidir**. "Bu varyant haploinsufficiency yapar" demek aslında "bu varyant genin bir alelini susturur **ve** bu gen doza duyarlı olduğu için tek alel yetmez" demenin kısaltmasıdır. Aynı null varyant, doza duyarlı olmayan bir gende sadece sessiz bir taşıyıcılık yaratırdı. Dolayısıyla mekanizmayı belirleyen iki ayrı bileşeni hep birlikte düşünmek gerekir: *(1)* varyant gerçekten bir aleli işlevsiz bırakıyor mu (LoF kanıtı, Bölüm 2), ve *(2)* gen bu kayba duyarlı mı (doz/eşik kanıtı, bu bölüm).
 
 Aşağıdaki tablo, bölüm boyunca kullanacağımız kavramları akış içinde tanımlanmadan önce bir arada görmek içindir; her biri ilerideki paragraflarda benzetme ve klinik notla derinleştirilecektir.
 
@@ -34,8 +34,8 @@ Aşağıdaki tablo, bölüm boyunca kullanacağımız kavramları akış içinde
 
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
-| **Haploinsufficiency (HI)** | Tek işlevsel allelin (%50 doz) normal işlev için yetmemesi | Heterozigot LoF → **dominant** hastalık |
-| **Gen dozu** | Hücredeki işlevsel gen ürünü miktarı (≈ allel sayısı × ifade) | HI'da belirleyici değişken |
+| **Haploinsufficiency (HI)** | Tek işlevsel alelin (%50 doz) normal işlev için yetmemesi | Heterozigot LoF → **dominant** hastalık |
+| **Gen dozu** | Hücredeki işlevsel gen ürünü miktarı (≈ alel sayısı × ifade) | HI'da belirleyici değişken |
 | **Klinik eşik** | Normal işlev için gereken asgari doz | Gene özgü; eşik %50'nin üstündeyse HI |
 | **Doz–yanıt eğrisi** | Doz ile fenotipik sonuç arasındaki ilişki | Doğrusal değildir; eşik/plato içerir |
 | **Doz duyarlılığı (dosage sensitivity)** | Genin kopya sayısı değişimine fenotipik duyarlılığı | HI (kayba) + triplosensitivity (artışa) |
@@ -51,7 +51,7 @@ Aşağıdaki tablo, bölüm boyunca kullanacağımız kavramları akış içinde
 
 ### 2.1. Neden "yarım" bazen yetmez? Doz, eşik ve doğrusal olmayan yanıt
 
-Sezgimiz genellikle doğrusaldır: "%50 protein → %50 işlev → hafif etki" diye düşünmeye eğilimliyiz. Biyoloji çoğu zaman bizi bu sezgiden kurtarır, çünkü gen dozu ile **fenotipik sonuç** arasındaki ilişki nadiren düz bir çizgidir. Birçok sistem, geniş bir doz aralığında neredeyse sabit (platolu) çalışır: enzimler genelde substrat doygunluğu ve metabolik yedekle çalıştığı için aktivite %50'ye inse bile akı (flux) büyük ölçüde korunur. Bunun kuramsal gerekçesi metabolik kontrol analizinde verilmiştir: bir yolağın akısı üzerindeki kontrol çok sayıda enzime dağılır, tek bir enzimin duyarlılık katsayısı küçüktür ve heterozigottaki %50'lik aktivite düşüşü çoğu zaman ölçülebilir bir akı değişikliği yaratmaz — resesifliğin yaygınlığı, seçilimle kazanılmış bir "güvenlik payı" değil, enzim ağının kinetik yapısının doğrudan sonucudur (Kacser & Burns, 1981, *Genetics*; [DOI](https://doi.org/10.1093/genetics/97.3-4.639)). Bu tür genlerde doz–yanıt eğrisi erken yükselip platoya oturur; **klinik eşik %50 dozun altında** kalır ve tek allel kaybı sessizdir (Şekil 3.1'daki yeşil eğri). Buna karşılık bazı genlerde sistemin işleyişi tam da o ürünün konsantrasyonuna **keskin biçimde bağlıdır**; eğri neredeyse doğrusaldır veya eşiğe yakın diktir, ve %50 doz eğriyi **eşik bandının altına** sokar (kırmızı eğri). İşte haploinsufficiency, bir genin klinik eşiğinin %50 dozun **üstünde** kaldığı bu ikinci senaryodur.
+Sezgimiz genellikle doğrusaldır: "%50 protein → %50 işlev → hafif etki" diye düşünmeye eğilimliyiz. Biyoloji çoğu zaman bizi bu sezgiden kurtarır, çünkü gen dozu ile **fenotipik sonuç** arasındaki ilişki nadiren düz bir çizgidir. Birçok sistem, geniş bir doz aralığında neredeyse sabit (platolu) çalışır: enzimler genelde substrat doygunluğu ve metabolik yedekle çalıştığı için aktivite %50'ye inse bile akı (flux) büyük ölçüde korunur. Bunun kuramsal gerekçesi metabolik kontrol analizinde verilmiştir: bir yolağın akısı üzerindeki kontrol çok sayıda enzime dağılır, tek bir enzimin duyarlılık katsayısı küçüktür ve heterozigottaki %50'lik aktivite düşüşü çoğu zaman ölçülebilir bir akı değişikliği yaratmaz — resesifliğin yaygınlığı, seçilimle kazanılmış bir "güvenlik payı" değil, enzim ağının kinetik yapısının doğrudan sonucudur (Kacser & Burns, 1981, *Genetics*; [DOI](https://doi.org/10.1093/genetics/97.3-4.639)). Bu tür genlerde doz–yanıt eğrisi erken yükselip platoya oturur; **klinik eşik %50 dozun altında** kalır ve tek alel kaybı sessizdir (Şekil 3.1'daki yeşil eğri). Buna karşılık bazı genlerde sistemin işleyişi tam da o ürünün konsantrasyonuna **keskin biçimde bağlıdır**; eğri neredeyse doğrusaldır veya eşiğe yakın diktir, ve %50 doz eğriyi **eşik bandının altına** sokar (kırmızı eğri). İşte haploinsufficiency, bir genin klinik eşiğinin %50 dozun **üstünde** kaldığı bu ikinci senaryodur.
 
 ![Şekil 3.1 — Doz–yanıt ve eşik: haploinsufficiency neden dominanttır?](assets/sekil_10_doz_yanit_esigi.svg)
 
@@ -73,37 +73,37 @@ Bu mekanizmanın klasik deneysel kanıtı TBX5'tir: Holt-Oram sendromunun fare m
 
 **Morfojenler ve sinyal bileşenleri.** Gelişim sırasında hücreler, bir morfojenin **konsantrasyon gradyanını** okuyarak konumlarına karar verir. Gradyanın kaynağındaki üretim yarıya inerse, gradyan kayar ve eşik-bağımlı hücre kaderi kararları yanlış verilir — bu yüzden gelişimsel sinyal genleri doza duyarlıdır.
 
-**Tümör baskılayıcılar.** Bazı tümör baskılayıcılar için tek allelin kaybı (haploinsufficiency) hücresel koruma eşiğini düşürerek, klasik "iki vuruş" beklenmeden de hastalığa/predispozisyona katkı verir (NF1 örneği, Bölüm 2 §7.1; ayrıntı Bölüm 15).
+**Tümör baskılayıcılar.** Bazı tümör baskılayıcılar için tek alelin kaybı (haploinsufficiency) hücresel koruma eşiğini düşürerek, klasik "iki vuruş" beklenmeden de hastalığa/predispozisyona katkı verir (NF1 örneği, Bölüm 2 §7.1; ayrıntı Bölüm 15).
 
 > **🔬 Deep-dive — Haploinsufficient genler popülasyonda "iz bırakır".** Haploinsufficiency'ye yatkın genler, evrimsel ve genomik olarak ayırt edici özellikler taşır: ortalama olarak daha uzundurlar, kodlayan dizileri ve promotörleri daha korunmuştur, **erken gelişimde** daha yüksek ifade edilirler, daha doku-özgüdürler ve olasılıksal **işlevsel etkileşim ağında** daha çok etkileşim ortağına sahip ve diğer HI genlere ağ içinde daha yakın konumdadırlar (Huang ve ark., 2010, *PLoS Genet*; [DOI](https://doi.org/10.1371/journal.pgen.1001154)). Bu özellikler, hangi genlerin haploinsufficiency riski taşıdığını **önceden** tahmin etmemize olanak tanır ve §4.5'teki popülasyon metriklerinin temelini oluşturur.
 
-### 2.3. Farklı varyantlar, tek ortak son yol: "bir allel sustu"
+### 2.3. Farklı varyantlar, tek ortak son yol: "bir alel sustu"
 
-Haploinsufficiency mekanizmasının tanısal açıdan en önemli özelliği, **çok farklı varyant tipinin aynı niceliksel sonuca** — bir allelin işlevsizleşmesi, yani %50 doz — yakınsamasıdır. Bir nonsense/frameshift varyantı NMD ile transkripti yıkabilir; kanonik bir splice varyantı işlevsiz transkript üretebilir; destabilize edici bir missense protein katlanmasını bozup ürünü fonksiyonel null'a çevirebilir; ve — bu bölüm için kritik olan — **tek ekzonluk veya tüm geni kapsayan bir delesyon (CNV)** alleli fiziksel olarak ortadan kaldırabilir. Hücre açısından sonuç hepsinde aynıdır: geriye tek işlevsel kopya kalır (Şekil 3.3).
+Haploinsufficiency mekanizmasının tanısal açıdan en önemli özelliği, **çok farklı varyant tipinin aynı niceliksel sonuca** — bir alelin işlevsizleşmesi, yani %50 doz — yakınsamasıdır. Bir nonsense/frameshift varyantı NMD ile transkripti yıkabilir; kanonik bir splice varyantı işlevsiz transkript üretebilir; destabilize edici bir missense protein katlanmasını bozup ürünü fonksiyonel null'a çevirebilir; ve — bu bölüm için kritik olan — **tek ekzonluk veya tüm geni kapsayan bir delesyon (CNV)** aleli fiziksel olarak ortadan kaldırabilir. Hücre açısından sonuç hepsinde aynıdır: geriye tek işlevsel kopya kalır (Şekil 3.3).
 
-![Şekil 3.3 — Farklı varyant tipleri, aynı sonuç: "tek allel sustu"](assets/sekil_12_varyant_delesyon_esdegerligi.svg)
+![Şekil 3.3 — Farklı varyant tipleri, aynı sonuç: "tek alel sustu"](assets/sekil_12_varyant_delesyon_esdegerligi.svg)
 
-Bu yakınsamanın doğrudan tanısal sonucu şudur: bir haploinsufficiency gende hastalık ararken **hem nokta varyantlarına (dizileme) hem de doz kayıplarına (delesyon/CNV)** bakmak zorunludur. Yalnız dizileme yapmak, alleli silen büyük delesyonları sistematik olarak kaçırır ve hastaların bir kısmı tanısız kalır (ayrıntı §5). Bu, haploinsufficiency'nin Bölüm 8'deki CNV/yapısal varyant konusuyla en sıkı bağlandığı noktadır.
+Bu yakınsamanın doğrudan tanısal sonucu şudur: bir haploinsufficiency gende hastalık ararken **hem nokta varyantlarına (dizileme) hem de doz kayıplarına (delesyon/CNV)** bakmak zorunludur. Yalnız dizileme yapmak, aleli silen büyük delesyonları sistematik olarak kaçırır ve hastaların bir kısmı tanısız kalır (ayrıntı §5). Bu, haploinsufficiency'nin Bölüm 8'deki CNV/yapısal varyant konusuyla en sıkı bağlandığı noktadır.
 
 ---
 
 ## 3. Varyant tipleri
 
-Aşağıdaki tablo, haploinsufficiency'ye yol açabilen varyant tiplerini ve her birinin "tek alleli nasıl sustur­duğunu" özetler. Dikkat edilmesi gereken nokta, listenin Bölüm 2'deki LoF tablosuyla büyük ölçüde örtüşmesi, ancak buraya **doz kaybı yapan yapısal varyantların** (delesyon/CNV) eklenmesi ve hepsinin **dominant** sonuç bağlamında değerlendirilmesidir.
+Aşağıdaki tablo, haploinsufficiency'ye yol açabilen varyant tiplerini ve her birinin "tek aleli nasıl sustur­duğunu" özetler. Dikkat edilmesi gereken nokta, listenin Bölüm 2'deki LoF tablosuyla büyük ölçüde örtüşmesi, ancak buraya **doz kaybı yapan yapısal varyantların** (delesyon/CNV) eklenmesi ve hepsinin **dominant** sonuç bağlamında değerlendirilmesidir.
 
 **Tablo 3.2 — Varyant tipleri ve tek alelin susturulma yolları**
 
-| Varyant tipi | Tek alleli nasıl susturur? | Tanısal yakalama | Notlar / ilgili bölüm |
+| Varyant tipi | Tek aleli nasıl susturur? | Tanısal yakalama | Notlar / ilgili bölüm |
 |--------------|----------------------------|------------------|------------------------|
 | **Nonsense / frameshift** | PTC → NMD → transkript yok | Dizileme (WES/WGS) | NMD kaçışında DN riski (Bölüm 2, 5) |
 | **Kanonik ±1,2 splice** | Ekzon atlama/intron retansiyonu → işlevsiz transkript | Dizileme; RNA ile doğrula | Çerçeve sonucuna bağlı (Bölüm 7) |
 | **Destabilize / katlanmayı bozan missense** | Protein yıkılır → fonksiyonel null | Dizileme | Fonksiyonel kanıt yardımcı |
 | **Start-loss** | Translasyon başlamaz | Dizileme | Genelde daha zayıf kanıt (Bölüm 2) |
-| **Tek/çok ekzon delesyonu** | Allel kısmen/işlevsiz | **MLPA / array / WGS-CNV** | Dizileme tek başına kaçırabilir |
-| **Tüm gen delesyonu** | Allel fiziksel olarak yok | **Array-CGH / MLPA / WGS-CNV** | Saf doz kaybı; klasik HI |
+| **Tek/çok ekzon delesyonu** | Alel kısmen/işlevsiz | **MLPA / array / WGS-CNV** | Dizileme tek başına kaçırabilir |
+| **Tüm gen delesyonu** | Alel fiziksel olarak yok | **Array-CGH / MLPA / WGS-CNV** | Saf doz kaybı; klasik HI |
 | **Bitişik gen delesyonu (contiguous)** | HI gen + komşu genler birlikte silinir | Array / WGS-CNV | "Contiguous gene syndrome"; ek fenotipler |
 | **Promoter / enhancer kaybı** | Transkripsiyon azalır → düşük doz | WGS / hedefli; çoğu kez kaçar | Noncoding HI (Bölüm 13) |
-| **Translokasyon / inversiyon (geni bölen)** | Geni keser → bir allel işlevsiz | Karyotip/WGS; dengeli ise array kaçırır | Yapısal (Bölüm 8) |
+| **Translokasyon / inversiyon (geni bölen)** | Geni keser → bir alel işlevsiz | Karyotip/WGS; dengeli ise array kaçırır | Yapısal (Bölüm 8) |
 
 > **🧠 Hatırlatıcı:** Haploinsufficiency'de varyant tipini değil, **"kaç işlevsel kopya kaldı?"** sorusunu sorun. Cevap "bir" ve gen doza duyarlıysa → dominant hastalık. Bu yüzden nokta varyantı ile tam gen delesyonu **klinik olarak eşdeğerdir** ve ikisi de aranmalıdır.
 
@@ -113,7 +113,7 @@ Aşağıdaki tablo, haploinsufficiency'ye yol açabilen varyant tiplerini ve her
 
 ### 4.1. Haploinsufficiency neden dominanttır?
 
-Cevap doğrudan §2.1'deki eşik mantığından çıkar: doza duyarlı bir gende **tek** patojen allel bile dozu eşik-altına indirmeye yeter; ikinci allelin de kaybedilmesine gerek yoktur. Bu yüzden heterozigot birey hastadır → kalıtım **otozomal dominant**tir (ya da X'e bağlı gende ona uygun desende). Bunu Bölüm 2'deki resesif LoF mantığıyla yan yana koymak öğreticidir: aynı tip null varyant, tamponlu bir gende ancak homozigot/compound heterozigot olunca hastalık yaparken (resesif), doza duyarlı bir gende tek kopyada hastalık yapar (dominant). Aradaki tek fark genin doz–yanıt eğrisidir.
+Cevap doğrudan §2.1'deki eşik mantığından çıkar: doza duyarlı bir gende **tek** patojen alel bile dozu eşik-altına indirmeye yeter; ikinci alelin de kaybedilmesine gerek yoktur. Bu yüzden heterozigot birey hastadır → kalıtım **otozomal dominant**tir (ya da X'e bağlı gende ona uygun desende). Bunu Bölüm 2'deki resesif LoF mantığıyla yan yana koymak öğreticidir: aynı tip null varyant, tamponlu bir gende ancak homozigot/bileşik heterozigot olunca hastalık yaparken (resesif), doza duyarlı bir gende tek kopyada hastalık yapar (dominant). Aradaki tek fark genin doz–yanıt eğrisidir.
 
 ### 4.2. Aynı varyant tipi neden bir gende dominant, başka gende sessiz?
 
@@ -121,10 +121,10 @@ Cevap doğrudan §2.1'deki eşik mantığından çıkar: doza duyarlı bir gende
 
 ```mermaid
 flowchart TD
-  A["Tek allelde LoF / delesyon<br/>(net etki: %50 işlevsel doz)"] --> B{"Genin klinik eşiği<br/>%50 dozun ÜSTÜNDE mi?"}
-  B -->|"Evet → doz-duyarlı (HI) gen"| C["Tek allel YETMEZ<br/>→ DOMİNANT hastalık (haploinsufficiency)"]
-  B -->|"Hayır → tamponlu gen (yüksek rezerv)"| D["Tek allel YETER<br/>→ heterozigot SAĞLIKLI (taşıyıcı)"]
-  D --> E{"İkinci allel de kaybedilirse?"}
+  A["Tek alelde LoF / delesyon<br/>(net etki: %50 işlevsel doz)"] --> B{"Genin klinik eşiği<br/>%50 dozun ÜSTÜNDE mi?"}
+  B -->|"Evet → doz-duyarlı (HI) gen"| C["Tek alel YETMEZ<br/>→ DOMİNANT hastalık (haploinsufficiency)"]
+  B -->|"Hayır → tamponlu gen (yüksek rezerv)"| D["Tek alel YETER<br/>→ heterozigot SAĞLIKLI (taşıyıcı)"]
+  D --> E{"İkinci alel de kaybedilirse?"}
   E -->|"Evet (homozigot/compound het)"| F["RESESİF hastalık (Bölüm 2)"]
   C --> G["Değişken penetrans/ekspresivite olabilir (§4.4)"]
 ```
@@ -137,7 +137,7 @@ Doza duyarlı genlerin büyük kısmı transkripsiyon faktörleri, kromatin düz
 
 ### 4.4. Haploinsufficiency neden değişken penetrans ve ekspresivite gösterir?
 
-Haploinsufficiency, Bölüm 1'de tanıtılan **eksik penetrans ve değişken ekspresivite** kavramlarının en sık zeminlerinden biridir, ve bunun nedeni yine eşik mantığında gizlidir. Doz tam eşiğin **kıyısına** düştüğünde, sistemin eşiğin altında mı üstünde mi kalacağını belirleyen küçük etkenler öne çıkar: aynı yolaktaki **modifiye edici** varyantlar, ikinci (sağlam) allelin ifade düzeyindeki bireysel farklar, çevresel etkenler ve gelişim sırasındaki **stokastik (rastlantısal) gen ifadesi gürültüsü**. Eşikten uzak (çok düşük doz) varyantlarda fenotip daha öngörülebilir ve ağırken, eşiğe yakın doz bırakanlarda penetrans eksik, ekspresivite değişken olur. Bu, neden aynı ailede aynı HI varyantını taşıyan bireylerin farklı şiddette etkilenebildiğini açıklar (örn. Holt-Oram'da aile içi değişkenlik; Bruneau ve ark., 2001; [DOI](https://doi.org/10.1016/s0092-8674(01)00493-7)).
+Haploinsufficiency, Bölüm 1'de tanıtılan **eksik penetrans ve değişken ekspresivite** kavramlarının en sık zeminlerinden biridir, ve bunun nedeni yine eşik mantığında gizlidir. Doz tam eşiğin **kıyısına** düştüğünde, sistemin eşiğin altında mı üstünde mi kalacağını belirleyen küçük etkenler öne çıkar: aynı yolaktaki **modifiye edici** varyantlar, ikinci (sağlam) alelin ifade düzeyindeki bireysel farklar, çevresel etkenler ve gelişim sırasındaki **stokastik (rastlantısal) gen ifadesi gürültüsü**. Eşikten uzak (çok düşük doz) varyantlarda fenotip daha öngörülebilir ve ağırken, eşiğe yakın doz bırakanlarda penetrans eksik, ekspresivite değişken olur. Bu, neden aynı ailede aynı HI varyantını taşıyan bireylerin farklı şiddette etkilenebildiğini açıklar (örn. Holt-Oram'da aile içi değişkenlik; Bruneau ve ark., 2001; [DOI](https://doi.org/10.1016/s0092-8674(01)00493-7)).
 
 ### 4.5. Bir genin haploinsufficient olduğunu nasıl anlarız? Popülasyon metrikleri
 
@@ -147,7 +147,7 @@ Bu nokta-varyant temelli metriklere ek olarak, doğrudan **delesyon (kopya kayb�
 
 ![Şekil 3.4 — Dozaj duyarlılığı spektrumu ve onu ölçen metrikler](assets/sekil_13_dozaj_duyarlilik_spektrumu.svg)
 
-> **🟦 Klinikte dikkat — metrikler "gen düzeyinde ipucu"dur, varyant kanıtı değil:** Yüksek pLI / düşük LOEUF / yüksek pHaplo, "bu gende tek allel kaybı patojen *olabilir*" hipotezini güçlendirir; ama **tek bir varyantın** patojenitesini tek başına kanıtlamaz. Ayrıca **resesif** LoF genleri (her iki allel gerekir) çoğu kez "tolerant" görünür — metriğin düşük olması haploinsufficiency'yi dışlamaz, yalnızca önceliklendirir. Metrikler küçük genlerde (az beklenen varyant) güvenilirliğini yitirir. Aynı temkin küreli veri tabanları için de geçerlidir: **ClinGen Dozaj Haritası'nda bir genin bulunmaması, o genin doza duyarlı olmadığı anlamına gelmez** — yalnızca henüz küre edilmediğini gösterir. Nitekim haploinsufficiency'nin ders kitabı örneği olan *PAX6*'nın ClinGen **gen** dozaj listesinde kaydı yoktur; doz duyarlılığı birincil literatürle sağlam biçimde gösterilmiştir (§7.1).
+> **🟦 Klinikte dikkat — metrikler "gen düzeyinde ipucu"dur, varyant kanıtı değil:** Yüksek pLI / düşük LOEUF / yüksek pHaplo, "bu gende tek alel kaybı patojen *olabilir*" hipotezini güçlendirir; ama **tek bir varyantın** patojenitesini tek başına kanıtlamaz. Ayrıca **resesif** LoF genleri (her iki alel gerekir) çoğu kez "tolerant" görünür — metriğin düşük olması haploinsufficiency'yi dışlamaz, yalnızca önceliklendirir. Metrikler küçük genlerde (az beklenen varyant) güvenilirliğini yitirir. Aynı temkin küreli veri tabanları için de geçerlidir: **ClinGen Dozaj Haritası'nda bir genin bulunmaması, o genin doza duyarlı olmadığı anlamına gelmez** — yalnızca henüz küre edilmediğini gösterir. Nitekim haploinsufficiency'nin ders kitabı örneği olan *PAX6*'nın ClinGen **gen** dozaj listesinde kaydı yoktur; doz duyarlılığı birincil literatürle sağlam biçimde gösterilmiştir (§7.1).
 
 ### 4.6. Haploinsufficiency'nin ayna görüntüsü: triplosensitivity
 
@@ -170,11 +170,11 @@ Haploinsufficiency'nin tanısal "imzası", §2.3'te gördüğümüz gibi, hastal
 | **Long-read WGS** | ✅ Büyük del, dengeli/karmaşık SV, geni bölen yeniden düzenlenmeler, faz | Maliyet/erişim; standardizasyon gelişmekte |
 | **Array-CGH / SNP array** | ✅ **Tam/büyük gen delesyonu** (HI'ın klasik testi); SNP array UPD/AOH | Tek nokta varyantını ve eşik altı küçük delesyonu göremez |
 | **MLPA** | ✅ **Hedef gende ekzon düzeyi del/dup** (örn. PAX6, NF1, çoğu HI gen panelinde) | Yalnız hedef lokus; dizi/nokta varyantı vermez |
-| **RNA-seq** | ✅ Allel dengesizliği (NMD), splice etkisini gösterir → "%50 doz"u doğrular | İlgili dokuda ekspresyon ve uygun örnek gerekir |
+| **RNA-seq** | ✅ Alel dengesizliği (NMD), splice etkisini gösterir → "%50 doz"u doğrular | İlgili dokuda ekspresyon ve uygun örnek gerekir |
 | **Methylation array** | ⚠️ Doğrudan değil | HI'ı göstermez (imprinting/epigenetik için, Bölüm 10) |
 | **Karyotip** | ⚠️ Yalnız çok büyük delesyon/dengeli yeniden düzenleme | Çözünürlük düşük; gen düzeyi delesyonu kaçırır |
 
-> **Bu mekanizmayı hangi test yakalar? (özet):** Haploinsufficiency'de belirleyici soru "kaç test isteneceği" değil, **iki varyant sınıfının da kapsanıp kapsanmadığıdır**: nokta LoF varyantları (dizileme ile) ve alleli silen doz kayıpları (kopya sayısı analizi ile). Günümüzde yeterli kapsama ve doğrulanmış bir CNV çağırma hattı olan **WES/WGS, çoğu olguda her iki sınıfı tek analizde** karşılayabilir; bu durumda ayrıca array veya MLPA istemek gerekmez. Buna karşılık kullanılan platform CNV'yi güvenilir biçimde çağıramıyorsa ya da ilgili bölge kötü kapsanıyorsa, doz analizi (**MLPA / array-CGH / WGS-CNV**) ayrıca planlanmalıdır. Bunun **basamaklı mı yoksa eş zamanlı mı** yapılacağı tek bir kurala bağlanamaz; laboratuvarın yöntem yetkinliği, ülke ve geri ödeme koşulları, maliyet-etkinlik ve fenotipin aciliyeti birlikte belirler. Değişmeyen ilke şudur: **CNV'si değerlendirilmemiş bir dizileme sonucu, HI gende negatif olsa bile tanıyı dışlamaz** (Şekil 3.3'deki "tanısal sonuç" kutusu).
+> **Bu mekanizmayı hangi test yakalar? (özet):** Haploinsufficiency'de belirleyici soru "kaç test isteneceği" değil, **iki varyant sınıfının da kapsanıp kapsanmadığıdır**: nokta LoF varyantları (dizileme ile) ve aleli silen doz kayıpları (kopya sayısı analizi ile). Günümüzde yeterli kapsama ve doğrulanmış bir CNV çağırma hattı olan **WES/WGS, çoğu olguda her iki sınıfı tek analizde** karşılayabilir; bu durumda ayrıca array veya MLPA istemek gerekmez. Buna karşılık kullanılan platform CNV'yi güvenilir biçimde çağıramıyorsa ya da ilgili bölge kötü kapsanıyorsa, doz analizi (**MLPA / array-CGH / WGS-CNV**) ayrıca planlanmalıdır. Bunun **basamaklı mı yoksa eş zamanlı mı** yapılacağı tek bir kurala bağlanamaz; laboratuvarın yöntem yetkinliği, ülke ve geri ödeme koşulları, maliyet-etkinlik ve fenotipin aciliyeti birlikte belirler. Değişmeyen ilke şudur: **CNV'si değerlendirilmemiş bir dizileme sonucu, HI gende negatif olsa bile tanıyı dışlamaz** (Şekil 3.3'deki "tanısal sonuç" kutusu).
 
 ---
 
@@ -215,7 +215,7 @@ PAX6, göz gelişiminin "ana düzenleyici" transkripsiyon faktörüdür ve **doz
 TBX5 haploinsufficiency'si, kalp (septal defektler, ileti bozuklukları) ve ön ekstremite (radial ray) anomalileriyle giden otozomal dominant Holt-Oram sendromuna yol açar. Fare modeli, %50 Tbx5 dozunun *ANF* ve *connexin 40* gibi hedef genleri yetersiz uyardığını doğrudan göstererek "TF dozu → hedef ifade → fenotip" zincirini kanıtlamıştır (Bruneau ve ark., 2001; [DOI](https://doi.org/10.1016/s0092-8674(01)00493-7)). *Öğreti:* haploinsufficiency soyut bir kavram değil, hedef gen ifadesinde ölçülebilen niceliksel bir yetersizliktir; aile içi değişken ekspresivite de eşiğe yakınlıkla açıklanır (§4.4).
 
 ### 7.3. NF1 — dominant tümör baskılayıcı haploinsufficiency'si
-Nörofibromin (NF1) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice) ve **tam gen/ekzon delesyonları** tek allel kaybıyla dominant nörofibromatozis tip 1'e yol açar (Bölüm 2 §7.1). *Öğreti:* hem nokta varyantları hem büyük delesyonlar aynı gende hastalık yaptığından tanısal planın **dizi varyantlarının yanı sıra doz kayıplarını da kapsaması** gerekir; bu, CNV çağırabilen bir dizileme hattıyla tek analizde sağlanabileceği gibi ayrı bir MLPA/array ile de sağlanabilir (§5). Ayrıca tümörlerde ikinci allelin somatik kaybı (LOH) "ikinci vuruş" mantığını ekler (Bölüm 15).
+Nörofibromin (NF1) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice) ve **tam gen/ekzon delesyonları** tek alel kaybıyla dominant nörofibromatozis tip 1'e yol açar (Bölüm 2 §7.1). *Öğreti:* hem nokta varyantları hem büyük delesyonlar aynı gende hastalık yaptığından tanısal planın **dizi varyantlarının yanı sıra doz kayıplarını da kapsaması** gerekir; bu, CNV çağırabilen bir dizileme hattıyla tek analizde sağlanabileceği gibi ayrı bir MLPA/array ile de sağlanabilir (§5). Ayrıca tümörlerde ikinci alelin somatik kaybı (LOH) "ikinci vuruş" mantığını ekler (Bölüm 15).
 
 ### 7.4. Bitişik gen (contiguous gene) delesyonları: WAGR örneği
 11p13 bölgesinde PAX6 ile komşu WT1 genini birlikte kapsayan delesyonlar, izole anirididen farklı olarak **WAGR sendromuna** (Wilms tümörü, Aniridi, Genitoüriner anomaliler, gelişimsel/zihinsel Gerilik) yol açar (Lima Cunha ve ark., 2019; [DOI](https://doi.org/10.3390/genes10121050)). *Öğreti:* delesyonun **boyutu ve içeriği** fenotipi belirler — tek genin HI'ı bir tabloyu, komşu HI genlerin birlikte kaybı daha geniş bir sendromu üretir. Bu, aniridili bir çocukta delesyonun WT1'i içerip içermediğini belirlemenin (Wilms tümörü tarama kararı için) neden hayati olduğunu gösterir; ve neden array/MLPA'nın izole nokta-dizilemesine üstün olduğunu vurgular.

@@ -11,7 +11,7 @@
 ## Öğrenme hedefleri
 
 Bu bölümü tamamlayan okuyucu:
-1. ACMG/AMP'nin beş sınıflı terminolojisini ve kanıt kategorilerini (popülasyon, hesaplamalı, fonksiyonel, segregasyon, de novo, allelik) tanımlar.
+1. ACMG/AMP'nin beş sınıflı terminolojisini ve kanıt kategorilerini (popülasyon, hesaplamalı, fonksiyonel, segregasyon, de novo, alelik) tanımlar.
 2. Kriter güç düzeylerinin (destekleyici / orta / güçlü / çok güçlü) olasılık oranı ve puan karşılıklarını açıklar ve sınıflandırmanın neden bir olasılık ifadesi olduğunu gerekçelendirir.
 3. Mekanizma bilgisinin hangi kriteri açtığını, hangisini zayıflattığını ve hangisini geçersiz kıldığını mekanizma–kriter matrisi üzerinden yorumlar.
 4. PVS1'in mekanizma ön koşulunu ve güç düşürme basamaklarını açıklar; verilen bir null varyantta doğru basamağı seçer.
@@ -142,7 +142,7 @@ Kapı açıksa varyantın gen içindeki konumu gücü belirler. NMD'ye giren erk
 
 ![Şekil 16.3 — Mekanizma → kriter matrisi: kitabın on dört bölümü tek tabloda](assets/sekil_55_mekanizma_kriter_matrisi.svg)
 
-Matrisin okunma biçimi şudur. **İşlev kaybı ve yetersiz doz** satırı, çerçevenin varsayılan hâlidir — kriterler tasarlandıkları gibi çalışır. **İşlev kazanımı, dominant-negatif ve neomorfik** satırlarında PVS1 kapısı kapalıdır; buna karşılık hotspot/arayüz kümelenmesi PM1'i güçlendirir ve mekanizmayı doğrudan ölçen fonksiyonel testler PS3'ü değerli kılar; hesaplamalı öngörünün gücü ise düşer. **Splicing** satırında hem PVS1 (uyarlanmış akışla) hem PS3 (RNA analizi) hem PP3 (kalibre splice öngörüsü) güçlenir — bu, kitapta kanıtın en zengin olduğu mekanizmadır. **CNV, mitokondriyal ve tekrar genişlemesi** satırlarında çerçevenin kendisi yetersizdir ve özel puanlama sistemleri devreye girer. **Mozaiklik** satırında segregasyon anlamını yitirir ve de novo kanıtı dikkatle kullanılmalıdır. **Kodlamayan** satırında kriterlerin çoğu ya uygulanamaz ya zayıflar; ağırlık fonksiyonel kanıta kayar. **Digenik** satırında tek-lokus segregasyon analizi yanıltıcıdır. **Allelik seri** satırında ise bütün konum-temelli kriterler "hangi hastalık için?" sorusuyla koşullanır.
+Matrisin okunma biçimi şudur. **İşlev kaybı ve yetersiz doz** satırı, çerçevenin varsayılan hâlidir — kriterler tasarlandıkları gibi çalışır. **İşlev kazanımı, dominant-negatif ve neomorfik** satırlarında PVS1 kapısı kapalıdır; buna karşılık hotspot/arayüz kümelenmesi PM1'i güçlendirir ve mekanizmayı doğrudan ölçen fonksiyonel testler PS3'ü değerli kılar; hesaplamalı öngörünün gücü ise düşer. **Splicing** satırında hem PVS1 (uyarlanmış akışla) hem PS3 (RNA analizi) hem PP3 (kalibre splice öngörüsü) güçlenir — bu, kitapta kanıtın en zengin olduğu mekanizmadır. **CNV, mitokondriyal ve tekrar genişlemesi** satırlarında çerçevenin kendisi yetersizdir ve özel puanlama sistemleri devreye girer. **Mozaiklik** satırında segregasyon anlamını yitirir ve de novo kanıtı dikkatle kullanılmalıdır. **Kodlamayan** satırında kriterlerin çoğu ya uygulanamaz ya zayıflar; ağırlık fonksiyonel kanıta kayar. **Digenik** satırında tek-lokus segregasyon analizi yanıltıcıdır. **Alelik seri** satırında ise bütün konum-temelli kriterler "hangi hastalık için?" sorusuyla koşullanır.
 
 ⚠️ Bu matris **pedagojik bir özettir**, normatif bir tablo değildir; her gen ve hastalık için geçerli olan, ilgili uzman panelinin yayımlanmış spesifikasyonudur.
 
@@ -274,7 +274,7 @@ Bayes çerçevesinin en önemli varsayımı, kanıt parçalarının **birbirinde
 
 Çerçeve, hem patojenite hem benignlik lehine kanıtın bir arada bulunabileceğini kabul eder ve bu durumların olası patojenik, olası benign veya VUS sonucu verebileceği gösterilmiştir (Tavtigian ve ark., 2018). Uygulamadaki eğilim ise karşıt kanıtı görmezden gelmektir — özellikle fenotip güçlü olduğunda. Oysa karşıt kanıt, toplam ağırlıktan düşülmelidir; aksi hâlde rapor, elindeki veriden daha kesin görünür.
 
-> **🟦 Klinikte dikkat — "Fenotip çok uyuyor, o hâlde patojenik olmalı" refleksi:** Fenotip uyumu PP4 ile sınırlı ve destekleyici bir kanıttır; sınıflandırmayı tek başına taşıyamaz. Üstelik Bölüm 15'te gördüğümüz gibi, allelik seri taşıyan genlerde fenotip uyumu **hangi hastalık varlığının** değerlendirildiğini belirlemek için kullanılmalı, kanıtı büyütmek için değil. Fenotibin güçlü olması, eksik kanıtın yerine geçmez; yalnızca hangi ek veriyi üretmeniz gerektiğini söyler.
+> **🟦 Klinikte dikkat — "Fenotip çok uyuyor, o hâlde patojenik olmalı" refleksi:** Fenotip uyumu PP4 ile sınırlı ve destekleyici bir kanıttır; sınıflandırmayı tek başına taşıyamaz. Üstelik Bölüm 15'te gördüğümüz gibi, alelik seri taşıyan genlerde fenotip uyumu **hangi hastalık varlığının** değerlendirildiğini belirlemek için kullanılmalı, kanıtı büyütmek için değil. Fenotibin güçlü olması, eksik kanıtın yerine geçmez; yalnızca hangi ek veriyi üretmeniz gerektiğini söyler.
 
 ---
 

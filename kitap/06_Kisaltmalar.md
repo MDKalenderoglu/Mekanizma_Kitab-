@@ -59,7 +59,7 @@ Bu listede kitap boyunca kullanılan kısaltmalar toplanmıştır. Her kısaltma
 | RP-PCR | repeat-primed PCR |
 | ddPCR | droplet digital PCR |
 | RNA-seq | RNA sequencing — transkriptom dizileme |
-| MPRA | massively parallel reporter assay |
+| MPRA | massively paralel reporter assay |
 | MAVE | multiplexed assay of variant effect — çoklu-varyant işlev analizi |
 | HPO | Human Phenotype Ontology — İnsan Fenotip Ontolojisi |
 | EEG | elektroensefalografi |

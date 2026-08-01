@@ -14,7 +14,7 @@ Bu bölümü tamamlayan okuyucu:
 3. Okuma çerçevesi kuralını (in-frame vs out-of-frame) Duchenne/Becker örneğiyle açıklayabilir.
 4. "LoF her zaman patojen midir?" sorusunu constraint metrikleri (pLI, LOEUF) ve gen-hastalık mekanizması üzerinden yanıtlayabilir.
 5. Aynı gendeki LoF'un neden bazen dominant (haploinsufficiency) bazen resesif olduğunu gerekçelendirebilir.
-6. Hipomorfik allel ve rezidüel fonksiyon kavramını genotip-fenotip korelasyonuyla (PKU) bağlayabilir.
+6. Hipomorfik alel ve rezidüel fonksiyon kavramını genotip-fenotip korelasyonuyla (PKU) bağlayabilir.
 7. PVS1 kriterini ClinGen SVI karar ağacına göre, gücünü doğru ayarlayarak uygulayabilir.
 
 ---
@@ -25,17 +25,25 @@ Bu bölümü tamamlayan okuyucu:
 
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
-| **Loss-of-function (LoF)** | Gen ürününün işlevinin kısmen/tamamen kaybı | Mekanizmanın yönü "azalma"dır; doz/eşik mantığı geçerli |
-| **Null allel (amorf)** | Hiç işlevsel ürün üretmeyen allel | En şiddetli LoF ucu (tam fonksiyon kaybı) |
-| **Hipomorfik allel** | Azalmış ama sıfır olmayan işlev | Rezidüel fonksiyon fenotipi hafifletir |
-| **Rezidüel fonksiyon** | Varyant sonrası kalan işlev miktarı | Genotip–fenotip korelasyonunun motoru |
-| **Nonsense-mediated decay (NMD)** | PTC taşıyan mRNA'yı yıkan gözetim mekanizması | "Transkript yok" → gerçek null; kaçarsa → truncated protein |
-| **NMD escape** | PTC'nin NMD'den kurtulması (genelde son ekzon) | Truncated protein üretilir → DN/GoF riski (Bölüm 5) |
-| **Truncated protein** | Erken sonlanmış kısa protein | İşlevsiz, yarı-işlevsel veya toksik olabilir |
-| **Haploinsufficiency** | Tek işlevsel allelin (%50 doz) yetersizliği | Heterozigot LoF → dominant hastalık (Bölüm 3) |
-| **Resesif LoF** | Hastalık için iki allelin de kaybı gerekir | Heterozigot taşıyıcı sağlıklı |
-| **Compound heterozigot** | Aynı gende iki farklı patojen allel (trans) | Resesif hastalıkların büyük kısmı; faz şart |
-| **LoF intoleransı** | Genin LoF'a popülasyon düzeyinde dayanıksızlığı | "Bu gende LoF beklenen mekanizma mı?" |
+| **Loss-of-function (LoF)** | Gen ürününün **miktarını veya biyolojik aktivitesini** kısmen ya da tamamen azaltan işlevsel sonuç | Mekanizmanın yönü "azalma"dır; klinik sonuç alelik gereksinime, doz duyarlılığına ve kalan işleve bağlıdır |
+| **Null (amorfik) alel** | İlgili biyolojik bağlamda **işlevsel katkısı sıfır** olan alel; RNA/protein hiç oluşmayabilir ya da oluşan ürün tümüyle işlevsiz olabilir | Moleküler işlev kaybının **tam kayıp ucu** — ancak mutlaka en ağır klinik fenotip demek değildir |
+| **Hipomorfik alel** | Yabanıl tipe göre azalmış ama **sıfır olmayan** işlev | Rezidüel işlev sıklıkla daha hafif, geç başlangıçlı veya tam olmayan fenotiple ilişkilidir |
+| **Rezidüel işlev** | Mutant alelin ya da genotipin, belirli bir biyolojik bağlamda **koruduğu** işlev düzeyi | Genotip–fenotip korelasyonunun ana belirleyicilerinden; dokuya, izoforma ve kullanılan teste göre değişebilir |
+| **Nonsense-mediated decay (NMD)** | Belirli koşulları karşılayan PTC içeren transkriptlerin **düzeyini azaltan** RNA gözetim mekanizması | Mutant transkript ve kesilmiş protein miktarını azaltır; **"transkript tümüyle yok" sonucu otomatik çıkarılamaz** |
+| **NMD'den kaçış** | PTC içeren transkriptin yeterince yıkılmaması ve translasyona devam edebilmesi | Kesilmiş protein oluşur; sonuç null, hipomorfik, dominant-negatif, GoF veya neomorfik olabilir (Bölüm 4, 5) |
+| **Kesilmiş (truncated) protein** | Normal C-terminal dizisinin bir bölümünü kaybetmiş, erken sonlanmış protein | İşlevsiz, kısmen işlevli, kararsız, dominant-negatif ya da toksik olabilir |
+| **Haploinsufficiency** | Tek işlevsel alelin ürettiği gen ürününün **normal fenotipi sürdürmeye yetmemesi** | Heterozigot LoF dominant hastalık yapabilir; gerçek doz zorunlu olarak tam %50 değildir (Bölüm 3) |
+| **Resesif LoF mekanizması** | Hastalık için **iki alelin birleşik işlevinin** hastalık eşiğinin altına düşmesi | İkisinin de tam null olması şart değildir: null/null, null/hipomorf ve hipomorf/hipomorf genotipler hastalık yapabilir |
+| **Bileşik heterozigot** | Aynı gende iki farklı varyantın karşı homologlarda (*trans*) bulunması | Bir **genotip tanımıdır**; varyantların patojen olduğunu kendiliğinden göstermez — her ikisi ayrıca değerlendirilmelidir |
+| **LoF intoleransı (pLoF constraint)** | Referans popülasyonda bir genin, beklenene göre **heterozigot** öngörülen LoF varyantlarından arınmış olması | "Bu gen heterozigot LoF'a karşı negatif seçilim gösteriyor mu?" sorusunu yanıtlar — LoF'un o hastalık için mekanizma olduğunu kanıtlamaz (Bölüm 1 §1.H) |
+
+Tablodaki üç terim, kitabın geri kalanında sürekli karşınıza çıkacağı için baştan netleştirilmelidir.
+
+**"LoF" iki ayrı düzeyde kullanılır ve bunları karıştırmak yorumlama hatasının en sık kaynağıdır.** Birincisi **varyant etkisidir**: varyant, ürünün miktarını ya da aktivitesini azaltır. İkincisi **hastalık mekanizmasıdır**: azalmış gen işlevi *o hastalığa* neden olur. Bir varyant laboratuvar deneyinde işlevi azaltabilir, ama ilgili gen–hastalık ilişkisinde LoF yerleşik mekanizma olmayabilir. Dahası, "kesici" görünen bir nonsense veya frameshift varyantı NMD'den kaçarak dominant-negatif ya da bambaşka bir anormal ürün etkisi üretebilir (Bölüm 4, 5). Bu yüzden mekanizma dili, **azalmış ürün düzeyi**, **değişmiş ürün dizisi** ve **aşağı akım işlevsel sonuç** kavramlarını birbirinden ayırmalıdır.
+
+**Null alel, "hiç ürün üretmeyen alel" demek değildir.** Belirleyici olan üretim değil, **işlevsel katkının sıfır olmasıdır**. Alt tipleri ayırmak yararlıdır: *RNA-null* (anlamlı transkript oluşmaz), *protein-null* (protein oluşmaz), *işlevsel null* (protein oluşur ama aktivitesi sıfırdır). Üçü de aynı genetik davranışı gösterir. Buna bağlı ikinci bir düzeltme: null alel, moleküler işlev kaybının **en uç noktasıdır**, ama **klinik olarak en ağır fenotip anlamına gelmez** — dominant-negatif ya da toksik işlev kazanımı varyantları null alelden daha ağır tablolar yapabilir (Bölüm 5'teki OI örneği bunun en açık kanıtıdır).
+
+**Hipomorfi de yalnızca "az protein" demek değildir.** Azalma birden çok yoldan olabilir: daha az RNA/protein üretimi, normal miktarda ama düşük aktiviteli protein, azalmış kararlılık, hücre içi yerleşim kusuru ya da proteinin yalnızca *bazı* işlevlerinin kaybı. Tanımlayıcı ölçüt şudur: işlevsel etki yabanıl tipten düşük, null alelden yüksektir.
 
 ---
 
@@ -67,7 +75,7 @@ Bu ayrım klinik olarak belirleyicidir, çünkü:
 - **NMD (+):** Transkript yok → "temiz" LoF → fenotip haploinsufficiency (dominant gende) veya resesif LoF mantığıyla; toksik protein riski düşük.
 - **NMD (−) / escape:** Truncated protein üretilir → işlevsiz, yarı-işlevsel **veya dominant-negatif/toksik** olabilir → mekanizma sınıfı kayabilir (Bölüm 5) ve PVS1 gücü düşer (§6).
 
-> **🔬 Deep-dive — NMD verimliliği mutlak değildir.** NMD'nin etkinliği transkripte, hücre tipine ve fizyolojik duruma göre değişir; bazı transkriptler kısmen kaçar. Bu nedenle *in silico* "NMD bekleniyor" tahmini, mümkünse **RNA çalışmasıyla** (allel-spesifik ekspresyon) doğrulanmalıdır.
+> **🔬 Deep-dive — NMD verimliliği mutlak değildir.** NMD'nin etkinliği transkripte, hücre tipine ve fizyolojik duruma göre değişir; bazı transkriptler kısmen kaçar. Bu nedenle *in silico* "NMD bekleniyor" tahmini, mümkünse **RNA çalışmasıyla** (alel-spesifik ekspresyon) doğrulanmalıdır.
 
 ### 2.3. Okuma çerçevesi (reading-frame) kuralı
 
@@ -89,7 +97,7 @@ Bu "okuma çerçevesi hipotezi" LoF biyolojisinin klasik örneğidir ve iki ders
 | **Frameshift (indel)** | Çerçeve kayması → downstream PTC | Çoğunlukla NMD | Son ekzonda kaçabilir |
 | **Kanonik ±1,2 splice** | Ekzon atlama / intron retansiyonu | Sonuç çerçeveye bağlı | RNA ile doğrulama ideal (Bölüm 7) |
 | **Start-loss** | Translasyon başlamaz / alternatif AUG | NMD dışı | Belirsizlik; fonksiyonel kanıt yardımcı |
-| **Büyük/tam gen delesyonu** | Allel tümüyle yok | — | Saf doz kaybı (array/MLPA) |
+| **Büyük/tam gen delesyonu** | Alel tümüyle yok | — | Saf doz kaybı (array/MLPA) |
 | **Tek/çok ekzon delesyonu** | Çerçeveye bağlı LoF | — | DMD'de çerçeve kuralı belirleyici |
 | **Promoter/enhancer kaybı** | Transkripsiyon azalır/durur | — | WES kaçırır (Bölüm 13) |
 | **İn-frame indel** | Domain bütünlüğü bozulur | NMD dışı | LoF veya DN olabilir |
@@ -104,7 +112,7 @@ Bu "okuma çerçevesi hipotezi" LoF biyolojisinin klasik örneğidir ve iki ders
 LoF tahmini (pLoF), patojenite ile eşanlamlı **değildir**. Patojenite için en az şu koşullar gerekir:
 - **Gen, LoF'a duyarlı olmalı** (LoF gerçekten o gen için hastalık mekanizması olmalı).
 - **Varyant gerçekten null etki yapmalı** (NMD, son ekzon, doku-özgü ekspresyon, alternatif transkriptler dikkate alınmalı).
-- **Kalıtım modeli uymalı** (dominant haploinsufficiency mi yoksa resesif mi? Tek allel mi, iki allel mi?).
+- **Kalıtım modeli uymalı** (dominant haploinsufficiency mi yoksa resesif mi? Tek alel mi, iki alel mi?).
 
 > **🔬 Deep-dive — Sağlıklı insanlarda da LoF vardır.** Tipik bir insan genomu çok sayıda predicted-LoF varyantı taşır ve genler inaktivasyona tolerans açısından geniş bir spektrumda yer alır; LoF'a **kısıtlı (constrained)** genler hastalıkla ilişki için zenginleşmiştir (Karczewski ve ark., 2020, *Nature*; [DOI](https://doi.org/10.1038/s41586-020-2308-7)). Yani "bir LoF varyantı bulundu" demek, ilgili genin LoF-intoleran olduğu gösterilmeden patojenite anlamına gelmez.
 
@@ -120,7 +128,7 @@ Bu metriklerin ikisi de aynı mantığın nicel karşılığıdır: bir gende sa
 | **LOEUF** | Gözlenen/beklenen pLoF üst güven sınırı | Düşük LOEUF → LoF intoleran gen |
 | **HI skoru / ClinGen dozaj** | Tek kopya kaybının patojenitesi | CNV yorumuna bağlanır (Bölüm 3, 8) |
 
-> ⚠️ Bu metrikler **gen düzeyinde** önceliklendirme aracıdır; tek bir varyantın patojenitesini tek başına kanıtlamaz. Ayrıca **resesif LoF genleri** (her iki allel gerekir) genellikle "intoleran" görünmez — metriklerin doğru yorumlanması için kritik bir nokta.
+> ⚠️ Bu metrikler **gen düzeyinde** önceliklendirme aracıdır; tek bir varyantın patojenitesini tek başına kanıtlamaz. Ayrıca **resesif LoF genleri** (her iki alel gerekir) genellikle "intoleran" görünmez — metriklerin doğru yorumlanması için kritik bir nokta.
 
 ### 4.3. Aynı gendeki LoF neden bazen dominant, bazen resesif?
 
@@ -128,10 +136,10 @@ Bu metriklerin ikisi de aynı mantığın nicel karşılığıdır: bir gende sa
 
 ```mermaid
 flowchart TD
-  A["Heterozigot LoF varyantı (tek allel)"] --> B{"Tek işlevsel allel (%50 doz) yeterli mi?"}
+  A["Heterozigot LoF varyantı (tek alel)"] --> B{"Tek işlevsel alel (%50 doz) yeterli mi?"}
   B -->|"Hayır → doz duyarlı gen"| C["Haploinsufficiency<br/>DOMİNANT hastalık (Bölüm 3)"]
   B -->|"Evet → yeterli rezerv var"| D["Heterozigot SAĞLIKLI (taşıyıcı)"]
-  D --> E{"İkinci allel de kaybedilirse?"}
+  D --> E{"İkinci alel de kaybedilirse?"}
   E -->|"Evet (homozigot/compound het)"| F["RESESİF hastalık"]
 ```
 
@@ -157,11 +165,11 @@ Enzimlerin neden bu kadar sık "rezervli" davrandığının klasik açıklaması
 
 > "Son ekzon = her zaman hafif/benign" varsayımı bu nedenle **yanlıştır** (Şekil 2.1B).
 
-### 4.6. Rezidüel fonksiyon ve allelik spektrum
+### 4.6. Rezidüel fonksiyon ve alelik spektrum
 
-![Şekil 2.3 — LoF allelik spektrumu: rezidüel fonksiyon → fenotip](assets/sekil_09_lof_spektrum.svg)
+![Şekil 2.3 — LoF alelik spektrumu: rezidüel fonksiyon → fenotip](assets/sekil_09_lof_spektrum.svg)
 
-Resesif LoF hastalıklarında fenotip ağırlığı, kalan işlevle ters orantılı bir **spektrum** oluşturur (Şekil 2.3). Compound heterozigotlarda pratik kural: **fenotipi genellikle daha hafif (rezidüel işlevi daha yüksek) allel belirler** — "daha iyi allel kazanır". Bu, PKU'da klasik PKU → hafif PKU → hafif hiperfenilalaninemi spektrumunun temelidir (§7.4).
+Resesif LoF hastalıklarında fenotip ağırlığı, kalan işlevle ters orantılı bir **spektrum** oluşturur (Şekil 2.3). Bileşik heterozigotlarda pratik kural: **fenotipi genellikle daha hafif (rezidüel işlevi daha yüksek) alel belirler** — "daha iyi alel kazanır". Bu, PKU'da klasik PKU → hafif PKU → hafif hiperfenilalaninemi spektrumunun temelidir (§7.4).
 
 ---
 
@@ -176,7 +184,7 @@ Resesif LoF hastalıklarında fenotip ağırlığı, kalan işlevle ters orantı
 | **Long-read WGS** | ✅ Büyük del/kompleks SV, faz (trans/cis) | Maliyet/erişim; standartizasyon gelişmekte |
 | **Array-CGH / SNP array** | ✅ Tam/büyük gen delesyonu; SNP array UPD | Tek ekzon altı çözünürlük ve SNV göremez |
 | **MLPA** | ✅ Ekzon düzeyi del/dup (DMD, NF1) | Yalnız hedef lokus; dizi bilgisi yok |
-| **RNA-seq** | ✅ NMD'yi (allel dengesizliği), splice etkisini gösterir | İlgili dokuda ekspresyon ve uygun örnek gerekir |
+| **RNA-seq** | ✅ NMD'yi (alel dengesizliği), splice etkisini gösterir | İlgili dokuda ekspresyon ve uygun örnek gerekir |
 | **Methylation array** | ⚠️ Doğrudan değil | LoF'u göstermez (Bölüm 10) |
 | **Karyotip** | ⚠️ Yalnız çok büyük delesyonlar | Çözünürlük düşük |
 
@@ -209,7 +217,7 @@ Mekanizmadan doğan kontroller (özet):
 - **Gen LoF-mekanizmalı mı?** PVS1 yalnız bu genlerde tam güçle.
 - **NMD beklentisi var mı?** Son ekzon kaçışı → güç düşer.
 - **Kesilen bölgenin önemi:** Truncation klinik açıdan önemli/biofonksiyonel bir domaini çıkarıyor mu?
-- **Allelik heterojenite uyarısı:** CFTR gibi genlerde binlerce varyantın yalnız bir kısmı hastalık nedenidir; tahmini LoF dahi klinik+fonksiyonel kanıtla desteklenmelidir (Sosnay ve ark., 2013, *Nat Genet*; [DOI](https://doi.org/10.1038/ng.2745)).
+- **Alelik heterojenite uyarısı:** CFTR gibi genlerde binlerce varyantın yalnız bir kısmı hastalık nedenidir; tahmini LoF dahi klinik+fonksiyonel kanıtla desteklenmelidir (Sosnay ve ark., 2013, *Nat Genet*; [DOI](https://doi.org/10.1038/ng.2745)).
 
 > **🟦 Klinikte dikkat — PVS1 otomatik değildir:** "Çok güçlü" bir kriter olan PVS1'in mekanizma kontrolü yapılmadan uygulanması, yanlış-patojen sınıflamanın en sık kaynaklarından biridir. Önce gen-hastalık geçerliliği ve LoF mekanizması; sonra varyant tipi/konum.
 
@@ -218,16 +226,16 @@ Mekanizmadan doğan kontroller (özet):
 ## 7. Pediatrik genetikten klinik örnekler
 
 ### 7.1. NF1 — haploinsufficiency ile dominant LoF
-NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice, tam gen/ekzon delesyonu) tek allel kaybıyla **dominant** nörofibromatozis tip 1'e yol açar. *Öğreti:* hem nokta LoF hem büyük delesyonlar aynı gende hastalık yapar → tanıda **dizileme + doz analizi (MLPA/array)** birlikte. (Haploinsufficiency → Bölüm 3; tümör baskılayıcı "ikinci vuruş" → Bölüm 15.)
+NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice, tam gen/ekzon delesyonu) tek alel kaybıyla **dominant** nörofibromatozis tip 1'e yol açar. *Öğreti:* hem nokta LoF hem büyük delesyonlar aynı gende hastalık yapar → tanıda **dizileme + doz analizi (MLPA/array)** birlikte. (Haploinsufficiency → Bölüm 3; tümör baskılayıcı "ikinci vuruş" → Bölüm 15.)
 
 ### 7.2. DMD — çerçeve kuralı ile Duchenne vs Becker
 Distrofin geninde out-of-frame delesyonlar truncated protein ile ağır **Duchenne**'e; in-frame delesyonlar yarı-işlevsel protein ile daha hafif **Becker**'e yol açar (Monaco ve ark., 1988; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)). *Öğreti:* aynı gen, aynı "delesyon" tipi — fakat **çerçeve etkisi** fenotip ağırlığını belirler (Şekil 2.2); ekzon-atlama tedavilerinin mantıksal temeli budur.
 
-### 7.3. CFTR — resesif LoF ve allelik heterojenite
-Kistik fibroz, CFTR'de **iki** patojen allel gerektiren resesif bir hastalıktır; gende yaklaşık iki bin varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir. Bunu ölçen çalışma, 39.696 kistik fibrozlu bireyin genotip ve fenotip verisini birleştirmiş; allel frekansı ≥%0,01 olan 159 varyantı hem klinik ağırlık hem işlevsel sonuç açısından değerlendirmiş ve bunların 127'sinin (%80) her iki ölçütü de karşıladığını göstermiştir — kalan 32 varyantın 12'si nötr sayılabilmiş, 20'si belirsiz kalmıştır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve allel patojenitesi gösterilmelidir.
+### 7.3. CFTR — resesif LoF ve alelik heterojenite
+Kistik fibroz, CFTR'de **iki** patojen alel gerektiren resesif bir hastalıktır; gende yaklaşık iki bin varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir. Bunu ölçen çalışma, 39.696 kistik fibrozlu bireyin genotip ve fenotip verisini birleştirmiş; alel frekansı ≥%0,01 olan 159 varyantı hem klinik ağırlık hem işlevsel sonuç açısından değerlendirmiş ve bunların 127'sinin (%80) her iki ölçütü de karşıladığını göstermiştir — kalan 32 varyantın 12'si nötr sayılabilmiş, 20'si belirsiz kalmıştır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve alel patojenitesi gösterilmelidir.
 
 ### 7.4. PKU/PAH — hipomorfik aleller ve rezidüel fonksiyon
-Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabolizması hastalığıdır; genotipler rezidüel enzim aktivitesini yansıtan bir spektrumda (klasik PKU → hafif PKU → hafif hiperfenilalaninemi) dağılır ve büyük genotip veritabanları fenotip ile BH4 yanıtını öngörmeyi mümkün kılar (Hillert ve ark., 2020, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2020.06.006)). *Öğreti:* **rezidüel fonksiyon = fenotip ağırlığının motoru**; compound heterozigotlarda fenotipi genellikle daha hafif allel belirler (Şekil 2.3).
+Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabolizması hastalığıdır; genotipler rezidüel enzim aktivitesini yansıtan bir spektrumda (klasik PKU → hafif PKU → hafif hiperfenilalaninemi) dağılır ve büyük genotip veritabanları fenotip ile BH4 yanıtını öngörmeyi mümkün kılar (Hillert ve ark., 2020, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2020.06.006)). *Öğreti:* **rezidüel fonksiyon = fenotip ağırlığının motoru**; bileşik heterozigotlarda fenotipi genellikle daha hafif alel belirler (Şekil 2.3).
 
 ---
 
@@ -264,8 +272,8 @@ flowchart TD
   N2 --> K
   S --> K
   SL --> K
-  K -->|"Dominant (haploinsuff)"| K1["Tek allel yeterli mi? (Bölüm 3)"]
-  K -->|"Resesif"| K2["İkinci allel? trans fazı doğrula (ebeveyn testi)"]
+  K -->|"Dominant (haploinsuff)"| K1["Tek alel yeterli mi? (Bölüm 3)"]
+  K -->|"Resesif"| K2["İkinci alel? trans fazı doğrula (ebeveyn testi)"]
   K1 --> Z["Doz analizi gerekli mi? (NF1/DMD → MLPA/array/WGS-CNV)"]
   K2 --> Z
   Z --> R["Rezidüel fonksiyon / genotip-fenotip → prognoz ve tedavi (ör. PKU)"]
@@ -281,8 +289,8 @@ flowchart TD
 2. **Abou Tayoun AN, Pesaran T, DiStefano MT, ve ark. (2018).** Recommendations for interpreting the loss of function PVS1 ACMG/AMP variant criterion. *Human Mutation* 39(11):1517–1524. **PMID: 30192042** · DOI: [10.1002/humu.23626](https://doi.org/10.1002/humu.23626) — *Guideline / PVS1 karar ağacı ve güç derecelendirmesi.*
 3. **Khajavi M, Inoue K, Lupski JR (2006).** Nonsense-mediated mRNA decay modulates clinical outcome of genetic disease. *European Journal of Human Genetics* 14(10):1074–1081. **PMID: 16757948** · DOI: [10.1038/sj.ejhg.5201649](https://doi.org/10.1038/sj.ejhg.5201649) — *Mekanizma/review; NMD ve genotip-fenotip, NMD-escape toksisitesi.*
 4. **Monaco AP, Bertelson CJ, Liechti-Gallati S, Moser H, Kunkel LM (1988).** An explanation for the phenotypic differences between patients bearing partial deletions of the DMD locus. *Genomics* 2(1):90–95. **PMID: 3384440** · DOI: [10.1016/0888-7543(88)90113-9](https://doi.org/10.1016/0888-7543(88)90113-9) — *Landmark mekanistik; okuma çerçevesi hipotezi (Duchenne vs Becker).*
-5. **Sosnay PR, Siklosi KR, Van Goor F, ve ark. (2013).** Defining the disease liability of variants in the cystic fibrosis transmembrane conductance regulator gene. *Nature Genetics* 45(10):1160–1167. **PMID: 23974870** · DOI: [10.1038/ng.2745](https://doi.org/10.1038/ng.2745) — *Klinik örnek / allelik heterojenite, LoF varyantlarının kanıtla doğrulanması (CFTR).*
-6. **Hillert A, Anikster Y, Belanger-Quintana A, ve ark. (2020).** The Genetic Landscape and Epidemiology of Phenylketonuria. *American Journal of Human Genetics* 107(2):234–250. **PMID: 32668217** · DOI: [10.1016/j.ajhg.2020.06.006](https://doi.org/10.1016/j.ajhg.2020.06.006) — *Klinik örnek / hipomorfik allel, rezidüel fonksiyon, genotip-fenotip (PAH).*
+5. **Sosnay PR, Siklosi KR, Van Goor F, ve ark. (2013).** Defining the disease liability of variants in the cystic fibrosis transmembrane conductance regulator gene. *Nature Genetics* 45(10):1160–1167. **PMID: 23974870** · DOI: [10.1038/ng.2745](https://doi.org/10.1038/ng.2745) — *Klinik örnek / alelik heterojenite, LoF varyantlarının kanıtla doğrulanması (CFTR).*
+6. **Hillert A, Anikster Y, Belanger-Quintana A, ve ark. (2020).** The Genetic Landscape and Epidemiology of Phenylketonuria. *American Journal of Human Genetics* 107(2):234–250. **PMID: 32668217** · DOI: [10.1016/j.ajhg.2020.06.006](https://doi.org/10.1016/j.ajhg.2020.06.006) — *Klinik örnek / hipomorfik alel, rezidüel fonksiyon, genotip-fenotip (PAH).*
 7. **Karczewski KJ, Francioli LC, Tiao G, ve ark. (2020).** The mutational constraint spectrum quantified from variation in 141,456 humans. *Nature* 581(7809):434–443. **PMID: 32461654** · DOI: [10.1038/s41586-020-2308-7](https://doi.org/10.1038/s41586-020-2308-7) — *Mekanizma/metodoloji; LoF intoleransı, LOEUF.*
 8. **Lek M, Karczewski KJ, Minikel EV, ve ark. (2016).** Analysis of protein-coding genetic variation in 60,706 humans. *Nature* 536(7616):285–291. **PMID: 27535533** · DOI: [10.1038/nature19057](https://doi.org/10.1038/nature19057) — *ExAC; pLI metriğinin tanımlandığı çalışma.*
 9. **Kacser H, Burns JA (1981).** The molecular basis of dominance. *Genetics* 97(3–4):639–666. **PMID: 7297851** · DOI: [10.1093/genetics/97.3-4.639](https://doi.org/10.1093/genetics/97.3-4.639) — *Landmark kuram: enzim ağının kinetik yapısı, akı kontrol/duyarlılık katsayısı ve resesifliğin kaynağı.*
@@ -316,3 +324,7 @@ flowchart TD
 > **Bu bölüm için durum:** 9/9 kaynak PMID+DOI doğrulandı. Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir (bkz. `Dogrulama_Kutugu.md`).
 >
 > **Uzman değerlendirmesi turu (29.07.2026):** NMD pozisyon kuralı, uzman talebi üzerine "öğretici basitleştirme" etiketinden çıkarılıp **kaynağına bağlandı**. Kural artık ClinGen SVI'nin normatif tanımıyla veriliyor — NMD'nin gerçekleşmediği öngörülen iki konum: PTC'nin **son ekzonda** ya da **sondan bir önceki ekzonun 3′ ucundaki son 50 nükleotid** içinde bulunması (Abou Tayoun ve ark., 2018; belgenin ilgili cümlesi tam metinden birebir teyit edilmiştir). İstisnalar da kaynaklı olarak eklendi: izoform seçiminin konumu değiştirmesi, NMD'den kaçmanın "zararsız" anlamına gelmemesi (*PTEN* 375. kodon örneği, aynı kaynak) ve NMD'den kaçan transkriptin ürettiği anormal proteinin dominant-negatif veya işlev kazanımı etkisi yaratabilmesi (Khajavi ve ark., 2006). Ayrıca §4.5'teki "son ekzon = hafif değildir" uyarısı uzman tarafından **ileri bir turda yeniden ele alınmak üzere açık bırakılmıştır.**
+>
+> **C4 (§1 — kavram tablosu) yeniden yazılmıştır.** Uzman dört satırı yanıltıcı buldu. *(1)* **Null alel** "hiç ürün üretmeyen alel" değil, **işlevsel katkısı sıfır** olan aleldir; alt tipleri (RNA-null, protein-null, işlevsel null) metne eklendi. Ayrıca "en şiddetli LoF ucu" ifadesi **"moleküler işlev kaybının tam kayıp ucu"** olarak düzeltildi — null alel klinik olarak en ağır fenotip anlamına gelmez (DN ve toksik GoF daha ağır olabilir). *(2)* **NMD** satırındaki "transkript yok → gerçek null" eşitliği kaldırıldı: NMD transkript düzeyini **azaltır**, dokuya ve PTC konumuna göre etkinliği değişir; gerçek null sonucu deneysel kanıt olmadan kesinleştirilemez. *(3)* **LoF intoleransı** satırının klinik karşılığı "bu gende LoF beklenen mekanizma mı?" idi; bu soruyu constraint yanıtlamaz — satır "heterozigot pLoF'a karşı negatif seçilim" olarak düzeltildi (Bölüm 1 §1.H ile aynı gerekçe). *(4)* **Resesif LoF** ve **haploinsufficiency** satırları, iki alelin *birleşik işlevinin* eşik altına düşmesi ve gerçek dozun zorunlu olarak %50 olmaması biçiminde hassaslaştırıldı; **bileşik heterozigot** ise bir **genotip tanımı** olduğu, patojeniteyi kendiliğinden göstermediği belirtilerek yeniden yazıldı. Tablodan sonra üç kavram (LoF'un varyant etkisi ↔ hastalık mekanizması ayrımı; null alelin alt tipleri; hipomorfinin yalnız "az protein" olmadığı) anlatı içinde açıldı.
+>
+> **Kitap geneli terminoloji standardizasyonu (C4'ten doğdu).** Uzman "alel" yazımının metin boyunca kullanılmasını istedi. Denetimde kitabın **zaten tutarsız** olduğu görüldü: 270 "allel" ve 199 "alel". Tüm bölümler ve arka madde **"alel"** yazımına çevrildi (265 değişiklik); İngilizce kullanımlar korundu (*variant allele fraction/frequency*, *non-allelic homologous recombination*, *Triallelic inheritance* — makale başlığı). Ayrıca "compound heterozigot" → **"bileşik heterozigot"** (3 bölüm) ve sözlük ile Bölüm 6'da kalan **"Müller" → "Muller"** düzeltmesi yapıldı (H.J. Muller; 27.07.2026 turunda başlatılan düzeltmenin tamamlanması).

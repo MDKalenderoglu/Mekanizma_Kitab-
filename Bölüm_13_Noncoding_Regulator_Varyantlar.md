@@ -74,7 +74,7 @@ Kodlamayan varyantların mekanizmalarını akılda tutmanın en pratik yolu, hep
 
 ### 2.2 Enhancer neden dar fenotip yapar? Bir "ders kitabı" örneği
 
-Enhancer varyantlarının doku-özgülüğünü en net gösteren örnek, izole pankreas agenezisidir. Pankreas gelişiminin ana transkripsiyon faktörü olan *PTF1A*'nın **kodlayan** bölgesindeki biallelik varyantlar, pankreas agenezisine ek olarak ağır serebellar agenezi de içeren, çok daha geniş ve ağır bir sendrom yapar. Oysa yenidoğan diyabetiyle giden **izole** pankreas agenezisi olgularının bir kısmında *PTF1A*'nın kodlayan dizisi tümüyle normaldir.
+Enhancer varyantlarının doku-özgülüğünü en net gösteren örnek, izole pankreas agenezisidir. Pankreas gelişiminin ana transkripsiyon faktörü olan *PTF1A*'nın **kodlayan** bölgesindeki bialelik varyantlar, pankreas agenezisine ek olarak ağır serebellar agenezi de içeren, çok daha geniş ve ağır bir sendrom yapar. Oysa yenidoğan diyabetiyle giden **izole** pankreas agenezisi olgularının bir kısmında *PTF1A*'nın kodlayan dizisi tümüyle normaldir.
 
 Weedon ve arkadaşları bu bilmeceyi, insan embriyonik kök hücrelerinden türetilmiş **pankreas öncül hücrelerindeki epigenomik haritayı** kullanarak çözdüler. Tüm-genom verisini bu haritayla filtreleyerek, *PTF1A*'nın yaklaşık 25 kb aşağısında, o güne dek tanımlanmamış ~400 bp'lik bir bölgede on ailede altı farklı resesif varyant saptadılar; bu bölgenin *PTF1A*'nın gelişimsel bir enhancer'ı olarak çalıştığını ve varyantların enhancer aktivitesini ortadan kaldırdığını gösterdiler. Bu varyantlar, izole pankreas agenezisinin **en sık nedeni** olarak bildirilmiştir (Weedon ve ark., 2014).
 

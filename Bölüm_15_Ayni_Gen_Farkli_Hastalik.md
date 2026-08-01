@@ -1,6 +1,6 @@
-# Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+# Bölüm 15 — Aynı Gen, Farklı Hastalık: Alelik Seriler
 
-> **Bölümün çekirdek tezi:** Klinik genetiğin gündelik dili gen adları üzerine kuruludur: "*LMNA* hastası", "*FGFR3* mutasyonu", "*RET* taşıyıcısı". Bu dil pratiktir ama yanıltıcıdır, çünkü **bir gen bir hastalığa karşılık gelmez.** Aynı lokustaki farklı varyantlar, birbirinden klinik olarak tanınmayacak kadar farklı — kimi zaman taban tabana zıt — hastalıklar üretir: *FGFR3*'ün bir varyantı bebeği neonatal dönemde öldüren bir iskelet displazisi yaparken, aynı genin başka bir varyantı uzun boy ve işitme kaybıyla giden tümüyle farklı bir tabloya yol açar. Bu bölüm, bu çokluğun rastgele olmadığını gösterir: **allelik seri**, çoğu zaman tek bir ölçülebilir eksen (aktivite düzeyi, rezidüel işlev, bozulan arayüz) boyunca dizilir ve o eksendeki konum, hastalığın adını belirler. Bölümün ikinci ve yorumlama açısından daha keskin tezi şudur: **değerlendirilen birim gen değil, gen–kalıtım–mekanizma üçlüsüdür.** Bir varyant "*LMNA* için patojen" olamaz; ancak "*LMNA*'ya bağlı otozomal dominant Emery-Dreifuss musküler distrofisi için patojen" olabilir. Bu ayrımı kaçıran her rapor cümlesi, hem yanlış bir tanı hem de yanlış bir tekrarlanma riski taşır.
+> **Bölümün çekirdek tezi:** Klinik genetiğin gündelik dili gen adları üzerine kuruludur: "*LMNA* hastası", "*FGFR3* mutasyonu", "*RET* taşıyıcısı". Bu dil pratiktir ama yanıltıcıdır, çünkü **bir gen bir hastalığa karşılık gelmez.** Aynı lokustaki farklı varyantlar, birbirinden klinik olarak tanınmayacak kadar farklı — kimi zaman taban tabana zıt — hastalıklar üretir: *FGFR3*'ün bir varyantı bebeği neonatal dönemde öldüren bir iskelet displazisi yaparken, aynı genin başka bir varyantı uzun boy ve işitme kaybıyla giden tümüyle farklı bir tabloya yol açar. Bu bölüm, bu çokluğun rastgele olmadığını gösterir: **alelik seri**, çoğu zaman tek bir ölçülebilir eksen (aktivite düzeyi, rezidüel işlev, bozulan arayüz) boyunca dizilir ve o eksendeki konum, hastalığın adını belirler. Bölümün ikinci ve yorumlama açısından daha keskin tezi şudur: **değerlendirilen birim gen değil, gen–kalıtım–mekanizma üçlüsüdür.** Bir varyant "*LMNA* için patojen" olamaz; ancak "*LMNA*'ya bağlı otozomal dominant Emery-Dreifuss musküler distrofisi için patojen" olabilir. Bu ayrımı kaçıran her rapor cümlesi, hem yanlış bir tanı hem de yanlış bir tekrarlanma riski taşır.
 
 > **Bu bölüm nasıl okunmalı?** Bu bölüm kitabın bir **sentez bölümüdür**: Bölüm 2–6'da tek tek öğrenilen mekanizmaların (LoF, HI, GoF, DN, neomorf) aynı lokusta yan yana durduğunda ne olduğunu inceler. Tıp öğrencileri için 1. ve 2. başlıklar ile Şekil 15.1–15.2 çekirdeği oluşturur; altı eksen kavranmadan geri kalanı ezber olarak kalır. Klinisyenler için 4. ve 7. başlıklar, laboratuvar ve varyant yorumlayanlar için 6. başlık ile Şekil 15.4 doğrudan uygulanabilir niteliktedir. Bölüm 16'ya (ACMG/ClinGen sentezi) hazırlık olarak 6. başlık mutlaka okunmalıdır.
 
@@ -11,53 +11,53 @@
 ## Öğrenme hedefleri
 
 Bu bölümü tamamlayan okuyucu:
-1. Allelik heterojenite, lokus heterojenite ve fenotipik heterojenite (pleiotropi) kavramlarını birbirinden ayırır ve her birinin tanısal sonucunu açıklar.
-2. Bir allelik serinin dizildiği altı ekseni (mekanizma yönü, rezidüel işlev, varyant konumu, kalıtım modu, zamanlama, bağlam) sıralar ve her birine somut bir gen örneği verir.
+1. Alelik heterojenite, lokus heterojenite ve fenotipik heterojenite (pleiotropi) kavramlarını birbirinden ayırır ve her birinin tanısal sonucunu açıklar.
+2. Bir alelik serinin dizildiği altı ekseni (mekanizma yönü, rezidüel işlev, varyant konumu, kalıtım modu, zamanlama, bağlam) sıralar ve her birine somut bir gen örneği verir.
 3. *FGFR3* serisini reseptör aktivitesi ekseninde açıklar ve aynı genin hem uzun boy hem letal iskelet displazisi yapabilmesini gerekçelendirir.
 4. Rezidüel işlev derecesinin klinik eşiği geçtiğinde hastalığın neden "yeni bir ad" aldığını *PAH* ve *ATP7A* örnekleriyle açıklar.
 5. Varyant konumunun (domain/izoform) doku-seçici fenotibi nasıl belirlediğini *LMNA* ve *COL1A1* üzerinden yorumlar.
 6. Progeria örneğinde sessiz bir nükleotid değişiminin nasıl yeni bir protein (progerin) ürettiğini ve bunun mekanizma sınıfını nasıl değiştirdiğini açıklar.
 7. Aynı genin germline ve mozaik hâllerinin neden farklı hastalık adları taşıdığını *GNAS* örneğinde açıklar.
 8. "Birleştirme (lumping) ve ayırma (splitting)" kararının ölçütlerini sayar ve bunun panel kapsamı, varyant yorumu ve danışmaya etkilerini yorumlar.
-9. PS1, PM5, PM1 ve PVS1 kriterlerinin allelik seride neden "hangi hastalık için?" sorusuyla birlikte sorulması gerektiğini açıklar.
-10. Fenotip-öncelikli ve gen-öncelikli tanı stratejilerini karşılaştırır ve derin fenotiplemenin allelik seride neden vazgeçilmez olduğunu gerekçelendirir.
+9. PS1, PM5, PM1 ve PVS1 kriterlerinin alelik seride neden "hangi hastalık için?" sorusuyla birlikte sorulması gerektiğini açıklar.
+10. Fenotip-öncelikli ve gen-öncelikli tanı stratejilerini karşılaştırır ve derin fenotiplemenin alelik seride neden vazgeçilmez olduğunu gerekçelendirir.
 
 ---
 
 ## 1. Kavramsal tanım
 
-Bölüm 1'de üç heterojenite biçimini kısaca tanımlamıştık; bu bölüm bunlardan birini merkeze alır, dolayısıyla üçünü net biçimde ayırarak başlamak gerekir. **Lokus heterojenitesi**, aynı klinik tablonun farklı genlerdeki varyantlarla ortaya çıkmasıdır — Bölüm 11'de gördüğümüz Leigh sendromu, yetmiş beşten fazla farklı genin aynı klinik kapıya çıkabildiği örnektir. **Allelik heterojenite**, aynı gendeki farklı varyantların aynı hastalığa yol açmasıdır; kistik fibrozdaki yüzlerce farklı *CFTR* varyantı bunun tipik hâlidir. Bu bölümün konusu ise üçüncüsüdür: **fenotipik heterojenite (allelik seri)** — aynı gendeki farklı varyantların **farklı hastalıklara** yol açması. Genetik literatürde bunun bir başka adı **pleiotropi**dir: tek bir lokusun birden çok, görünüşte ilgisiz özelliği etkilemesi.
+Bölüm 1'de üç heterojenite biçimini kısaca tanımlamıştık; bu bölüm bunlardan birini merkeze alır, dolayısıyla üçünü net biçimde ayırarak başlamak gerekir. **Lokus heterojenitesi**, aynı klinik tablonun farklı genlerdeki varyantlarla ortaya çıkmasıdır — Bölüm 11'de gördüğümüz Leigh sendromu, yetmiş beşten fazla farklı genin aynı klinik kapıya çıkabildiği örnektir. **Alelik heterojenite**, aynı gendeki farklı varyantların aynı hastalığa yol açmasıdır; kistik fibrozdaki yüzlerce farklı *CFTR* varyantı bunun tipik hâlidir. Bu bölümün konusu ise üçüncüsüdür: **fenotipik heterojenite (alelik seri)** — aynı gendeki farklı varyantların **farklı hastalıklara** yol açması. Genetik literatürde bunun bir başka adı **pleiotropi**dir: tek bir lokusun birden çok, görünüşte ilgisiz özelliği etkilemesi.
 
-Aradaki fark akademik bir incelik değildir; doğrudan raporu değiştirir. Lokus heterojenitesi karşısında yapılması gereken **paneli genişletmektir**. Allelik heterojenite karşısında yapılması gereken **o genin tamamını iyi kapsayan bir test seçmektir**. Fenotipik heterojenite karşısında ise yapılması gereken bambaşkadır: **varyantın gen içindeki konumunu ve mekanizmasını çözmek**, çünkü hastanın hangi hastalığa sahip olduğu ancak bu bilgiyle söylenebilir.
+Aradaki fark akademik bir incelik değildir; doğrudan raporu değiştirir. Lokus heterojenitesi karşısında yapılması gereken **paneli genişletmektir**. Alelik heterojenite karşısında yapılması gereken **o genin tamamını iyi kapsayan bir test seçmektir**. Fenotipik heterojenite karşısında ise yapılması gereken bambaşkadır: **varyantın gen içindeki konumunu ve mekanizmasını çözmek**, çünkü hastanın hangi hastalığa sahip olduğu ancak bu bilgiyle söylenebilir.
 
-**Allelik seri** terimi, tek bir gendeki varyantların ürettiği fenotip yelpazesinin tamamına verilen addır. Bu terim aslında bize yabancı değil: Bölüm 6'da Muller'in klasik allel serisini (amorf → hipomorf → hipermorf → antimorf → neomorf) tanıtmıştık. Muller serisi bir **moleküler** seridir; bu bölümde ele aldığımız allelik seri ise onun **klinik izdüşümüdür**. Aynı zamanda Wilkie'nin dominant varyant mekanizmalarını sınıflandırdığı çerçeve (Wilkie, 1994) burada tekrar iş görür: aynı lokusta hem kayıp hem kazanım mekanizmalarının bulunabilmesi, allelik serilerin en dramatik biçimidir.
+**Alelik seri** terimi, tek bir gendeki varyantların ürettiği fenotip yelpazesinin tamamına verilen addır. Bu terim aslında bize yabancı değil: Bölüm 6'da Muller'in klasik alel serisini (amorf → hipomorf → hipermorf → antimorf → neomorf) tanıtmıştık. Muller serisi bir **moleküler** seridir; bu bölümde ele aldığımız alelik seri ise onun **klinik izdüşümüdür**. Aynı zamanda Wilkie'nin dominant varyant mekanizmalarını sınıflandırdığı çerçeve (Wilkie, 1994) burada tekrar iş görür: aynı lokusta hem kayıp hem kazanım mekanizmalarının bulunabilmesi, alelik serilerin en dramatik biçimidir.
 
-Bu bölümün kavramsal omurgasını oluşturan üçüncü terim ise klinik laboratuvardan gelir: **gen–hastalık varlığı (gene–disease entity)**. ClinGen'in gen–hastalık geçerliliği çerçevesi, kanıtın gücünü değerlendirirken hiçbir zaman yalnız "gen"i değil, bir **gen ile bir hastalık arasındaki ilişkiyi** puanlar ve bu ilişkiyi "Kesin (Definitive)", "Güçlü", "Orta", "Sınırlı", "Bildirilmiş kanıt yok" veya "Çelişkili kanıt" olarak sınıflar (Strande ve ark., 2017). Yani bir gen, bir hastalık için "Kesin", başka bir hastalık için "Sınırlı" olabilir. Allelik seri, bu çerçevenin neden bu şekilde kurulduğunu gösteren esas nedendir.
+Bu bölümün kavramsal omurgasını oluşturan üçüncü terim ise klinik laboratuvardan gelir: **gen–hastalık varlığı (gene–disease entity)**. ClinGen'in gen–hastalık geçerliliği çerçevesi, kanıtın gücünü değerlendirirken hiçbir zaman yalnız "gen"i değil, bir **gen ile bir hastalık arasındaki ilişkiyi** puanlar ve bu ilişkiyi "Kesin (Definitive)", "Güçlü", "Orta", "Sınırlı", "Bildirilmiş kanıt yok" veya "Çelişkili kanıt" olarak sınıflar (Strande ve ark., 2017). Yani bir gen, bir hastalık için "Kesin", başka bir hastalık için "Sınırlı" olabilir. Alelik seri, bu çerçevenin neden bu şekilde kurulduğunu gösteren esas nedendir.
 
 **Tablo 15.1 — Heterojenite türleri ve tanısal karşılıkları**
 
 | Kavram | Tanım | Klinik/laboratuvar sonucu |
 |---|---|---|
 | Lokus heterojenitesi | Aynı fenotip, **farklı genler** | Paneli genişlet; tek gen negatifliği tanıyı dışlamaz |
-| Allelik heterojenite | Aynı hastalık, **aynı gende farklı varyantlar** | Genin tamamını kapsayan test seç (CNV dahil) |
-| **Fenotipik heterojenite / allelik seri** | **Aynı gen, farklı hastalıklar** | Varyantın konumu ve mekanizması tanının kendisidir |
+| Alelik heterojenite | Aynı hastalık, **aynı gende farklı varyantlar** | Genin tamamını kapsayan test seç (CNV dahil) |
+| **Fenotipik heterojenite / alelik seri** | **Aynı gen, farklı hastalıklar** | Varyantın konumu ve mekanizması tanının kendisidir |
 | Pleiotropi | Tek lokusun birden çok özelliği etkilemesi | Beklenmedik organ tutulumlarını dışlama; sistemik değerlendirme |
 | Gen–hastalık varlığı | Gen + kalıtım modu + hastalık üçlüsü | Küreleme, panel kapsamı ve varyant sınıflandırmasının birimi |
 | Ön-küreleme (precuration) | Gen için hangi hastalık varlıklarının tanımlanacağının belirlenmesi | Birleştirme/ayırma kararının yapıldığı aşama |
 
 ---
 
-## 2. Moleküler mekanizma: allelik seriyi doğuran altı eksen
+## 2. Moleküler mekanizma: alelik seriyi doğuran altı eksen
 
-Bir genin çok sayıda hastalık yapması ilk bakışta kaotik görünür. Oysa neredeyse her allelik seri, birbirinden ayırt edilebilir **altı eksenden** bir veya birkaçının üzerinde dizilir (Şekil 15.1). Bu eksenleri tanımak, karşınıza çıkan yeni bir gende bile "bu gen neden iki hastalık yapıyor?" sorusunu sistematik biçimde yanıtlamanızı sağlar.
+Bir genin çok sayıda hastalık yapması ilk bakışta kaotik görünür. Oysa neredeyse her alelik seri, birbirinden ayırt edilebilir **altı eksenden** bir veya birkaçının üzerinde dizilir (Şekil 15.1). Bu eksenleri tanımak, karşınıza çıkan yeni bir gende bile "bu gen neden iki hastalık yapıyor?" sorusunu sistematik biçimde yanıtlamanızı sağlar.
 
-> 🏷️ **Bu altı eksenli çerçeve kitabın pedagojik sentezidir.** Eksenlerin her biri ayrı ayrı kaynaklıdır ve bu kitabın önceki bölümlerinde tek tek işlenmiştir (mekanizma yönü → Bölüm 2–6; rezidüel işlev → Bölüm 2; varyant konumu → Bölüm 2 ve 7; kalıtım modu → Bölüm 1 ve 3; zamanlama → Bölüm 1 ve 12; bağlam → Bölüm 14). Buna karşılık **"allelik serinin altı ekseni" literatürde bu adla yerleşik bir sınıflandırma değildir**; eksen sayısı ve gruplama editöryaldir ve öğretme kolaylığı için seçilmiştir. Bir raporda veya yayında bu çerçeveye yerleşik bir taksonomiymiş gibi atıf yapılmamalıdır.
+> 🏷️ **Bu altı eksenli çerçeve kitabın pedagojik sentezidir.** Eksenlerin her biri ayrı ayrı kaynaklıdır ve bu kitabın önceki bölümlerinde tek tek işlenmiştir (mekanizma yönü → Bölüm 2–6; rezidüel işlev → Bölüm 2; varyant konumu → Bölüm 2 ve 7; kalıtım modu → Bölüm 1 ve 3; zamanlama → Bölüm 1 ve 12; bağlam → Bölüm 14). Buna karşılık **"alelik serinin altı ekseni" literatürde bu adla yerleşik bir sınıflandırma değildir**; eksen sayısı ve gruplama editöryaldir ve öğretme kolaylığı için seçilmiştir. Bir raporda veya yayında bu çerçeveye yerleşik bir taksonomiymiş gibi atıf yapılmamalıdır.
 
-![Şekil 15.1 — Aynı gen neden farklı hastalıklar yapar? Altı eksen](assets/sekil_50_allelik_seri_alti_eksen.svg)
+![Şekil 15.1 — Aynı gen neden farklı hastalıklar yapar? Altı eksen](assets/sekil_50_alelik_seri_alti_eksen.svg)
 
 ### 2.1 Birinci eksen: mekanizma yönü — kayıp mı, kazanım mı?
 
-Allelik serilerin en çarpıcı biçimi, aynı gende hem işlev kaybı hem işlev kazanımı varyantlarının bulunmasıdır. Bölüm 4'te bunun iki klasik örneğini görmüştük: *RET*'te işlev kaybı bağırsak sinir sistemi gelişimini bozarak Hirschsprung hastalığına, işlev kazanımı ise reseptörü sürekli açık bırakarak MEN2 sendromuna yol açar (Edery ve ark., 1997); *SCN2A*'da işlev kazanımı yaşamın ilk günlerinde başlayan epilepsiyle, işlev kaybı ise daha geç başlangıçlı (ortanca 8 ay, ağırlıklı olarak infantil spazm) tabloyla ilişkilidir (Berecki ve ark., 2018); *SCN2A* işlev kaybının daha geniş nörogelişimsel ucu — otizm spektrum bozukluğu ve entelektüel yetersizlik — ayrı bir literatüre dayanır (Sanders ve ark., 2018). Bu iki örnek, yönün klinik olarak neden kritik olduğunu da gösterir: sodyum kanalı hastalıklarında mekanizma yönü doğrudan **tedavi yönünü** belirler; sodyum kanal blokerleri işlev kazanımı tablolarında yararlı, işlev kaybı tablolarında ise potansiyel olarak zararlıdır (Brunklaus ve ark., 2020).
+Alelik serilerin en çarpıcı biçimi, aynı gende hem işlev kaybı hem işlev kazanımı varyantlarının bulunmasıdır. Bölüm 4'te bunun iki klasik örneğini görmüştük: *RET*'te işlev kaybı bağırsak sinir sistemi gelişimini bozarak Hirschsprung hastalığına, işlev kazanımı ise reseptörü sürekli açık bırakarak MEN2 sendromuna yol açar (Edery ve ark., 1997); *SCN2A*'da işlev kazanımı yaşamın ilk günlerinde başlayan epilepsiyle, işlev kaybı ise daha geç başlangıçlı (ortanca 8 ay, ağırlıklı olarak infantil spazm) tabloyla ilişkilidir (Berecki ve ark., 2018); *SCN2A* işlev kaybının daha geniş nörogelişimsel ucu — otizm spektrum bozukluğu ve entelektüel yetersizlik — ayrı bir literatüre dayanır (Sanders ve ark., 2018). Bu iki örnek, yönün klinik olarak neden kritik olduğunu da gösterir: sodyum kanalı hastalıklarında mekanizma yönü doğrudan **tedavi yönünü** belirler; sodyum kanal blokerleri işlev kazanımı tablolarında yararlı, işlev kaybı tablolarında ise potansiyel olarak zararlıdır (Brunklaus ve ark., 2020).
 
 Bu eksenin en öğretici örneği ise *FGFR3*'tür, çünkü burada iki yön arasındaki geçiş kesikli değil **süreklidir** (Şekil 15.2).
 
@@ -67,7 +67,7 @@ FGFR3'ün anahtar özelliği, endokondral kemik büyümesinin **negatif** düzen
 
 Serinin asıl öğretici ucu ise diğer yöndedir. Toydemir ve arkadaşları, kamptodaktili, **uzun boy**, skolyoz ve işitme kaybıyla giden yeni bir bozukluğun (CATSHL sendromu) lokusunu 4p'ye haritaladılar; bu sendrom *Fgfr3* nakavt faresinin fenotibini birebir tekrarladığı için doğrudan *FGFR3*'ü taradılar ve tirozin kinaz domaininde **kısmi işlev kaybına** yol açan heterozigot bir p.Arg621His değişimi buldular. Yazarların vurgusu şudur: anormal FGFR3 sinyali, endokondral kemik büyümesini **hem baskılayarak hem de destekleyerek** insanda anomali yapabilir (Toydemir ve ark., 2006). Yani aynı gen, aynı eksenin iki ucunda birbirinin tam tersi iskelet fenotipleri üretir.
 
-> **🔬 Deep-dive — Aynı kodon, farklı amino asit, farklı hastalık.** *FGFR3*'ün 650. kodonu allelik seri kavramının en keskin dersini verir. Bu kodondaki lizinin **metiyoninle** değişmesi (p.Lys650Met) SADDAN fenotibine yol açarken, aynı kodonda lizinin **glutamatla** değişmesi (p.Lys650Glu) tanatoforik displazi tip II ile ilişkilidir. İki varyant aynı nükleotid komşuluğunda, aynı proteinin aynı pozisyonundadır; buna rağmen biri yaşamla bağdaşan bir sendrom, diğeri neonatal letal bir displazi üretir. Bu farkın moleküler zemini deneysel olarak da gösterilmiştir: 650. pozisyonda yalnız glutamat değil aspartat, daha az ölçüde de glutamin ve lösin belirgin konstitütif aktivasyon yaratır; buna karşılık aktivasyon halkasındaki komşu rezidülerin (Tyr-647 ile Leu-656 arası) glutamata değişmesi reseptörü aktive etmez — yani etki hem **konuma** hem **yüke** özgüdür (Webster ve ark., 1996). Bunun varyant yorumlamadaki karşılığı doğrudandır: ACMG'nin PM5 kriteri ("aynı pozisyonda daha önce patojen bildirilmiş **farklı** bir amino asit değişimi") burada mekanik olarak uygulanırsa yanıltıcı olur, çünkü kanıt "bu pozisyon önemlidir" der ama "aynı hastalığı yapar" demez. Aynı biçimde PS1 ("daha önce patojen bildirilmiş varyantla **aynı** amino asit değişimi") kriterinin geçerliliği de, kanıtın hangi hastalık için üretildiğine bağlıdır. Kural olarak formüle edilebilir: **allelik seri taşıyan genlerde konum-temelli kriterler, hastalık belirtilmeden kullanılamaz.**
+> **🔬 Deep-dive — Aynı kodon, farklı amino asit, farklı hastalık.** *FGFR3*'ün 650. kodonu alelik seri kavramının en keskin dersini verir. Bu kodondaki lizinin **metiyoninle** değişmesi (p.Lys650Met) SADDAN fenotibine yol açarken, aynı kodonda lizinin **glutamatla** değişmesi (p.Lys650Glu) tanatoforik displazi tip II ile ilişkilidir. İki varyant aynı nükleotid komşuluğunda, aynı proteinin aynı pozisyonundadır; buna rağmen biri yaşamla bağdaşan bir sendrom, diğeri neonatal letal bir displazi üretir. Bu farkın moleküler zemini deneysel olarak da gösterilmiştir: 650. pozisyonda yalnız glutamat değil aspartat, daha az ölçüde de glutamin ve lösin belirgin konstitütif aktivasyon yaratır; buna karşılık aktivasyon halkasındaki komşu rezidülerin (Tyr-647 ile Leu-656 arası) glutamata değişmesi reseptörü aktive etmez — yani etki hem **konuma** hem **yüke** özgüdür (Webster ve ark., 1996). Bunun varyant yorumlamadaki karşılığı doğrudandır: ACMG'nin PM5 kriteri ("aynı pozisyonda daha önce patojen bildirilmiş **farklı** bir amino asit değişimi") burada mekanik olarak uygulanırsa yanıltıcı olur, çünkü kanıt "bu pozisyon önemlidir" der ama "aynı hastalığı yapar" demez. Aynı biçimde PS1 ("daha önce patojen bildirilmiş varyantla **aynı** amino asit değişimi") kriterinin geçerliliği de, kanıtın hangi hastalık için üretildiğine bağlıdır. Kural olarak formüle edilebilir: **alelik seri taşıyan genlerde konum-temelli kriterler, hastalık belirtilmeden kullanılamaz.**
 
 ### 2.2 İkinci eksen: rezidüel işlev — alelin ağırlığı
 
@@ -75,9 +75,9 @@ Serinin asıl öğretici ucu ise diğer yöndedir. Toydemir ve arkadaşları, ka
 
 Bölüm 2'de bunun iki örneğini görmüştük. Fenilalanin hidroksilaz eksikliğinde, kalan enzim aktivitesi klasik fenilketonüriden hafif hiperfenilalaninemiye uzanan bir yelpaze oluşturur; büyük genotip–fenotip serileri, alel çiftinin öngördüğü rezidüel aktivite ile klinik ağırlık arasında güçlü bir ilişki bulunur (Hillert ve ark., 2020). Duchenne ve Becker musküler distrofileri ise aynı mantığın farklı bir biçimidir: burada belirleyici olan varyantın **okuma çerçevesini bozup bozmadığıdır**; çerçeveyi koruyan delesyonlar kısalmış ama kısmen işlevsel bir distrofin üretir ve daha hafif Becker fenotibiyle sonuçlanır (Monaco ve ark., 1988).
 
-Bu eksenin belki de en öğretici örneği bakır taşıyıcısı *ATP7A*'dır. Kaler'in derlemesinde özetlendiği gibi, *ATP7A* kusurları infantil başlangıçlı ve ölümcül seyreden **Menkes hastalığına** yol açar; buna karşılık **oksipital boynuz sendromu**, aynı genin daha hafif allelik varyantı olarak tanımlanır. Klinik olarak kritik olan gözlem şudur: yenidoğan döneminde tanı konup erken bakır tedavisi başlanan hastalarda sonuçlar iyileşmekte, hatta **mutant ATP7A molekülleri az miktarda rezidüel aktivite koruyorsa** klinik sonuçlar normale yaklaşabilmektedir (Kaler, 2011). Yani rezidüel işlev burada yalnızca hastalığın adını değil, **tedaviye yanıt olasılığını** da belirler.
+Bu eksenin belki de en öğretici örneği bakır taşıyıcısı *ATP7A*'dır. Kaler'in derlemesinde özetlendiği gibi, *ATP7A* kusurları infantil başlangıçlı ve ölümcül seyreden **Menkes hastalığına** yol açar; buna karşılık **oksipital boynuz sendromu**, aynı genin daha hafif alelik varyantı olarak tanımlanır. Klinik olarak kritik olan gözlem şudur: yenidoğan döneminde tanı konup erken bakır tedavisi başlanan hastalarda sonuçlar iyileşmekte, hatta **mutant ATP7A molekülleri az miktarda rezidüel aktivite koruyorsa** klinik sonuçlar normale yaklaşabilmektedir (Kaler, 2011). Yani rezidüel işlev burada yalnızca hastalığın adını değil, **tedaviye yanıt olasılığını** da belirler.
 
-> **🔬 Deep-dive — Aynı gen, üçüncü ve tümüyle beklenmedik bir hastalık.** *ATP7A* serisi, allelik serilerin neden yalnız "ağır–hafif" ekseniyle açıklanamayacağını da gösterir. Menkes hastalığı ve oksipital boynuz sendromundan sonra tanımlanan üçüncü *ATP7A* bozukluğu, **izole distal motor nöropatidir**; bu tablo Menkes hastalığının ya da oksipital boynuz sendromunun karakteristik klinik ve biyokimyasal bulgularının **hiçbirini** taşımaz ve Charcot-Marie-Tooth hastalığı tip 2'yi andırır. Kaler'in vurguladığı gibi bu bulgu, ATP7A'nın motor nöron bakımında daha önce fark edilmemiş kritik bir rolü olduğunu ve bu üçüncü hastalığın altında yatan mekanizmanın diğer ikisinin patofizyolojisinden **farklı** olduğunu göstermektedir (Kaler, 2011). Klinik dersi keskindir: bir hastada *ATP7A* varyantı bulunduğunda "bakır düzeyi normal, o hâlde Menkes değil, varyant anlamsız" akıl yürütmesi hatalıdır — çünkü serinin bir ucundaki hastalığın biyokimyasal imzası, diğer ucundaki hastalıkta yoktur. Bu, allelik serilerde biyokimyasal doğrulama testlerinin **hastalığa özgü** olduğunu ve seride yanlış basamağa göre yorumlanmaması gerektiğini hatırlatır.
+> **🔬 Deep-dive — Aynı gen, üçüncü ve tümüyle beklenmedik bir hastalık.** *ATP7A* serisi, alelik serilerin neden yalnız "ağır–hafif" ekseniyle açıklanamayacağını da gösterir. Menkes hastalığı ve oksipital boynuz sendromundan sonra tanımlanan üçüncü *ATP7A* bozukluğu, **izole distal motor nöropatidir**; bu tablo Menkes hastalığının ya da oksipital boynuz sendromunun karakteristik klinik ve biyokimyasal bulgularının **hiçbirini** taşımaz ve Charcot-Marie-Tooth hastalığı tip 2'yi andırır. Kaler'in vurguladığı gibi bu bulgu, ATP7A'nın motor nöron bakımında daha önce fark edilmemiş kritik bir rolü olduğunu ve bu üçüncü hastalığın altında yatan mekanizmanın diğer ikisinin patofizyolojisinden **farklı** olduğunu göstermektedir (Kaler, 2011). Klinik dersi keskindir: bir hastada *ATP7A* varyantı bulunduğunda "bakır düzeyi normal, o hâlde Menkes değil, varyant anlamsız" akıl yürütmesi hatalıdır — çünkü serinin bir ucundaki hastalığın biyokimyasal imzası, diğer ucundaki hastalıkta yoktur. Bu, alelik serilerde biyokimyasal doğrulama testlerinin **hastalığa özgü** olduğunu ve seride yanlış basamağa göre yorumlanmaması gerektiğini hatırlatır.
 
 ### 2.3 Üçüncü eksen: varyant konumu — domain ve izoform
 
@@ -105,7 +105,7 @@ Bu eksenin klinik önemi şudur: aynı laboratuvar sonucunun tekrarlanma riski, 
 
 ### 2.5 Beşinci eksen: zamanlama — germline mi, mozaik mi?
 
-Bölüm 12'de mozaikliği ayrı bir mekanizma sınıfı olarak ele almıştık; burada onu allelik serinin bir ekseni olarak yeniden okuyoruz. Aynı varyant, **döllenmeden önce mi sonra mı** ortaya çıktığına göre farklı hastalık adları taşıyabilir — hatta germline hâlde hiç görülemeyebilir, çünkü embriyoyu yaşatmaz.
+Bölüm 12'de mozaikliği ayrı bir mekanizma sınıfı olarak ele almıştık; burada onu alelik serinin bir ekseni olarak yeniden okuyoruz. Aynı varyant, **döllenmeden önce mi sonra mı** ortaya çıktığına göre farklı hastalık adları taşıyabilir — hatta germline hâlde hiç görülemeyebilir, çünkü embriyoyu yaşatmaz.
 
 *GNAS* bunun en zengin örneğidir. Weinstein ve arkadaşları, McCune-Albright sendromlu hastaların etkilenmiş dokularında Gsα'nın 201. kodonunda aktive edici değişimler (p.Arg201His veya p.Arg201Cys) saptadılar ve kritik olarak, mutant alel yükünün **dokudan dokuya değiştiğini** gösterdiler — bu, varyantın postzigotik olarak ortaya çıktığının doğrudan kanıtıdır (Weinstein ve ark., 1991). Aynı aktive edici varyantın germline hâlde hiç bildirilmemiş olması, Bölüm 12'de tanıtılan Happle'ın letal-mozaik hipotezinin klasik uygulamasıdır. Buna karşılık *GNAS*'ın **işlev kaybı** varyantları germline olarak aktarılabilir ve psödohipoparatiroidizm ile ilişkili bozukluklar ailesini oluşturur.
 
@@ -113,15 +113,15 @@ Bölüm 12'de mozaikliği ayrı bir mekanizma sınıfı olarak ele almıştık; 
 
 Son eksen, varyantın kendisiyle değil içinde bulunduğu bağlamla ilgilidir. İmprintli lokuslarda (Bölüm 10) aynı işlev kaybı varyantı, **hangi ebeveynden geldiğine göre** farklı klinik tablolar üretir. *GNAS* burada da örnek genimizdir: psödohipoparatiroidizm ve ilişkili bozukluklar, kısa kemikler, kısa boy, tıknaz yapı, erken başlangıçlı obezite ve ektopik ossifikasyonların değişken biçimde bulunduğu ve sıklıkla paratiroid hormonuna (PTH) ve TSH'ye direncin eşlik ettiği metabolik bozukluklar grubudur. Uluslararası uzlaşı belgesinin altını çizdiği nokta, bu bölüm açısından tam olarak yerinde bir uyarıdır: **tabloların sunumu ve ağırlığı bireyler arasında değişir ve farklı tipler arasında hatırı sayılır klinik ve moleküler örtüşme vardır**; bu nedenle tanı klinik ölçütlerle konulmalı ve **moleküler genetik analizle doğrulanmalıdır** (Mantovani ve ark., 2018).
 
-İkinci bağlam bileşeni, Bölüm 14'ün konusuydu: **modifiye edici lokuslar ve genetik zemin.** Aynı varyantın farklı ailelerde farklı ağırlıkta hastalık yapması, allelik serinin kendi içinde bir "bulanıklık payı" taşıdığı anlamına gelir. Bu, domain–fenotip haritalarının neden kesin öngörü aracı olamayacağının ikinci nedenidir.
+İkinci bağlam bileşeni, Bölüm 14'ün konusuydu: **modifiye edici lokuslar ve genetik zemin.** Aynı varyantın farklı ailelerde farklı ağırlıkta hastalık yapması, alelik serinin kendi içinde bir "bulanıklık payı" taşıdığı anlamına gelir. Bu, domain–fenotip haritalarının neden kesin öngörü aracı olamayacağının ikinci nedenidir.
 
 ---
 
 ## 3. Varyant tipleri
 
-Bu bölümde varyant tipi sorusu ters yönde sorulur: klasik olarak "bu varyant tipi hangi mekanizmayı yapar?" diye sorarız; allelik seride ise "bu varyant tipi beni serinin **hangi ucuna** götürür?" diye sormamız gerekir. Aşağıdaki tablo bu yönlendirmeyi özetler.
+Bu bölümde varyant tipi sorusu ters yönde sorulur: klasik olarak "bu varyant tipi hangi mekanizmayı yapar?" diye sorarız; alelik seride ise "bu varyant tipi beni serinin **hangi ucuna** götürür?" diye sormamız gerekir. Aşağıdaki tablo bu yönlendirmeyi özetler.
 
-**Tablo 15.2 — Varyant tipinin allelik serideki tipik konumu**
+**Tablo 15.2 — Varyant tipinin alelik serideki tipik konumu**
 
 | Varyant tipi | Seride tipik konumu | Mekanizma sonucu | Uyarı |
 |---|---|---|---|
@@ -136,7 +136,7 @@ Bu bölümde varyant tipi sorusu ters yönde sorulur: klasik olarak "bu varyant 
 | Okuma çerçevesini koruyan delesyon | Hafif basamak | Kısalmış ama işlevsel ürün | Duchenne ↔ Becker ayrımı |
 | Kodlamayan/düzenleyici varyant | Doku-seçici hafif basamak | İfade dozunda azalma | Bölüm 13 ile birlikte okunur |
 
-Tablonun taşıdığı temel ders şudur: **varyant tipi mekanizmayı öneri düzeyinde belirler, kesinleştirmez.** Aynı gende aynı tipte iki varyant serinin iki farklı basamağında durabilir; bu nedenle allelik seri taşıyan genlerde tip-temelli otomatik yorumlama (özellikle *in silico* araçlara dayanan yorumlama) özellikle güvenilmezdir. Bölüm 5'te gördüğümüz gibi, mevcut tahmin araçları dominant-negatif ve işlev kazanımı mekanizmalarını ayırt etmekte belirgin biçimde zayıftır.
+Tablonun taşıdığı temel ders şudur: **varyant tipi mekanizmayı öneri düzeyinde belirler, kesinleştirmez.** Aynı gende aynı tipte iki varyant serinin iki farklı basamağında durabilir; bu nedenle alelik seri taşıyan genlerde tip-temelli otomatik yorumlama (özellikle *in silico* araçlara dayanan yorumlama) özellikle güvenilmezdir. Bölüm 5'te gördüğümüz gibi, mevcut tahmin araçları dominant-negatif ve işlev kazanımı mekanizmalarını ayırt etmekte belirgin biçimde zayıftır.
 
 ---
 
@@ -144,19 +144,19 @@ Tablonun taşıdığı temel ders şudur: **varyant tipi mekanizmayı öneri dü
 
 ### 4.1 Neden bu bölüm "önce fenotip" der?
 
-Genomik çağın en yaygın yanlış anlamalarından biri, dizilemenin fenotiplemeyi gereksizleştirdiği düşüncesidir. Allelik seri bu düşüncenin tam tersini kanıtlar: **bir varyantın anlamı, ancak hangi hastalığın arandığı bilinirse çözülebilir.** Aynı *FGFR3* varyantı, uzun boylu bir ailede aranıyorsa başka, kısa ekstremiteli bir yenidoğanda aranıyorsa bambaşka bir anlam taşır.
+Genomik çağın en yaygın yanlış anlamalarından biri, dizilemenin fenotiplemeyi gereksizleştirdiği düşüncesidir. Alelik seri bu düşüncenin tam tersini kanıtlar: **bir varyantın anlamı, ancak hangi hastalığın arandığı bilinirse çözülebilir.** Aynı *FGFR3* varyantı, uzun boylu bir ailede aranıyorsa başka, kısa ekstremiteli bir yenidoğanda aranıyorsa bambaşka bir anlam taşır.
 
-Pratik sonuç, **derin fenotipleme** ile ifade edilir: boy, segment oranları, işitme, kardiyak ileti, yağ dağılımı, deri bulguları, biyokimyasal imza gibi ayırt edici parametrelerin sistematik olarak kaydedilmesi. Allelik seri taşıyan bir gende bu parametreler, laboratuvarın hangi hastalık varlığı için değerlendirme yapacağını belirler ve çoğu zaman bir VUS'u sınıflandırılabilir hâle getiren şey de budur.
+Pratik sonuç, **derin fenotipleme** ile ifade edilir: boy, segment oranları, işitme, kardiyak ileti, yağ dağılımı, deri bulguları, biyokimyasal imza gibi ayırt edici parametrelerin sistematik olarak kaydedilmesi. Alelik seri taşıyan bir gende bu parametreler, laboratuvarın hangi hastalık varlığı için değerlendirme yapacağını belirler ve çoğu zaman bir VUS'u sınıflandırılabilir hâle getiren şey de budur.
 
 ### 4.2 "Bu gende varyant bulundu — hangi hastalık?"
 
 Klinik pratikte bu bölümün en sık karşılaşılan sorusu budur ve altı eksen buna sistematik bir yanıt verir.
 
-**Algoritma 15.1 — Allelik seride hangi hastalık? Ayrım akışı**
+**Algoritma 15.1 — Alelik seride hangi hastalık? Ayrım akışı**
 
 ```mermaid
 flowchart TD
-  A["Allelik seri taşıyan bir gende<br/>varyant bulundu"] --> B{"Bu gende BİLİNEN kaç<br/>gen–hastalık varlığı var?"}
+  A["Alelik seri taşıyan bir gende<br/>varyant bulundu"] --> B{"Bu gende BİLİNEN kaç<br/>gen–hastalık varlığı var?"}
   B -->|"Tek varlık"| C["Standart yorum:<br/>varyantı o hastalık için sınıflandır"]
   B -->|"Birden çok varlık"| D{"Varyantların mekanizma<br/>YÖNÜ farklı mı?"}
 
@@ -186,19 +186,19 @@ Klinikte sık sorulan ikinci soru budur ve yanıtı hem kavramsal hem pratiktir.
 
 ### 4.4 Ters yön: aynı fenotip, farklı genler
 
-Allelik serinin aynası, lokus heterojenitesidir; ikisi tanısal stratejide birlikte düşünülmelidir. Klinik tablo tipik ama gen bulunamıyorsa sorun lokus heterojenitesi olabilir (paneli genişlet); gen bulundu ama tablo atipikse sorun allelik seri olabilir (varyantın serideki yerini çöz). Bu iki soruyu karıştırmamak, tanısal yeniden analizde en çok zaman kazandıran ayrımlardan biridir.
+Alelik serinin aynası, lokus heterojenitesidir; ikisi tanısal stratejide birlikte düşünülmelidir. Klinik tablo tipik ama gen bulunamıyorsa sorun lokus heterojenitesi olabilir (paneli genişlet); gen bulundu ama tablo atipikse sorun alelik seri olabilir (varyantın serideki yerini çöz). Bu iki soruyu karıştırmamak, tanısal yeniden analizde en çok zaman kazandıran ayrımlardan biridir.
 
 ---
 
 ## 5. Tanısal testlerle ilişkisi
 
-Allelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığın arandığı varsayımıdır.** Bunun bugünkü pratik karşılığını doğru kurmak gerekir: tanısal aşamada **genin tamamına bakmak artık varsayılan yaklaşımdır** — dizileme maliyeti düştüğü ve serinin hangi ucunda olunduğu baştan bilinemediği için, hedefli hotspot dizilemesiyle işe başlamak nadiren doğrudur. Hedefli, tek bölgeye inen dizileme esas olarak **aile taramasında** yerini bulur: probandda patojen varyant tanımlandıktan sonra akrabalarda yalnızca o varyantın bulunduğu bölge incelenir. Buna karşılık "hangi hastalık?" sorusu ortadan kalkmaz, yalnızca **yer değiştirir**: cihaz seçiminden çıkıp **kapsam ve yorum** kararına girer — genin tamamı dizilendiğinde bile delesyon/duplikasyon analizinin eklenip eklenmeyeceği, tekrar ya da derin intronik bölgelerin ayrıca aranıp aranmayacağı ve bulunan varyantın hangi hastalık varlığına karşı yorumlanacağı bu soruya bağlıdır. Aşağıdaki tablo bu bakışla okunmalıdır.
+Alelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığın arandığı varsayımıdır.** Bunun bugünkü pratik karşılığını doğru kurmak gerekir: tanısal aşamada **genin tamamına bakmak artık varsayılan yaklaşımdır** — dizileme maliyeti düştüğü ve serinin hangi ucunda olunduğu baştan bilinemediği için, hedefli hotspot dizilemesiyle işe başlamak nadiren doğrudur. Hedefli, tek bölgeye inen dizileme esas olarak **aile taramasında** yerini bulur: probandda patojen varyant tanımlandıktan sonra akrabalarda yalnızca o varyantın bulunduğu bölge incelenir. Buna karşılık "hangi hastalık?" sorusu ortadan kalkmaz, yalnızca **yer değiştirir**: cihaz seçiminden çıkıp **kapsam ve yorum** kararına girer — genin tamamı dizilendiğinde bile delesyon/duplikasyon analizinin eklenip eklenmeyeceği, tekrar ya da derin intronik bölgelerin ayrıca aranıp aranmayacağı ve bulunan varyantın hangi hastalık varlığına karşı yorumlanacağı bu soruya bağlıdır. Aşağıdaki tablo bu bakışla okunmalıdır.
 
-**Tablo 15.3 — Allelik serilerde hangi test ne gösterir?**
+**Tablo 15.3 — Alelik serilerde hangi test ne gösterir?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
-| **WES** | Evet — allelik serilerin çoğu kodlayan varyantlardan doğar; gen paneli/WES çekirdek yöntemdir | Varyantı bulur ama **serideki yerini söylemez**; fenotip verisi olmadan yorumlanamaz. Derin intronik ve düzenleyici basamakları kaçırır |
+| **WES** | Evet — alelik serilerin çoğu kodlayan varyantlardan doğar; gen paneli/WES çekirdek yöntemdir | Varyantı bulur ama **serideki yerini söylemez**; fenotip verisi olmadan yorumlanamaz. Derin intronik ve düzenleyici basamakları kaçırır |
 | **Short-read WGS** | Evet; kodlayan + kodlamayan basamakları birlikte kapsar | Yorum yükü büyür; izoform-özgül etkiler ancak RNA verisiyle çözülür |
 | **Long-read WGS** | Evet; ayrıca faz bilgisi verir — **mono- vs bialelik ayrımı** (dördüncü eksen) için değerli | Maliyet ve erişim; rutin değil |
 | **Array-CGH / SNP array** | Kısmen — tam gen delesyonlarını (serinin null ucu) ve bitişik gen sendromlarını yakalar | Tek nükleotid basamaklarını göremez; **delesyon = en ağır fenotip** varsayımı yanlıştır |
@@ -208,7 +208,7 @@ Allelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığ
 | **Karyotip** | Hayır | Çözünürlük yetersiz |
 | **(seriye özgü) Derin fenotipleme ± fonksiyonel/biyokimyasal test** | **Evet — belirleyici.** Serinin hangi basamağında olunduğunu çoğu zaman yalnız fenotip + fonksiyonel veri söyler | Standartlaştırılmış fenotip kaydı gerekir; fonksiyonel test her gen için mevcut değildir |
 
-> **Bu mekanizmayı hangi test yakalar? (özet):** Allelik seride tanısal darboğaz **varyantı bulmak** değil, **onu doğru hastalığa bağlamaktır**. Pratik sıra şudur: (1) genin tamamını kapsayan bir test seç (dizileme + delesyon/duplikasyon); (2) varyantın konumunu ve tipini bilinen domain–fenotip haritasıyla karşılaştır; (3) fenotibi derinleştir ve serinin öngördüğü bulguları **aktif olarak ara**; (4) gerekiyorsa mekanizma yönünü fonksiyonel veriyle netleştir; (5) mono/bialelik durumu ve alelin ebeveyn kökenini netleştir.
+> **Bu mekanizmayı hangi test yakalar? (özet):** Alelik seride tanısal darboğaz **varyantı bulmak** değil, **onu doğru hastalığa bağlamaktır**. Pratik sıra şudur: (1) genin tamamını kapsayan bir test seç (dizileme + delesyon/duplikasyon); (2) varyantın konumunu ve tipini bilinen domain–fenotip haritasıyla karşılaştır; (3) fenotibi derinleştir ve serinin öngördüğü bulguları **aktif olarak ara**; (4) gerekiyorsa mekanizma yönünü fonksiyonel veriyle netleştir; (5) mono/bialelik durumu ve alelin ebeveyn kökenini netleştir.
 
 > **🟦 Klinikte dikkat — "Delesyon en ağır fenotibi yapar" sanısı:** Sezgi, tam gen delesyonunun serinin en ağır ucunu üreteceğini söyler. Bu, yalnızca serinin yetersiz doz mekanizmasıyla çalışan bölümü için doğrudur. Dominant-negatif ya da neomorfik basamakları olan genlerde delesyon taşıyan birey, missense taşıyan bireyden **belirgin biçimde daha hafif** olabilir — nitekim osteogenesis imperfektada null alel hafif tip I ile, glisin değişimleri ise ağır tablolarla ilişkilidir. Bu nedenle "delesyon bulundu, en ağır seyri bekleyin" cümlesi mekanizma bilinmeden kurulmamalıdır.
 
@@ -216,21 +216,21 @@ Allelik serilerde test seçiminin belirleyicisi cihaz değil, **hangi hastalığ
 
 ## 6. Varyant yorumlama açısından önemi (ACMG/ClinGen)
 
-Bu bölüm, ACMG/AMP çerçevesinin (Richards ve ark., 2015) en sessiz varsayımlarından birini görünür kılar. Kriterlerin çoğu, arka planda **tek bir gen–hastalık ilişkisi** olduğunu varsayar. Allelik seri bu varsayımı kırar ve dört kritik noktada uyarlama gerektirir (Şekil 15.4).
+Bu bölüm, ACMG/AMP çerçevesinin (Richards ve ark., 2015) en sessiz varsayımlarından birini görünür kılar. Kriterlerin çoğu, arka planda **tek bir gen–hastalık ilişkisi** olduğunu varsayar. Alelik seri bu varsayımı kırar ve dört kritik noktada uyarlama gerektirir (Şekil 15.4).
 
 ![Şekil 15.4 — Birleştirmek mi, ayırmak mı? Küre edilen birim gen değildir](assets/sekil_53_lumping_splitting.svg)
 
-**PVS1 (çok güçlü — null varyant).** Bu kriter yalnızca "işlev kaybının bilinen hastalık mekanizması olduğu" genlerde uygulanabilir; ClinGen'in ayrıntılı işletim kılavuzu bu ön koşulun altını özellikle çizer (Abou Tayoun ve ark., 2018). Allelik seride bu koşul **hastalığa özgüdür**: *RET*'te bir null varyant Hirschsprung hastalığı için mekanizmaya uygundur, ama MEN2 için değildir. Aynı gen, aynı varyant, farklı hastalık — farklı kriter.
+**PVS1 (çok güçlü — null varyant).** Bu kriter yalnızca "işlev kaybının bilinen hastalık mekanizması olduğu" genlerde uygulanabilir; ClinGen'in ayrıntılı işletim kılavuzu bu ön koşulun altını özellikle çizer (Abou Tayoun ve ark., 2018). Alelik seride bu koşul **hastalığa özgüdür**: *RET*'te bir null varyant Hirschsprung hastalığı için mekanizmaya uygundur, ama MEN2 için değildir. Aynı gen, aynı varyant, farklı hastalık — farklı kriter.
 
-**PS1 ve PM5 (aynı/farklı amino asit değişimi).** Bu iki kriter "daha önce patojen bildirilmiş" bir varyanttan kanıt devşirir. Allelik seride sorulması gereken ek soru şudur: **hangi hastalık için patojen bildirilmiş?** *FGFR3* p.Lys650Met ile p.Lys650Glu örneğinde görüldüğü gibi, aynı kodondaki iki değişim iki farklı hastalıkla ilişkilidir; kanıtı hastalık belirtmeden aktarmak sistematik bir yanlışa yol açar.
+**PS1 ve PM5 (aynı/farklı amino asit değişimi).** Bu iki kriter "daha önce patojen bildirilmiş" bir varyanttan kanıt devşirir. Alelik seride sorulması gereken ek soru şudur: **hangi hastalık için patojen bildirilmiş?** *FGFR3* p.Lys650Met ile p.Lys650Glu örneğinde görüldüğü gibi, aynı kodondaki iki değişim iki farklı hastalıkla ilişkilidir; kanıtı hastalık belirtmeden aktarmak sistematik bir yanlışa yol açar.
 
 **PM1 (mutasyonel hotspot / kritik domain).** Hotspot her zaman bir hastalığın hotspot'udur. Domain-temelli kanıt, ancak hastanın fenotibi o domainle ilişkili hastalık varlığına uyuyorsa geçerlidir.
 
-**PP4 (fenotip özgüllüğü).** Allelik seri taşıyan genlerde bu kriterin gücü azalır: "hastanın fenotibi bu gen için oldukça özgül" cümlesi, gen birden çok hastalık yapıyorsa yeterince ayırt edici değildir. Kriteri kullanabilmek için fenotibin **belirli bir hastalık varlığına** özgü olduğu gösterilmelidir.
+**PP4 (fenotip özgüllüğü).** Alelik seri taşıyan genlerde bu kriterin gücü azalır: "hastanın fenotibi bu gen için oldukça özgül" cümlesi, gen birden çok hastalık yapıyorsa yeterince ayırt edici değildir. Kriteri kullanabilmek için fenotibin **belirli bir hastalık varlığına** özgü olduğu gösterilmelidir.
 
 Bütün bunların üstünde duran soru ise küreleme sorusudur: **aynı genin iki fenotibi tek bir hastalık varlığı mı sayılmalı, yoksa ikiye mi ayrılmalı?** ClinGen, gen–hastalık ilişkilerinin, varyant patojenitesinin ve klinik eyleme geçirilebilirliğin gücünü sınıflandırmak için çerçeveler geliştirdiğinden, değerlendirilecek **hastalık varlığının tanımlanması** zorunlu bir ön adım hâline gelmiştir; bu, birden çok durumla ve/veya geniş fenotipik spektrumla ilişkili genlerde özellikle zordur. Bu nedenle "birleştirme ve ayırma" kararlarını yönlendirecek ve monogenik gen–hastalık ilişkilerinin tanımlanmasında tutarlılığı artıracak ölçütler geliştirilmiştir; bu ölçütlerin klinik tanı, biyoinformatik ve bakım yönetimi açısından somut sonuçları vardır (Thaxton ve ark., 2022). Pratikte ölçütler üç soruya indirgenebilir: **moleküler mekanizma aynı mı, kalıtım modu aynı mı, fenotipler bir süreklilik oluşturuyor mu?** Üçüne de "evet" ise tablolar tek bir hastalık varlığı altında birleştirilir (geniş spektrum olarak tanımlanır); biri bile "hayır" ise ayrılır.
 
-**Algoritma 15.2 — Allelik seride ACMG kriterlerinin uyarlanması**
+**Algoritma 15.2 — Alelik seride ACMG kriterlerinin uyarlanması**
 
 ```mermaid
 flowchart TD
@@ -272,15 +272,15 @@ flowchart TD
 
 **LMNA — konumun yazdığı hastalık.** Tek bir gende onun üzerinde farklı bozukluk tanımlanmıştır: çizgili kas, yağ dokusu ve periferik siniri tutan doku-seçici tablolardan sistemik prematür yaşlanma sendromlarına kadar. Yağ dokusu laminopatilerinde varyantlar Ig-benzeri domainde kümelenirken, kas laminopatilerinde gen boyunca dağınıktır; bu klinik ve genetik heterojenite düzeyi *LMNA* için benzersizdir ve genotip–fenotip ilişkisi kurmayı özellikle güçleştirir (Bertrand ve ark., 2011; Worman, 2012). **Öğreti:** aynı proteinin farklı bölgeleri farklı ortaklarla çalışır; hastalık, bozulan **arayüzün** dokusunun adını taşır.
 
-**Hutchinson-Gilford progeria — sessiz bir değişim, yeni bir protein.** Klasik HGPS'li 20 olgunun 18'inde ekzon 11'de aynı de novo G608G değişimi bulunmuş; bu değişim amino asidi değiştirmediği hâlde kriptik bir splice bölgesini aktive ederek karboksi-uca yakın 50 amino asidin silindiği bir ürün doğurmuş ve hastaların fibroblastlarında belirgin nükleer membran anormallikleri gösterilmiştir (Eriksson ve ark., 2003). **Öğreti:** "sessiz varyant zararsızdır" kuralı allelik serilerde özellikle tehlikelidir; aynı gendeki diğer hastalıklardan tümüyle farklı bir mekanizmayla karşılaşabilirsiniz.
+**Hutchinson-Gilford progeria — sessiz bir değişim, yeni bir protein.** Klasik HGPS'li 20 olgunun 18'inde ekzon 11'de aynı de novo G608G değişimi bulunmuş; bu değişim amino asidi değiştirmediği hâlde kriptik bir splice bölgesini aktive ederek karboksi-uca yakın 50 amino asidin silindiği bir ürün doğurmuş ve hastaların fibroblastlarında belirgin nükleer membran anormallikleri gösterilmiştir (Eriksson ve ark., 2003). **Öğreti:** "sessiz varyant zararsızdır" kuralı alelik serilerde özellikle tehlikelidir; aynı gendeki diğer hastalıklardan tümüyle farklı bir mekanizmayla karşılaşabilirsiniz.
 
-**ATP7A — üç hastalık, üç farklı klinik dil.** Aynı bakır taşıyıcı geni, ölümcül infantil Menkes hastalığına, onun daha hafif allelik varyantı olan oksipital boynuz sendromuna ve bu iki tablonun karakteristik klinik/biyokimyasal bulgularının hiçbirini taşımayan, Charcot-Marie-Tooth tip 2'yi andıran **izole distal motor nöropatiye** yol açar; rezidüel aktivite koruyan varyantlarda erken bakır tedavisi klinik sonuçları normale yaklaştırabilmektedir (Kaler, 2011). **Öğreti:** serinin bir ucundaki biyokimyasal test, diğer ucundaki hastalığı dışlamaz; ayrıca rezidüel işlev bazen doğrudan **tedaviye yanıt** demektir.
+**ATP7A — üç hastalık, üç farklı klinik dil.** Aynı bakır taşıyıcı geni, ölümcül infantil Menkes hastalığına, onun daha hafif alelik varyantı olan oksipital boynuz sendromuna ve bu iki tablonun karakteristik klinik/biyokimyasal bulgularının hiçbirini taşımayan, Charcot-Marie-Tooth tip 2'yi andıran **izole distal motor nöropatiye** yol açar; rezidüel aktivite koruyan varyantlarda erken bakır tedavisi klinik sonuçları normale yaklaştırabilmektedir (Kaler, 2011). **Öğreti:** serinin bir ucundaki biyokimyasal test, diğer ucundaki hastalığı dışlamaz; ayrıca rezidüel işlev bazen doğrudan **tedaviye yanıt** demektir.
 
 **COL1A1/COL1A2 — nicelikten niteliğe geçiş ve bölgesel harita.** 832 yapısal varyantın derlenmesiyle, α1(I) zincirindeki glisin değişimlerinin üçte birinin letal olduğu, ilk 200 rezidüdeki değişimlerin letal olmadığı, buna karşılık iki bölgenin (691–823 ve 910–964) yalnızca letal varyantlar içerdiği ve bu bölgelerin büyük ligand bağlanma bölgeleriyle hizalandığı gösterilmiştir; *COL1A2*'de varyantların yaklaşık %80'i letal değildir (Marini ve ark., 2007). Niceliksel (null) kusurlar ise hafif tip I ile ilişkilidir (Forlino ve Marini, 2000). **Öğreti:** aynı gende "az protein" ile "bozuk protein" iki farklı hastalık ağırlığı üretir; delesyon her zaman en ağır sonuç değildir.
 
 **GNAS — zamanlama ve ebeveyn kökeni aynı gende buluşuyor.** McCune-Albright sendromunda aktive edici p.Arg201His/Cys değişimleri **postzigotik** olarak ortaya çıkar ve mutant alel yükü dokudan dokuya değişir (Weinstein ve ark., 1991); aynı genin işlev kaybı varyantları ise germline aktarılır ve psödohipoparatiroidizm ile ilişkili bozukluklar ailesini oluşturur. Bu ailede tabloların sunumu ve ağırlığı değişkendir, tipler arasında hatırı sayılır klinik ve moleküler örtüşme vardır ve tanının moleküler analizle doğrulanması önerilir (Mantovani ve ark., 2018). **Öğreti:** tek bir gen, üç ekseni birden gösterebilir — mekanizma yönü, zamanlama (germline/mozaik) ve ebeveyn kökeni.
 
-**PAH ve DMD — serinin en tanıdık iki basamağı.** Fenilalanin hidroksilaz eksikliğinde alel çiftinin bıraktığı rezidüel aktivite klasik PKU ile hafif hiperfenilalaninemi arasındaki yeri belirler (Hillert ve ark., 2020); distrofinopatilerde ise okuma çerçevesini koruyan delesyonlar Becker, bozanlar Duchenne fenotibiyle sonuçlanır (Monaco ve ark., 1988). **Öğreti:** allelik serinin en kolay öğretilen biçimi rezidüel işlev eksenidir ve her iki örnek de tarama/izlem kararlarını doğrudan değiştirir.
+**PAH ve DMD — serinin en tanıdık iki basamağı.** Fenilalanin hidroksilaz eksikliğinde alel çiftinin bıraktığı rezidüel aktivite klasik PKU ile hafif hiperfenilalaninemi arasındaki yeri belirler (Hillert ve ark., 2020); distrofinopatilerde ise okuma çerçevesini koruyan delesyonlar Becker, bozanlar Duchenne fenotibiyle sonuçlanır (Monaco ve ark., 1988). **Öğreti:** alelik serinin en kolay öğretilen biçimi rezidüel işlev eksenidir ve her iki örnek de tarama/izlem kararlarını doğrudan değiştirir.
 
 ---
 
@@ -291,7 +291,7 @@ flowchart TD
 > 2. **PS1/PM5'i hastalık belirtmeden uygulamak.** "Aynı kodonda patojen varyant bildirilmiş" kanıtı, o varyant **başka bir hastalık** için bildirilmişse doğrudan aktarılamaz (*FGFR3* p.Lys650Met ↔ p.Lys650Glu).
 > 3. **PVS1'i mekanizma kontrolü yapmadan kullanmak.** Null varyant, ancak işlev kaybı **seçilen hastalığın** bilinen mekanizmasıysa çok güçlü kanıttır; aynı gendeki işlev kazanımı hastalığı için değildir.
 > 4. **"Delesyon en ağır fenotibi yapar" varsayımı.** Dominant-negatif/neomorfik basamakları olan genlerde delesyon çoğu zaman **daha hafif** seyreder (osteogenesis imperfekta tip I).
-> 5. **"Sessiz varyant zararsızdır."** HGPS'nin tekrarlayan nedeni tam olarak sessiz bir değişimdir; kriptik splice aktivasyonu allelik serilerde beklenmedik basamaklar üretir.
+> 5. **"Sessiz varyant zararsızdır."** HGPS'nin tekrarlayan nedeni tam olarak sessiz bir değişimdir; kriptik splice aktivasyonu alelik serilerde beklenmedik basamaklar üretir.
 > 6. **Serinin bir ucundaki biyokimyasal testin normal olmasına dayanarak geni dışlamak.** *ATP7A*'ya bağlı izole distal motor nöropatide Menkes hastalığının biyokimyasal imzası yoktur.
 > 7. **Kalıtım modunu sabit varsaymak.** Aynı gen monoalelik ve bialelik durumda farklı hastalıklar yapabilir; ikinci alel araştırılmadan verilen tekrarlanma riski yanlış olabilir.
 > 8. **Domain–fenotip haritasını kesin öngörü aracı gibi kullanmak.** Bu haritalar güçlü örüntülerdir, kural değildir; özellikle *LMNA*'da genotip–fenotip ilişkisi kurmak istisnai biçimde güçtür.
@@ -299,7 +299,7 @@ flowchart TD
 > 10. **Fenotibi varyanta uydurmak.** Bulunan varyantın öngördüğü hastalığın bulguları hastada yoksa, doğru davranış fenotibi zorlamak değil, varyantı VUS/ikincil bulgu olarak bırakıp yeniden analiz planlamaktır.
 
 > **🟦 Klinikte dikkat kutusu**
-> - Allelik seri taşıyan bir gende sonuç geldiğinde, ilk soru "varyant patojen mi?" değil, **"hangi hastalık varlığı için değerlendiriyorum?"** olmalıdır.
+> - Alelik seri taşıyan bir gende sonuç geldiğinde, ilk soru "varyant patojen mi?" değil, **"hangi hastalık varlığı için değerlendiriyorum?"** olmalıdır.
 > - Derin fenotipleme lüks değildir: serinin öngördüğü bulguları (işitme, kardiyak ileti, yağ dağılımı, segment oranları, biyokimyasal imza) **aktif olarak arayın**; birçok VUS ancak bu şekilde çözülür.
 > - Mono- ve bialelik tabloları ayıran genlerde, ikinci alelin varlığını netleştirmeden risk hesabı vermeyin; faz bilgisi gerekiyorsa ebeveyn örneği veya uzun-okuma teknolojisi düşünün.
 > - Beklenmedik bir fenotiple karşılaşıldığında **zamanlama eksenini** hatırlayın: germline hâlde hiç görülmeyen varyantlar mozaik hâlde yaşanabilir sendromlar üretir; etkilenmiş dokudan örnek alınmalıdır.
@@ -310,11 +310,11 @@ flowchart TD
 
 ## 9. Klinik pratikte karar algoritması
 
-**Algoritma 15.3 — Allelik seri taşıyan gende klinik karar akışı**
+**Algoritma 15.3 — Alelik seri taşıyan gende klinik karar akışı**
 
 ```mermaid
 flowchart TD
-  A["Genetik sonuç: allelik seri taşıyan<br/>bir gende varyant"] --> B["ADIM 1 — Genin hastalık haritasını çıkar:<br/>tanımlı gen–hastalık varlıkları,<br/>her birinin kalıtımı ve mekanizması"]
+  A["Genetik sonuç: alelik seri taşıyan<br/>bir gende varyant"] --> B["ADIM 1 — Genin hastalık haritasını çıkar:<br/>tanımlı gen–hastalık varlıkları,<br/>her birinin kalıtımı ve mekanizması"]
 
   B --> C["ADIM 2 — Derin fenotipleme:<br/>her varlığın ayırt edici bulgularını<br/>sistematik olarak ARA"]
 
@@ -384,7 +384,7 @@ flowchart TD
 
 20. **Abou Tayoun AN, Pesaran T, DiStefano MT, ve ark. (2018).** Recommendations for interpreting the loss of function PVS1 ACMG/AMP variant criterion. *Human Mutation* 39(11):1517–1524. **PMID: 30192042** · DOI: [10.1002/humu.23626](https://doi.org/10.1002/humu.23626) — *Kullanım amacı: Guideline — PVS1'in yalnız işlev kaybının bilinen hastalık mekanizması olduğu durumlarda uygulanabilmesi. Kaynak kütüğünden yeniden kullanılmıştır.*
 
-21. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — PS1, PM5, PM1, PP4 kriterlerinin tanımı ve allelik seride uyarlanması. Kaynak kütüğünden yeniden kullanılmıştır.*
+21. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Guideline — PS1, PM5, PM1, PP4 kriterlerinin tanımı ve alelik seride uyarlanması. Kaynak kütüğünden yeniden kullanılmıştır.*
 22. **Sanders SJ, Campbell AJ, Cottrell JR, ve ark. (2018).** Progress in Understanding and Treating SCN2A-Mediated Disorders. *Trends in Neurosciences* 41(7):442–456. **PMID: 29691040** · DOI: [10.1016/j.tins.2018.03.011](https://doi.org/10.1016/j.tins.2018.03.011) — *Kullanım amacı: SCN2A işlev kaybının otizm spektrum bozukluğu ve entelektüel yetersizlikle ilişkisi (Berecki 2018'in kapsamı dışındadır).*
 
 > **İkincil/destekleyici kaynak notu:** OMIM, ClinVar, ClinGen Gene-Disease Validity ve GeneReviews kayıtları bu bölümde yalnızca destekleyici/başvuru kaynağı olarak anılmıştır; hiçbiri ana mekanizma kaynağı olarak kullanılmamıştır. *COL4A3/COL4A4* ve *RYR1* örnekleri, kalıtım modu eksenini örneklemek üzere yerleşik ders bilgisi düzeyinde verilmiştir.
@@ -397,7 +397,7 @@ flowchart TD
 
 | Kriter | Durum | Not |
 |--------|-------|-----|
-| Mekanizma doğru anlatıldı mı? | ✅ | Allelik serinin altı ekseni (yön, rezidüel işlev, konum, kalıtım modu, zamanlama, bağlam) sistematik olarak kuruldu |
+| Mekanizma doğru anlatıldı mı? | ✅ | Alelik serinin altı ekseni (yön, rezidüel işlev, konum, kalıtım modu, zamanlama, bağlam) sistematik olarak kuruldu |
 | Klinik bağlantı kuruldu mu? | ✅ | Derin fenotipleme, "hangi hastalık?" sorusu, rapor cümlesi ve tekrarlanma riskinin hastalık varlığına bağlanması |
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | 10 satırlık "varyant tipi → serideki konum" tablosu; tip-temelli otomatik yorumun sınırları |
 | Pediatrik örnek verildi mi? | ✅ | FGFR3/CATSHL, LMNA/HGPS, ATP7A, COL1A1, GNAS, PAH, DMD, PAX6 — hepsi kaynaklı |
@@ -415,4 +415,4 @@ flowchart TD
 >
 > **Bu bölüm için durum:** **22/22 kaynak PMID+DOI doğrulandı** (9'u bu oturumda PubMed MCP ile — Thaxton 2022, Strande 2017, Toydemir 2006, Eriksson 2003, Worman 2012, Bertrand 2011, Marini 2007, Kaler 2011, Mantovani 2018; 12'si Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda *SCN2A*/otizm atfı Sanders 2018'e taşınmış ve "altı eksen" çerçevesi 🏷️ etiketlenmiştir (bkz. `Dogrulama_Kutugu.md`).
 >
-> **İşaretlenen iddialar:** (1) ⚠️ Domain–fenotip haritaları güçlü örüntüler sunar ancak birebir öngörü aracı değildir; laminopatilerde nükleer morfoloji bozukluğunun patolojiye nasıl dönüştüğü henüz tam açıklanmamıştır (Worman, 2012). (2) *COL4A3*/*COL4A4* (ince bazal membran nefropatisi ↔ otozomal resesif Alport sendromu) ve *RYR1* (malign hipertermi/santral kor ↔ bialelik konjenital miyopati) örnekleri, kalıtım modu eksenini örneklemek üzere **yerleşik ders bilgisi** düzeyinde verilmiştir; bu bölümde ayrıca PubMed doğrulaması yapılmamıştır. (3) *FGFR3* varyant–fenotip eşleşmeleri (p.Asn540Lys, p.Gly380Arg, p.Lys650Met, p.Lys650Glu, p.Arg248Cys) yerleşik klinik genetik bilgisidir; bu bölümde doğrudan kaynaklanan noktalar p.Arg621His (Toydemir, 2006) ve p.Gly380Arg'nin konstitütif aktivasyonudur (Webster ve Donoghue, 1996). (3) 🏷️ **"Allelik serinin altı ekseni" çerçevesi kitabın pedagojik sentezidir**; literatürde bu adla yerleşik bir sınıflandırma değildir — eksenlerin bileşenleri kaynaklı, gruplama editöryaldir (§2 girişindeki etikete bkz.).
+> **İşaretlenen iddialar:** (1) ⚠️ Domain–fenotip haritaları güçlü örüntüler sunar ancak birebir öngörü aracı değildir; laminopatilerde nükleer morfoloji bozukluğunun patolojiye nasıl dönüştüğü henüz tam açıklanmamıştır (Worman, 2012). (2) *COL4A3*/*COL4A4* (ince bazal membran nefropatisi ↔ otozomal resesif Alport sendromu) ve *RYR1* (malign hipertermi/santral kor ↔ bialelik konjenital miyopati) örnekleri, kalıtım modu eksenini örneklemek üzere **yerleşik ders bilgisi** düzeyinde verilmiştir; bu bölümde ayrıca PubMed doğrulaması yapılmamıştır. (3) *FGFR3* varyant–fenotip eşleşmeleri (p.Asn540Lys, p.Gly380Arg, p.Lys650Met, p.Lys650Glu, p.Arg248Cys) yerleşik klinik genetik bilgisidir; bu bölümde doğrudan kaynaklanan noktalar p.Arg621His (Toydemir, 2006) ve p.Gly380Arg'nin konstitütif aktivasyonudur (Webster ve Donoghue, 1996). (3) 🏷️ **"Alelik serinin altı ekseni" çerçevesi kitabın pedagojik sentezidir**; literatürde bu adla yerleşik bir sınıflandırma değildir — eksenlerin bileşenleri kaynaklı, gruplama editöryaldir (§2 girişindeki etikete bkz.).

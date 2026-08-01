@@ -63,7 +63,7 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | Mozaiklik (12) | ● | ▲ | ▲ | ● | ● | ● | ✖ | ▼ |
 | Kodlamayan · regülatör (13) | ✖ | ▼ | ✖ | ▲ | ▼ | ● | ● | ● |
 | Digenik · modifier (14) | ● | ● | ● | ● | ● | ● | ▼ | ● |
-| Allelik seri (15) | ▼ | ▼ | ▼ | ▼ | ● | ● | ● | ● |
+| Alelik seri (15) | ▼ | ▼ | ▼ | ▼ | ● | ● | ● | ● |
 
 > ⚠️ Bu matris **pedagojik bir özettir**; ilgili gen/hastalık için yayımlanmış uzman panel spesifikasyonunun yerine geçmez.
 
@@ -84,7 +84,7 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | Mozaiklik | **Etkilenmiş dokudan** derin dizileme | Kan yanıltır; VAF eşiği düşük tutulmalı | Standart filtrelerde elenme |
 | Kodlamayan · regülatör | WGS + RNA analizi | Element ve hedef gen tanımlanmalı | Fonksiyonel kanıt yoksa VUS'ta kalır |
 | Digenik · modifier | Trio/genişletilmiş aile + hedefli doz ölçümü | Segregasyon tek-lokus varsayımıyla yorumlanmamalı | Singleton veriyle kurulamaz |
-| Allelik seri | Genin tamamı + derin fenotipleme | Hangi hastalık varlığı değerlendiriliyor? | Yanlış hastalık için kriter uygulanması |
+| Alelik seri | Genin tamamı + derin fenotipleme | Hangi hastalık varlığı değerlendiriliyor? | Yanlış hastalık için kriter uygulanması |
 
 ---
 

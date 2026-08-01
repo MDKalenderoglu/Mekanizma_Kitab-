@@ -113,7 +113,7 @@ Bu bölümde varyant tipi sorusu klinikten başlar: **hangi başvuru tablosunda 
 | Klinik tablo | Beklenen varyant tipi | Görebilen yöntem | İlgili bölüm |
 |---|---|---|---|
 | Çoklu anomali + gelişimsel gerilik | Büyük delesyon/duplikasyon | CMA · CNV çözünürlüklü WGS | 3, 8 |
-| İzole, ağır, resesif metabolik tablo | Biallelik null/missense | Panel/WES + biyokimyasal doğrulama | 2 |
+| İzole, ağır, resesif metabolik tablo | Bialelik null/missense | Panel/WES + biyokimyasal doğrulama | 2 |
 | Erken başlangıçlı ağır epilepsi | De novo missense (çoğu GoF) | Trio panel/WES + fonksiyonel veri | 4, 16 |
 | Kemik kırılganlığı, bağ doku tablosu | Glisin missense (DN) vs null | Panel; mekanizma ayrımı şart | 5 |
 | Tipik fenotip, panel negatif | Derin intronik/kriptik splice | WGS + **RNA analizi** | 7, 13 |
@@ -202,7 +202,7 @@ Bu bölümde tablo, **basamaklı strateji** olarak okunmalıdır: hangi test han
 
 Bu bölümün varyant yorumlamaya katkısı, Bölüm 16'nın çerçevesini **klinik girdiyle beslemektir**. Üç bağlantı özellikle önemlidir.
 
-**Birincisi, fenotip kriterin kendisidir.** Derin fenotipleme, PP4'ün kullanılabilirliğini belirler; ama daha önemlisi, Bölüm 15'te gördüğümüz gibi **hangi hastalık varlığı için** değerlendirme yapılacağını seçtirir. Allelik seri taşıyan bir gende bu seçim, bütün kriterlerin anlamını değiştirir.
+**Birincisi, fenotip kriterin kendisidir.** Derin fenotipleme, PP4'ün kullanılabilirliğini belirler; ama daha önemlisi, Bölüm 15'te gördüğümüz gibi **hangi hastalık varlığı için** değerlendirme yapılacağını seçtirir. Alelik seri taşıyan bir gende bu seçim, bütün kriterlerin anlamını değiştirir.
 
 **İkincisi, aile örneği kriter üretir.** Trio ve genişletilmiş aile örneklemesi, laboratuvarın kendi başına üretemeyeceği kanıtı (PS2/PM6, PP1/BS4, PM3) sağlar. Bu nedenle "aile örneği alınamadı" cümlesi teknik bir ayrıntı değil, **kanıt kaybıdır**.
 
@@ -246,7 +246,7 @@ Aşağıdaki sekiz senaryo, kitabın bütün bölümlerini hastanın başında t
 
 ![Şekil 17.4 — Sekiz senaryo panosu: başvurudan mekanizmaya, mekanizmadan teste](assets/sekil_61_senaryo_panosu.svg)
 
-**Senaryo 1 — Yenidoğan, ağır hipotoni ve solunum yetmezliği.** Doğumdan itibaren belirgin hipotoni, zayıf ağlama, dil fasikülasyonları ve derin tendon reflekslerinin alınamaması. **Mekanizma hipotezi:** ön boynuz motor nöronunda işlev kaybı; klasik olarak biallelik *SMN1* kaybı. **Test:** *SMN1* delesyon analizi (MLPA) — ve kritik olarak **aynı testte *SMN2* kopya sayısı**. **Yorum:** ana kusur bütün hastalarda aynıdır; klinik ağırlığı belirleyen esas değişken yedek genin kopya sayısıdır (Bölüm 14), ve bu etki Bölüm 7'de anlatılan bir splicing farkı üzerinden çalışır (Lorson ve ark., 1999). Büyük serilerde kopya sayısı ile hastalık tipi arasındaki ilişki prognostik kurallar hâlinde ortaya konmuştur (Calucho ve ark., 2018). **Öğreti:** modifier ölçümü burada akademik bir ayrıntı değil, prognoz ve tedavi kararının parçasıdır — dizileme yapmadan önce doğru doz testini istemek gerekir.
+**Senaryo 1 — Yenidoğan, ağır hipotoni ve solunum yetmezliği.** Doğumdan itibaren belirgin hipotoni, zayıf ağlama, dil fasikülasyonları ve derin tendon reflekslerinin alınamaması. **Mekanizma hipotezi:** ön boynuz motor nöronunda işlev kaybı; klasik olarak bialelik *SMN1* kaybı. **Test:** *SMN1* delesyon analizi (MLPA) — ve kritik olarak **aynı testte *SMN2* kopya sayısı**. **Yorum:** ana kusur bütün hastalarda aynıdır; klinik ağırlığı belirleyen esas değişken yedek genin kopya sayısıdır (Bölüm 14), ve bu etki Bölüm 7'de anlatılan bir splicing farkı üzerinden çalışır (Lorson ve ark., 1999). Büyük serilerde kopya sayısı ile hastalık tipi arasındaki ilişki prognostik kurallar hâlinde ortaya konmuştur (Calucho ve ark., 2018). **Öğreti:** modifier ölçümü burada akademik bir ayrıntı değil, prognoz ve tedavi kararının parçasıdır — dizileme yapmadan önce doğru doz testini istemek gerekir.
 
 **Senaryo 2 — Altı aylık bebek, dirençli nöbetler.** Yaşamın ilk günlerinde başlayan, çoklu antiepileptiğe dirençli nöbetler; EEG'de ağır örüntü; gelişimsel duraklama. **Mekanizma hipotezi:** iyon kanalı hastalığı; başlangıç yaşı erken olduğunda **işlev kazanımı** yönü ön planda. **Test:** trio panel/WES; saptanan de novo missense varyantın **yönü** için fonksiyonel veri. **Yorum:** *SCN2A*'da tekrarlayan varyantların bir kısmı işlev kazanımı, bir kısmı işlev kaybı yönündedir ve bu ayrım elektrofizyolojik olarak gösterilebilir (Berecki ve ark., 2018). Yorumlamada bu, PS3'ün yalnızca "işlev bozulmuş" demek için değil **yönü göstermek** için kullanılması demektir (Bölüm 16). **Öğreti:** mekanizma yönü doğrudan tedaviyi değiştirir; erken başlangıçlı ve işlev kazanımı yönündeki sodyum kanalı tablolarında sodyum kanal blokerleri gündeme gelirken, işlev kaybı tablolarında aynı yaklaşım uygun değildir (Brunklaus ve ark., 2020).
 

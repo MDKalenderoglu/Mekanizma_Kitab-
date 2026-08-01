@@ -12,7 +12,7 @@ On yedi bölüm boyunca aynı zincir kurulur:
 
 **Kitabın öne çıkan yanları**
 
-- **Altı kısım, on yedi bölüm:** işlev kaybından işlev kazanımına, kırpılmadan mozaikliğe, damgalamadan mitokondriyal genoma, allelik serilerden ACMG/ClinGen sentezine.
+- **Altı kısım, on yedi bölüm:** işlev kaybından işlev kazanımına, kırpılmadan mozaikliğe, damgalamadan mitokondriyal genoma, alelik serilerden ACMG/ClinGen sentezine.
 - **64 özgün şekil ve 49 karar algoritması:** her biri tek başına okunabilecek, tek cümlelik bir "öğreti" satırıyla kapanan çizimler.
 - **Mekanizma → kriter matrisi:** kitabın on dört mekanizma bölümünün, sekiz ACMG kriter ailesiyle ilişkisini tek tabloda toplayan sentez.
 - **Sekiz uçtan uca klinik senaryo:** başvurudan mekanizma hipotezine, testten yoruma ve danışmaya.

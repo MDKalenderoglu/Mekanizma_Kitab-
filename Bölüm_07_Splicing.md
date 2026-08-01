@@ -122,7 +122,7 @@ Splice varyantlarında temel ayrım nettir: **DNA testleri varyantı bulur, ama 
 | **Long-read WGS** | ✅ Evet; ayrıca izoform/faz çözümü | Maliyet/erişim |
 | **Array-CGH / SNP array** | ❌ Hayır (nokta splice varyantı için) | Yalnız büyük kopya değişimi |
 | **MLPA** | ❌ Hayır | Doz testi |
-| **RNA-seq** | ✅✅ Etkiyi gösterir — ekzon atlama/pseudoexon/intron tutulması | Doğru doku/ifade gerekir; allel-spesifik analiz zor olabilir |
+| **RNA-seq** | ✅✅ Etkiyi gösterir — ekzon atlama/pseudoexon/intron tutulması | Doğru doku/ifade gerekir; alel-spesifik analiz zor olabilir |
 | **Methylation array** | ❌ Hayır | İlgisiz |
 | **Karyotip** | ❌ Hayır | Çözünürlük yetersiz |
 

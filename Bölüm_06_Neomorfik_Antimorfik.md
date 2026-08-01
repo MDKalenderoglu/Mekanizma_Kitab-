@@ -1,8 +1,8 @@
-# Bölüm 6 — Neomorfik ve Antimorfik Alleller
+# Bölüm 6 — Neomorfik ve Antimorfik Aleller
 
-> **Bölümün çekirdek tezi:** Bu bölüm, mekanizma bölümlerini birleştiren **Muller'in klasik allel serisini** tamamlar. Bir varyant gen ürününü altı yoldan biriyle değiştirebilir: ürünü yok eder (**amorf** = null/LoF), azaltır (**hipomorf** = kısmi LoF), aynı işin fazlasını yaptırır (**hipermorf** = GoF), sağlam ürünü sabote eder (**antimorf** = dominant-negatif) veya ona **normalde hiç yapmadığı yepyeni bir iş** kazandırır (**neomorf**). İlk üçünü Bölüm 2–4'te, antimorfu (DN) Bölüm 5'te işledik; bu bölüm bu çerçeveyi tamamlar ve özellikle **neomorfik** etkiye odaklanır. Neomorfizmin özü, GoF'un en radikal ucudur: protein artık eski işini "daha çok" yapmaz, **bambaşka** bir aktivite kazanır — yeni bir metabolit üretir (IDH → 2-hidroksiglutarat), bir enzimi yeni biçimde inhibe eder (histon H3 K27M → PRC2) veya toksik bir ürüne dönüşür. Hem neomorf hem antimorf **dominanttır** ve ikisi de "varyant ürünün varlığından" doğduğu için, ikisinde de **tam delesyon/null çoğu kez hastalığı kopyalamaz** — bu da varyant yorumunun (PVS1'in uygulanmaması) ortak sonucudur.
+> **Bölümün çekirdek tezi:** Bu bölüm, mekanizma bölümlerini birleştiren **Muller'in klasik alel serisini** tamamlar. Bir varyant gen ürününü altı yoldan biriyle değiştirebilir: ürünü yok eder (**amorf** = null/LoF), azaltır (**hipomorf** = kısmi LoF), aynı işin fazlasını yaptırır (**hipermorf** = GoF), sağlam ürünü sabote eder (**antimorf** = dominant-negatif) veya ona **normalde hiç yapmadığı yepyeni bir iş** kazandırır (**neomorf**). İlk üçünü Bölüm 2–4'te, antimorfu (DN) Bölüm 5'te işledik; bu bölüm bu çerçeveyi tamamlar ve özellikle **neomorfik** etkiye odaklanır. Neomorfizmin özü, GoF'un en radikal ucudur: protein artık eski işini "daha çok" yapmaz, **bambaşka** bir aktivite kazanır — yeni bir metabolit üretir (IDH → 2-hidroksiglutarat), bir enzimi yeni biçimde inhibe eder (histon H3 K27M → PRC2) veya toksik bir ürüne dönüşür. Hem neomorf hem antimorf **dominanttır** ve ikisi de "varyant ürünün varlığından" doğduğu için, ikisinde de **tam delesyon/null çoğu kez hastalığı kopyalamaz** — bu da varyant yorumunun (PVS1'in uygulanmaması) ortak sonucudur.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 6.1'dir (Muller allel serisi): altı sınıfı tek bir haritada görün, her birini bir mekanizma bölümüne bağlayın. Ardından neomorf ile antimorfu Şekil 6.2 üzerinden ayırın (neomorf = yeni iş yaratır; antimorf = sağlamı bozar). Uzman okuyucu §2.2–§7'de IDH ve H3K27M'in moleküler ayrıntısına, §6'da neomorfik varyantların ACMG yorumuna (PM1 hotspot, PS3) yoğunlaşabilir. Bölüm 4 (GoF) ve Bölüm 5 (DN) önce okunmalıdır; bu bölüm onların kavramsal tamamlayıcısıdır. Repeat-expansion kaynaklı toksik kazanım (poliQ vb.) Bölüm 9'a, mozaik neomorfik örnekler (Ollier/Maffucci) Bölüm 12'ye bağlanır.
+> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga Şekil 6.1'dir (Muller alel serisi): altı sınıfı tek bir haritada görün, her birini bir mekanizma bölümüne bağlayın. Ardından neomorf ile antimorfu Şekil 6.2 üzerinden ayırın (neomorf = yeni iş yaratır; antimorf = sağlamı bozar). Uzman okuyucu §2.2–§7'de IDH ve H3K27M'in moleküler ayrıntısına, §6'da neomorfik varyantların ACMG yorumuna (PM1 hotspot, PS3) yoğunlaşabilir. Bölüm 4 (GoF) ve Bölüm 5 (DN) önce okunmalıdır; bu bölüm onların kavramsal tamamlayıcısıdır. Repeat-expansion kaynaklı toksik kazanım (poliQ vb.) Bölüm 9'a, mozaik neomorfik örnekler (Ollier/Maffucci) Bölüm 12'ye bağlanır.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -11,7 +11,7 @@
 ## Öğrenme hedefleri
 
 Bu bölümü tamamlayan okuyucu:
-1. Muller'in allel serisini (amorf, hipomorf, hipermorf, antimorf, neomorf) tanımlayabilir ve her sınıfı bir moleküler mekanizmaya/bölüme bağlayabilir.
+1. Muller'in alel serisini (amorf, hipomorf, hipermorf, antimorf, neomorf) tanımlayabilir ve her sınıfı bir moleküler mekanizmaya/bölüme bağlayabilir.
 2. Neomorfik etkiyi "ürünün normalde yapmadığı yeni bir işlev kazanması" olarak tanımlayabilir ve onu basit hipermorf (artmış aktivite) GoF'tan ayırt edebilir.
 3. Neomorf ile antimorf (DN) arasındaki temel farkı açıklayabilir: neomorf sağlamdan bağımsız yeni bir aktivite yaratır; antimorf sağlam ürünü hedef alıp bozar.
 4. Toksik kazanımı (toxic gain-of-function; agregasyon, onkometabolit, anormal etkileşim) neomorfik spektrumun bir parçası olarak konumlandırabilir.
@@ -24,21 +24,21 @@ Bu bölümü tamamlayan okuyucu:
 
 ## 1. Kavramsal tanım
 
-Önceki dört bölümde varyantların gen ürününü farklı yönlerde değiştirdiğini gördük. Bu bölüm, o parçaları **Muller'in allel serisi** denen klasik bir çerçevede birleştirir. 1930'larda Hermann Joseph Muller, bir varyant allelin yabanıl-tipe göre işlevini niteliğe göre sınıflandırmış ve bugün hâlâ kullandığımız terimleri ortaya koymuştur: **amorf** (işlev tümüyle kayıp), **hipomorf** (işlev azalmış), **hipermorf** (işlev artmış), **antimorf** (yabanıl-tip işlevine *karşı* çalışan) ve **neomorf** (yepyeni bir işlev kazanan). Wilkie (1994), dominant hastalıkların moleküler temellerini incelerken bu çerçeveyi modern genetik diline taşır ve "artmış/yeni protein işlevi" ile "dominant-negatif (antimorfik)" etkiyi ayrı dominant mekanizmalar olarak konumlandırır (Wilkie, 1994, *J Med Genet*; [DOI](https://doi.org/10.1136/jmg.31.2.89)).
+Önceki dört bölümde varyantların gen ürününü farklı yönlerde değiştirdiğini gördük. Bu bölüm, o parçaları **Muller'in alel serisi** denen klasik bir çerçevede birleştirir. 1930'larda Hermann Joseph Muller, bir varyant alelin yabanıl-tipe göre işlevini niteliğe göre sınıflandırmış ve bugün hâlâ kullandığımız terimleri ortaya koymuştur: **amorf** (işlev tümüyle kayıp), **hipomorf** (işlev azalmış), **hipermorf** (işlev artmış), **antimorf** (yabanıl-tip işlevine *karşı* çalışan) ve **neomorf** (yepyeni bir işlev kazanan). Wilkie (1994), dominant hastalıkların moleküler temellerini incelerken bu çerçeveyi modern genetik diline taşır ve "artmış/yeni protein işlevi" ile "dominant-negatif (antimorfik)" etkiyi ayrı dominant mekanizmalar olarak konumlandırır (Wilkie, 1994, *J Med Genet*; [DOI](https://doi.org/10.1136/jmg.31.2.89)).
 
 Bu seriyi tek bir haritada görmek, kitabın o ana kadarki tüm mekanizmalarını birbirine bağlar (Şekil 6.1). Soldaki yabanıl-tip referanstan başlayarak sağa doğru: amorf ve hipomorf **işlev kaybı** ucundadır (Bölüm 2–3); hipermorf **işlev kazanımı** (Bölüm 4); antimorf **sağlamı sabote etme** (Bölüm 5, dominant-negatif); ve neomorf **yeni işlev** ucunda durur (bu bölüm).
 
-![Şekil 6.1 — Muller'in allel serisi: bir varyantın altı olası etkisi](assets/sekil_21_muller_allel_serisi.svg)
+![Şekil 6.1 — Muller'in alel serisi: bir varyantın altı olası etkisi](assets/sekil_21_muller_alel_serisi.svg)
 
 Bu bölümün asıl yeni kavramı **neomorf**tur, çünkü antimorfu (dominant-negatif) Bölüm 5'te ayrıntılı işledik. Neomorfik etkinin tanımı kritik bir incelik taşır: bu, "aynı işin fazlası" (hipermorf) değil, **niteliksel olarak yeni** bir aktivitedir. Sezgisel benzetmeyle: hipermorf, bir motorun fazla mesai yapmasıdır (aynı iş, daha çok); neomorf ise motorun aniden **bambaşka bir cihaza** dönüşüp, sistemde hiç olmaması gereken bir çıktı üretmesidir. Bu ayrım sadece akademik değildir; aşağıda göreceğimiz gibi, neomorfik varyantların tipik olarak **belirli kodonlarda tekrar tekrar** (hotspot) ortaya çıkması ve **fonksiyonel testlerle** doğrulanması, doğrudan bu "yeni aktivite" özelliğinden kaynaklanır.
 
 Aşağıdaki tablo, bölüm boyunca açacağımız kavramları bir arada gösterir.
 
-**Tablo 6.1 — Neomorfik ve antimorfik allellerin temel kavramları**
+**Tablo 6.1 — Neomorfik ve antimorfik alellerin temel kavramları**
 
 | Kavram | Tanım | Klinik anlamı |
 |--------|-------|---------------|
-| **Muller allel serisi** | Varyant etkisinin altı sınıfı (amorf→neomorf) | Tüm mekanizma bölümlerini birleştiren çerçeve |
+| **Muller alel serisi** | Varyant etkisinin altı sınıfı (amorf→neomorf) | Tüm mekanizma bölümlerini birleştiren çerçeve |
 | **Neomorf** | Ürünün normalde yapmadığı yeni bir işlev kazanması | Dominant; tekrarlayan hotspot missense; PS3 değerli |
 | **Antimorf** | Yabanıl-tip işlevine karşı çalışan (= dominant-negatif) | Dominant; ağır; sağlamı sabote eder (Bölüm 5) |
 | **Toksik kazanım (toxic GoF)** | Ürünün zararlı yeni bir özellik kazanması (agregasyon, onkometabolit) | Neomorfik spektrumun parçası |
@@ -52,7 +52,7 @@ Aşağıdaki tablo, bölüm boyunca açacağımız kavramları bir arada göster
 
 ### 2.1. Neomorf ile antimorfu ayırmak
 
-Bu iki dominant kazanım sıklıkla karıştırılır, çünkü ikisi de "varyant ürünün zararlı varlığı" ile çalışır. Ama mekanizmaları temelden farklıdır (Şekil 6.2). **Antimorf (dominant-negatif)**, sağlam ürüne *ihtiyaç duyar*: varyant ürün, normal ürünle fiziksel olarak etkileşip onu sabote eder (Bölüm 5'teki zehirli alt birim). **Neomorf** ise sağlamdan *bağımsızdır*: varyant ürün, normal ürünü hedef almak yerine, hücrede daha önce hiç olmayan **yeni bir aktivite** başlatır. Sağlam allelin ürünü kendi işini yapmaya devam edebilir; sorun, sağlamın bozulması değil, **fazladan zararlı bir işlevin ortaya çıkmasıdır**.
+Bu iki dominant kazanım sıklıkla karıştırılır, çünkü ikisi de "varyant ürünün zararlı varlığı" ile çalışır. Ama mekanizmaları temelden farklıdır (Şekil 6.2). **Antimorf (dominant-negatif)**, sağlam ürüne *ihtiyaç duyar*: varyant ürün, normal ürünle fiziksel olarak etkileşip onu sabote eder (Bölüm 5'teki zehirli alt birim). **Neomorf** ise sağlamdan *bağımsızdır*: varyant ürün, normal ürünü hedef almak yerine, hücrede daha önce hiç olmayan **yeni bir aktivite** başlatır. Sağlam alelin ürünü kendi işini yapmaya devam edebilir; sorun, sağlamın bozulması değil, **fazladan zararlı bir işlevin ortaya çıkmasıdır**.
 
 ![Şekil 6.2 — Neomorf vs antimorf: yeni iş yaratmak vs sağlamı bozmak](assets/sekil_22_neomorf_vs_antimorf.svg)
 
@@ -91,7 +91,7 @@ Bu tablonun pratik özeti şudur: neomorfik bir gende patojen varyantlar **belir
 
 Bölümün anahtar sorularını sırayla yanıtlayalım.
 
-**Soru 1 — Neomorf neden dominanttır?** Çünkü hastalık, sağlam allelin yetersizliğinden değil, varyant allelin ürettiği **fazladan zararlı aktiviteden** doğar. Tek bir varyant allel bu yeni aktiviteyi başlatmaya yeter; ikinci sağlam allelin varlığı onu durduramaz. Bu, GoF ve DN ile paylaşılan dominant kalıtım sonucudur — ama nedeni farklıdır (Şekil 6.1'deki birleştirici çerçeve).
+**Soru 1 — Neomorf neden dominanttır?** Çünkü hastalık, sağlam alelin yetersizliğinden değil, varyant alelin ürettiği **fazladan zararlı aktiviteden** doğar. Tek bir varyant alel bu yeni aktiviteyi başlatmaya yeter; ikinci sağlam alelin varlığı onu durduramaz. Bu, GoF ve DN ile paylaşılan dominant kalıtım sonucudur — ama nedeni farklıdır (Şekil 6.1'deki birleştirici çerçeve).
 
 **Soru 2 — Neomorfu klinik/molekülde nasıl tanırız?** Üç işaret birlikte güçlü ipucu verir: (a) varyantların **belirli hotspot kodonlarda tekrar tekrar** görülmesi, (b) o gende **tam delesyon/null'un farklı veya hiç fenotip yapmaması** (delesyon testi), ve (c) **fonksiyonel bir testin yeni aktiviteyi göstermesi** (örneğin tümörde 2-HG birikimi, ya da H3K27me3 kaybı). Bu üçlü, neomorfu hem haploinsufficiency'den hem de basit hipermorf GoF'tan ayırır.
 
@@ -99,7 +99,7 @@ Bölümün anahtar sorularını sırayla yanıtlayalım.
 
 Aşağıdaki Mermaid akışı, Muller serisini bir karar ağacına dönüştürerek mekanizma sınıflandırmasını özetler.
 
-**Algoritma 6.1 — Patojen varyantın Muller allel serisindeki yeri**
+**Algoritma 6.1 — Patojen varyantın Muller alel serisindeki yeri**
 
 ```mermaid
 flowchart TD
@@ -226,10 +226,10 @@ flowchart TD
 
 > **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
 
-1. **Wilkie AOM (1994).** The molecular basis of genetic dominance. *Journal of Medical Genetics* 31(2):89–98. **PMID: 8182727** · DOI: [10.1136/jmg.31.2.89](https://doi.org/10.1136/jmg.31.2.89) — *Kullanım amacı: Muller allel serisinin modern çerçevesi; neomorf/antimorf/hipermorfun dominant mekanizma olarak konumlandırılması.*
+1. **Wilkie AOM (1994).** The molecular basis of genetic dominance. *Journal of Medical Genetics* 31(2):89–98. **PMID: 8182727** · DOI: [10.1136/jmg.31.2.89](https://doi.org/10.1136/jmg.31.2.89) — *Kullanım amacı: Muller alel serisinin modern çerçevesi; neomorf/antimorf/hipermorfun dominant mekanizma olarak konumlandırılması.*
 2. **Herskowitz I (1987).** Functional inactivation of genes by dominant negative mutations. *Nature* 329(6136):219–222. **PMID: 2442619** · DOI: [10.1038/329219a0](https://doi.org/10.1038/329219a0) — *Kullanım amacı: Antimorfik (dominant-negatif) etkinin kavramsal temeli; neomorf ile karşıtlık.*
 3. **Dang L, White DW, Gross S, ve ark. (2009).** Cancer-associated IDH1 mutations produce 2-hydroxyglutarate. *Nature* 462(7274):739–744. **PMID: 19935646** · DOI: [10.1038/nature08617](https://doi.org/10.1038/nature08617) — *Kullanım amacı: Neomorfik enzim landmark'ı; IDH1 R132 → 2-HG onkometaboliti (basit LoF değil).*
-4. **Lewis PW, Müller MM, Koletsky MS, ve ark. (2013).** Inhibition of PRC2 activity by a gain-of-function H3 mutation found in pediatric glioblastoma. *Science* 340(6134):857–861. **PMID: 23539183** · DOI: [10.1126/science.1232245](https://doi.org/10.1126/science.1232245) — *Kullanım amacı: Onkohiston H3 K27M'nin neomorfik (PRC2/EZH2 inhibisyonu) mekanizması; pediatrik gliom.*
+4. **Lewis PW, Muller MM, Koletsky MS, ve ark. (2013).** Inhibition of PRC2 activity by a gain-of-function H3 mutation found in pediatric glioblastoma. *Science* 340(6134):857–861. **PMID: 23539183** · DOI: [10.1126/science.1232245](https://doi.org/10.1126/science.1232245) — *Kullanım amacı: Onkohiston H3 K27M'nin neomorfik (PRC2/EZH2 inhibisyonu) mekanizması; pediatrik gliom.*
 5. **Amary MF, Damato S, Halai D, ve ark. (2011).** Ollier disease and Maffucci syndrome are caused by somatic mosaic mutations of IDH1 and IDH2. *Nature Genetics* 43(12):1262–1265. **PMID: 22057236** · DOI: [10.1038/ng.994](https://doi.org/10.1038/ng.994) — *Kullanım amacı: Neomorfik IDH varyantlarının mozaik germline tablosu (Ollier/Maffucci); neomorf–mozaiklik kesişimi.*
 6. **Gerasimavicius L, Livesey BJ, Marsh JA (2022).** Loss-of-function, gain-of-function and dominant-negative mutations have profoundly different effects on protein structure. *Nature Communications* 13(1):3895. **PMID: 35794153** · DOI: [10.1038/s41467-022-31686-6](https://doi.org/10.1038/s41467-022-31686-6) — *Kullanım amacı: LoF dışı (DN/GoF/neomorf) varyantların 3B kümelenmesi ve tahmin araçlarının zayıflığı; hotspot/PM1 gerekçesi.*
 7. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: ACMG kriter çerçevesi; neomorfta PVS1'in uygulanmaması, PM1/PS3'ün öne çıkması.*
@@ -260,6 +260,6 @@ flowchart TD
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
 >
-> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddia: gen-spesifik neomorfik/toksik mekanizma etiketleri için VCEP/ClinGen teyidi önerilir (§7.3); toksik kazanım/agregasyon ayrıntısı Bölüm 9'a bırakılmıştır. Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir: Ollier/Maffucci oranları kaynağın bildirdiği ham sayılarla değiştirilmiş, allel serisinin adı **Muller** (H.J. Muller) olarak düzeltilmiştir (bkz. `Dogrulama_Kutugu.md`).
+> **Bu bölüm için durum:** 7/7 kaynak PMID+DOI doğrulandı (PubMed MCP ile). İşaretlenen iddia: gen-spesifik neomorfik/toksik mekanizma etiketleri için VCEP/ClinGen teyidi önerilir (§7.3); toksik kazanım/agregasyon ayrıntısı Bölüm 9'a bırakılmıştır. Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir: Ollier/Maffucci oranları kaynağın bildirdiği ham sayılarla değiştirilmiş, alel serisinin adı **Muller** (H.J. Muller) olarak düzeltilmiştir (bkz. `Dogrulama_Kutugu.md`).
 >
 > **Uzman değerlendirmesi turu (29.07.2026):** §2.2 hotspot pasajı uzman metniyle yeniden yazılmıştır. *(1)* Kümelenme yalnız "belirli kodonlar" değil; **işlevsel motifler, protein etkileşim yüzeyleri ve üç boyutlu yapısal kümeler** olarak genişletilmiştir. *(2)* *IDH2* kodonları **p.Arg140 ve p.Arg172** olarak; *IDH1* **p.Arg132** olarak yazılmıştır. *(3)* H3 K27M için **gen adları eklenmiştir**: en sık *H3-3A* (H3.3), daha seyrek *H3C2, H3C3, H3C11* (H3.1). *(4)* Adlandırma inceliği eklenmiştir: yerleşik "K27M" adı olgun protein numaralandırmasına dayanır, **HGVS'de p.Lys28Met**'tir. *(5)* En önemlisi, **hotspot ya da 3B kümelenmenin tek başına patojenite kanıtı olmadığı** ve PM1'in yalnızca ilgili gen–hastalık mekanizması için doğrulanmış hotspot/kritik bölge varsa uygulanabileceği hem §2.2'ye hem §6'daki PM1 paragrafına yazılmıştır.

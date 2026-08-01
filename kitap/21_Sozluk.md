@@ -5,10 +5,10 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 **A**
 
 - **Alel** — Bir lokusun bir kromozomdaki belirli sürümü. İnsanda otozomal her lokus için iki alel bulunur.
-- **Allelik heterojenite** — Aynı gendeki farklı varyantların **aynı** hastalığa yol açması. Kistik fibrozdaki yüzlerce *CFTR* varyantı tipik örnektir.
-- **Allelik seri** — Aynı gendeki farklı varyantların **farklı** hastalıklar üretmesi; kitapta altı eksen üzerinden incelenir (Bölüm 15).
-- **Amorf** — İşlevin tümüyle kaybolduğu alel (null). Müller serisinin bir ucudur.
-- **Antimorf** — Ürünü yabanıl-tip ürünün işlevini bozacak biçimde değiştiren alel; dominant-negatif etkinin Müller serisindeki karşılığı.
+- **Alelik heterojenite** — Aynı gendeki farklı varyantların **aynı** hastalığa yol açması. Kistik fibrozdaki yüzlerce *CFTR* varyantı tipik örnektir.
+- **Alelik seri** — Aynı gendeki farklı varyantların **farklı** hastalıklar üretmesi; kitapta altı eksen üzerinden incelenir (Bölüm 15).
+- **Amorf** — İşlevin tümüyle kaybolduğu alel (null). Muller serisinin bir ucudur.
+- **Antimorf** — Ürünü yabanıl-tip ürünün işlevini bozacak biçimde değiştiren alel; dominant-negatif etkinin Muller serisindeki karşılığı.
 - **Anticipasyon** — Bir hastalığın kuşaktan kuşağa daha erken başlaması ve ağırlaşması; tekrar dizisi genişlemelerinin klinik imzasıdır.
 
 **B**
@@ -97,7 +97,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Modifiye edici lokus (modifier)** — Hastalığı tek başına yapmayan, ancak ağırlığını değiştiren ikinci lokus.
 - **Mozaiklik** — Bir bireyde genetik olarak farklı hücre popülasyonlarının bulunması; postzigotik olaylardan doğar.
 - **Multimer** — Birden çok alt birimin bir araya gelmesiyle oluşan protein kompleksi; dominant-negatif etkinin zeminidir.
-- **Müller allel serisi** — Bir varyantın olası etkilerini (amorf, hipomorf, hipermorf, antimorf, neomorf) sınıflandıran klasik çerçeve.
+- **Muller alel serisi** — Bir varyantın olası etkilerini (amorf, hipomorf, hipermorf, antimorf, neomorf) sınıflandıran klasik çerçeve.
 
 **N**
 

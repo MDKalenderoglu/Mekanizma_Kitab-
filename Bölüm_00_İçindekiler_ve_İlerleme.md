@@ -47,7 +47,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI; NMD kuralı: son ekzon + sondan bir öncekinin son 50 nt'si) | 1, 2, 4, 5, 15, 16 |
 | 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip; NMD'den kaçan PTC → DN/GoF riski) | 2, 4, 7 |
 | 3384440 | Monaco ve ark. (1988) | Genomics | 10.1016/0888-7543(88)90113-9 | Landmark mekanizma (okuma çerçevesi; DMD/BMD) | 2, 15 |
-| 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR allelik heterojenite) | 2, 14 |
+| 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR alelik heterojenite) | 2, 14 |
 | 32668217 | Hillert ve ark. (2020) | Am J Hum Genet | 10.1016/j.ajhg.2020.06.006 | Klinik örnek (PAH/PKU genotip-fenotip) | 2, 15 |
 | 11854316 | Seidman & Seidman (2002) | J Clin Invest | 10.1172/JCI15043 | Landmark (TF haploinsufficiency; doz-eşik) | 3 |
 | 11572777 | Bruneau ve ark. (2001) | Cell | 10.1016/s0092-8674(01)00493-7 | Mekanizma/klinik (TBX5 HI; Holt-Oram) | 3 |
@@ -91,7 +91,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 33679328 | Schmitz ve ark. (2021) | Front Cell Neurosci | 10.3389/fncel.2021.637548 | C9orf72; GGGGCC genişlemesi; RNA foci; DPR/RAN translasyonu; üçlü mekanizma | 9 |
 | 34655747 | De Serres-Bérard ve ark. (2021) | Neurobiol Dis | 10.1016/j.nbd.2021.105532 | CDM1; büyük CUG tekrarlarının korteks gelişimine etkisi; metilasyon biyobelirteci | 9 |
 | 27895927 | Kraus-Perrotta &amp; Lagalwar (2016) | Cerebellum Ataxias | 10.1186/s40673-016-0058-y | SCA1 CAG genişleme mekanizması; MMR; CAT kesinti motifleri; somatik mozaiklik | 9 |
-| 22990145 | Losekoot ve ark. (2012) | Eur J Hum Genet | 10.1038/ejhg.2012.200 | Guideline (EMQN/CMGS HD; HTT CAG aralıkları — **ara allel 27–35** dahil; aile riski <%10; başlangıç yaşı varyansının ~%70'i) | 9 |
+| 22990145 | Losekoot ve ark. (2012) | Eur J Hum Genet | 10.1038/ejhg.2012.200 | Guideline (EMQN/CMGS HD; HTT CAG aralıkları — **ara alel 27–35** dahil; aile riski <%10; başlangıç yaşı varyansının ~%70'i) | 9 |
 | 22643181 | Kamsteeg ve ark. (2012) | Eur J Hum Genet | 10.1038/ejhg.2012.108 | Guideline (EMQN DM1/DM2; DMPK CTG aralıkları 5–35/36–50/51–150/>150; konjenital DM1 neredeyse yalnız maternal) | 9 |
 | 33795824 | Spector ve ark. (2021) | Genet Med | 10.1038/s41436-021-01115-y | Guideline (ACMG frajil X teknik standardı 2021; FMR1 CGG kategorileri) ⚠️ künye düzeyinde çapalandı, tam metin açık erişim değil | 9 |
 | 11253064 | Reik &amp; Walter (2001) | Nat Rev Genet | 10.1038/35047554 | Landmark (genomik imprinting; epigenetik işaret; ebeveyn-çatışması; büyüme geni asimetrisi) | 10 |
@@ -131,7 +131,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 31349857 | Cao ve ark. (2019) | Genome Med | 10.1186/s13073-019-0658-2 | Metodoloji (~12.000 klinik ekzom; ortalama 130× derinlikte bile <%10 AAF süzgeçle elenebilir; %3,1'e kadar mozaik) | 12 |
 | 32655138 | Gambin ve ark. (2020) | Genet Med | 10.1038/s41436-020-0897-z | Metodoloji (~2.000 trio; mozaikliğe özgü hatla %1–10 ve <%1 ebeveyn mozaikliği) | 12 |
 | 34930489 | Domogala ve ark. (2021) | Hum Genomics | 10.1186/s40246-021-00369-6 | Metodoloji (VAF <%10 rutin yöntemlerle saptanamaz; amplikon NGS/ddPCR doğrulama; dokular arası %0,03–%9) | 12 |
-| 33927380 | Rehder ve ark. (2021) | Genet Med | 10.1038/s41436-021-01139-4 | Guideline (ACMG konstitüsyonel NGS teknik standardı; düşük allel fraksiyonu laboratuvarın doğrulanmış performansına bağlı) | 12 |
+| 33927380 | Rehder ve ark. (2021) | Genet Med | 10.1038/s41436-021-01139-4 | Guideline (ACMG konstitüsyonel NGS teknik standardı; düşük alel fraksiyonu laboratuvarın doğrulanmış performansına bağlı) | 12 |
 | 37324239 | Checri ve ark. (2023) | Brain Commun | 10.1093/braincomms/fcad174 | Metodoloji (stereo-EEG elektrotlarından beyin somatik varyant saptanması) | 12 |
 | 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13, 16 |
 | 32461616 | Whiffin ve ark. (2020) | Nat Commun | 10.1038/s41467-019-10717-9 | Mekanizma/metodoloji (5′UTR uORF varyantları; negatif seçilim; NF2) | 13 |
@@ -193,11 +193,11 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_02_gen_anatomisi.svg | 1 | Gen→transkript→protein |
 | sekil_03_penetrans_ekspresivite.svg | 1 | Penetrans vs ekspresivite |
 | sekil_04_kalitim_kaliplari_pedigri.svg | 1 | OD/OR/XLR/mitokondriyal pedigriler |
-| sekil_05_allelik_vs_lokus_heterojenite.svg | 1 | Allelik vs lokus heterojenite |
+| sekil_05_alelik_vs_lokus_heterojenite.svg | 1 | Alelik vs lokus heterojenite |
 | sekil_06_yasa_bagli_penetrans.svg | 1 | Yaşa bağlı penetrans eğrisi |
 | sekil_07_nmd_karar.svg | 2 | NMD karar ağacı (PTC konumu) |
 | sekil_08_okuma_cercevesi_dmd.svg | 2 | Okuma çerçevesi kuralı (Duchenne/Becker) |
-| sekil_09_lof_spektrum.svg | 2 | LoF allelik spektrumu (PKU) |
+| sekil_09_lof_spektrum.svg | 2 | LoF alelik spektrumu (PKU) |
 | sekil_10_doz_yanit_esigi.svg | 3 | Doz–yanıt ve klinik eşik (HI neden dominant) |
 | sekil_11_tf_doz_duyarliligi.svg | 3 | TF doz duyarlılığı (%100 vs %50 promotör doluluğu) |
 | sekil_12_varyant_delesyon_esdegerligi.svg | 3 | Farklı varyant tipleri → ortak %50 doz son yolu |
@@ -209,7 +209,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_18_dn_zehirli_altbirim.svg | 5 | DN "zehirli alt birim": varyant ürün sağlamı zehirler |
 | sekil_19_multimer_matematigi.svg | 5 | Multimer matematiği: (½)ⁿ → DN neden HI'dan ağır |
 | sekil_20_dn_vs_lof_hi_gof.svg | 5 | DN vs LoF vs HI vs GoF; delesyon/null testi |
-| sekil_21_muller_allel_serisi.svg | 6 | Muller allel serisi (amorf→neomorf) birleştirici harita |
+| sekil_21_muller_alel_serisi.svg | 6 | Muller alel serisi (amorf→neomorf) birleştirici harita |
 | sekil_22_neomorf_vs_antimorf.svg | 6 | Neomorf (yeni iş) vs antimorf (sağlamı bozma) ayrımı |
 | sekil_23_neomorf_ornekleri.svg | 6 | IDH→2-HG ve H3K27M→PRC2 neomorfik örnekler |
 | sekil_24_splicing_mekanizmasi.svg | 7 | Splicing sinyalleri (donör/dallanma/akseptör; ESE/ISS) |
@@ -218,7 +218,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_27_sv_tipleri.svg | 8 | Yapısal varyant tipleri (del/dup/inv/translok); dengeli-dengesiz |
 | sekil_28_cnv_hastalik_yollari.svg | 8 | CNV'nin 5 hastalık yolu (doz/kesinti/füzyon/pozisyon/maske) |
 | sekil_29_pmp22_dozaj.svg | 8 | PMP22: aynı lokus zıt doz (HNPP del vs CMT1A dup) |
-| sekil_09_allel_zonlari.svg | 9 | Tekrar dizisi hastalıklarında alel bölgeleri (normal/ara/pre/tam mutasyon) |
+| sekil_09_alel_zonlari.svg | 9 | Tekrar dizisi hastalıklarında alel bölgeleri (normal/ara/pre/tam mutasyon) |
 | sekil_09_mekanizma_uclu.svg | 9 | Tekrar genişlemesinin üç patojenik mekanizması |
 | sekil_09_anticipasyon.svg | 9 | Anticipasyon: tekrar kuşaktan kuşağa büyür |
 | sekil_30_genomik_imprinting.svg | 10 | Genomik imprinting: ebeveyn kökenine göre tek-alel ifade; DMR metilasyonu |
@@ -241,7 +241,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_47_digenik_pedigri.svg | 14 | Digenik pedigri imzası (RDS+ROM1) · genotip–fenotip tablosu · "iki varyant ≠ digenik" uyarısı |
 | sekil_48_modifier_mekanizmalari.svg | 14 | SMN2 kopya sayısı doz modifier'ı · modifier'ın dört yolu · KF akciğer modifier lokusları |
 | sekil_49_digenik_kanit_hiyerarsisi.svg | 14 | Digenik iddianın 5 kanıt basamağı · ACMG tek-lokus varsayımının kırılması · danışma |
-| sekil_50_allelik_seri_alti_eksen.svg | 15 | Allelik seriyi doğuran altı eksen (yön · rezidüel işlev · konum · kalıtım modu · zamanlama · bağlam) |
+| sekil_50_alelik_seri_alti_eksen.svg | 15 | Alelik seriyi doğuran altı eksen (yön · rezidüel işlev · konum · kalıtım modu · zamanlama · bağlam) |
 | sekil_51_fgfr3_aktivite_ekseni.svg | 15 | FGFR3 aktivite ekseni: CATSHL (LoF) → normal → hipokondroplazi → akondroplazi → SADDAN → tanatoforik |
 | sekil_52_lmna_domain_fenotip.svg | 15 | LMNA domain haritası ve fenotip kümeleri + HGPS'de kriptik splice → progerin akışı |
 | sekil_53_lumping_splitting.svg | 15 | Küre edilen birim: gen değil gen–kalıtım–mekanizma üçlüsü; birleştirme/ayırma ölçütleri |
@@ -320,5 +320,5 @@ Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon 
 - **Sıradaki adım:** **Final pass** — kitabın 17 bölümü tamamlandı. Yapılacaklar: (1) terminoloji standardizasyonu ve tekrar azaltma; (2) atıf biçimi birleştirme (aşağıdaki Webster notu); (3) `assets/` yetim dosya temizliği ve şekil numaralandırmasının gözden geçirilmesi (aşağıdaki arşiv notu); (4) global kaynakça üretimi (tüm bölümlerin birleşik listesi, PMID'ye göre tekilleştirilmiş); (5) bölümler arası çapraz gönderme kontrolü; (6) kapak, önsöz ve nasıl-okunmalı sayfası; (7) son build + PDF çıktısı.
 - Not: Bölüm 17'de kitabın yönü tersine çevrildi (hastadan mekanizmaya): 12 klinik ipucunun mekanizmaya çevrilmesi (Şekil 17.1), ekzomun altı kör noktası ve yeniden analizin getirisi (Şekil 17.2; Clark 2018, Wright 2018, Smedley 2021), uçtan uca omurga (Şekil 17.3) ve sekiz pediatrik senaryo (Şekil 17.4) ile bütün bölümler hastanın başında tekrar edildi.
 - Not: Bölüm 16'da ACMG/AMP çerçevesi bir "kontrol listesi" olarak değil **kanıt tartma dili** olarak kuruldu: kanıt güçleri → olasılık oranları → toplanabilir puanlar → beş sınıf zinciri (Tavtigian 2018, 2020), kriter ailelerinin mekanizmayla bağı (PVS1 kapısı; PM2/BS1 frekans eşiğinin hastalığa göre hesaplanması; PP3/BP4 kalibrasyonu; PS3'ün mekanizmayı ölçme koşulu; segregasyon ve de novo kanıtı) ve mekanizma × kriter matrisi (Şekil 16.2) ile kitabın 2–15. bölümleri tek tabloda toplandı. VUS, "eksik-kanıt durumu" olarak tanımlandı ve çözme haritası verildi (Şekil 16.4). **Bölüm 17 için köprü:** Bölüm 16 varyanttan başlayıp yoruma gidiyordu; Bölüm 17 ters yönde çalışacak — hastadan başlayıp mekanizmaya, oradan teste ve yoruma giden uçtan uca klinik senaryolarla kitabın tamamı tekrar edilecek.
-- Not (Bölüm 15): allelik serinin altı ekseni (mekanizma yönü, rezidüel işlev, varyant konumu/domain-izoform, kalıtım modu, germline–mozaik zamanlaması, ebeveyn kökeni/genetik zemin) sistematik hâle getirildi; *FGFR3*, *LMNA*/HGPS, *ATP7A*, *COL1A1*, *GNAS*, *PAH*, *DMD* örnekleriyle Bölüm 2–14 arasındaki mekanizma bölümleri tek lokusta birleştirildi. Yorumlama tarafında **"küre edilen birim gen değil, gen–kalıtım–mekanizma üçlüsüdür"** ilkesi kuruldu; PVS1, PS1, PM5, PM1 ve PP4'ün hastalık-özgü uyarlanması ile ClinGen ön-küreleme (birleştirme/ayırma) ölçütleri tanıtıldı. **Bölüm 16 için köprü:** Bölüm 15'in bu ilkesi, Bölüm 16'nın çıkış noktasıdır — ACMG kriterlerinin tamamı "hangi hastalık için?" sorusuyla birlikte ele alınacak ve kitabın bütün mekanizma bölümleri tek bir yorumlama matrisinde toplanacaktır.
+- Not (Bölüm 15): alelik serinin altı ekseni (mekanizma yönü, rezidüel işlev, varyant konumu/domain-izoform, kalıtım modu, germline–mozaik zamanlaması, ebeveyn kökeni/genetik zemin) sistematik hâle getirildi; *FGFR3*, *LMNA*/HGPS, *ATP7A*, *COL1A1*, *GNAS*, *PAH*, *DMD* örnekleriyle Bölüm 2–14 arasındaki mekanizma bölümleri tek lokusta birleştirildi. Yorumlama tarafında **"küre edilen birim gen değil, gen–kalıtım–mekanizma üçlüsüdür"** ilkesi kuruldu; PVS1, PS1, PM5, PM1 ve PP4'ün hastalık-özgü uyarlanması ile ClinGen ön-küreleme (birleştirme/ayırma) ölçütleri tanıtıldı. **Bölüm 16 için köprü:** Bölüm 15'in bu ilkesi, Bölüm 16'nın çıkış noktasıdır — ACMG kriterlerinin tamamı "hangi hastalık için?" sorusuyla birlikte ele alınacak ve kitabın bütün mekanizma bölümleri tek bir yorumlama matrisinde toplanacaktır.
 - ⚠️ **Final pass notu (atıf biçimi):** PMID 8754806 kaynağı Bölüm 4'te "Webster ve Donoghue (1996)", Bölüm 15'te ise gerçek yazar listesine uygun olarak "Webster ve ark. (1996)" biçiminde anılmaktadır (makalenin dört yazarı vardır: Webster MK, D'Avis PY, Robertson SC, Donoghue DJ). Final pass'te tek biçime indirilmelidir.
