@@ -2,6 +2,11 @@
 
 > **Bölümün çekirdek tezi:** <Bu mekanizmanın özünü 2-4 cümlede; niceliksel/niteliksel/doz ekseninde nereye düştüğü; önceki/sonraki bölümlerle köprü.>
 
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** <çekirdek sezgiyi kuran 1–2 başlık + anahtar şekil>
+> · **② Klinik — pediatrist ve klinisyen:** <fenotipe dönüşüm → test seçimi → karar algoritması hattı>
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** <moleküler ayrıntı + ACMG/ClinGen kriter uygulaması>
+
 > **Bu bölüm nasıl okunmalı?** <Opsiyonel okuma rehberi: tıp öğrencisi vs uzman için.>
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür. (Standart not — kopyala.)

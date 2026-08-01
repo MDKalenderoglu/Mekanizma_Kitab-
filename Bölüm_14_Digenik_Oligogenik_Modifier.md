@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Bu kitabın önceki on üç bölümü, örtük olarak tek bir varsayım üzerine kuruluydu: *bir hastalığın bir nedeni vardır.* Bu bölüm o varsayımı gevşetir. **Monogenik ve kompleks kalıtım iki ayrı dünya değil, tek bir eksenin iki ucudur**; arada digenik (iki lokusun ikisi de gerekli), oligogenik (birkaç lokusun eşitsiz katkısı) ve modifiye edici (ana varyantın etkisini hafifleten ya da ağırlaştıran ikinci lokus) senaryoları vardır. Bu eksende bir hastalığı nereye koyduğunuz üç şeyi birden belirler: aileye vereceğiniz **tekrarlanma riskini**, bekleyeceğiniz **penetransı** ve varyantı nasıl **yorumlayacağınızı**. Bölümün ikinci ve klinik olarak daha keskin tezi ise bir uyarıdır: **"iki gende varyant bulmak" ile "hastalık digeniktir" demek aynı şey değildir.** Her sağlıklı genom çok sayıda nadir varyant taşır; digenik iddia, monogenik iddiadan daha yüksek bir kanıt çıtası gerektirir. Bu bölüm ayrıca Bölüm 1'de "eksik penetrans ve değişken ekspresivite" diye adlandırdığımız bulanıklığa somut bir moleküler zemin verir: o bulanıklığın önemli bir kısmı, ana genin etrafındaki **genetik bağlamdır**.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için doğrusal okuma önerilir; süreklilik ve eşik modeli (Şekil 14.1) kurulmadan sonraki tartışmalar havada kalır. Klinisyenler ve genetik danışmanlar için 4. ve 8. başlıklar ile Şekil 14.4'ün C paneli doğrudan kullanılabilir; bu bölümün danışma pratiğine en çok dokunan kısmı orasıdır. Varyant yorumlayanlar için 6. başlık, ACMG çerçevesinin tek-lokus varsayımının nerede kırıldığını ele alır.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Süreklilik ve eşik modeli (Şekil 14.1) kurulmadan sonraki tartışmalar havada kalır.
+> · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 14.4'ün C paneli; "iki gende varyant bulduk" cümlesinin danışmadaki karşılığı.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: ACMG çerçevesinin tek-lokus varsayımının nerede kırıldığı ve digenik iddianın kanıt basamakları.
 
 > 🖼️ **Görseller hakkında not:** Şekil 14.1–14.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 

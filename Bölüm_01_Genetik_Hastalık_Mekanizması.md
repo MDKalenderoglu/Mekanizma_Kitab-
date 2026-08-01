@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Genetik hastalık, "bir gende varyant bulunması" olayına indirgenemez. Bir varyantın hastalığa yol açıp açmaması; o değişikliğin gen ürününü, hücrenin biyolojisini, dokunun gelişimini ve nihayetinde fizyolojik bir sistemi nasıl etkilediğine bağlıdır. Bu bölüm, kitabın tamamında tekrar tekrar başvuracağımız temel düşünme çerçevesini — yani **varyanttan klinik fenotipe uzanan nedensellik zincirini** — kurar ve bu zinciri konuşurken kullanacağımız kelime dağarcığını, bir ezber listesi olarak değil, birbirine bağlı kavramlar bütünü olarak öğretir.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi okuyucu için §1 ve §2, genetik düşünmenin gramerini kurar; bu iki bölüm sırayla okunmalıdır. Klinik genetikle hâlihazırda uğraşan okuyucu doğrudan §6 (varyant yorumu) ve §9 (karar algoritması) ile başlayabilir, gerektikçe kavramlar için geriye dönebilir. Şekiller `assets/` klasöründe SVG, akış diyagramları ise Mermaid bloğu olarak gömülüdür ve GitHub, VS Code (önizleme), Obsidian gibi araçlarda görüntülenir.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** §1 ve §2'yi sırayla okuyun — genetik düşünmenin grameri buradadır; penetrans ile ekspresivite ayrımını (§1.I) atlamayın.
+> · **② Klinik — pediatrist ve klinisyen:** §4 (klinik fenotipe dönüşüm), §5 (test seçimi) ve §9'daki karar algoritması doğrudan poliklinik pratiğine aittir.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 (varyant yorumu) ile constraint metriklerinin ne söyleyip ne söylemediği ve §8'deki hata listesi; PVS1'in mekanizma kapısı burada kurulur.
 
 ---
 

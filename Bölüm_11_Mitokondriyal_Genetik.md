@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Mitokondriyal hastalıklar, tıbbi genetiğin standart kurallarının aynı anda geçersizleştiği tek alandır: hücrede genin iki değil binlerce kopyası vardır, bu yüzden doz "kaç alel" değil **mutant mtDNA yüzdesi (heteroplazmi)** olarak ölçülür; etki doğrusal değil **eşik-bağımlıdır**; kalıtım Mendel değil **maternaldir**; ve yüzde hem kuşaklar arasında (germline darboğaz) hem yaşam boyu (mitotik segregasyon) kayar. Ancak bu bölümün ikinci ve klinik olarak daha sık gözden kaçan tezi şudur: **mitokondriyal hastalıkların çoğu aslında nükleer gen hastalığıdır ve Mendel kurallarıyla kalıtılır.** "Mitokondriyal" sözcüğü bir kalıtım kalıbını değil, bir organel yetmezliğini tanımlar. Bu bölüm, Bölüm 3'te kurulan doz–eşik mantığını sürekli bir değişkene taşır ve Bölüm 10'daki "ebeveyn kökeni" eksenine, ondan tümüyle farklı bir mekanizmayla kurulan ikinci bir ebeveyn asimetrisi ekler.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için doğrusal okuma önerilir; poliplazmi–heteroplazmi–eşik zinciri (Şekil 11.1 ve 11.2) kurulmadan klinik tablolar ve test seçimi ezber kalır. Klinisyenler için "Klinik fenotipe dönüşüm → Tanısal testler → Karar algoritması" hattı önceliklidir; darboğaz ve segregasyon (Şekil 11.3) genetik danışma öncesinde mutlaka okunmalıdır. Varyant yorumlayanlar için 6. başlık (mtDNA'ya özgü ACMG spesifikasyonu) bağımsız olarak kullanılabilir.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Poliplazmi–heteroplazmi–eşik zinciri (Şekil 11.1 ve 11.2) kurulmadan test seçimi ezber kalır.
+> · **② Klinik — pediatrist ve klinisyen:** "Klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı; darboğaz ve segregasyon (Şekil 11.3) danışma öncesi zorunludur.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: mtDNA'ya özgü ACMG spesifikasyonu, heteroplazmi düzeyinin ve doku seçiminin kanıta etkisi.
 
 > 🖼️ **Görseller hakkında not:** Şekil 11.1–11.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 

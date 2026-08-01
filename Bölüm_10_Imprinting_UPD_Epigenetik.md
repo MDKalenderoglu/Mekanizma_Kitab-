@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Genomik imprinting, bir genin iki alelinden yalnızca birinin — hangi ebeveynden geldiğine bağlı olarak — ifade edildiği epigenetik bir olgudur; bu nedenle imprintli lokuslarda hastalık, DNA dizisinin kendisinden çok **hangi ebeveyn kopyasının işlevsel olduğuna** bağlıdır. Bu bölüm, imprinting kontrol bölgelerindeki (ICR) metilasyonun tek-alel ifadeyi nasıl kurduğunu; delesyon, uniparental dizomi (UPD), imprinting defekti ve nokta varyantının aynı bölgede nasıl **aynı son yola** yakınsadığını; ve tek bir bölgedeki zıt yönlü epigenetik kusurların (15q11-q13'te Prader-Willi ↔ Angelman, 11p15.5'te Beckwith-Wiedemann ↔ Silver-Russell) neden zıt hastalıklar yarattığını gösterir. Önceki bölümlerdeki doz (Bölüm 3), toksik kazanım (Bölüm 6) ve metilasyon-susturma (Bölüm 9, FMR1) mekanizmalarını, "ebeveyn kökeni" ekseniyle birleştirir.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için baştan sona doğrusal okuma önerilir; imprinting sezgisi (Şekil 10.1) kurulmadan klinik tablolar ezber kalır. Klinisyenler için "Kavramsal tanım → Klinik fenotipe dönüşüm → Tanısal testler → Karar algoritması" hattı önceliklidir; UPD oluşum mekanizmaları (Şekil 10.2) ikinci turda derinleştirilebilir. Pediatrik genetik uzmanları için 15q11-q13 ve 11p15.5 alt-tip tabloları ile tümör tarama notları doğrudan kullanılabilir.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Şekil 10.1'deki damgalama sezgisi kurulmadan klinik tablolar ezber kalır; doğrusal okuyun.
+> · **② Klinik — pediatrist ve klinisyen:** "Kavramsal tanım → klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** 15q11-q13 ve 11p15.5 alt-tip tabloları, UPD oluşum mekanizmaları (Şekil 10.2), metilasyon sonucunun yorumu ve tümör tarama notları.
 
 > 🖼️ **Görseller hakkında not:** Şekil 10.1–10.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 

@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Gain-of-function (GoF, "işlev kazanımı"), bir varyantın gen ürününe **eksiltmek yerine fazlalık** katmasıdır: protein normalden daha aktif, yanlış zamanda/yerde aktif, sürekli (konstitütif) açık ya da tamamen yeni/zararlı bir iş yapar hâle gelir. Bölüm 2–3'te işlediğimiz işlev kaybının (LoF/haploinsufficiency) tam **ayna görüntüsüdür**: orada sorun "yeterince yok"tu, burada sorun "fazlası/yanlışı var". Tek bir patojen alelin ürünü kendi başına zarar verdiği için GoF tipik olarak **dominanttır** ve bu, bölümün en kritik klinik sonucunu doğurur: GoF mekanizmalı bir gende **işlev kaybını patojenite kanıtı sayan kurallar (PVS1) uygulanamaz**, çünkü hastalığı yapan null değil, *aşırı/yeni* aktivitedir. Bu bölüm GoF'u doz–yanıt ekseninde LoF'un karşısına koyar; oradan dominant kalıtıma, **hotspot (sıcak nokta)** kümelenmesine, "aynı gen → zıt yön → zıt tedavi" olgusuna ve ACMG/ClinGen'in fonksiyonel kanıt (PS3) ile hotspot (PM1) kriterlerine bağlar.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga şudur: *bir varyant her zaman bir şeyi "bozmaz" — bazen bir şeyi "fazla yaptırır".* Bu ayrımı Şekil 4.3 (LoF vs GoF doz–yanıt) ve Şekil 4.4 (aynı gen, iki yön) üzerinden kurun. Uzman okuyucu §6'da GoF gende PVS1'in neden uygulanmadığına, PM1/PS3'ün rolüne ve §7'deki RET/SCN2A "yön belirler tedaviyi" örneklerine yoğunlaşabilir. Bölüm 2 (LoF) ve Bölüm 3 (haploinsufficiency) önce okunmalıdır; GoF onların kavramsal zıttıdır. Bölüm 5 (dominant-negatif) ve Bölüm 6 (neomorfik) bu bölümün doğrudan devamıdır.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Omurga şudur: *bir varyant her zaman bir şeyi bozmaz — bazen fazla yaptırır.* Şekil 4.3 ve 4.4 bu ayrımı kurar.
+> · **② Klinik — pediatrist ve klinisyen:** §7'deki RET ve SCN2A örnekleri: mekanizma yönünün doğrudan **tedavi yönünü** belirlediği yer.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: GoF gende PVS1'in neden uygulanmadığı, PM1 ve PS3'ün rolü.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 

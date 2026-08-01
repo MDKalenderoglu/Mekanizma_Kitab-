@@ -14,7 +14,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 3 | Haploinsufficiency | `Bölüm_03_Haploinsufficiency.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
 | 4 | Gain-of-function | `Bölüm_04_Gain_of_Function.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 13/13 |
 | 5 | Dominant-negatif | `Bölüm_05_Dominant_Negatif.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
-| 6 | Neomorfik & antimorfik | `Bölüm_06_Neomorfik_Antimorfik.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
+| 6 | Neomorfik aleller (antimorf: Böl.5'te) | `Bölüm_06_Neomorfik_Antimorfik.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 7 | Splicing | `Bölüm_07_Splicing.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 8 | CNV / yapısal varyantlar | `Bölüm_08_CNV_Yapisal_Varyantlar.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 6/6 |
 | 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 13/13 |

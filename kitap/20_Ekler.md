@@ -54,7 +54,7 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | İşlev kaybı · yetersiz doz (2–3) | ▲ | ● | ● | ● | ● | ● | ● | ● |
 | İşlev kazanımı (4) | ✖ | ▲ | ▲ | ▲ | ▼ | ● | ● | ▲ |
 | Dominant-negatif (5) | ✖ | ▲ | ● | ▲ | ▼ | ● | ● | ● |
-| Neomorfik · antimorfik (6) | ✖ | ▲ | ▲ | ▲ | ▼ | ● | ● | ● |
+| Neomorfik aleller (6) | ✖ | ▲ | ▲ | ▲ | ▼ | ● | ● | ● |
 | Splicing (7) | ▲ | ● | ▲ | ▲ | ▲ | ● | ● | ● |
 | CNV · yapısal varyant (8) | ◆ | ◆ | ✖ | ● | ✖ | ● | ● | ● |
 | Tekrar genişlemesi (9) | ✖ | ✖ | ✖ | ● | ✖ | ◆ | ▲ | ✖ |

@@ -62,7 +62,7 @@ Mekanizma_Kitabı/
 
 ## 4. Her bölümün zorunlu yapısı
 
-Başlık bloğu: **çekirdek tez** (blockquote) + **Öğrenme hedefleri** + (gerekiyorsa okuma rehberi) + görsel/render notu.
+Başlık bloğu: **çekirdek tez** (blockquote) + **📘 Okuma katmanları** (① Temel · ② Klinik · ③ İleri düzey — zorunlu; bkz. `kitap/07_Terminoloji_ve_Yazim_Kurallari.md` §12) + **Öğrenme hedefleri** + görsel/render notu.
 
 Ardından 10 standart başlık:
 1. **Kavramsal tanım** (gerekirse gruplu sözlük; her terim tanım+benzetme+klinik not)
@@ -125,7 +125,7 @@ Her bölüm için sırayla:
 3. Haploinsufficiency
 4. Gain-of-function
 5. Dominant-negatif
-6. Neomorfik & antimorfik
+6. Neomorfik aleller (antimorf = dominant-negatifin tarihsel adı; mekanizma Bölüm 5'tedir)
 7. Splicing
 8. CNV / yapısal varyantlar
 9. Repeat expansion

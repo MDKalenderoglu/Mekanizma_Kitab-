@@ -125,6 +125,8 @@ Ondalık ayırıcı **virgül** (`0,41`), binlik ayırıcı **nokta** (`20.068`)
 | 🟦 **Klinikte dikkat** | Doğrudan uygulamaya dönük uyarı |
 | 🔴 **Sık yapılan hata** | Yaygın yanlışların listesi |
 | 🧠 **Hatırlatıcı** | Mnemonik veya özet |
+| 📘 **Okuma katmanları** | Bölüm başındaki üç katmanlı okuma yolu (① Temel · ② Klinik · ③ İleri düzey) |
+| 🏷️ | Kitabın pedagojik sentezi — literatürde bu adla yerleşik bir çerçeve değildir |
 | ⚠️ | Tartışmalı, sınırlı ya da doğrulanması gereken iddia |
 | ✅ / ⬜ | Tamamlanmış / bekleyen öz-denetim maddesi |
 
@@ -145,3 +147,20 @@ Metin içinde **yazar-yıl**: "… (Richards ve ark., 2015)". Tam künyeler böl
 **Yazar(lar) (Yıl).** Tam başlık. *Derginin tam adı* cilt(sayı):sayfa–sayfa. **PMID:** … · DOI: bağlantı — *kullanım amacı*.
 
 Dört veya daha az yazar tam listelenir; beş ve üzeri için ilk üç yazar ve "ve ark." kullanılır. Dergi adları kısaltılmaz. Bibliyografik veriler PubMed üzerinden doğrulanmıştır.
+
+
+---
+
+## 12. Hedef kitle katmanları (F6 kararı)
+
+Kitap dört okuyucu grubuna hitap eder, ancak bunlar eşit ağırlıkta değildir. **Birincil hedef: çocuk genetiği yandal asistanı ve klinik genomik veri yorumlayan hekim.** Genel pediatrist ve tıp öğrencisi **ikincil** hedef kitledir; laboratuvar/genomik yorumlayanlar birincil hedefin bir alt kümesidir.
+
+Bu ayrım her bölümün başındaki **📘 Okuma katmanları** bloğuyla uygulanır:
+
+| Katman | Kim | Ne okur |
+|---|---|---|
+| **① Temel** | Tıp öğrencisi | Bölümün çekirdek sezgisini kuran 1–2 başlık ve anahtar şekil |
+| **② Klinik** | Genel pediatrist, klinisyen | Fenotipe dönüşüm, test seçimi ve karar algoritması hattı |
+| **③ İleri düzey** | Yandal asistanı, laboratuvar, varyant yorumlayan | Mekanizmanın moleküler ayrıntısı ve ACMG/ClinGen kriter uygulaması |
+
+Kural: katmanlar **okuma yolu** gösterir, içerik kısıtlaması değildir; hiçbir bölüm bir katman için basitleştirilmez. Deep-dive kutuları (🔬) doğal olarak ③, 🟦 kutuları ② katmanına aittir.

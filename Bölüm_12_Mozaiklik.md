@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Tıbbi genetiğin en sessiz varsayımı, bir kişinin tek bir genomu olduğu ve bu genomun her hücresinde aynı bulunduğudur. **Mozaiklik** bu varsayımı yıkar: döllenmeden *sonra* ortaya çıkan bir varyant, yalnızca kendi soyundan gelen hücrelerde bulunur. Buradan bu bölümün bütün mantığı türer — varyantın **ne zaman** oluştuğu **nerede** bulunacağını belirler; nerede bulunduğu ise aynı anda üç şeyi birden belirler: **fenotipi** (hangi doku etkilenmiş), **hangi dokunun test edileceğini** (kan çoğu zaman yanlış dokudur) ve **tekrarlanma riskini** (germ hücreleri tutulmuş mu?). Mozaiklik, Bölüm 11'deki heteroplazminin nükleer kardeşidir: ikisinde de varyant "var/yok" değil **yüzde** olarak taşınır, ikisinde de doku seçimi tanının kendisidir. Fark şudur: heteroplazmi organel genomundadır ve maternal kalıtılır; mozaiklik nükleer genomdadır ve postzigotiktir.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için doğrusal okuma önerilir; zaman ekseni sezgisi (Şekil 12.1) kurulmadan tekrarlanma riski tabloları ezber kalır. Klinisyenler için "Klinik fenotipe dönüşüm → Tanısal testler → Karar algoritması" hattı önceliklidir. Genetik danışmanlık yapanlar için 2.2 ve Şekil 12.2 bu bölümün en kritik iki sayfasıdır. Varyant yorumlayanlar için 6. başlık (mozaik varyantta de novo kriterleri ve VAF raporlaması) bağımsız kullanılabilir.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Zaman ekseni sezgisi (Şekil 12.1) kurulmadan tekrarlanma riski tabloları ezber kalır.
+> · **② Klinik — pediatrist ve klinisyen:** "Klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı; **§2.2 ve Tablo 12.1B** danışmanın en kritik iki sayfasıdır.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: mozaik varyantta de novo kriterleri (PS2/PM6), VAF raporlama zorunluluğu ve klonal hematopoez tuzağı.
 
 > 🖼️ **Görseller hakkında not:** Şekil 12.1–12.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 

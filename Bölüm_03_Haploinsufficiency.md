@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** **Haploinsufficiency (HI) — tek işlevsel kopyanın yetersizliği** —, tek işlevsel alelin sağladığı **%50 gen dozunun, normal işlev için yetmediği** durumdur. Bölüm 2'de gördüğümüz işlev kaybının (LoF) özel ve klinik olarak en sık karşılaşılan dominant hâlidir: kaybın *kendisi* niceliksel olarak aynı kalır (bir alel sustu), ama **fenotip, genin "doz duyarlılığına" (eşiğine) bağlıdır**. Aynı %50 kayıp doza duyarlı bir gende ağır gelişimsel hastalık yaparken, tamponlu bir gende tamamen sessiz kalır. Bu bölüm, "neden bazı genlerde yarım yetmez?" sorusunu doz–yanıt eğrisi, eşik ve stokiyometri üzerinden kurar; oradan dominant kalıtıma, değişken penetransa, tanıda **dizileme + doz analizinin birlikteliği** zorunluluğuna ve ACMG/ClinGen'in dozaj (CNV) yorumlamasına bağlar.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencisi için omurga şudur: *bir alel yeterli mi?* sorusunun cevabı gene göre değişir (§2, Şekil 3.1). Uzman okuyucu §6'da ClinGen dozaj puanlaması ve PVS1'in haploinsufficiency'ye özgü uygulanışına, §7'de pediatrik HI genlerine yoğunlaşabilir. Bölüm 2 (LoF) önce okunmalıdır; haploinsufficiency onun "dominant doz" koludur.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Omurga tek sorudur: *bir alel yeterli mi?* (§2, Şekil 3.1). Cevabın gene göre değiştiğini görün.
+> · **② Klinik — pediatrist ve klinisyen:** §4–§5 ve §7'deki pediatrik HI genleri; "delesyon bulundu, doza duyarlı mı?" sorusunun pratik yanıtı.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 (ClinGen dozaj puanlaması ve PVS1'in HI'ye özgü uygulanışı) ile Şekil 3.4'teki üç kanıt katmanının ayrımı.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 

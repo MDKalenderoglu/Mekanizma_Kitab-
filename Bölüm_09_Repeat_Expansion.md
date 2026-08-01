@@ -2,7 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Tekrar dizisi genişlemesi hastalıkları, genomdaki kısa tekrarlayan DNA birimlerinin (genellikle tri-, hexa- veya diğer nükleotid tekrarları) patolojik eşiğin ötesine geçmesiyle ortaya çıkan dinamik mutasyonlardır. Bu bölüm, tekrarın konumuna ve boyutuna göre nasıl üç farklı patojenik yol (LoF, RNA GoF, protein GoF) yarattığını açıklamakta; aynı hastalığa özgü eşik değerlerinin neden klinik çıktıyı belirlediğini, anticipasyon olgusunun genetik danışmanlıktaki ağırlığını ve standart NGS yöntemlerinin bu mutasyon sınıfını neden sistematik olarak kaçırdığını göstermektedir. Önceki bölümlerde incelenen LoF, GoF, dominant-negatif ve splicing mekanizmaları ile karşılaştırıldığında, tekrar genişlemesi hastalıkları hem birbiriyle örtüşen hem de kendine özgü ayrı biyolojik mantıklar barındırır.
 
-> **Bu bölüm nasıl okunmalı?** Tıp öğrencileri için baştan sona doğrusal okuma önerilir. Klinisyenler için "Kavramsal tanım → Klinik fenotipe dönüşüm → Tanısal testler → Varyant yorumu" hattı öncelikli; mekanizma derinliği ikinci turda. Pediatrik genetik uzmanları için klinik örnekler ve algoritma bölümü doğrudan kullanılabilir.
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** Doğrusal okuyun; tekrar bölgesinin kararsızlığı ve anticipasyon sezgisi kurulmadan eşik tabloları ezber kalır.
+> · **② Klinik — pediatrist ve klinisyen:** §4–§5 ve **Tablo 9.2**: normal / ara alel / premutasyon / tam mutasyon bantları ve bunların danışmadaki karşılığı.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 ve laboratuvar notları: eşiklerin kılavuz sürümüne bağlı olması, motif kesintileri ve metilasyonun yorumu.
 
 > 🖼️ **Görseller hakkında not:** Şekil 9.1–9.3 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 

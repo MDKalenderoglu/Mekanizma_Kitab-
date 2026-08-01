@@ -2,6 +2,11 @@
 
 > **Bölümün çekirdek tezi:** Loss-of-function (LoF), genin işlevsel ürününün **niceliksel olarak azalması veya kaybolması**dır. Ancak "varyant LoF yapar" demek tek başına ne patojeniteyi, ne kalıtım modelini, ne de fenotip ağırlığını belirler. Bunları üç eksen belirler: *(1)* transkript **NMD'ye girer mi**, *(2)* gen LoF'a ne kadar **duyarlı** (doz/haploinsufficiency), *(3)* etkilenen **domain ve rezidüel fonksiyon** ne kadar. Bu üç eksen, aynı varyant tipinin neden bir gende ağır resesif, başka gende hafif veya dominant hastalık yaptığını açıklar.
 
+> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** §1–§2: işlev kaybı nedir ve NMD nerede devreye girer (Şekil 2.1). Bu iki başlık kitabın geri kalanının zeminidir.
+> · **② Klinik — pediatrist ve klinisyen:** §4 (fenotipe dönüşüm) ve §5 (test seçimi); "kesici varyant bulundu" cümlesinin klinik karşılığı.
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: PVS1 karar ağacı, son ekzon / NMD kaçışı ve "kesici varyant = gerçek null değildir" ayrımı.
+
 Bu bölüm, Bölüm 1'deki **niceliksel vs niteliksel bozukluk** ayrımının "niceliksel" kolunu derinleştirir. Niteliksel kol (GoF, dominant-negatif, neomorfik) Bölüm 4–6'da; doz hastalıklarının özel hâli haploinsufficiency Bölüm 3'te işlenir.
 
 ---
