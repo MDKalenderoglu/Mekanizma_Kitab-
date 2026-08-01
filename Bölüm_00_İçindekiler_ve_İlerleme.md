@@ -16,7 +16,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 5 | Dominant-negatif | `Bölüm_05_Dominant_Negatif.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 6 | Neomorfik aleller (antimorf: Böl.5'te) | `Bölüm_06_Neomorfik_Antimorfik.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 7 | Splicing | `Bölüm_07_Splicing.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
-| 8 | CNV / yapısal varyantlar | `Bölüm_08_CNV_Yapisal_Varyantlar.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 6/6 |
+| 8 | CNV / yapısal varyantlar | `Bölüm_08_CNV_Yapisal_Varyantlar.md` | ✅ Tamam (textbook) | 3 SVG + 3 Mermaid | 7/7 |
 | 9 | Repeat expansion | `Bölüm_09_Repeat_Expansion.md` | ✅ Tamam (textbook) | 3 SVG + 2 Mermaid | 13/13 |
 | 10 | İmprinting, UPD, epigenetik | `Bölüm_10_Imprinting_UPD_Epigenetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 9/9 |
 | 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 14/14 |
@@ -52,6 +52,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 11854316 | Seidman & Seidman (2002) | J Clin Invest | 10.1172/JCI15043 | Landmark (TF haploinsufficiency; doz-eşik) | 3 |
 | 11572777 | Bruneau ve ark. (2001) | Cell | 10.1016/s0092-8674(01)00493-7 | Mekanizma/klinik (TBX5 HI; Holt-Oram) | 3 |
 | 20976243 | Huang ve ark. (2010) | PLoS Genet | 10.1371/journal.pgen.1001154 | Metodoloji (HI gen özellikleri/öngörüsü; HI-indeksi) | 3 |
+| 22908297 | Birchler &amp; Veitia (2012) | PNAS | 10.1073/pnas.1207726109 | Kuram (gen dengesi hipotezi; dozaj duyarlılığının biyolojik disiplinler arası temeli) | 3 |
 | 35917817 | Collins ve ark. (2022) | Cell | 10.1016/j.cell.2022.06.036 | Metodoloji (dozaj duyarlılığı haritası; pHaplo/pTriplo) | 3, 8 |
 | 31690835 | Riggs ve ark. (2020) | Genet Med | 10.1038/s41436-019-0686-8 | Guideline (ACMG/ClinGen CNV/dozaj puanlama) | 3, 8, 16, 17 |
 | 31861090 | Lima Cunha ve ark. (2019) | Genes (Basel) | 10.3390/genes10121050 | Klinik örnek (PAX6 HI; aniridi; WAGR) | 3, 15 |

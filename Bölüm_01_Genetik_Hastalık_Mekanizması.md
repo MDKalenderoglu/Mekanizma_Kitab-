@@ -332,7 +332,7 @@ flowchart TD
 | Spekülatif iddialar işaretlendi mi? | ✅ | Örnek oranlar (6/8 vb.) temsilî; özgün çerçeveler 🏷️ ile etiketlendi |
 | Kaynak uydurma riski var mı? | ✅ Yok | Tüm kaynaklar PubMed metadata ile karşılaştırıldı |
 | Anlatı/paragraf üslubu sağlandı mı? | ✅ | Bölüm akıcı paragraflarla; listeler yalnız hızlı-referans tablolarında |
-| Görsel/algoritma desteği yeterli mi? | ✅ | 6 SVG + 4 Mermaid |
+| Görsel/algoritma desteği yeterli mi? | ✅ | 6 SVG + 3 Mermaid |
 
 ---
 

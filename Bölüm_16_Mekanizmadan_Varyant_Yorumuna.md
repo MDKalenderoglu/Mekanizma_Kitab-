@@ -446,17 +446,17 @@ flowchart TD
 | Pediatrik örnek verildi mi? | ✅ | Beş çözümlü örnek: *SCN2A* (yenidoğan epilepsisi), *OTC* (hiperamonyemi), son-ekzon PVS1 tuzağı, frekans eşiği, iki laboratuvar uyuşmazlığı |
 | Test seçimi açıklandı mı? | ✅ | Standart 8 satırlık tablo + "aile örneklemesi/fonksiyonel test" satırı; testler kriter üretimi açısından okundu |
 | ACMG/ClinGen bağlantısı doğru mu? | ✅ | PVS1 (Abou Tayoun 2018), PS3/BS3 (Brnich 2019), PP3/BP4 (Pejaver 2022), PM2/BS1 (Whiffin 2017), PP1 (Jarvik 2016), spesifikasyonlar (Riggs/McCormick/Walker/Ellingford) |
-| Kaynaklar PMID/DOI ile verildi mi? | ✅ | 24/24 kaynak PMID + DOI-link + kullanım amacı ile (8 yeni doğrulama + 16 kütükten yeniden kullanım) |
+| Kaynaklar PMID/DOI ile verildi mi? | ✅ | 25/25 kaynak PMID + DOI-link + kullanım amacı ile (9 yeni doğrulama + 16 kütükten yeniden kullanım) |
 | Spekülatif iddialar işaretlendi mi? | ✅ | Mekanizma–kriter matrisinin pedagojik (normatif olmayan) niteliği ⚠️ ile işaretlendi; puan eşiklerinin kaynağı açıkça belirtildi |
 | Kaynak uydurma riski var mı? | ✅ Yok | 8 yeni PMID/DOI bu oturumda PubMed MCP ile doğrulandı; 16'sı daha önce doğrulanmış kütük kaydı |
-| Görsel/şema/algoritma desteği yeterli mi? (≥3 SVG, ≥2 Mermaid) | ✅ | **4 SVG + 3 Mermaid**; tüm SVG'ler tarayıcıda render edilip gözle denetlendi |
+| Görsel/şema/algoritma desteği yeterli mi? (≥3 SVG, ≥2 Mermaid) | ✅ | **4 SVG + 2 Mermaid**; tüm SVG'ler tarayıcıda render edilip gözle denetlendi |
 
 ---
 
 ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki her kaynağın **türüne uygun kalıcı kimliğini** kontrol et: hakemli makalede PMID + DOI; kılavuz/uzman panel spesifikasyonunda kurum + sürüm + tarih + kalıcı bağlantı; veri tabanında veri sürümü + sorgu tarihi. Kimliği doğrulanamayan kaynağı çıkar. Kaynağı olmayan spesifik iddiayı 'kaynak doğrulaması gerekli' olarak işaretle. Kitabın kendi pedagojik çerçevesini doğrulamaya çalışma — 🏷️ ile etiketle." *(Politika 01.08.2026 uzman turunda güncellendi: eski 'PMID veya DOI veremediğin kaynağı çıkar' kuralı HGVS, ClinGen/CSpec, gnomAD sürüm notları gibi PMID'siz ama yetkili kaynakları dışlıyordu.)*
 >
-> **Bu bölüm için durum:** **24/24 kaynak PMID+DOI doğrulandı** (8'i bu oturumda PubMed MCP ile — Tavtigian 2018, Tavtigian 2020, Pejaver 2022, Whiffin 2017, Jarvik & Browning 2016, Gelman 2019, Lo 2023, Rehm 2015; 16'sı Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** dört ayrı yerde düzeltilmiştir (PS3 değil **PVS1_Strength**; etkisizlik için **BP7**) — Walker ve ark., 2023 (bkz. `Dogrulama_Kutugu.md`).
+> **Bu bölüm için durum:** **25/25 kaynak PMID+DOI doğrulandı** (9'u PubMed MCP ile — Tavtigian 2018, Tavtigian 2020, Pejaver 2022, Whiffin 2017, Jarvik & Browning 2016, Gelman 2019, Lo 2023, Rehm 2015; 16'sı Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** dört ayrı yerde düzeltilmiştir (PS3 değil **PVS1_Strength**; etkisizlik için **BP7**) — Walker ve ark., 2023 (bkz. `Dogrulama_Kutugu.md`).
 >
 > **İşaretlenen iddialar:** (1) ⚠️ Şekil 16.3'deki mekanizma–kriter matrisi **pedagojik bir özettir**; normatif değildir ve ilgili gen/hastalık için yayımlanmış uzman panel spesifikasyonunun yerini almaz. (2) Puan karşılıkları (destekleyici +1, orta +2, güçlü +4, çok güçlü +8) ve sınıf eşikleri, doğal ölçekli puan sisteminde tanımlanan değerlerdir (Tavtigian ve ark., 2020); olasılık oranları ve sonsal olasılık aralıkları Bayes formülasyonundan gelir (Tavtigian ve ark., 2018). Uzman panelleri kendi genlerinde farklı eşikler tanımlayabilir. (3) 7. başlıktaki çözümlü örneklerin puanlamaları **öğretici amaçlıdır**; gerçek olgularda güncel spesifikasyon ve tam kanıt kümesi kullanılmalıdır.
 >
