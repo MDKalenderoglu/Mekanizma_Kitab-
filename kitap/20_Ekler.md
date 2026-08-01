@@ -47,7 +47,7 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 
 ## Ek B — Mekanizma → kriter matrisi (özet)
 
-Şekil 16.3'ün metin hâli. ▲ kriteri güçlendirir/açar · ▼ gücü düşürülmeli · ✖ uygulanamaz · ◆ özel çerçeve gerekir · ● standart.
+Şekil 16.3'ün metin hâli — **pedagojik sentez, normatif değildir.** ▲ kriteri güçlendirir/açar · ▼ gücü düşürülmeli · ✖ genellikle uygulanmaz · ◆ özel yorumlama çerçevesi gerekir · ● standart. **Semboller kriter gücü veya ACMG puanı göstermez; işaret "kriter kazanıldı" demek, ✖ ise "kesinlikle yasak" demek değildir.**
 
 | Mekanizma (bölüm) | PVS1 | PM1 | PS1/PM5 | PS3/BS3 | PP3/BP4 | PM2/BA1 | PP1/BS4 | PS2/PM6 |
 |---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -65,7 +65,7 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | Digenik · modifier (14) | ● | ● | ● | ● | ● | ● | ▼ | ● |
 | Alelik seri (15) | ▼ | ▼ | ▼ | ▼ | ● | ● | ● | ● |
 
-> ⚠️ Bu matris **pedagojik bir özettir**; ilgili gen/hastalık için yayımlanmış uzman panel spesifikasyonunun yerine geçmez.
+> ⚠️ Bu matris **pedagojik bir özettir ve bir ACMG/AMP uygulama algoritması değildir**; hücreler yalnız hangi kanıt alanının sorgulanabileceğini gösterir. Kriterin uygulanabilirliği ve gücü gen–hastalık ilişkisine, varyantın gerçek moleküler sonucuna ve varsa güncel VCEP spesifikasyonuna göre belirlenir; çakışma hâlinde **VCEP spesifikasyonu bu tablonun önündedir.** Kodlamayan satırındaki PM1 işareti, iyi tanımlanmış hastalık-spesifik motif/hotspotlarda `PM1_Supporting` kullanılabileceği anlamına gelir; splicing mekanizmalı intronik varyantta PVS1 satırı `PVS1_Strength(RNA)` yoluyla yeniden açılabilir (Bölüm 13 §6).
 
 ---
 
