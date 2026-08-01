@@ -1237,7 +1237,71 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 <p><strong>🟦 Klinikte dikkat — Soyağacının "temiz" olması hastalığı dışlamaz.</strong> Aile öyküsünün negatif olması, dominant bir tanıyı dışlamak için yeterli değildir. De novo varyantlar, eksik penetrans, küçük aile boyutu, mozaiklik ve hatalı babalık beklenen kalıbı kolaylıkla maskeleyebilir. "Ailede başka kimse yok" cümlesi, çoğu zaman "varyant de novo ortaya çıkmış olabilir" anlamına gelir.</p>
 </blockquote>
 <h3>1.F — Genotip ile fenotip arasındaki ilişki neden bulanıktır?</h3>
-<p class="missing">[Görsel bulunamadı: assets/sekil_05_alelik_vs_lokus_heterojenite.svg]</p>
+<figure class="svg-fig"><svg viewBox="0 0 980 440" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="440" fill="#ffffff"/>
+  <text x="490" y="30" text-anchor="middle" font-size="20" font-weight="700" fill="#1a2b4a">Şekil 1.4 — Allelik Heterojenite vs Lokus Heterojenitesi</text>
+  <line x1="490" y1="50" x2="490" y2="400" stroke="#eee" stroke-width="2"/>
+
+  <!-- ===== ALLELIK HETEROJENITE (sol) ===== -->
+  <text x="245" y="76" text-anchor="middle" font-size="16" font-weight="700" fill="#8e44ad">ALLELİK HETEROJENİTE</text>
+  <text x="245" y="96" text-anchor="middle" font-size="12" fill="#444">AYNI gen — FARKLI varyantlar</text>
+
+  <!-- single gene bar with multiple variant marks -->
+  <rect x="70" y="130" width="350" height="34" rx="6" fill="#dcd0ec" stroke="#8e44ad" stroke-width="2"/>
+  <text x="245" y="152" text-anchor="middle" font-size="13" font-weight="700" fill="#5b2c82">Gen X</text>
+  <!-- variant marks -->
+  <g>
+    <polygon points="110,130 104,116 116,116" fill="#c0392b"/><text x="110" y="110" text-anchor="middle" font-size="9" fill="#c0392b">nonsense</text>
+    <polygon points="180,130 174,116 186,116" fill="#e67e22"/><text x="180" y="110" text-anchor="middle" font-size="9" fill="#e67e22">missense</text>
+    <polygon points="255,130 249,116 261,116" fill="#16a085"/><text x="255" y="110" text-anchor="middle" font-size="9" fill="#16a085">frameshift</text>
+    <polygon points="330,130 324,116 336,116" fill="#2980b9"/><text x="330" y="110" text-anchor="middle" font-size="9" fill="#2980b9">splice</text>
+    <polygon points="390,130 384,116 396,116" fill="#7f8c8d"/><text x="390" y="110" text-anchor="middle" font-size="9" fill="#7f8c8d">delesyon</text>
+  </g>
+  <!-- arrows converge -->
+  <path d="M245 175 L245 215" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowP)"/>
+  <rect x="135" y="220" width="220" height="40" rx="8" fill="#f4ecfa" stroke="#8e44ad" stroke-width="2"/>
+  <text x="245" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#5b2c82">AYNI fenotip</text>
+
+  <text x="245" y="300" text-anchor="middle" font-size="12" font-weight="700" fill="#333">Klinik sonuç:</text>
+  <text x="245" y="320" text-anchor="middle" font-size="11" fill="#444">Tek-varyant testi taşıyıcıyı kaçırabilir.</text>
+  <text x="245" y="337" text-anchor="middle" font-size="11" fill="#444">Genin TAMAMI dizilenmeli (gen tarama).</text>
+  <text x="245" y="362" text-anchor="middle" font-size="10" font-style="italic" fill="#777">Örn: CFTR'de ~2000 varyant; DMD; NF1</text>
+
+  <!-- ===== LOKUS HETEROJENITESI (sag) ===== -->
+  <text x="730" y="76" text-anchor="middle" font-size="16" font-weight="700" fill="#2471a3">LOKUS HETEROJENİTESİ</text>
+  <text x="730" y="96" text-anchor="middle" font-size="12" fill="#444">FARKLI genler — AYNI/benzer fenotip</text>
+
+  <!-- multiple gene bars each with a variant -->
+  <g>
+    <rect x="560" y="120" width="150" height="26" rx="5" fill="#d4e6f1" stroke="#2471a3" stroke-width="2"/>
+    <text x="635" y="138" text-anchor="middle" font-size="11" font-weight="700" fill="#1a5276">Gen A</text>
+    <polygon points="600,120 594,108 606,108" fill="#c0392b"/>
+    <rect x="560" y="155" width="150" height="26" rx="5" fill="#d4e6f1" stroke="#2471a3" stroke-width="2"/>
+    <text x="635" y="173" text-anchor="middle" font-size="11" font-weight="700" fill="#1a5276">Gen B</text>
+    <polygon points="660,155 654,143 666,143" fill="#16a085"/>
+    <rect x="560" y="190" width="150" height="26" rx="5" fill="#d4e6f1" stroke="#2471a3" stroke-width="2"/>
+    <text x="635" y="208" text-anchor="middle" font-size="11" font-weight="700" fill="#1a5276">Gen C</text>
+    <polygon points="620,190 614,178 626,178" fill="#e67e22"/>
+  </g>
+  <!-- arrows from each converge -->
+  <path d="M710 133 C 770 150, 770 220, 745 232" stroke="#2471a3" stroke-width="1.6" fill="none"/>
+  <path d="M710 168 C 760 185, 760 215, 745 230" stroke="#2471a3" stroke-width="1.6" fill="none"/>
+  <path d="M710 203 C 760 215, 760 222, 745 232" stroke="#2471a3" stroke-width="1.6" fill="none"/>
+  <rect x="635" y="230" width="190" height="40" rx="8" fill="#eaf2fb" stroke="#2471a3" stroke-width="2"/>
+  <text x="730" y="255" text-anchor="middle" font-size="13" font-weight="700" fill="#1a5276">AYNI fenotip</text>
+
+  <text x="730" y="305" text-anchor="middle" font-size="12" font-weight="700" fill="#333">Klinik sonuç:</text>
+  <text x="730" y="325" text-anchor="middle" font-size="11" fill="#444">Tek gen testi yetersiz; PANEL / EKZOM gerekir.</text>
+  <text x="730" y="342" text-anchor="middle" font-size="11" fill="#444">Genler çoğu kez AYNI yolakta buluşur.</text>
+  <text x="730" y="367" text-anchor="middle" font-size="10" font-style="italic" fill="#777">Örn: retinitis pigmentosa, epileptik ensefalopati</text>
+
+  <defs>
+    <marker markerUnits="userSpaceOnUse" id="arrowP" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8e44ad"/>
+    </marker>
+  </defs>
+  <text x="490" y="425" text-anchor="middle" font-size="11" font-style="italic" fill="#777">İki kavram birlikte bulunabilir: aynı fenotip hem farklı genlerden hem de her gende farklı varyantlardan kaynaklanabilir.</text>
+</svg><figcaption>Şekil 1.4 — Alelik heterojenite vs lokus heterojenitesi</figcaption></figure>
 <p>Tıp öğrencilerinin genetiği "tek gen → tek hastalık" şeklinde hatırlama eğilimi, klinikte hızla çöker; çünkü genotip ile fenotip arasındaki ilişki bire bir değildir. Bu bulanıklığın birkaç temel kaynağı vardır ve her biri doğrudan test ve yorum stratejisini etkiler.</p>
 <p>İlk kaynak heterojenitedir ve iki biçimi vardır (Şekil 1.4). <strong>Alelik heterojenitede</strong> aynı gende çok sayıda farklı varyant aynı hastalığa yol açabilir; CFTR'de tanımlanmış binlerce varyant bunun çarpıcı örneğidir. Bunun pratik sonucu nettir: yalnızca tek bir bilinen varyantı arayan bir test, başka bir varyant taşıyan hastayı kaçırır, bu yüzden genin tamamı taranmalıdır. <strong>Lokus heterojenitesinde</strong> ise klinik olarak benzer bir tablo, farklı genlerdeki varyantlardan kaynaklanabilir; retinitis pigmentosa ve epileptik ensefalopatiler onlarca farklı genle ilişkilidir. Bu durumda tek bir gene bakmak yetersizdir ve panel ya da ekzom gerekir. İlginç olan, lokus heterojenitesi gösteren genlerin çoğu zaman aynı biyolojik yolakta buluşmasıdır — yani fenotipin ortaklığı, mekanizmanın ortaklığını yansıtır.</p>
 <p>Bulanıklığın bir diğer kaynağı <strong>pleiotropidir</strong>: tek bir gen, görünüşte birbiriyle ilgisiz birçok sistemi aynı anda etkileyebilir, çünkü o gen farklı dokularda ve farklı gelişim dönemlerinde farklı işler görür. Buna ek olarak fenotip, ana hastalık geninden bağımsız başka genlerin — <strong>modifiye edici genlerin</strong> — ve bireyin tüm diğer varyantlarının oluşturduğu <strong>genetik zeminin</strong> etkisiyle yumuşar ya da ağırlaşır. Hastalığın bazen iki gen (<strong>digenik</strong>), birkaç gen (<strong>oligogenik</strong>) ya da çok sayıda küçük etkili varyantın toplamıyla (<strong>poligenik</strong>) ortaya çıkması da bu çerçeveye girer (Bölüm 14); burada sık yapılan hata, ikinci bir varyant bulunduğunda bunu hemen "digenik kalıtım" diye yorumlamaktır — oysa bu, ancak güçlü kanıtla iddia edilebilecek bir sonuçtur. Son olarak, bazı hastalıklarda fenotip kuşaklar boyu giderek erken ve ağır seyreder; <strong>antisipasyon</strong> denen bu olgu tipik olarak tekrar genişlemesi hastalıklarında görülür (Bölüm 9).</p>
@@ -1388,7 +1452,7 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 
   <text x="450" y="452" text-anchor="middle" font-size="11" font-style="italic" fill="#777">Klinik çıkarım: "Bu yaşta sağlıklı" olması, varyantı dışlamaz; risk yaşla artabilir (ör. herediter kanser sendromları).</text>
 </svg><figcaption>Şekil 1.6 — Yaşa bağlı penetrans</figcaption></figure>
-<p>Penetransla ilgili kritik ve sıkça gözden kaçan bir nokta, onun sabit bir sayı olmadığıdır; çoğu zaman <strong>yaşa bağlı bir eğridir</strong> (Şekil 1.6). Geç başlangıçlı hastalıklarda — özellikle herediter kanser sendromlarında — genç bir taşıyıcı henüz tamamen sağlıklı olabilir, ancak riski yaşla birlikte artar. Penetrans ayrıca cinsiyete de bağlı olabilir. Bunun pratik karşılığı, presemptomatik taramanın ve genetik danışmanın temelini oluşturur: "bu yaşta sağlıklı olması" bir varyantı dışlamaz. Tüm bu olguların — eksik penetransın ve değişken ekspresivitenin — altında yatan moleküler nedenler arasında alel dozu, diferansiyel alelik ekspresyon, kopya sayısı varyasyonu, cis ya da trans konumdaki modifiye edici varyantlar, yaş, cinsiyet ve epigenetik/çevresel etkenler sayılır (Cooper ve ark., 2013). Aklımızda tutmamız gereken basit pusula şudur: <strong>Penetrans</strong> "var mı?" (Presence), <strong>Ekspresivite</strong> "ne kadar?" (Extent) sorusudur — 🏷️ bu İngilizce baş harflere dayanan bellek desteği kitabın kendi anlatım aracıdır, yerleşik bir terminoloji kuralı değildir.</p>
+<p>Penetransla ilgili kritik ve sıkça gözden kaçan bir nokta, onun sabit bir sayı olmadığıdır; çoğu zaman <strong>yaşa bağlı bir eğridir</strong> (Şekil 1.6). Geç başlangıçlı hastalıklarda — özellikle herediter kanser sendromlarında — genç bir taşıyıcı henüz tamamen sağlıklı olabilir, ancak riski yaşla birlikte artar. Penetrans ayrıca cinsiyete de bağlı olabilir. Bunun pratik karşılığı, presemptomatik taramanın ve genetik danışmanın temelini oluşturur: "bu yaşta sağlıklı olması" bir varyantı dışlamaz. Tüm bu olguların — eksik penetransın ve değişken ekspresivitenin — altında yatan moleküler nedenler arasında alel dozu, diferansiyel alelik ekspresyon, kopya sayısı varyasyonu, cis ya da trans konumdaki modifiye edici varyantlar, yaş, cinsiyet ve epigenetik/çevresel etkenler sayılır (Cooper ve ark., 2013). Aklımızda tutmamız gereken basit ayrım şudur: <strong>penetrans</strong>, belirli bir genotipi taşıyan bireylerde fenotipin ortaya çıkıp çıkmadığını ve hangi oranda ortaya çıktığını; <strong>ekspresivite</strong> ise fenotip ortaya çıktığında hangi özelliklerle ve ne şiddette görüldüğünü anlatır. Kısa pusula olarak: <strong>Penetrans — ortaya çıkar mı, ne sıklıkta? · Ekspresivite — ortaya çıkarsa nasıl ve ne şiddette?</strong> İki tanımı da dar okumamak gerekir: penetrans yalnız "var/yok" değil bir <strong>olasılıktır</strong>, ekspresivite de yalnız şiddet değil fenotipin <strong>biçimi ve kapsamıdır</strong> — aynı varyant bir bireyde yalnız kardiyak, başka bir bireyde çok sistemli bir tablo verebilir. (İngilizce literatürle çalışanlar için ek bir bellek desteği olarak <em>penetrance–presence</em> ve <em>expressivity–extent</em> eşleşmesi kullanılabilir; 🏷️ bu baş harf eşleşmesi kitabın kendi anlatım aracıdır, yerleşik bir terminoloji kuralı değildir.)</p>
 <hr>
 <h2>2. Mekanizmaları bir arada düşünmek: zincirin halkaları</h2>
 <p>Önceki bölümün ortaya koyduğu temel fikir, bir varyantın etkisinin santral dogmanın katmanları boyunca süzülerek fenotipe dönüştüğüydü. Bu süzülmenin sonunda ortaya çıkan tablo, mekanizmanın hangi sınıfa girdiğine göre köklü biçimde değişir ve bu sınıflandırma, kitabın geri kalanının iskeletidir. En temel ayrım, varyantın gen ürününü <strong>niceliksel</strong> olarak mı (miktarı azaltarak) yoksa <strong>niteliksel</strong> olarak mı (işlevini değiştirerek) etkilediğidir.</p>
@@ -1443,8 +1507,11 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 </tbody>
 </table>
 <blockquote>
-<p><strong>🔬 Deep-dive — Rezerv ve eşik kavramı.</strong> Bu kitap boyunca tekrar tekrar karşımıza çıkacak birleştirici bir fikir vardır: hücre, bir genin işlevinin bir kısmını kaybetse bile çoğu zaman fenotip ortaya çıkmaz; hastalık ancak belli bir <strong>eşik</strong> aşıldığında görülür. Eşiğin nerede olduğu; genin doz duyarlılığına, dokunun fonksiyonel rezervine, görevi paylaşan akraba genlerin (paralogların) varlığına ve modifiye edici faktörlere bağlıdır. Bu "rezerv ve eşik" mantığı yalnızca haploinsufficiency'de değil, mitokondriyal hastalıklarda heteroplazmi eşiğinde (Bölüm 11) ve hipomorfik alellerin rezidüel fonksiyonunda (Bölüm 2) da aynen geçerlidir. Mekanizmaları öğrenirken bu ortak iskeleti hatırlamak, her bölümü bağımsız bir ezber olmaktan çıkarır.</p>
-<p>🏷️ <em>Bileşenlerin her biri (doz duyarlılığı, fonksiyonel rezerv, paralog yedeklemesi, heteroplazmi eşiği) kendi bölümünde kaynaklıdır; bunları tek bir "rezerv ve eşik" başlığı altında toplamak kitabın pedagojik sentezidir — literatürde bu adla yerleşik bir çerçeve değildir.</em></p>
+<p><strong>🏷️ Pedagojik sentez — Tamponlama, rezerv ve eşik.</strong> Bu kitapta "tamponlama, rezerv ve eşik" başlığı altında kullanacağımız çerçeve, <strong>literatürde bu adla yerleşmiş bağımsız bir hastalık modeli değildir</strong>; farklı genetik mekanizmalardaki ortak nicel mantığı görünür kılmak için kurulmuş pedagojik bir sentezdir. Bunu baştan söylemek gerekir, çünkü aşağıdaki dört kavramın her biri literatürde ayrı ayrı tanımlıdır; onları tek çatı altında toplayan biziz.</p>
+<p>Fikir şudur: bir hücre, doku ya da fizyolojik sistem, gen işlevindeki kısmi azalmayı belirli bir düzeye kadar tolere edebilir. Bu toleransın kaynağı üç ayrı şeydir ve karıştırılmamalıdır. <strong>Rezidüel işlev</strong>, mutant alelin ya da genotipin koruduğu işlev miktarıdır (bir hipomorfik alelin sağladığı %15 aktivite gibi). <strong>Fonksiyonel rezerv</strong>, sistemin normal gereksinimin üzerindeki kullanılabilir kapasitesidir (böbreğin ya da karaciğerin klinik bulgu vermeden kaybedebileceği kapasite gibi). <strong>Tamponlama</strong> ise gen dozundaki değişikliğe rağmen sistem çıktısını koruyan aktif veya pasif mekanizmalardır: geri bildirim döngüleri, alternatif yolaklar, genetik modifiye ediciler ve — koşulu sağlanıyorsa — paraloglar. Buradaki koşul önemlidir: bir paralogun <strong>varlığı</strong> tek başına telafi anlamına gelmez; paralog farklı dokuda, farklı gelişim döneminde ifade ediliyorsa ya da kayıptan sonra yukarı düzenlenmiyorsa tamponlama sağlamaz. Aranan şey, <strong>ilgili dokuda ve dönemde işlevsel olarak örtüşen</strong> bir paralog ya da yolaktır. Klinik bulgu, bu üç kaynağın toplamı ilgili biyolojik çıktıyı <strong>kritik işlev aralığının</strong> altına düşürdüğünde ortaya çıkar.</p>
+<p>"Eşik" sözcüğü de dikkatli kullanılmalıdır: bu, keskin ve sabit bir açma-kapama noktası değil, <strong>ilgili klinik özelliğin ortaya çıkma olasılığının belirgin biçimde arttığı kritik işlev aralığıdır.</strong> Geçiş çoğu zaman sigmoiddir; eşik varyanta, dokuya, gelişim dönemine ve hangi klinik bulgudan söz ettiğimize göre değişir — aynı bireyde iki farklı bulgunun iki farklı eşiği olabilir. Eşiğin yakınındaki bireylerde küçük genetik, çevresel veya stokastik farklar penetrans ve ekspresiviteyi belirler.</p>
+<p>Bu ortak mantık kitabın farklı bölümlerinde farklı biyolojik biçimlerde karşımıza çıkar: haploinsufficiency'de tek sağlam alelin sağladığı ürün yetersiz kalabilir (Bölüm 3); hipomorfik genotiplerde fenotipi kalan enzim aktivitesi belirleyebilir (Bölüm 2); heteroplazmik mtDNA hastalıklarında mutant yük, yabanıl tip mtDNA kapasitesi ve dokunun enerji gereksinimi birlikte biyokimyasal eşiğin aşılmasına yol açar (Bölüm 11). <strong>Bunlar aynı moleküler mekanizma değildir</strong> — bu yüzden "aynı mantık aynen geçerlidir" demiyoruz; hepsi <em>ortak bir nicel yapıyı paylaşır</em>: sistem bir bozulma yükünü belirli bir noktaya kadar tamponlar, o nokta geçildiğinde fenotip görünür olur. Mekanizmaları öğrenirken bu iskeleti hatırlamak, her bölümü bağımsız bir ezber olmaktan çıkarır.</p>
+<p>🏷️ <em>Bu başlık kitabın pedagojik sentezidir. Doz duyarlılığı, genetik tamponlama, fonksiyonel rezerv, hipomorfik rezidüel işlev ve heteroplazmi eşiği literatürde ayrı ayrı tanımlanmış kavramlardır ve her biri kendi bölümünde kaynaklıdır; burada tek bir üst çerçeve altında birleştirilmişlerdir. Kitabın ilerleyen bölümlerinde buna "kitabın rezerv–eşik sentezi" diye gönderme yapılacaktır — yerleşik bir modelmiş izlenimi vermemek için yeni bir kısaltma üretilmemiştir.</em></p>
 </blockquote>
 <hr>
 <h2>3. Varyant tipleri ve mekanizmaya köprü</h2>
@@ -4410,7 +4477,94 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 <h2>1. Kavramsal tanım</h2>
 <p>Önceki dört bölümde varyantların gen ürününü farklı yönlerde değiştirdiğini gördük. Bu bölüm, o parçaları <strong>Muller'in alel serisi</strong> denen klasik bir çerçevede birleştirir. 1930'larda Hermann Joseph Muller, bir varyant alelin yabanıl-tipe göre işlevini niteliğe göre sınıflandırmış ve bugün hâlâ kullandığımız terimleri ortaya koymuştur: <strong>amorf</strong> (işlev tümüyle kayıp), <strong>hipomorf</strong> (işlev azalmış), <strong>hipermorf</strong> (işlev artmış), <strong>antimorf</strong> (yabanıl-tip işlevine <em>karşı</em> çalışan) ve <strong>neomorf</strong> (yepyeni bir işlev kazanan). Wilkie (1994), dominant hastalıkların moleküler temellerini incelerken bu çerçeveyi modern genetik diline taşır ve "artmış/yeni protein işlevi" ile "dominant-negatif (antimorfik)" etkiyi ayrı dominant mekanizmalar olarak konumlandırır (Wilkie, 1994, <em>J Med Genet</em>; <a href="https://doi.org/10.1136/jmg.31.2.89">DOI</a>).</p>
 <p>Bu seriyi tek bir haritada görmek, kitabın o ana kadarki tüm mekanizmalarını birbirine bağlar (Şekil 6.1). Soldaki yabanıl-tip referanstan başlayarak sağa doğru: amorf ve hipomorf <strong>işlev kaybı</strong> ucundadır (Bölüm 2–3); hipermorf <strong>işlev kazanımı</strong> (Bölüm 4); antimorf <strong>sağlamı sabote etme</strong> (Bölüm 5, dominant-negatif); ve neomorf <strong>yeni işlev</strong> ucunda durur (bu bölüm).</p>
-<p class="missing">[Görsel bulunamadı: assets/sekil_21_muller_alel_serisi.svg]</p>
+<figure class="svg-fig"><svg viewBox="0 0 920 470" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="soft21" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#1A2B4A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="920" height="470" fill="#ffffff"/>
+  <text x="460" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">Müller'in allel serisi — bir varyantın altı olası etkisi</text>
+  <text x="460" y="50" text-anchor="middle" font-size="10.5" fill="#64748B">Sınıflama "ürün yapılıyor mu ve ne yapıyor?" sorusuna göre; her sınıf bir mekanizma bölümüne bağlanır</text>
+
+  <!-- 6 cards -->
+  <!-- 1 Wild type -->
+  <rect x="10" y="66" width="144" height="318" rx="11" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="10" y="66" width="144" height="40" rx="11" fill="#E2E8F0"/>
+  <text x="82" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1A2B4A">Yabanıl-tip</text>
+  <text x="82" y="99" text-anchor="middle" font-size="9" fill="#64748B">(referans)</text>
+  <circle cx="82" cy="150" r="22" fill="#64748B"/><text x="82" y="156" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">✓</text>
+  <text x="82" y="200" text-anchor="middle" font-size="10" fill="#2E3440">normal ürün,</text>
+  <text x="82" y="215" text-anchor="middle" font-size="10" fill="#2E3440">normal işlev</text>
+  <text x="82" y="360" text-anchor="middle" font-size="9" font-style="italic" fill="#94A3B8">karşılaştırma temeli</text>
+
+  <!-- 2 Amorf -->
+  <rect x="162" y="66" width="144" height="318" rx="11" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="162" y="66" width="144" height="40" rx="11" fill="#DBEAFE"/>
+  <text x="234" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Amorf</text>
+  <text x="234" y="99" text-anchor="middle" font-size="9" fill="#2456c9">(null)</text>
+  <circle cx="234" cy="150" r="22" fill="#ffffff" stroke="#2563EB" stroke-width="1.8" stroke-dasharray="4 3"/><text x="234" y="156" text-anchor="middle" font-size="15" fill="#94A3B8">∅</text>
+  <text x="234" y="200" text-anchor="middle" font-size="10" fill="#2E3440">ürün yok /</text>
+  <text x="234" y="215" text-anchor="middle" font-size="10" fill="#2E3440">tam işlev kaybı</text>
+  <text x="234" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1D4ED8">↓ işlev</text>
+  <text x="234" y="356" text-anchor="middle" font-size="9" fill="#475569">= LoF</text>
+  <text x="234" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#1D4ED8">Bölüm 2 / 3</text>
+
+  <!-- 3 Hipomorf -->
+  <rect x="314" y="66" width="144" height="318" rx="11" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="314" y="66" width="144" height="40" rx="11" fill="#DBEAFE"/>
+  <text x="386" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Hipomorf</text>
+  <text x="386" y="99" text-anchor="middle" font-size="9" fill="#2456c9">(kısmi kayıp)</text>
+  <circle cx="386" cy="150" r="14" fill="#2563EB"/>
+  <text x="386" y="200" text-anchor="middle" font-size="10" fill="#2E3440">azalmış ama</text>
+  <text x="386" y="215" text-anchor="middle" font-size="10" fill="#2E3440">kısmen var</text>
+  <text x="386" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1D4ED8">↓ işlev (kısmi)</text>
+  <text x="386" y="356" text-anchor="middle" font-size="9" fill="#475569">= kısmi LoF</text>
+  <text x="386" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#1D4ED8">Bölüm 2</text>
+
+  <!-- 4 Hipermorf -->
+  <rect x="466" y="66" width="144" height="318" rx="11" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.5" filter="url(#soft21)"/>
+  <rect x="466" y="66" width="144" height="40" rx="11" fill="#FEE2E2"/>
+  <text x="538" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">Hipermorf</text>
+  <text x="538" y="99" text-anchor="middle" font-size="9" fill="#a02020">(artmış)</text>
+  <circle cx="538" cy="150" r="26" fill="#B91C1C"/>
+  <text x="538" y="200" text-anchor="middle" font-size="10" fill="#2E3440">aynı işin</text>
+  <text x="538" y="215" text-anchor="middle" font-size="10" fill="#2E3440">fazlası</text>
+  <text x="538" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B91C1C">↑ işlev</text>
+  <text x="538" y="356" text-anchor="middle" font-size="9" fill="#a02020">= GoF</text>
+  <text x="538" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#B91C1C">Bölüm 4</text>
+
+  <!-- 5 Antimorf -->
+  <rect x="618" y="66" width="144" height="318" rx="11" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.8" filter="url(#soft21)"/>
+  <rect x="618" y="66" width="144" height="40" rx="11" fill="#FEE2E2"/>
+  <text x="690" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">Antimorf</text>
+  <text x="690" y="99" text-anchor="middle" font-size="9" fill="#a02020">(= dominant-negatif)</text>
+  <circle cx="676" cy="150" r="15" fill="#2563EB"/>
+  <circle cx="702" cy="150" r="15" fill="#B91C1C"/>
+  <path d="M690,136 l-4,7 l6,-2 l-5,8" fill="none" stroke="#B91C1C" stroke-width="1.6"/>
+  <text x="690" y="200" text-anchor="middle" font-size="10" fill="#2E3440">sağlam ürünü</text>
+  <text x="690" y="215" text-anchor="middle" font-size="10" fill="#2E3440">bozar (zehirler)</text>
+  <text x="690" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B91C1C">↓↓ işlev</text>
+  <text x="690" y="356" text-anchor="middle" font-size="9" fill="#a02020">= DN</text>
+  <text x="690" y="370" text-anchor="middle" font-size="9" font-weight="600" fill="#B91C1C">Bölüm 5</text>
+
+  <!-- 6 Neomorf -->
+  <rect x="766" y="66" width="144" height="318" rx="11" fill="#FFFBEB" stroke="#D97706" stroke-width="1.8" filter="url(#soft21)"/>
+  <rect x="766" y="66" width="144" height="40" rx="11" fill="#FEF3C7"/>
+  <text x="838" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#B45309">Neomorf</text>
+  <text x="838" y="99" text-anchor="middle" font-size="9" fill="#92742a">(yeni işlev)</text>
+  <g transform="translate(838,150)"><polygon points="0,-24 6,-7 24,-7 9.5,3.5 15,21 0,10 -15,21 -9.5,3.5 -24,-7 -6,-7" fill="#FCD34D" stroke="#92400E" stroke-width="1.1"/></g>
+  <text x="838" y="200" text-anchor="middle" font-size="10" fill="#2E3440">normalde olmayan</text>
+  <text x="838" y="215" text-anchor="middle" font-size="10" fill="#2E3440">yepyeni iş</text>
+  <text x="838" y="250" text-anchor="middle" font-size="9.5" font-weight="600" fill="#B45309">≠ işlev (yeni)</text>
+  <text x="838" y="356" text-anchor="middle" font-size="9" fill="#92742a">= toksik/yeni kazanım</text>
+  <text x="838" y="370" text-anchor="middle" font-size="9" font-weight="700" fill="#B45309">BU BÖLÜM</text>
+
+  <!-- footer -->
+  <rect x="10" y="396" width="900" height="60" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="460" y="418" text-anchor="middle" font-size="11" font-weight="700" fill="#1A2B4A">Sınıflama refleksi: ürün yapılıyor mu? Daha az mı (amorf/hipomorf) · daha çok mu (hipermorf) · sağlamı mı bozuyor (antimorf=DN) · yepyeni iş mi yapıyor (neomorf)?</text>
+  <text x="460" y="440" text-anchor="middle" font-size="10" fill="#475569">Neomorf ve antimorf dominanttır; ikisi de "varyant ürünün varlığından" doğar — bu yüzden tam delesyon/null çoğu kez hastalığı kopyalamaz.</text>
+</svg><figcaption>Şekil 6.1 — Muller&#x27;in alel serisi: bir varyantın altı olası etkisi</figcaption></figure>
 <p>Bu bölümün asıl yeni kavramı <strong>neomorf</strong>tur, çünkü antimorfu (dominant-negatif) Bölüm 5'te ayrıntılı işledik. Neomorfik etkinin tanımı kritik bir incelik taşır: bu, "aynı işin fazlası" (hipermorf) değil, <strong>niteliksel olarak yeni</strong> bir aktivitedir. Sezgisel benzetmeyle: hipermorf, bir motorun fazla mesai yapmasıdır (aynı iş, daha çok); neomorf ise motorun aniden <strong>bambaşka bir cihaza</strong> dönüşüp, sistemde hiç olmaması gereken bir çıktı üretmesidir. Bu ayrım sadece akademik değildir; aşağıda göreceğimiz gibi, neomorfik varyantların tipik olarak <strong>belirli kodonlarda tekrar tekrar</strong> (hotspot) ortaya çıkması ve <strong>fonksiyonel testlerle</strong> doğrulanması, doğrudan bu "yeni aktivite" özelliğinden kaynaklanır.</p>
 <p>Aşağıdaki tablo, bölüm boyunca açacağımız kavramları bir arada gösterir.</p>
 <p><strong>Tablo 6.1 — Neomorfik ve antimorfik alellerin temel kavramları</strong></p>
@@ -6085,7 +6239,171 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 <blockquote>
 <p><strong>🔬 Deep-dive — Mismatch repair (MMR) ve tekrar instabilitesi:</strong> MMR proteinleri (MSH2, MSH3, MLH1, PMS2), tek sarmal kayma yapılarını tanıyarak onarır. Ancak uzun tekrarlarda oluşan karmaşık saç tokası (hairpin) ve dörtlü sarmal (G-quadruplex) yapıları MMR sisteminin bu yapıları yanlış tanımasına veya hiç tanımamasına yol açabilir. Örneğin SCA1'deki poliglutamin traktının yanındaki CAT histidin kesintileri, hairpin oluşumunu bozarak aleli stabilize eder; kesintilerin yokluğunda alel çok daha hızlı genişler (Kraus-Perrotta ve Lagalwar, 2016). Bu, tek bir nükleotidin (T→A gibi) tekrar kararlılığını nasıl dramatik biçimde değiştirebildiğinin çarpıcı bir örneğidir.</p>
 </blockquote>
-<p class="missing">[Görsel bulunamadı: assets/sekil_09_alel_zonlari.svg]</p>
+<figure class="svg-fig"><svg viewBox="0 0 1100 760" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow09a">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Beyaz zemin -->
+  <rect width="1100" height="760" fill="#ffffff"/>
+
+  <!-- Başlık -->
+  <rect x="0" y="0" width="1100" height="52" fill="#1A2B4A"/>
+  <text x="550" y="33" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Tekrar Dizisi Hastalıklarında Alel Bölgeleri</text>
+
+  <!-- Legend kutusu -->
+  <rect x="100" y="58" width="900" height="32" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="120" y="68" width="18" height="12" rx="3" fill="#DBEAFE"/>
+  <text x="144" y="79" font-size="10" fill="#475569">Normal</text>
+  <rect x="210" y="68" width="18" height="12" rx="3" fill="#FEF3C7"/>
+  <text x="234" y="79" font-size="10" fill="#475569">Ara / Gri Zon</text>
+  <rect x="330" y="68" width="18" height="12" rx="3" fill="#FED7AA"/>
+  <text x="354" y="79" font-size="10" fill="#475569">Premutasyon</text>
+  <rect x="450" y="68" width="18" height="12" rx="3" fill="#FEE2E2"/>
+  <text x="474" y="79" font-size="10" fill="#475569">Tam Mutasyon (Hastalık)</text>
+  <rect x="640" y="68" width="18" height="12" rx="3" fill="#E9D5FF"/>
+  <text x="664" y="79" font-size="10" fill="#475569">İndirgенmiş penetrans</text>
+  <text x="820" y="79" font-size="10" fill="#94A3B8" font-style="italic">Her hastalık için ölçek farklıdır</text>
+
+  <!-- ===== PANEL 1: FMR1 (CGG) ===== -->
+  <rect x="30" y="108" width="1040" height="140" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" filter="url(#shadow09a)"/>
+
+  <!-- Panel rozeti A -->
+  <rect x="40" y="115" width="28" height="22" rx="5" fill="#1A2B4A"/>
+  <text x="54" y="131" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">A</text>
+
+  <!-- Panel başlığı -->
+  <text x="80" y="131" font-size="13" font-weight="700" fill="#2563EB">FMR1 (CGG tekrarı) — Frajil X Spektrumu</text>
+  <text x="80" y="146" font-size="10" fill="#64748B" font-style="italic">Ölçek: 0 – 300 tekrar (görsel temsil; &gt;200 yeniden ölçeklendi)</text>
+
+  <!-- Bar -->
+  <!-- Normal: x=150 w=120 -->
+  <rect x="150" y="158" width="120" height="48" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Gray: x=270 w=27 -->
+  <rect x="270" y="158" width="30" height="48" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <!-- Premutation: x=300 w=340 -->
+  <rect x="300" y="158" width="340" height="48" fill="#FED7AA" stroke="#F59E0B" stroke-width="1"/>
+  <!-- Full mutation: x=640 w=330 -->
+  <rect x="640" y="158" width="330" height="48" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+
+  <!-- Bar etiketleri üstte -->
+  <text x="210" y="154" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Normal</text>
+  <text x="285" y="154" text-anchor="middle" font-size="9" fill="#D97706">Gri</text>
+  <text x="470" y="154" text-anchor="middle" font-size="10" font-weight="600" fill="#B45309">Premutasyon</text>
+  <text x="805" y="154" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Tam Mutasyon</text>
+
+  <!-- Tekrar sayıları altta -->
+  <text x="150" y="220" font-size="9" fill="#475569">5</text>
+  <text x="202" y="220" text-anchor="middle" font-size="9" fill="#475569">5–44</text>
+  <text x="270" y="220" font-size="9" fill="#475569">45</text>
+  <text x="285" y="220" text-anchor="middle" font-size="9" fill="#D97706">45–54</text>
+  <text x="300" y="220" font-size="9" fill="#475569">55</text>
+  <text x="470" y="220" text-anchor="middle" font-size="9" fill="#B45309">55–200</text>
+  <text x="638" y="220" font-size="9" fill="#475569">200</text>
+  <text x="805" y="220" text-anchor="middle" font-size="9" fill="#B91C1C">&gt;200 tekrar</text>
+
+  <!-- Hastalık notları bar içinde -->
+  <text x="210" y="178" text-anchor="middle" font-size="9" fill="#1D4ED8">Taşıyıcı değil</text>
+  <text x="210" y="192" text-anchor="middle" font-size="9" fill="#1D4ED8">FMRP normal</text>
+  <text x="470" y="174" text-anchor="middle" font-size="9" fill="#92400E">FMR1 aşırı</text>
+  <text x="470" y="186" text-anchor="middle" font-size="9" fill="#92400E">transkripsiyon</text>
+  <text x="470" y="198" text-anchor="middle" font-size="9" fill="#92400E">→ FXTAS / FXPOI</text>
+  <text x="805" y="176" text-anchor="middle" font-size="9" fill="#B91C1C">Metilasyon + sessizlik</text>
+  <text x="805" y="190" text-anchor="middle" font-size="9" fill="#B91C1C">FMRP kaybı</text>
+  <text x="805" y="204" text-anchor="middle" font-size="9" fill="#B91C1C">→ Frajil X Sendromu</text>
+
+  <!-- ===== PANEL 2: HTT (CAG) ===== -->
+  <rect x="30" y="265" width="1040" height="140" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" filter="url(#shadow09a)"/>
+
+  <rect x="40" y="272" width="28" height="22" rx="5" fill="#1A2B4A"/>
+  <text x="54" y="288" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">B</text>
+
+  <text x="80" y="288" font-size="13" font-weight="700" fill="#B91C1C">HTT (CAG tekrarı) — Huntington Hastalığı</text>
+  <text x="80" y="303" font-size="10" fill="#64748B" font-style="italic">Ölçek: 0 – 100 tekrar (görsel temsil)</text>
+
+  <!-- HTT Bar: x=150-970, w=820 -->
+  <!-- Normal 10-26: (26/100)*820=213 → x=150 w=213 -->
+  <rect x="150" y="315" width="213" height="48" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Intermediate 27-35: (9/100)*820=74 → x=363 w=74 -->
+  <rect x="363" y="315" width="74" height="48" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <!-- Reduced penetrance 36-39: (4/100)*820=33 → x=437 w=33 -->
+  <rect x="437" y="315" width="33" height="48" fill="#E9D5FF" stroke="#C4B5FD" stroke-width="1"/>
+  <!-- Full penetrance ≥40: x=470 w=500 -->
+  <rect x="470" y="315" width="500" height="48" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+
+  <text x="256" y="311" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Normal</text>
+  <text x="400" y="311" text-anchor="middle" font-size="9" fill="#D97706">Ara</text>
+  <text x="454" y="311" text-anchor="middle" font-size="9" fill="#7C3AED">İnd.Pen.</text>
+  <text x="720" y="311" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Tam Penetrans (HD)</text>
+
+  <text x="150" y="377" font-size="9" fill="#475569">10</text>
+  <text x="256" y="377" text-anchor="middle" font-size="9" fill="#475569">10–26</text>
+  <text x="363" y="377" font-size="9" fill="#475569">27</text>
+  <text x="400" y="377" text-anchor="middle" font-size="9" fill="#D97706">27–35</text>
+  <text x="437" y="377" font-size="9" fill="#7C3AED">36</text>
+  <text x="470" y="377" font-size="9" fill="#475569">40</text>
+  <text x="720" y="377" text-anchor="middle" font-size="9" fill="#B91C1C">≥40 tekrar → HD kesin</text>
+
+  <text x="256" y="335" text-anchor="middle" font-size="9" fill="#1D4ED8">Etkilenmez</text>
+  <text x="400" y="335" text-anchor="middle" font-size="9" fill="#D97706">Kararsız</text>
+  <text x="400" y="349" text-anchor="middle" font-size="9" fill="#D97706">nesil atlayabilir</text>
+  <text x="720" y="333" text-anchor="middle" font-size="9" fill="#B91C1C">PolyQ proteini → agregasyon</text>
+  <text x="720" y="347" text-anchor="middle" font-size="9" fill="#B91C1C">Nöronal ölüm (striatum)</text>
+  <text x="720" y="361" text-anchor="middle" font-size="9" fill="#B91C1C">Başlangıç yaşı ∝ 1/tekrar sayısı</text>
+
+  <!-- ===== PANEL 3: DMPK (CTG) ===== -->
+  <rect x="30" y="422" width="1040" height="140" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" filter="url(#shadow09a)"/>
+
+  <rect x="40" y="429" width="28" height="22" rx="5" fill="#1A2B4A"/>
+  <text x="54" y="445" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">C</text>
+
+  <text x="80" y="445" font-size="13" font-weight="700" fill="#D97706">DMPK (CTG tekrarı) — Miyotonik Distrofi Tip 1</text>
+  <text x="80" y="460" font-size="10" fill="#64748B" font-style="italic">Ölçek: 0 – 400 tekrar (görsel temsil; &gt;400 sıkıştırıldı)</text>
+
+  <!-- DMPK Bar: x=150-970, w=820 -->
+  <!-- Normal 5-34: (34/400)*820=70 → x=150 w=70 -->
+  <rect x="150" y="472" width="70" height="48" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Premut 35-49: (15/400)*820=31 → x=220 w=31 -->
+  <rect x="220" y="472" width="31" height="48" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <!-- Mild 50-150: (100/400)*820=205 → x=251 w=205 -->
+  <rect x="251" y="472" width="205" height="48" fill="#FED7AA" stroke="#F59E0B" stroke-width="1"/>
+  <!-- Classical/Congenital >150: x=456 w=514 -->
+  <rect x="456" y="472" width="514" height="48" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="1"/>
+
+  <text x="185" y="468" text-anchor="middle" font-size="10" font-weight="600" fill="#1D4ED8">Normal</text>
+  <text x="235" y="468" text-anchor="middle" font-size="9" fill="#D97706">Gri</text>
+  <text x="353" y="468" text-anchor="middle" font-size="10" font-weight="600" fill="#B45309">Hafif / Geç Başlangıç</text>
+  <text x="713" y="468" text-anchor="middle" font-size="10" font-weight="600" fill="#B91C1C">Klasik / Konjenital DM1</text>
+
+  <text x="150" y="534" font-size="9" fill="#475569">5</text>
+  <text x="185" y="534" text-anchor="middle" font-size="9" fill="#475569">5–34</text>
+  <text x="220" y="534" font-size="9" fill="#475569">35</text>
+  <text x="251" y="534" font-size="9" fill="#475569">50</text>
+  <text x="353" y="534" text-anchor="middle" font-size="9" fill="#B45309">50–150</text>
+  <text x="456" y="534" font-size="9" fill="#475569">150</text>
+  <text x="713" y="534" text-anchor="middle" font-size="9" fill="#B91C1C">&gt;150 (klasik); &gt;1000 (konjenital)</text>
+
+  <text x="185" y="492" text-anchor="middle" font-size="9" fill="#1D4ED8">Etkilenmez</text>
+  <text x="353" y="490" text-anchor="middle" font-size="9" fill="#92400E">CUG RNA birikimi</text>
+  <text x="353" y="504" text-anchor="middle" font-size="9" fill="#92400E">Hafif miyotoni/katarakt</text>
+  <text x="713" y="489" text-anchor="middle" font-size="9" fill="#B91C1C">CUG foci → MBNL sekestrasyon</text>
+  <text x="713" y="503" text-anchor="middle" font-size="9" fill="#B91C1C">Alternatif splicing bozulması</text>
+  <text x="713" y="517" text-anchor="middle" font-size="9" fill="#B91C1C">→ Çoklu doku tutulumu</text>
+
+  <!-- Footer -->
+  <rect x="0" y="582" width="1100" height="52" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="550" y="601" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1A2B4A">Öğreti: Tekrar sayısı hem hastalık varlığını hem başlangıç yaşını hem de kuşaktan kuşağa değişkenliği (anticipasyon) belirler.</text>
+  <text x="550" y="620" text-anchor="middle" font-size="9.5" fill="#475569">FMR1: Hoogeveen &amp;amp; Oostra (1997); Hagerman &amp;amp; Hagerman (2015) | HTT: Ross &amp;amp; Tabrizi (2011) | DMPK: Chau &amp;amp; Kalsotra (2015) | Genel: Paulson (2018)</text>
+
+  <!-- Alt kaynak notu -->
+  <text x="550" y="648" text-anchor="middle" font-size="9" fill="#94A3B8" font-style="italic">Tekrar sayısı eşikleri literatür konsensusu olup bireyler arası küçük farklılıklar bildirilmiştir; klinik yorumda güncel gen-spesifik klavuzlar kullanılmalıdır.</text>
+
+  <!-- Sağ alt köşe: kaynak notu -->
+  <text x="1090" y="742" text-anchor="end" font-size="8.5" fill="#94A3B8">Şekil 9.1 · Mekanizma Kitabı</text>
+
+</svg><figcaption>Şekil 9.1 — Tekrar dizisi hastalıklarında alel bölgeleri</figcaption></figure>
 <h3>2.2 Patojenik mekanizma I: LoF / Epigenetik sessizleşme</h3>
 <p>Frajil X Sendromu'nda (FXS) <em>FMR1</em> geninin 5' UTR bölgesindeki CGG tekrar sayısı 200'ü aştığında, normalde açık olan bu bölge CpG metilasyonu ve histon deasetilasyonu yoluyla yoğun heterokromatine dönüşür. Hoogeveen ve Oostra (1997), tekrar 200 birimin ötesine geçtiğinde hem tekrarın hem <em>FMR1</em> promotör bölgesinin metillendiğini, bu metilasyon sonucunda genin susturulduğunu ve <strong>hiç FMRP üretilmediğini</strong> derlemiştir; frajil X fenotipi doğrudan bu FMRP yokluğundan doğar (Hoogeveen ve Oostra, 1997). FMRP bir <strong>RNA bağlayıcı proteindir</strong>; bu derlemede yazarlar proteinin RNA ve/veya proteinlerin çekirdekten sitoplazmaya taşınmasında rol oynadığını öne sürmüştür. Sonraki iki on yılın çalışmaları tabloyu genişletmiştir: bugün FMRP'nin nöronal sinapslarda mRNA'ların dendritik taşınmasını ve yerel çevrimini düzenlediği, yokluğunda uyarıcı girdiye bağımlı protein sentezinin düzensizleştiği kabul edilir — bu ikinci katman <strong>yerleşik ders bilgisidir</strong> ve 1997 derlemesinin kapsamında değildir.</p>
 <p>Önemli bir ayrıntı: epigenetik sessizleşme yalnızca tam mutasyon (&gt;200 CGG) aralığına özgüdür. 55–200 tekrar arasındaki premutasyon alelleri metile olmaz; aksine genin transkripsiyonu artmış düzeyde devam eder. Ancak bu fazla CGG-zengini RNA doğrudan toksiktir ve RNA GoF mekanizmasıyla tamamen farklı bir klinik tablo — Frajil X ile İlişkili Tremor/Ataksi Sendromu (FXTAS) ve Frajil X ile İlişkili Primer Over Yetersizliği (FXPOI) — yaratır. Bu iki hastalığın <strong>birbirinin karşıtı</strong> olan mekanizmalarını akılda tutmanın pratik bir ölçütü vardır: frajil X sendromu genin <strong>susturulmasını</strong> gerektirirken, FXTAS genin <strong>ifade edilmeye devam etmesini</strong> gerektirir. Nitekim FXTAS başlangıçta yalnız premutasyon aralığına özgü sanılmışsa da, gri zonda (45–54 tekrar) ya da <strong>metillenmemiş</strong> tam mutasyon (&gt;200) aleli taşıyan nadir bireylerde de bildirilmiştir; değişmeyen koşul her zaman <em>FMR1</em>'in ifade ediliyor olmasıdır (Hagerman ve Hagerman, 2015).</p>
@@ -11664,7 +11982,130 @@ Yenidoğanda açıklanamayan hipotoni ile karşılaşıldığında, DM1 ayırıc
 <blockquote>
 <p>🏷️ <strong>Bu altı eksenli çerçeve kitabın pedagojik sentezidir.</strong> Eksenlerin her biri ayrı ayrı kaynaklıdır ve bu kitabın önceki bölümlerinde tek tek işlenmiştir (mekanizma yönü → Bölüm 2–6; rezidüel işlev → Bölüm 2; varyant konumu → Bölüm 2 ve 7; kalıtım modu → Bölüm 1 ve 3; zamanlama → Bölüm 1 ve 12; bağlam → Bölüm 14). Buna karşılık <strong>"alelik serinin altı ekseni" literatürde bu adla yerleşik bir sınıflandırma değildir</strong>; eksen sayısı ve gruplama editöryaldir ve öğretme kolaylığı için seçilmiştir. Bir raporda veya yayında bu çerçeveye yerleşik bir taksonomiymiş gibi atıf yapılmamalıdır.</p>
 </blockquote>
-<p class="missing">[Görsel bulunamadı: assets/sekil_50_alelik_seri_alti_eksen.svg]</p>
+<figure class="svg-fig"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 700" width="1120" height="700" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="1120" height="700" fill="#ffffff"/>
+  <defs>
+    <filter id="sh50" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 15.1 — Aynı gen neden farklı hastalıklar yapar? Altı eksen</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Allelik seri: tek lokus, çok fenotip. Fenotibi belirleyen genin kimliği değil, varyantın bu altı eksendeki konumudur.</text>
+
+  <!-- Sol: gen kolonu -->
+  <rect x="32" y="76" width="140" height="572" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="102" y="99" font-size="12.5" font-weight="700" fill="#1A2B4A" text-anchor="middle">AYNI GEN</text>
+  <text x="102" y="114" font-size="10" fill="#475569" text-anchor="middle">farklı varyantlar</text>
+  <rect x="90" y="126" width="24" height="494" rx="6" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1"/>
+
+  <g fill="#FCD34D" stroke="#92400E" stroke-width="1">
+    <path d="M102 148 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 236 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 324 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 412 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 500 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+    <path d="M102 588 l3.2 6.6 7.3 1.0 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1.0 Z"/>
+  </g>
+
+  <!-- Bağlantı çizgileri -->
+  <g stroke="#94A3B8" stroke-width="1.2" fill="none">
+    <path d="M172 156 H196"/>
+    <path d="M172 244 H196"/>
+    <path d="M172 332 H196"/>
+    <path d="M172 420 H196"/>
+    <path d="M172 508 H196"/>
+    <path d="M172 596 H196"/>
+  </g>
+
+  <!-- SATIR 1 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="118" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="132" width="26" height="26" rx="7" fill="#B91C1C"/>
+  <text x="225" y="150" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="250" y="146" font-size="13" font-weight="700" fill="#B91C1C">MEKANİZMA YÖNÜ — kayıp mı, kazanım mı?</text>
+  <text x="250" y="166" font-size="10.5" fill="#2E3440">Aynı gende işlev kaybı ve işlev kazanımı çoğu zaman birbirinin</text>
+  <text x="250" y="181" font-size="10.5" fill="#2E3440">zıddı fenotipler üretir; yön değişince hastalığın adı da değişir.</text>
+  <line x1="706" y1="132" x2="706" y2="180" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="146" font-size="11" font-weight="700" fill="#1A2B4A">RET: Hirschsprung (LoF) ↔ MEN2 (GoF)</text>
+  <text x="722" y="166" font-size="10" fill="#64748B">FGFR3: CATSHL (LoF) ↔ akondroplazi (GoF)</text>
+  <text x="722" y="181" font-size="10" fill="#64748B">SCN2A: yön → tedavi yönü (Bölüm 4)</text>
+
+  <!-- SATIR 2 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="206" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="220" width="26" height="26" rx="7" fill="#2563EB"/>
+  <text x="225" y="238" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="250" y="234" font-size="13" font-weight="700" fill="#2563EB">REZİDÜEL İŞLEV — alelin ağırlığı</text>
+  <text x="250" y="254" font-size="10.5" fill="#2E3440">Kalan işlev yüzdesi tabloyu hafiften ağıra doğru kaydırır; klinik</text>
+  <text x="250" y="269" font-size="10.5" fill="#2E3440">eşik geçildiğinde aynı genin hastalığı yeni bir ad alır.</text>
+  <line x1="706" y1="220" x2="706" y2="268" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="234" font-size="11" font-weight="700" fill="#1A2B4A">PAH: klasik PKU ↔ hafif hiperfenilalaninemi</text>
+  <text x="722" y="254" font-size="10" fill="#64748B">ATP7A: Menkes ↔ oksipital boynuz sendromu</text>
+  <text x="722" y="269" font-size="10" fill="#64748B">DMD: Duchenne ↔ Becker (okuma çerçevesi)</text>
+
+  <!-- SATIR 3 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="294" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="308" width="26" height="26" rx="7" fill="#1A2B4A"/>
+  <text x="225" y="326" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="250" y="322" font-size="13" font-weight="700" fill="#1A2B4A">VARYANT KONUMU — domain ve izoform</text>
+  <text x="250" y="342" font-size="10.5" fill="#2E3440">Proteinin farklı bölgeleri farklı ortaklarla çalışır; varyant hangi</text>
+  <text x="250" y="357" font-size="10.5" fill="#2E3440">arayüzü bozarsa hastalık o dokunun adını taşır.</text>
+  <line x1="706" y1="308" x2="706" y2="356" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="322" font-size="11" font-weight="700" fill="#1A2B4A">LMNA: kas ↔ yağ dokusu ↔ progeria</text>
+  <text x="722" y="342" font-size="10" fill="#64748B">COL1A1: sarmal glisin ↔ N-propeptid (EDS)</text>
+  <text x="722" y="357" font-size="10" fill="#64748B">PAX6: aniridi ↔ ön segment anomalileri</text>
+
+  <!-- SATIR 4 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="382" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="396" width="26" height="26" rx="7" fill="#D97706"/>
+  <text x="225" y="414" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="250" y="410" font-size="13" font-weight="700" fill="#B45309">KALITIM MODU — tek alel mi, iki alel mi?</text>
+  <text x="250" y="430" font-size="10.5" fill="#2E3440">Aynı gen monoalelik durumda hafif/geç bir tablo, bialelik durumda</text>
+  <text x="250" y="445" font-size="10.5" fill="#2E3440">ayrı adı olan ağır bir hastalık üretebilir.</text>
+  <line x1="706" y1="396" x2="706" y2="444" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="410" font-size="11" font-weight="700" fill="#1A2B4A">COL4A3/A4: ince bazal membran ↔ Alport</text>
+  <text x="722" y="430" font-size="10" fill="#64748B">RYR1: malign hipertermi ↔ konjenital miyopati</text>
+  <text x="722" y="445" font-size="10" fill="#64748B">Danışmada risk hesabı tümüyle değişir</text>
+
+  <!-- SATIR 5 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="470" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="484" width="26" height="26" rx="7" fill="#B45309"/>
+  <text x="225" y="502" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="250" y="498" font-size="13" font-weight="700" fill="#B45309">ZAMANLAMA — germline mi, mozaik mi?</text>
+  <text x="250" y="518" font-size="10.5" fill="#2E3440">Varyant zigottan önce mi sonra mı ortaya çıktı? Germline hâlde</text>
+  <text x="250" y="533" font-size="10.5" fill="#2E3440">letal olan bir varyant, mozaik hâlde yaşanabilir bir sendrom yapar.</text>
+  <line x1="706" y1="484" x2="706" y2="532" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="498" font-size="11" font-weight="700" fill="#1A2B4A">GNAS: PHP (germline) ↔ McCune-Albright</text>
+  <text x="722" y="518" font-size="10" fill="#64748B">IDH1: germline yok ↔ mozaik Ollier hastalığı</text>
+  <text x="722" y="533" font-size="10" fill="#64748B">Bölüm 12 ile doğrudan köprü</text>
+
+  <!-- SATIR 6 -->
+  <g filter="url(#sh50)">
+    <rect x="196" y="558" width="896" height="76" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  </g>
+  <rect x="212" y="572" width="26" height="26" rx="7" fill="#475569"/>
+  <text x="225" y="590" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+  <text x="250" y="586" font-size="13" font-weight="700" fill="#475569">BAĞLAM — ebeveyn kökeni ve genetik zemin</text>
+  <text x="250" y="606" font-size="10.5" fill="#2E3440">İmprintli lokusta alelin hangi ebeveynden geldiği, ayrıca modifiye</text>
+  <text x="250" y="621" font-size="10.5" fill="#2E3440">edici lokuslar aynı varyantı farklı hastalığa çevirebilir.</text>
+  <line x1="706" y1="572" x2="706" y2="620" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="722" y="586" font-size="11" font-weight="700" fill="#1A2B4A">GNAS: maternal → PHP1A ↔ paternal → PPHP</text>
+  <text x="722" y="606" font-size="10" fill="#64748B">Modifiye ediciler: Bölüm 14</text>
+  <text x="722" y="621" font-size="10" fill="#64748B">İmprinting: Bölüm 10</text>
+
+  <!-- Öğreti -->
+  <rect x="32" y="660" width="1060" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+  <text x="562" y="680" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: “Bu gende varyant var” bir tanı değildir. Tanı, varyantın bu altı eksendeki konumundan doğar.</text>
+</svg><figcaption>Şekil 15.1 — Aynı gen neden farklı hastalıklar yapar? Altı eksen</figcaption></figure>
 <h3>2.1 Birinci eksen: mekanizma yönü — kayıp mı, kazanım mı?</h3>
 <p>Alelik serilerin en çarpıcı biçimi, aynı gende hem işlev kaybı hem işlev kazanımı varyantlarının bulunmasıdır. Bölüm 4'te bunun iki klasik örneğini görmüştük: <em>RET</em>'te işlev kaybı bağırsak sinir sistemi gelişimini bozarak Hirschsprung hastalığına, işlev kazanımı ise reseptörü sürekli açık bırakarak MEN2 sendromuna yol açar (Edery ve ark., 1997); <em>SCN2A</em>'da işlev kazanımı yaşamın ilk günlerinde başlayan epilepsiyle, işlev kaybı ise daha geç başlangıçlı (ortanca 8 ay, ağırlıklı olarak infantil spazm) tabloyla ilişkilidir (Berecki ve ark., 2018); <em>SCN2A</em> işlev kaybının daha geniş nörogelişimsel ucu — otizm spektrum bozukluğu ve entelektüel yetersizlik — ayrı bir literatüre dayanır (Sanders ve ark., 2018). Bu iki örnek, yönün klinik olarak neden kritik olduğunu da gösterir: sodyum kanalı hastalıklarında mekanizma yönü doğrudan <strong>tedavi yönünü</strong> belirler; sodyum kanal blokerleri işlev kazanımı tablolarında yararlı, işlev kaybı tablolarında ise potansiyel olarak zararlıdır (Brunklaus ve ark., 2020).</p>
 <p>Bu eksenin en öğretici örneği ise <em>FGFR3</em>'tür, çünkü burada iki yön arasındaki geçiş kesikli değil <strong>süreklidir</strong> (Şekil 15.2).</p>
