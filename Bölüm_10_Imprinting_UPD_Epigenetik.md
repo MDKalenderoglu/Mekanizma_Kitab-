@@ -14,7 +14,7 @@ Bu bölümü tamamlayan okuyucu:
 1. Genomik imprinting'i "ebeveyn kökenine bağlı tek-alel ifade" olarak tanımlar ve klasik Mendel kalıtımından ayıran özelliklerini açıklar.
 2. İmprinting kontrol bölgesi (ICR) / diferansiyel metile bölge (DMR) kavramını ve metilasyonun alel susturmadaki rolünü açıklar.
 3. Bir imprintli lokusta hastalığa götüren dört yolu (delesyon, UPD, imprinting defekti, nokta varyantı) sıralar ve bunların ortak son yolda nasıl birleştiğini yorumlar.
-4. Uniparental dizominin oluşum mekanizmalarını (trizomi kurtarma, monozomi kurtarma, gamet tamamlama) ve izodizomi–heterodizomi ayrımının klinik önemini açıklar.
+4. Uniparental dizominin oluşum mekanizmalarını (trizomi kurtarma, monozomi kurtarma, gamet komplementasyonu ve **postzigotik mitotik olaylar**) ve izodizomi–heterodizomi ayrımının klinik önemini açıklar; genomik paternden mekanizmaya geçişin **olasılıklı** olduğunu bilir.
 5. İzodizominin resesif bir varyantı nasıl "maskeden çıkararak" hastalık yapabildiğini örnekle açıklar.
 6. Prader-Willi ve Angelman sendromlarını ebeveyn kökeni, moleküler alt-tip ve fenotip açısından karşılaştırır; her alt-tipin tekrarlanma riskini yorumlar.
 7. Beckwith-Wiedemann ve Silver-Russell sendromlarını 11p15.5'teki zıt metilasyon kusurları ("ayna hastalıklar") üzerinden açıklar ve tümör tarama gereğini alt-tiple ilişkilendirir.
