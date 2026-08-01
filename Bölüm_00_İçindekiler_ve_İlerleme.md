@@ -23,7 +23,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 27/27 |
 | 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 13/13 |
 | 14 | Digenik / oligogenik / modifier | `Bölüm_14_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
-| 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 22/22 |
+| 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 31/31 |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 2 Mermaid | 25/25 |
 | 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
 | — | **Final pass** (birleştirme/standardizasyon) | `Önsöz.md` + `build_book.py` | ✅ Tamam | — | 114 (toplu kaynakça) |
@@ -160,6 +160,15 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 12714972 | Eriksson ve ark. (2003) | Nature | 10.1038/nature01629 | Landmark (HGPS; LMNA ekzon 11 G608G; kriptik splice; 50 aa delesyonu → progerin) | 15 |
 | 21953297 | Worman (2012) | J Pathol | 10.1002/path.2999 | Review (laminler her hücrede ifade; hastalıkların doku-seçiciliği açıklanmamış) | 15 |
 | 21982404 | Bertrand ve ark. (2011) | Biol Aujourdhui | 10.1051/jbio/2011017 | Review (LMNA'da 10+ hastalık; Ig-domain→lipodistrofi, rod→kas; Fransızca) | 15 |
+| 34672689 | Shin &amp; Worman (2022) | Annu Rev Pathol | 10.1146/annurev-pathol-042220-034240 | Review (laminopatilerde doku seçiciliğinin güncel çok-mekanizmalı çerçevesi) | 15 |
+| 36552829 | Storey &amp; Fuller (2022) | Cells | 10.3390/cells11244065 | Sistematik derleme (LINC kompleksi genlerinde genotip-fenotip; LMNA için güvenilir korelasyon kurulamadı) | 15 |
+| 39673454 | Torra ve ark. (2024) | Nephrol Dial Transplant | 10.1093/ndt/gfae265 | Guideline (COL4A3/4/5 glomerülopati; heterozigot dominant Alport spektrumu vs bialelik ARAS; "taşıyıcı" terimi önerilmez) | 15 |
+| 42120542 | Robinson ve ark. (2026) | Eur J Hum Genet | 10.1038/s41431-026-02121-x | Guideline (EMQN RYR1: GoF→MH, DN→dominant miyopati, LoF→resesif miyopati; örtüşen fenotipler) | 15 |
+| 7670477 | Bellus ve ark. (1995) | Nat Genet | 10.1038/ng0795-357 | Landmark (FGFR3 p.Asn540Lys → hipokondroplazi) | 15 |
+| 7913883 | Shiang ve ark. (1994) | Cell | 10.1016/0092-8674(94)90302-6 | Landmark (FGFR3 p.Gly380Arg → akondroplazi; c.1138G&gt;A/G&gt;C) | 15 |
+| 7773297 | Tavormina ve ark. (1995) | Nat Genet | 10.1038/ng0395-321 | Landmark (TD tip II ↔ p.Lys650Glu; TD tip I ↔ p.Arg248Cys) | 15 |
+| 10053006 | Tavormina ve ark. (1999) | Am J Hum Genet | 10.1086/302275 | Landmark (SADDAN ↔ p.Lys650Met; c.1949A&gt;T vs c.1948A&gt;G ayrımı) | 15 |
+| 33767344 | Johnston ve ark. (2021) | Genet Med | 10.1038/s41436-021-01125-w | Guideline/VCEP (RYR1-MH; PM1 hotspot ölçütünün nicel kalibrasyonu, OR 24:1, orta güç) | 15 |
 | 17078022 | Marini ve ark. (2007) | Hum Mutat | 10.1002/humu.20429 | Metodoloji/klinik (832 tip I kollajen varyantı; letal bölge haritası; MLBR hizalanması) | 15 |
 | 21221114 | Kaler (2011) | Nat Rev Neurol | 10.1038/nrneurol.2010.180 | Review (ATP7A serisi: Menkes ↔ oksipital boynuz ↔ izole distal motor nöropati) | 15 |
 | 29959430 | Mantovani ve ark. (2018) | Nat Rev Endocrinol | 10.1038/s41574-018-0042-0 | Guideline (PHP ve ilişkili bozukluklar; tipler arası örtüşme; moleküler doğrulama) | 15 |
