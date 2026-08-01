@@ -23,7 +23,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 27/27 |
 | 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 13/13 |
 | 14 | Digenik / oligogenik / modifier | `Bölüm_14_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
-| 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 31/31 |
+| 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 32/32 |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 2 Mermaid | 25/25 |
 | 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
 | — | **Final pass** (birleştirme/standardizasyon) | `Önsöz.md` + `build_book.py` | ✅ Tamam | — | 114 (toplu kaynakça) |
@@ -160,6 +160,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 12714972 | Eriksson ve ark. (2003) | Nature | 10.1038/nature01629 | Landmark (HGPS; LMNA ekzon 11 G608G; kriptik splice; 50 aa delesyonu → progerin) | 15 |
 | 21953297 | Worman (2012) | J Pathol | 10.1002/path.2999 | Review (laminler her hücrede ifade; hastalıkların doku-seçiciliği açıklanmamış) | 15 |
 | 21982404 | Bertrand ve ark. (2011) | Biol Aujourdhui | 10.1051/jbio/2011017 | Review (LMNA'da 10+ hastalık; Ig-domain→lipodistrofi, rod→kas; Fransızca) | 15 |
+| 37982373 | Roberts ve ark. (2023) | Genet Med | 10.1016/j.gim.2023.101029 | Terminoloji uzlaşısı (GenCC: kalıtım biçimi, alelik gereksinim ve hastalık mekanizması ayrı kavramlardır) | 15 |
 | 34672689 | Shin &amp; Worman (2022) | Annu Rev Pathol | 10.1146/annurev-pathol-042220-034240 | Review (laminopatilerde doku seçiciliğinin güncel çok-mekanizmalı çerçevesi) | 15 |
 | 36552829 | Storey &amp; Fuller (2022) | Cells | 10.3390/cells11244065 | Sistematik derleme (LINC kompleksi genlerinde genotip-fenotip; LMNA için güvenilir korelasyon kurulamadı) | 15 |
 | 39673454 | Torra ve ark. (2024) | Nephrol Dial Transplant | 10.1093/ndt/gfae265 | Guideline (COL4A3/4/5 glomerülopati; heterozigot dominant Alport spektrumu vs bialelik ARAS; "taşıyıcı" terimi önerilmez) | 15 |
@@ -257,7 +258,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_47_digenik_pedigri.svg | 14 | Digenik pedigri imzası (RDS+ROM1) · genotip–fenotip tablosu · "iki varyant ≠ digenik" uyarısı |
 | sekil_48_modifier_mekanizmalari.svg | 14 | SMN2 kopya sayısı doz modifier'ı · modifier'ın dört yolu · KF akciğer modifier lokusları |
 | sekil_49_digenik_kanit_hiyerarsisi.svg | 14 | Digenik iddianın 5 kanıt basamağı · ACMG tek-lokus varsayımının kırılması · danışma |
-| sekil_50_alelik_seri_alti_eksen.svg | 15 | Alelik seriyi doğuran altı eksen (yön · rezidüel işlev · konum · kalıtım modu · zamanlama · bağlam) |
+| sekil_50_alelik_seri_alti_eksen.svg | 15 | Alelik seriden fenotipe: altı yorumlama ekseni (mekanizma yönü · etkinin büyüklüğü · moleküler-topolojik konum · alelik gereksinim · zamansal-dokusal mimari · değiştirici bağlam) |
 | sekil_51_fgfr3_aktivite_ekseni.svg | 15 | FGFR3 aktivite ekseni: CATSHL (LoF) → normal → hipokondroplazi → akondroplazi → SADDAN → tanatoforik |
 | sekil_52_lmna_domain_fenotip.svg | 15 | LMNA domain haritası ve fenotip kümeleri + HGPS'de kriptik splice → progerin akışı |
 | sekil_53_lumping_splitting.svg | 15 | Küre edilen birim: gen değil gen–kalıtım–mekanizma üçlüsü; birleştirme/ayırma ölçütleri |

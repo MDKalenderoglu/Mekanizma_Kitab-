@@ -6,8 +6,8 @@
     </filter>
   </defs>
 
-  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 15.1 — Aynı gen neden farklı hastalıklar yapar? Altı eksen</text>
-  <text x="32" y="56" font-size="11.5" fill="#64748B">Allelik seri: tek lokus, çok fenotip. Fenotibi belirleyen genin kimliği değil, varyantın bu altı eksendeki konumudur.</text>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 15.1 — Alelik seriden fenotipe: altı yorumlama ekseni</text>
+  <text x="32" y="56" font-size="11.5" fill="#64748B">Alelik seri: tek lokus, çok fenotip. Fenotipi belirleyen genin kimliği değil, varyantın bu altı yorumlama eksenindeki konumudur.</text>
 
   <!-- Sol: gen kolonu -->
   <rect x="32" y="76" width="140" height="572" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
@@ -40,7 +40,7 @@
   </g>
   <rect x="212" y="132" width="26" height="26" rx="7" fill="#B91C1C"/>
   <text x="225" y="150" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
-  <text x="250" y="146" font-size="13" font-weight="700" fill="#B91C1C">MEKANİZMA YÖNÜ — kayıp mı, kazanım mı?</text>
+  <text x="250" y="146" font-size="13" font-weight="700" fill="#B91C1C">MOLEKÜLER MEKANİZMA VE ETKİ YÖNÜ — kayıp mı, kazanım mı?</text>
   <text x="250" y="166" font-size="10.5" fill="#2E3440">Aynı gende işlev kaybı ve işlev kazanımı çoğu zaman birbirinin</text>
   <text x="250" y="181" font-size="10.5" fill="#2E3440">zıddı fenotipler üretir; yön değişince hastalığın adı da değişir.</text>
   <line x1="706" y1="132" x2="706" y2="180" stroke="#CBD5E1" stroke-width="1"/>
@@ -54,7 +54,7 @@
   </g>
   <rect x="212" y="220" width="26" height="26" rx="7" fill="#2563EB"/>
   <text x="225" y="238" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
-  <text x="250" y="234" font-size="13" font-weight="700" fill="#2563EB">REZİDÜEL İŞLEV — alelin ağırlığı</text>
+  <text x="250" y="234" font-size="13" font-weight="700" fill="#2563EB">ETKİNİN BÜYÜKLÜĞÜ VE ÜRÜNÜN KADERİ — kalan işlev ne kadar?</text>
   <text x="250" y="254" font-size="10.5" fill="#2E3440">Kalan işlev yüzdesi tabloyu hafiften ağıra doğru kaydırır; klinik</text>
   <text x="250" y="269" font-size="10.5" fill="#2E3440">eşik geçildiğinde aynı genin hastalığı yeni bir ad alır.</text>
   <line x1="706" y1="220" x2="706" y2="268" stroke="#CBD5E1" stroke-width="1"/>
@@ -68,7 +68,7 @@
   </g>
   <rect x="212" y="308" width="26" height="26" rx="7" fill="#1A2B4A"/>
   <text x="225" y="326" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
-  <text x="250" y="322" font-size="13" font-weight="700" fill="#1A2B4A">VARYANT KONUMU — domain ve izoform</text>
+  <text x="250" y="322" font-size="13" font-weight="700" fill="#1A2B4A">MOLEKÜLER VE TOPOLOJİK KONUM — domain, arayüz, izoform</text>
   <text x="250" y="342" font-size="10.5" fill="#2E3440">Proteinin farklı bölgeleri farklı ortaklarla çalışır; varyant hangi</text>
   <text x="250" y="357" font-size="10.5" fill="#2E3440">arayüzü bozarsa hastalık o dokunun adını taşır.</text>
   <line x1="706" y1="308" x2="706" y2="356" stroke="#CBD5E1" stroke-width="1"/>
@@ -82,7 +82,7 @@
   </g>
   <rect x="212" y="396" width="26" height="26" rx="7" fill="#D97706"/>
   <text x="225" y="414" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
-  <text x="250" y="410" font-size="13" font-weight="700" fill="#B45309">KALITIM MODU — tek alel mi, iki alel mi?</text>
+  <text x="250" y="410" font-size="13" font-weight="700" fill="#B45309">ALELİK GEREKSİNİM VE GENOTİP MİMARİSİ — kaç alel, hangi faz?</text>
   <text x="250" y="430" font-size="10.5" fill="#2E3440">Aynı gen monoalelik durumda hafif/geç bir tablo, bialelik durumda</text>
   <text x="250" y="445" font-size="10.5" fill="#2E3440">ayrı adı olan ağır bir hastalık üretebilir.</text>
   <line x1="706" y1="396" x2="706" y2="444" stroke="#CBD5E1" stroke-width="1"/>
@@ -96,7 +96,7 @@
   </g>
   <rect x="212" y="484" width="26" height="26" rx="7" fill="#B45309"/>
   <text x="225" y="502" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
-  <text x="250" y="498" font-size="13" font-weight="700" fill="#B45309">ZAMANLAMA — germline mi, mozaik mi?</text>
+  <text x="250" y="498" font-size="13" font-weight="700" fill="#B45309">ZAMANSAL VE DOKUSAL MİMARİ — germline mi, mozaik mi? hangi doku?</text>
   <text x="250" y="518" font-size="10.5" fill="#2E3440">Varyant zigottan önce mi sonra mı ortaya çıktı? Germline hâlde</text>
   <text x="250" y="533" font-size="10.5" fill="#2E3440">letal olan bir varyant, mozaik hâlde yaşanabilir bir sendrom yapar.</text>
   <line x1="706" y1="484" x2="706" y2="532" stroke="#CBD5E1" stroke-width="1"/>
@@ -110,7 +110,7 @@
   </g>
   <rect x="212" y="572" width="26" height="26" rx="7" fill="#475569"/>
   <text x="225" y="590" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
-  <text x="250" y="586" font-size="13" font-weight="700" fill="#475569">BAĞLAM — ebeveyn kökeni ve genetik zemin</text>
+  <text x="250" y="586" font-size="13" font-weight="700" fill="#475569">DEĞİŞTİRİCİ BİYOLOJİK BAĞLAM — ebeveyn kökeni ve genetik zemin</text>
   <text x="250" y="606" font-size="10.5" fill="#2E3440">İmprintli lokusta alelin hangi ebeveynden geldiği, ayrıca modifiye</text>
   <text x="250" y="621" font-size="10.5" fill="#2E3440">edici lokuslar aynı varyantı farklı hastalığa çevirebilir.</text>
   <line x1="706" y1="572" x2="706" y2="620" stroke="#CBD5E1" stroke-width="1"/>
