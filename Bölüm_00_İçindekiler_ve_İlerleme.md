@@ -133,6 +133,12 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 34930489 | Domogala ve ark. (2021) | Hum Genomics | 10.1186/s40246-021-00369-6 | Metodoloji (VAF <%10 rutin yöntemlerle saptanamaz; amplikon NGS/ddPCR doğrulama; dokular arası %0,03–%9) | 12 |
 | 33927380 | Rehder ve ark. (2021) | Genet Med | 10.1038/s41436-021-01139-4 | Guideline (ACMG konstitüsyonel NGS teknik standardı; düşük alel fraksiyonu laboratuvarın doğrulanmış performansına bağlı) | 12 |
 | 37324239 | Checri ve ark. (2023) | Brain Commun | 10.1093/braincomms/fcad174 | Metodoloji (stereo-EEG elektrotlarından beyin somatik varyant saptanması) | 12 |
+| 36792598 | Bernkopf ve ark. (2023) | Nat Commun | 10.1038/s41467-023-36606-w | Danışmanlık (kişiselleştirilmiş tekrarlanma riski; 58 ailede 7 kategori; %59'unda risk &lt;%0,1; semende %5,6–12,1) | 12 |
+| 26494396 | Happle (2016) | Am J Med Genet A | 10.1002/ajmg.a.37439 | Sınıflama (kutanöz mozaiklik kategorileri; letal varyantların mozaik hâlde yaşaması; revertant mozaiklik) | 12 |
+| 22729224 | Rivière ve ark. (2012) | Nat Genet | 10.1038/ng.2331 | Mekanizma (megalensefali spektrumunda hem postzigotik mozaik hem de novo germline varyantlar; letalite varyant düzeyindedir) | 12 |
+| 9038345 | Jonkman ve ark. (1997) | Cell | 10.1016/s0092-8674(00)81894-2 | Landmark (insanda revertant mozaikliğin ilk moleküler gösterimi; COL17A1 mitotik gen dönüşümü) | 12 |
+| 16252234 | Pasmooij ve ark. (2005) | Am J Hum Genet | 10.1086/497344 | Mekanizma (aynı hastada çoklu bağımsız kurtarma olayları: geri mutasyon, ikinci bölge varyantı, gen dönüşümü) | 12 |
+| 31186537 | Revy, Kannengiesser, Fischer (2019) | Nat Rev Genet | 10.1038/s41576-019-0139-x | Kavram (somatik genetik kurtarma; revertant mozaiklikten farkı; fenotipi hafifletme ve sınırları) | 12 |
 | 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13, 16 |
 | 32461616 | Whiffin ve ark. (2020) | Nat Commun | 10.1038/s41467-019-10717-9 | Mekanizma/metodoloji (5′UTR uORF varyantları; negatif seçilim; NF2) | 13 |
 | 12837695 | Lettice ve ark. (2003) | Hum Mol Genet | 10.1093/hmg/ddg180 | Landmark (ZRS enhancer; 1 Mb uzaktan düzenleme; ektopik SHH → polidaktili) | 13 |
