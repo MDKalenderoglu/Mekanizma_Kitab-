@@ -74,7 +74,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 22057236 | Amary ve ark. (2011) | Nat Genet | 10.1038/ng.994 | Klinik (Ollier/Maffucci = mozaik IDH1/IDH2; neomorf–mozaiklik) | 6, 12 |
 | 26593421 | Scotti &amp; Swanson (2016) | Nat Rev Genet | 10.1038/nrg.2015.3 | Landmark review (splicing mekanizması; mis-splicing hastalıkları) | 7 |
 | 30661751 | Jaganathan ve ark. (2019) | Cell | 10.1016/j.cell.2018.12.015 | Metodoloji (SpliceAI; sessiz/derin intronik kriptik splice; ~%9–11) | 7, 13, 16 |
-| 37352859 | Walker ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.06.002 | Guideline (ClinGen SVI splice; PVS1/PS3/PP3/BP4/BP7/PS1) | 7, 16, 17 |
+| 37352859 | Walker ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.06.002 | Guideline (ClinGen SVI splice; PVS1/PS3/PP3/BP4/BP7/PS1) | 7, 13, 16, 17 |
 | 10339583 | Lorson ve ark. (1999) | PNAS | 10.1073/pnas.96.11.6307 | Landmark/klinik (SMN2 ekzon 7 sessiz C>T → ESE → SMA) | 7, 17 |
 | 20059347 | Stankiewicz &amp; Lupski (2010) | Annu Rev Med | 10.1146/annurev-med-100708-204735 | Landmark review (SV/CNV; genomik bozukluklar; NAHR/FoSTeS) | 8 |
 | 1677316 | Lupski ve ark. (1991) | Cell | 10.1016/0092-8674(91)90613-4 | Landmark dozaj CNV (CMT1A 17p duplikasyonu) | 8 |
@@ -142,6 +142,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13, 16 |
 | 32461616 | Whiffin ve ark. (2020) | Nat Commun | 10.1038/s41467-019-10717-9 | Mekanizma/metodoloji (5′UTR uORF varyantları; negatif seçilim; NF2) | 13 |
 | 12837695 | Lettice ve ark. (2003) | Hum Mol Genet | 10.1093/hmg/ddg180 | Landmark (ZRS enhancer; 1 Mb uzaktan düzenleme; ektopik SHH → polidaktili) | 13 |
+| 40015278 | Chakraborty ve ark. (2025) | Dev Cell | 10.1016/j.devcel.2025.02.002 | Mekanizma (tek CTCF motifi kaybı sınır delesyonuyla aynı fenotipi verir; motif yönü belirleyici; her motif değil) | 13 |
 | 17152067 | Gurnett ve ark. (2007) | Am J Med Genet A | 10.1002/ajmg.a.31563 | Klinik örnek (ZRS varyantları; trifalanjeal başparmak; eksik penetrans %82) | 13 |
 | 24212882 | Weedon ve ark. (2014) | Nat Genet | 10.1038/ng.2826 | Klinik/metodoloji (PTF1A distal enhancer; izole pankreas agenezisi; epigenomik açıklama) | 13 |
 | 23348503 | Horn ve ark. (2013) | Science | 10.1126/science.1230062 | Klinik/mekanizma (TERT promotörü; germline + somatik; yeni Ets/TCF motifi) | 13 |
