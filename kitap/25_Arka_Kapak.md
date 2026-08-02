@@ -17,7 +17,7 @@ On yedi bölüm boyunca aynı zincir kurulur:
 - **Mekanizma → kriter matrisi:** kitabın on dört mekanizma bölümünün, sekiz ACMG kriter ailesiyle ilişkisini tek tabloda toplayan sentez.
 - **Sekiz uçtan uca klinik senaryo:** başvurudan mekanizma hipotezine, testten yoruma ve danışmaya.
 - **"Ekzom negatif" kontrol listesi:** altı yapısal kör nokta ve her biri için doğru ikinci basamak test.
-- **114 doğrulanmış kaynak:** her birinin PMID ve DOI bilgisi PubMed üzerinden tek tek teyit edilmiştir.
+- **{{KAYNAK_SAYISI}} benzersiz PMID kaydı:** bibliyografik veriler PubMed üzerinden doğrulanmış, DOI'si bulunan kayıtlarda bağlantı verilmiştir.
 
 **Kimler için?**
 

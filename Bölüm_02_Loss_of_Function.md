@@ -16,7 +16,7 @@ Bu bölüm, Bölüm 1'deki **niceliksel vs niteliksel bozukluk** ayrımının "n
 Bu bölümü tamamlayan okuyucu:
 1. LoF'a giden tüm moleküler yolları (null, nonsense, frameshift, kanonik splice, start-loss, ekzon/tam gen delesyonu, promoter/enhancer kaybı) ayırt edebilir.
 2. NMD ve NMD-escape mekaniğini, PTC konumuyla ilişkilendirerek klinik sonuca bağlayabilir.
-3. Okuma çerçevesi kuralını (in-frame vs out-of-frame) Duchenne/Becker örneğiyle açıklayabilir.
+3. Okuma çerçevesi kuralını (in-frame vs out-of-frame) Duchenne ve Becker örneğiyle açıklayabilir.
 4. "LoF her zaman patojen midir?" sorusunu constraint metrikleri (pLI, LOEUF) ve gen-hastalık mekanizması üzerinden yanıtlayabilir.
 5. Aynı gendeki LoF'un neden bazen dominant (haploinsufficiency) bazen resesif olduğunu gerekçelendirebilir.
 6. Hipomorfik alel ve rezidüel fonksiyon kavramını genotip-fenotip korelasyonuyla (PKU) bağlayabilir.
@@ -237,7 +237,7 @@ NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları
 Distrofin geninde out-of-frame delesyonlar truncated protein ile ağır **Duchenne**'e; in-frame delesyonlar yarı-işlevsel protein ile daha hafif **Becker**'e yol açar (Monaco ve ark., 1988; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)). *Öğreti:* aynı gen, aynı "delesyon" tipi — fakat **çerçeve etkisi** fenotip ağırlığını belirler (Şekil 2.2); ekzon-atlama tedavilerinin mantıksal temeli budur.
 
 ### 7.3. CFTR — resesif LoF ve alelik heterojenite
-Kistik fibroz, CFTR'de **iki** patojen alel gerektiren resesif bir hastalıktır; gende yaklaşık iki bin varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir. Bunu ölçen çalışma, 39.696 kistik fibrozlu bireyin genotip ve fenotip verisini birleştirmiş; alel frekansı ≥%0,01 olan 159 varyantı hem klinik ağırlık hem işlevsel sonuç açısından değerlendirmiş ve bunların 127'sinin (%80) her iki ölçütü de karşıladığını göstermiştir — kalan 32 varyantın 12'si nötr sayılabilmiş, 20'si belirsiz kalmıştır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve alel patojenitesi gösterilmelidir.
+Kistik fibrozis, CFTR'de **iki** patojen alel gerektiren resesif bir hastalıktır; gende yaklaşık iki bin varyant tanımlıdır ama yalnız bir kısmı hastalık nedenidir. Bunu ölçen çalışma, 39.696 kistik fibrozisli bireyin genotip ve fenotip verisini birleştirmiş; alel frekansı ≥%0,01 olan 159 varyantı hem klinik ağırlık hem işlevsel sonuç açısından değerlendirmiş ve bunların 127'sinin (%80) her iki ölçütü de karşıladığını göstermiştir — kalan 32 varyantın 12'si nötr sayılabilmiş, 20'si belirsiz kalmıştır (Sosnay ve ark., 2013; [DOI](https://doi.org/10.1038/ng.2745)). *Öğreti:* heterozigot taşıyıcı sağlıklıdır; tanı için **trans faz** ve alel patojenitesi gösterilmelidir.
 
 ### 7.4. PKU/PAH — hipomorfik aleller ve rezidüel fonksiyon
 Fenilketonüri, PAH genindeki varyantlarla oluşan resesif bir aminoasit metabolizması hastalığıdır; genotipler rezidüel enzim aktivitesini yansıtan bir spektrumda (klasik PKU → hafif PKU → hafif hiperfenilalaninemi) dağılır ve büyük genotip veritabanları fenotip ile BH4 yanıtını öngörmeyi mümkün kılar (Hillert ve ark., 2020, *Am J Hum Genet*; [DOI](https://doi.org/10.1016/j.ajhg.2020.06.006)). *Öğreti:* **rezidüel fonksiyon = fenotip ağırlığının motoru**; bileşik heterozigotlarda fenotipi genellikle daha hafif alel belirler (Şekil 2.3).

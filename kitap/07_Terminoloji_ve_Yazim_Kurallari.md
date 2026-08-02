@@ -6,7 +6,7 @@ Bu bölüm, kitap boyunca kullanılan gösterim ve yazım kurallarını toplar. 
 
 ## 1. Gen ve protein adlandırma
 
-Gen adları **HGNC** (HUGO Gene Nomenclature Committee) onaylı sembollerle ve **italik** yazılır: *LMNA*, *FGFR3*, *SCN2A*. Protein adları **düz** yazılır: lamin A/C, fibroblast büyüme faktörü reseptörü 3, Na<sub>V</sub>1.2.
+Gen adları **HGNC** (HUGO Gene Nomenclature Committee) onaylı sembollerle ve **italik** yazılır: *LMNA*, *FGFR3*, *SCN2A*. Protein ve kanal adları **düz** yazılır: lamin A/C, fibroblast büyüme faktörü reseptörü 3 ve Na<sub>V</sub>1.2. Son örnek bir gen sembolü değildir: **Na<sub>V</sub>1.2, *SCN2A* geninin kodladığı voltaj kapılı sodyum kanalı α-alt biriminin kanal/protein adıdır.**
 
 İnsan gen sembolleri **büyük harfle**, fare gen sembolleri **yalnız ilk harfi büyük** olacak biçimde yazılır: insan *FGFR3*, fare *Fgfr3*. Bu ayrım kitapta özellikle hayvan modeli tartışmalarında anlam taşır.
 
@@ -20,23 +20,30 @@ Varyantlar **HGVS** standardına göre yazılır. Her gösterim üç bileşen i�
 |---|---|---|
 | `c.` | kodlayan DNA dizisi | `NM_000138.5:c.7754G>A` |
 | `g.` | genomik dizi | `NC_000015.10:g.48470535C>T` |
-| `m.` | mitokondriyal DNA | `m.3243A>G` |
-| `n.` | kodlamayan RNA geni | `n.76A>G` |
-| `r.` | RNA düzeyi (gözlenen transkript) | `r.655_770del` |
-| `p.` | protein düzeyi | `p.(Gly380Arg)` |
+| `m.` | mitokondriyal DNA | `NC_012920.1:m.3243A>G` |
+| `n.` | kodlamayan RNA geni | `NR_002196.1:n.76A>G` |
+| `r.` | RNA düzeyi (gözlenen transkript) | `NM_004006.3:r.(124a>u)` |
+| `p.` | protein düzeyi | `NP_000133.1:p.(Gly380Arg)` |
 
-**Kurallar:**
+### 2.1. HGVS/HGNC kuralları
 
-- Klinik raporda ve bu kitapta, kodlayan varyant için **referans transkript sürümüyle birlikte** yazmak esastır: `NM_000138.5:c.7754G>A`. Metin akışında transkript tekrar tekrar yazılmaz; bölümde bir kez belirtilir.
-- Protein değişimi **üç harfli** amino asit koduyla yazılır: `p.Gly380Arg` (`p.G380R` değil).
-- Protein sonucu **öngörülüyorsa** parantez kullanılır: `p.(Gly380Arg)`. Deneysel olarak gösterilmişse parantezsiz yazılır.
+- Klinik rapordaki varyant gösterimi, kullanılan **referans diziyi erişim ve sürüm numarasıyla** içermeli veya rapor içinde tartışmasız biçimde tanımlamalıdır: `NM_000138.5:c.7754G>A`. RefSeq ve Ensembl gibi sürümlendirilen dizilerde sürüm numarası olmayan gösterim geçerli değildir.
+- Protein değişiminde üç harfli amino asit kodu HGVS tarafından yeğlenir ve bu kitapta zorunlu yazım biçimidir: `p.Gly380Arg` (`p.G380R` değil).
+- Protein sonucu yalnız DNA/RNA bulgusundan **öngörülüyorsa** parantez kullanılır: `p.(Gly380Arg)`. Protein düzeyindeki sonuç doğrudan deneysel olarak gösterilmişse parantezsiz yazılır.
 - Delesyon `del`, duplikasyon `dup`, insersiyon `ins`, delesyon-insersiyon `delins` ile gösterilir: `c.76_78del`, `c.76_77dup`.
-- Sonlanma kodonu `Ter` ile yazılır: `p.(Arg1162Ter)`; `*` kısaltması metin içinde tercih edilmez.
-- Çerçeve kayması `fs` ile: `p.(Gly380ArgfsTer12)`.
-- İki varyantın aynı alelde olması `[;]` yerine metinde ***in cis***, farklı alellerde olması ***in trans*** diye ifade edilir.
-- **Yerleşik adlandırmalar korunur:** literatürde kökleşmiş kısa gösterimler (ör. akondroplazide p.Gly380Arg, MELAS'ta m.3243A>G, progeria'da c.1824C>T) metinde bu biçimleriyle anılır.
+- HGVS sonlanma kodonu için hem `Ter` hem `*` kullanımını kabul eder: `p.(Arg1162Ter)` ve `p.(Arg1162*)` eşdeğer gösterimlerdir.
+- Çerçeve kayması `fs` ile gösterilir: `p.(Arg97ProfsTer23)`.
+- Aynı aleldeki iki varyantın resmî HGVS gösterimi `c.[varyant1;varyant2]`, farklı alellerdeki iki varyantın gösterimi `c.[varyant1];[varyant2]` biçimindedir. Düzyazıda bunlar sırasıyla ***in cis*** ve ***in trans*** olarak açıklanır; sözel anlatım formal gösterimin yerine geçirilmez.
 
-> **⚠️ Sık yapılan gösterim hatası:** "G380R mutasyonu" gibi transkriptsiz, ön eksiz ve tek harfli gösterim, hangi genin hangi transkriptine göre yazıldığını belirsiz bırakır. Bu kitapta böyle bir gösterim yalnızca tarihsel alıntılarda geçebilir.
+### 2.2. Bu kitabın editöryal tercihleri
+
+- Klinik raporda tam gösterim korunur. Kitabın akıcı metninde referans transkript bir paragraf veya alt bölümde tam biçimiyle tanımlandıktan sonra, aynı bağlam içinde açıkça hangi transkriptin kullanıldığı belli olduğu sürece tekrar edilmeyebilir.
+- HGVS iki biçimi de kabul etse de kitap genelinde sonlanma kodonu için `Ter` kullanılır; `*` yalnız tarihsel alıntı veya özgün veri aktarımı gerektiriyorsa korunur.
+- Literatürde kökleşmiş kısa gösterimler (ör. akondroplazide `p.Gly380Arg`, MELAS'ta `m.3243A>G`, progeriada `c.1824C>T`) anlatı içinde korunabilir; ancak bunlar tek başlarına eksiksiz HGVS gösterimi değildir ve ilgili referans dizi bağlamda tanımlanır.
+
+> **⚠️ Sık yapılan gösterim hatası:** "G380R mutasyonu" gibi referans dizisiz, ön eksiz ve tek harfli gösterim, değişimin hangi diziye göre yazıldığını belirsiz bırakır. Bu kitapta böyle bir gösterim yalnızca tarihsel alıntılarda geçebilir.
+
+**Normatif kaynaklar (erişim: 02.08.2026):** [HGVS 21.1.4 genel önerileri](https://hgvs-nomenclature.org/21.1.4/recommendations/general/) · [HGVS referans dizileri](https://hgvs-nomenclature.org/stable/background/refseq/) · [HGVS alel/faz gösterimi](https://hgvs-nomenclature.org/stable/recommendations/DNA/alleles/) · [HGVS protein çerçeve kayması](https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/) · [HGNC yazım kuralları](https://www.genenames.org/help/faq/) · [IUPHAR Na<sub>V</sub>1.2 kaydı](https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?familyId=82&objectId=579) · [NCBI *SCN2A* kaydı](https://www.ncbi.nlm.nih.gov/gene/6326).
 
 ## 3. Kopya sayısı ve sitogenetik gösterim
 
@@ -58,7 +65,7 @@ Metilasyon sonuçları, ilgili bölgeye göre ve yön belirtilerek yazılır: "I
 
 ## 6. Sınıflandırma terimleri
 
-Varyant sınıfları beş standart terimle yazılır: **patojenik**, **olası patojenik**, **belirsiz önemde varyant (VUS)**, **olası benign**, **benign**. Kriter kodları özgün biçimleriyle bırakılır (PVS1, PS3, PM2, BP4…); Türkçeleştirilmez.
+Varyant sınıfları beş standart terimle yazılır: **patojenik**, **olası patojenik**, **klinik önemi belirsiz varyant (VUS)**, **olası benign**, **benign**. Kriter kodları özgün biçimleriyle bırakılır (PVS1, PS3, PM2, BP4…); Türkçeleştirilmez.
 
 Gen–hastalık ilişkisinin geçerlilik sınıfları: **Kesin**, **Güçlü**, **Orta**, **Sınırlı**, **Bildirilmiş kanıt yok**, **Çelişkili kanıt**.
 
@@ -81,7 +88,7 @@ Kitap boyunca aşağıdaki tercihler tek biçimde uygulanır:
 | ekzon atlama · intron tutulması | ekzon skipping · intron retansiyonu | kitap geneli bu iki biçimi kullanır |
 | donör (5′) / akseptör (3′) splice bölgesi | donor / acceptor (düz İngilizce) · verici / alıcı | Bölüm 7'de ilk geçişte İngilizce karşılık parantezde verilir; dallanma noktası (*branchpoint*) ve polipirimidin yolu aynı biçimde |
 
-### 7A. İngilizce terime Türkçe ek getirme (E5 kararı)
+### 7A. İngilizce terime Türkçe ek getirme
 
 Uzun İngilizce ortak adlara kesme işaretiyle art arda Türkçe ek yapıştırmak okunabilir ama kitap dili açısından tercih edilmez. **Sıralama şudur:**
 
@@ -93,7 +100,7 @@ Kısa ve yerleşmiş terimlerde (splicing'de, hotspot'ta) tek ek kabul edilebili
 
 ### 7B. Birbirine indirgenmemesi gereken kavram çiftleri
 
-Bu liste, uzman turunun (G2.2) "otomatik eşitleme" uyarısının yazım kuralına çevrilmiş hâlidir. Aşağıdaki eşitlemeler metinde **kurulamaz**:
+Aşağıdaki kavramlar birbirinin otomatik eşdeğeri değildir; bu eşitlemeler metinde **kurulamaz**:
 
 | Eşitlenmemeli | Neden |
 |---|---|
@@ -138,7 +145,7 @@ Numaralar **bölüm.sıra** biçimindedir ve metinde ilk anıldıkları sıraya 
 - **Algoritma:** karar ağacı ve klinik akış şeması.
 - **Tablo:** kavram, varyant tipi, test ve öz-denetim tabloları.
 
-Kitabın başındaki üç liste (Şekiller, Algoritmalar, Tablolar) bu numaralardan otomatik üretilir; her satır ilgili bölüme bağlantılıdır.
+Kitabın başındaki üç liste (Şekiller, Algoritmalar, Tablolar) bu numaralardan otomatik üretilir. HTML'de her satır bölüm başına değil, doğrudan ilgili şekil, algoritma veya tabloya bağlanır. Sabit sayfası olmayan akışkan HTML'de bölüm bilgisi gösterilir; nihai sayfalandırılmış PDF/baskı çıktısında gerçek hedef sayfa numarası otomatik üretilir.
 
 ## 11. Atıf biçimi
 
@@ -151,16 +158,16 @@ Dört veya daha az yazar tam listelenir; beş ve üzeri için ilk üç yazar ve 
 
 ---
 
-## 12. Hedef kitle katmanları (F6 kararı)
+## 12. Hedef kitle katmanları
 
-Kitap dört okuyucu grubuna hitap eder, ancak bunlar eşit ağırlıkta değildir. **Birincil hedef: çocuk genetiği yandal asistanı ve klinik genomik veri yorumlayan hekim.** Genel pediatrist ve tıp öğrencisi **ikincil** hedef kitledir; laboratuvar/genomik yorumlayanlar birincil hedefin bir alt kümesidir.
+Kitap farklı deneyim düzeylerine hitap eder, ancak gruplar eşit ağırlıkta değildir. **Birincil hedef kitle:** tıbbi genetik uzmanları ve uzmanlık öğrencileri; çocuk genetiği alanında çalışan hekimler ve yandal öğrencileri; klinik genomik ve varyant yorumlama yapan hekimler; tıbbi biyoloji uzmanları ve araştırmacıları; moleküler genetik tanı laboratuvarı ekipleridir. **İkincil hedef kitle:** pediatri uzmanları ve asistanları; moleküler biyoloji ve genetik alanında eğitim alanlar; genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileridir.
 
 Bu ayrım her bölümün başındaki **📘 Okuma katmanları** bloğuyla uygulanır:
 
 | Katman | Kim | Ne okur |
 |---|---|---|
-| **① Temel** | Tıp öğrencisi | Bölümün çekirdek sezgisini kuran 1–2 başlık ve anahtar şekil |
-| **② Klinik** | Genel pediatrist, klinisyen | Fenotipe dönüşüm, test seçimi ve karar algoritması hattı |
-| **③ İleri düzey** | Yandal asistanı, laboratuvar, varyant yorumlayan | Mekanizmanın moleküler ayrıntısı ve ACMG/ClinGen kriter uygulaması |
+| **① Temel** | İleri düzey tıp öğrencisi ve alana yeni giren okur | Bölümün çekirdek sezgisini kuran 1–2 başlık ve anahtar şekil |
+| **② Klinik** | Tıbbi genetik/pediatri hekimi ve diğer klinisyenler | Fenotipe dönüşüm, test seçimi ve karar algoritması hattı |
+| **③ İleri düzey** | Tıbbi genetik, klinik genomik, tıbbi biyoloji, moleküler tanı ve varyant yorumlama ekipleri | Mekanizmanın moleküler ayrıntısı ve ACMG/ClinGen ölçüt uygulaması |
 
 Kural: katmanlar **okuma yolu** gösterir, içerik kısıtlaması değildir; hiçbir bölüm bir katman için basitleştirilmez. Deep-dive kutuları (🔬) doğal olarak ③, 🟦 kutuları ② katmanına aittir.

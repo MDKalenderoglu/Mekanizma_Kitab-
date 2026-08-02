@@ -176,7 +176,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **VAF (varyant alel fraksiyonu)** — Dizileme okumalarında varyant aleli taşıyan okumaların oranı; mozaikliğin niceliksel göstergesi. **Mutant hücre oranıyla eşit değildir:** kopya-nötr diploid bir lokusta heterozigot varyantta VAF ≈ taşıyıcı hücre oranının **yarısıdır**. Heteroplazmi (mtDNA) ve mozaik hücre fraksiyonu da VAF ile eşitlenemez; üçü farklı biyolojik büyüklüklerdir.
 - **Varyant** — Referans diziden farklılık; patojenite hakkında yargı içermeyen nötr terim.
 - **VCEP** — Belirli genler için ACMG kriterlerini uzmanlaştıran ClinGen paneli.
-- **VUS (belirsiz önemde varyant)** — Kanıtın karar verdirecek ağırlığa ulaşmadığı durum; bir sonuç değil, eksik veri hâlidir.
+- **VUS (klinik önemi belirsiz varyant)** — Kanıtın karar verdirecek ağırlığa ulaşmadığı durum; bir sonuç değil, eksik veri hâlidir.
 
 **Y**
 

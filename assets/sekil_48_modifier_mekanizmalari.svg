@@ -19,7 +19,7 @@
   <!-- ana kusur kutusu -->
   <rect x="56" y="138" width="150" height="46" rx="8" fill="#FEE2E2" stroke="#B91C1C" stroke-width="1.8"/>
   <text x="131" y="157" font-size="10.5" font-weight="700" fill="#B91C1C" text-anchor="middle">ANA KUSUR (sabit)</text>
-  <text x="131" y="173" font-size="9.5" font-style="italic" fill="#2E3440" text-anchor="middle">SMN1 biallelik kayıp</text>
+  <text x="131" y="173" font-size="9.5" font-style="italic" fill="#2E3440" text-anchor="middle">SMN1 bialelik kayıp</text>
 
   <line x1="212" y1="161" x2="242" y2="161" stroke="#64748B" stroke-width="1.8" marker-end="url(#s48arrow)"/>
 

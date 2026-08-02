@@ -37,7 +37,7 @@ Atıfsız her mekanistik önerme şu üçünden birine konur:
 Hatalar (c) grubunda saklanır. Kaynaksız, kulağa doğru gelen cümle en riskli cümledir.
 
 ### T5 etiketleme kuralı
-Kitabın özgün çerçeveleri (allelik serinin altı ekseni, mekanizma × kriter matrisi, ekzomun altı kör noktası, "kanıt tartılır sayılmaz", zincirin kırıldığı üç yer vb.) **yerleşik sınıflama değildir** ve öyle sunulamaz. Her birinin yanına şu anlamda bir not konur:
+Kitabın özgün çerçeveleri (alelik serinin altı ekseni, mekanizma × kriter matrisi, ekzomun altı kör noktası, "kanıt tartılır sayılmaz", zincirin kırıldığı üç yer vb.) **yerleşik sınıflama değildir** ve öyle sunulamaz. Her birinin yanına şu anlamda bir not konur:
 
 > *"Bu çerçeve kitabın pedagojik sentezidir; literatürde bu adla yerleşik bir sınıflandırma değildir. Bileşenlerin her biri kaynaklıdır, gruplama editöryaldir."*
 

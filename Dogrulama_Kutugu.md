@@ -671,3 +671,53 @@ K5, doğrulama turunun üçüncü kalıbını (*"düzeltmenin tek bölümde kalm
 Buna karşılık K1–K4'ün temiz çıkması, turda yapılan düzeltmelerin **tek seferde ve tutarlı** biçimde uygulandığını gösteriyor. Kitabın denetlenebilirlik iddiası bu turla birlikte tamamlanmıştır.
 
 **Değişmeyen sınır:** Bu tur bir biçim ve tutarlılık turudur; T4-(a) kategorisini (kaynaksız, yerleşik sayılıp geçilen mekanizma cümleleri) kapatmaz. **Uzman insan değerlendirmesi hâlâ yayım ön koşuludur.**
+
+---
+
+# Teknik temizlik ve build güvenliği turu (02.08.2026)
+
+**Kapsam:** Bu tur bilimsel revizyon değildir. Mekanizma iddiaları, klinik eşikler, tablo hücreleri ve kaynak künyeleri değiştirilmemiştir. Bölüm 9 ve 12'de yalnız tablo numaraları, dilbilgisel çekim ekleri ve bunlara bağlı çapraz göndermeler güncellenmiştir; normalize edilmiş diff ile iki bölümün bilimsel içeriğinin değişmediği doğrulanmıştır.
+
+| Denetim | Sonuç |
+|---|---|
+| Dinamik envanter | ✅ 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID |
+| Tablo numaraları | ✅ Bölüm 9: 9.1–9.5 · Bölüm 12: 12.1–12.5; mükerrer/liste dışı numara yok |
+| SVG terminolojisi | ✅ Aktif 12 SVG'de Türkçe `alel/alelik/bialelik`, `Muller`, `dizileme` standardı uygulandı |
+| Karışık alfabe | ✅ Aktif SVG'lerde Kiril karakteri kalmadı |
+| SVG yapısal geçerliliği | ✅ `xmllint`: 64/64 geçerli XML |
+| Eksik SVG davranışı | ✅ Yapay eksik referans testi `BuildError` ile derlemeyi durdurdu |
+| Mükerrer tablo davranışı | ✅ Yapay mükerrer numara testi `BuildError` ile derlemeyi durdurdu |
+| Taşınabilir yardımcı betik | ✅ `00_Şablonlar/paragraf.py` proje dışı çalışma dizininden çalıştı |
+| HTML build | ✅ 4,9 MB tek dosyalık HTML başarıyla üretildi; eksik ön/arka madde uyarısı yok |
+
+**Terminoloji otoritesi:** `CSpec`, ClinGen'in resmî **Criteria Specification Registry** adlandırmasıyla; `pLoF`, gnomAD'ın resmî **predicted loss-of-function** kullanımıyla karşılaştırıldı (erişim: 02.08.2026). Bunlar kısaltma açılımı doğrulamasıdır; yeni bir mekanistik veya normatif iddia değildir.
+
+**Kaynak raporlama düzeltmesi:** `153` sayısı “153 birincil kaynak” olarak değil, derleyicinin PMID'ye göre tekilleştirdiği **153 benzersiz PMID kaydı** olarak raporlanır. DOI'si olmayan geçerli kayıtlar bulunabildiğinden “her kaydın PMID ve DOI'si vardır” ifadesi kaldırılmış; “bibliyografik veriler PubMed üzerinden doğrulanmış, DOI'si bulunan kayıtlarda bağlantı verilmiştir” biçimine çekilmiştir. Yeni kaynak eklenmedi; kaynak sayısı değişmedi.
+
+**Kalıcı resmî bağlantılar:** ClinGen CSpec Registry — `https://erepo.clinicalgenome.org/cspec/`; gnomAD LoF curations — `https://gnomad.broadinstitute.org/news/2020-10-loss-of-function-curations-in-gnomad/`.
+
+---
+
+# Nesne bağlantıları ve terminoloji/HGVS denetimi (02.08.2026)
+
+**Kapsam:** Bu paket yeni mekanizma iddiası, klinik eşik veya kaynak künyesi eklemedi. Şekil/algoritma/tablo listelerinin doğrudan nesneye gitmesi sağlandı; kısaltmalar, seçili hastalık adları, HGVS/HGNC kuralları, NaV1.2 açıklaması, hedef kitle ve okuyucuya sızan iç karar kodları denetlendi. Terim düzeltmeleri aktif kitap metni, sözlük, hastalık dizini ve ilgili SVG'lerde kitap geneline yayıldı.
+
+| Denetim | Sonuç |
+|---|---|
+| Nesne envanteri | ✅ 64 şekil · 49 algoritma · 73 tablo = **186 benzersiz hedef** |
+| Doğrudan bağlantılar | ✅ Her nesne için görünür bağlantı + baskı sayfa sayacı bağlantısı; toplam **372 hedef bağlantısı**, tüm hedefler mevcut ve tekil |
+| Numaralandırma | ✅ Şekil, algoritma ve tablo numaraları bölüm içinde kesintisiz; mükerrer numara yok |
+| Build güvenliği | ✅ Eksik/mükerrer nesne hedefinde ve geçersiz/mükerrer/kesintili nesne numarasında `BuildError` ile durur |
+| Okuyucu metnindeki iç kodlar | ✅ `E5 kararı`, `F6 kararı` ve `G2.2` üretilen HTML'de yok |
+| VUS ve hastalık adları | ✅ `klinik önemi belirsiz varyant`; Kistik fibrozis, Osteogenezis imperfekta, Herediter basınca duyarlı nöropati ve Charcot–Marie–Tooth biçimleri aktif Türkçe metinde tutarlı |
+| NaV1.2 | ✅ Gen sembolü olmadığı ve *SCN2A*'nın kodladığı kanal/protein adı olduğu açıklandı |
+| HGVS/HGNC | ✅ Normatif kural ile kitabın editöryal tercihi ayrıldı; referans dizi/sürüm, protein parantezi, `Ter`/`*`, çerçeve kayması ve faz gösterimi resmî kaynaklara bağlandı |
+| SVG/XML | ✅ 64/64 aktif SVG `xmllint` doğrulamasından geçti |
+| HTML build | ✅ 4,9 MB tek dosyalık HTML; 17 bölüm · 153 benzersiz PMID |
+| Diff biçimi | ✅ `git diff --check` temiz |
+
+**Türkçe kaynak denetimi:** Tıbbi Genetik Derneği, T.C. Sağlık Bakanlığı, Türk Nöroloji Dergisi, üniversite kayıtları ve Türkçe hakemli tıp yayınları karşılaştırıldı. Uluslararası adlandırmada HGVS 21.1.4, HGNC, NCBI ve IUPHAR/BPS kullanıldı. Önce/sonra tablosu, tercih gerekçeleri ve kalıcı bağlantılar `Terminoloji_Kaynak_Denetimi.md` içindedir.
+
+**Sayfa numarası sınırı:** Akışkan HTML'nin sabit sayfası yoktur. Baskı CSS'sine `target-counter(attr(href), page)` altyapısı eklendi; ancak bu özellik sıradan tarayıcı PDF'inde garanti edilmez. Nihai sabit PDF, uyumlu bir sayfalama motoruyla üretildikten sonra nesne listelerindeki numaralar ile gerçek hedef sayfalar görsel olarak doğrulanmadan bu kalem “yayın kapanışı tamamlandı” sayılmayacaktır.
+
+**Git durumu:** Paket kullanıcı onayıyla uygulandı; Git geçmişi commit düzeyinde korunur, push kullanıcı tarafından yapılır.

@@ -23,7 +23,7 @@
   <rect x="450" y="68" width="18" height="12" rx="3" fill="#FEE2E2"/>
   <text x="474" y="79" font-size="10" fill="#475569">Tam Mutasyon (Hastalık)</text>
   <rect x="640" y="68" width="18" height="12" rx="3" fill="#E9D5FF"/>
-  <text x="664" y="79" font-size="10" fill="#475569">İndirgенmiş penetrans</text>
+  <text x="664" y="79" font-size="10" fill="#475569">İndirgenmiş penetrans</text>
   <text x="820" y="79" font-size="10" fill="#94A3B8" font-style="italic">Her hastalık için ölçek farklıdır</text>
 
   <!-- ===== PANEL 1: FMR1 (CGG) ===== -->

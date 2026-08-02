@@ -2,7 +2,7 @@
 """Verilen çapa ifadesini içeren paragrafı, bölüm/başlık/satır bilgisiyle döndürür."""
 import re, sys, os, glob, json
 
-ROOT = "/Users/mdkalenderoglu/Desktop/MD_Kalenderoglu/Claude/Mekanizma_Kitabı"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def dosya_bul(no):

@@ -47,7 +47,7 @@ PARTS = [
     ("IV", "Epigenetik, Organel ve Mozaiklik",
      "Dizide olmayan kusurlar: damga, ikinci genom ve hücre soyları", [10, 11, 12]),
     ("V", "Genomik Bağlam ve Karmaşık Mimari",
-     "Kodlamayan genom, çok-lokuslu kalıtım ve allelik seriler", [13, 14, 15]),
+     "Kodlamayan genom, çok-lokuslu kalıtım ve alelik seriler", [13, 14, 15]),
     ("VI", "Yorum ve Klinik Sentez",
      "Mekanizmadan varyant sınıflandırmasına, oradan hastanın başına", [16, 17]),
 ]
@@ -72,6 +72,10 @@ BACK_AFTER_BIB = [
     ("23_Hastalik_Dizini.md", "Hastalık Dizini"),
     ("24_Ozgecmis.md", "Yazar Özgeçmişi"),
 ]
+
+
+class BuildError(RuntimeError):
+    """Derlemeyi güvenli biçimde durdurması gereken proje tutarsızlığı."""
 
 try:
     import markdown
@@ -100,6 +104,16 @@ def extract_title(md_text, fallback):
     return fallback
 
 
+def object_anchor(label, number):
+    """Şekil/algoritma/tablo numarasından kararlı bir HTML hedefi üret."""
+    prefixes = {"Şekil": "sekil", "Algoritma": "algoritma", "Tablo": "tablo"}
+    try:
+        prefix = prefixes[label]
+    except KeyError as exc:
+        raise BuildError(f"Bilinmeyen nesne türü: {label}") from exc
+    return f"{prefix}-{number.replace('.', '-')}"
+
+
 def protect_blocks(md_text):
     """Mermaid bloklarını ve SVG görsellerini token'la koru."""
     placeholders = {}
@@ -117,13 +131,15 @@ def protect_blocks(md_text):
         alt, path = m.group(1).strip(), m.group(2).strip()
         svg_path = os.path.join(ROOT, path)
         key = f"@@FIG_{len(placeholders)}@@"
-        if os.path.exists(svg_path):
-            with open(svg_path, encoding="utf-8") as fh:
-                svg = re.sub(r"<\?xml.*?\?>", "", fh.read(), flags=re.DOTALL).strip()
-            placeholders[key] = (f'<figure class="svg-fig">{svg}'
-                                 f'<figcaption>{html.escape(alt)}</figcaption></figure>')
-        else:
-            placeholders[key] = f'<p class="missing">[Görsel bulunamadı: {html.escape(path)}]</p>'
+        if not os.path.exists(svg_path):
+            raise BuildError(f"Görsel bulunamadı: {path}")
+        with open(svg_path, encoding="utf-8") as fh:
+            svg = re.sub(r"<\?xml.*?\?>", "", fh.read(), flags=re.DOTALL).strip()
+        number_match = re.match(r"Şekil (\d+\.\d+) — ", alt)
+        anchor = (f' id="{object_anchor("Şekil", number_match.group(1))}"'
+                  if number_match else "")
+        placeholders[key] = (f'<figure class="svg-fig"{anchor}>{svg}'
+                             f'<figcaption>{html.escape(alt)}</figcaption></figure>')
         return key
 
     md_text = re.sub(r"!\[([^\]]*)\]\((assets/[^)]+\.svg)\)", repl_img, md_text)
@@ -137,13 +153,33 @@ def restore_blocks(html_text, placeholders):
     return html_text
 
 
+def add_caption_anchors(html_text):
+    """Algoritma ve tablo başlıklarını doğrudan bağlantı hedefi yap."""
+    for label in ("Algoritma", "Tablo"):
+        css_class = "algorithm-caption" if label == "Algoritma" else "table-caption"
+        pattern = re.compile(
+            rf'<p><strong>({label}) (\d+\.\d+) — (.*?)</strong></p>',
+            flags=re.DOTALL,
+        )
+
+        def repl(match):
+            anchor = object_anchor(match.group(1), match.group(2))
+            return (f'<p class="object-caption {css_class}" id="{anchor}">'
+                    f'<strong>{match.group(1)} {match.group(2)} — '
+                    f'{match.group(3)}</strong></p>')
+
+        html_text = pattern.sub(repl, html_text)
+    return html_text
+
+
 def convert(md_text):
     md_text, ph = protect_blocks(md_text)
     md = markdown.Markdown(
         extensions=["tables", "fenced_code", "sane_lists", "attr_list", "footnotes"],
         output_format="html5",
     )
-    return restore_blocks(md.convert(md_text), ph)
+    converted = restore_blocks(md.convert(md_text), ph)
+    return add_caption_anchors(converted)
 
 
 def read_kitap(fname):
@@ -160,25 +196,78 @@ def collect_lists(chapters):
     for n, f in chapters:
         with open(f, encoding="utf-8") as fh:
             txt = fh.read()
-        for no, cap in re.findall(r"!\[Şekil (\d+\.\d+) — ([^\]]+)\]\(assets/", txt):
-            figs.append((no, cap.strip(), n))
-        for no, cap in re.findall(r"\*\*Algoritma (\d+\.\d+) — ([^*]+)\*\*", txt):
-            algos.append((no, cap.strip(), n))
-        for no, cap in re.findall(r"\*\*Tablo (\d+\.\d+) — ([^*]+)\*\*", txt):
-            tabs.append((no, cap.strip(), n))
+        groups = (
+            ("Şekil", re.findall(r"!\[Şekil ([^\s\]]+) — ([^\]]+)\]\(assets/", txt), figs),
+            ("Algoritma", re.findall(r"\*\*Algoritma ([^\s*]+) — ([^*]+)\*\*", txt), algos),
+            ("Tablo", re.findall(r"\*\*Tablo ([^\s*]+) — ([^*]+)\*\*", txt), tabs),
+        )
+        for label, matches, destination in groups:
+            for no, cap in matches:
+                if not re.fullmatch(rf"{n}\.\d+", no):
+                    raise BuildError(
+                        f"Geçersiz {label.lower()} numarası: "
+                        f"{os.path.basename(f)} içinde {label} {no}"
+                    )
+                destination.append((no, cap.strip(), n))
+    validate_numbering(figs, "Şekil")
+    validate_numbering(algos, "Algoritma")
+    validate_numbering(tabs, "Tablo")
     key = lambda x: tuple(int(p) for p in x[0].split("."))
     return sorted(figs, key=key), sorted(algos, key=key), sorted(tabs, key=key)
 
 
+def validate_numbering(rows, label):
+    """Bölüm içindeki numaraların 1'den başlayıp kesintisiz ilerlediğini doğrula."""
+    by_chapter = {}
+    seen = set()
+    for no, _cap, chapter in rows:
+        if no in seen:
+            raise BuildError(f"Mükerrer {label.lower()} numarası: {label} {no}")
+        seen.add(no)
+        prefix, sequence = (int(part) for part in no.split("."))
+        if prefix != chapter:
+            raise BuildError(
+                f"{label} {no}, Bölüm {chapter} dosyasında yanlış bölüm öneki taşıyor"
+            )
+        by_chapter.setdefault(chapter, []).append(sequence)
+
+    for chapter, sequence in by_chapter.items():
+        expected = list(range(1, len(sequence) + 1))
+        if sequence != expected:
+            raise BuildError(
+                f"Bölüm {chapter} {label.lower()} sırası kesintili: {sequence}; beklenen {expected}"
+            )
+
+
 def list_section(anchor, title, rows, label, intro):
     items = "".join(
-        f'<li><span class="lno">{label} {no}</span>'
-        f'<span class="lcap">{html.escape(cap)}</span>'
-        f'<span class="lch"><a href="#bolum-{ch}">Bölüm {ch}</a></span></li>'
+        f'<li><a class="object-link" href="#{object_anchor(label, no)}">'
+        f'<span class="lno">{label} {no}</span>'
+        f'<span class="lcap">{html.escape(cap)}</span></a>'
+        f'<span class="lch">Bölüm {ch}</span>'
+        f'<a class="lpage" href="#{object_anchor(label, no)}" '
+        f'aria-label="{label} {no} sayfası"></a></li>'
         for no, cap, ch in rows
     )
     return (f'<section class="chapter listpage" id="{anchor}"><h1>{title}</h1>'
             f'<p class="intro">{intro}</p><ul class="figlist">{items}</ul></section>')
+
+
+def validate_object_targets(doc, groups):
+    """Listelenen her nesnenin tek hedefi ve doğrudan bağlantısı bulunduğunu doğrula."""
+    for label, rows in groups:
+        for no, _cap, _chapter in rows:
+            anchor = object_anchor(label, no)
+            target_count = doc.count(f'id="{anchor}"')
+            link_count = doc.count(f'href="#{anchor}"')
+            if target_count != 1:
+                raise BuildError(
+                    f"{label} {no} için tek HTML hedefi bekleniyordu; bulunan: {target_count}"
+                )
+            if link_count != 2:
+                raise BuildError(
+                    f"{label} {no} için liste ve sayfa bağlantıları eksik; bulunan: {link_count}"
+                )
 
 
 def collect_bibliography(chapters):
@@ -198,6 +287,17 @@ def collect_bibliography(chapters):
         chs = ", ".join(str(x) for x in sorted(used[pmid]))
         rows.append(f"{i}. **{au}** {rest} · *Bölüm: {chs}*")
     return rows, len(seen)
+
+
+def render_metadata_tokens(md_text, counts):
+    """Ön/arka maddelerdeki envanter sayaçlarını güncel build verisiyle doldur."""
+    rendered = md_text
+    for name, value in counts.items():
+        rendered = rendered.replace(f"{{{{{name}}}}}", str(value))
+    unresolved = sorted(set(re.findall(r"\{\{[A-Z_]+\}\}", rendered)))
+    if unresolved:
+        raise BuildError("Tanımsız metadata belirteci: " + ", ".join(unresolved))
+    return rendered
 
 
 CSS = r"""
@@ -226,6 +326,7 @@ blockquote{margin:1.1em 0;padding:.8em 1.1em;border-left:5px solid var(--accent)
   background:var(--accent-soft);border-radius:0 6px 6px 0;}
 blockquote p:first-child{margin-top:0;} blockquote p:last-child{margin-bottom:0;}
 figure.svg-fig{margin:1.4em 0;text-align:center;page-break-inside:avoid;}
+figure.svg-fig,.object-caption{scroll-margin-top:1rem;}
 figure.svg-fig svg{max-width:100%;height:auto;border:1px solid var(--rule);border-radius:6px;}
 figure.svg-fig figcaption{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.85rem;
   color:var(--muted);margin-top:.5em;font-style:italic;}
@@ -268,9 +369,12 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 .toc li.chline{padding-left:1.2em;}
 .listpage ul.figlist{list-style:none;padding-left:0;font-family:"Helvetica Neue",Arial,sans-serif;font-size:.93rem;}
 .listpage ul.figlist li{display:flex;gap:.7em;align-items:baseline;border-bottom:1px dotted var(--rule);padding:.28em 0;}
+.listpage .object-link{display:flex;gap:.7em;align-items:baseline;flex:1 1 auto;color:inherit;min-width:0;}
+.listpage .object-link:hover .lno,.listpage .object-link:hover .lcap{color:var(--accent);}
 .listpage .lno{flex:0 0 8.5em;font-weight:700;color:var(--ink);}
 .listpage .lcap{flex:1 1 auto;}
 .listpage .lch{flex:0 0 5.5em;text-align:right;color:var(--muted);font-size:.86em;}
+.listpage .lpage{display:none;}
 .listpage .intro{color:var(--muted);font-size:.92rem;}
 .chapter{page-break-before:always;}
 @media print{
@@ -278,6 +382,9 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
   .cover{margin:0;padding:0;background:none;}
   h2,h3,h4{page-break-after:avoid;}
   table,figure,blockquote,.mermaid-wrap{page-break-inside:avoid;}
+  /* target-counter destekleyen sayfalama motorları gerçek hedef sayfasını yazar. */
+  .listpage .lpage{display:inline-block;flex:0 0 2.4em;text-align:right;color:var(--muted);}
+  .listpage .lpage::after{content:target-counter(attr(href), page);}
   @page{margin:18mm 14mm;}
 }
 """
@@ -299,6 +406,13 @@ def build():
 
     figs, algos, tabs = collect_lists(chapters)
     bib_rows, bib_n = collect_bibliography(chapters)
+    counts = {
+        "BOLUM_SAYISI": len(chapters),
+        "SEKIL_SAYISI": len(figs),
+        "ALGORITMA_SAYISI": len(algos),
+        "TABLO_SAYISI": len(tabs),
+        "KAYNAK_SAYISI": bib_n,
+    }
 
     bodies, toc_lines, used = [], [], []
 
@@ -307,6 +421,7 @@ def build():
             md = read_kitap(fname)
             if md is None:
                 continue
+            md = render_metadata_tokens(md, counts)
             anchor = fname.split("_", 1)[1].replace(".md", "").lower().replace("_", "-")
             bodies.append(f'<section class="chapter" id="{anchor}">{convert(md)}</section>')
             toc_lines.append(f'<li class="plain"><a href="#{anchor}">{html.escape(label)}</a></li>')
@@ -319,11 +434,11 @@ def build():
     toc_lines.append(f'<li class="plain"><a href="#algoritmalar">Algoritmalar Listesi ({len(algos)})</a></li>')
     toc_lines.append(f'<li class="plain"><a href="#tablolar">Tablolar Listesi ({len(tabs)})</a></li>')
     bodies.append(list_section("sekiller", "Şekiller Listesi", figs, "Şekil",
-                               "Kitaptaki tüm çizimler; her biri ilgili bölüme bağlantılıdır."))
+                               "Kitaptaki tüm çizimler; her bağlantı doğrudan ilgili şekli açar."))
     bodies.append(list_section("algoritmalar", "Algoritmalar Listesi", algos, "Algoritma",
-                               "Karar ağaçları ve klinik akış şemaları."))
+                               "Karar ağaçları ve klinik akış şemaları; bağlantılar doğrudan algoritmayı açar."))
     bodies.append(list_section("tablolar", "Tablolar Listesi", tabs, "Tablo",
-                               "Kavram, varyant tipi, test ve öz-denetim tabloları."))
+                               "Kavram, varyant tipi, test ve öz-denetim tabloları; bağlantılar doğrudan tabloyu açar."))
 
     for roma, pname, pdesc, nums in PARTS:
         chs = " · ".join(f"Bölüm {n}" for n in nums)
@@ -348,11 +463,12 @@ def build():
     add_files(BACK_AFTER_BIB)
 
     back_md = read_kitap("25_Arka_Kapak.md")
+    if back_md:
+        back_md = render_metadata_tokens(back_md, counts)
     backcover = f'<section class="backcover" id="arka-kapak">{convert(back_md)}</section>' if back_md else ""
     if back_md:
         used.append("25_Arka_Kapak.md")
 
-    n_fig = len(glob.glob(os.path.join(ASSETS, "*.svg")))
     author_line = ""
     yz = read_kitap("05_Yazar.md")
     if yz:
@@ -365,7 +481,7 @@ def build():
       <div class="rule"></div>
       <div class="sub">{html.escape(BOOK_SUBTITLE)}</div>
       {author_line}
-      <div class="meta" style="margin-top:2.4em">{len(chapters)} bölüm · {n_fig} şekil · {len(algos)} algoritma · {len(tabs)} tablo · {bib_n} doğrulanmış kaynak</div>
+      <div class="meta" style="margin-top:2.4em">{len(chapters)} bölüm · {len(figs)} şekil · {len(algos)} algoritma · {len(tabs)} tablo · {bib_n} benzersiz PMID</div>
     </section>"""
 
     titlepage = f"""<section class="titlepage">
@@ -402,6 +518,8 @@ def build():
 </body>
 </html>"""
 
+    validate_object_targets(doc, (("Şekil", figs), ("Algoritma", algos), ("Tablo", tabs)))
+
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write(doc)
 
@@ -410,11 +528,15 @@ def build():
     missing = [f for f in allf if f not in used]
     print(f"✅ Kitap üretildi: {os.path.basename(OUT)} ({size:.1f} MB)")
     print(f"   {len(chapters)} bölüm · {len(PARTS)} kısım · {len(figs)} şekil · "
-          f"{len(algos)} algoritma · {len(tabs)} tablo · {bib_n} kaynak")
+          f"{len(algos)} algoritma · {len(tabs)} tablo · {bib_n} benzersiz PMID")
+    print(f"   {len(figs) + len(algos) + len(tabs)} doğrudan nesne hedefi doğrulandı")
     if missing:
         print("   ⚠️ Henüz yazılmamış ön/arka madde: " + ", ".join(missing))
-    print("   Çift tıkla tarayıcıda aç; Yazdır → 'PDF olarak kaydet' ile kitap PDF'i çıkar.")
+    print("   Tarayıcıdan değerlendirme PDF'i alınabilir; nihai sayfa numaraları uyumlu sayfalama motorunda doğrulanır.")
 
 
 if __name__ == "__main__":
-    build()
+    try:
+        build()
+    except BuildError as exc:
+        sys.exit(f"HATA: {exc}")

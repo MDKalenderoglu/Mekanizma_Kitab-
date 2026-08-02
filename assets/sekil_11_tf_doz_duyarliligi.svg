@@ -7,7 +7,7 @@
   <line x1="470" y1="80" x2="470" y2="500" stroke="#ccc" stroke-width="1.5" stroke-dasharray="4 4"/>
 
   <!-- ===== LEFT: normal (100%) ===== -->
-  <text x="245" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#1e8449">İki işlevsel allel — %100 TF</text>
+  <text x="245" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#1e8449">İki işlevsel alel — %100 TF</text>
 
   <!-- TF pool -->
   <g>
@@ -42,7 +42,7 @@
   <text x="245" y="440" text-anchor="middle" font-size="12" font-weight="700" fill="#1e8449">Gen ağı yeterli uyarılır → normal gelişim</text>
 
   <!-- ===== RIGHT: 50% ===== -->
-  <text x="700" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Tek allel kaybı — %50 TF</text>
+  <text x="700" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Tek alel kaybı — %50 TF</text>
 
   <g>
     <circle cx="620" cy="142" r="11" fill="#8e44ad"/>
