@@ -10,6 +10,21 @@
 
 ---
 
+## Karar oturumu — 2 Ağustos 2026
+
+Bu formun yayın yönünü belirleyen maddeleri kullanıcıyla tek tek görüşüldü. Aşağıdaki kayıtlar **onaylanmış kararı** gösterir; bölüm/dosya değişikliklerinin uygulandığını göstermez. Uygulama, ayrı kapsam ve ayrı kullanıcı onayıyla paketler hâlinde yapılacaktır.
+
+1. Önce HTML + PDF değerlendirme sürümü; bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm.
+2. Birincil hedef kitle: tıbbi genetik ve çocuk genetiği hekimleri/eğitim alanlar, klinik genomik ve varyant yorumlama uzmanları, tıbbi biyoloji uzmanları/araştırmacıları ve moleküler genetik tanı laboratuvarı ekipleri. İkincil hedef: pediatri hekimleri, moleküler biyoloji ve genetik alanında eğitim alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri.
+3. Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari) önceye alınacak.
+4. Kalıtsal kanser yatkınlığı ve ikinci vuruş, mozaiklik içine yerleştirilmeyecek; bağımsız Bölüm 16 olacak. Mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
+5. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bağlantı verilecek; yanıt yaklaşımları sorulardan ayrı tutulacak.
+6. Ayrıntılı üretim/doğrulama günlükleri proje içinde korunacak; yayımlanan kitapta yalnız kısa, okuyucuya yönelik yöntem açıklaması bulunacak.
+7. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
+8. Uygulama sırası: karar kaydı → düşük riskli teknik temizlik → ayrı bilimsel/yapısal paketler → bağımsız insan değerlendirmesi → yayın kapanışı.
+
+---
+
 ## 0. Bu turda zaten düzeltilenler (onayınıza sunulur, soru değildir)
 
 Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzelttim. İtirazınız varsa geri alınır.
@@ -35,7 +50,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Soru:** Bu alanları siz doldurmak ister misiniz, yoksa **sürüm/tarih gibi otomatikleştirilebilecek olanları `build_book.py` üretim sırasında doldursun** (ör. "Sürüm 0.9 · derleme tarihi 01.08.2026") ve yalnız ithaf/teşekkür/özgeçmiş size mi kalsın? Ayrıca: kitap ISBN'siz mi yayımlanacak?
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☐ Y ☒ A → HTML/PDF değerlendirme sürümü ve ardından dijital + baskıya hazır nihai sürüm kararlaştırıldı. Sürüm numarası, ISBN, yayınevi ve kişisel alanlar yayın kapanışında doldurulacak; otomatik alan üretiminin ayrıntısı teknik paket içinde ayrıca onaylanacak.
 
 <br>
 
@@ -49,7 +64,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Soru:** Bu not **yayımlanan kitaptan tamamen çıkarılsın** mı (build sırasında filtrelenir, `.md` kaynaklarında kalır), yoksa okuyucuya gerçekten hitap eden bir şeye mi dönüştürülsün (ör. "Şekiller yüksek çözünürlüklü ve vektöreldir; yazdırmada bozulmaz")?
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☒ Y ☐ A → Kaynak dosyasında yararlıysa korunabilir; yayımlanan HTML/PDF'de kaynak ortamı/Mermaid/assets dili gösterilmeyecek. Okuyucuya yararlı bir erişilebilirlik veya vektör görsel notu gerekiyorsa yayın tasarımı aşamasında tek ve genel bir not olarak değerlendirilecek.
 
 <br>
 
@@ -61,7 +76,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Soru:** Önsöz bu hiyerarşiyi açıkça yazsın mı ("birincil / ikincil hedef kitle"), yoksa dört grubu eşit sunan mevcut nazik dil mi korunsun? İkisi aynı kitapta duramaz; hangisi sizin tercihiniz?
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☒ Y ☐ A → Önsöz birincil/ikincil hedef kitleyi açıkça yazacak. Birincil: tıbbi genetik, çocuk genetiği, klinik genomik/varyant yorumlama, tıbbi biyoloji ve moleküler tanı ekipleri. İkincil: pediatri, moleküler biyoloji ve genetik eğitimi, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri. Üç katmanlı okuma sistemi bu farklı deneyim düzeylerini destekleyecek.
 
 <br>
 
@@ -73,7 +88,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Soru:** Kısaltmalar listesini sözlükle **otomatik senkron** tutmak ister misiniz (build sırasında sözlükten üretilir), yoksa elle bakım yeterli mi?
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☐ Y ☐ A → Karar verilmedi. pLoF/CSpec ve eski `allel` yazımları teknik temizlik kapsamına adaydır; otomatik senkron ile elle bakım arasında ayrıca karar verilecektir.
 
 ---
 
@@ -130,7 +145,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 2. **Kitabın sonuna toplu bir "Doğrulama kaydı" eki**ne taşınsın; bölüm sonunda yalnız kısa öz-denetim tablosu kalsın.
 3. **Yayımlanan sürümden çıkarılsın**, `.md` kaynaklarında ve `Dogrulama_Kutugu.md`'de tutulsun.
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☒ Y ☐ A → Ayrıntılı öz-denetim ve kaynak doğrulama/uzman turu günlükleri yayımlanan sürümden çıkarılacak; proje kaynaklarında ve `Dogrulama_Kutugu.md` içinde korunacak. Okuyucuya yönelik öz değerlendirme soruları ayrı `kitap/19_Oz_Degerlendirme.md` hedefinde bölüm bazında toplanacak; bölüm sonunda yalnız bağlantı bulunacak. Bu dosya ve build davranışı henüz uygulanmadı.
 
 <br>
 
@@ -181,11 +196,11 @@ Bunlar uzmanın istediği ama **sizin kararınızı beklediğim** kalemler. Kola
 
 | # | Uzman maddesi | Ne gerektirir | Karar |
 |---|---|---|---|
-| D1 | **F1(a)** — Bölüm 15 (Alelik seri), Bölüm 14'ten (Digenik) önce gelmeli | Dosya adları, iki bölümün numaraları, ~40 çapraz gönderme, kütükteki "kullanıldığı bölümler" sütunu, Ek B ve Şekil 16.3 satır sırası. Yapılabilir ama geniş tarama. | ☐ Yap ☐ Yapma |
-| D2 | **F2** — "Kanser yatkınlığı ve somatik ikinci vuruş" bölümü | Tam bir textbook bölümü: *RB1, TP53, DICER1, APC*, MMR, *TSC1/2*, *NF1* üzerinden two-hit, LOH, doku seçiciliği, mozaiklik kesişimi + PubMed doğrulamalı kaynaklar + SVG/Mermaid. Uzun iş. | ☐ Yap ☐ Yapma |
+| D1 | **F1(a)** — Bölüm 15 (Alelik seri), Bölüm 14'ten (Digenik) önce gelmeli | Dosya adları, iki bölümün numaraları, ~40 çapraz gönderme, kütükteki "kullanıldığı bölümler" sütunu, Ek B ve Şekil 16.3 satır sırası. Yapılabilir ama geniş tarama. | ☒ Yap ☐ Yapma — ayrı yapısal paket |
+| D2 | **F2** — "Kanser yatkınlığı ve somatik ikinci vuruş" bölümü | Tam bir textbook bölümü: *RB1, TP53, DICER1, APC*, MMR, *TSC1/2*, *NF1* üzerinden two-hit, LOH, doku seçiciliği, mozaiklik kesişimi + PubMed doğrulamalı kaynaklar + SVG/Mermaid. Uzun iş. | ☒ Yap ☐ Yapma — bağımsız Bölüm 16; mozaiklik içine yerleştirilmez |
 | D3 | **F3** — Zorunlu 10 başlık → 6 sabit çekirdek + esnek | `CLAUDE.md` ve şablon değişir; mevcut bölümler olduğu gibi kalabilir. Yalnız **bundan sonra** yazılacak bölümleri etkiler. | ☐ Yap ☐ Yapma |
-| D4 | **F5** — Türkiye eki (sürümlendirilmiş) | Sabit içerik (akrabalık, endogami, kurucu varyant, ROH, resesif test stratejisi) + değişken içerik (SGK, test menüsü) ayrı; tarih ve sürüm numaralı. | ☐ Yap ☐ Yapma |
-| D5 | **G2.7** — Bağımsız dış hakem okuması | Klinik genetik uzmanı · moleküler tanı laboratuvarı uzmanı · sitogenetik/CNV uzmanı · Türkçe bilimsel editör. **Bunu ben yapamam**; uzman da modelin bunun yerine geçemeyeceğini açıkça yazdı. | ☐ Planlandı ☐ Değil |
+| D4 | **F5** — Türkiye eki (sürümlendirilmiş) | Sabit içerik (akrabalık, endogami, kurucu varyant, ROH, resesif test stratejisi) + değişken içerik (SGK, test menüsü) ayrı; tarih ve sürüm numaralı. | ☐ Yap ☒ Yapma — mevcut kapsam dışında; gelecek sürüm taahhüdü yok |
+| D5 | **G2.7** — Bağımsız dış hakem okuması | Klinik genetik uzmanı · moleküler tanı laboratuvarı uzmanı · sitogenetik/CNV uzmanı · Türkçe bilimsel editör. **Bunu ben yapamam**; uzman da modelin bunun yerine geçemeyeceğini açıkça yazdı. | ☒ Planlandı ☐ Değil — bilimsel/yapısal paketlerden sonra |
 
 ---
 
@@ -193,17 +208,17 @@ Bunlar uzmanın istediği ama **sizin kararınızı beklediğim** kalemler. Kola
 
 **E1 — Kitabın sürüm numarası ne olsun ve bunu kim/nasıl artıracağız?** Şu an sürüm alanı boş. Uzman turlarından sonra kitap belirgin biçimde değişti; bir sürüm politikası (ör. "0.9 — dış hakem öncesi", "1.0 — hakem sonrası") kitabın denetlenebilirlik iddiasını tamamlar.
 
->
+> **Kısmi karar:** Değerlendirme sürümü, bağımsız inceleme ve nihai yayın sırası kabul edildi. Kesin sürüm numaraları ve artırma politikası yayın kapanışı öncesinde ayrıca kararlaştırılacak.
 >
 
 **E2 — Yayım formatı nihai olarak ne? ** Şu an tek dosyalık HTML → tarayıcıdan PDF. Basılı kitap, e-kitap (EPUB) veya web sürümü hedefleniyorsa bazı kararlar (görsel çözünürlüğü, sayfa kırılımı, iç bağlantılar, renk-körlüğü uyumu) şimdiden değişir.
 
->
+> **Karar:** Önce HTML + PDF değerlendirme sürümü; bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm. EPUB/web dağıtım ayrıntısı yayın kapanışında ayrıca değerlendirilecek.
 >
 
 **E3 — Hangi bulguları önce ele alalım?** Bu formdaki maddeleri sıraya koymamı ister misiniz, yoksa siz mi seçeceksiniz?
 
->
+> **Karar:** Kararların kalıcı kaydı → düşük riskli teknik temizlik → ayrı bilimsel/yapısal paketler → bağımsız insan değerlendirmesi → yayın kapanışı.
 >
 
 ---

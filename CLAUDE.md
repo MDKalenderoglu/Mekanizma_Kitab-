@@ -7,7 +7,8 @@ Bu dosya her oturumda otomatik yüklenir. Amacı: bu projede **nasıl çalışac
 ## 1. Proje kimliği
 
 - **Ürün:** "Genetik Hastalık Mekanizmaları" — kapsamlı bir **akademik ders kitabı (textbook)**, özet değil.
-- **Hedef kitle:** Çocuk genetik uzmanları/yandal asistanları, genel pediatri hekimleri, genomik analiz yapan klinisyenler **ve tıp öğrencileri**.
+- **Birincil hedef kitle:** Tıbbi genetik uzmanları ve uzmanlık öğrencileri; çocuk genetiği alanında çalışan hekimler/yandal öğrencileri; klinik genomik ve varyant yorumlama yapan hekimler; tıbbi biyoloji uzmanları/araştırmacıları; moleküler genetik tanı laboratuvarı ekipleri.
+- **İkincil hedef kitle:** Pediatri uzmanları/asistanları; moleküler biyoloji ve genetik alanında eğitim alanlar; genetik danışmanlık ekipleri; ileri düzey tıp öğrencileri.
 - **Dil:** Türkçe (akademik ama öğretici; gereksiz basitleştirme yok, ama kavramlar anlaşılır).
 - **Çekirdek pedagoji:** Her konu şu zinciri öğretmeli →
   **mekanizma → varyant tipi → hücresel sonuç → klinik fenotip → tanısal test → varyant yorumu (ACMG/ClinGen)**.
@@ -25,6 +26,19 @@ Kitap **hekimlere yönelik yayımlanacaktır**. Bu nedenle:
 - Uzman insan değerlendirmesi **yayım ön koşuludur**; model bunun yerine geçemez.
 
 > **Tam protokol:** `00_Şablonlar/Dogrulama_Protokolu.md` — işlem sırası, sabit veri kaynakları, ClinGen skor kodları ve gen/bölge tuzağı orada. **Uygulama kaydı:** `Dogrulama_Kutugu.md`.
+
+## 1C. Onaylanan yayın planı ve araçlar arası devamlılık (02.08.2026)
+
+Bu kararlar kullanıcı tarafından onaylanmıştır; yeniden tartışma açmadan önce `Editor_Degerlendirme_Formu_Tur2.md` içindeki gerekçe ve durum kaydını oku. **Onaylanmış olmak, uygulanmış olmak değildir:** dosya/bölüm düzeyindeki değişiklikler ayrı paketler ve ayrı kullanıcı onayıyla yapılır.
+
+- Önce **HTML + PDF değerlendirme sürümü**, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
+- Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari) önce gelecek.
+- **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
+- Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında ilgili kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak.
+- Ayrıntılı öz-denetim, kaynak doğrulama, araç ve revizyon günlükleri proje kayıtlarında korunacak; yayımlanan HTML/PDF'de yalnız okuyucuya yönelik kısa yöntem açıklaması bulunacak.
+- Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak ve gelecek sürüm için taahhüt edilmeyecek.
+
+**Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu dört belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
 
 ## 2. Altın kurallar (asla ihlal etme)
 
@@ -45,6 +59,8 @@ Kitap **hekimlere yönelik yayımlanacaktır**. Bu nedenle:
 Mekanizma_Kitabı/
 ├── CLAUDE.md                              # bu dosya (işletim kılavuzu)
 ├── Bölüm_00_İçindekiler_ve_İlerleme.md    # master TOC + ilerleme + KAYNAK KÜTÜĞÜ
+├── Editor_Degerlendirme_Formu_Tur2.md     # onaylanan/açık editöryal kararlar
+├── Dogrulama_Kutugu.md                    # iddia ve kaynak doğrulama kaydı
 ├── 00_Şablonlar/
 │   ├── Bölüm_Şablonu.md                   # kopyalanacak bölüm iskeleti
 │   ├── Stil_Rehberi.md                    # ton, biçim, kutular, görsel standardı
@@ -76,7 +92,7 @@ Ardından 10 standart başlık:
 9. **Klinik pratikte karar algoritması** (Mermaid)
 10. **Kaynaklar** (her biri: Yazar, Yıl, Başlık, Dergi, PMID, DOI-link, kullanım amacı)
 
-Bölüm sonu: **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama komutu** durumu.
+Bölüm kaynak dosyasında iç kalite güvencesi için **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama durumu** korunur. Bunlar yayımlanan HTML/PDF'de gösterilmez. Okuyucuya yönelik sorular kitabın sonunda ayrı öz değerlendirme kısmında toplanır; bölüm sonunda yalnız ilgili kısma yönlendirme bulunur. Bu hedef yapı henüz uygulanmamışsa yapılmış gibi raporlama.
 
 **Standart test tablosu satırları:** WES · Short-read WGS · Long-read WGS · Array-CGH/SNP array · MLPA · RNA-seq · Methylation array · Karyotip. Sütunlar: "Bu mekanizmayı yakalar mı?" / "Sınırlılığı".
 
@@ -110,15 +126,17 @@ Her bölüm için sırayla:
 2. **Kaynak:** Kütüğü kontrol et → eksikleri PubMed'den doğrula (madde 6).
 3. **Görseller:** Gerekli SVG'leri `assets/`'e üret.
 4. **Yaz:** Standart 10-başlık formatında, textbook derinliğinde, görselleri ve Mermaid'i gömerek.
-5. **Öz-denetim:** Öz-denetim tablosu + kaynak doğrulama durumu.
+5. **İç öz-denetim:** Öz-denetim tablosu + kaynak doğrulama durumu; yayımlanan ürün ile proje günlüğünü ayır.
 6. **İndeks:** Bölüm_00'da durumu "✅ tamam" yap, kaynak kütüğünü güncelle.
 7. **Rapor:** Kullanıcıya kısa özet + dosya linkleri; bir sonraki bölüm için onay/iste.
 
-> **Varsayılan ilerleme:** Kullanıcı aksini belirtmedikçe bölümleri **plandaki sırayla** yaz. Her bölüm sonunda dur, kısa rapor ver, devam onayı al (kullanıcı "devam"/"hepsini yaz" derse onay beklemeden ilerle).
+> **Güncel çalışma evresi:** Ana bölüm üretimi tamamlandı; proje yayın öncesi editöryal uygulama evresindedir. Yeni bölüm veya kapsam genişletmesi yalnız onaylanan paket kapsamında yapılır. Her paketten önce değişecek dosyaları bildir; kullanıcı onayından sonra uygula; diff ve doğrulama sonucunu raporla. Stage, commit ve push ayrı yetkilendirilir.
 
 ---
 
 ## 8. Bölüm listesi ve sıra
+
+**Mevcut uygulanmış gövde:** 17 bölüm; dosya adları ve numaraları henüz aşağıdaki eski sıradadır. **Onaylanan hedef gövde:** 18 bölüm; 14–15 yer değişimi ve yeni Bölüm 16 ayrı bir yapısal paketle uygulanacaktır.
 
 1. Genetik hastalık mekanizması nedir? ✅
 2. Loss-of-function ✅
@@ -133,11 +151,12 @@ Her bölüm için sırayla:
 11. Mitokondriyal genetik
 12. Mozaiklik
 13. Noncoding / regülatör varyantlar
-14. Digenik / oligogenik / modifier
-15. Aynı gen → farklı hastalık (allelik seri)
-16. Mekanizma → varyant yorumu (ACMG/ClinGen)
-17. Klinik senaryolarla sentez
-+ **Final pass:** birleştirme, tekrar azaltma, terminoloji standardizasyonu, global kaynakça.
+14. Aynı gen → farklı hastalık (alelik seri) — **onaylandı; mevcut Bölüm 15'ten taşınacak**
+15. Digenik / oligogenik / modifier — **onaylandı; mevcut Bölüm 14'ten taşınacak**
+16. Kalıtsal kanser yatkınlığı ve ikinci vuruş — **onaylandı; henüz yazılmadı**
+17. Mekanizma → varyant yorumu (ACMG/ClinGen) — **mevcut Bölüm 16'dan taşınacak**
+18. Klinik senaryolarla sentez — **mevcut Bölüm 17'den taşınacak**
++ **Yayın öncesi kapanış:** teknik temizlik, onaylı bilimsel/yapısal paketler, bağımsız insan değerlendirmesi, son HTML/PDF.
 
 Güncel ilerleme **Bölüm_00_İçindekiler_ve_İlerleme.md** dosyasındadır.
 
@@ -151,6 +170,9 @@ Güncel ilerleme **Bölüm_00_İçindekiler_ve_İlerleme.md** dosyasındadır.
 - Görsel: **bol** (SVG + Mermaid).
 - Dil: **Türkçe**.
 - Önce mekanizma, sonra klinik, sonra test, sonra yorum.
+- Yayın biçimi: önce **HTML + PDF değerlendirme sürümü**, sonra dijital ve baskıya hazır nihai sürüm.
+- Türkiye'ye özgü klinik uygulama eki: **mevcut kapsam dışında**; gelecek sürüm taahhüdü yok.
+- Öz değerlendirme: okuyucu soruları kitabın sonunda; bölüm sonlarında bağlantı; iç kalite/doğrulama günlükleri yayın dışı.
 
 ---
 
@@ -169,6 +191,6 @@ Kaynak `.md` dosyaları **düzenlenebilir asıldır**; paylaşılacak çıktı b
 - **Komut:** `python3 build_book.py` → kök dizinde **`Genetik_Hastalık_Mekanizmaları.html`** üretir.
 - Bu, **tek dosyalık, kendi kendine yeten** bir HTML kitaptır: tüm SVG'ler inline gömülür, Mermaid'ler **offline** render olur (mermaid.js `build_assets/mermaid.min.js`'ten inline gömülür), kapak + otomatik içindekiler + textbook CSS dahildir.
 - **PDF için:** HTML'i tarayıcıda aç → **Yazdır → "PDF olarak kaydet"** (CSS'te sayfa-sonu/print kuralları hazır).
-- Betik bölümleri otomatik toplar: `Bölüm_NN_*.md` (NN≥01), sıralı; `Bölüm_00` kitap gövdesine girmez.
+- Betik mevcut durumda bölümleri otomatik toplar: `Bölüm_NN_*.md` (NN≥01), sıralı; `Bölüm_00` kitap gövdesine girmez. Onaylanan 18 bölümlük hedef, ilgili dosya ve çapraz gönderme paketi uygulanana kadar mevcut 17 bölümlük build'i değiştirmez.
 - **Her bölüm bitiminde** (öz-denetim + indeks güncellemesinden sonra) `python3 build_book.py` çalıştırıp kitabı tazele.
 - Bağımlılık: `python3 -m pip install --user markdown` (bir kez); mermaid.js bir kez `build_assets/`'e indirilmiştir.

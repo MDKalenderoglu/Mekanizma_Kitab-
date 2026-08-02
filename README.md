@@ -1,109 +1,121 @@
-# Genetik Hastalık Mekanizmaları — Mekanizma Kitabı
+# Genetik Hastalık Mekanizmaları — Mekanizmadan Varyant Yorumuna
 
-Türkçe, akademik bir **ders kitabı (textbook)** projesi: genetik hastalık mekanizmalarını
-*mekanizma → varyant tipi → hücresel sonuç → klinik fenotip → tanısal test → varyant yorumu (ACMG/ClinGen)*
-zinciriyle öğreten, bol görselli (SVG + Mermaid) ve **PubMed ile doğrulanmış kaynaklı** bir eser.
+Türkçe, akademik bir ders kitabı projesidir. Genetik hastalıkları bir gen veya
+sendrom kataloğu olarak değil, aşağıdaki nedensellik zinciri üzerinden öğretir:
 
-> **Bu dosya, projeyi başka bir bilgisayarda kaldığı yerden sürdürmek içindir.**
-> Amaç: yeni bir Claude Code oturumu açıldığında bağlamın **hiç kaybolmaması**.
+> **mekanizma → varyant tipi → hücresel sonuç → klinik fenotip → tanısal test → varyant yorumu (ACMG/ClinGen)**
 
----
-
-## 📍 Şu an neredeyiz? (canlı ilerleme)
-
-Güncel durumun **tek doğ­ru kaynağı**: [`Bölüm_00_İçindekiler_ve_İlerleme.md`](Bölüm_00_İçindekiler_ve_İlerleme.md)
-(içindekiler + bölüm durumları + doğrulanmış kaynak kütüğü + görsel kütüğü + "sonraki adım").
-
-- **Tamamlanan:** Bölüm 1–10 (textbook derinliğinde).
-- **Sıradaki:** Bölüm 11 — Mitokondriyal genetik.
-- Bir sonraki bölümün planı `Bölüm_00`'ın **"4. Sonraki adım"** kısmındadır.
+Kitap; tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama
+uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleri için
+hazırlanmaktadır. Pediatri hekimleri, moleküler biyoloji ve genetik alanında eğitim
+alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef
+kitleyi oluşturur.
 
 ---
 
-## 🔄 Başka bir PC'de nasıl devam edilir? (adım adım)
+## Güncel durum — 2 Ağustos 2026
 
-1. **Depoyu indir:**
-   - **GitHub Desktop ile (önerilen):** File → Clone Repository → listeden bu repoyu seç → Clone.
-   - **Terminal ile:** `git clone <repo-URL> && cd Mekanizma_Kitabı`
-2. **Bağımlılıkları kur** (kitap derlemek için):
-   ```bash
-   python3 -m pip install --user markdown
-   ```
-   (Mermaid.js zaten `build_assets/mermaid.min.js` içinde repoda; ayrıca indirmeye gerek yok.)
-3. **PubMed MCP'yi bağla — KRİTİK.** Kaynak doğrulaması (`search_articles`, `get_article_metadata`,
-   `lookup_article_by_citation`) bu bağlantı olmadan çalışmaz ve projenin **altın kuralı** (kaynak
-   uydurma yasağı) ihlal edilir. Yeni PC'de Claude Code'da bio-research/PubMed MCP sunucusunun
-   bağlı ve yetkili olduğundan emin ol.
-4. **Claude Code'u proje klasöründe aç.** `CLAUDE.md` her oturumda **otomatik yüklenir** — işletim
-   kılavuzu, kurallar ve stil oradan gelir.
-5. **İlk mesajın olarak şunu yaz** (bağlamı hızla kurar):
-   > "Bölüm_00_İçindekiler_ve_İlerleme.md'yi oku, neredeyiz özetle, sonra `/bolum-yaz` ile sıradaki bölüme devam et."
+- Mevcut kitap gövdesindeki **17 bölümün tamamı yazılmış**, kaynaklandırılmış ve
+  bütüncül editöryal/uzman değerlendirme turlarından geçmiştir.
+- Güncel derleme **64 SVG şekil**, **49 Mermaid algoritması** ve **153 benzersiz
+  PMID** içerir.
+- Güvenli başlangıç commit'i: `599a12e` (`Editöryal tur 2: bulgu formu eklendi`).
+- Yerel güvenlik etiketi: `pre-editorial-round-2`.
+- Proje artık bölüm üretme aşamasında değil; **yayın öncesi editöryal kararların
+  uygulanması, teknik temizlik, bilimsel revizyon, bağımsız değerlendirme ve yayın
+  kapanışı** aşamasındadır.
 
-Bu kadar. `CLAUDE.md` + `Bölüm_00` + `00_Şablonlar/` üçlüsü, yeni oturumun projeyi **aynı olgunlukta**
-sürdürmesi için gereken her şeyi taşır.
+Güncel durum ve yol haritası için önce
+[`Bölüm_00_İçindekiler_ve_İlerleme.md`](Bölüm_00_İçindekiler_ve_İlerleme.md),
+sonra [`Editor_Degerlendirme_Formu_Tur2.md`](Editor_Degerlendirme_Formu_Tur2.md)
+okunmalıdır.
 
 ---
 
-## 🗂️ Dosya haritası
+## Onaylanan yayın hedefi
 
-| Yol | Ne işe yarar |
-|-----|--------------|
-| `CLAUDE.md` | **İşletim kılavuzu** — her oturum otomatik yüklenir; kurallar, format, iş akışı |
-| `Bölüm_00_İçindekiler_ve_İlerleme.md` | Canlı içindekiler + ilerleme + **kaynak kütüğü** + görsel kütüğü + sonraki adım |
-| `Bölüm_NN_<Konu>.md` | Bölüm dosyaları (NN = 01, 02, …) |
-| `assets/sekil_NN_*.svg` | Tüm SVG görseller |
-| `00_Şablonlar/Bölüm_Şablonu.md` | Kopyalanacak bölüm iskeleti (10 başlık) |
-| `00_Şablonlar/Stil_Rehberi.md` | Ton, biçim, kutular, görsel standardı |
-| `00_Şablonlar/Görsel_Doktrini_v2.md` | **SVG çizim doktrini** (palet, çakışma-yasağı, marker tuzağı, gözle-denetim kuralı) |
-| `00_Şablonlar/Kaynak_Protokolü.md` | PubMed doğrulama iş akışı |
-| `.claude/skills/bolum-yaz/SKILL.md` | `/bolum-yaz` skill'i (bölüm üretim adımları) |
-| `build_book.py` | Tek dosyalık HTML kitabı üretir |
-| `build_assets/mermaid.min.js` | Offline Mermaid render (repoda gömülü) |
-| `Genetik_Hastalık_Mekanizmaları.html` | **Derlenmiş kitap** (paylaşılabilir çıktı) |
+2 Ağustos 2026 tarihli editöryal karar görüşmesinde aşağıdaki hedefler onaylandı;
+bu maddelerin dosya/bölüm düzeyindeki uygulaması henüz ayrı paketler hâlinde
+yapılacaktır:
+
+1. Önce **HTML + PDF değerlendirme sürümü**, bağımsız uzman incelemelerinden sonra
+   dijital ve baskıya hazır nihai sürüm üretilecek.
+2. Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari)
+   önce gelecek.
+3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak
+   hazırlanacak; mevcut yorum ve klinik sentez bölümleri 17 ve 18'e kayacak.
+4. Okuyucuya yönelik öz değerlendirme soruları bölüm sonlarından ayrı olarak
+   kitabın sonunda, bölüm bazında gruplanmış bir kısımda toplanacak; bölüm
+   sonlarında bu kısma bağlantı verilecek.
+5. Ayrıntılı üretim ve doğrulama günlükleri proje içinde korunacak, yayımlanan
+   kitapta yalnız kısa ve okuyucuya yönelik yöntem açıklaması bulunacak.
+6. Türkiye'ye özgü klinik uygulama eki mevcut yayın kapsamına alınmayacak; gelecekte
+   hazırlanması taahhüt edilmeyecek.
 
 ---
 
-## 🏗️ Kitabı derleme (build)
+## Araçlar arası devamlılık
 
-Kaynak `.md` dosyaları **asıldır**; paylaşılacak çıktı bunlardan üretilir:
+Proje Codex veya Claude ile sürdürülebilir. Kararlar yalnız sohbet bağlamında
+bırakılmaz; kalıcı kayıt sırası şöyledir:
+
+| Kayıt | İşlev |
+|---|---|
+| `README.md` | Projenin kısa güncel durumu ve başlangıç noktası |
+| `CLAUDE.md` | Bağlayıcı çalışma, bilimsel doğrulama ve devamlılık kuralları |
+| `Bölüm_00_İçindekiler_ve_İlerleme.md` | Canlı bölüm/görsel/kaynak envanteri ve yol haritası |
+| `Editor_Degerlendirme_Formu_Tur2.md` | Editöryal kararlar ve uygulanma durumu |
+| `Dogrulama_Kutugu.md` | İddia ve kaynak doğrulama geçmişi |
+| Git geçmişi | Her değişikliğin ne, neden ve nasıl yapıldığı |
+
+Her yeni oturumda bu belgeler ve `git status` okunmalıdır. Yapılmamış bir karar,
+belgelerde **“onaylandı — uygulanmadı”** olarak belirtilir; tamamlanmış gibi
+sunulmaz.
+
+---
+
+## Dosya haritası
+
+| Yol | İşlev |
+|---|---|
+| `Bölüm_01_*.md` – `Bölüm_17_*.md` | Mevcut bilimsel bölüm kaynakları |
+| `kitap/` | Künye, ön/arka madde, ekler, sözlük ve dizinler |
+| `assets/` | Aktif SVG görseller |
+| `00_Şablonlar/` | Bölüm, stil, görsel, kaynak ve doğrulama protokolleri |
+| `.claude/skills/bolum-yaz/SKILL.md` | Bölüm yazım iş akışı |
+| `build_book.py` | Markdown, SVG ve Mermaid içeriklerinden tek HTML üretir |
+| `build_assets/mermaid.min.js` | Çevrimdışı Mermaid çalışma zamanı |
+| `Genetik_Hastalık_Mekanizmaları.html` | Güncel üretilmiş kitap |
+| `_metin/` | Yerel doğrulama için kaynak kitap metin çıkarımları; yayıma girmez |
+| `_arşiv_2026-06-20/` | Canlı derlemeye girmeyen tarihsel yedek |
+
+---
+
+## Derleme
+
+Kaynak Markdown dosyaları asıldır. Güncel HTML kitap:
+
 ```bash
 python3 build_book.py
 ```
-Kök dizinde tek dosyalık, kendi kendine yeten `Genetik_Hastalık_Mekanizmaları.html` üretir
-(tüm SVG'ler inline, Mermaid'ler offline render, kapak + otomatik içindekiler + textbook CSS dahil).
-**PDF için:** HTML'i tarayıcıda aç → Yazdır → "PDF olarak kaydet".
 
-> Her bölüm bitiminde: öz-denetim + `Bölüm_00` güncelle + `python3 build_book.py` çalıştır.
+komutuyla üretilir. PDF, HTML'nin tarayıcıdan yazdırılmasıyla hazırlanır. Nihai
+PDF/baskı kalite kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
 
 ---
 
-## ⚠️ Bozulmadan devam için altın kurallar (özet — tamamı `CLAUDE.md`'de)
+## Çalışma ve Git protokolü
 
-1. **Anlatı (paragraf) önce** — madde listesi bir kavramı açıklamaz.
-2. **Textbook derinliği**, özet değil.
-3. **Kaynak uydurma YASAK** — her iddia PubMed MCP ile doğrulanmış PMID + DOI'ye dayanır.
-4. **Görsel bol** — bölüm başına ≥3 SVG + ≥2 Mermaid; v2 doktrini (`Görsel_Doktrini_v2.md`).
-5. **Standart 10-başlık formatı** her bölümde eksiksiz.
-6. Her bölüm sonunda `Bölüm_00`'ı güncelle + kitabı yeniden derle.
+1. Çalışmaya başlamadan önce `git status`, aktif dal ve son commit doğrulanır.
+2. Değişiklikler küçük, tek amaçlı paketlere ayrılır.
+3. Kullanıcı onayı olmadan kapsam genişletilmez.
+4. Stage, commit ve push birbirinden ayrı yetkilendirilir.
+5. Commit açıklaması **ne değişti, neden değişti ve nasıl doğrulandı** sorularını
+   yanıtlar.
+6. İlgili durum belgesi aynı paket içinde güncellenir; kararlar yalnız sohbet
+   geçmişine bırakılmaz.
+7. Aynı çalışma kopyasında Codex ve Claude eş zamanlı değişiklik yapmaz; devralan
+   araç önce Git durumunu ve yukarıdaki kalıcı kayıtları okur.
 
----
-
-## 💾 Yedekleme / senkron alışkanlığı
-
-Her önemli ilerlemeden sonra (yeni bölüm, düzeltme) değişiklikleri GitHub'a gönder.
-
-**GitHub Desktop ile (önerilen):**
-1. Uygulamayı aç → değişiklikler sol panelde otomatik görünür.
-2. Altta **Summary** kutusuna kısa bir not yaz (ör. "Bölüm 11 tamamlandı").
-3. **Commit to main** → sonra sağ üstte **Push origin**.
-
-**Terminal ile (alternatif):**
-```bash
-git add -A && git commit -m "Bölüm NN tamamlandı" && git push
-```
-
-**Diğer PC'ye geçerken:** çalışmaya başlamadan önce **Fetch/Pull** (Desktop'ta "Pull origin",
-terminalde `git pull`) yap ki en güncel hâli alasın. Böylece hangi PC'de olursan ol hiçbir emek kaybolmaz.
-
-> ⚠️ **Altın kural:** Aynı anda iki PC'de değişiklik yapıp ikisinden de push etme; önce push et,
-> diğer PC'de önce pull et. Bu, çakışmaları (merge conflict) tümüyle önler.
+Sonraki uygulama sırası: **karar kaydı → düşük riskli teknik temizlik → bilimsel ve
+yapısal paketler → bağımsız uzman incelemesi → yayın kapanışı**.

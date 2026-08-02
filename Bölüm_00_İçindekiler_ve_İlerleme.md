@@ -4,6 +4,25 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 
 ---
 
+## 0. Yayın öncesi durum ve onaylanan hedef (02.08.2026)
+
+**Mevcut uygulanmış durum:** Kitap gövdesi 17 bölümdür; bölüm dosyaları, çapraz göndermeler, şekil/tablo/algoritma numaraları ve güncel HTML henüz bu sırayı kullanır. Son güvenli başlangıç commit'i `599a12e`, yerel etiketi `pre-editorial-round-2`'dir.
+
+**Onaylanan fakat henüz uygulanmayan hedef:**
+
+1. Önce HTML + PDF değerlendirme sürümü, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
+2. Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari) önceye alınacak.
+3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak yazılacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
+4. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bu kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak.
+5. Ayrıntılı üretim/doğrulama günlükleri proje kayıtlarında korunacak, yayımlanan kitapta yalnız kısa okuyucu yöntemi bulunacak.
+6. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
+
+**Hedef kitle kararı:** Birincil hedef; tıbbi genetik ve çocuk genetiği hekimleri/eğitim alanlar, klinik genomik ve varyant yorumlama uzmanları, tıbbi biyoloji uzmanları/araştırmacıları ve moleküler genetik tanı laboratuvarı ekipleridir. Pediatri hekimleri, moleküler biyoloji ve genetik alanında eğitim alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir.
+
+Bu kararların ayrıntısı ve uygulama durumu `Editor_Degerlendirme_Formu_Tur2.md` içindedir. Bir iş yalnız onaylandığı için tamamlanmış sayılmaz; aşağıdaki envanter, uygulanmış dosya durumunu göstermeye devam eder.
+
+---
+
 ## 1. İçindekiler ve ilerleme durumu
 
 | # | Bölüm | Dosya | Durum | Görsel | Kaynak (doğrulanmış) |
@@ -26,7 +45,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 | 15 | Aynı gen → farklı hastalık | `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 32/32 |
 | 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 2 Mermaid | 25/25 |
 | 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
-| — | **Final pass** (birleştirme/standardizasyon) | `Önsöz.md` + `build_book.py` | ✅ Tamam | — | 114 (toplu kaynakça) |
+| — | **Önceki final pass** (birleştirme/standardizasyon) | `kitap/03_Onsoz.md` + `build_book.py` | ✅ Tamam | — | 153 benzersiz PMID (güncel) |
 
 Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
@@ -292,25 +311,27 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 8 | İçindekiler | *(build üretir)* | ✅ |
 | 9 | Şekiller listesi (64) | *(build üretir)* | ✅ |
 | 10 | Algoritmalar listesi (49) | *(build üretir)* | ✅ |
-| 11 | Tablolar listesi (70) | *(build üretir)* | ✅ |
+| 11 | Tablolar listesi (72; güncel build eşleşmesi) | *(build üretir)* | ✅ |
 | 12 | Kısaltmalar | `kitap/06_Kisaltmalar.md` | ✅ |
 | 13 | Terminoloji ve yazım kuralları | `kitap/07_Terminoloji_ve_Yazim_Kurallari.md` | ✅ (HGVS/HGNC/ISCN dahil) |
-| 14 | **Kısım I–VI + 17 bölüm** | `Bölüm_NN_*.md` | ✅ |
+| 14 | **Kısım I–VI + mevcut 17 bölüm** | `Bölüm_NN_*.md` | ✅ |
 | 15 | Ekler (A–D) | `kitap/20_Ekler.md` | ✅ |
 | 16 | Sözlük (~105 terim) | `kitap/21_Sozluk.md` | ✅ |
-| 17 | Toplu kaynakça (114) | *(build üretir)* | ✅ |
+| 17 | Toplu kaynakça (153 benzersiz PMID) | *(build üretir)* | ✅ |
 | 18 | Gen dizini (79) | `kitap/22_Gen_Dizini.md` | ✅ |
 | 19 | Hastalık dizini (59) | `kitap/23_Hastalik_Dizini.md` | ✅ |
 | 20 | Yazar özgeçmişi | `kitap/24_Ozgecmis.md` | ✍️ şablon |
 | 21 | Arka kapak | `kitap/25_Arka_Kapak.md` | ✅ (künye satırı ✍️) |
 
-**Kısım yapısı:** I — Çerçeve (1) · II — Protein düzeyinde mekanizmalar (2–6) · III — Transkript ve genom yapısı (7–9) · IV — Epigenetik, organel ve mozaiklik (10–12) · V — Genomik bağlam ve karmaşık mimari (13–15) · VI — Yorum ve klinik sentez (16–17).
+**Mevcut kısım yapısı:** I — Çerçeve (1) · II — Protein düzeyinde mekanizmalar (2–6) · III — Transkript ve genom yapısı (7–9) · IV — Epigenetik, organel ve mozaiklik (10–12) · V — Genomik bağlam ve karmaşık mimari (13–15) · VI — Yorum ve klinik sentez (16–17).
+
+**Onaylanan hedef kısım yapısı (henüz uygulanmadı):** Bölüm 13 kodlamayan/düzenleyici varyantlar · Bölüm 14 alelik seri · Bölüm 15 digenik/oligogenik/değiştirici mimari · Bölüm 16 kalıtsal kanser yatkınlığı ve ikinci vuruş · Bölüm 17 ACMG/ClinGen kanıt sentezi · Bölüm 18 klinik sentez. Kitabın sonunda `kitap/19_Oz_Degerlendirme.md` hedeflenir; dosya uygulama paketinde oluşturulacaktır.
 
 **Numaralandırma:** Şekil/Algoritma/Tablo numaraları `bölüm.sıra` biçimindedir ve metinde ilk anıldıkları sıraya göre verilir. Bölüm 1–8'in eski global şekil numaraları (Şekil 1–29) bu aşamada bölüm.sıra biçimine çevrildi; SVG'lerin iç başlıkları da eşitlendi.
 
 **Dizinler:** Kitap tek dosya HTML olarak üretildiğinden sayfa numarası yerine **bölüm bağlantısı** kullanılmıştır.
 
-**Kalan iş:** yalnız ✍️ işaretli kişisel/künye bilgileri.
+**Kalan iş:** Onaylanan editöryal kararların kaydı ve uygulanması; düşük riskli teknik temizlik; bölüm 14–15 sıra değişimi; yeni kanser yatkınlığı/ikinci vuruş bölümü; öz değerlendirme kısmı; diğer onaylı bilimsel paketler; bağımsız insan değerlendirmesi; ✍️ kişisel/künye bilgileri; nihai HTML/PDF ve baskı kalite kontrolü.
 
 ---
 
@@ -320,7 +341,7 @@ Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon 
 
 | # | İş | Sonuç |
 |---|----|-------|
-| 1 | **Kaynakça standardizasyonu** | 114 benzersiz kaynağın 19'unda bölümler arası künye farkı vardı → tümü tek biçime indirildi (dergi tam adı, en-dash sayfa aralığı, tam başlık, yazar listesi kuralı). 8 içerik düzeltmesi yapıldı (Berecki başlığında eksik *SCN2A*, Webster ve Weinstein yazar listeleri, Walker'da "de la Hoya", Richards/Riggs kısaltılmış başlıkları, Jaganathan/Collins sayfa ekleri). |
+| 1 | **Kaynakça standardizasyonu** | Bu tarihsel tur sırasında 114 benzersiz kaynağın 19'unda bölümler arası künye farkı vardı → tümü tek biçime indirildi. Sonraki uzman turlarıyla güncel kütük 153 benzersiz PMID'ye ulaştı. 8 içerik düzeltmesi yapıldı (Berecki başlığında eksik *SCN2A*, Webster ve Weinstein yazar listeleri, Walker'da "de la Hoya", Richards/Riggs kısaltılmış başlıkları, Jaganathan/Collins sayfa ekleri). |
 | 2 | **Terminoloji birleştirme** | `nonsense`, `hotspot`, `eksik penetrans`, `dizileme`, `dominant-negatif` sabitlendi; Latince ifade kuralı tanımlandı (de novo düz; *in vitro*/*in silico*/*in cis*/*in trans* italik). 23 düzeltme. |
 | 3 | **Görsel envanteri** | 3 yetim SVG silindi; `assets/` içindeki 64 SVG'nin tamamı kullanılıyor, eksik referans yok. |
 | 4 | **Çapraz gönderme denetimi** | Şekil atıfları (bölüm içi) ve Bölüm N göndermeleri tarandı; geçersiz gönderme yok. 17 bölümün tamamında standart 10 başlık eksiksiz. |
@@ -329,14 +350,20 @@ Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon 
 | 7 | **Kapak ve içindekiler** | Kapağa bölüm/şekil/kaynak sayısı eklendi; içindekilerdeki "Bölüm N · Bölüm N — …" tekrarı giderildi; önsöz ve toplu kaynakça içindekilere alındı. |
 | 8 | **Stil rehberi** | Alınan kararlar `00_Şablonlar/Stil_Rehberi.md` §4–5'e bağlayıcı kural olarak işlendi. |
 
-**Son durum:** 17 bölüm · 64 şekil · 49 Mermaid diyagramı (49/49 hatasız render) · 114 doğrulanmış kaynak.
+**Bu kilometre taşının güncel envanteri:** 17 uygulanmış bölüm · 64 şekil · 49 Mermaid diyagramı · 153 benzersiz PMID. Onaylanan 18 bölümlük hedef henüz uygulanmamıştır.
 
 ---
 
 ## 6. Sonraki adım
 
-- **Sıradaki adım:** **Final pass** — kitabın 17 bölümü tamamlandı. Yapılacaklar: (1) terminoloji standardizasyonu ve tekrar azaltma; (2) atıf biçimi birleştirme (aşağıdaki Webster notu); (3) `assets/` yetim dosya temizliği ve şekil numaralandırmasının gözden geçirilmesi (aşağıdaki arşiv notu); (4) global kaynakça üretimi (tüm bölümlerin birleşik listesi, PMID'ye göre tekilleştirilmiş); (5) bölümler arası çapraz gönderme kontrolü; (6) kapak, önsöz ve nasıl-okunmalı sayfası; (7) son build + PDF çıktısı.
-- Not: Bölüm 17'de kitabın yönü tersine çevrildi (hastadan mekanizmaya): 12 klinik ipucunun mekanizmaya çevrilmesi (Şekil 17.1), ekzomun altı kör noktası ve yeniden analizin getirisi (Şekil 17.2; Clark 2018, Wright 2018, Smedley 2021), uçtan uca omurga (Şekil 17.3) ve sekiz pediatrik senaryo (Şekil 17.4) ile bütün bölümler hastanın başında tekrar edildi.
-- Not: Bölüm 16'da ACMG/AMP çerçevesi bir "kontrol listesi" olarak değil **kanıt tartma dili** olarak kuruldu: kanıt güçleri → olasılık oranları → toplanabilir puanlar → beş sınıf zinciri (Tavtigian 2018, 2020), kriter ailelerinin mekanizmayla bağı (PVS1 kapısı; PM2/BS1 frekans eşiğinin hastalığa göre hesaplanması; PP3/BP4 kalibrasyonu; PS3'ün mekanizmayı ölçme koşulu; segregasyon ve de novo kanıtı) ve mekanizma × kriter matrisi (Şekil 16.2) ile kitabın 2–15. bölümleri tek tabloda toplandı. VUS, "eksik-kanıt durumu" olarak tanımlandı ve çözme haritası verildi (Şekil 16.4). **Bölüm 17 için köprü:** Bölüm 16 varyanttan başlayıp yoruma gidiyordu; Bölüm 17 ters yönde çalışacak — hastadan başlayıp mekanizmaya, oradan teste ve yoruma giden uçtan uca klinik senaryolarla kitabın tamamı tekrar edilecek.
-- Not (Bölüm 15): alelik serinin altı ekseni (mekanizma yönü, rezidüel işlev, varyant konumu/domain-izoform, kalıtım modu, germline–mozaik zamanlaması, ebeveyn kökeni/genetik zemin) sistematik hâle getirildi; *FGFR3*, *LMNA*/HGPS, *ATP7A*, *COL1A1*, *GNAS*, *PAH*, *DMD* örnekleriyle Bölüm 2–14 arasındaki mekanizma bölümleri tek lokusta birleştirildi. Yorumlama tarafında **"küre edilen birim gen değil, gen–kalıtım–mekanizma üçlüsüdür"** ilkesi kuruldu; PVS1, PS1, PM5, PM1 ve PP4'ün hastalık-özgü uyarlanması ile ClinGen ön-küreleme (birleştirme/ayırma) ölçütleri tanıtıldı. **Bölüm 16 için köprü:** Bölüm 15'in bu ilkesi, Bölüm 16'nın çıkış noktasıdır — ACMG kriterlerinin tamamı "hangi hastalık için?" sorusuyla birlikte ele alınacak ve kitabın bütün mekanizma bölümleri tek bir yorumlama matrisinde toplanacaktır.
-- ⚠️ **Final pass notu (atıf biçimi):** PMID 8754806 kaynağı Bölüm 4'te "Webster ve Donoghue (1996)", Bölüm 15'te ise gerçek yazar listesine uygun olarak "Webster ve ark. (1996)" biçiminde anılmaktadır (makalenin dört yazarı vardır: Webster MK, D'Avis PY, Robertson SC, Donoghue DJ). Final pass'te tek biçime indirilmelidir.
+Uygulama sırası kullanıcı tarafından şöyle onaylandı:
+
+1. **Karar kaydı:** `README.md`, `CLAUDE.md`, bu dosya ve `Editor_Degerlendirme_Formu_Tur2.md` aynı karar setini taşıyacak.
+2. **Düşük riskli teknik temizlik:** eski durum/sayım metinleri, SVG terminolojisi ve karakter sorunları, tablo numaraları/listeleme, mutlak yollar ve build hata davranışı.
+3. **Bilimsel/yapısal paketler:** Her biri ayrı onayla; 14–15 sırası, anöploidi, digenik kanıt listesi, örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler.
+4. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
+5. **Yayın kapanışı:** Künye alanları, son HTML/PDF, görsel sayfa denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
+
+**Bir sonraki uygulama paketi:** Düşük riskli teknik temizlik için dosya bazlı kapsam kullanıcıya sunulacak; açık onay alınmadan başlanmayacak.
+
+**Araçlar arası devir:** Codex veya Claude yeni bir oturuma başladığında önce `git status`, `README.md`, `CLAUDE.md`, bu bölüm ve `Editor_Degerlendirme_Formu_Tur2.md` okunur. Kararlar yalnız sohbet geçmişinde tutulmaz; her paket ilgili durum belgesini ve doğrulama kaydını günceller. Stage, commit ve push ayrı kullanıcı yetkisi gerektirir.
