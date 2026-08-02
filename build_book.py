@@ -47,7 +47,7 @@ PARTS = [
     ("IV", "Epigenetik, Organel ve Mozaiklik",
      "Dizide olmayan kusurlar: damga, ikinci genom ve hücre soyları", [10, 11, 12]),
     ("V", "Genomik Bağlam ve Karmaşık Mimari",
-     "Kodlamayan genom, çok-lokuslu kalıtım ve alelik seriler", [13, 14, 15]),
+     "Kodlamayan genom, alelik seriler ve çok-lokuslu kalıtım", [13, 14, 15]),
     ("VI", "Yorum ve Klinik Sentez",
      "Mekanizmadan varyant sınıflandırmasına, oradan hastanın başına", [16, 17]),
 ]

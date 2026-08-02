@@ -29,7 +29,7 @@ Kitap, dört okuyucu grubunu aynı anda gözeterek yazıldı:
 Zamanı kısıtlı okuyucular için üç kısayol vardır:
 
 - **Klinik kısayol:** Bölüm 1 → Bölüm 17 → oradan senaryoların gönderdiği bölümler.
-- **Laboratuvar kısayolu:** Bölüm 2 → Bölüm 16 → Bölüm 15 → ilgilendiğiniz mekanizma bölümü.
+- **Laboratuvar kısayolu:** Bölüm 2 → Bölüm 16 → Bölüm 14 → ilgilendiğiniz mekanizma bölümü.
 - **Sınav kısayolu:** her bölümün başındaki *çekirdek tez* ve *öğrenme hedefleri*, sonundaki *öz-denetim tablosu* ve *sık yapılan hatalar* kutusu.
 
 ## Her bölümün yapısı

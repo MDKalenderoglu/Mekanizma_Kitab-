@@ -63,7 +63,7 @@ Son bir uyarı: **PVS1 her zaman 8 puan değildir.** ClinGen'in PVS1 karar ağac
 
 **Üçüncüsü ve bu bölümün asıl konusu: her kriterin uygulanabilirliği ve gücü, mekanizmaya bağlıdır.** Kriterin adı sabittir; anlamı değildir.
 
-Son bir kavramsal ön koşul: varyant sınıflandırması, **gen–hastalık ilişkisinin geçerli olduğu varsayımı üzerine** kurulur. Bölüm 15'te gördüğümüz gibi ClinGen bu ilişkiyi ayrı bir çerçeveyle puanlar ve "Kesin"den "Çelişkili"ye uzanan bir ölçekte sınıflar (Strande ve ark., 2017); değerlendirilecek hastalık varlığının tanımlanması ise ön-küreleme aşamasında yapılır (Thaxton ve ark., 2022). İlişkinin kendisi zayıfsa, o gendeki hiçbir varyant güvenle patojenik ilan edilemez — kanıtın temeli çürüktür (MacArthur ve ark., 2014).
+Son bir kavramsal ön koşul: varyant sınıflandırması, **gen–hastalık ilişkisinin geçerli olduğu varsayımı üzerine** kurulur. Bölüm 14'te gördüğümüz gibi ClinGen bu ilişkiyi ayrı bir çerçeveyle puanlar ve "Kesin"den "Çelişkili"ye uzanan bir ölçekte sınıflar (Strande ve ark., 2017); değerlendirilecek hastalık varlığının tanımlanması ise ön-küreleme aşamasında yapılır (Thaxton ve ark., 2022). İlişkinin kendisi zayıfsa, o gendeki hiçbir varyant güvenle patojenik ilan edilemez — kanıtın temeli çürüktür (MacArthur ve ark., 2014).
 
 **Tablo 16.1 — Varyant yorumlamanın temel kavramları**
 
@@ -135,7 +135,7 @@ PVS1, çerçevenin tek "çok güçlü" patojenik kriteridir ve adı yanıltıcı
 
 ![Şekil 16.2 — PVS1: önce mekanizma kapısı, sonra güç basamakları](assets/sekil_56_pvs1_mekanizma_kapisi.svg)
 
-Kapı sorusu bölümün özetidir: *işlev kaybı, değerlendirilen gen–hastalık ilişkisinin bilinen mekanizması mı?* Bölüm 15'te gördüğümüz gibi bu soru gen düzeyinde değil, **gen–hastalık üçlüsü** düzeyinde sorulur: *RET*'te bir null varyant Hirschsprung hastalığı için mekanizmaya uygundur, MEN2 için değildir. Kapı kapalıysa basamaklara hiç bakılmaz.
+Kapı sorusu bölümün özetidir: *işlev kaybı, değerlendirilen gen–hastalık ilişkisinin bilinen mekanizması mı?* Bölüm 14'te gördüğümüz gibi bu soru gen düzeyinde değil, **gen–hastalık üçlüsü** düzeyinde sorulur: *RET*'te bir null varyant Hirschsprung hastalığı için mekanizmaya uygundur, MEN2 için değildir. Kapı kapalıysa basamaklara hiç bakılmaz.
 
 Kapı açıksa varyantın gen içindeki konumu gücü belirler. NMD'ye giren erken sonlanma kodonları ve tüm gen delesyonları tam güçle değerlendirilirken (Bölüm 2), NMD'den kaçan kesilmeler, son ekzondaki küçük kayıplar, alternatif başlangıç kodonuyla kısmen kurtarılabilen varyantlar ve klinik olarak ilgisiz izoformları etkileyen değişimler için güç kademeli olarak düşürülür. Splice bölgesi varyantları ise doğrudan "null" sayılmaz: önce öngörülen transkript sonucu (ekzon atlanması, intron tutulumu, kriptik bölge kullanımı), sonra bunun okuma çerçevesine ve NMD'ye etkisi belirlenir; PVS1'in gücü buna göre ayarlanır ve RNA verisi mevcutsa hem bu basamak netleşir hem PS3 devreye girebilir (Walker ve ark., 2023).
 
@@ -281,7 +281,7 @@ Bayes çerçevesinin en önemli varsayımı, kanıt parçalarının **birbirinde
 
 Çerçeve, hem patojenite hem benignlik lehine kanıtın bir arada bulunabileceğini kabul eder ve bu durumların olası patojenik, olası benign veya VUS sonucu verebileceği gösterilmiştir (Tavtigian ve ark., 2018). Uygulamadaki eğilim ise karşıt kanıtı görmezden gelmektir — özellikle fenotip güçlü olduğunda. Oysa karşıt kanıt, toplam ağırlıktan düşülmelidir; aksi hâlde rapor, elindeki veriden daha kesin görünür.
 
-> **🟦 Klinikte dikkat — "Fenotip çok uyuyor, o hâlde patojenik olmalı" refleksi:** Fenotip uyumu PP4 ile sınırlı ve destekleyici bir kanıttır; sınıflandırmayı tek başına taşıyamaz. Üstelik Bölüm 15'te gördüğümüz gibi, alelik seri taşıyan genlerde fenotip uyumu **hangi hastalık varlığının** değerlendirildiğini belirlemek için kullanılmalı, kanıtı büyütmek için değil. Fenotibin güçlü olması, eksik kanıtın yerine geçmez; yalnızca hangi ek veriyi üretmeniz gerektiğini söyler.
+> **🟦 Klinikte dikkat — "Fenotip çok uyuyor, o hâlde patojenik olmalı" refleksi:** Fenotip uyumu PP4 ile sınırlı ve destekleyici bir kanıttır; sınıflandırmayı tek başına taşıyamaz. Üstelik Bölüm 14'te gördüğümüz gibi, alelik seri taşıyan genlerde fenotip uyumu **hangi hastalık varlığının** değerlendirildiğini belirlemek için kullanılmalı, kanıtı büyütmek için değil. Fenotibin güçlü olması, eksik kanıtın yerine geçmez; yalnızca hangi ek veriyi üretmeniz gerektiğini söyler.
 
 ---
 
@@ -408,9 +408,9 @@ flowchart TD
 
 15. **Ellingford JM, Ahn JW, Bagnall RD, ve ark. (2022).** Recommendations for clinical interpretation of variants found in non-coding regions of the genome. *Genome Medicine* 14(1):73. **PMID: 35850704** · DOI: [10.1186/s13073-022-01073-3](https://doi.org/10.1186/s13073-022-01073-3) — *Kullanım amacı: Kodlamayan varyantlarda çerçevenin uyarlanması; element ve hedef gen tanımı şartı. Kaynak kütüğünden yeniden kullanılmıştır.*
 
-16. **Strande NT, Riggs ER, Buchanan AH, ve ark. (2017).** Evaluating the Clinical Validity of Gene-Disease Associations: An Evidence-Based Framework Developed by the Clinical Genome Resource. *American Journal of Human Genetics* 100(6):895–906. **PMID: 28552198** · DOI: [10.1016/j.ajhg.2017.04.015](https://doi.org/10.1016/j.ajhg.2017.04.015) — *Kullanım amacı: Sınıflandırmanın ön koşulu olarak gen–hastalık geçerliliği. Kaynak kütüğünden yeniden kullanılmıştır (Bölüm 15 köprüsü).*
+16. **Strande NT, Riggs ER, Buchanan AH, ve ark. (2017).** Evaluating the Clinical Validity of Gene-Disease Associations: An Evidence-Based Framework Developed by the Clinical Genome Resource. *American Journal of Human Genetics* 100(6):895–906. **PMID: 28552198** · DOI: [10.1016/j.ajhg.2017.04.015](https://doi.org/10.1016/j.ajhg.2017.04.015) — *Kullanım amacı: Sınıflandırmanın ön koşulu olarak gen–hastalık geçerliliği. Kaynak kütüğünden yeniden kullanılmıştır (Bölüm 14 köprüsü).*
 
-17. **Thaxton C, Goldstein J, DiStefano M, ve ark. (2022).** Lumping versus splitting: How to approach defining a disease to enable accurate genomic curation. *Cell Genomics* 2(5):100131. **PMID: 35754516** · DOI: [10.1016/j.xgen.2022.100131](https://doi.org/10.1016/j.xgen.2022.100131) — *Kullanım amacı: Değerlendirilecek hastalık varlığının tanımlanması (ön-küreleme). Kaynak kütüğünden yeniden kullanılmıştır (Bölüm 15 köprüsü).*
+17. **Thaxton C, Goldstein J, DiStefano M, ve ark. (2022).** Lumping versus splitting: How to approach defining a disease to enable accurate genomic curation. *Cell Genomics* 2(5):100131. **PMID: 35754516** · DOI: [10.1016/j.xgen.2022.100131](https://doi.org/10.1016/j.xgen.2022.100131) — *Kullanım amacı: Değerlendirilecek hastalık varlığının tanımlanması (ön-küreleme). Kaynak kütüğünden yeniden kullanılmıştır (Bölüm 14 köprüsü).*
 
 18. **MacArthur DG, Manolio TA, Dimmock DP, ve ark. (2014).** Guidelines for investigating causality of sequence variants in human disease. *Nature* 508(7497):469–476. **PMID: 24759409** · DOI: [10.1038/nature13127](https://doi.org/10.1038/nature13127) — *Kullanım amacı: Nedensellik iddiasının kanıt gücüne göre derecelendirilmesi. Kaynak kütüğünden yeniden kullanılmıştır.*
 

@@ -16,7 +16,7 @@ Bu formun yayın yönünü belirleyen maddeleri kullanıcıyla tek tek görüş�
 
 1. Önce HTML + PDF değerlendirme sürümü; bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm.
 2. Birincil hedef kitle: tıbbi genetik ve çocuk genetiği hekimleri/eğitim alanlar, klinik genomik ve varyant yorumlama uzmanları, tıbbi biyoloji uzmanları/araştırmacıları ve moleküler genetik tanı laboratuvarı ekipleri. İkincil hedef: pediatri hekimleri, moleküler biyoloji ve genetik alanında eğitim alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri.
-3. Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari) önceye alınacak.
+3. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e alınacak. **✅ 03.08.2026'da uygulandı.**
 4. Kalıtsal kanser yatkınlığı ve ikinci vuruş, mozaiklik içine yerleştirilmeyecek; bağımsız Bölüm 16 olacak. Mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
 5. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bağlantı verilecek; yanıt yaklaşımları sorulardan ayrı tutulacak.
 6. Ayrıntılı üretim/doğrulama günlükleri proje içinde korunacak; yayımlanan kitapta yalnız kısa, okuyucuya yönelik yöntem açıklaması bulunacak.
@@ -151,11 +151,11 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 <br>
 
-### C2 · Uzmanın "en zayıf bölüm" dediği Bölüm 14 için kanıt hiyerarşisi metin içinde, ayrı bir kutu değil
+### C2 · Uzmanın "en zayıf bölüm" dediği Bölüm 15 için kanıt hiyerarşisi metin içinde, ayrı bir kutu değil
 
-**Nerede:** `Bölüm_14_Digenik_Oligogenik_Modifier.md` · §6 · 🟦 kutusu
+**Nerede:** `Bölüm_15_Digenik_Oligogenik_Modifier.md` · §6 · 🟦 kutusu
 
-**Ne gördüm:** Uzman G3'te Bölüm 14'ü kitabın epistemik olarak en kırılgan bölümü ilan etti ve altı basamaklı bir **kanıt hiyerarşisi** istedi. Bölümde bu içeriğin neredeyse tamamı var (beş gereklilik + fonksiyonel ortak-etki modeli + "üç durumu ayırın" uyarısı), ama **numaralandırılmış bir kontrol listesi olarak değil**, bir 🟦 kutusunun içinde akan metin olarak. Uzmanın istediği "bir digenik iddiayı savunmadan önce şu altı basamağı geç" biçimi değil.
+**Ne gördüm:** Uzman G3'te bugün Bölüm 15 olan digenik/oligogenik bölümü kitabın epistemik olarak en kırılgan bölümü ilan etti ve altı basamaklı bir **kanıt hiyerarşisi** istedi. Bölümde bu içeriğin neredeyse tamamı var (beş gereklilik + fonksiyonel ortak-etki modeli + "üç durumu ayırın" uyarısı), ama **numaralandırılmış bir kontrol listesi olarak değil**, bir 🟦 kutusunun içinde akan metin olarak. Uzmanın istediği "bir digenik iddiayı savunmadan önce şu altı basamağı geç" biçimi değil.
 
 **Soru:** Bu içerik, §6'da numaralı bir **"Digenik iddia kontrol listesi"** kutusuna (veya Şekil 14.4'ün yanına bir Mermaid akışına) çevrilsin mi? İçerik yeni kaynak gerektirmez, yalnız biçim değişir.
 
@@ -198,7 +198,7 @@ Bunlar uzmanın istediği ama **sizin kararınızı beklediğim** kalemler. Kola
 
 | # | Uzman maddesi | Ne gerektirir | Karar |
 |---|---|---|---|
-| D1 | **F1(a)** — Bölüm 15 (Alelik seri), Bölüm 14'ten (Digenik) önce gelmeli | Dosya adları, iki bölümün numaraları, ~40 çapraz gönderme, kütükteki "kullanıldığı bölümler" sütunu, Ek B ve Şekil 16.3 satır sırası. Yapılabilir ama geniş tarama. | ☒ Yap ☐ Yapma — ayrı yapısal paket |
+| D1 | **F1(a)** — Alelik seri, digenik/oligogenik bölümden önce gelmeli | Dosya adları, iki bölümün numaraları, çapraz göndermeler, kütükteki "kullanıldığı bölümler" sütunu, Ek B ve Şekil 16.3 satır sırası. | ☒ Yapıldı — Bölüm 14–15 yapısal paketi, 03.08.2026 |
 | D2 | **F2** — "Kanser yatkınlığı ve somatik ikinci vuruş" bölümü | Tam bir textbook bölümü: *RB1, TP53, DICER1, APC*, MMR, *TSC1/2*, *NF1* üzerinden two-hit, LOH, doku seçiciliği, mozaiklik kesişimi + PubMed doğrulamalı kaynaklar + SVG/Mermaid. Uzun iş. | ☒ Yap ☐ Yapma — bağımsız Bölüm 16; mozaiklik içine yerleştirilmez |
 | D3 | **F3** — Zorunlu 10 başlık → 6 sabit çekirdek + esnek | `CLAUDE.md` ve şablon değişir; mevcut bölümler olduğu gibi kalabilir. Yalnız **bundan sonra** yazılacak bölümleri etkiler. | ☐ Yap ☐ Yapma |
 | D4 | **F5** — Türkiye eki (sürümlendirilmiş) | Sabit içerik (akrabalık, endogami, kurucu varyant, ROH, resesif test stratejisi) + değişken içerik (SGK, test menüsü) ayrı; tarih ve sürüm numaralı. | ☐ Yap ☒ Yapma — mevcut kapsam dışında; gelecek sürüm taahhüdü yok |

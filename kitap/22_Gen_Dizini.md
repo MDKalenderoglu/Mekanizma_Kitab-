@@ -5,54 +5,54 @@
 
 **A**
 
-- *AGTR2* — Bölüm [14](#bolum-14)
+- *AGTR2* — Bölüm [15](#bolum-15)
 - *AKT1* — Bölüm [12](#bolum-12)
-- *APIP* — Bölüm [14](#bolum-14)
+- *APIP* — Bölüm [15](#bolum-15)
 - *ASXL1* — Bölüm [12](#bolum-12)
-- *ATP7A* — Bölüm [15](#bolum-15)
+- *ATP7A* — Bölüm [14](#bolum-14)
 
 **B**
 
-- *BBS2* — Bölüm [14](#bolum-14)
-- *BBS6* — Bölüm [14](#bolum-14)
+- *BBS2* — Bölüm [15](#bolum-15)
+- *BBS6* — Bölüm [15](#bolum-15)
 
 **C**
 
 - *CDKN1C* — Bölüm [10](#bolum-10)
 - *CFTR* — Bölüm [1](#bolum-1) · [2](#bolum-2) · [7](#bolum-7) · [14](#bolum-14) · [15](#bolum-15) · [16](#bolum-16)
-- *COL1A1* — Bölüm [5](#bolum-5) · [15](#bolum-15)
-- *COL1A2* — Bölüm [5](#bolum-5) · [15](#bolum-15)
-- *COL4A3* — Bölüm [15](#bolum-15)
-- *COL4A4* — Bölüm [15](#bolum-15)
+- *COL1A1* — Bölüm [5](#bolum-5) · [14](#bolum-14)
+- *COL1A2* — Bölüm [5](#bolum-5) · [14](#bolum-14)
+- *COL4A3* — Bölüm [14](#bolum-14)
+- *COL4A4* — Bölüm [14](#bolum-14)
 - *C9orf72* — Bölüm [9](#bolum-9)
 
 **D**
 
 - *DEPDC5* — Bölüm [12](#bolum-12)
 - *DGUOK* — Bölüm [11](#bolum-11)
-- *DMD* — Bölüm [1](#bolum-1) · [2](#bolum-2) · [7](#bolum-7) · [15](#bolum-15)
+- *DMD* — Bölüm [1](#bolum-1) · [2](#bolum-2) · [7](#bolum-7) · [14](#bolum-14)
 - *DMPK* — Bölüm [9](#bolum-9)
 - *DNMT3A* — Bölüm [12](#bolum-12)
 
 **E**
 
-- *EHF* — Bölüm [14](#bolum-14)
+- *EHF* — Bölüm [15](#bolum-15)
 
 **F**
 
-- *FGFR3* — Bölüm [4](#bolum-4) · [6](#bolum-6) · [15](#bolum-15)
+- *FGFR3* — Bölüm [4](#bolum-4) · [6](#bolum-6) · [14](#bolum-14)
 - *FMR1* — Bölüm [9](#bolum-9) · [10](#bolum-10)
 - *FTO* — Bölüm [13](#bolum-13)
 - *FXN* — Bölüm [9](#bolum-9)
 
 **G**
 
-- *GNAS* — Bölüm [10](#bolum-10) · [12](#bolum-12) · [15](#bolum-15)
+- *GNAS* — Bölüm [10](#bolum-10) · [12](#bolum-12) · [14](#bolum-14)
 - *GNAQ* — Bölüm [12](#bolum-12)
 
 **H**
 
-- *HLA* — Bölüm [14](#bolum-14)
+- *HLA* — Bölüm [15](#bolum-15)
 - *HTT* — Bölüm [9](#bolum-9)
 - *H19* — Bölüm [10](#bolum-10)
 
@@ -66,7 +66,7 @@
 **L**
 
 - *LMBR1* — Bölüm [13](#bolum-13)
-- *LMNA* — Bölüm [15](#bolum-15)
+- *LMNA* — Bölüm [14](#bolum-14)
 
 **M**
 
@@ -74,8 +74,8 @@
 - *MPV17* — Bölüm [11](#bolum-11)
 - *MT-ATP6* — Bölüm [11](#bolum-11)
 - *MT-TL1* — Bölüm [11](#bolum-11)
-- *MUC20* — Bölüm [14](#bolum-14)
-- *MUC4* — Bölüm [14](#bolum-14)
+- *MUC20* — Bölüm [15](#bolum-15)
+- *MUC4* — Bölüm [15](#bolum-15)
 
 **N**
 
@@ -91,8 +91,8 @@
 
 **P**
 
-- *PAH* — Bölüm [2](#bolum-2) · [15](#bolum-15)
-- *PAX6* — Bölüm [3](#bolum-3) · [15](#bolum-15)
+- *PAH* — Bölüm [2](#bolum-2) · [14](#bolum-14)
+- *PAX6* — Bölüm [3](#bolum-3) · [14](#bolum-14)
 - *PDHA1* — Bölüm [11](#bolum-11)
 - *PIK3CA* — Bölüm [12](#bolum-12)
 - *PMP22* — Bölüm [3](#bolum-3) · [4](#bolum-4) · [8](#bolum-8) · [13](#bolum-13)
@@ -103,19 +103,19 @@
 **R**
 
 - *RET* — Bölüm [4](#bolum-4) · [8](#bolum-8) · [14](#bolum-14) · [15](#bolum-15) · [16](#bolum-16)
-- *ROM1* — Bölüm [14](#bolum-14)
+- *ROM1* — Bölüm [15](#bolum-15)
 - *RRM2B* — Bölüm [11](#bolum-11)
-- *RYR1* — Bölüm [15](#bolum-15)
+- *RYR1* — Bölüm [14](#bolum-14)
 
 **S**
 
-- *SCN2A* — Bölüm [4](#bolum-4) · [8](#bolum-8) · [15](#bolum-15) · [16](#bolum-16) · [17](#bolum-17)
+- *SCN2A* — Bölüm [4](#bolum-4) · [8](#bolum-8) · [14](#bolum-14) · [16](#bolum-16) · [17](#bolum-17)
 - *SDHA* — Bölüm [11](#bolum-11)
 - *SHH* — Bölüm [13](#bolum-13)
-- *SLC6A14* — Bölüm [14](#bolum-14)
-- *SLC9A3* — Bölüm [14](#bolum-14)
-- *SMN1* — Bölüm [7](#bolum-7) · [14](#bolum-14) · [17](#bolum-17)
-- *SMN2* — Bölüm [7](#bolum-7) · [14](#bolum-14) · [17](#bolum-17)
+- *SLC6A14* — Bölüm [15](#bolum-15)
+- *SLC9A3* — Bölüm [15](#bolum-15)
+- *SMN1* — Bölüm [7](#bolum-7) · [15](#bolum-15) · [17](#bolum-17)
+- *SMN2* — Bölüm [7](#bolum-7) · [15](#bolum-15) · [17](#bolum-17)
 - *SNORD116* — Bölüm [10](#bolum-10)
 - *SNRPN* — Bölüm [10](#bolum-10)
 - *SUCLA2* — Bölüm [11](#bolum-11)

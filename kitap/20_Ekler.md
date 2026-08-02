@@ -13,7 +13,7 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | Kod | Kanıt | Güç | Kitapta nerede tartışıldı |
 |---|---|---|---|
 | PVS1 | İşlev kaybı varyantı (null) — **mekanizma koşuluna bağlı** | Çok güçlü | Bölüm 2, 16 |
-| PS1 | Daha önce patojen bildirilmiş varyantla **aynı** amino asit değişimi | Güçlü | Bölüm 15, 16 |
+| PS1 | Daha önce patojen bildirilmiş varyantla **aynı** amino asit değişimi | Güçlü | Bölüm 14, 16 |
 | PS2 | Doğrulanmış ebeveynlikle de novo | Güçlü | Bölüm 12, 16 |
 | PS3 | İşlevsel analizde zararlı etki (analiz doğrulanmışsa) | Güçlü | Bölüm 4, 16 |
 | PS4 | Vakalarda kontrollere göre anlamlı birikim | Güçlü | Bölüm 16 |
@@ -21,11 +21,11 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | PM2 | Popülasyon veri tabanlarında yok/çok nadir | Orta* | Bölüm 16 |
 | PM3 | Resesif hastalıkta patojen varyantla *in trans* | Orta | Bölüm 16 |
 | PM4 | Çerçeveyi koruyan uzunluk değişimi | Orta | Bölüm 2 |
-| PM5 | Aynı pozisyonda **farklı** amino asit değişimi patojen | Orta | Bölüm 15, 16 |
+| PM5 | Aynı pozisyonda **farklı** amino asit değişimi patojen | Orta | Bölüm 14, 16 |
 | PM6 | Ebeveynliği doğrulanmamış de novo | Orta | Bölüm 12, 16 |
-| PP1 | Ailede hastalıkla birlikte ayrışma | Destekleyici† | Bölüm 14, 16 |
+| PP1 | Ailede hastalıkla birlikte ayrışma | Destekleyici† | Bölüm 15, 16 |
 | PP3 | Kalibre edilmiş hesaplamalı öngörü | Destekleyici† | Bölüm 7, 16 |
-| PP4 | Fenotip gen için oldukça özgül | Destekleyici | Bölüm 15, 16 |
+| PP4 | Fenotip gen için oldukça özgül | Destekleyici | Bölüm 14, 16 |
 
 \* Birçok uzman panelinde destekleyiciye indirilmiştir. † Kanıt gücüne göre yükseltilebilir.
 
@@ -62,8 +62,8 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | Mitokondriyal (11) | ✖ | ● | ● | ▲ | ◆ | ◆ | ◆ | ✖ |
 | Mozaiklik (12) | ● | ▲ | ▲ | ● | ● | ● | ✖ | ▼ |
 | Kodlamayan · regülatör (13) | ✖ | ▼ | ✖ | ▲ | ▼ | ● | ● | ● |
-| Digenik · modifier (14) | ● | ● | ● | ● | ● | ● | ▼ | ● |
-| Alelik seri (15) | ▼ | ▼ | ▼ | ▼ | ● | ● | ● | ● |
+| Alelik seri (14) | ▼ | ▼ | ▼ | ▼ | ● | ● | ● | ● |
+| Digenik · modifier (15) | ● | ● | ● | ● | ● | ● | ▼ | ● |
 
 > ⚠️ Bu matris **pedagojik bir özettir ve bir ACMG/AMP uygulama algoritması değildir**; hücreler yalnız hangi kanıt alanının sorgulanabileceğini gösterir. Kriterin uygulanabilirliği ve gücü gen–hastalık ilişkisine, varyantın gerçek moleküler sonucuna ve varsa güncel VCEP spesifikasyonuna göre belirlenir; çakışma hâlinde **VCEP spesifikasyonu bu tablonun önündedir.** Kodlamayan satırındaki PM1 işareti, iyi tanımlanmış hastalık-spesifik motif/hotspotlarda `PM1_Supporting` kullanılabileceği anlamına gelir; splicing mekanizmalı intronik varyantta PVS1 satırı `PVS1_Strength(RNA)` yoluyla yeniden açılabilir (Bölüm 13 §6).
 
@@ -83,8 +83,8 @@ Kriterler ve güç düzeyleri; ayrıntı için [Bölüm 16](#bolum-16).
 | Mitokondriyal | Uygun dokudan mtDNA dizileme + nükleer panel | Doku seçimi ve heteroplazmi düzeyi | Kanda düşük heteroplazmi |
 | Mozaiklik | **Etkilenmiş dokudan** derin dizileme | Kan yanıltır; VAF eşiği düşük tutulmalı | Standart filtrelerde elenme |
 | Kodlamayan · regülatör | WGS + RNA analizi | Element ve hedef gen tanımlanmalı | Fonksiyonel kanıt yoksa VUS'ta kalır |
-| Digenik · modifier | Trio/genişletilmiş aile + hedefli doz ölçümü | Segregasyon tek-lokus varsayımıyla yorumlanmamalı | Singleton veriyle kurulamaz |
 | Alelik seri | Genin tamamı + derin fenotipleme | Hangi hastalık varlığı değerlendiriliyor? | Yanlış hastalık için kriter uygulanması |
+| Digenik · modifier | Trio/genişletilmiş aile + hedefli doz ölçümü | Segregasyon tek-lokus varsayımıyla yorumlanmamalı | Singleton veriyle kurulamaz |
 
 ---
 

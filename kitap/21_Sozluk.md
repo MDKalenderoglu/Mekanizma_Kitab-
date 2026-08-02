@@ -7,7 +7,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Alel** — Bir lokusun bir kromozomdaki belirli sürümü. İnsanda otozomal her lokus için iki alel bulunur.
 - **Alelik heterojenite** — Aynı gendeki farklı varyantların **aynı** hastalığa yol açması. Kistik fibrozdaki yüzlerce *CFTR* varyantı tipik örnektir.
 - **Alelik gereksinim** — Hastalığın ortaya çıkması için genin kaç alelinin etkilenmesi gerektiği (monoalelik, bialelik…). **Kalıtım biçiminden ve hastalık mekanizmasından ayrı bir kavramdır**; uluslararası kürasyon terminolojisi üçünü ayrı ayrı tanımlar.
-- **Alelik seri** — Aynı gendeki farklı varyantların **farklı** hastalıklar üretmesi; kitapta altı yorumlama ekseni üzerinden incelenir (Bölüm 15).
+- **Alelik seri** — Aynı gendeki farklı varyantların **farklı** hastalıklar üretmesi; kitapta altı yorumlama ekseni üzerinden incelenir (Bölüm 14).
 - **Amorf** — İşlevin tümüyle kaybolduğu alel (null). Muller serisinin bir ucudur.
 - **Antimorf** — Ürünü yabanıl-tip ürünün işlevini bozacak biçimde değiştiren alel; dominant-negatif etkinin Muller serisindeki karşılığı.
 - **Anticipasyon** — Bir hastalığın kuşaktan kuşağa daha erken başlaması ve ağırlaşması; tekrar dizisi genişlemelerinin klinik imzasıdır.

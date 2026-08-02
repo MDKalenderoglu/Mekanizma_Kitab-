@@ -32,13 +32,13 @@ Kitap **hekimlere yönelik yayımlanacaktır**. Bu nedenle:
 Bu kararlar kullanıcı tarafından onaylanmıştır; yeniden tartışma açmadan önce `Editor_Degerlendirme_Formu_Tur2.md` içindeki gerekçe ve durum kaydını oku. **Onaylanmış olmak, uygulanmış olmak değildir:** dosya/bölüm düzeyindeki değişiklikler ayrı paketler ve ayrı kullanıcı onayıyla yapılır.
 
 - Önce **HTML + PDF değerlendirme sürümü**, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
-- Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari) önce gelecek.
+- Alelik seri Bölüm 14, digenik/oligogenik/değiştirici mimari Bölüm 15 olacak. **03.08.2026'da uygulandı.**
 - **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
 - Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında ilgili kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak.
 - Ayrıntılı öz-denetim, kaynak doğrulama, araç ve revizyon günlükleri proje kayıtlarında korunacak; yayımlanan HTML/PDF'de yalnız okuyucuya yönelik kısa yöntem açıklaması bulunacak.
 - Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak ve gelecek sürüm için taahhüt edilmeyecek.
 
-**Tamamlanan uygulama paketleri (02.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne bağlantıları + terminoloji/HGVS denetimi tamamlandı. Güncel build 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID üretir. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası veya eksik/mükerrer nesne hedefi bulursa hata vererek durur. Sıradaki çalışma, kullanıcı tarafından ayrıca seçilip onaylanacak bilimsel/yapısal pakettir.
+**Tamamlanan uygulama paketleri (03.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi ve Bölüm 14–15 sıra değişimi tamamlandı. Güncel build 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID üretir. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası veya eksik/mükerrer nesne hedefi bulursa hata vererek durur. Sıradaki paket Bölüm 8 anöploidi/kromozom ayrılması revizyonudur.
 
 **Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde, Türkçe terminoloji kaynakları `Terminoloji_Kaynak_Denetimi.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu beş belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
 
@@ -138,7 +138,7 @@ Her bölüm için sırayla:
 
 ## 8. Bölüm listesi ve sıra
 
-**Mevcut uygulanmış gövde:** 17 bölüm; dosya adları ve numaraları henüz aşağıdaki eski sıradadır. **Onaylanan hedef gövde:** 18 bölüm; 14–15 yer değişimi ve yeni Bölüm 16 ayrı bir yapısal paketle uygulanacaktır.
+**Mevcut uygulanmış gövde:** 17 bölüm; Bölüm 14–15 yer değişimi dosya, nesne ve çapraz gönderme düzeyinde tamamlanmıştır. **Onaylanan hedef gövde:** Yeni Bölüm 16 kararı uygulamada kalırsa 18 bölüm; yeni bölüm ve mevcut 16–17'nin kaydırılması ayrı bir yapısal pakettir.
 
 1. Genetik hastalık mekanizması nedir? ✅
 2. Loss-of-function ✅
@@ -153,8 +153,8 @@ Her bölüm için sırayla:
 11. Mitokondriyal genetik
 12. Mozaiklik
 13. Noncoding / regülatör varyantlar
-14. Aynı gen → farklı hastalık (alelik seri) — **onaylandı; mevcut Bölüm 15'ten taşınacak**
-15. Digenik / oligogenik / modifier — **onaylandı; mevcut Bölüm 14'ten taşınacak**
+14. Aynı gen → farklı hastalık (alelik seri) ✅
+15. Digenik / oligogenik / modifier ✅
 16. Kalıtsal kanser yatkınlığı ve ikinci vuruş — **onaylandı; henüz yazılmadı**
 17. Mekanizma → varyant yorumu (ACMG/ClinGen) — **mevcut Bölüm 16'dan taşınacak**
 18. Klinik senaryolarla sentez — **mevcut Bölüm 17'den taşınacak**

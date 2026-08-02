@@ -13,7 +13,7 @@ kitleyi oluşturur.
 
 ---
 
-## Güncel durum — 2 Ağustos 2026
+## Güncel durum — 3 Ağustos 2026
 
 - Mevcut kitap gövdesindeki **17 bölümün tamamı yazılmış**, kaynaklandırılmış ve
   bütüncül editöryal/uzman değerlendirme turlarından geçmiştir.
@@ -28,6 +28,9 @@ kitleyi oluşturur.
 - Teknik temizlik sonrası doğrulanan envanter: **17 bölüm · 64 şekil · 49 algoritma
   · 73 tablo · 153 benzersiz PMID**. Derleme, eksik SVG veya geçersiz/mükerrer tablo
   numarasında hata vererek durur.
+- **Bölüm 14–15 sıra değişimi tamamlandı:** Aynı gen → farklı hastalık (alelik seri)
+  artık Bölüm 14; digenik/oligogenik/değiştirici mimari artık Bölüm 15'tir. Dosya,
+  nesne, çapraz gönderme, kaynak kütüğü ve dizin numaraları yeni sırayla eşitlendi.
 
 Güncel durum ve yol haritası için önce
 [`Bölüm_00_İçindekiler_ve_İlerleme.md`](Bölüm_00_İçindekiler_ve_İlerleme.md),
@@ -39,13 +42,12 @@ okunmalıdır.
 ## Onaylanan yayın hedefi
 
 2 Ağustos 2026 tarihli editöryal karar görüşmesinde aşağıdaki hedefler onaylandı;
-bu maddelerin dosya/bölüm düzeyindeki uygulaması henüz ayrı paketler hâlinde
-yapılacaktır:
+her madde ayrı paket hâlinde uygulanır ve durumu ayrıca kaydedilir:
 
 1. Önce **HTML + PDF değerlendirme sürümü**, bağımsız uzman incelemelerinden sonra
    dijital ve baskıya hazır nihai sürüm üretilecek.
-2. Mevcut Bölüm 15 (alelik seri), mevcut Bölüm 14'ten (digenik/oligogenik mimari)
-   önce gelecek.
+2. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e
+   alınacak. **✅ 3 Ağustos 2026'da uygulandı.**
 3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak
    hazırlanacak; mevcut yorum ve klinik sentez bölümleri 17 ve 18'e kayacak.
 4. Okuyucuya yönelik öz değerlendirme soruları bölüm sonlarından ayrı olarak
@@ -126,5 +128,8 @@ kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
    araç önce Git durumunu ve yukarıdaki kalıcı kayıtları okur.
 
 Tamamlanan sıra: **karar kaydı → düşük riskli teknik temizlik → doğrudan nesne
-bağlantıları ve terminoloji/HGVS denetimi**. Sonraki uygulama sırası: **ayrı onaylı
-bilimsel/yapısal paketler → bağımsız uzman incelemesi → yayın kapanışı**.
+bağlantıları ve terminoloji/HGVS denetimi → Bölüm 14–15 sıra değişimi**. Sonraki
+paket **Bölüm 8 anöploidi/kromozom ayrılması revizyonudur**; ardından digenik kanıt
+kontrol listesi, klinik örnek çeşitliliği, kanser yatkınlığı/ikinci vuruş bölümü için
+son karar, öz değerlendirme sorularının sona taşınması, bağımsız uzman incelemesi
+ve yayın kapanışı gelir.

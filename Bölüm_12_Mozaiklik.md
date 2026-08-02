@@ -175,7 +175,7 @@ Bu asimetriye üç ek özellik eşlik eder ve dördü birlikte güçlü bir klin
 
 ### 4.2 Aynı gen, iki farklı hastalık: konstitüsyonel mü, mozaik mi?
 
-Mozaikliğin en öğretici yanı, aynı gendeki varyantın konstitüsyonel ve mozaik hâllerinin çoğu zaman **birbirinden tümüyle farklı hastalıklar** üretmesidir. Bu, Bölüm 15'te ele alınacak alelik seri kavramının bir başka boyutudur; ama buradaki değişken alelin kendisi değil, **dağılımıdır**.
+Mozaikliğin en öğretici yanı, aynı gendeki varyantın konstitüsyonel ve mozaik hâllerinin çoğu zaman **birbirinden tümüyle farklı hastalıklar** üretmesidir. Bu, Bölüm 14'te ele alınacak alelik seri kavramının bir başka boyutudur; ama buradaki değişken alelin kendisi değil, **dağılımıdır**.
 
 *PIK3CA* bunun en zengin örneğidir. Bu gendeki aktive edici varyantlar, mozaik olarak ortaya çıktıklarında bir dizi segmental aşırı büyüme tablosuna yol açar; bu tabloların hepsi 2014'teki bir NIH uzlaşı toplantısında **PIK3CA ile ilişkili aşırı büyüme spektrumu (PROS)** başlığı altında toplanmıştır. Bu şemsiye terim, daha önce ayrı sendromlar olarak adlandırılan makrodaktili, fibroadipöz aşırı büyüme, CLOVES sendromu, hemihiperplazi-multipl lipomatozis ve megalensefali ile giden MCAP/DMEG tablolarını kapsar (Keppler-Noreuil ve ark., 2015). Bu klinik çeşitliliğin kaynağı tek bir şeydir: varyantın hangi dokularda ve hangi oranda bulunduğu. Yine de "*PIK3CA* aktivasyonu ancak mozaik olarak yaşar" genellemesi kurulamaz; PROS olgularının büyük çoğunluğu postzigotik olmakla birlikte aynı yolağın bileşenlerinde de novo germline varyantlar da bildirilmiştir (Rivière ve ark., 2012). Belirleyici olan gen değil, **alelin yolağı hangi güçte aktive ettiğidir**.
 

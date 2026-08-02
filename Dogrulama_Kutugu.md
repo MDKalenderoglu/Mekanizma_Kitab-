@@ -557,30 +557,30 @@ python3 00_Şablonlar/kunye_denetle.py
 
 ---
 
-# Bölüm 14 — Digenik / oligogenik / modifier (tamamlandı)
+# Bölüm 15 — Digenik / oligogenik / modifier (tamamlandı)
 
 **Denetim tarihi:** 27.07.2026
 
 | # | İddia (kitapta) | Otoriteden gelen | Durum |
 |---|---|---|---|
-| 14.1 | *RET* intron 1 enhancer varyantı: riske katkısı nadir kodlayan alellerden **~20 kat** büyük; *in vitro* enhancer aktivitesini azaltır; düşük penetrans; **cinsiyete göre farklı** etki | Emison 2005 özeti birebir (*"makes a 20-fold greater contribution to risk than rare alleles do"*; *"reduces in vitro enhancer activity markedly, has low penetrance, has different genetic effects in males and females"*) | ✅ **birebir** |
-| 14.2 | Digenik RP: *RDS/ROM1* — yalnız **çift heterozigotlar** hastalanır | Kajiwara 1994 özeti birebir (*"only double heterozygotes develop retinitis pigmentosa"*; üç aile) | ✅ |
-| 14.3 | "Digenik hastalıkta risk %25 değildir; iki lokusun birlikte aktarılma olasılığından hesaplanır" | Kalıtım mantığıyla doğru; kitabın hata kutusunda ve algoritmasında tutarlı | ✅ |
-| 14.4 | Oligogenik/modifier tablolarda **kesin oran verilmemesi** gerektiği | Kitabın kendi normatif duruşu; kaynaklarla çelişmiyor ve dürüst belirsizlik beyanı olarak doğru konumlanmış | ✅ T5 uygun |
+| 15.1 | *RET* intron 1 enhancer varyantı: riske katkısı nadir kodlayan alellerden **~20 kat** büyük; *in vitro* enhancer aktivitesini azaltır; düşük penetrans; **cinsiyete göre farklı** etki | Emison 2005 özeti birebir (*"makes a 20-fold greater contribution to risk than rare alleles do"*; *"reduces in vitro enhancer activity markedly, has low penetrance, has different genetic effects in males and females"*) | ✅ **birebir** |
+| 15.2 | Digenik RP: *RDS/ROM1* — yalnız **çift heterozigotlar** hastalanır | Kajiwara 1994 özeti birebir (*"only double heterozygotes develop retinitis pigmentosa"*; üç aile) | ✅ |
+| 15.3 | "Digenik hastalıkta risk %25 değildir; iki lokusun birlikte aktarılma olasılığından hesaplanır" | Kalıtım mantığıyla doğru; kitabın hata kutusunda ve algoritmasında tutarlı | ✅ |
+| 15.4 | Oligogenik/modifier tablolarda **kesin oran verilmemesi** gerektiği | Kitabın kendi normatif duruşu; kaynaklarla çelişmiyor ve dürüst belirsizlik beyanı olarak doğru konumlanmış | ✅ T5 uygun |
 
-**Yorum:** Bölüm 14, sayı vermekten kaçınması gereken yerde kaçınıyor, sayı verdiği tek yerde (14.1) kaynağıyla birebir örtüşüyor. Düzeltme gerekmedi.
+**Yorum:** Bölüm 15, sayı vermekten kaçınması gereken yerde kaçınıyor, sayı verdiği tek yerde (15.1) kaynağıyla birebir örtüşüyor. Düzeltme gerekmedi.
 
 ---
 
-# Bölüm 15 — Aynı gen → farklı hastalık (tamamlandı)
+# Bölüm 14 — Aynı gen → farklı hastalık (tamamlandı)
 
 **Denetim tarihi:** 27.07.2026
 
 | # | Bulgu | Eylem |
 |---|---|---|
-| 15.1 | **Bulgu 4.8'in tekrarı:** "*SCN2A*'da işlev kaybı … **otizm spektrum** tablolarıyla ilişkilidir (Berecki ve ark., 2018)" | ⚠️→✅ Berecki'ye yalnız elektrofizyoloji ve başlangıç yaşı/nöbet tipi bırakıldı; OSB/EY için **Sanders ve ark., 2018** eklendi (bölümün 22. kaynağı). Bölüm 4 turunda öngörülen "izlenecek" kalem böylece kapandı |
-| 15.2 | **"Allelik serinin altı ekseni"** çerçevesi — kitabın en görünür özgün sentezi, **etiketsizdi** | 🏷️→✅ §2 girişine ve bölüm sonu işaretli-iddialar notuna etiket eklendi: bileşenler kaynaklı, gruplama editöryal, literatürde bu adla yerleşik sınıflandırma yok (Protokol §1 T5 kuralı) |
-| 15.3 | Bölüm 16 ve 17'de aynı Berecki atfı | ✅ kontrol edildi — oralarda yalnız R1882Q işlev kazanımı bağlamında kullanılmış, OSB iddiası yok |
+| 14.1 | **Bulgu 4.8'in tekrarı:** "*SCN2A*'da işlev kaybı … **otizm spektrum** tablolarıyla ilişkilidir (Berecki ve ark., 2018)" | ⚠️→✅ Berecki'ye yalnız elektrofizyoloji ve başlangıç yaşı/nöbet tipi bırakıldı; OSB/EY için **Sanders ve ark., 2018** eklendi (bölümün 22. kaynağı). Bölüm 4 turunda öngörülen "izlenecek" kalem böylece kapandı |
+| 14.2 | **"Allelik serinin altı ekseni"** çerçevesi — kitabın en görünür özgün sentezi, **etiketsizdi** | 🏷️→✅ §2 girişine ve bölüm sonu işaretli-iddialar notuna etiket eklendi: bileşenler kaynaklı, gruplama editöryal, literatürde bu adla yerleşik sınıflandırma yok (Protokol §1 T5 kuralı) |
+| 14.3 | Bölüm 16 ve 17'de aynı Berecki atfı | ✅ kontrol edildi — oralarda yalnız R1882Q işlev kazanımı bağlamında kullanılmış, OSB iddiası yok |
 
 # Bölüm 16 — Mekanizmadan varyant yorumuna (tamamlandı)
 

@@ -205,7 +205,7 @@ Bu bölümde tablo, **basamaklı strateji** olarak okunmalıdır: hangi test han
 
 Bu bölümün varyant yorumlamaya katkısı, Bölüm 16'nın çerçevesini **klinik girdiyle beslemektir**. Üç bağlantı özellikle önemlidir.
 
-**Birincisi, fenotip kriterin kendisidir.** Derin fenotipleme, PP4'ün kullanılabilirliğini belirler; ama daha önemlisi, Bölüm 15'te gördüğümüz gibi **hangi hastalık varlığı için** değerlendirme yapılacağını seçtirir. Alelik seri taşıyan bir gende bu seçim, bütün kriterlerin anlamını değiştirir.
+**Birincisi, fenotip kriterin kendisidir.** Derin fenotipleme, PP4'ün kullanılabilirliğini belirler; ama daha önemlisi, Bölüm 14'te gördüğümüz gibi **hangi hastalık varlığı için** değerlendirme yapılacağını seçtirir. Alelik seri taşıyan bir gende bu seçim, bütün kriterlerin anlamını değiştirir.
 
 **İkincisi, aile örneği kriter üretir.** Trio ve genişletilmiş aile örneklemesi, laboratuvarın kendi başına üretemeyeceği kanıtı (PS2/PM6, PP1/BS4, PM3) sağlar. Bu nedenle "aile örneği alınamadı" cümlesi teknik bir ayrıntı değil, **kanıt kaybıdır**.
 
@@ -226,7 +226,7 @@ flowchart TD
   C -->|"İmprinting"| I["Metilasyon kanıtı + ebeveyn kökeni"]
   C -->|"Mitokondriyal"| J["mtDNA spesifikasyonu:<br/>heteroplazmi + doku + haplogrup"]
 
-  D --> K["Hastalık varlığını SEÇ (Bölüm 15)"]
+  D --> K["Hastalık varlığını SEÇ (Bölüm 14)"]
   E --> K
   F --> K
   G --> K
@@ -249,7 +249,7 @@ Aşağıdaki sekiz senaryo, kitabın bütün bölümlerini hastanın başında t
 
 ![Şekil 17.4 — Sekiz senaryo panosu: başvurudan mekanizmaya, mekanizmadan teste](assets/sekil_61_senaryo_panosu.svg)
 
-**Senaryo 1 — Yenidoğan, ağır hipotoni ve solunum yetmezliği.** Doğumdan itibaren belirgin hipotoni, zayıf ağlama, dil fasikülasyonları ve derin tendon reflekslerinin alınamaması. **Mekanizma hipotezi:** ön boynuz motor nöronunda işlev kaybı; klasik olarak bialelik *SMN1* kaybı. **Test:** *SMN1* delesyon analizi (MLPA) — ve kritik olarak **aynı testte *SMN2* kopya sayısı**. **Yorum:** ana kusur bütün hastalarda aynıdır; klinik ağırlığı belirleyen esas değişken yedek genin kopya sayısıdır (Bölüm 14), ve bu etki Bölüm 7'de anlatılan bir splicing farkı üzerinden çalışır (Lorson ve ark., 1999). Büyük serilerde kopya sayısı ile hastalık tipi arasındaki ilişki prognostik kurallar hâlinde ortaya konmuştur (Calucho ve ark., 2018). **Öğreti:** modifier ölçümü burada akademik bir ayrıntı değil, prognoz ve tedavi kararının parçasıdır — dizileme yapmadan önce doğru doz testini istemek gerekir.
+**Senaryo 1 — Yenidoğan, ağır hipotoni ve solunum yetmezliği.** Doğumdan itibaren belirgin hipotoni, zayıf ağlama, dil fasikülasyonları ve derin tendon reflekslerinin alınamaması. **Mekanizma hipotezi:** ön boynuz motor nöronunda işlev kaybı; klasik olarak bialelik *SMN1* kaybı. **Test:** *SMN1* delesyon analizi (MLPA) — ve kritik olarak **aynı testte *SMN2* kopya sayısı**. **Yorum:** ana kusur bütün hastalarda aynıdır; klinik ağırlığı belirleyen esas değişken yedek genin kopya sayısıdır (Bölüm 15), ve bu etki Bölüm 7'de anlatılan bir splicing farkı üzerinden çalışır (Lorson ve ark., 1999). Büyük serilerde kopya sayısı ile hastalık tipi arasındaki ilişki prognostik kurallar hâlinde ortaya konmuştur (Calucho ve ark., 2018). **Öğreti:** modifier ölçümü burada akademik bir ayrıntı değil, prognoz ve tedavi kararının parçasıdır — dizileme yapmadan önce doğru doz testini istemek gerekir.
 
 **Senaryo 2 — Altı aylık bebek, dirençli nöbetler.** Yaşamın ilk günlerinde başlayan, çoklu antiepileptiğe dirençli nöbetler; EEG'de ağır örüntü; gelişimsel duraklama. **Mekanizma hipotezi:** iyon kanalı hastalığı; başlangıç yaşı erken olduğunda **işlev kazanımı** yönü ön planda. **Test:** trio panel/WES; saptanan de novo missense varyantın **yönü** için fonksiyonel veri. **Yorum:** *SCN2A*'da tekrarlayan varyantların bir kısmı işlev kazanımı, bir kısmı işlev kaybı yönündedir ve bu ayrım elektrofizyolojik olarak gösterilebilir (Berecki ve ark., 2018). Yorumlamada bu, PS3'ün yalnızca "işlev bozulmuş" demek için değil **yönü göstermek** için kullanılması demektir (Bölüm 16). **Öğreti:** mekanizma yönü doğrudan tedaviyi değiştirir; erken başlangıçlı ve işlev kazanımı yönündeki sodyum kanalı tablolarında sodyum kanal blokerleri gündeme gelirken, işlev kaybı tablolarında aynı yaklaşım uygun değildir (Brunklaus ve ark., 2020).
 
@@ -315,7 +315,7 @@ flowchart TD
   J -->|"Evet"| H
   J -->|"Hayır"| K["Veriyi paylaş · araştırma/olgu eşleştirme ·<br/>TAKVİMLİ yeniden analiz (12–24 ay)"]
 
-  H --> L["5. YORUM (Bölüm 15–16)<br/>hastalık varlığını seç → kriterleri mekanizmaya göre seç →<br/>toplam ağırlığı hesapla"]
+  H --> L["5. YORUM (Bölüm 14 ve 16)<br/>hastalık varlığını seç → kriterleri mekanizmaya göre seç →<br/>toplam ağırlığı hesapla"]
 
   L --> M{"Sınıf?"}
   M -->|"P / LP"| N["6. DANIŞMA VE İZLEM<br/>risk hastalık varlığına göre ·<br/>izlem/tarama planı · tedavi ve üreme seçenekleri"]

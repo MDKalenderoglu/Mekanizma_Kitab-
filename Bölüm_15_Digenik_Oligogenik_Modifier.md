@@ -1,13 +1,13 @@
-# Bölüm 14 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar
+# Bölüm 15 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar
 
 > **Bölümün çekirdek tezi:** Bu kitabın önceki on üç bölümü, örtük olarak tek bir varsayım üzerine kuruluydu: *bir hastalığın bir nedeni vardır.* Bu bölüm o varsayımı gevşetir. **Monogenik ve kompleks kalıtım iki ayrı dünya değil, tek bir eksenin iki ucudur**; arada digenik (iki lokusun ikisi de gerekli), oligogenik (birkaç lokusun eşitsiz katkısı) ve modifiye edici (ana varyantın etkisini hafifleten ya da ağırlaştıran ikinci lokus) senaryoları vardır. Bu eksende bir hastalığı nereye koyduğunuz üç şeyi birden belirler: aileye vereceğiniz **tekrarlanma riskini**, bekleyeceğiniz **penetransı** ve varyantı nasıl **yorumlayacağınızı**. Bölümün ikinci ve klinik olarak daha keskin tezi ise bir uyarıdır: **"iki gende varyant bulmak" ile "hastalık digeniktir" demek aynı şey değildir.** Her sağlıklı genom çok sayıda nadir varyant taşır; digenik iddia, monogenik iddiadan daha yüksek bir kanıt çıtası gerektirir. Bu bölüm ayrıca Bölüm 1'de "eksik penetrans ve değişken ekspresivite" diye adlandırdığımız bulanıklığa somut bir moleküler zemin verir: o bulanıklığın önemli bir kısmı, ana genin etrafındaki **genetik bağlamdır**.
 
 > **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
-> · **① Temel — tıp öğrencisi:** Süreklilik ve eşik modeli (Şekil 14.1) kurulmadan sonraki tartışmalar havada kalır.
-> · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 14.4'ün C paneli; "iki gende varyant bulduk" cümlesinin danışmadaki karşılığı.
+> · **① Temel — tıp öğrencisi:** Süreklilik ve eşik modeli (Şekil 15.1) kurulmadan sonraki tartışmalar havada kalır.
+> · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 15.4'ün C paneli; "iki gende varyant bulduk" cümlesinin danışmadaki karşılığı.
 > · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: ACMG çerçevesinin tek-lokus varsayımının nerede kırıldığı ve digenik iddianın kanıt basamakları.
 
-> 🖼️ **Görseller hakkında not:** Şekil 14.1–14.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
+> 🖼️ **Görseller hakkında not:** Şekil 15.1–15.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
 ---
 
@@ -34,13 +34,13 @@ Kavramları netleştirerek başlayalım. **Digenik kalıtımda** hastalık, iki 
 
 **Modifiye edici lokus (modifier)** ise bu spektrumun içinde ama ayrı bir kavramdır: modifier, hastalığı **tek başına yapmaz**; ana varyantın yarattığı tabloyu hafifletir veya ağırlaştırır. Yani modifier'ın işlevi hastalığı *başlatmak* değil, *renklendirmektir*. Bu ayrım klinik olarak önemlidir, çünkü modifier bir lokusta bulunan varyant tek başına raporlanacak bir "neden" değildir; ama prognozu ve bazen tedaviyi etkileyebilir.
 
-Şekil 14.1'de gösterildiği gibi bu dört durak arasında keskin bir biyolojik sınır yoktur; ayrım pratik ve tanısaldır. Eksende sağa doğru gidildikçe lokus sayısı artar, lokus başına etki büyüklüğü azalır ve kalıtım Mendel oranlarından uzaklaşır.
+Şekil 15.1'de gösterildiği gibi bu dört durak arasında keskin bir biyolojik sınır yoktur; ayrım pratik ve tanısaldır. Eksende sağa doğru gidildikçe lokus sayısı artar, lokus başına etki büyüklüğü azalır ve kalıtım Mendel oranlarından uzaklaşır.
 
-![Şekil 14.1 — Monogenikten poligeniğe: tek bir süreklilik, dört durak](assets/sekil_46_monogenik_poligenik_sureklilik.svg)
+![Şekil 15.1 — Monogenikten poligeniğe: tek bir süreklilik, dört durak](assets/sekil_50_monogenik_poligenik_sureklilik.svg)
 
 Bu sürekliliği anlamanın en yararlı aracı **eşik (yük) modelidir**. Model şunu varsayar: hastalık, bireyin taşıdığı genetik (ve çevresel) yükün belli bir eşiği aşmasıyla ortaya çıkar. Bu bakış, aynı fenotipe **farklı genetik mimarilerle** ulaşılabileceğini doğal biçimde açıklar: bir birey tek büyük etkili bir varyantla eşiği aşarken, bir başkası çok sayıda küçük katkının toplamıyla aşabilir. Aynı model, neden bazı taşıyıcıların hasta olmadığını da açıklar — o birey eşiğin altında kalmıştır. Bu, Bölüm 3'te doz–eşik, Bölüm 11'de heteroplazmi–eşik olarak gördüğümüz mantığın **lokuslar arası** karşılığıdır.
 
-**Tablo 14.1 — Digenik, oligogenik kalıtım ve modifiye edicilerin temel kavramları**
+**Tablo 15.1 — Digenik, oligogenik kalıtım ve modifiye edicilerin temel kavramları**
 
 | Kavram | Tanım | Klinik anlamı |
 |---|---|---|
@@ -61,9 +61,9 @@ Bu sürekliliği anlamanın en yararlı aracı **eşik (yük) modelidir**. Model
 
 Digenik kalıtımın ders kitabı örneği, tıbbi genetikte bu kavramın ilk net gösterimidir. Kajiwara, Berson ve Dryja, retinitis pigmentosalı üç ailede, birbiriyle bağlantısız iki fotoreseptör geninde — *peripherin/RDS* ve *ROM1* — varyantlar saptadılar ve kritik gözlemi yaptılar: **yalnızca her iki varyantı birden taşıyan (çift heterozigot) bireyler hastalanıyordu**; tek bir varyant taşıyan akrabalar sağlıklıydı (Kajiwara ve ark., 1994).
 
-Şekil 14.2, bu örüntünün pedigrideki görünümünü ve neden kafa karıştırıcı olduğunu gösterir. Ailede iki sağlıklı ebeveynden hasta bir çocuk doğmuştur — bu, otozomal resesif kalıtımın klasik imzasıdır. Ancak burada iki varyant aynı genin iki alelinde değil, **iki ayrı gendedir**; dolayısıyla resesif kalıtımın %25 kuralı geçerli değildir. Riskin hesabı, iki bağımsız lokusun birlikte aktarılma olasılığından gider.
+Şekil 15.2, bu örüntünün pedigrideki görünümünü ve neden kafa karıştırıcı olduğunu gösterir. Ailede iki sağlıklı ebeveynden hasta bir çocuk doğmuştur — bu, otozomal resesif kalıtımın klasik imzasıdır. Ancak burada iki varyant aynı genin iki alelinde değil, **iki ayrı gendedir**; dolayısıyla resesif kalıtımın %25 kuralı geçerli değildir. Riskin hesabı, iki bağımsız lokusun birlikte aktarılma olasılığından gider.
 
-![Şekil 14.2 — Digenik kalıtımın pedigri imzası](assets/sekil_47_digenik_pedigri.svg)
+![Şekil 15.2 — Digenik kalıtımın pedigri imzası](assets/sekil_51_digenik_pedigri.svg)
 
 Mekanizma açısından bu örnek özellikle öğreticidir, çünkü rastgele iki gen değildir: peripherin/RDS ve ROM1, fotoreseptör dış segment disklerinin kenar yapısında **birlikte** görev alan proteinlerdir. Yani iki lokus aynı yapısal komplekste buluşur ve o kompleksin toplam işlevi için ortak bir doz eşiği vardır. Her iki alelin de yarı yarıya azalması, tek birinin azalmasının yapamadığı şeyi yapar: kompleksi eşiğin altına düşürür. **Digenik kalıtımın mekanik özü budur — iki lokus, ortak bir işlevsel havuzda toplanır.**
 
@@ -81,9 +81,9 @@ Bu nedenle iki kavram **kesin biçimde ayrılmalıdır**: *"zorunlu üçüncü a
 
 ### 2.3 Modifiye edici lokuslar: aynı varyant, farklı ağırlık
 
-Klinik pratikte en sık karşılaşılan durum ne saf digenik ne saf oligogeniktir; **ana bir varyant vardır ve fenotibin ağırlığı beklenenden farklıdır.** Bu farkın önemli bir kısmını modifiye edici lokuslar açıklar. Şekil 14.3, modifier'ın dört ana çalışma yolunu ve iki ders kitabı örneğini bir arada gösterir.
+Klinik pratikte en sık karşılaşılan durum ne saf digenik ne saf oligogeniktir; **ana bir varyant vardır ve fenotibin ağırlığı beklenenden farklıdır.** Bu farkın önemli bir kısmını modifiye edici lokuslar açıklar. Şekil 15.3, modifier'ın dört ana çalışma yolunu ve iki ders kitabı örneğini bir arada gösterir.
 
-![Şekil 14.3 — Modifiye edici lokuslar: aynı varyant, farklı hastalık ağırlığı](assets/sekil_48_modifier_mekanizmalari.svg)
+![Şekil 15.3 — Modifiye edici lokuslar: aynı varyant, farklı hastalık ağırlığı](assets/sekil_52_modifier_mekanizmalari.svg)
 
 **Birinci yol, yedek/paralog doz.** Ana genin işini kısmen görebilen ikinci bir gen varsa, o genin kopya sayısı veya etkinliği fenotibi doğrudan belirler. Bunun en temiz örneği spinal musküler atrofidir (SMA) ve aşağıda ayrıntılandırılacaktır.
 
@@ -109,7 +109,7 @@ Buradan iki klinik sonuç çıkar. Birincisi, **genotip prognozu tam belirlemez*
 
 Bu bölümde "varyant tipi" sorusu farklı sorulur: önemli olan varyantın moleküler sınıfı değil, **kalıtım mimarisindeki rolüdür**. Aşağıdaki tablo bu rolleri ve her birinin kanıt gereksinimini toplar.
 
-**Tablo 14.2 — Varyantın kalıtım mimarisindeki rolü ve kanıt gereksinimi**
+**Tablo 15.2 — Varyantın kalıtım mimarisindeki rolü ve kanıt gereksinimi**
 
 | Rol | Tanım | Tek başına hastalık yapar mı? | Kanıt gereksinimi | Örnek |
 |---|---|---|---|---|
@@ -130,7 +130,7 @@ Tablonun okunma biçimi şudur: yukarıdan aşağı inildikçe her bir varyantı
 
 ### 4.1 Tekrarlanma riski: Mendel oranının bittiği yer
 
-Bu bölümün genetik danışmaya en doğrudan etkisi, **tekrarlanma riskinin hesaplanma biçimidir**. Monogenik bir hastalıkta risk, kalıtım kalıbından türetilen sabit bir orandır: otozomal resesifte %25, otozomal dominantta %50. Digenik kalıtımda bu oranlar geçerli değildir; risk, **iki bağımsız lokusun birlikte aktarılma olasılığından** gider ve ebeveynlerin genotiplerine göre değişir. Şekil 14.2'deki senaryoda babası *RDS*, annesi *ROM1* heterozigotu olan bir çiftin her çocuğunda iki varyantın birden geçme olasılığı, iki bağımsız yarı olasılığın çarpımıdır — yani resesif kalıtımdaki %25'ten farklı bir hesap kurulmalıdır.
+Bu bölümün genetik danışmaya en doğrudan etkisi, **tekrarlanma riskinin hesaplanma biçimidir**. Monogenik bir hastalıkta risk, kalıtım kalıbından türetilen sabit bir orandır: otozomal resesifte %25, otozomal dominantta %50. Digenik kalıtımda bu oranlar geçerli değildir; risk, **iki bağımsız lokusun birlikte aktarılma olasılığından** gider ve ebeveynlerin genotiplerine göre değişir. Şekil 15.2'deki senaryoda babası *RDS*, annesi *ROM1* heterozigotu olan bir çiftin her çocuğunda iki varyantın birden geçme olasılığı, iki bağımsız yarı olasılığın çarpımıdır — yani resesif kalıtımdaki %25'ten farklı bir hesap kurulmalıdır.
 
 Oligogenik ve modifier'a bağlı tablolarda ise durum daha zordur: **kesin bir oran verilemez.** Bu, danışmada dürüstçe söylenmesi gereken bir belirsizliktir. Böyle durumlarda risk, aile öyküsüne dayalı ampirik verilerle ve mümkünse benzer ailelerden derlenmiş serilerle ifade edilir.
 
@@ -144,7 +144,7 @@ Aynı olgu monogenik diyabet tablolarında da iyi belgelenmiştir. Monogenik diy
 
 Klinikte en sık sorulan sorulardan biridir ve ailelerin en çok zorlandığı belirsizliktir. Cevabın bir kısmı Bölüm 12'de gördüğümüz mozaikliktir, bir kısmı Bölüm 11'deki heteroplazmidir; ama nükleer, konstitüsyonel bir varyantın söz konusu olduğu durumlarda cevap çoğu zaman **modifiye edici genetik bağlamdır**. SMA'da bu bağlam ölçülebilir bir sayıya (*SMN2* kopya sayısı) indirgenebildiği için istisnai biçimde nettir; çoğu hastalıkta ise henüz böyle bir "sayaç" yoktur.
 
-**Algoritma 14.1 — Beklenmedik fenotip ağırlığında modifiye edici arayışı**
+**Algoritma 15.1 — Beklenmedik fenotip ağırlığında modifiye edici arayışı**
 
 ```mermaid
 flowchart TD
@@ -171,7 +171,7 @@ flowchart TD
 
 Aşağıdaki akış, eldeki gözlemlerden hangi mimarinin düşünülmesi gerektiğini ayırt etmeye yarar. Dikkat edilmesi gereken nokta, ilk dallanmanın **varyantların aynı gende mi farklı genlerde mi olduğu** sorusu olmasıdır; pedigri görüntüsü tek başına ayırt edici değildir.
 
-**Algoritma 14.2 — Digenik ve oligogenik kalıtımın ayırt edilmesi**
+**Algoritma 15.2 — Digenik ve oligogenik kalıtımın ayırt edilmesi**
 
 ```mermaid
 flowchart TD
@@ -201,7 +201,7 @@ flowchart TD
 
 Bu bölümde testin kendisinden çok **analiz stratejisi** belirleyicidir: aynı WES/WGS verisi, tek-gen varsayımıyla analiz edildiğinde negatif, çift-lokus/yük perspektifiyle analiz edildiğinde bilgilendirici olabilir. Ayrıca aile örneklerinin (trio veya genişletilmiş aile) değeri bu bölümde diğer bütün bölümlerden daha yüksektir.
 
-**Tablo 14.3 — Çok-lokuslu mimarileri hangi test yakalar?**
+**Tablo 15.3 — Çok-lokuslu mimarileri hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -223,15 +223,15 @@ Bu bölümde testin kendisinden çok **analiz stratejisi** belirleyicidir: aynı
 
 ## 6. Varyant yorumlama açısından önemi (ACMG/ClinGen)
 
-ACMG/AMP çerçevesinin (Richards ve ark., 2015) bu bölümle ilgili en önemli özelliği, hiçbir kriterde açıkça yazılmayan ama her kriterin altında yatan bir varsayımdır: **değerlendirilen soru "bu varyant, tek başına, tek bir gende hastalığa neden olur mu?"dur.** Digenik bir senaryoda bu soru yanlış kurulmuştur ve çerçeve iki noktadan sıkışır (Şekil 14.4).
+ACMG/AMP çerçevesinin (Richards ve ark., 2015) bu bölümle ilgili en önemli özelliği, hiçbir kriterde açıkça yazılmayan ama her kriterin altında yatan bir varsayımdır: **değerlendirilen soru "bu varyant, tek başına, tek bir gende hastalığa neden olur mu?"dur.** Digenik bir senaryoda bu soru yanlış kurulmuştur ve çerçeve iki noktadan sıkışır (Şekil 15.4).
 
-![Şekil 14.4 — "Bu hastalık digenik" demek için ne gerekir?](assets/sekil_49_digenik_kanit_hiyerarsisi.svg)
+![Şekil 15.4 — "Bu hastalık digenik" demek için ne gerekir?](assets/sekil_53_digenik_kanit_hiyerarsisi.svg)
 
 **Birinci sıkışma sınıflandırmadadır.** Digenik bir çiftte hiçbir varyant tek başına yeterli olmadığı için, her biri ayrı ayrı değerlendirildiğinde çoğu zaman VUS'ta kalır. İki varyantın **birlikte** taşıdığı bilgi, tek tek değerlendirmede kaybolur. Pratik çözüm, varyantları ayrı ayrı sınıflandırıp raporda **çift olarak, gerekçesiyle birlikte** sunmaktır; rapor metni "bu iki varyant birlikte değerlendirildiğinde..." biçiminde açık bir mekanizma cümlesi içermelidir.
 
 **İkinci sıkışma segregasyon kriterindedir.** Tek gene odaklanan bir segregasyon analizi, digenik bir ailede "uyumsuz" sonuç verir: varyantı taşıyan ama hasta olmayan akrabalar görülür ve bu, varyant aleyhine kanıt gibi yorumlanır. Oysa uyumsuzluğun nedeni varyantın masumiyeti değil, **ikinci lokusun hesaba katılmamasıdır**. Bu, digenik ailelerde gerçek nedensel varyantların yanlışlıkla dışlanmasına yol açabilecek sistematik bir hatadır.
 
-Bu zorluklar karşısında dayanılacak ilke, gen–hastalık ilişkisinin geçerliliğini değerlendirmek için geliştirilen genel standartlardan gelir: bir nedensellik iddiası, kanıtın türü ve gücüne göre derecelendirilmeli, tek bir gözleme dayandırılmamalıdır (MacArthur ve ark., 2014). Digenik iddia için bu, Şekil 14.4A'daki basamaklar hâlinde somutlaşır — ve kritik nokta, **birinci basamağın tek başına kanıt olmamasıdır**.
+Bu zorluklar karşısında dayanılacak ilke, gen–hastalık ilişkisinin geçerliliğini değerlendirmek için geliştirilen genel standartlardan gelir: bir nedensellik iddiası, kanıtın türü ve gücüne göre derecelendirilmeli, tek bir gözleme dayandırılmamalıdır (MacArthur ve ark., 2014). Digenik iddia için bu, Şekil 15.4A'daki basamaklar hâlinde somutlaşır — ve kritik nokta, **birinci basamağın tek başına kanıt olmamasıdır**.
 
 > **🟦 Klinikte dikkat — "İki gende varyant bulduk" bir gözlemdir, digenik tanı değildir.** Her bireyin genomunda çok sayıda nadir varyant bulunduğundan, iki aday gende birer nadir varyantın aynı kişide bulunması **rastlantısal olabilir**. Bir digenik model öne sürülmeden önce birbirine karıştırılan üç durum ayrılmalıdır: **gerçek digenik kalıtım**, **monogenik hastalık + modifiye edici etki** ve **iki bağımsız moleküler tanının aynı kişide birleşmesi**.
 >
@@ -283,7 +283,7 @@ Bu zorluklar karşısında dayanılacak ilke, gen–hastalık ilişkisinin geçe
 
 ## 9. Klinik pratikte karar algoritması
 
-**Algoritma 14.3 — Çok-lokus şüphesinde klinik karar akışı**
+**Algoritma 15.3 — Çok-lokus şüphesinde klinik karar akışı**
 
 ```mermaid
 flowchart TD
@@ -350,7 +350,7 @@ flowchart TD
 
 ## ✅ Bölüm öz-denetim tablosu
 
-**Tablo 14.4 — Bölüm 14 öz-denetim tablosu**
+**Tablo 15.4 — Bölüm 15 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|

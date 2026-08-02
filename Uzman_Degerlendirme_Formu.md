@@ -516,9 +516,9 @@ Tekrar genişlemesi WES'in "kör noktalarından biridir." olarak düzelt.
 
 <br>
 
-### A22 · Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+### A22 · Bölüm 14 — Aynı Gen, Farklı Hastalık: Allelik Seriler
 
-**Yer:** `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` · 5. Tanısal testlerle ilişkisi · satır 195
+**Yer:** `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` · 5. Tanısal testlerle ilişkisi · satır 195
 
 > ***Allelik serilerde test seçiminin belirleyicisi cihaz değil, hangi hastalığın arandığı varsayımıdır.*** Aynı gen için hedefli hotspot dizilemesi bir hastalıkta yeterliyken, başka bir hastalıkta gen tamamı + delesyon/duplikasyon analizi gerekir. Aşağıdaki tablo bu bakışla okunmalıdır.
 
@@ -858,9 +858,9 @@ Net düzeltme: “Lezyon oranına bölme yapılabilir” denmelidir; fakat hücr
 
 <br>
 
-### B22 · Bölüm 14 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar
+### B22 · Bölüm 15 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar
 
-**Yer:** `Bölüm_14_Digenik_Oligogenik_Modifier.md` · 6. Varyant yorumlama açısından önemi (ACMG/ClinGen) · satır 229
+**Yer:** `Bölüm_15_Digenik_Oligogenik_Modifier.md` · 6. Varyant yorumlama açısından önemi (ACMG/ClinGen) · satır 229
 
 > **🟦 Klinikte dikkat — "İki gende varyant bulduk" bir gözlemdir, sonuç değildir:** Her sağlıklı bireyin genomunda çok sayıda nadir varyant bulunur; herhangi iki aday gende birer nadir varyantın rastlantısal olarak bir arada bulunması kaçınılmazdır. Digenik iddiayı kurmak için en az şu üçü gerekir: ***(1) iki ürün arasında gösterilebilir biyolojik bağ*** (aynı kompleks/yolak; protein–protein etkileşimi), **(2)** ailede **birlikte ayrışma** — yalnız çift-taşıyıcılar hasta, **(3)** **bağımsız ailelerde tekrarlanma**. Bunlara fonksiyonel birlikte-etki gösterimi eklenirse iddia güçlenir. Schäffer'in derlemesi, yayımlanmış insan digenik kalıtım örneklerinde en çok işe yarayan iki bilgi kaynağının **aday gen bilgisi** ve **protein–protein etkileşim bilgisi** olduğunu; buna karşılık pozisyonel bağlantı analizinin bu alanda büyük ölçüde başarısız kaldığını göstermiştir (Schäffer, 2013).
 
@@ -874,9 +874,9 @@ Net cevap: Üç koşul yeterli değildir. Fonksiyonel ortak-etki modeli dördün
 
 <br>
 
-### B23 · Bölüm 14 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar
+### B23 · Bölüm 15 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar
 
-**Yer:** `Bölüm_14_Digenik_Oligogenik_Modifier.md` · 2.2 Trialelik kalıtım: kalıtım modelinin kendisi sorgulanınca · satır 73
+**Yer:** `Bölüm_15_Digenik_Oligogenik_Modifier.md` · 2.2 Trialelik kalıtım: kalıtım modelinin kendisi sorgulanınca · satır 73
 
 > Bu bulgunun kavramsal ağırlığı, tek bir hastalığın ötesindedir. Burada sorgulanan şey bir genin patojenitesi değil, **kalıtım modelinin kendisidir**: aynı lokusta iki patojen alel taşıyan bir bireyin sağlıklı kalabilmesi, "resesif" etiketinin her zaman yeterli olmadığını gösterir. ⚠️ Trialelik kalıtımın BBS'deki kapsamı ve genelleştirilebilirliği literatürde tartışılmıştır; ***bu modelin her ailede geçerli olduğu varsayılmamalı***, ancak kalıtım modelinin sorgulanabilir olduğu ilkesi korunmalıdır.
 
@@ -4157,9 +4157,9 @@ denmesi daha doğru olur.
 
 <br>
 
-### C20 · Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+### C20 · Bölüm 14 — Aynı Gen, Farklı Hastalık: Allelik Seriler
 
-**Yer:** `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` · 2.3 Üçüncü eksen: varyant konumu — domain ve izoform · satır 92
+**Yer:** `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` · 2.3 Üçüncü eksen: varyant konumu — domain ve izoform · satır 92
 
 > Aynı doku-seçicilik sorusu daha geniş bir çerçevede de sorulmuştur: laminler bütün hücrelerde ifade edilirken hastalıkların neden büyük ölçüde doku-seçici fenotiplerle ortaya çıktığı hâlâ tam açıklanmış değildir; hastalık yapan varyantların nükleer morfolojiyi bozduğu gösterilmiştir, ancak bu bozulmanın patolojiye nasıl dönüştüğü ancak anlaşılmaya başlanmıştır (Worman, 2012). ⚠️ Dolayısıyla ***domain–fenotip haritaları güçlü örüntüler sunar, ancak birebir öngörü aracı olarak kullanılmamalıdır***.
 
@@ -4317,9 +4317,9 @@ Ancak yanına daha güncel bir sentez eklenmelidir:
 
 <br>
 
-### C21 · Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+### C21 · Bölüm 14 — Aynı Gen, Farklı Hastalık: Allelik Seriler
 
-**Yer:** `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` · 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu) · satır 418
+**Yer:** `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` · 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu) · satır 418
 
 > ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
@@ -4501,9 +4501,9 @@ Ayrıca işaretlenen iddialar listesinde iki ayrı madde **“(3)”** olarak nu
 
 <br>
 
-### C22 · Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+### C22 · Bölüm 14 — Aynı Gen, Farklı Hastalık: Allelik Seriler
 
-**Yer:** `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` · 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu) · satır 418
+**Yer:** `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` · 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu) · satır 418
 
 > ### 🔎 Bölüm sonu kaynak doğrulama komutu (zorunlu)
 > "Bu bölümdeki tüm kaynakların PMID/DOI bilgisini kontrol et. PMID veya DOI veremediğin kaynağı çıkar. Kaynağı olmayan iddiayı 'kaynak doğrulaması gerekli' olarak işaretle."
@@ -4736,9 +4736,9 @@ ancak FGFR3 eşleşmeleri de kaynaklandırıldıktan sonra tam olarak savunulabi
 
 <br>
 
-### C23 · Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+### C23 · Bölüm 14 — Aynı Gen, Farklı Hastalık: Allelik Seriler
 
-**Yer:** `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` · 6. Varyant yorumlama açısından önemi (ACMG/ClinGen) · satır 227
+**Yer:** `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` · 6. Varyant yorumlama açısından önemi (ACMG/ClinGen) · satır 227
 
 > **PM1 (mutasyonel hotspot / kritik domain).** ***Hotspot her zaman bir hastalığın hotspot'udur***. Domain-temelli kanıt, ancak hastanın fenotibi o domainle ilişkili hastalık varlığına uyuyorsa geçerlidir.
 
@@ -5382,11 +5382,11 @@ Ancak bu ifade bütün penetrans mekanizmalarının tek bir biyolojik eşikten k
 
 <br>
 
-### D3 · Bölüm 15 — Aynı Gen, Farklı Hastalık: Allelik Seriler
+### D3 · Bölüm 14 — Aynı Gen, Farklı Hastalık: Allelik Seriler
 
-**Yer:** `Bölüm_15_Ayni_Gen_Farkli_Hastalik.md` · 2. Moleküler mekanizma: allelik seriyi doğuran altı eksen · satır 54
+**Yer:** `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` · 2. Moleküler mekanizma: allelik seriyi doğuran altı eksen · satır 54
 
-> 🏷️ **Bu altı eksenli çerçeve kitabın pedagojik sentezidir.** Eksenlerin her biri ayrı ayrı kaynaklıdır ve bu kitabın önceki bölümlerinde tek tek işlenmiştir (mekanizma yönü → Bölüm 2–6; rezidüel işlev → Bölüm 2; varyant konumu → Bölüm 2 ve 7; kalıtım modu → Bölüm 1 ve 3; zamanlama → Bölüm 1 ve 12; bağlam → Bölüm 14). Buna karşılık ***"allelik serinin altı ekseni" literatürde bu adla yerleşik bir sınıflandırma değildir***; eksen sayısı ve gruplama editöryaldir ve öğretme kolaylığı için seçilmiştir. Bir raporda veya yayında bu çerçeveye yerleşik bir taksonomiymiş gibi atıf yapılmamalıdır.
+> 🏷️ **Bu altı eksenli çerçeve kitabın pedagojik sentezidir.** Eksenlerin her biri ayrı ayrı kaynaklıdır ve bu kitabın önceki bölümlerinde tek tek işlenmiştir (mekanizma yönü → Bölüm 2–6; rezidüel işlev → Bölüm 2; varyant konumu → Bölüm 2 ve 7; kalıtım modu → Bölüm 1 ve 3; zamanlama → Bölüm 1 ve 12; bağlam → Bölüm 15). Buna karşılık ***"allelik serinin altı ekseni" literatürde bu adla yerleşik bir sınıflandırma değildir***; eksen sayısı ve gruplama editöryaldir ve öğretme kolaylığı için seçilmiştir. Bir raporda veya yayında bu çerçeveye yerleşik bir taksonomiymiş gibi atıf yapılmamalıdır.
 
 **Sorulan:** Altı eksen doğru seçilmiş mi? Eksik/fazla eksen var mı? Çerçeve kitapta kalsın mı?
 
@@ -6297,7 +6297,7 @@ Sözlükte en az şu ayrımlar açık ve doğru bulunmalıdır:
 
 | #      | Soru                                                | D/Y/A ve not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **F1** | 17 bölümlük sıra pedagojik olarak doğru mu?         | **A** — Ana sıra güçlü: önce temel mekanizmalar, sonra özel genomik mimariler, sonunda ACMG ve klinik sentez. İki değişiklik öneriyorum: **Bölüm 15 Allelik Seriler, Bölüm 14 Digenik/Oligogenik’ten önce gelmeli**; okuyucu önce tek gen içindeki çeşitliliği tamamlamalı, sonra çok lokuslu modellere geçmelidir. Ayrıca Bölüm 6’nın başlığındaki **“antimorfik” çıkarılmalı**; bu konu Bölüm 5’teki dominant-negatif mekanizmanın tarihsel adı olarak kalmalıdır. Mevcut kitap zaten antimorfik ile dominant-negatifi eş anlamlı kabul ediyor; ayrı bölüm başlığında yeniden kullanılması yapısal tekrar yaratıyor. |
+| **F1** | 17 bölümlük sıra pedagojik olarak doğru mu?         | **A** — Ana sıra güçlü: önce temel mekanizmalar, sonra özel genomik mimariler, sonunda ACMG ve klinik sentez. İki değişiklik öneriyorum: **Allelik Seriler, Digenik/Oligogenik bölümden önce gelmeli**; okuyucu önce tek gen içindeki çeşitliliği tamamlamalı, sonra çok lokuslu modellere geçmelidir. Ayrıca Bölüm 6’nın başlığındaki **“antimorfik” çıkarılmalı**; bu konu Bölüm 5’teki dominant-negatif mekanizmanın tarihsel adı olarak kalmalıdır. Mevcut kitap zaten antimorfik ile dominant-negatifi eş anlamlı kabul ediyor; ayrı bölüm başlığında yeniden kullanılması yapısal tekrar yaratıyor. |
 | **F2** | Eksik bölüm var mı?                                 | **A** — Bir gerçek mekanizma boşluğu var: **germline kanser yatkınlığı ve somatik ikinci vuruş**. `RB1`, `TP53`, `DICER1`, `APC`, MMR, `TSC1/2`, `NF1` üzerinden two-hit, LOH, doku seçiciliği ve mozaiklik ayrı bölüm ya da kapsamlı bir ana bölüm olmalıdır. **Multifaktöriyel kalıtım/poligenik risk** en azından kısa bir sınır bölümü veya ek gerektirir. Farmakogenetik, prenatal/PGT ve danışma süreci ise mekanizma omurgasının dışında; ayrı kitap, ek veya çevrim içi modül olmalıdır. Aneuploidiler ve kromozom segregasyonu da Bölüm 8 içinde görünür bir ana alt başlık olmalıdır.                        |
 | **F3** | Her bölümde aynı on başlık tekdüzelik yaratıyor mu? | **A** — Aynı omurga aramayı kolaylaştırır ve korunmalıdır; fakat katı kota hâline gelmiş. Mevcut önsöz on başlığın her bölümde zorunlu olduğunu belirtiyor.  **Altı sabit çekirdek** yeterlidir: tanım, mekanizma, varyantlar, fenotipe dönüşüm, test, yorumlama. Klinik örnek, sık hata ve algoritma bölümün niteliğine göre birleştirilebilmeli. Kaynaklar ve öz-denetim zorunlu kalmalı. Başlık doldurmak için tekrarlanan metin üretilmemeli.                                                                                                                                                                      |
 | **F4** | Klinik örnekler pediatrik pratiği temsil ediyor mu? | **A** — Örnekler güçlü fakat **dominant nörogelişimsel, iskelet ve sinyal yolağı hastalıkları lehine eğilimli**. PAX6, TBX5, FGFR3, PTPN11, SCN2A, COL1A1, AKT1 ve GNAQ mekanizma öğretmek için çok iyi; ancak pediatrik pratiğin tamamını temsil etmiyor. En az birer belirgin örnek daha gerekir: **AR metabolik/enzim hastalığı**, **X’e bağlı hastalık**, **renal/işitme spektrumu**, **kanser predispozisyonu**, **anöploidi/kromozom hastalığı**. `PAH`, `DMD`, `CFTR`, `COL4A3/4/5`, `RB1/DICER1` ve 22q11.2 gibi örnekler dengeyi artırır.                                                                     |
@@ -6326,7 +6326,7 @@ Sözlükte en az şu ayrımlar açık ve doğru bulunmalıdır:
 17. ACMG/ClinGen sentezi
 18. Klinik senaryolar
 
-Bölüm sayısının 17’de tutulması zorunluysa kanser predispozisyonu, mozaiklik bölümünün ikinci ana yarısı olarak değil, **Bölüm 15 allelik serilerle birleştirilerek** yer açılabilir; fakat bağımsız bölüm daha temizdir.
+Bölüm sayısının 17’de tutulması zorunluysa kanser predispozisyonu, mozaiklik bölümünün ikinci ana yarısı olarak değil, **Bölüm 14 alelik serilerle birleştirilerek** yer açılabilir; fakat bağımsız bölüm daha temizdir.
 
 # G. Uzman kanaati
 
@@ -6424,7 +6424,7 @@ tarafından birbirinden bağımsız okuma gerekir. Yazarın ve yapay zekânın y
 
 ## G3 — Kitabın en zayıf bölümü ve nedeni
 
-> **Bölüm 14 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar**
+> **Bölüm 15 — Digenik, Oligogenik Kalıtım ve Modifiye Edici Lokuslar**
 
 Konu gerekli; fakat kitabın epistemik olarak en kırılgan alanıdır. Mevcut çekirdek tez monogenik–kompleks kalıtımı tek bir süreklilik olarak sunuyor.  Bu, pedagojik olarak çekici olsa da şu kategorilerin sınırlarını kolayca bulanıklaştırabilir:
 

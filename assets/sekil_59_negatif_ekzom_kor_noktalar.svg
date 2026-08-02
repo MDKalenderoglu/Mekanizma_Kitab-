@@ -97,7 +97,7 @@
   <!-- Alt şerit -->
   <rect x="32" y="504" width="1056" height="104" rx="10" fill="#FEF6F5" stroke="#B91C1C" stroke-width="1.2"/>
   <text x="52" y="526" font-size="12" font-weight="700" fill="#B91C1C">Yedinci kör nokta: teknoloji değil, YORUM</text>
-  <text x="52" y="548" font-size="10.5" fill="#2E3440">Varyant görülmüş olabilir ama yanlış hastalık varlığı için değerlendirilmiş (Bölüm 15), mekanizma kapısı gözden kaçtığı için kriter yanlış güçte</text>
+  <text x="52" y="548" font-size="10.5" fill="#2E3440">Varyant görülmüş olabilir ama yanlış hastalık varlığı için değerlendirilmiş (Bölüm 14), mekanizma kapısı gözden kaçtığı için kriter yanlış güçte</text>
   <text x="52" y="564" font-size="10.5" fill="#2E3440">uygulanmış (Bölüm 16) ya da VUS olarak bırakılıp bir daha bakılmamış olabilir. Bu kör noktanın çözümü yeni bir cihaz değil, yeniden analizdir.</text>
   <text x="52" y="588" font-size="10" fill="#64748B">Ulusal ölçekli genom programında konan tanıların <tspan font-weight="700" fill="#2E3440">%14'ü</tspan> araştırma ve otomatik yaklaşımların birleşimiyle elde edilmiştir; bu, özellikle kodlamayan, yapısal ve</text>
   <text x="52" y="602" font-size="10" fill="#64748B">mitokondriyal genom varyantları ile ekzomun iyi kapsamadığı kodlayan varyantlar için belirleyici olmuştur. Tanısı konmamış kas hastalıklarında RNA dizileme <tspan font-weight="700" fill="#2E3440">%35</tspan> tanı sağlamıştır.</text>
