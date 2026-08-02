@@ -38,9 +38,9 @@ Bu çerçeveler güncellendiğinde ilgili bölümlerin gözden geçirilmesi gere
 
 ## Kaynak doğrulama beyanı
 
-Kitapta kullanılan tüm birincil kaynakların bibliyografik verileri (yazar, başlık, dergi, cilt/sayı/sayfa, PMID, DOI) **PubMed üzerinden tek tek doğrulanmıştır**. Doğrulanamayan iddialar ya metinden çıkarılmış ya da ⚠️ işaretiyle belirtilmiştir. GeneReviews, OMIM, ClinVar ve gnomAD gibi ikincil kaynaklar yalnızca destekleyici bilgi olarak anılmıştır.
+Toplu kaynakçadaki PubMed indeksli kayıtların bibliyografik verileri (yazar, başlık, dergi, cilt/sayı/sayfa ve PMID; mevcutsa DOI) **PubMed üzerinden doğrulanmıştır**. PubMed dışında kalan resmî kılavuz ve veri tabanı kayıtları kurum, sürüm/tarih ve kalıcı bağlantılarıyla izlenir. Doğrulanamayan iddialar ya metinden çıkarılmış ya da ⚠️ işaretiyle belirtilmiştir. GeneReviews, OMIM, ClinVar ve gnomAD gibi ikincil kaynaklar yalnızca destekleyici bilgi olarak anılmıştır.
 
-Toplam **114 doğrulanmış birincil kaynak** kullanılmıştır; tam liste *Toplu Kaynakça* bölümündedir.
+Toplu kaynakça **{{KAYNAK_SAYISI}} benzersiz PMID kaydı** içerir; tam liste *Toplu Kaynakça* bölümündedir. Bibliyografik veriler PubMed üzerinden doğrulanmış, DOI'si bulunan kayıtlarda bağlantı verilmiştir.
 
 ## Çıkar çatışması ve finansman
 

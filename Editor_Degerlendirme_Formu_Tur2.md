@@ -23,6 +23,8 @@ Bu formun yayın yönünü belirleyen maddeleri kullanıcıyla tek tek görüş�
 7. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
 8. Uygulama sırası: karar kaydı → düşük riskli teknik temizlik → ayrı bilimsel/yapısal paketler → bağımsız insan değerlendirmesi → yayın kapanışı.
 
+**Uygulama durumu (02.08.2026):** Karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne bağlantıları + terminoloji/HGVS denetimi tamamlandı. Teknik tur bilimsel tablo hücrelerini, mekanizma iddialarını ve kaynak künyelerini değiştirmedi; Bölüm 9 ve 12'de yalnız tablo numaraları ile bunlara bağlı çapraz göndermeler güncellendi. Sonraki pakette 186 şekil/algoritma/tablo hedefi doğrudan bağlandı; kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı ve yayımlanan terminoloji metninden iç karar kodları kaldırıldı. Güncel derleme 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID üretmektedir. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
+
 ---
 
 ## 0. Bu turda zaten düzeltilenler (onayınıza sunulur, soru değildir)
@@ -31,7 +33,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 | # | Nerede | Neydi | Ne yapıldı |
 |---|---|---|---|
-| 0.1 | `assets/` · 4 dosya | "allel → alel" standardizasyonu `.md` içindeki görsel referanslarını değiştirmiş, dosya adları eski kalmıştı. **Şekil 1.4, 6.x, 9.x ve 15.1 HTML kitaba hiç gömülmüyordu** (build sessizce atlıyor, uyarı vermiyor). | Dosyalar yeni adlarına taşındı; artık 66 SVG inline. |
+| 0.1 | `assets/` · 4 dosya | "allel → alel" standardizasyonu `.md` içindeki görsel referanslarını değiştirmiş, dosya adları eski kalmıştı. **Şekil 1.4, 6.x, 9.x ve 15.1 HTML kitaba hiç gömülmüyordu** (build sessizce atlıyor, uyarı vermiyor). | Dosyalar yeni adlarına taşındı; güncel 64 SVG'nin tamamı inline. |
 | 0.2 | Böl.01 · Böl.16 öz-denetim | Böl.01 "6 SVG + **4** Mermaid" (gerçek 3), Böl.16 "4 SVG + **3** Mermaid" (gerçek 2). | Gerçek sayılara çekildi. |
 | 0.3 | Böl.08 · Böl.09 · Böl.16 doğrulama blokları | Böl.08 "6/6 kaynak" (kaynakçada 7), Böl.09 "10/10" (13), Böl.16 "24/24" (25). Uzman turlarında eklenen kaynaklar sayıma girmemişti. | Üçü de gerçek sayıya çekildi; Böl.08'de Hook 1977'nin DOI'siz künye biçimi ayrıca belirtildi. |
 | 0.4 | `Bölüm_00` kaynak kütüğü | Böl.03'te kullanılan **Birchler & Veitia 2012 (PMID 22908297)** kütükte yoktu. | Kütüğe eklendi. Kütük artık 153 PMID'nin tamamını içeriyor, yetim kayıt yok. |
@@ -88,7 +90,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Soru:** Kısaltmalar listesini sözlükle **otomatik senkron** tutmak ister misiniz (build sırasında sözlükten üretilir), yoksa elle bakım yeterli mi?
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A → Karar verilmedi. pLoF/CSpec ve eski `allel` yazımları teknik temizlik kapsamına adaydır; otomatik senkron ile elle bakım arasında ayrıca karar verilecektir.
+**Değerlendirme:** ☐ D ☒ Y ☐ A → pLoF ve CSpec resmî açılımları kontrol edilerek kısaltma listesine elle eklendi. İngilizce açılımlardaki `allele/non-allelic` biçimleri çevrilmedi; Türkçe karşılıklarda `alel` standardı korundu. Otomatik sözlük–kısaltma senkronu bu teknik pakete alınmadı ve ayrı mimari karar olarak bırakıldı.
 
 ---
 

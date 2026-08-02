@@ -90,5 +90,5 @@
   <text x="40" y="404" font-size="10.5" fill="#2E3440">• Delesyon hastalığı <tspan font-weight="700" fill="#1D4ED8">kopyalıyorsa</tspan> → mekanizma haploinsufficiency / LoF'tur (eksiklik hastalığı).</text>
   <text x="40" y="426" font-size="10.5" fill="#2E3440">• Delesyon <tspan font-weight="700" fill="#B91C1C">sağlıklıysa veya daha hafif/farklı</tspan> fenotip yapıyorsa → DN veya GoF düşün (hastalık "yokluktan" değil, varyant ürünün <tspan font-weight="700">varlığından</tspan> doğar).</text>
   <text x="40" y="448" font-size="10.5" fill="#2E3440">• Pratik sonuç: DN'li bir gende kısaltıcı/null varyanta <tspan font-weight="700" fill="#B45309">otomatik PVS1 verme</tspan>; çünkü o gende null, hastalık mekanizmasını temsil etmeyebilir.</text>
-  <text x="40" y="470" font-size="9.5" font-style="italic" fill="#64748B">Örnek: COL1A1 null allel → hafif OI tip I; COL1A1 yapısal (glisin) varyant → ağır OI (DN). Aynı gen, zıt ağırlık.</text>
+  <text x="40" y="470" font-size="9.5" font-style="italic" fill="#64748B">Örnek: COL1A1 null alel → hafif OI tip I; COL1A1 yapısal (glisin) varyant → ağır OI (DN). Aynı gen, zıt ağırlık.</text>
 </svg>

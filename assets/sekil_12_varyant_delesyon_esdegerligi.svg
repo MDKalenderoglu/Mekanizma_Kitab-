@@ -15,7 +15,7 @@
   <line x1="382" y1="126" x2="430" y2="126" stroke="#2980b9" stroke-width="3"/>
   <line x1="510" y1="126" x2="558" y2="126" stroke="#2980b9" stroke-width="3"/>
   <rect x="430" y="118" width="80" height="16" fill="#fdecea" stroke="#c0392b" stroke-dasharray="4 3"/>
-  <text x="470" y="166" text-anchor="middle" font-size="10" fill="#666">allel fiziksel olarak yok (CNV)</text>
+  <text x="470" y="166" text-anchor="middle" font-size="10" fill="#666">alel fiziksel olarak yok (CNV)</text>
 
   <text x="780" y="92" text-anchor="middle" font-size="13" font-weight="700" fill="#2471a3">C. Destabilize / kanonik splice</text>
   <rect x="680" y="105" width="200" height="42" rx="5" fill="#eaf2fb" stroke="#2980b9"/>
@@ -35,7 +35,7 @@
 
   <!-- convergence node -->
   <rect x="300" y="245" width="340" height="56" rx="10" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
-  <text x="470" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Bir allel işlevsiz → yalnız 1 işlevsel kopya</text>
+  <text x="470" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Bir alel işlevsiz → yalnız 1 işlevsel kopya</text>
   <text x="470" y="290" text-anchor="middle" font-size="12" fill="#922b21">Net etki = %50 işlevsel doz (ortak son yol)</text>
 
   <!-- down to dosage-sensitive gene -->
@@ -54,5 +54,5 @@
   <rect x="70" y="425" width="800" height="78" rx="10" fill="#eef6fb" stroke="#2980b9"/>
   <text x="90" y="448" font-size="12" font-weight="700" fill="#1a5276">Tanısal sonuç (kritik):</text>
   <text x="90" y="469" font-size="11" fill="#444">A ve C tipi varyantlar diziyle (WES/WGS) yakalanır; B tipi (ekzon/tam-gen delesyonu) çoğu kez yalnız diziyle GÖRÜLMEZ.</text>
-  <text x="90" y="489" font-size="11" font-weight="700" fill="#c0392b">→ HI geninde sekanslama + doz analizi (MLPA / array-CGH / WGS-CNV) BİRLİKTE gerekir; yoksa hastaların bir kısmı kaçar.</text>
+  <text x="90" y="489" font-size="11" font-weight="700" fill="#c0392b">→ HI geninde dizileme + doz analizi (MLPA / array-CGH / WGS-CNV) BİRLİKTE gerekir; yoksa hastaların bir kısmı kaçar.</text>
 </svg>

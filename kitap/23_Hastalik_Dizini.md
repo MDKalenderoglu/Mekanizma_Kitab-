@@ -19,7 +19,7 @@
 **C**
 
 - CATSHL sendromu — Bölüm [15](#bolum-15)
-- Charcot-Marie-Tooth hastalığı — Bölüm [3](#bolum-3) · [15](#bolum-15)
+- Charcot–Marie–Tooth hastalığı — Bölüm [3](#bolum-3) · [15](#bolum-15)
 - CLOVES sendromu — Bölüm [12](#bolum-12)
 
 **D**

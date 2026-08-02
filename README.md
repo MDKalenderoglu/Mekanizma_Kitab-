@@ -21,9 +21,13 @@ kitleyi oluşturur.
   PMID** içerir.
 - Güvenli başlangıç commit'i: `599a12e` (`Editöryal tur 2: bulgu formu eklendi`).
 - Yerel güvenlik etiketi: `pre-editorial-round-2`.
-- Proje artık bölüm üretme aşamasında değil; **yayın öncesi editöryal kararların
-  uygulanması, teknik temizlik, bilimsel revizyon, bağımsız değerlendirme ve yayın
-  kapanışı** aşamasındadır.
+- Editöryal karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne
+  bağlantıları + terminoloji/HGVS denetimi tamamlanmıştır. Proje artık **ayrı
+  bilimsel/yapısal revizyon paketleri, bağımsız değerlendirme ve yayın kapanışı**
+  aşamasındadır.
+- Teknik temizlik sonrası doğrulanan envanter: **17 bölüm · 64 şekil · 49 algoritma
+  · 73 tablo · 153 benzersiz PMID**. Derleme, eksik SVG veya geçersiz/mükerrer tablo
+  numarasında hata vererek durur.
 
 Güncel durum ve yol haritası için önce
 [`Bölüm_00_İçindekiler_ve_İlerleme.md`](Bölüm_00_İçindekiler_ve_İlerleme.md),
@@ -66,6 +70,7 @@ bırakılmaz; kalıcı kayıt sırası şöyledir:
 | `Bölüm_00_İçindekiler_ve_İlerleme.md` | Canlı bölüm/görsel/kaynak envanteri ve yol haritası |
 | `Editor_Degerlendirme_Formu_Tur2.md` | Editöryal kararlar ve uygulanma durumu |
 | `Dogrulama_Kutugu.md` | İddia ve kaynak doğrulama geçmişi |
+| `Terminoloji_Kaynak_Denetimi.md` | Türkçe terim kararları, önce/sonra tablosu ve kaynakları |
 | Git geçmişi | Her değişikliğin ne, neden ve nasıl yapıldığı |
 
 Her yeni oturumda bu belgeler ve `git status` okunmalıdır. Yapılmamış bir karar,
@@ -99,8 +104,11 @@ Kaynak Markdown dosyaları asıldır. Güncel HTML kitap:
 python3 build_book.py
 ```
 
-komutuyla üretilir. PDF, HTML'nin tarayıcıdan yazdırılmasıyla hazırlanır. Nihai
-PDF/baskı kalite kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
+komutuyla üretilir. HTML'deki şekil, algoritma ve tablo listeleri doğrudan ilgili
+nesneye gider. Tarayıcıdan yazdırma değerlendirme PDF'i üretir; nesne listelerindeki
+sabit sayfa numaraları ancak CSS hedef sayacı destekleyen bir sayfalama motoruyla
+nihai PDF üretilirken hesaplanır ve görsel olarak doğrulanır. Nihai PDF/baskı kalite
+kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
 
 ---
 
@@ -117,5 +125,6 @@ PDF/baskı kalite kontrolü, bilimsel ve editöryal revizyonlardan sonra yapıla
 7. Aynı çalışma kopyasında Codex ve Claude eş zamanlı değişiklik yapmaz; devralan
    araç önce Git durumunu ve yukarıdaki kalıcı kayıtları okur.
 
-Sonraki uygulama sırası: **karar kaydı → düşük riskli teknik temizlik → bilimsel ve
-yapısal paketler → bağımsız uzman incelemesi → yayın kapanışı**.
+Tamamlanan sıra: **karar kaydı → düşük riskli teknik temizlik → doğrudan nesne
+bağlantıları ve terminoloji/HGVS denetimi**. Sonraki uygulama sırası: **ayrı onaylı
+bilimsel/yapısal paketler → bağımsız uzman incelemesi → yayın kapanışı**.

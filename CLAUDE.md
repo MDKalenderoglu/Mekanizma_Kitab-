@@ -38,7 +38,9 @@ Bu kararlar kullanıcı tarafından onaylanmıştır; yeniden tartışma açmada
 - Ayrıntılı öz-denetim, kaynak doğrulama, araç ve revizyon günlükleri proje kayıtlarında korunacak; yayımlanan HTML/PDF'de yalnız okuyucuya yönelik kısa yöntem açıklaması bulunacak.
 - Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak ve gelecek sürüm için taahhüt edilmeyecek.
 
-**Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu dört belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
+**Tamamlanan uygulama paketleri (02.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne bağlantıları + terminoloji/HGVS denetimi tamamlandı. Güncel build 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID üretir. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası veya eksik/mükerrer nesne hedefi bulursa hata vererek durur. Sıradaki çalışma, kullanıcı tarafından ayrıca seçilip onaylanacak bilimsel/yapısal pakettir.
+
+**Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde, Türkçe terminoloji kaynakları `Terminoloji_Kaynak_Denetimi.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu beş belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
 
 ## 2. Altın kurallar (asla ihlal etme)
 
@@ -156,7 +158,7 @@ Her bölüm için sırayla:
 16. Kalıtsal kanser yatkınlığı ve ikinci vuruş — **onaylandı; henüz yazılmadı**
 17. Mekanizma → varyant yorumu (ACMG/ClinGen) — **mevcut Bölüm 16'dan taşınacak**
 18. Klinik senaryolarla sentez — **mevcut Bölüm 17'den taşınacak**
-+ **Yayın öncesi kapanış:** teknik temizlik, onaylı bilimsel/yapısal paketler, bağımsız insan değerlendirmesi, son HTML/PDF.
++ **Yayın öncesi kapanış:** onaylı bilimsel/yapısal paketler, bağımsız insan değerlendirmesi, son HTML/PDF. Teknik temizlik tamamlandı.
 
 Güncel ilerleme **Bölüm_00_İçindekiler_ve_İlerleme.md** dosyasındadır.
 
@@ -190,7 +192,9 @@ Kaynak `.md` dosyaları **düzenlenebilir asıldır**; paylaşılacak çıktı b
 
 - **Komut:** `python3 build_book.py` → kök dizinde **`Genetik_Hastalık_Mekanizmaları.html`** üretir.
 - Bu, **tek dosyalık, kendi kendine yeten** bir HTML kitaptır: tüm SVG'ler inline gömülür, Mermaid'ler **offline** render olur (mermaid.js `build_assets/mermaid.min.js`'ten inline gömülür), kapak + otomatik içindekiler + textbook CSS dahildir.
-- **PDF için:** HTML'i tarayıcıda aç → **Yazdır → "PDF olarak kaydet"** (CSS'te sayfa-sonu/print kuralları hazır).
+- Şekil, algoritma ve tablo listelerindeki bağlantılar HTML'de nesnenin bulunduğu bölüm başlığına değil, doğrudan nesnenin kendi sabit kimliğine gider.
+- Akışkan HTML'de sabit sayfa kavramı yoktur. Listelerdeki nesne sayfa numaraları, yalnız sayfalanmış çıktı üreten ve CSS `target-counter(..., page)` özelliğini destekleyen bir motorla nihai PDF oluşturulduğunda hesaplanır. Sıradan tarayıcıdan “PDF olarak kaydet” değerlendirme kopyası üretir; liste sayfa numaralarını göstereceği varsayılmaz.
+- Nihai PDF üretiminde uyumlu sayfalama motoru kullanılmalı; listelerdeki sayfa numaraları ile hedef sayfalar PDF sayfaları görsele dönüştürülerek örneklem değil kitap genelinde doğrulanmalıdır.
 - Betik mevcut durumda bölümleri otomatik toplar: `Bölüm_NN_*.md` (NN≥01), sıralı; `Bölüm_00` kitap gövdesine girmez. Onaylanan 18 bölümlük hedef, ilgili dosya ve çapraz gönderme paketi uygulanana kadar mevcut 17 bölümlük build'i değiştirmez.
 - **Her bölüm bitiminde** (öz-denetim + indeks güncellemesinden sonra) `python3 build_book.py` çalıştırıp kitabı tazele.
 - Bağımlılık: `python3 -m pip install --user markdown` (bir kez); mermaid.js bir kez `build_assets/`'e indirilmiştir.

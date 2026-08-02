@@ -4,7 +4,7 @@
 
 > **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Tek cümlelik omurga: *bazı varyantlar sağlam kopyanın ürününü de bozar.* Şekil 5.1 ve 5.2 (multimer matematiği) bunu sayısallaştırır.
-> · **② Klinik — pediatrist ve klinisyen:** §7: osteogenesis imperfekta ve Li-Fraumeni; ayrıca §9'daki "delesyon ne yapıyor?" karar akışı.
+> · **② Klinik — pediatrist ve klinisyen:** §7: osteogenezis imperfekta ve Li-Fraumeni; ayrıca §9'daki "delesyon ne yapıyor?" karar akışı.
 > · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: dominant-negatif gende PVS1 tuzakları ve null-delesyon karşılaştırmasının kanıt değeri.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.

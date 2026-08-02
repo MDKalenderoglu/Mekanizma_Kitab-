@@ -4,7 +4,7 @@
 
 > **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Zaman ekseni sezgisi (Şekil 12.1) kurulmadan tekrarlanma riski tabloları ezber kalır.
-> · **② Klinik — pediatrist ve klinisyen:** "Klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı; **§2.2 ve Tablo 12.1B** danışmanın en kritik iki sayfasıdır.
+> · **② Klinik — pediatrist ve klinisyen:** "Klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı; **§2.2 ve Tablo 12.2** danışmanın en kritik iki sayfasıdır.
 > · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: mozaik varyantta de novo kriterleri (PS2/PM6), VAF raporlama zorunluluğu ve klonal hematopoez tuzağı.
 
 > 🖼️ **Görseller hakkında not:** Şekil 12.1–12.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
@@ -74,7 +74,7 @@ Bu üçlüden çıkan pratik kural, bölümün en çok kullanılacak cümlesidir
 
 Klinik genetikte mozaikliğin en önemli sonucu, tekrarlanma riskini yeniden tanımlamasıdır. Burada birbirine sürekli karıştırılan sorular vardır ve bunları ayırmanın tek yolu, **her sorunun kimin hücreleriyle ilgili olduğunu** açıkça söylemektir. Üç soru, üç ayrı biyolojik değişkene bakar. *"Probandın fenotipini ne açıklıyor?"* sorusunun cevabı **probandın somatik bölmesindedir**: varyantın hastalıkla ilişkili dokulardaki dağılımı ve mutant hücre yükü. *"Kardeşinde tekrar eder mi?"* sorusunun cevabı probandda değil, **anne ya da babanın germ hattındadır**: ebeveynin gametlerinin ne kadarının varyantı taşıdığı. *"Proband kendi çocuğuna aktarabilir mi?"* sorusunun cevabı ise **probandın kendi germ hattındadır**. "Somatik bölme fenotipi, germ hücresi bölmesi riski belirler" özdeyişi ancak bu üç soru birbirinden ayrıldığında doğrudur; aksi hâlde ebeveynin germ hattıyla probandın germ hattı aynı kutuya konur ve danışmada yanlış sayı verilir.
 
-**Tablo 12.1B — Üç soru, üç ayrı bölme**
+**Tablo 12.2 — Üç soru, üç ayrı bölme**
 
 | Değerlendirilen durum | Yanıtladığı soru | Belirleyici biyolojik değişken |
 |---|---|---|
@@ -148,7 +148,7 @@ Modelin bugün nasıl okunması gerektiğini iki sınır belirler ve ikisi de do
 
 Mozaiklik bir varyant *tipi* değil, varyantın **dağılım biçimidir**; bu nedenle önceki bölümlerde gördüğümüz hemen her lezyon tipi mozaik olarak karşımıza çıkabilir. Aşağıdaki tablo, klinikte ayrı ayrı ele alınması gereken mozaik lezyon kategorilerini toplar.
 
-**Tablo 12.2 — Mozaik lezyon tipleri ve saptanma yolları**
+**Tablo 12.3 — Mozaik lezyon tipleri ve saptanma yolları**
 
 | Mozaik lezyon tipi | Tipik mekanizma | Nasıl saptanır | Klinik örnek / not |
 |---|---|---|---|
@@ -214,7 +214,7 @@ Bu, klinik olarak rahatsız edici bir sonuca yol açar: genetik nedeni kesin ola
 
 Mozaiklikte test seçimi, önceki bölümlerdekinden farklı olarak **üç** soruyu birden yanıtlamak zorundadır: hangi **doku**, hangi **yöntem** (ve hangi derinlik), ve sonuç **nasıl raporlanacak** (VAF belirtilmeli). Bu üçünden biri eksikse test tanısal değildir.
 
-**Tablo 12.3 — Mozaikliği hangi test yakalar?**
+**Tablo 12.4 — Mozaikliği hangi test yakalar?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -300,7 +300,7 @@ flowchart TD
 > 7. **"Erişkinin kanında düşük VAF'lı somatik varyant bulundu, hastalığı bu açıklıyor."** Yaşla ilişkili klonal hematopoez ayırt edilmeden bu bağ kurulmamalıdır; ikinci bir dokuda doğrulama gerekir.
 > 8. **"Aile öyküsü yok, o hâlde genetik değil."** Mozaik sendromların çoğu tanımı gereği sporadiktir; aile öyküsünün yokluğu genetik nedeni desteklemez de dışlamaz da.
 > 9. **"Bu sendrom letal-mozaik grubundandır, o hâlde istisnasız sporadiktir ve aktarılamaz."** Letalite genin tamamına değil, çoğunlukla **belirli varyanta ve yolak aktivasyon düzeyine** özgüdür; aynı gendeki daha hafif aleller konstitüsyonel olarak yaşayabilir (Rivière ve ark., 2012). Ayrıca mozaik bireyin germ hattı tutulmuşsa aktarım olasılığı sıfır değildir. Doğru ifade "istisnasız sporadik" değil, "genellikle de novo, postzigotik ve ailede tek olgu" biçimindedir.
-> 10. **"Kardeş tekrarlanma riski hastanın germ hücrelerine bağlıdır."** Değildir. Kardeş riskini belirleyen **anne veya babanın** germ hattıdır; probandın germ hattı ise onun *kendi çocuklarına* aktarım riskini belirler. Bu iki soru ayrı ayrı sorulmalı ve ayrı ayrı yanıtlanmalıdır (bkz. Tablo 12.1B).
+> 10. **"Kardeş tekrarlanma riski hastanın germ hücrelerine bağlıdır."** Değildir. Kardeş riskini belirleyen **anne veya babanın** germ hattıdır; probandın germ hattı ise onun *kendi çocuklarına* aktarım riskini belirler. Bu iki soru ayrı ayrı sorulmalı ve ayrı ayrı yanıtlanmalıdır (bkz. Tablo 12.2).
 > 11. **"Kan VAF'i %5, o hâlde tekrarlanma riski de bu civarındadır."** Somatik dokudaki VAF germ hattı tutulumu için ipucu verir, gametlerdeki oranı ölçmez. Risk, ölçülebildiğinde ailenin kendi verisinden hesaplanır; ölçülemediğinde verilen "%1–2" bir hesap değil, yer tutucudur (Bernkopf ve ark., 2023).
 
 > **🟦 Klinikte dikkat kutusu**
@@ -402,7 +402,7 @@ flowchart TD
 
 ## ✅ Bölüm öz-denetim tablosu
 
-**Tablo 12.4 — Bölüm 12 öz-denetim tablosu**
+**Tablo 12.5 — Bölüm 12 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|
@@ -430,6 +430,6 @@ flowchart TD
 >
 > **Yöntem duyarlılığı pasajı (§4.1) yeniden kurulmuştur.** Uzman, sahada dolaşan yuvarlak eşiklerin (Sanger ~%15–20 · WES ~%10 · derin panel ~%1 · ddPCR ~%0,1 · array ~%20) ya kaynaklandırılmasını ya da çıkarılmasını istedi. Pasaj, bir eşik tablosundan **kaynaklı örnekler merdivenine** çevrildi ve sekiz kaynağa bağlandı (Pritchard 2013 · Urbanova 2018 · Cao 2019 · Coppin 2019 · Gambin 2020 · Rehder 2021 · Domogala 2021 · Xu 2023). Array saptama sınırı için sayı verilmemiş, laboratuvar validasyonuna yönlendirilmiştir.
 >
-> **Uzman değerlendirmesi turu C15–C17 (01.08.2026).** Üç kalem kapatıldı. **C15 —** "Bu sendromlar istisnasız/daima sporadiktir" ifadesi kitaptan çıkarıldı (§1, Tablo 12.1, §2.2, öğrenme hedefi 7). Yerine iki sınır yazıldı: letalite çoğunlukla gen değil **varyant/alel düzeyindedir** (Rivière ve ark., 2012 — aynı yolakta hem postzigotik hem de novo germline varyantlar) ve mozaik bireyin germ hattı tutulmuşsa **aktarım olasılığı sıfır değildir**. "Sporadik / de novo / postzigotik / aktarılamaz" terimlerinin eş anlamlı olmadığı ayrıca vurgulandı; Algoritma 12.1'deki "bu genin hastalığı ancak mozaik görülebilir" düğümü varyant düzeyine çekildi. Modelin güncelliği için Happle (2016) kutanöz mozaiklik sınıflaması eklendi. **C16 —** §2.2'deki iki-soru ayrımı **üç soruya** genişletildi ve öznesi adlandırıldı: kardeş riskini belirleyen probandın değil **ebeveynin** germ hattıdır; probandın germ hattı kendi çocuklarına aktarım riskini belirler (yeni Tablo 12.1B). Bölmelerin mühürlü olmadığı, kan VAF'inin tekrarlanma riski olarak okunamayacağı ve riskin **sürekli** bir değişken olduğu eklendi; "%1–2" rakamının yer tutucu olduğu Bernkopf ve ark. (2023) verisiyle sayısallaştırıldı. **C17 —** Revertant mozaiklik "ters yöndeki olay / varyant düzelir / sağlıklı hücre" dilinden çıkarıldı; **karşıt yönde bir mozaikleşme örneği** ve **genetik ya da işlevsel kurtarma** olarak yeniden tanımlandı, altı kurtarma mekanizması sayıldı ve iki moleküler örnekle (Jonkman ve ark., 1997; Pasmooij ve ark., 2005) ile "somatik genetik kurtarma" ayrımı (Revy ve ark., 2019) kaynaklandırıldı. Kurtarılmış klonun bütün riskleri ortadan kaldırmadığı eklendi. Hata kutusuna 9–11. maddeler eklendi.
+> **Uzman değerlendirmesi turu C15–C17 (01.08.2026).** Üç kalem kapatıldı. **C15 —** "Bu sendromlar istisnasız/daima sporadiktir" ifadesi kitaptan çıkarıldı (§1, Tablo 12.1, §2.2, öğrenme hedefi 7). Yerine iki sınır yazıldı: letalite çoğunlukla gen değil **varyant/alel düzeyindedir** (Rivière ve ark., 2012 — aynı yolakta hem postzigotik hem de novo germline varyantlar) ve mozaik bireyin germ hattı tutulmuşsa **aktarım olasılığı sıfır değildir**. "Sporadik / de novo / postzigotik / aktarılamaz" terimlerinin eş anlamlı olmadığı ayrıca vurgulandı; Algoritma 12.1'deki "bu genin hastalığı ancak mozaik görülebilir" düğümü varyant düzeyine çekildi. Modelin güncelliği için Happle (2016) kutanöz mozaiklik sınıflaması eklendi. **C16 —** §2.2'deki iki-soru ayrımı **üç soruya** genişletildi ve öznesi adlandırıldı: kardeş riskini belirleyen probandın değil **ebeveynin** germ hattıdır; probandın germ hattı kendi çocuklarına aktarım riskini belirler (yeni Tablo 12.2). Bölmelerin mühürlü olmadığı, kan VAF'inin tekrarlanma riski olarak okunamayacağı ve riskin **sürekli** bir değişken olduğu eklendi; "%1–2" rakamının yer tutucu olduğu Bernkopf ve ark. (2023) verisiyle sayısallaştırıldı. **C17 —** Revertant mozaiklik "ters yöndeki olay / varyant düzelir / sağlıklı hücre" dilinden çıkarıldı; **karşıt yönde bir mozaikleşme örneği** ve **genetik ya da işlevsel kurtarma** olarak yeniden tanımlandı, altı kurtarma mekanizması sayıldı ve iki moleküler örnekle (Jonkman ve ark., 1997; Pasmooij ve ark., 2005) ile "somatik genetik kurtarma" ayrımı (Revy ve ark., 2019) kaynaklandırıldı. Kurtarılmış klonun bütün riskleri ortadan kaldırmadığı eklendi. Hata kutusuna 9–11. maddeler eklendi.
 >
 > **⚠️ Düzeltilen olgusal hata (uzman bulgusu).** Kitap "standart derinlikte WES yaklaşık %10 VAF'ın altını **göremez**" diyordu. Bu ifade **yanlıştır**: %10 mutlak bir teknik algılama sınırı değil, rutin alel-fraksiyonu süzgeçlerinin oluşturduğu bir **inceleme** sınırıdır. Cao ve ark. (2019) bunu açıkça yazar — ortalama 130× derinlikte bile %10 altındaki mozaik varyantlar süzgeçle elenip incelemeden çıkarılabilir; aynı kohortta rapor edilen mozaik varyantlar %3,1'e kadar inmiştir. Gambin ve ark. (2020) aynı ham ekzom verisini mozaikliğe özgü bir hatla yeniden inceleyerek %1–10 ve %1 altı mozaiklikleri göstermiştir. Doğru ifade: **%10 altında duyarlılık düşer ve varyantlar sıklıkla kaçırılır; negatif WES düşük düzeyli mozaikliği dışlamaz.** Düzeltme hem §4.1'e hem §8 hata kutusuna uygulanmıştır.

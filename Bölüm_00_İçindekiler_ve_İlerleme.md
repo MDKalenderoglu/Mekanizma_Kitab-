@@ -233,7 +233,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_05_alelik_vs_lokus_heterojenite.svg | 1 | Alelik vs lokus heterojenite |
 | sekil_06_yasa_bagli_penetrans.svg | 1 | Yaşa bağlı penetrans eğrisi |
 | sekil_07_nmd_karar.svg | 2 | NMD karar ağacı (PTC konumu) |
-| sekil_08_okuma_cercevesi_dmd.svg | 2 | Okuma çerçevesi kuralı (Duchenne/Becker) |
+| sekil_08_okuma_cercevesi_dmd.svg | 2 | Okuma çerçevesi kuralı (Duchenne ve Becker) |
 | sekil_09_lof_spektrum.svg | 2 | LoF alelik spektrumu (PKU) |
 | sekil_10_doz_yanit_esigi.svg | 3 | Doz–yanıt ve klinik eşik (HI neden dominant) |
 | sekil_11_tf_doz_duyarliligi.svg | 3 | TF doz duyarlılığı (%100 vs %50 promotör doluluğu) |
@@ -311,7 +311,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 8 | İçindekiler | *(build üretir)* | ✅ |
 | 9 | Şekiller listesi (64) | *(build üretir)* | ✅ |
 | 10 | Algoritmalar listesi (49) | *(build üretir)* | ✅ |
-| 11 | Tablolar listesi (72; güncel build eşleşmesi) | *(build üretir)* | ✅ |
+| 11 | Tablolar listesi (73; güncel build eşleşmesi) | *(build üretir)* | ✅ |
 | 12 | Kısaltmalar | `kitap/06_Kisaltmalar.md` | ✅ |
 | 13 | Terminoloji ve yazım kuralları | `kitap/07_Terminoloji_ve_Yazim_Kurallari.md` | ✅ (HGVS/HGNC/ISCN dahil) |
 | 14 | **Kısım I–VI + mevcut 17 bölüm** | `Bölüm_NN_*.md` | ✅ |
@@ -329,9 +329,9 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 **Numaralandırma:** Şekil/Algoritma/Tablo numaraları `bölüm.sıra` biçimindedir ve metinde ilk anıldıkları sıraya göre verilir. Bölüm 1–8'in eski global şekil numaraları (Şekil 1–29) bu aşamada bölüm.sıra biçimine çevrildi; SVG'lerin iç başlıkları da eşitlendi.
 
-**Dizinler:** Kitap tek dosya HTML olarak üretildiğinden sayfa numarası yerine **bölüm bağlantısı** kullanılmıştır.
+**Nesne listeleri:** Şekiller, algoritmalar ve tablolar listelerindeki bağlantılar bölüm başlığına değil doğrudan ilgili nesneye gider. Akışkan HTML'de sabit sayfa kavramı olmadığından sayfa numarası gösterilmez; nihai sabit PDF'de sayfa numaraları CSS hedef sayacı destekleyen sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
 
-**Kalan iş:** Onaylanan editöryal kararların kaydı ve uygulanması; düşük riskli teknik temizlik; bölüm 14–15 sıra değişimi; yeni kanser yatkınlığı/ikinci vuruş bölümü; öz değerlendirme kısmı; diğer onaylı bilimsel paketler; bağımsız insan değerlendirmesi; ✍️ kişisel/künye bilgileri; nihai HTML/PDF ve baskı kalite kontrolü.
+**Kalan iş:** Bölüm 14–15 sıra değişimi; yeni kanser yatkınlığı/ikinci vuruş bölümü; öz değerlendirme kısmı; diğer onaylı bilimsel paketler; bağımsız insan değerlendirmesi; ✍️ kişisel/künye bilgileri; nihai HTML/PDF sayfalama, liste sayfa numarası ve baskı kalite kontrolü. Editöryal karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne bağlantıları + terminoloji/HGVS denetimi tamamlanmıştır.
 
 ---
 
@@ -358,12 +358,13 @@ Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon 
 
 Uygulama sırası kullanıcı tarafından şöyle onaylandı:
 
-1. **Karar kaydı:** `README.md`, `CLAUDE.md`, bu dosya ve `Editor_Degerlendirme_Formu_Tur2.md` aynı karar setini taşıyacak.
-2. **Düşük riskli teknik temizlik:** eski durum/sayım metinleri, SVG terminolojisi ve karakter sorunları, tablo numaraları/listeleme, mutlak yollar ve build hata davranışı.
-3. **Bilimsel/yapısal paketler:** Her biri ayrı onayla; 14–15 sırası, anöploidi, digenik kanıt listesi, örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler.
-4. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
-5. **Yayın kapanışı:** Künye alanları, son HTML/PDF, görsel sayfa denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
+1. **Karar kaydı — tamamlandı:** `README.md`, `CLAUDE.md`, bu dosya ve `Editor_Degerlendirme_Formu_Tur2.md` aynı karar setini taşıyor.
+2. **Düşük riskli teknik temizlik — tamamlandı:** Sayaçlar güncellendi/otomatikleştirildi; aktif SVG terminolojisi ve Kiril karakteri temizlendi; Bölüm 9 ve 12 tablo numaraları kesintisiz hâle getirildi; mutlak yardımcı betik yolu kaldırıldı; build eksik SVG ile geçersiz/mükerrer tablo numarasında duracak biçimde katılaştırıldı. Güncel build: 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID.
+3. **Doğrudan nesne bağlantıları ve terminoloji/HGVS denetimi — tamamlandı:** Şekil, algoritma ve tablo listeleri 186 nesnenin kendi sabit hedefine bağlandı; numara/hedef bütünlüğü build sırasında doğrulanır. Kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı; okuyucu metnindeki iç karar kodları kaldırıldı. Ayrıntılı kayıt: `Terminoloji_Kaynak_Denetimi.md`. Nihai PDF liste sayfa numaralarının görsel doğrulaması yayın kapanışında yapılacaktır.
+4. **Bilimsel/yapısal paketler:** Her biri ayrı onayla; 14–15 sırası, anöploidi, digenik kanıt listesi, örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler.
+5. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
+6. **Yayın kapanışı:** Künye alanları, son HTML/PDF, uyumlu sayfalama motoru, nesne listelerindeki sayfa numaralarının görsel denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
 
-**Bir sonraki uygulama paketi:** Düşük riskli teknik temizlik için dosya bazlı kapsam kullanıcıya sunulacak; açık onay alınmadan başlanmayacak.
+**Bir sonraki uygulama paketi:** Bilimsel/yapısal kalemlerden hangisinin önce ele alınacağı kullanıcıyla seçilecek; dosya bazlı kapsam sunulup açık onay alınmadan başlanmayacak.
 
-**Araçlar arası devir:** Codex veya Claude yeni bir oturuma başladığında önce `git status`, `README.md`, `CLAUDE.md`, bu bölüm ve `Editor_Degerlendirme_Formu_Tur2.md` okunur. Kararlar yalnız sohbet geçmişinde tutulmaz; her paket ilgili durum belgesini ve doğrulama kaydını günceller. Stage, commit ve push ayrı kullanıcı yetkisi gerektirir.
+**Araçlar arası devir:** Codex veya Claude yeni bir oturuma başladığında önce `git status`, `README.md`, `CLAUDE.md`, bu bölüm, `Editor_Degerlendirme_Formu_Tur2.md`, `Dogrulama_Kutugu.md` ve `Terminoloji_Kaynak_Denetimi.md` okunur. Kararlar yalnız sohbet geçmişinde tutulmaz; her paket ilgili durum belgesini ve doğrulama kaydını günceller. Stage, commit ve push ayrı kullanıcı yetkisi gerektirir.
