@@ -401,6 +401,52 @@ Yani RNA'nın gösterdiği "ekzon atlandı → işlev kaybı yapan transkript" b
 
 ---
 
+# Bölüm 8 — Sayısal ve yapısal kromozom anomalileri (yeniden yapılandırma)
+
+**Uygulama tarihi:** 03.08.2026 · **Kapsam:** 18 iddia kümesi · **Kanıt standardı:** 27 PubMed kaydının programatik künye doğrulaması + resmî PMC ana metinleri + ISCN 2024/ACGS resmî PDF'leri + Gardner & Amor 5e T4 çapraz kontrolü.
+
+Önceki 27.07.2026 turu yalnız yedi kaynak ve altı özet üzerinden yürütülmüştü. Bu kayıt onun yerini silmez; yeni bölümde kullanılan bilimsel iddialar için özetler kanıt sayılmamış, ana metinler yeniden incelenmiştir.
+
+## Kanıt haritası sonucu
+
+| Küme | Kapsam | Sonuç |
+|---|---|---|
+| 8-A–D | Ayrımlar; normal mayoz/mitoz; nondisjunction dışı yollar; kinetokor/SAC | ✅ İki bağımsız hat; insan–hayvan tür sınırı metinde açık |
+| 8-E–F | Postzigotik anöploidi, rescue/UPD, triploidi–diandri/digini | ✅ İki bağımsız hat; gebelik evresi/ascertainment koşulu korundu |
+| 8-G–J | DSB/telomer, NAHR/NHEJ/MMEJ, FoSTeS/MMBIR, chromothripsis/chromoanasynthesis | ✅ İki bağımsız hat; mikrohomoloji ve mekanizma kesinliği sınırlandı |
+| 8-K–O | Kromozomal ürünler, fenotip yolları, testler, ISCN ve geriye çıkarım | ✅ ISCN + normatif belgeler + tam metin çalışmalar |
+| 8-P–Q | Parental taşıyıcılık, segregasyon ve yineleme | ✅ Translokasyonlarda iki hat; inversiyon halkası nitel ve yüzdesiz |
+| 8-R | Düşük düzey/gonadal mozaiklik ve parental kan sınırı | ✅ İki birincil hat; gonadal mozaiklik kesin kanıtlanmış gibi yazılmadı |
+
+## Bağlayıcı bilimsel kararlar
+
+1. Her anöploidi nondisjunction değildir; predivision ve reverse segregation ana metinde insan verisiyle ayrıldı.
+2. Karyotipten ebeveyn kökeni veya mayoz evresi üretilmedi.
+3. “Dengeli” benign/moleküler kayıpsız kabul edilmedi; Redin ve Ordulu kohortlarının seçilmişliği açıklandı.
+4. Breakpoint mikrohomolojisi kesin mekanizma kanıtı yapılmadı; FoSTeS/MMBIR'ın her zaman ayrılamadığı belirtildi.
+5. Chromothripsis için “duplikasyon olmaz” mutlak ifadesi reddedildi.
+6. Teorik gamet/embriyo ürünleri canlı doğum olasılığına çevrilmedi; genel yineleme yüzdesi verilmedi.
+7. Normal parental kanın düşük düzey veya gonadal mozaikliği tümüyle dışlamadığı, örnekleme/duyarlılık sınırı olarak yazıldı.
+8. ISCN örneklerinin tamamı ISCN 2024 ana metninden ve basılı sayfalarıyla doğrulandı; ISCN mekanizma kaynağı yapılmadı.
+
+## Erişim ve belge sorunları
+
+- İnversiyon halkasına özgü ikinci bağımsız birincil tam metin erişimi bulunmadı; alt başlık Gardner & Amor + ISCN düzeyinde nitel tutuldu, ampirik yüzde çıkarıldı.
+- Lee 2007 FoSTeS ana metni erişilebilir olmadığı için kaynak setine alınmadı; ilgili sınır Burssed 2022 + Hastings 2009 + Liu 2011 ile kapatıldı.
+- ACGS WGS-SV PDF dosya adı `v1.2`, iç sürüm geçmişi `2026 v0.1, 1 Mayıs 2026` göstermektedir; iki bilgi birlikte kaydedildi.
+- ACGS array v2.00 (2011) güncel normatif temel yapılmadı.
+- OGM validasyonunun Robertsonian/sentromerik yapılar, bazı LCR breakpointleri ve düşük mozaiklik dışlamaları metne taşındı.
+
+## Uygulama sonucu
+
+- Bölüm yeni adla 10 ana başlık altında yeniden yazıldı.
+- 3 yeni SVG ve 3 Mermaid; 9 numaralı tablo; 8 çözümlü rapor örneği oluşturuldu.
+- 27/27 PubMed kaydı programatik doğrulandı; ISCN 2024, ACGS KA/TCA, QF-PCR ve WGS-SV belgeleri ana metinden kontrol edildi.
+- Tam build başarıyla tamamlandı: 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID; 191 doğrudan nesne hedefi doğrulandı.
+- Stage, commit ve push bu pakete dahil edilmedi.
+
+---
+
 # Bölüm 9 — Tekrar dizisi genişlemesi (tamamlandı)
 
 **Denetim tarihi:** 27.07.2026 · **Denetlenen iddia:** 14 · **Kullanılan otorite:** PubMed künye/özet (10 kaynağın tamamı); ders kitabı çapraz kontrolü (Thompson & Thompson 2023)

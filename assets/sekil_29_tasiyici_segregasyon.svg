@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Ebeveyn taşıyıcılığında eşleşme geometrisi ve teorik segregasyon ürünleri</title>
+  <desc id="desc">Reciprocal translokasyonda quadrivalent, Robertsonian translokasyonda trivalent ve inversiyonda halka eşleşmesi gösterilir.</desc>
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/></filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#2563EB"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#B91C1C"/></marker>
+  </defs>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#1A2B4A">Taşıyıcılıkta mayotik eşleşme geometrisi</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748B">Şema olası ürün sınıflarını gösterir; bunların sıklığını veya canlı doğum olasılığını göstermez.</text>
+
+  <rect x="28" y="98" width="362" height="528" rx="14" fill="#F8FAFC" stroke="#CBD5E1" filter="url(#shadow)"/>
+  <rect x="28" y="98" width="362" height="50" rx="14" fill="#DBEAFE"/>
+  <rect x="43" y="108" width="30" height="30" rx="5" fill="#1A2B4A"/>
+  <text x="58" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">A</text>
+  <text x="88" y="130" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8">Reciprocal translokasyon</text>
+  <text x="209" y="178" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A2B4A">Quadrivalent</text>
+  <g fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M126 232 L292 350" stroke="#2563EB"/>
+    <path d="M292 232 L126 350" stroke="#B91C1C"/>
+    <path d="M126 232 L209 291 L126 350" stroke="#2563EB" opacity="0.45"/>
+    <path d="M292 232 L209 291 L292 350" stroke="#B91C1C" opacity="0.45"/>
+  </g>
+  <circle cx="126" cy="232" r="8" fill="#1A2B4A"/><circle cx="292" cy="232" r="8" fill="#1A2B4A"/>
+  <circle cx="126" cy="350" r="8" fill="#1A2B4A"/><circle cx="292" cy="350" r="8" fill="#1A2B4A"/>
+  <text x="209" y="387" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#64748B">İki normal + iki türev kromozom</text>
+  <rect x="55" y="414" width="308" height="174" rx="10" fill="#ffffff" stroke="#CBD5E1"/>
+  <text x="78" y="445" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1D4ED8">Alternate</text>
+  <text x="183" y="445" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">dengeli ürün sınıfı</text>
+  <text x="78" y="477" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B91C1C">Adjacent-1 / -2</text>
+  <text x="207" y="477" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">segmental dengesizlik</text>
+  <text x="78" y="509" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B91C1C">3:1</text>
+  <text x="119" y="509" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">üç kromozom bir kutba</text>
+  <text x="78" y="541" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#64748B">4:0</text>
+  <text x="119" y="541" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">teorik uç ürün</text>
+  <text x="209" y="570" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#64748B">Yönelimler eşit olasılıklı değildir.</text>
+
+  <rect x="419" y="98" width="362" height="528" rx="14" fill="#F8FAFC" stroke="#CBD5E1" filter="url(#shadow)"/>
+  <rect x="419" y="98" width="362" height="50" rx="14" fill="#FEF3C7"/>
+  <rect x="434" y="108" width="30" height="30" rx="5" fill="#1A2B4A"/>
+  <text x="449" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">B</text>
+  <text x="479" y="130" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#B45309">Robertsonian translokasyon</text>
+  <text x="600" y="178" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A2B4A">Trivalent</text>
+  <path d="M600 224 L506 354" stroke="#2563EB" stroke-width="9" stroke-linecap="round"/>
+  <path d="M600 224 L694 354" stroke="#B91C1C" stroke-width="9" stroke-linecap="round"/>
+  <path d="M600 224 L600 380" stroke="#D97706" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="600" cy="224" r="10" fill="#1A2B4A"/>
+  <circle cx="506" cy="354" r="8" fill="#1A2B4A"/><circle cx="694" cy="354" r="8" fill="#1A2B4A"/>
+  <text x="600" y="407" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#64748B">İki normal akrosentrik + bir türev</text>
+  <rect x="446" y="434" width="308" height="154" rx="10" fill="#ffffff" stroke="#CBD5E1"/>
+  <text x="469" y="466" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1D4ED8">Alternate</text>
+  <text x="574" y="466" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">normal / dengeli taşıyıcı</text>
+  <text x="469" y="500" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B91C1C">Adjacent</text>
+  <text x="555" y="500" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">monozomik/trizomik ürün</text>
+  <text x="469" y="534" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B91C1C">3:0</text>
+  <text x="513" y="534" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">uç segregasyon sınıfı</text>
+  <text x="600" y="566" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#64748B">Sperm/embriyo oranı canlı doğum riski değildir.</text>
+
+  <rect x="810" y="98" width="362" height="528" rx="14" fill="#F8FAFC" stroke="#CBD5E1" filter="url(#shadow)"/>
+  <rect x="810" y="98" width="362" height="50" rx="14" fill="#FEE2E2"/>
+  <rect x="825" y="108" width="30" height="30" rx="5" fill="#1A2B4A"/>
+  <text x="840" y="129" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">C</text>
+  <text x="870" y="130" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#B91C1C">İnversiyon heterozigotu</text>
+  <text x="991" y="178" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A2B4A">İnversiyon halkası</text>
+  <ellipse cx="991" cy="295" rx="112" ry="82" fill="none" stroke="#2563EB" stroke-width="9"/>
+  <path d="M882 295 C912 225 1070 225 1100 295 C1070 365 912 365 882 295" fill="none" stroke="#B91C1C" stroke-width="6" stroke-dasharray="10 7"/>
+  <circle cx="910" cy="246" r="8" fill="#1A2B4A"/><circle cx="1072" cy="344" r="8" fill="#1A2B4A"/>
+  <path d="M957 266 L1027 324 M1027 266 L957 324" stroke="#D97706" stroke-width="4"/>
+  <text x="991" y="401" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#64748B">Halka içindeki crossing-over</text>
+  <rect x="837" y="434" width="308" height="154" rx="10" fill="#ffffff" stroke="#CBD5E1"/>
+  <text x="991" y="465" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B91C1C">Rekombinant ürünler oluşabilir</text>
+  <text x="991" y="493" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">Parasentrik ve perisentrik sonuçlar</text>
+  <text x="991" y="514" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">aynı değildir; breakpoint ve içerik önemlidir.</text>
+  <text x="991" y="545" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309">Bu bölüm nitel mekanizma verir.</text>
+  <text x="991" y="567" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#64748B">Ampirik yüzde verilmez.</text>
+
+  <rect x="28" y="650" width="1144" height="82" rx="12" fill="#1A2B4A"/>
+  <text x="600" y="681" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">TEORİK ÜRÜN ≠ CANLI DOĞUM OLASILIĞI</text>
+  <text x="600" y="707" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">Mayotik yönelim, gamet/embriyo seçilimi, gen içeriği, taşıyıcı cinsiyeti ve ascertainment birlikte değerlendirilir.</text>
+</svg>

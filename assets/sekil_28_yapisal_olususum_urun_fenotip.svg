@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 770" role="img" aria-labelledby="title desc">
+  <title id="title">Kırık veya replikasyon hatasından kromozomal ürüne ve fenotipe</title>
+  <desc id="desc">Yapısal yeniden düzenlenmenin başlangıç olayı, mekanizma, ürün ve fenotip sonucu dört sütunda gösterilir.</desc>
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#64748B"/></marker>
+  </defs>
+  <rect width="1200" height="770" fill="#ffffff"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#1A2B4A">Başlangıç olayı → onarım/replikasyon → ürün → fenotip</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748B">Breakpoint imzası mekanizmayla uyumlu olabilir; tek başına kesin neden değildir.</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="36" y="98" width="246" height="44" rx="8" fill="#1A2B4A"/><text x="159" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">1 · Başlangıç</text>
+    <rect x="326" y="98" width="246" height="44" rx="8" fill="#1A2B4A"/><text x="449" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">2 · Mekanizma</text>
+    <rect x="616" y="98" width="246" height="44" rx="8" fill="#1A2B4A"/><text x="739" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">3 · Kromozomal ürün</text>
+    <rect x="906" y="98" width="258" height="44" rx="8" fill="#1A2B4A"/><text x="1035" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">4 · Fenotip yolu</text>
+
+    <g filter="url(#shadow)">
+      <rect x="36" y="168" width="246" height="118" rx="12" fill="#EFF6FF" stroke="#93C5FD"/>
+      <rect x="326" y="168" width="246" height="118" rx="12" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <rect x="616" y="168" width="246" height="118" rx="12" fill="#FEF2F2" stroke="#FCA5A5"/>
+      <rect x="906" y="168" width="258" height="118" rx="12" fill="#FFFBEB" stroke="#FCD34D"/>
+    </g>
+    <text x="159" y="200" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">Yanlış homolog eşleşme</text>
+    <text x="159" y="226" text-anchor="middle" font-size="12" fill="#475569">Yüksek benzerlikli LCR'ler</text>
+    <text x="159" y="247" text-anchor="middle" font-size="12" fill="#475569">non-alelik hizalanır.</text>
+    <text x="449" y="204" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">NAHR</text>
+    <text x="449" y="230" text-anchor="middle" font-size="12" fill="#475569">Rekombinasyon-temelli,</text>
+    <text x="449" y="251" text-anchor="middle" font-size="12" fill="#475569">çoğu kez tekrarlayan sınırlar</text>
+    <text x="739" y="202" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B91C1C">Delesyon · duplikasyon</text>
+    <text x="739" y="228" text-anchor="middle" font-size="12" fill="#475569">veya inversiyon</text>
+    <text x="739" y="251" text-anchor="middle" font-size="11" fill="#64748B">Ürün bağlama göre değişir.</text>
+    <text x="1035" y="201" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B45309">Doz kaybı / kazancı</text>
+    <text x="1035" y="228" text-anchor="middle" font-size="12" fill="#475569">HI · TS · unmasking</text>
+    <text x="1035" y="251" text-anchor="middle" font-size="11" fill="#64748B">İçerik, boyuttan önemlidir.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="36" y="312" width="246" height="118" rx="12" fill="#EFF6FF" stroke="#93C5FD"/>
+      <rect x="326" y="312" width="246" height="118" rx="12" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <rect x="616" y="312" width="246" height="118" rx="12" fill="#FEF2F2" stroke="#FCA5A5"/>
+      <rect x="906" y="312" width="258" height="118" rx="12" fill="#FFFBEB" stroke="#FCD34D"/>
+    </g>
+    <text x="159" y="344" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">Çift zincir kırığı</text>
+    <text x="159" y="370" text-anchor="middle" font-size="12" fill="#475569">Kırık uçlar yeniden</text>
+    <text x="159" y="391" text-anchor="middle" font-size="12" fill="#475569">birleştirilmek zorundadır.</text>
+    <text x="449" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">c-NHEJ / MMEJ</text>
+    <text x="449" y="374" text-anchor="middle" font-size="12" fill="#475569">Blunt uç, küçük indel veya</text>
+    <text x="449" y="395" text-anchor="middle" font-size="12" fill="#475569">kısa mikrohomoloji görülebilir.</text>
+    <text x="739" y="345" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B91C1C">Translokasyon · inversiyon</text>
+    <text x="739" y="371" text-anchor="middle" font-size="12" fill="#475569">insersiyon · del/dup</text>
+    <text x="739" y="394" text-anchor="middle" font-size="11" fill="#64748B">Dengeli görünüm mümkün.</text>
+    <text x="1035" y="344" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B45309">Gen kesintisi / füzyon</text>
+    <text x="1035" y="371" text-anchor="middle" font-size="12" fill="#475569">veya TAD–pozisyon etkisi</text>
+    <text x="1035" y="394" text-anchor="middle" font-size="11" fill="#64748B">“Dengeli” benign demek değildir.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="36" y="456" width="246" height="118" rx="12" fill="#EFF6FF" stroke="#93C5FD"/>
+      <rect x="326" y="456" width="246" height="118" rx="12" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <rect x="616" y="456" width="246" height="118" rx="12" fill="#FEF2F2" stroke="#FCA5A5"/>
+      <rect x="906" y="456" width="258" height="118" rx="12" fill="#FFFBEB" stroke="#FCD34D"/>
+    </g>
+    <text x="159" y="488" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">Replikasyon çatalı</text>
+    <text x="159" y="514" text-anchor="middle" font-size="12" fill="#475569">Duraklama/çökme ve</text>
+    <text x="159" y="535" text-anchor="middle" font-size="12" fill="#475569">yanlış şablona geçiş</text>
+    <text x="449" y="492" text-anchor="middle" font-size="15" font-weight="700" fill="#1A2B4A">FoSTeS / MMBIR</text>
+    <text x="449" y="518" text-anchor="middle" font-size="12" fill="#475569">Şablonlu insersiyon ve</text>
+    <text x="449" y="539" text-anchor="middle" font-size="12" fill="#475569">karmaşık kopya örüntüsü</text>
+    <text x="739" y="489" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B91C1C">Kompleks del/dup/ins</text>
+    <text x="739" y="515" text-anchor="middle" font-size="12" fill="#475569">chromoanasynthesis</text>
+    <text x="739" y="538" text-anchor="middle" font-size="11" fill="#64748B">Yollar her zaman ayrılamaz.</text>
+    <text x="1035" y="488" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B45309">Birden çok yol birlikte</text>
+    <text x="1035" y="515" text-anchor="middle" font-size="12" fill="#475569">doz + kesinti + mimari</text>
+    <text x="1035" y="538" text-anchor="middle" font-size="11" fill="#64748B">Fenotip tek etkene indirgenmez.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="36" y="600" width="246" height="92" rx="12" fill="#EFF6FF" stroke="#93C5FD"/>
+      <rect x="326" y="600" width="246" height="92" rx="12" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <rect x="616" y="600" width="246" height="92" rx="12" fill="#FEF2F2" stroke="#FCA5A5"/>
+      <rect x="906" y="600" width="258" height="92" rx="12" fill="#FFFBEB" stroke="#FCD34D"/>
+    </g>
+    <text x="159" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">Telomer kaybı</text>
+    <text x="159" y="660" text-anchor="middle" font-size="12" fill="#475569">Korunmasız kromozom ucu</text>
+    <text x="449" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#1A2B4A">Healing / capture / birleşme</text>
+    <text x="449" y="660" text-anchor="middle" font-size="12" fill="#475569">Uç yeni biçimde stabilize olur.</text>
+    <text x="739" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#B91C1C">Terminal del · ring · der</text>
+    <text x="739" y="660" text-anchor="middle" font-size="12" fill="#475569">Mitotik instabilite eşlik edebilir.</text>
+    <text x="1035" y="635" text-anchor="middle" font-size="14" font-weight="700" fill="#B45309">Doz + mozaiklik</text>
+    <text x="1035" y="660" text-anchor="middle" font-size="12" fill="#475569">Doku dağılımı sonucu değiştirir.</text>
+  </g>
+
+  <g stroke="#64748B" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M286 227 L316 227"/><path d="M576 227 L606 227"/><path d="M866 227 L896 227"/>
+    <path d="M286 371 L316 371"/><path d="M576 371 L606 371"/><path d="M866 371 L896 371"/>
+    <path d="M286 515 L316 515"/><path d="M576 515 L606 515"/><path d="M866 515 L896 515"/>
+    <path d="M286 646 L316 646"/><path d="M576 646 L606 646"/><path d="M866 646 L896 646"/>
+  </g>
+  <rect x="36" y="714" width="1128" height="38" rx="9" fill="#1A2B4A"/>
+  <text x="600" y="739" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Öğreti: Aynı ürün farklı mekanizmalardan doğabilir; son breakpoint yalnız olası yolu destekler.</text>
+</svg>

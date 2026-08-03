@@ -38,7 +38,7 @@ Bu kararlar kullanıcı tarafından onaylanmıştır; yeniden tartışma açmada
 - Ayrıntılı öz-denetim, kaynak doğrulama, araç ve revizyon günlükleri proje kayıtlarında korunacak; yayımlanan HTML/PDF'de yalnız okuyucuya yönelik kısa yöntem açıklaması bulunacak.
 - Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak ve gelecek sürüm için taahhüt edilmeyecek.
 
-**Tamamlanan uygulama paketleri (03.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi ve Bölüm 14–15 sıra değişimi tamamlandı. Güncel build 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID üretir. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası veya eksik/mükerrer nesne hedefi bulursa hata vererek durur. Sıradaki paket Bölüm 8 anöploidi/kromozom ayrılması revizyonudur.
+**Tamamlanan uygulama paketleri (03.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi ve Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu tamamlandı. Güncel build 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID üretir. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası veya eksik/mükerrer nesne hedefi bulursa hata vererek durur. Sıradaki paket digenik kanıt kontrol listesidir.
 
 **Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde, Türkçe terminoloji kaynakları `Terminoloji_Kaynak_Denetimi.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu beş belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
 
@@ -147,7 +147,7 @@ Her bölüm için sırayla:
 5. Dominant-negatif
 6. Neomorfik aleller (antimorf = dominant-negatifin tarihsel adı; mekanizma Bölüm 5'tedir)
 7. Splicing
-8. CNV / yapısal varyantlar
+8. Sayısal ve yapısal kromozom anomalileri
 9. Repeat expansion
 10. İmprinting, UPD, epigenetik
 11. Mitokondriyal genetik

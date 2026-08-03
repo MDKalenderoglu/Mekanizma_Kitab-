@@ -17,7 +17,7 @@ kitleyi oluşturur.
 
 - Mevcut kitap gövdesindeki **17 bölümün tamamı yazılmış**, kaynaklandırılmış ve
   bütüncül editöryal/uzman değerlendirme turlarından geçmiştir.
-- Güncel derleme **64 SVG şekil**, **49 Mermaid algoritması** ve **153 benzersiz
+- Güncel derleme **64 SVG şekil**, **49 Mermaid algoritması** ve **172 benzersiz
   PMID** içerir.
 - Güvenli başlangıç commit'i: `599a12e` (`Editöryal tur 2: bulgu formu eklendi`).
 - Yerel güvenlik etiketi: `pre-editorial-round-2`.
@@ -25,8 +25,8 @@ kitleyi oluşturur.
   bağlantıları + terminoloji/HGVS denetimi tamamlanmıştır. Proje artık **ayrı
   bilimsel/yapısal revizyon paketleri, bağımsız değerlendirme ve yayın kapanışı**
   aşamasındadır.
-- Teknik temizlik sonrası doğrulanan envanter: **17 bölüm · 64 şekil · 49 algoritma
-  · 73 tablo · 153 benzersiz PMID**. Derleme, eksik SVG veya geçersiz/mükerrer tablo
+- Bölüm 8 revizyonu sonrası doğrulanan envanter: **17 bölüm · 64 şekil · 49 algoritma
+  · 78 tablo · 172 benzersiz PMID**. Derleme, eksik SVG veya geçersiz/mükerrer tablo
   numarasında hata vererek durur.
 - **Bölüm 14–15 sıra değişimi tamamlandı:** Aynı gen → farklı hastalık (alelik seri)
   artık Bölüm 14; digenik/oligogenik/değiştirici mimari artık Bölüm 15'tir. Dosya,
@@ -128,8 +128,8 @@ kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
    araç önce Git durumunu ve yukarıdaki kalıcı kayıtları okur.
 
 Tamamlanan sıra: **karar kaydı → düşük riskli teknik temizlik → doğrudan nesne
-bağlantıları ve terminoloji/HGVS denetimi → Bölüm 14–15 sıra değişimi**. Sonraki
-paket **Bölüm 8 anöploidi/kromozom ayrılması revizyonudur**; ardından digenik kanıt
-kontrol listesi, klinik örnek çeşitliliği, kanser yatkınlığı/ikinci vuruş bölümü için
+bağlantıları ve terminoloji/HGVS denetimi → Bölüm 14–15 sıra değişimi → Bölüm 8
+sayısal/yapısal kromozom anomalileri revizyonu**. Sonraki paket **digenik kanıt
+kontrol listesidir**; ardından klinik örnek çeşitliliği, kanser yatkınlığı/ikinci vuruş bölümü için
 son karar, öz değerlendirme sorularının sona taşınması, bağımsız uzman incelemesi
 ve yayın kapanışı gelir.

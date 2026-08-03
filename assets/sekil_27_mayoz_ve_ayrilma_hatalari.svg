@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Normal mayoz ve mitozdan anöploidi yollarına</title>
+  <desc id="desc">Normal mayoz I ve II ayrılması, mayotik sapmalar ve postzigotik mozaiklik-rescue yolları karşılaştırılır.</desc>
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-opacity="0.10"/></filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#2563EB"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#B91C1C"/></marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#D97706"/></marker>
+  </defs>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#1A2B4A">Normal ayrılma → sapma → kromozomal ürün</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748B">Son ürün aynı görünse bile başlangıç olayı farklı olabilir.</text>
+
+  <rect x="28" y="96" width="362" height="568" rx="14" fill="#F8FAFC" stroke="#CBD5E1" filter="url(#shadow)"/>
+  <rect x="28" y="96" width="362" height="50" rx="14" fill="#DBEAFE"/>
+  <rect x="43" y="106" width="30" height="30" rx="5" fill="#1A2B4A"/>
+  <text x="58" y="127" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">A</text>
+  <text x="88" y="128" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1D4ED8">Normal referans süreç</text>
+  <text x="209" y="174" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A2B4A">Mayoz I: homologlar ayrılır</text>
+  <circle cx="160" cy="222" r="34" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <path d="M150 202 L170 242 M170 202 L150 242" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="258" cy="222" r="34" fill="#FEF2F2" stroke="#B91C1C" stroke-width="2"/>
+  <path d="M248 202 L268 242 M268 202 L248 242" stroke="#B91C1C" stroke-width="5" stroke-linecap="round"/>
+  <path d="M191 222 L223 222" stroke="#64748B" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M183 266 L128 318" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+  <path d="M235 266 L290 318" stroke="#B91C1C" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+  <circle cx="116" cy="346" r="42" fill="#ffffff" stroke="#94A3B8"/>
+  <path d="M106 326 L126 366 M126 326 L106 366" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="302" cy="346" r="42" fill="#ffffff" stroke="#94A3B8"/>
+  <path d="M292 326 L312 366 M312 326 L292 366" stroke="#B91C1C" stroke-width="5" stroke-linecap="round"/>
+  <text x="209" y="417" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#1A2B4A">Mayoz II: kardeş kromatidler ayrılır</text>
+  <path d="M116 391 L78 450 M116 391 L154 450" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+  <path d="M302 391 L264 450 M302 391 L340 450" stroke="#B91C1C" stroke-width="2.2" marker-end="url(#arrowRed)"/>
+  <g fill="#ffffff" stroke="#94A3B8">
+    <circle cx="72" cy="482" r="28"/><circle cx="158" cy="482" r="28"/><circle cx="258" cy="482" r="28"/><circle cx="344" cy="482" r="28"/>
+  </g>
+  <path d="M72 466 L72 498 M158 466 L158 498" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M258 466 L258 498 M344 466 L344 498" stroke="#B91C1C" stroke-width="5" stroke-linecap="round"/>
+  <rect x="58" y="545" width="302" height="84" rx="10" fill="#ffffff" stroke="#CBD5E1"/>
+  <text x="209" y="572" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1A2B4A">Mitoz</text>
+  <text x="209" y="594" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#475569">Replikasyon sonrası kardeşler</text>
+  <text x="209" y="613" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#475569">iki yavru hücreye ayrılır.</text>
+
+  <rect x="419" y="96" width="362" height="568" rx="14" fill="#FEF6F5" stroke="#FCA5A5" filter="url(#shadow)"/>
+  <rect x="419" y="96" width="362" height="50" rx="14" fill="#FEE2E2"/>
+  <rect x="434" y="106" width="30" height="30" rx="5" fill="#1A2B4A"/>
+  <text x="449" y="127" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">B</text>
+  <text x="479" y="128" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#B91C1C">Mayotik sapmalar</text>
+  <rect x="447" y="170" width="306" height="104" rx="10" fill="#ffffff" stroke="#FCA5A5"/>
+  <text x="600" y="199" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#B91C1C">Klasik ayrılmama</text>
+  <text x="600" y="223" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">Ayrılması gereken homologlar veya</text>
+  <text x="600" y="243" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">kardeşler aynı kutba gider.</text>
+  <rect x="447" y="294" width="306" height="124" rx="10" fill="#ffffff" stroke="#FCA5A5"/>
+  <text x="600" y="323" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#B91C1C">Predivision / reverse segregation</text>
+  <text x="600" y="347" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">Kardeş kromatidler MI'da erken ayrılabilir;</text>
+  <text x="600" y="367" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">MII-benzeri ürünün başlangıcı MI olabilir.</text>
+  <text x="600" y="393" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#64748B">Ottolini ve ark. (2015)</text>
+  <rect x="447" y="438" width="306" height="124" rx="10" fill="#ffffff" stroke="#FCA5A5"/>
+  <text x="600" y="467" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#B91C1C">Kohezyon · kinetokor · SAC</text>
+  <text x="600" y="491" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">Erken univalentleşme veya yanlış</text>
+  <text x="600" y="511" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">mikrotübül bağlantısı hatayı artırabilir.</text>
+  <text x="600" y="537" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#64748B">İnsan ve hayvan kanıtı ayrı tartılır.</text>
+  <path d="M600 573 L600 612" stroke="#B91C1C" stroke-width="2.5" marker-end="url(#arrowRed)"/>
+  <text x="600" y="638" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#B91C1C">Anöploidi tek mekanizma değildir.</text>
+
+  <rect x="810" y="96" width="362" height="568" rx="14" fill="#FFFBEB" stroke="#FCD34D" filter="url(#shadow)"/>
+  <rect x="810" y="96" width="362" height="50" rx="14" fill="#FEF3C7"/>
+  <rect x="825" y="106" width="30" height="30" rx="5" fill="#1A2B4A"/>
+  <text x="840" y="127" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">C</text>
+  <text x="870" y="128" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#B45309">Postzigotik yollar</text>
+  <rect x="840" y="174" width="302" height="94" rx="10" fill="#ffffff" stroke="#FCD34D"/>
+  <text x="991" y="202" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#B45309">Normal zigot</text>
+  <text x="991" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">Mitotik ayrılmama / anafaz gecikmesi</text>
+  <path d="M991 269 L991 311" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrowAmber)"/>
+  <rect x="840" y="322" width="302" height="76" rx="10" fill="#ffffff" stroke="#FCD34D"/>
+  <text x="991" y="351" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#B45309">Mozaik hücre hatları</text>
+  <text x="991" y="376" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#475569">Oran dokuya ve seçilime bağlıdır.</text>
+  <rect x="840" y="434" width="302" height="94" rx="10" fill="#ffffff" stroke="#FCD34D"/>
+  <text x="991" y="462" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#B45309">Anöploid zigot</text>
+  <text x="991" y="486" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11.5" fill="#475569">Trisomy / monosomy rescue</text>
+  <path d="M991 529 L991 567" stroke="#D97706" stroke-width="2.5" marker-end="url(#arrowAmber)"/>
+  <rect x="840" y="578" width="302" height="58" rx="10" fill="#ffffff" stroke="#FCD34D"/>
+  <text x="991" y="602" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B45309">Diploidi ± UPD / mozaiklik</text>
+  <text x="991" y="622" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" fill="#475569">Karyotip kökeni tek başına göstermez.</text>
+
+  <rect x="28" y="688" width="1144" height="48" rx="10" fill="#1A2B4A"/>
+  <text x="600" y="718" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Öğreti: Ürünü adlandırın; mayoz evresi ve ebeveyn kökenini ancak ayırıcı moleküler veri varsa çıkarın.</text>
+</svg>

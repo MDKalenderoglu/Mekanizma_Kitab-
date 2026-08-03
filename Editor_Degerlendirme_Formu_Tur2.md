@@ -23,7 +23,7 @@ Bu formun yayın yönünü belirleyen maddeleri kullanıcıyla tek tek görüş�
 7. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
 8. Uygulama sırası: karar kaydı → düşük riskli teknik temizlik → ayrı bilimsel/yapısal paketler → bağımsız insan değerlendirmesi → yayın kapanışı.
 
-**Uygulama durumu (02.08.2026):** Karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne bağlantıları + terminoloji/HGVS denetimi tamamlandı. Teknik tur bilimsel tablo hücrelerini, mekanizma iddialarını ve kaynak künyelerini değiştirmedi; Bölüm 9 ve 12'de yalnız tablo numaraları ile bunlara bağlı çapraz göndermeler güncellendi. Sonraki pakette 186 şekil/algoritma/tablo hedefi doğrudan bağlandı; kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı ve yayımlanan terminoloji metninden iç karar kodları kaldırıldı. Güncel derleme 17 bölüm · 64 şekil · 49 algoritma · 73 tablo · 153 benzersiz PMID üretmektedir. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
+**Uygulama durumu (03.08.2026):** Karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi ve Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu tamamlandı. Güncel derleme 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID üretmektedir; 191 şekil/algoritma/tablo hedefi doğrudan bağlanmıştır. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
 
 ---
 
@@ -182,13 +182,15 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 ### C4 · Bölüm 8'de anöploidi ve kromozom segregasyonu görünmez
 
-**Nerede:** `Bölüm_08_CNV_Yapisal_Varyantlar.md` başlık yapısı.
+**Uygulama durumu (03.08.2026):** ✅ Ayrıntılı yeniden yapılandırma tamamlandı. Bölümün yeni adı `Bölüm_08_Sayisal_ve_Yapisal_Kromozom_Anomalileri.md`; normal mayoz/mitoz, klasik ayrılmama dışı anöploidi yolları, postzigotik mozaiklik/rescue–UPD, triploidi, yapısal mekanizmalar, ISCN okuma, parental taşıyıcılık ve yineleme sınırları aynı pedagojik omurgada işlendi.
+
+**Eski yer:** `Bölüm_08_CNV_Yapisal_Varyantlar.md` başlık yapısı.
 
 **Ne gördüm:** Uzman F2'de bunu istemişti ve haklı: bölüm CNV ve yapısal varyantı çok iyi anlatıyor ama **nondisjunction, trizomi/monozomi, mozaik anöploidi ve kromozom segregasyonu** ana alt başlık olarak yok. Konu Böl.10 (trizomi kurtarma → UPD) ve Böl.12 (mozaik anöploidi) içinde parça parça geçiyor. Bir pediatrik genetik kitabında Down sendromunun mekanizması hiçbir bölümün ana başlığı değil.
 
 **Soru:** Bölüm 8'e "Sayısal anomaliler: nondisjunction ve anöploidi" diye bir alt başlık (§2.x) eklensin mi? Yoksa bu bilinçli bir kapsam kararı mı — kitap "mekanizma" kitabı olduğu için klasik sitogenetik dışarıda mı bırakıldı?
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☐ Y ☒ A → Uygulandı; tam metin kaynak turu `Dogrulama_Kutugu.md` içinde kaydedildi.
 
 ---
 
