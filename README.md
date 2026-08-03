@@ -129,7 +129,7 @@ kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
 
 Tamamlanan sıra: **karar kaydı → düşük riskli teknik temizlik → doğrudan nesne
 bağlantıları ve terminoloji/HGVS denetimi → Bölüm 14–15 sıra değişimi → Bölüm 8
-sayısal/yapısal kromozom anomalileri revizyonu**. Sonraki paket **digenik kanıt
-kontrol listesidir**; ardından klinik örnek çeşitliliği, kanser yatkınlığı/ikinci vuruş bölümü için
+sayısal/yapısal kromozom anomalileri revizyonu → digenik kanıt kontrol listesi**.
+Sonraki paket **klinik örnek çeşitliliğidir**; ardından kanser yatkınlığı/ikinci vuruş bölümü için
 son karar, öz değerlendirme sorularının sona taşınması, bağımsız uzman incelemesi
 ve yayın kapanışı gelir.

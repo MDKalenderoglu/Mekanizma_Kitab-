@@ -202,7 +202,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 37982373 | Roberts ve ark. (2023) | Genet Med | 10.1016/j.gim.2023.101029 | Terminoloji uzlaşısı (GenCC: kalıtım biçimi, alelik gereksinim ve hastalık mekanizması ayrı kavramlardır) | 14 |
 | 34672689 | Shin &amp; Worman (2022) | Annu Rev Pathol | 10.1146/annurev-pathol-042220-034240 | Review (laminopatilerde doku seçiciliğinin güncel çok-mekanizmalı çerçevesi) | 14 |
 | 36552829 | Storey &amp; Fuller (2022) | Cells | 10.3390/cells11244065 | Sistematik derleme (LINC kompleksi genlerinde genotip-fenotip; LMNA için güvenilir korelasyon kurulamadı) | 14 |
-| 39673454 | Torra ve ark. (2024) | Nephrol Dial Transplant | 10.1093/ndt/gfae265 | Guideline (COL4A3/4/5 glomerülopati; heterozigot dominant Alport spektrumu vs bialelik ARAS; "taşıyıcı" terimi önerilmez) | 14 |
+| 39673454 | Torra ve ark. (2025) | Nephrol Dial Transplant | 10.1093/ndt/gfae265 | Guideline (COL4A3/4/5 glomerülopati; heterozigot dominant Alport spektrumu vs bialelik ARAS; "taşıyıcı" terimi önerilmez) | 14 |
 | 42120542 | Robinson ve ark. (2026) | Eur J Hum Genet | 10.1038/s41431-026-02121-x | Guideline (EMQN RYR1: GoF→MH, DN→dominant miyopati, LoF→resesif miyopati; örtüşen fenotipler) | 14 |
 | 7670477 | Bellus ve ark. (1995) | Nat Genet | 10.1038/ng0795-357 | Landmark (FGFR3 p.Asn540Lys → hipokondroplazi) | 14 |
 | 7913883 | Shiang ve ark. (1994) | Cell | 10.1016/0092-8674(94)90302-6 | Landmark (FGFR3 p.Gly380Arg → akondroplazi; c.1138G&gt;A/G&gt;C) | 14 |
@@ -300,7 +300,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_50_monogenik_poligenik_sureklilik.svg | 15 | Monogenik→digenik→oligogenik→poligenik sürekliliği · eşik (yük) modeli · klinik sonuçlar |
 | sekil_51_digenik_pedigri.svg | 15 | Digenik pedigri imzası (RDS+ROM1) · genotip–fenotip tablosu · "iki varyant ≠ digenik" uyarısı |
 | sekil_52_modifier_mekanizmalari.svg | 15 | SMN2 kopya sayısı doz modifier'ı · modifier'ın dört yolu · KF akciğer modifier lokusları |
-| sekil_53_digenik_kanit_hiyerarsisi.svg | 15 | Digenik iddianın 5 kanıt basamağı · ACMG tek-lokus varsayımının kırılması · danışma |
+| sekil_53_digenik_kanit_hiyerarsisi.svg | 15 | Digenik iddianın altı kanıt basamağı · ACMG/AMP kapsam sınırı · çift-lokus raporlama ve danışma |
 | sekil_54_acmg_kanit_mimarisi.svg | 16 | ACMG kanıt güçleri → olasılık oranı → puan → beş sınıf; patojenik/benign asimetrisi |
 | sekil_55_mekanizma_kriter_matrisi.svg | 16 | Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez, normatif değil); güçlenir/zayıflar/genellikle uygulanmaz |
 | sekil_56_pvs1_mekanizma_kapisi.svg | 16 | PVS1 mekanizma kapısı + dört güç basamağı + splice/RNA özel durumu |
@@ -380,10 +380,10 @@ Uygulama sırası kullanıcı tarafından şöyle onaylandı:
 1. **Karar kaydı — tamamlandı:** `README.md`, `CLAUDE.md`, bu dosya ve `Editor_Degerlendirme_Formu_Tur2.md` aynı karar setini taşıyor.
 2. **Düşük riskli teknik temizlik — tamamlandı:** Sayaçlar güncellendi/otomatikleştirildi; aktif SVG terminolojisi ve Kiril karakteri temizlendi; Bölüm 9 ve 12 tablo numaraları kesintisiz hâle getirildi; mutlak yardımcı betik yolu kaldırıldı; build eksik SVG ile geçersiz/mükerrer tablo numarasında duracak biçimde katılaştırıldı. Bölüm 8 revizyonu sonrası güncel build: 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID.
 3. **Doğrudan nesne bağlantıları ve terminoloji/HGVS denetimi — tamamlandı:** Şekil, algoritma ve tablo listeleri 186 nesnenin kendi sabit hedefine bağlandı; numara/hedef bütünlüğü build sırasında doğrulanır. Kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı; okuyucu metnindeki iç karar kodları kaldırıldı. Ayrıntılı kayıt: `Terminoloji_Kaynak_Denetimi.md`. Nihai PDF liste sayfa numaralarının görsel doğrulaması yayın kapanışında yapılacaktır.
-4. **Bilimsel/yapısal paketler:** Her biri ayrı onayla; 14–15 sırası, anöploidi, digenik kanıt listesi, örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler.
+4. **Bilimsel/yapısal paketler:** Her biri ayrı onayla; 14–15 sırası ✅, anöploidi ✅, digenik kanıt listesi ✅, örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler.
 5. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
 6. **Yayın kapanışı:** Künye alanları, son HTML/PDF, uyumlu sayfalama motoru, nesne listelerindeki sayfa numaralarının görsel denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
 
-**Bir sonraki uygulama paketi:** Bilimsel/yapısal kalemlerden hangisinin önce ele alınacağı kullanıcıyla seçilecek; dosya bazlı kapsam sunulup açık onay alınmadan başlanmayacak.
+**Bir sonraki uygulama paketi:** Klinik örnek çeşitliliği (C3/F4). Dosya bazlı kapsam sunulup açık onay alınmadan başlanmayacak.
 
 **Araçlar arası devir:** Codex veya Claude yeni bir oturuma başladığında önce `git status`, `README.md`, `CLAUDE.md`, bu bölüm, `Editor_Degerlendirme_Formu_Tur2.md`, `Dogrulama_Kutugu.md` ve `Terminoloji_Kaynak_Denetimi.md` okunur. Kararlar yalnız sohbet geçmişinde tutulmaz; her paket ilgili durum belgesini ve doğrulama kaydını günceller. Stage, commit ve push ayrı kullanıcı yetkisi gerektirir.

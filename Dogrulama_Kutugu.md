@@ -546,6 +546,8 @@ Bu, içerik denetimiyle bulunamayacak, yalnız **biçim tutarlılığı taramas�
 | Yıl uyuşmazlığı | **0** |
 | Cilt / sayı / sayfa uyuşmazlığı | **0** |
 
+**03.08.2026 ek denetim:** Bölüm 14'te PMID 39673454 (Torra ve ark.) NCBI kaydındaki basılı yayın yılıyla uyumlu olarak **2024 → 2025** düzeltildi; makale başlığının parçası olan “2024 guideline” ifadesi aynen korundu. Güncel programatik tarama: **256/256 kaynak satırı · 172 benzersiz PMID · 0 uyuşmazlık**.
+
 **Neden önemli:** Kitabın en büyük yayım riski olarak tanımlanan **"kaynak uydurma"**, artık bir güven beyanı değil, **tekrarlanabilir bir ölçüm** ile kapatılmıştır. Herhangi bir okuyucu ya da hakem, aynı komutu çalıştırıp aynı sonucu üretebilir:
 
 ```bash
@@ -611,10 +613,31 @@ python3 00_Şablonlar/kunye_denetle.py
 |---|---|---|---|
 | 15.1 | *RET* intron 1 enhancer varyantı: riske katkısı nadir kodlayan alellerden **~20 kat** büyük; *in vitro* enhancer aktivitesini azaltır; düşük penetrans; **cinsiyete göre farklı** etki | Emison 2005 özeti birebir (*"makes a 20-fold greater contribution to risk than rare alleles do"*; *"reduces in vitro enhancer activity markedly, has low penetrance, has different genetic effects in males and females"*) | ✅ **birebir** |
 | 15.2 | Digenik RP: *RDS/ROM1* — yalnız **çift heterozigotlar** hastalanır | Kajiwara 1994 özeti birebir (*"only double heterozygotes develop retinitis pigmentosa"*; üç aile) | ✅ |
-| 15.3 | "Digenik hastalıkta risk %25 değildir; iki lokusun birlikte aktarılma olasılığından hesaplanır" | Kalıtım mantığıyla doğru; kitabın hata kutusunda ve algoritmasında tutarlı | ✅ |
+| 15.3 | "Digenik hastalıkta risk %25 değildir; iki lokusun birlikte aktarılma olasılığından hesaplanır" | **03.08.2026 ek turunda yanlışlandı:** temsili ebeveyn düzeni 1/2 × 1/2 = 1/4 üretir; doğru ilke “evrensel oran yoktur” | ⛔ Tarihsel kayıt — bkz. 15.7 |
 | 15.4 | Oligogenik/modifier tablolarda **kesin oran verilmemesi** gerektiği | Kitabın kendi normatif duruşu; kaynaklarla çelişmiyor ve dürüst belirsizlik beyanı olarak doğru konumlanmış | ✅ T5 uygun |
 
-**Yorum:** Bölüm 15, sayı vermekten kaçınması gereken yerde kaçınıyor, sayı verdiği tek yerde (15.1) kaynağıyla birebir örtüşüyor. Düzeltme gerekmedi.
+**Yorum (27.07.2026 tarihsel sonuç):** Bu turda düzeltme gerekmediği düşünülmüştü. 15.3'teki mantık hatası 03.08.2026 tam-metin/uygulama turunda saptanıp düzeltildi; güncel sonuç aşağıdadır.
+
+## Bölüm 15 ek tam-metin turu — digenik iddia kontrol listesi (03.08.2026)
+
+Önceki 27.07.2026 kaydı özet düzeyi karşılaştırmayı tarihsel olarak korur; bu ek tur, uzman G3/C2 kararındaki altı basamaklı kanıt hiyerarşisini uygulamak ve ilgili normatif/mekanistik cümleleri ana metinden denetlemek için yapıldı. On bir kaynağın PMID/DOI künyesi NCBI E-utilities ile yeniden programatik eşleştirildi.
+
+| Kaynak grubu | Ana metin erişimi | Bu turdaki kullanım |
+|---|---|---|
+| Schäffer 2013 (PMC3778050) | ✅ PMC ana metni | Digenik iddiada pedigri, biyolojik ilişki, özgül fonksiyonel/hayvan modeli kanıtı; HTS'nin tek başına kalıtım biçimini kanıtlamaması; dual monogenik tanı ayrımı |
+| MacArthur 2014 (PMC4180223) | ✅ PMC ana metni | Soyla eşleştirilmiş kontrol, formal segregasyon, bağımsız tekrar, modele uygun çok-varyantlı fonksiyonel deney ve aşırı nedensellik iddiasından kaçınma |
+| Richards 2015 (PMC4544753) | ✅ PMC ana metni | ACMG/AMP önerilerinin özellikle Mendelci hastalıklar için kapsamı; çok-genli Mendelci olmayan kompleks hastalıkların kapsam dışında, aday gen uygulamasının sakınımlı olması |
+| Corvol 2015, Cooper 2013, Sosnay 2013 | ✅ PMC ana metni | Mevcut modifier/penetrans örneklerinin çapraz kontrolü; yeni altı basamağın ana dayanağı olarak kullanılmadı |
+| Kajiwara 1994, Katsanis 2001, Calucho 2018, Emison 2005, Li 2023 | ⚠️ NCBI/PMC ana metni yok | NCBI künyesi/özeti mevcut; bu turda bu kaynaklara dayanan yeni ayrıntı eklenmedi. Eski spesifik çalışma iddiaları erişim sınırıyla işaretli tutuldu |
+
+| # | İddia / sorun | Ana metinden gelen sınır | Eylem |
+|---|---|---|---|
+| 15.5 | “ACMG'nin sessiz tek-lokus varsayımı” Richards 2015'in doğrudan kuralı gibi sunuluyordu | Richards ana metni gerçek kapsamı “öncelikle Mendelci hastalıklar” diye tanımlar ve çok-genli Mendelci olmayan kompleks hastalıkları kapsam dışında bırakır | ⚠️→✅ Kılavuzun gerçek kapsam cümlesi yazıldı; “tek-lokus baskısı” kılavuz alıntısı değil pedagojik çıkarım olarak etiketlendi |
+| 15.6 | Uzman G3'ün istediği altı kanıt basamağı metinde beş gereklilik + ayrı fonksiyonel paragraf hâlindeydi; şekil beş, algoritma üç basamak gösteriyordu | Schäffer ana metni pedigri + biyolojik ilişki + özgül fonksiyonel/hayvan modeli kanıtını; MacArthur kontrol/segregasyon + bağımsız tekrar + uygun işlevsel modeli destekler | ✅ Altı basamaklı, numaralı ve 🏷️ T5 etiketli kontrol listesi eklendi; Şekil 15.4 ve Algoritma 15.2/15.3 eşitlendi |
+| 15.7 | “Digenik hastalıkta risk %25 değildir” deniyordu; aynı sayfada verilen temsili ebeveyn eşleşmesi aslında 1/2 × 1/2 = 1/4 üretir | Mendel aktarım hesabı: iki bağımsız heterozigot aktarımının ortak olasılığı bu özel eşleşmede %25'tir; bu, evrensel digenik oran veya penetrans düzeltilmiş klinik risk değildir | ❌→✅ Gerçek hesap hatası düzeltildi. Metin ve iki SVG artık “evrensel oran yok; bazı eşleşmelerde sonuç %25 olabilir” diyor |
+| 15.8 | İki ayrı varyant sınıfı, çift-lokus nedenselliğiyle eşitlenebilirdi | Richards varyant sınıflandırmasını; MacArthur gen/varyant nedenselliği için ek kanıtı ayrı tutar | ✅ Varyantların ayrı sınıflandırılması ile çift-lokus hipotezinin ayrı rapor cümlesinde sunulması şartı getirildi |
+
+**Tur sonucu:** Bir gerçek hesap hatası ve bir kılavuz-atıf kapsamı sorunu düzeltildi. Yeni kontrol listesi **resmî bir ACMG/ClinGen standardı değildir**; bileşenleri kaynaklı, sıralaması ve gruplaması editöryal T5 sentezidir. Yeni bilimsel iddia, ana metni erişilemeyen beş kaynağa dayandırılmadı.
 
 ---
 

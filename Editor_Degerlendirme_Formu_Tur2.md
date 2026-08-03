@@ -157,9 +157,11 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Ne gördüm:** Uzman G3'te bugün Bölüm 15 olan digenik/oligogenik bölümü kitabın epistemik olarak en kırılgan bölümü ilan etti ve altı basamaklı bir **kanıt hiyerarşisi** istedi. Bölümde bu içeriğin neredeyse tamamı var (beş gereklilik + fonksiyonel ortak-etki modeli + "üç durumu ayırın" uyarısı), ama **numaralandırılmış bir kontrol listesi olarak değil**, bir 🟦 kutusunun içinde akan metin olarak. Uzmanın istediği "bir digenik iddiayı savunmadan önce şu altı basamağı geç" biçimi değil.
 
-**Soru:** Bu içerik, §6'da numaralı bir **"Digenik iddia kontrol listesi"** kutusuna (veya Şekil 14.4'ün yanına bir Mermaid akışına) çevrilsin mi? İçerik yeni kaynak gerektirmez, yalnız biçim değişir.
+**Soru:** Bu içerik, §6'da numaralı bir **"Digenik iddia kontrol listesi"** kutusuna (veya Şekil 15.4'ün yanına bir Mermaid akışına) çevrilsin mi? İçerik yeni kaynak gerektirmez, yalnız biçim değişir.
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☒ Y ☐ A → Numaralı kontrol listesi olarak uygulansın.
+
+**Uygulama durumu (03.08.2026):** ✅ §6'ya altı basamaklı “Digenik iddia kontrol listesi” eklendi; çerçevenin resmî ACMG/ClinGen standardı olmadığı 🏷️ T5 etiketiyle açıklandı. Şekil 15.4 ve Algoritma 15.2/15.3 aynı altı basamakla eşitlendi. Tam metin denetimi sırasında ayrıca digenik tekrarlanma riskini “%25 değildir” diye mutlaklaştıran hesap hatası düzeltildi; özel bir ebeveyn eşleşmesinde ortak aktarımın %25 çıkabileceği, ancak bunun evrensel oran olmadığı yazıldı.
 
 <br>
 
