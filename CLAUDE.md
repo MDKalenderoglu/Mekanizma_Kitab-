@@ -33,12 +33,12 @@ Bu kararlar kullanıcı tarafından onaylanmıştır; yeniden tartışma açmada
 
 - Önce **HTML + PDF değerlendirme sürümü**, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
 - Alelik seri Bölüm 14, digenik/oligogenik/değiştirici mimari Bölüm 15 olacak. **03.08.2026'da uygulandı.**
-- **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
-- Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında ilgili kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak.
+- **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak. **04.08.2026'da uygulandı.**
+- Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanır; bölüm sonlarında ilgili kısma bağlantı verilir. Yanıt yaklaşımları sorulardan ayrı tutulur. **04.08.2026'da uygulandı.**
 - Ayrıntılı öz-denetim, kaynak doğrulama, araç ve revizyon günlükleri proje kayıtlarında korunacak; yayımlanan HTML/PDF'de yalnız okuyucuya yönelik kısa yöntem açıklaması bulunacak.
 - Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak ve gelecek sürüm için taahhüt edilmeyecek.
 
-**Tamamlanan uygulama paketleri (03.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu ve Bölüm 15 altı basamaklı digenik iddia kontrol listesi tamamlandı. Güncel build 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID üretir. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası veya eksik/mükerrer nesne hedefi bulursa hata vererek durur. Sıradaki paket klinik örnek çeşitliliğidir.
+**Tamamlanan uygulama paketleri (04.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu, Bölüm 15 altı basamaklı digenik iddia kontrol listesi, klinik örnek çeşitliliği, bağımsız Bölüm 16 kalıtsal kanser yatkınlığı/ikinci vuruş paketi ve kitap sonu öz değerlendirme paketi tamamlandı. Güncel build 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID · 185 doğrudan nesne hedefi üretir. Kaynak dosyalardaki 18 iç öz-denetim tablosu bu sayıya girmez. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası, eksik/mükerrer nesne veya öz değerlendirme hedefi ya da iç günlüğün yayına sızması durumunda hata vererek durur. Sıradaki evre bağımsız insan değerlendirmesi ve yayın kapanışıdır.
 
 **Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde, Türkçe terminoloji kaynakları `Terminoloji_Kaynak_Denetimi.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu beş belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
 
@@ -94,7 +94,7 @@ Ardından 10 standart başlık:
 9. **Klinik pratikte karar algoritması** (Mermaid)
 10. **Kaynaklar** (her biri: Yazar, Yıl, Başlık, Dergi, PMID, DOI-link, kullanım amacı)
 
-Bölüm kaynak dosyasında iç kalite güvencesi için **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama durumu** korunur. Bunlar yayımlanan HTML/PDF'de gösterilmez. Okuyucuya yönelik sorular kitabın sonunda ayrı öz değerlendirme kısmında toplanır; bölüm sonunda yalnız ilgili kısma yönlendirme bulunur. Bu hedef yapı henüz uygulanmamışsa yapılmış gibi raporlama.
+Bölüm kaynak dosyasında iç kalite güvencesi için **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama durumu** korunur. Bunlar yayımlanan HTML/PDF'de gösterilmez. Okuyucuya yönelik sorular `kitap/19_Oz_Degerlendirme.md` içinde bölüm bazında toplanır; yanıt yaklaşımları ayrı kısımdadır ve her bölüm sonunda kendi soru grubuna yönlendirme bulunur.
 
 **Standart test tablosu satırları:** WES · Short-read WGS · Long-read WGS · Array-CGH/SNP array · MLPA · RNA-seq · Methylation array · Karyotip. Sütunlar: "Bu mekanizmayı yakalar mı?" / "Sınırlılığı".
 
@@ -138,7 +138,7 @@ Her bölüm için sırayla:
 
 ## 8. Bölüm listesi ve sıra
 
-**Mevcut uygulanmış gövde:** 17 bölüm; Bölüm 14–15 yer değişimi dosya, nesne ve çapraz gönderme düzeyinde tamamlanmıştır. **Onaylanan hedef gövde:** Yeni Bölüm 16 kararı uygulamada kalırsa 18 bölüm; yeni bölüm ve mevcut 16–17'nin kaydırılması ayrı bir yapısal pakettir.
+**Mevcut uygulanmış gövde:** 18 bölüm; Bölüm 14–15 yer değişimi ile yeni Bölüm 16 ve eski 16–17'nin 17–18'e kaydırılması dosya, nesne ve çapraz gönderme düzeyinde tamamlanmıştır.
 
 1. Genetik hastalık mekanizması nedir? ✅
 2. Loss-of-function ✅
@@ -155,9 +155,9 @@ Her bölüm için sırayla:
 13. Noncoding / regülatör varyantlar
 14. Aynı gen → farklı hastalık (alelik seri) ✅
 15. Digenik / oligogenik / modifier ✅
-16. Kalıtsal kanser yatkınlığı ve ikinci vuruş — **onaylandı; henüz yazılmadı**
-17. Mekanizma → varyant yorumu (ACMG/ClinGen) — **mevcut Bölüm 16'dan taşınacak**
-18. Klinik senaryolarla sentez — **mevcut Bölüm 17'den taşınacak**
+16. Kalıtsal kanser yatkınlığı ve ikinci vuruş ✅
+17. Mekanizma → varyant yorumu (ACMG/ClinGen) ✅
+18. Klinik senaryolarla sentez ✅
 + **Yayın öncesi kapanış:** onaylı bilimsel/yapısal paketler, bağımsız insan değerlendirmesi, son HTML/PDF. Teknik temizlik tamamlandı.
 
 Güncel ilerleme **Bölüm_00_İçindekiler_ve_İlerleme.md** dosyasındadır.
@@ -195,6 +195,6 @@ Kaynak `.md` dosyaları **düzenlenebilir asıldır**; paylaşılacak çıktı b
 - Şekil, algoritma ve tablo listelerindeki bağlantılar HTML'de nesnenin bulunduğu bölüm başlığına değil, doğrudan nesnenin kendi sabit kimliğine gider.
 - Akışkan HTML'de sabit sayfa kavramı yoktur. Listelerdeki nesne sayfa numaraları, yalnız sayfalanmış çıktı üreten ve CSS `target-counter(..., page)` özelliğini destekleyen bir motorla nihai PDF oluşturulduğunda hesaplanır. Sıradan tarayıcıdan “PDF olarak kaydet” değerlendirme kopyası üretir; liste sayfa numaralarını göstereceği varsayılmaz.
 - Nihai PDF üretiminde uyumlu sayfalama motoru kullanılmalı; listelerdeki sayfa numaraları ile hedef sayfalar PDF sayfaları görsele dönüştürülerek örneklem değil kitap genelinde doğrulanmalıdır.
-- Betik mevcut durumda bölümleri otomatik toplar: `Bölüm_NN_*.md` (NN≥01), sıralı; `Bölüm_00` kitap gövdesine girmez. Onaylanan 18 bölümlük hedef, ilgili dosya ve çapraz gönderme paketi uygulanana kadar mevcut 17 bölümlük build'i değiştirmez.
+- Betik mevcut durumda 18 bölümü otomatik toplar: `Bölüm_NN_*.md` (NN≥01), sıralı; `Bölüm_00` kitap gövdesine girmez.
 - **Her bölüm bitiminde** (öz-denetim + indeks güncellemesinden sonra) `python3 build_book.py` çalıştırıp kitabı tazele.
 - Bağımlılık: `python3 -m pip install --user markdown` (bir kez); mermaid.js bir kez `build_assets/`'e indirilmiştir.

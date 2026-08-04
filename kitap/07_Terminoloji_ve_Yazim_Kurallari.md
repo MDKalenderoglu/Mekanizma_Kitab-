@@ -135,7 +135,6 @@ Ondalık ayırıcı **virgül** (`0,41`), binlik ayırıcı **nokta** (`20.068`)
 | 📘 **Okuma katmanları** | Bölüm başındaki üç katmanlı okuma yolu (① Temel · ② Klinik · ③ İleri düzey) |
 | 🏷️ | Kitabın pedagojik sentezi — literatürde bu adla yerleşik bir çerçeve değildir |
 | ⚠️ | Tartışmalı, sınırlı ya da doğrulanması gereken iddia |
-| ✅ / ⬜ | Tamamlanmış / bekleyen öz-denetim maddesi |
 
 ## 10. Şekil, algoritma ve tablo numaralandırması
 
@@ -143,7 +142,7 @@ Numaralar **bölüm.sıra** biçimindedir ve metinde ilk anıldıkları sıraya 
 
 - **Şekil:** çizim (SVG) — mekanizma şeması, anatomi, eğri, harita.
 - **Algoritma:** karar ağacı ve klinik akış şeması.
-- **Tablo:** kavram, varyant tipi, test ve öz-denetim tabloları.
+- **Tablo:** kavram, varyant tipi, test ve karşılaştırma tabloları.
 
 Kitabın başındaki üç liste (Şekiller, Algoritmalar, Tablolar) bu numaralardan otomatik üretilir. HTML'de her satır bölüm başına değil, doğrudan ilgili şekil, algoritma veya tabloya bağlanır. Sabit sayfası olmayan akışkan HTML'de bölüm bilgisi gösterilir; nihai sayfalandırılmış PDF/baskı çıktısında gerçek hedef sayfa numarası otomatik üretilir.
 

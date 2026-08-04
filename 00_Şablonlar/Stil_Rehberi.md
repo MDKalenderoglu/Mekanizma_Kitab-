@@ -29,7 +29,7 @@ Bu rehber, tüm bölümlerde tutarlı ton, biçim ve görsel standardını sağl
 - **Klinikte dikkat kutusu:** `> **🟦 Klinikte dikkat — …**`
 - **Sık yapılan hata kutusu:** `> **🔴 Sık yapılan hata kutusu**`
 - **Hatırlatıcı / mnemonik:** `> **🧠 …**` (uygun olduğunda).
-- Bol **tablo**: kavram tabloları, varyant-tipi tabloları, test tablosu, karşılaştırma tabloları, öz-denetim.
+- Bol **yayın tablosu**: kavram tabloları, varyant-tipi tabloları, test tablosu ve karşılaştırma tabloları. Kaynak Markdown'daki iç öz-denetim tablosu korunur ancak derlenen HTML/PDF'ye ve Tablolar Listesi'ne girmez.
 
 ## 3. Görsel standardı (v2 — editöryal textbook standardı)
 

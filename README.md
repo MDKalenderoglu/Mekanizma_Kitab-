@@ -13,24 +13,34 @@ kitleyi oluşturur.
 
 ---
 
-## Güncel durum — 3 Ağustos 2026
+## Güncel durum — 4 Ağustos 2026
 
-- Mevcut kitap gövdesindeki **17 bölümün tamamı yazılmış**, kaynaklandırılmış ve
-  bütüncül editöryal/uzman değerlendirme turlarından geçmiştir.
-- Güncel derleme **64 SVG şekil**, **49 Mermaid algoritması** ve **172 benzersiz
+- Mevcut kitap gövdesindeki **18 bölümün tamamı yazılmış**, kaynaklandırılmış ve
+  iç/programatik editöryal denetimden geçmiştir. Bağımsız insan uzman incelemesi
+  yayım ön koşulu olarak beklemektedir.
+- Güncel derleme **68 SVG şekil**, **52 Mermaid algoritması** ve **194 benzersiz
   PMID** içerir.
-- Güvenli başlangıç commit'i: `599a12e` (`Editöryal tur 2: bulgu formu eklendi`).
+- Son commit: `b004c2b`; Bölüm 16 uygulama paketi henüz stage/commit edilmemiştir.
 - Yerel güvenlik etiketi: `pre-editorial-round-2`.
 - Editöryal karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne
   bağlantıları + terminoloji/HGVS denetimi tamamlanmıştır. Proje artık **ayrı
   bilimsel/yapısal revizyon paketleri, bağımsız değerlendirme ve yayın kapanışı**
   aşamasındadır.
-- Bölüm 8 revizyonu sonrası doğrulanan envanter: **17 bölüm · 64 şekil · 49 algoritma
-  · 78 tablo · 172 benzersiz PMID**. Derleme, eksik SVG veya geçersiz/mükerrer tablo
-  numarasında hata vererek durur.
+- Güncel doğrulanan yayın envanteri: **18 bölüm · 68 şekil · 52 algoritma
+  · 65 tablo · 194 benzersiz PMID · 185 doğrudan nesne hedefi**. Kaynak
+  dosyalardaki 18 iç öz-denetim tablosu yayın envanterine girmez. Derleme;
+  eksik SVG/nesne/öz değerlendirme hedefinde, numaralandırma hatasında veya iç
+  kalite günlüğü yayına sızarsa hata vererek durur.
 - **Bölüm 14–15 sıra değişimi tamamlandı:** Aynı gen → farklı hastalık (alelik seri)
   artık Bölüm 14; digenik/oligogenik/değiştirici mimari artık Bölüm 15'tir. Dosya,
   nesne, çapraz gönderme, kaynak kütüğü ve dizin numaraları yeni sırayla eşitlendi.
+- **Bölüm 16 tamamlandı:** Kalıtsal kanser yatkınlığı ve ikinci vuruş bağımsız
+  bölüm olarak eklendi; ACMG/ClinGen sentezi Bölüm 17'ye, klinik senaryolar Bölüm
+  18'e kaydırıldı.
+- **Öz değerlendirme tamamlandı:** 18 bölüm için 54 soru kitap sonunda
+  gruplandı; 54 yanıt yaklaşımı ayrı kısma alındı ve her bölüm sonundan kendi
+  soru grubuna doğrudan bağlantı eklendi. İç kalite/doğrulama günlükleri kaynak
+  Markdown dosyalarında korunurken yayın HTML'sinden çıkarıldı.
 
 Güncel durum ve yol haritası için önce
 [`Bölüm_00_İçindekiler_ve_İlerleme.md`](Bölüm_00_İçindekiler_ve_İlerleme.md),
@@ -50,6 +60,7 @@ her madde ayrı paket hâlinde uygulanır ve durumu ayrıca kaydedilir:
    alınacak. **✅ 3 Ağustos 2026'da uygulandı.**
 3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak
    hazırlanacak; mevcut yorum ve klinik sentez bölümleri 17 ve 18'e kayacak.
+   **✅ 4 Ağustos 2026'da uygulandı.**
 4. Okuyucuya yönelik öz değerlendirme soruları bölüm sonlarından ayrı olarak
    kitabın sonunda, bölüm bazında gruplanmış bir kısımda toplanacak; bölüm
    sonlarında bu kısma bağlantı verilecek.
@@ -85,8 +96,9 @@ sunulmaz.
 
 | Yol | İşlev |
 |---|---|
-| `Bölüm_01_*.md` – `Bölüm_17_*.md` | Mevcut bilimsel bölüm kaynakları |
+| `Bölüm_01_*.md` – `Bölüm_18_*.md` | Mevcut bilimsel bölüm kaynakları |
 | `kitap/` | Künye, ön/arka madde, ekler, sözlük ve dizinler |
+| `kitap/19_Oz_Degerlendirme.md` | 18 bölümün soru bankası ve ayrı yanıt yaklaşımları |
 | `assets/` | Aktif SVG görseller |
 | `00_Şablonlar/` | Bölüm, stil, görsel, kaynak ve doğrulama protokolleri |
 | `.claude/skills/bolum-yaz/SKILL.md` | Bölüm yazım iş akışı |
@@ -129,7 +141,7 @@ kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
 
 Tamamlanan sıra: **karar kaydı → düşük riskli teknik temizlik → doğrudan nesne
 bağlantıları ve terminoloji/HGVS denetimi → Bölüm 14–15 sıra değişimi → Bölüm 8
-sayısal/yapısal kromozom anomalileri revizyonu → digenik kanıt kontrol listesi**.
-Sonraki paket **klinik örnek çeşitliliğidir**; ardından kanser yatkınlığı/ikinci vuruş bölümü için
-son karar, öz değerlendirme sorularının sona taşınması, bağımsız uzman incelemesi
-ve yayın kapanışı gelir.
+sayısal/yapısal kromozom anomalileri revizyonu → digenik kanıt kontrol listesi →
+klinik örnek çeşitliliği → bağımsız kanser yatkınlığı/ikinci vuruş Bölüm 16
+→ kitap sonu öz değerlendirme**. Sıradaki evre bağımsız uzman incelemesi ve yayın
+kapanışıdır.

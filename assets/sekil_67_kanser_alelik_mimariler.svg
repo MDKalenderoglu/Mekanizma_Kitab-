@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <rect width="1200" height="820" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#183153">Aynı “iki-vuruş” sözcüğü, farklı allelik mimariler</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#52657a">Gen adı değil, işlevsel ürün ve seçilim bağlamı belirleyicidir</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="55" y="120" width="525" height="205" rx="20" fill="#eef6ff" stroke="#4d86c6" stroke-width="2"/>
+    <text x="85" y="158" font-size="20" font-weight="700" fill="#245b95">Klasik tümör baskılayıcı</text>
+    <text x="85" y="188" font-size="15" fill="#3f5f7c">RB1 · MMR genleri · bazı TSC1/2 lezyonları</text>
+    <rect x="90" y="220" width="160" height="38" rx="12" fill="#d9534f"/>
+    <text x="170" y="244" text-anchor="middle" font-size="14" fill="#ffffff">1. alel: LoF</text>
+    <text x="278" y="244" font-size="24" fill="#52657a">+</text>
+    <rect x="315" y="220" width="215" height="38" rx="12" fill="#d9534f"/>
+    <text x="422" y="244" text-anchor="middle" font-size="14" fill="#ffffff">2. alel: LoF / LOH</text>
+    <text x="85" y="295" font-size="15" fill="#3f5f7c">Sonuç: bialelik işlev kaybı; ancak ek klonal olaylar yine gerekebilir.</text>
+
+    <rect x="620" y="120" width="525" height="205" rx="20" fill="#fff3f0" stroke="#d96a57" stroke-width="2"/>
+    <text x="650" y="158" font-size="20" font-weight="700" fill="#9b3c2e">Dominant-negatif baskılama</text>
+    <text x="650" y="188" font-size="15" fill="#6b4b44">TP53 DNA-bağlanma alanı missense örneği</text>
+    <rect x="655" y="220" width="190" height="38" rx="12" fill="#c94f52"/>
+    <text x="750" y="244" text-anchor="middle" font-size="14" fill="#ffffff">mutant p53 alt birimi</text>
+    <text x="872" y="244" font-size="24" fill="#76585a">⊣</text>
+    <rect x="910" y="220" width="190" height="38" rx="12" fill="#5ba36a"/>
+    <text x="1005" y="244" text-anchor="middle" font-size="14" fill="#ffffff">yabanıl tip kompleks</text>
+    <text x="650" y="295" font-size="15" fill="#6b4b44">LOH sık olabilir ama işlev baskısı için zorunlu değildir.</text>
+
+    <rect x="55" y="355" width="525" height="205" rx="20" fill="#f3f0fb" stroke="#8265b5" stroke-width="2"/>
+    <text x="85" y="393" font-size="20" font-weight="700" fill="#5c428e">Değiştirilmiş iki-vuruş</text>
+    <text x="85" y="423" font-size="15" fill="#544963">DICER1: tam kayıp değil, seçici işlev değişikliği</text>
+    <rect x="90" y="455" width="180" height="38" rx="12" fill="#d9534f"/>
+    <text x="180" y="479" text-anchor="middle" font-size="14" fill="#ffffff">bir alel: LoF</text>
+    <text x="298" y="479" font-size="24" fill="#6e617c">+</text>
+    <rect x="335" y="455" width="195" height="38" rx="12" fill="#8265b5"/>
+    <text x="432" y="479" text-anchor="middle" font-size="14" fill="#ffffff">RNase IIIb hotspot</text>
+    <text x="85" y="530" font-size="15" fill="#544963">Sonuç: 5p-miRNA işlenmesi seçici bozulur; olay sırası fenotipi değiştirir.</text>
+
+    <rect x="620" y="355" width="525" height="205" rx="20" fill="#eef8f1" stroke="#5ba36a" stroke-width="2"/>
+    <text x="650" y="393" font-size="20" font-weight="700" fill="#347146">Hücre kökeni + mikroçevre</text>
+    <text x="650" y="423" font-size="15" fill="#3e5b48">NF1: neoplastik Schwann hücresi ve çevresel bağlam</text>
+    <rect x="655" y="455" width="190" height="38" rx="12" fill="#d9534f"/>
+    <text x="750" y="479" text-anchor="middle" font-size="14" fill="#ffffff">Schwann: NF1−/−</text>
+    <text x="872" y="479" font-size="24" fill="#4b7055">+</text>
+    <rect x="910" y="455" width="190" height="38" rx="12" fill="#7bb78a"/>
+    <text x="1005" y="479" text-anchor="middle" font-size="14" fill="#ffffff">çevre: NF1+/−</text>
+    <text x="650" y="530" font-size="15" fill="#3e5b48">Bulk tümör, ikinci olayı normal hücrelerle seyreltebilir.</text>
+
+    <rect x="185" y="600" width="830" height="142" rx="20" fill="#fff8e8" stroke="#d6a23a" stroke-width="2"/>
+    <text x="600" y="638" text-anchor="middle" font-size="20" font-weight="700" fill="#8a651c">İki-vuruş modelinin dışında kalan yatkınlıklar da vardır</text>
+    <text x="600" y="675" text-anchor="middle" font-size="16" fill="#5c4d2e">Örneğin RET–MEN2: konstitütif aktive edici GoF varyantı</text>
+    <text x="600" y="704" text-anchor="middle" font-size="15" fill="#5c4d2e">“Kanser yatkınlık geni” bir mekanizma adı değildir.</text>
+  </g>
+  <rect x="155" y="765" width="890" height="34" rx="10" fill="#f4f6f8"/>
+  <text x="600" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#46596b">Her raporda: allelik gereksinim · işlev yönü · hücre/doku · somatik ürün ayrı yazılır.</text>
+</svg>

@@ -1,13 +1,13 @@
-# Bölüm 16 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
+# Bölüm 17 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
 
 > **Bölümün çekirdek tezi:** Bu kitabın on dört bölümü boyunca mekanizmaları tek tek öğrendik. Bu bölüm, o bilginin **nereye aktığını** gösterir: klinik laboratuvarda bir varyantın sınıflandırılmasına. ACMG/AMP çerçevesi çoğu zaman bir **kontrol listesi** gibi öğretilir — kriterleri işaretle, kuralı uygula, sınıfı oku. Bu okuma yanlıştır ve bölümün birinci tezi budur: çerçeve bir kontrol listesi değil, bir **kanıt tartma dilidir**; kriterlerin ağırlıkları vardır, ağırlıklar toplanabilir ve toplam ağırlık bir **olasılık** ifade eder. İkinci ve kitabın tamamını bu bölüme bağlayan tez ise şudur: **hangi kriteri hangi güçte kullanabileceğinizi belirleyen şey mekanizmadır.** PVS1'i uygulayabilmek için işlev kaybının o hastalığın mekanizması olduğunu bilmeniz; PM1'i kullanabilmek için hotspot'un hangi mekanizmaya ait olduğunu bilmeniz; PS3'ü kullanabilmek için testin hangi mekanizmayı ölçtüğünü bilmeniz gerekir. Mekanizma bilgisi olmadan yapılan varyant yorumu, doğru kelimeleri yanlış anlamda kullanan bir cümledir. Üçüncü tez pratiktir: **VUS bir sonuç değil, bir eksik-kanıt durumudur** — ve hangi verinin hangi kriteri açtığını bilmek, o durumu çözmenin yoludur.
 
 > **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
-> · **① Temel — tıp öğrencisi:** §1 ve Şekil 16.1: sınıflandırmanın bir **olasılık ifadesi** olduğunu kavramak geri kalanını taşır.
-> · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 16.4: "raporda yazan sınıf ne anlama geliyor?" ve "VUS geldiyse ne yapmalıyım?"
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §2 ve §6 ile Şekil 16.3 bölümün ağırlık merkezidir; §7'deki beş çözümlü örnek bütün bölümü olgular üzerinde tekrar eder.
+> · **① Temel — tıp öğrencisi:** §1 ve Şekil 17.1: sınıflandırmanın bir **olasılık ifadesi** olduğunu kavramak geri kalanını taşır.
+> · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 17.4: "raporda yazan sınıf ne anlama geliyor?" ve "VUS geldiyse ne yapmalıyım?"
+> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §2 ve §6 ile Şekil 17.3 bölümün ağırlık merkezidir; §7'deki beş çözümlü örnek bütün bölümü olgular üzerinde tekrar eder.
 
-> 🖼️ **Görseller hakkında not:** Şekil 16.1–16.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
+> 🖼️ **Görseller hakkında not:** Şekil 17.1–17.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
 ---
 
@@ -37,9 +37,9 @@ Bu ağırlıkların ne anlama geldiği, çerçevenin yayımlanmasından üç yı
 
 İki yıl sonra aynı grup, bu Bayes formülasyonunun günlük kullanıma uygun bir kısayolunu önerdi: kanıt güç kategorileri **toplanabilir puanlara** soyutlanabilir. Puanlar log(odds) ile orantılıdır ve toplandıklarında Bayes formülasyonunu yeniden üretirler. Sistemin gücü sadeliği ve puan değerleri ile patojenite olasılık oranı arasındaki bağın, her veri türü için kanıt gücünün **ampirik olarak kalibre edilmesine** izin vermesidir; zayıflığı ise dar bir öncül olasılık aralığını sabitlemesi ve Bayes doğasının kullanıcıya görünmez kalmasıdır (Tavtigian ve ark., 2020).
 
-Şekil 16.1 bu mimariyi tek sayfada toplar.
+Şekil 17.1 bu mimariyi tek sayfada toplar.
 
-![Şekil 16.1 — ACMG/AMP kanıt mimarisi: kriterler sayılmaz, tartılır](assets/sekil_54_acmg_kanit_mimarisi.svg)
+![Şekil 17.1 — ACMG/AMP kanıt mimarisi: kriterler sayılmaz, tartılır](assets/sekil_54_acmg_kanit_mimarisi.svg)
 
 Bu tablodan çıkan üç kavramsal sonuç, bölümün geri kalanını taşır.
 
@@ -65,7 +65,7 @@ Son bir uyarı: **PVS1 her zaman 8 puan değildir.** ClinGen'in PVS1 karar ağac
 
 Son bir kavramsal ön koşul: varyant sınıflandırması, **gen–hastalık ilişkisinin geçerli olduğu varsayımı üzerine** kurulur. Bölüm 14'te gördüğümüz gibi ClinGen bu ilişkiyi ayrı bir çerçeveyle puanlar ve "Kesin"den "Çelişkili"ye uzanan bir ölçekte sınıflar (Strande ve ark., 2017); değerlendirilecek hastalık varlığının tanımlanması ise ön-küreleme aşamasında yapılır (Thaxton ve ark., 2022). İlişkinin kendisi zayıfsa, o gendeki hiçbir varyant güvenle patojenik ilan edilemez — kanıtın temeli çürüktür (MacArthur ve ark., 2014).
 
-**Tablo 16.1 — Varyant yorumlamanın temel kavramları**
+**Tablo 17.1 — Varyant yorumlamanın temel kavramları**
 
 | Kavram | Tanım | Pratik karşılığı |
 |---|---|---|
@@ -131,9 +131,9 @@ Aile verisi, laboratuvarın kendi başına üretemeyeceği ama klinisyenin sağl
 
 PVS1, çerçevenin tek "çok güçlü" patojenik kriteridir ve adı yanıltıcıdır: "çok güçlü" olan kriterin *kendisi* değil, koşulları sağlandığında taşıdığı ağırlıktır. 2015 kılavuzu bu kriteri tanımlarken farklı işlev kaybı varyant tiplerine özgü değerlendirmeleri ayrıntılandırmamış; varyantın tipi, konumu ve gerçek bir null etki olasılığına ilişkin ek kanıtı birleştiren karar yolları sunmamıştı. ClinGen'in Sekans Varyant Yorumlama çalışma grubu bu boşluğu doldurmak üzere ayrıntılı öneriler geliştirdi; yedi hastalık-özgü grubun 56 heterojen işlev kaybı varyantı üzerinde yaptığı değerlendirmede yeni önerilerle **%89 uyum** sağlandı ve uyumsuz kalan altı varyanttaki (%11) farklılıklar, hastalığa özgü uyarlamalardan kaynaklandı (Abou Tayoun ve ark., 2018).
 
-Şekil 16.2, bu akışın iki katmanını gösterir: önce **mekanizma kapısı**, sonra **güç basamakları**.
+Şekil 17.2, bu akışın iki katmanını gösterir: önce **mekanizma kapısı**, sonra **güç basamakları**.
 
-![Şekil 16.2 — PVS1: önce mekanizma kapısı, sonra güç basamakları](assets/sekil_56_pvs1_mekanizma_kapisi.svg)
+![Şekil 17.2 — PVS1: önce mekanizma kapısı, sonra güç basamakları](assets/sekil_56_pvs1_mekanizma_kapisi.svg)
 
 Kapı sorusu bölümün özetidir: *işlev kaybı, değerlendirilen gen–hastalık ilişkisinin bilinen mekanizması mı?* Bölüm 14'te gördüğümüz gibi bu soru gen düzeyinde değil, **gen–hastalık üçlüsü** düzeyinde sorulur: *RET*'te bir null varyant Hirschsprung hastalığı için mekanizmaya uygundur, MEN2 için değildir. Kapı kapalıysa basamaklara hiç bakılmaz.
 
@@ -141,9 +141,9 @@ Kapı açıksa varyantın gen içindeki konumu gücü belirler. NMD'ye giren erk
 
 ### 2.6 Bütün kitabı tek tabloda toplamak
 
-Şekil 16.3, bu bölümün sentez haritasıdır: kitabın on dört mekanizma bölümünde ele alınan biyolojik mekanizmaların, sekiz geniş kanıt ailesiyle hangi noktalarda ve hangi koşullarda kesişebildiğini tek matriste gösterir. **Bu matris bir ACMG/AMP uygulama algoritması ya da resmî bir ClinGen eşleştirmesi değildir**; yorumlama sırasında hangi kanıt alanlarının sorgulanmaya değer olduğunu gösteren pedagojik bir yönlendirme aracıdır. Matrisin **iki ekseni de editöryaldir**: soldaki on dört satır bu kitabın mekanizma bölümlendirmesidir, üstteki sekiz sütun ise ACMG/AMP kriter kodlarını öğretim kolaylığı için daha geniş kanıt aileleri altında toplayan bir gruplamadır — ClinGen'in kendi rehberleri bu kriterleri (PVS1, PS2/PM6, PS3/BS3, PM2, PM3, PP1/BS4, PP4, PP3/BP4 ve splice kanıtı) ayrı metodolojik sorunlar olarak ele alır.
+Şekil 17.3, bu bölümün sentez haritasıdır: kitabın on dört mekanizma bölümünde ele alınan biyolojik mekanizmaların, sekiz geniş kanıt ailesiyle hangi noktalarda ve hangi koşullarda kesişebildiğini tek matriste gösterir. **Bu matris bir ACMG/AMP uygulama algoritması ya da resmî bir ClinGen eşleştirmesi değildir**; yorumlama sırasında hangi kanıt alanlarının sorgulanmaya değer olduğunu gösteren pedagojik bir yönlendirme aracıdır. Matrisin **iki ekseni de editöryaldir**: soldaki on dört satır bu kitabın mekanizma bölümlendirmesidir, üstteki sekiz sütun ise ACMG/AMP kriter kodlarını öğretim kolaylığı için daha geniş kanıt aileleri altında toplayan bir gruplamadır — ClinGen'in kendi rehberleri bu kriterleri (PVS1, PS2/PM6, PS3/BS3, PM2, PM3, PP1/BS4, PP4, PP3/BP4 ve splice kanıtı) ayrı metodolojik sorunlar olarak ele alır.
 
-![Şekil 16.3 — Mekanizma → kriter matrisi: kitabın on dört bölümü tek tabloda](assets/sekil_55_mekanizma_kriter_matrisi.svg)
+![Şekil 17.3 — Mekanizma → kriter matrisi: kitabın on dört bölümü tek tabloda](assets/sekil_55_mekanizma_kriter_matrisi.svg)
 
 Matrisin okunma biçimi şudur. **İşlev kaybı ve yetersiz doz** satırı, çerçevenin varsayılan hâlidir — kriterler tasarlandıkları gibi çalışır. **İşlev kazanımı, dominant-negatif ve neomorfik** satırlarında PVS1 kapısı kapalıdır; buna karşılık hotspot/arayüz kümelenmesi PM1'i güçlendirir ve mekanizmayı doğrudan ölçen fonksiyonel testler PS3'ü değerli kılar; hesaplamalı öngörünün gücü ise düşer. **Splicing** satırında hem PVS1 (uyarlanmış akışla) hem PS3 (RNA analizi) hem PP3 (kalibre splice öngörüsü) güçlenir — bu, kitapta kanıtın en zengin olduğu mekanizmadır. **CNV, mitokondriyal ve tekrar genişlemesi** satırlarında çerçevenin kendisi yetersizdir ve özel puanlama sistemleri devreye girer. **Mozaiklik** satırında segregasyon anlamını yitirir ve de novo kanıtı dikkatle kullanılmalıdır. **Kodlamayan** satırında kriterlerin çoğu ya uygulanamaz ya zayıflar; ağırlık fonksiyonel kanıta kayar. **Digenik** satırında tek-lokus segregasyon analizi yanıltıcıdır. **Alelik seri** satırında ise bütün konum-temelli kriterler "hangi hastalık için?" sorusuyla koşullanır.
 
@@ -157,7 +157,7 @@ Matrisin okunma biçimi şudur. **İşlev kaybı ve yetersiz doz** satırı, çe
 
 Önceki bölümlerde "varyant tipi → mekanizma" yönünde ilerledik. Burada zinciri tamamlıyoruz: **varyant tipi → hangi kriterle başlanır.**
 
-**Tablo 16.2 — Varyant tipine göre öncelikle değerlendirilecek kanıt alanları**
+**Tablo 17.2 — Varyant tipine göre öncelikle değerlendirilecek kanıt alanları**
 
 | Varyant tipi | Öncelikle değerlendirilecek kanıt alanları | Mekanizma kontrolü | En sık yanlış uygulama |
 |---|---|---|---|
@@ -199,11 +199,11 @@ Bu anlatının dersi, tek bir laboratuvarın hatası değil, sistemin doğasıd�
 
 ### 4.3 VUS geldiğinde ne yapılır?
 
-Bu, bu bölümün klinisyene en doğrudan katkısıdır. VUS bir çıkmaz değil, bir adres listesidir (Şekil 16.4).
+Bu, bu bölümün klinisyene en doğrudan katkısıdır. VUS bir çıkmaz değil, bir adres listesidir (Şekil 17.4).
 
-![Şekil 16.4 — VUS'u çözme haritası: hangi ek veri hangi kriteri açar?](assets/sekil_57_vus_cozme_haritasi.svg)
+![Şekil 17.4 — VUS'u çözme haritası: hangi ek veri hangi kriteri açar?](assets/sekil_57_vus_cozme_haritasi.svg)
 
-**Algoritma 16.1 — VUS geldiğinde eksik kanıtı üretme akışı**
+**Algoritma 17.1 — VUS geldiğinde eksik kanıtı üretme akışı**
 
 ```mermaid
 flowchart TD
@@ -241,7 +241,7 @@ Sınıflandırmanın olasılık doğası, aileye anlatılırken kaybolmamalıdı
 
 Bu bölümde test tablosu farklı bir soruyla okunur: **hangi test hangi kanıtı (dolayısıyla hangi kriteri) üretir?**
 
-**Tablo 16.3 — Hangi test hangi kanıtı (kriteri) üretir?**
+**Tablo 17.3 — Hangi test hangi kanıtı (kriteri) üretir?**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -337,7 +337,7 @@ Aşağıdaki beş örnek, bölümün bütün araçlarını tek tek olgular üzer
 
 ## 9. Klinik pratikte karar algoritması
 
-**Algoritma 16.2 — Mekanizmadan sınıflandırmaya: ana yorumlama akışı**
+**Algoritma 17.2 — Mekanizmadan sınıflandırmaya: ana yorumlama akışı**
 
 ```mermaid
 flowchart TD
@@ -349,11 +349,11 @@ flowchart TD
   E -->|"Var"| F["O spesifikasyonu kullan<br/>(CNV · mtDNA · splice · kodlamayan · VCEP)"]
   E -->|"Yok"| G["Genel ACMG/AMP çerçevesi"]
 
-  F --> H["ADIM 2 — Kriter ailelerini MEKANİZMAYA göre seç<br/>(Şekil 16.3 matrisi)"]
+  F --> H["ADIM 2 — Kriter ailelerini MEKANİZMAYA göre seç<br/>(Şekil 17.3 matrisi)"]
   G --> H
 
   H --> I{"Null varyant mı?"}
-  I -->|"Evet"| J["PVS1 kapısı → basamak seç<br/>(Şekil 16.2)"]
+  I -->|"Evet"| J["PVS1 kapısı → basamak seç<br/>(Şekil 17.2)"]
   I -->|"Hayır"| K["PM1 · PS1/PM5 · PP3 (kalibre) ·<br/>PS3 (mekanizmayı ölçüyorsa)"]
 
   J --> L["ADIM 3 — Popülasyon + aile + fonksiyonel kanıtı ekle<br/>Her veri YALNIZ BİR kriterde sayılır"]
@@ -364,7 +364,7 @@ flowchart TD
 
   N -->|"P / LP"| O["Raporla: gen + kalıtım + hastalık + mekanizma cümlesi<br/>→ izlem, tarama, aile testi planı"]
   N -->|"LB / B"| P["Raporla: nedensel değil<br/>→ ancak TANI DIŞLANMADI; kör noktaları hatırlat"]
-  N -->|"VUS"| Q["Eksik kanıtı belirle (Şekil 16.4)<br/>→ hedefli veri üret → TAKVİMLİ yeniden değerlendir"]
+  N -->|"VUS"| Q["Eksik kanıtı belirle (Şekil 17.4)<br/>→ hedefli veri üret → TAKVİMLİ yeniden değerlendir"]
 
   O --> R["Veriyi paylaş (ClinVar) ·<br/>yeniden değerlendirme takvimi kur"]
   P --> R
@@ -436,7 +436,7 @@ flowchart TD
 
 ## ✅ Bölüm öz-denetim tablosu
 
-**Tablo 16.4 — Bölüm 16 öz-denetim tablosu**
+**Tablo 17.4 — Bölüm 17 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|
@@ -458,8 +458,8 @@ flowchart TD
 >
 > **Bu bölüm için durum:** **25/25 kaynak PMID+DOI doğrulandı** (9'u PubMed MCP ile — Tavtigian 2018, Tavtigian 2020, Pejaver 2022, Whiffin 2017, Jarvik & Browning 2016, Gelman 2019, Lo 2023, Rehm 2015; 16'sı Bölüm_00 kaynak kütüğünden yeniden kullanıldı). Bölüm, 27.07.2026 tarihli iddia-düzeyi doğrulama turundan geçmiştir; turda **RNA-splicing kanıtının kodlanması** dört ayrı yerde düzeltilmiştir (PS3 değil **PVS1_Strength**; etkisizlik için **BP7**) — Walker ve ark., 2023 (bkz. `Dogrulama_Kutugu.md`).
 >
-> **İşaretlenen iddialar:** (1) ⚠️ Şekil 16.3'deki mekanizma–kriter matrisi **pedagojik bir özettir**; normatif değildir ve ilgili gen/hastalık için yayımlanmış uzman panel spesifikasyonunun yerini almaz. (2) Puan karşılıkları (destekleyici +1, orta +2, güçlü +4, çok güçlü +8) ve sınıf eşikleri, doğal ölçekli puan sisteminde tanımlanan değerlerdir (Tavtigian ve ark., 2020); olasılık oranları ve sonsal olasılık aralıkları Bayes formülasyonundan gelir (Tavtigian ve ark., 2018). Uzman panelleri kendi genlerinde farklı eşikler tanımlayabilir. (3) 7. başlıktaki çözümlü örneklerin puanlamaları **öğretici amaçlıdır**; gerçek olgularda güncel spesifikasyon ve tam kanıt kümesi kullanılmalıdır.
+> **İşaretlenen iddialar:** (1) ⚠️ Şekil 17.3'deki mekanizma–kriter matrisi **pedagojik bir özettir**; normatif değildir ve ilgili gen/hastalık için yayımlanmış uzman panel spesifikasyonunun yerini almaz. (2) Puan karşılıkları (destekleyici +1, orta +2, güçlü +4, çok güçlü +8) ve sınıf eşikleri, doğal ölçekli puan sisteminde tanımlanan değerlerdir (Tavtigian ve ark., 2020); olasılık oranları ve sonsal olasılık aralıkları Bayes formülasyonundan gelir (Tavtigian ve ark., 2018). Uzman panelleri kendi genlerinde farklı eşikler tanımlayabilir. (3) 7. başlıktaki çözümlü örneklerin puanlamaları **öğretici amaçlıdır**; gerçek olgularda güncel spesifikasyon ve tam kanıt kümesi kullanılmalıdır.
 >
-> **Uzman değerlendirmesi turu C24 (01.08.2026).** Tablo 16.2'nin "sık hata" sütunu satır satır denetlendi; 11 satırın 5'i revize edildi ve tablonun **algoritma gibi okunma riski** giderildi. Yapısal değişiklikler: başlık "ilk bakılacak kriterler" → **"öncelikle değerlendirilecek kanıt alanları"**, son sütun "tipik tuzak" → **"en sık yanlış uygulama"**, kriterler arasındaki **oklar virgülle** değiştirildi (ok, kriterlerin sırayla ve otomatik uygulanacağı izlenimi veriyordu) ve tablonun altına normatif olmadığını söyleyen bir ⚠️ dipnotu eklendi. İçerik düzeltmeleri: **(1) Son ekzon/NMD kaçışı** — hata tek yönlü yazılmıştı; "son ekzon" diye **otomatik düşürülmüş PVS1** vermenin de aynı ölçüde yanlış olduğu, gücün kesilen bölgenin kritikliğine ve mekanizmaya (LoF mu, DN/GoF mu) göre belirlendiği eklendi. **(2–3) İki splice satırı** — "RNA bulgusunu PS3 ile kodlamak" uyarısı yalnız **saf splicing sonucu** için geçerlidir; RNA'dan bağımsız protein/hücresel işlev deneylerinin yine PS3 oluşturabileceği belirtildi. Ayrıca "etki yoksa BP7" koşullandırıldı: uygun olmayan dokudaki negatif RNA sonucu otomatik BP7/BS3 sayılamaz. **(4) Tekrar genişlemesi** — "dizileme temelli kriter uygulamaya çalışmak" ifadesi çıkarıldı (genişlemeler bugün NGS ve uzun-okuma ile de saptanır); hata, **kısa varyantlar için tasarlanmış kanıt kodlarını tekrar aleline mekanik uygulamak** ve motif bütünlüğü/kesinti/metilasyon/instabiliteyi atlamak olarak yeniden yazıldı. **(5) Düşük VAF** — "PS2/PM6 dikkatle" sırası yanlıştı; ilk soru de novo kriteri değil **varyantın gerçekliği ve dokusal dağılımıdır**. Ayrıca üç genel düzeltme yapıldı: tablodaki bütün **PM2**'ler **PM2_Supporting**'e çevrildi (§2'deki kutuyla uyumlu), kodlamayan satırındaki "PM1 genellikle yok" ifadesi **PM1_Supporting**'in iyi tanımlanmış hastalık-spesifik motiflerde kullanılabileceği biçiminde daraltıldı, ve PS3'ün hiçbir satırda otomatik "ilk kriter" olmadığı dipnota yazıldı. Yeni kaynak gerekmedi; düzeltmeler bölümün mevcut kaynaklarına (Abou Tayoun 2018 · Walker 2023 · Brnich 2019 · Riggs 2020 · McCormick 2020 · Ellingford 2022 · Pejaver 2022) dayanır.
+> **Uzman değerlendirmesi turu C24 (01.08.2026).** Tablo 17.2'nin "sık hata" sütunu satır satır denetlendi; 11 satırın 5'i revize edildi ve tablonun **algoritma gibi okunma riski** giderildi. Yapısal değişiklikler: başlık "ilk bakılacak kriterler" → **"öncelikle değerlendirilecek kanıt alanları"**, son sütun "tipik tuzak" → **"en sık yanlış uygulama"**, kriterler arasındaki **oklar virgülle** değiştirildi (ok, kriterlerin sırayla ve otomatik uygulanacağı izlenimi veriyordu) ve tablonun altına normatif olmadığını söyleyen bir ⚠️ dipnotu eklendi. İçerik düzeltmeleri: **(1) Son ekzon/NMD kaçışı** — hata tek yönlü yazılmıştı; "son ekzon" diye **otomatik düşürülmüş PVS1** vermenin de aynı ölçüde yanlış olduğu, gücün kesilen bölgenin kritikliğine ve mekanizmaya (LoF mu, DN/GoF mu) göre belirlendiği eklendi. **(2–3) İki splice satırı** — "RNA bulgusunu PS3 ile kodlamak" uyarısı yalnız **saf splicing sonucu** için geçerlidir; RNA'dan bağımsız protein/hücresel işlev deneylerinin yine PS3 oluşturabileceği belirtildi. Ayrıca "etki yoksa BP7" koşullandırıldı: uygun olmayan dokudaki negatif RNA sonucu otomatik BP7/BS3 sayılamaz. **(4) Tekrar genişlemesi** — "dizileme temelli kriter uygulamaya çalışmak" ifadesi çıkarıldı (genişlemeler bugün NGS ve uzun-okuma ile de saptanır); hata, **kısa varyantlar için tasarlanmış kanıt kodlarını tekrar aleline mekanik uygulamak** ve motif bütünlüğü/kesinti/metilasyon/instabiliteyi atlamak olarak yeniden yazıldı. **(5) Düşük VAF** — "PS2/PM6 dikkatle" sırası yanlıştı; ilk soru de novo kriteri değil **varyantın gerçekliği ve dokusal dağılımıdır**. Ayrıca üç genel düzeltme yapıldı: tablodaki bütün **PM2**'ler **PM2_Supporting**'e çevrildi (§2'deki kutuyla uyumlu), kodlamayan satırındaki "PM1 genellikle yok" ifadesi **PM1_Supporting**'in iyi tanımlanmış hastalık-spesifik motiflerde kullanılabileceği biçiminde daraltıldı, ve PS3'ün hiçbir satırda otomatik "ilk kriter" olmadığı dipnota yazıldı. Yeni kaynak gerekmedi; düzeltmeler bölümün mevcut kaynaklarına (Abou Tayoun 2018 · Walker 2023 · Brnich 2019 · Riggs 2020 · McCormick 2020 · Ellingford 2022 · Pejaver 2022) dayanır.
 >
-> **Uzman değerlendirmesi turu D4 (01.08.2026).** Şekil 16.3'ün **normatif bir ACMG/ClinGen eşleştirme tablosu sanılma riski** giderildi. Şekil başlığı "Mekanizma → kriter matrisi" → **"Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez · NORMATİF DEĞİLDİR)"**; alt yazıya "semboller kriter gücü veya ACMG puanı göstermez, işaret = kriter kazanıldı değildir" eklendi; lejantta **✖ "UYGULANAMAZ" → "genellikle UYGULANMAZ"** olarak yumuşatıldı. Metinde matrisin **iki ekseninin de editöryal** olduğu yazıldı: on dört satır bu kitabın mekanizma bölümlendirmesi, sekiz sütun ise ACMG kriter kodlarını öğretim amacıyla gruplayan bir sınıflamadır — ClinGen'in kendi rehberleri bu kriterleri ayrı metodolojik sorunlar olarak ele alır. Şeklin altına **üç yanlış anlamayı** açıkça reddeden bir uyarı kutusu (işaret ≠ kriter kazanıldı · boşluk/✖ ≠ yasak · aynı hücre ≠ her gende aynı güç) ve VCEP spesifikasyonunun matrisin önünde geldiği notu eklendi; ayrıca matrisin **nasıl okunacağını** gösteren somut bir örnek okuma yazıldı (yetersiz doz satırı → nonsense varyanta otomatik PVS1+PM2+PS2 verilmez). Yeni kaynak gerekmedi.
+> **Uzman değerlendirmesi turu D4 (01.08.2026).** Şekil 17.3'ün **normatif bir ACMG/ClinGen eşleştirme tablosu sanılma riski** giderildi. Şekil başlığı "Mekanizma → kriter matrisi" → **"Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez · NORMATİF DEĞİLDİR)"**; alt yazıya "semboller kriter gücü veya ACMG puanı göstermez, işaret = kriter kazanıldı değildir" eklendi; lejantta **✖ "UYGULANAMAZ" → "genellikle UYGULANMAZ"** olarak yumuşatıldı. Metinde matrisin **iki ekseninin de editöryal** olduğu yazıldı: on dört satır bu kitabın mekanizma bölümlendirmesi, sekiz sütun ise ACMG kriter kodlarını öğretim amacıyla gruplayan bir sınıflamadır — ClinGen'in kendi rehberleri bu kriterleri ayrı metodolojik sorunlar olarak ele alır. Şeklin altına **üç yanlış anlamayı** açıkça reddeden bir uyarı kutusu (işaret ≠ kriter kazanıldı · boşluk/✖ ≠ yasak · aynı hücre ≠ her gende aynı güç) ve VCEP spesifikasyonunun matrisin önünde geldiği notu eklendi; ayrıca matrisin **nasıl okunacağını** gösteren somut bir örnek okuma yazıldı (yetersiz doz satırı → nonsense varyanta otomatik PVS1+PM2+PS2 verilmez). Yeni kaynak gerekmedi.

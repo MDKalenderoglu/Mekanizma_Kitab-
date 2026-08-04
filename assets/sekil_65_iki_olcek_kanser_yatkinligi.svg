@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#183153">İki ölçek, tek yatkınlık</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#52657a">Ailede dominant aktarım ile hücrede ikinci olay birbiriyle çelişmez</text>
+
+  <rect x="55" y="115" width="520" height="535" rx="24" fill="#eef6ff" stroke="#4d86c6" stroke-width="2"/>
+  <text x="315" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#245b95">KİŞİ / AİLE ÖLÇEĞİ</text>
+  <text x="315" y="181" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#3f5f7c">Konstitüsyonel yatkınlık aleli</text>
+
+  <line x1="315" y1="225" x2="215" y2="295" stroke="#4d86c6" stroke-width="4"/>
+  <line x1="315" y1="225" x2="415" y2="295" stroke="#4d86c6" stroke-width="4"/>
+  <circle cx="315" cy="220" r="31" fill="#ffffff" stroke="#245b95" stroke-width="3"/>
+  <circle cx="215" cy="315" r="31" fill="#ffffff" stroke="#245b95" stroke-width="3"/>
+  <circle cx="415" cy="315" r="31" fill="#ffffff" stroke="#245b95" stroke-width="3"/>
+  <path d="M294 198 L336 242 M336 198 L294 242" stroke="#d44b4b" stroke-width="6"/>
+  <path d="M194 293 L236 337 M236 293 L194 337" stroke="#d44b4b" stroke-width="6"/>
+  <text x="315" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#183153">Varyantın aktarımı</text>
+  <text x="315" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#31485f">Konstitüsyonel heterozigot bireyin</text>
+  <text x="315" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#31485f">her gebeliğinde alel için çoğu kez %50</text>
+  <rect x="105" y="470" width="420" height="125" rx="16" fill="#ffffff" stroke="#9bbbdc" stroke-width="2"/>
+  <text x="315" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#245b95">Bu oran ne değildir?</text>
+  <text x="315" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#465c72">Kanser penetransı değildir</text>
+  <text x="315" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#465c72">Tümörün kaç yaşında oluşacağını göstermez</text>
+
+  <rect x="625" y="115" width="520" height="535" rx="24" fill="#fff5ee" stroke="#dc8650" stroke-width="2"/>
+  <text x="885" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#a94d20">HÜCRE / KLON ÖLÇEĞİ</text>
+  <text x="885" y="181" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#77503b">Belirli hücrede ikinci olay ve seçilim</text>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="730" cy="260" r="48" fill="#ffffff" stroke="#dc8650" stroke-width="3"/>
+    <text x="730" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#633a25">1. olay</text>
+    <text x="730" y="272" text-anchor="middle" font-size="13" fill="#633a25">germline</text>
+    <line x1="782" y1="260" x2="836" y2="260" stroke="#dc8650" stroke-width="4" marker-end="url(#arrow)"/>
+    <circle cx="890" cy="260" r="48" fill="#fff0df" stroke="#dc8650" stroke-width="3"/>
+    <text x="890" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#633a25">2. olay</text>
+    <text x="890" y="272" text-anchor="middle" font-size="13" fill="#633a25">somatik</text>
+    <line x1="942" y1="260" x2="996" y2="260" stroke="#dc8650" stroke-width="4" marker-end="url(#arrow)"/>
+    <circle cx="1050" cy="260" r="48" fill="#f9d3c2" stroke="#b95333" stroke-width="3"/>
+    <text x="1050" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#7a2e1b">Klonal</text>
+    <text x="1050" y="272" text-anchor="middle" font-size="13" fill="#7a2e1b">genişleme</text>
+  </g>
+
+  <rect x="675" y="352" width="420" height="188" rx="18" fill="#ffffff" stroke="#e6b08e" stroke-width="2"/>
+  <text x="885" y="388" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#a94d20">İkinci olay farklı biçimlerde olabilir</text>
+  <text x="885" y="422" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57463c">SNV / indel · delesyon · kromozom kaybı</text>
+  <text x="885" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57463c">mitotik rekombinasyon / kopya-nötr LOH</text>
+  <text x="885" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57463c">promotor metilasyonu · gene özgü hotspot</text>
+  <text x="885" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#7a2e1b">İkinci olay ≠ otomatik malignite</text>
+  <text x="885" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#633a25">Hücre kökeni + zamanlama + mikroçevre</text>
+  <text x="885" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#633a25">klonun seçilip seçilmeyeceğini değiştirir</text>
+
+  <line x1="575" y1="382" x2="625" y2="382" stroke="#6f7f8f" stroke-width="3" stroke-dasharray="7 6"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#52657a">aynı kişi</text>
+  <rect x="110" y="690" width="980" height="42" rx="12" fill="#f4f6f8"/>
+  <text x="600" y="717" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#394b5d">Aktarım olasılığı, penetrans ve tümörde ikinci olayın bulunması üç ayrı olasılıktır.</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc8650"/></marker></defs>
+</svg>

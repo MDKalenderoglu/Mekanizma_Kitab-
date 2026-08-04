@@ -4,16 +4,16 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 
 ---
 
-## 0. Yayın öncesi durum ve onaylanan hedef (03.08.2026)
+## 0. Yayın öncesi durum ve onaylanan hedef (04.08.2026)
 
-**Mevcut uygulanmış durum:** Kitap gövdesi 17 bölümdür. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e taşınmış; bölüm dosyaları, çapraz göndermeler, şekil/tablo/algoritma numaraları, dizinler ve güncel HTML yeni sırayla eşitlenmiştir. Son güvenli başlangıç commit'i `599a12e`, yerel etiketi `pre-editorial-round-2`'dir.
+**Mevcut uygulanmış durum:** Kitap gövdesi 18 bölümdür. Alelik seri Bölüm 14'te, digenik/oligogenik/değiştirici mimari Bölüm 15'te; kalıtsal kanser yatkınlığı ve ikinci vuruş bağımsız Bölüm 16'da yer alır. ACMG/ClinGen sentezi Bölüm 17'ye, klinik senaryolar Bölüm 18'e kaydırılmış; bölüm dosyaları, çapraz göndermeler, nesne numaraları, dizinler ve güncel HTML yeni sırayla eşitlenmiştir. Bu uygulama paketinin başlangıç HEAD'i `b004c2b`'dir; stage, commit ve push yapılmamıştır.
 
 **Onaylanan hedefler ve uygulama durumu:**
 
 1. Önce HTML + PDF değerlendirme sürümü, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
 2. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e alınacak. **✅ 03.08.2026'da uygulandı.**
-3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak yazılacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
-4. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bu kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak.
+3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak yazılacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak. **✅ 04.08.2026'da uygulandı.**
+4. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bu kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak. **✅ 04.08.2026'da uygulandı.**
 5. Ayrıntılı üretim/doğrulama günlükleri proje kayıtlarında korunacak, yayımlanan kitapta yalnız kısa okuyucu yöntemi bulunacak.
 6. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
 
@@ -41,11 +41,12 @@ Bu kararların ayrıntısı ve uygulama durumu `Editor_Degerlendirme_Formu_Tur2.
 | 11 | Mitokondriyal genetik | `Bölüm_11_Mitokondriyal_Genetik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 14/14 |
 | 12 | Mozaiklik | `Bölüm_12_Mozaiklik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 27/27 |
 | 13 | Noncoding / regülatör varyantlar | `Bölüm_13_Noncoding_Regulator_Varyantlar.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 13/13 |
-| 14 | Aynı gen → farklı hastalık (alelik seri) | `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 32/32 |
+| 14 | Aynı gen → farklı hastalık (alelik seri) | `Bölüm_14_Ayni_Gen_Farkli_Hastalik.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 35/35 |
 | 15 | Digenik / oligogenik / modifier | `Bölüm_15_Digenik_Oligogenik_Modifier.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 11/11 |
-| 16 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 2 Mermaid | 25/25 |
-| 17 | Klinik senaryolarla sentez | `Bölüm_17_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
-| — | **Önceki final pass** (birleştirme/standardizasyon) | `kitap/03_Onsoz.md` + `build_book.py` | ✅ Tamam | — | 172 benzersiz PMID (güncel) |
+| 16 | Kalıtsal kanser yatkınlığı ve ikinci vuruş | `Bölüm_16_Kalitsal_Kanser_Yatkinligi_ve_Ikinci_Vurus.md` | ✅ Tamam (tam metin çapraz doğrulamalı) | 4 SVG + 3 Mermaid | 20/20 |
+| 17 | Mekanizma → varyant yorumu (ACMG/ClinGen) | `Bölüm_17_Mekanizmadan_Varyant_Yorumuna.md` | ✅ Tamam (textbook) | 4 SVG + 2 Mermaid | 25/25 |
+| 18 | Klinik senaryolarla sentez | `Bölüm_18_Klinik_Senaryolarla_Sentez.md` | ✅ Tamam (textbook) | 4 SVG + 3 Mermaid | 24/24 |
+| — | **Güncel kitap üretimi** | `kitap/03_Onsoz.md` + `build_book.py` | ✅ Tamam | 68 SVG + 52 Mermaid + 65 yayın tablosu | 194 benzersiz PMID |
 
 Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
@@ -57,13 +58,13 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 | PMID | Yazar (yıl) | Dergi | DOI | Tip / kullanım | Kullanıldığı bölümler |
 |------|-------------|-------|-----|----------------|------------------------|
-| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13, 14, 15, 16, 17 |
-| 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2, 15, 16 |
-| 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; **LOEUF**) | 1, 2, 3, 16 |
-| 27535533 | Lek ve ark. (2016) | Nature | 10.1038/nature19057 | Metodoloji (ExAC; **pLI** metriğinin tanımlandığı çalışma) | 1, 2, 3, 16 |
+| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13, 14, 15, 17, 18 |
+| 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2, 15, 17 |
+| 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; **LOEUF**) | 1, 2, 3, 17 |
+| 27535533 | Lek ve ark. (2016) | Nature | 10.1038/nature19057 | Metodoloji (ExAC; **pLI** metriğinin tanımlandığı çalışma) | 1, 2, 3, 17 |
 | 7297851 | Kacser &amp; Burns (1981) | Genetics | 10.1093/genetics/97.3-4.639 | Landmark kuram (metabolik kontrol; resesifliğin moleküler temeli) | 2, 3 |
 | 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1, 15 |
-| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI; NMD kuralı: son ekzon + sondan bir öncekinin son 50 nt'si) | 1, 2, 4, 5, 14, 16 |
+| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI; NMD kuralı: son ekzon + sondan bir öncekinin son 50 nt'si) | 1, 2, 4, 5, 14, 17 |
 | 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip; NMD'den kaçan PTC → DN/GoF riski) | 2, 4, 7 |
 | 3384440 | Monaco ve ark. (1988) | Genomics | 10.1016/0888-7543(88)90113-9 | Landmark mekanizma (okuma çerçevesi; DMD/BMD) | 2, 14 |
 | 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR alelik heterojenite) | 2, 15 |
@@ -73,29 +74,29 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 20976243 | Huang ve ark. (2010) | PLoS Genet | 10.1371/journal.pgen.1001154 | Metodoloji (HI gen özellikleri/öngörüsü; HI-indeksi) | 3 |
 | 22908297 | Birchler &amp; Veitia (2012) | PNAS | 10.1073/pnas.1207726109 | Kuram (gen dengesi hipotezi; dozaj duyarlılığının biyolojik disiplinler arası temeli) | 3 |
 | 35917817 | Collins ve ark. (2022) | Cell | 10.1016/j.cell.2022.06.036 | Metodoloji (dozaj duyarlılığı haritası; pHaplo/pTriplo) | 3, 8 |
-| 31690835 | Riggs ve ark. (2020) | Genet Med | 10.1038/s41436-019-0686-8 | Guideline (ACMG/ClinGen CNV/dozaj puanlama) | 3, 8, 16, 17 |
+| 31690835 | Riggs ve ark. (2020) | Genet Med | 10.1038/s41436-019-0686-8 | Guideline (ACMG/ClinGen CNV/dozaj puanlama) | 3, 8, 17, 18 |
 | 31861090 | Lima Cunha ve ark. (2019) | Genes (Basel) | 10.3390/genes10121050 | Klinik örnek (PAX6 HI; aniridi; WAGR) | 3, 14 |
 | 8182727 | Wilkie (1994) | J Med Genet | 10.1136/jmg.31.2.89 | Landmark/kavramsal (dominant varyant mekanizmaları sınıflaması; GoF tipleri; Muller serisi) | 4, 5, 6, 14 |
 | 8754806 | Webster & Donoghue (1996) | Mol Cell Biol | 10.1128/MCB.16.8.4081 | Mekanizma landmark (FGFR3 konstitütif aktivasyon; ~100 kat) | 4, 14 |
-| 9174404 | Edery ve ark. (1997) | BioEssays | 10.1002/bies.950190506 | Mekanizma/klinik (RET'in iki yüzü: GoF/MEN2 vs LoF/Hirschsprung) | 4, 14 |
+| 9174404 | Edery ve ark. (1997) | BioEssays | 10.1002/bies.950190506 | Mekanizma/klinik (RET'in iki yüzü: GoF/MEN2 vs LoF/Hirschsprung) | 4, 14, 16 |
 | 11704759 | Tartaglia ve ark. (2001) | Nat Genet | 10.1038/ng772 | Klinik/mekanizma (PTPN11/SHP-2 GoF; Noonan; hotspot arayüz) | 4 |
-| 29844171 | Berecki ve ark. (2018) | PNAS | 10.1073/pnas.1800077115 | Mekanizma/klinik (SCN2A GoF vs LoF elektrofizyolojik ayrım; başlangıç yaşı/nöbet tipi. ⚠️ OSB/EY iddiası için kullanılamaz) | 4, 14, 16, 17 |
+| 29844171 | Berecki ve ark. (2018) | PNAS | 10.1073/pnas.1800077115 | Mekanizma/klinik (SCN2A GoF vs LoF elektrofizyolojik ayrım; başlangıç yaşı/nöbet tipi. ⚠️ OSB/EY iddiası için kullanılamaz) | 4, 14, 17, 18 |
 | 29691040 | Sanders ve ark. (2018) | Trends Neurosci | 10.1016/j.tins.2018.03.011 | Review (SCN2A LoF → OSB/entelektüel yetersizlik) | 4, 14 |
-| 32090326 | Brunklaus ve ark. (2020) | Epilepsia | 10.1111/epi.16438 | Klinik (Na-kanal GoF→erken başlangıç + SCB yanıtı; yön-tedavi) | 4, 14, 16, 17 |
+| 32090326 | Brunklaus ve ark. (2020) | Epilepsia | 10.1111/epi.16438 | Klinik (Na-kanal GoF→erken başlangıç + SCB yanıtı; yön-tedavi) | 4, 14, 17, 18 |
 | 25491639 | Canalis &amp; Zanotti (2014) | Orphanet J Rare Dis | 10.1186/s13023-014-0200-y | Klinik/mekanizma (Hajdu-Cheney; NOTCH2 ekzon 34 kesilmesi → PEST kaybı → kararlı protein → GoF) | 4 |
 | 23389697 | Zhao ve ark. (2013) | Osteoporos Int | 10.1007/s00198-013-2298-5 | Klinik (dokuz HCS hastasında son NOTCH2 ekzonunda kesici varyant; aktive edici mekanizma) | 4 |
-| 31892348 | Brnich ve ark. (2019) | Genome Med | 10.1186/s13073-019-0690-2 | Guideline (PS3/BS3 fonksiyonel kanıt; "mekanizmayı tanımla") | 4, 11, 13, 16 |
+| 31892348 | Brnich ve ark. (2019) | Genome Med | 10.1186/s13073-019-0690-2 | Guideline (PS3/BS3 fonksiyonel kanıt; "mekanizmayı tanımla") | 4, 11, 13, 17 |
 | 2442619 | Herskowitz (1987) | Nature | 10.1038/329219a0 | Landmark kavram (dominant-negatif tanımı; mutant ürün yabanıl-tipi bozar) | 5, 6 |
 | 11001814 | Forlino &amp; Marini (2000) | Mol Genet Metab | 10.1006/mgme.2000.3039 | Klinik/mekanizma (OI = DN hastalığı; null→hafif tip I vs glisin→ağır) | 5, 14 |
-| 35794153 | Gerasimavicius ve ark. (2022) | Nat Commun | 10.1038/s41467-022-31686-6 | Metodoloji (DN/GoF/neomorf arayüz/3B kümelenme; tahmin araçları zayıf) | 5, 6, 16 |
+| 35794153 | Gerasimavicius ve ark. (2022) | Nat Commun | 10.1038/s41467-022-31686-6 | Metodoloji (DN/GoF/neomorf arayüz/3B kümelenme; tahmin araçları zayıf) | 5, 6, 17 |
 | 40704418 | Kamada ve ark. (2025) | Chembiochem | 10.1002/cbic.202500330 | Klinik/mekanizma (TP53 tetramer DN; hetero-tetramer işlev kaybı) | 5 |
 | 19935646 | Dang ve ark. (2009) | Nature | 10.1038/nature08617 | Landmark neomorf (IDH1 R132 → 2-HG onkometaboliti) | 6 |
 | 23539183 | Lewis ve ark. (2013) | Science | 10.1126/science.1232245 | Mekanizma/klinik (H3 K27M onkohiston; PRC2/EZH2 inhibisyonu; DIPG) | 6 |
 | 22057236 | Amary ve ark. (2011) | Nat Genet | 10.1038/ng.994 | Klinik (Ollier/Maffucci = mozaik IDH1/IDH2; neomorf–mozaiklik) | 6, 12 |
 | 26593421 | Scotti &amp; Swanson (2016) | Nat Rev Genet | 10.1038/nrg.2015.3 | Landmark review (splicing mekanizması; mis-splicing hastalıkları) | 7 |
-| 30661751 | Jaganathan ve ark. (2019) | Cell | 10.1016/j.cell.2018.12.015 | Metodoloji (SpliceAI; sessiz/derin intronik kriptik splice; ~%9–11) | 7, 13, 16 |
-| 37352859 | Walker ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.06.002 | Guideline (ClinGen SVI splice; PVS1/PS3/PP3/BP4/BP7/PS1) | 7, 13, 16, 17 |
-| 10339583 | Lorson ve ark. (1999) | PNAS | 10.1073/pnas.96.11.6307 | Landmark/klinik (SMN2 ekzon 7 sessiz C>T → ESE → SMA) | 7, 17 |
+| 30661751 | Jaganathan ve ark. (2019) | Cell | 10.1016/j.cell.2018.12.015 | Metodoloji (SpliceAI; sessiz/derin intronik kriptik splice; ~%9–11) | 7, 13, 17 |
+| 37352859 | Walker ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.06.002 | Guideline (ClinGen SVI splice; PVS1/PS3/PP3/BP4/BP7/PS1) | 7, 13, 17, 18 |
+| 10339583 | Lorson ve ark. (1999) | PNAS | 10.1073/pnas.96.11.6307 | Landmark/klinik (SMN2 ekzon 7 sessiz C>T → ESE → SMA) | 7, 18 |
 | 25985139 | Ottolini ve ark. (2015) | Nat Genet | 10.1038/ng.3306 | İnsan oosit/embriyosu (rekombinasyon, predivision, reverse segregation) | 8 |
 | 26130582 | Sakakibara ve ark. (2015) | Nat Commun | 10.1038/ncomms8550 | Mekanizma (bivalentlerin univalentlere erken ayrılması; tür sınırıyla) | 8 |
 | 28287092 | Lagirand-Cantaloube ve ark. (2017) | Sci Rep | 10.1038/srep44001 | İnsan oositi (sentromer kohezyonu ve SAC proteinleri) | 8 |
@@ -111,7 +112,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 27841880 | Redin ve ark. (2017) | Nat Genet | 10.1038/ng.3720 | Fenotipli görünürde dengeli düzenlenmelerde WGS | 8 |
 | 27745839 | Ordulu ve ark. (2016) | Am J Hum Genet | 10.1016/j.ajhg.2016.08.022 | Prenatal yapısal düzenlenmelerde nükleotid çözünürlüğü | 8 |
 | 25959774 | Lupiáñez ve ark. (2015) | Cell | 10.1016/j.cell.2015.04.004 | Mekanizma (TAD bozulması/pozisyon etkisi; enhancer hijacking) | 8, 13 |
-| 20466091 | Miller ve ark. (2010) | Am J Hum Genet | 10.1016/j.ajhg.2010.04.006 | Guideline (CMA birinci-basamak test; getiri %15–20) | 8, 17 |
+| 20466091 | Miller ve ark. (2010) | Am J Hum Genet | 10.1016/j.ajhg.2010.04.006 | Guideline (CMA birinci-basamak test; getiri %15–20) | 8, 18 |
 | 12060695 | Schouten ve ark. (2002) | Nucleic Acids Res | 10.1093/nar/gnf056 | MLPA'nın hedef-prob temelli göreli doz yöntemi | 8 |
 | 36828597 | Iqbal ve ark. (2023) | J Mol Diagn | 10.1016/j.jmoldx.2022.12.005 | OGM çok merkezli validasyonu ve dışlama sınırları | 8 |
 | 36571718 | Trunca ve ark. (2022) | Curr Protoc | 10.1002/cpz1.633 | Dengeli translokasyon taşıyıcısında düzenlenmeye özgü risk değişkenleri | 8 |
@@ -120,7 +121,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 32387503 | Liu ve ark. (2020) | Genomics | 10.1016/j.ygeno.2020.05.003 | Düşük düzey parental CNV mozaikliği ve dokular arası fark | 8 |
 | 31475484 | Rahman ve ark. (2019) | Mol Genet Genomic Med | 10.1002/mgg3.954 | Normal parental kanlı kardeş olgusu; gonadal mozaiklik kesinleştirilmemiştir | 8 |
 | 835578 | Hook EB (1977) | Am J Hum Genet | *(DOI yok; PMC1685228)* | Metodoloji (mozaikliğin dışlanmasında hücre sayısı–güven düzeyi tabloları; 30 hücre→%10, 60 hücre→%5, %95 güven) | 8, 12 |
-| 29325606 | Paulson H. (2018) | Handb Clin Neurol | 10.1016/B978-0-444-63233-3.00009-9 | Landmark review (tüm tekrar genişlemesi hastalıkları; mekanizma sınıflaması; anticipasyon) | 9, 17 |
+| 29325606 | Paulson H. (2018) | Handb Clin Neurol | 10.1016/B978-0-444-63233-3.00009-9 | Landmark review (tüm tekrar genişlemesi hastalıkları; mekanizma sınıflaması; anticipasyon) | 9, 18 |
 | 21163446 | Ross &amp; Tabrizi (2011) | Lancet Neurol | 10.1016/S1474-4422(10)70245-3 | HD landmark klinik/mekanistik; polyQ agregasyonu; striatal patoloji | 9 |
 | 27940602 | Jimenez-Sanchez ve ark. (2017) | Cold Spring Harb Perspect Med | 10.1101/cshperspect.a024240 | HD mekanizma derinleme; otofaji/mitokondri/BDNF yolağı | 9 |
 | 9211186 | Hoogeveen &amp; Oostra (1997) | J Inherit Metab Dis | 10.1023/a:1005392319533 | Frajil X landmark; FMR1 CGG metilasyonu; FMRP kaybı; LoF mekanizması | 9 |
@@ -136,15 +137,15 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 11253064 | Reik &amp; Walter (2001) | Nat Rev Genet | 10.1038/35047554 | Landmark (genomik imprinting; epigenetik işaret; ebeveyn-çatışması; büyüme geni asimetrisi) | 10 |
 | 22237428 | Cassidy ve ark. (2012) | Genet Med | 10.1038/gim.0b013e31822bead0 | Klinik/mekanizma (PWS alt-tip sıklıkları; metilasyon >%99; SNORD116) | 10 |
 | 17347796 | Lalande &amp; Calciano (2007) | Cell Mol Life Sci | 10.1007/s00018-007-6460-0 | Mekanizma (UBE3A maternal ifade; antisens susturma; AS alt-tipleri) | 10 |
-| 29377879 | Brioude ve ark. (2018) | Nat Rev Endocrinol | 10.1038/nrendo.2017.166 | Guideline (BWS 11p15.5 alt-tipleri; tümör riski; alt-tipe göre tarama) | 10, 17 |
+| 29377879 | Brioude ve ark. (2018) | Nat Rev Endocrinol | 10.1038/nrendo.2017.166 | Guideline (BWS 11p15.5 alt-tipleri; tümör riski; alt-tipe göre tarama) | 10, 18 |
 | 27585961 | Wakeling ve ark. (2017) | Nat Rev Endocrinol | 10.1038/nrendo.2016.138 | Guideline (SRS tanı/yönetim; ICR1 hipometilasyon; matUPD7) | 10 |
 | 11483637 | Kotzot (2001) | J Med Genet | 10.1136/jmg.38.8.497 | Metodoloji (UPD oluşum mekanizmaları; izo/heterodizomi) | 10 |
 | 10818216 | Mergenthaler ve ark. (2000) | Ann Genet | 10.1016/s0003-3995(00)00010-1 | Mekanizma (trizomi kurtarma; UPD7 izo vs heterodizomi oranları) | 10 |
 | 33920525 | Eggermann ve ark. (2021) | Genes (Basel) | 10.3390/genes12040585 | Metodoloji/review (imprintli gen ağı; MLID; büyüme fenotipleri) | 10 |
 | 36377076 | Eggermann &amp; Prawitt (2022) | Expert Rev Endocrinol Metab | 10.1080/17446651.2022.2144228 | Klinik/mekanizma (BWS paternal UPD11; tümör riski; tanısal izlem) | 10 |
-| 27775730 | Gorman ve ark. (2016) | Nat Rev Dis Primers | 10.1038/nrdp.2016.80 | Landmark review (mitokondriyal hastalıklar; çift genom; heteroplazmi; tanı ve üreme) | 11, 17 |
-| 26281784 | Stewart &amp; Chinnery (2015) | Nat Rev Genet | 10.1038/nrg3966 | Landmark mekanizma (heteroplazmi dinamiği; eşik; germline darboğaz; mitotik segregasyon) | 11, 17 |
-| 32906214 | McCormick ve ark. (2020) | Hum Mutat | 10.1002/humu.24107 | Guideline (ClinGen mtDNA-özgü ACMG/AMP spesifikasyonu; haplogrup/heteroplazmi/PS3 tek-lif) | 11, 16 |
+| 27775730 | Gorman ve ark. (2016) | Nat Rev Dis Primers | 10.1038/nrdp.2016.80 | Landmark review (mitokondriyal hastalıklar; çift genom; heteroplazmi; tanı ve üreme) | 11, 18 |
+| 26281784 | Stewart &amp; Chinnery (2015) | Nat Rev Genet | 10.1038/nrg3966 | Landmark mekanizma (heteroplazmi dinamiği; eşik; germline darboğaz; mitotik segregasyon) | 11, 18 |
+| 32906214 | McCormick ve ark. (2020) | Hum Mutat | 10.1002/humu.24107 | Guideline (ClinGen mtDNA-özgü ACMG/AMP spesifikasyonu; haplogrup/heteroplazmi/PS3 tek-lif) | 11, 17 |
 | 25503498 | Parikh ve ark. (2015) | Genet Med | 10.1038/gim.2014.177 | Guideline (Mitochondrial Medicine Society; tanı/yönetim; doku seçimi; kas biyopsisinin yeri) | 11 |
 | 26506407 | Lake ve ark. (2016) | Ann Neurol | 10.1002/ana.24551 | Klinik örnek (Leigh sendromu; 75'ten fazla monogenik neden; lokus heterojenitesi) | 11 |
 | 2102678 | Goto, Nonaka, Horai (1990) | Nature | 10.1038/348651a0 | Landmark (m.3243A>G / MT-TL1 tRNA varyantı → MELAS) | 11 |
@@ -154,14 +155,14 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 29950321 | Almannai, El-Hattab, Scaglia (2018) | Essays Biochem | 10.1042/EBC20170101 | Mekanizma (mtDNA replikasyonunun nükleer denetimi; deplesyon/çoklu delesyon) | 11 |
 | 25652200 | Gorman ve ark. (2015) | Ann Neurol | 10.1002/ana.24362 | Epidemiyoloji (erişkin mitokondriyal hastalık prevalansı; nükleer vs mtDNA payı) | 11 |
 | 28651360 | Craven ve ark. (2017) | Hum Reprod Update | 10.1093/humupd/dmx018 | Klinik yönetim (PGT, oosit donasyonu, mitokondri donasyonu; sınırlılıklar) | 11 |
-| 23594909 | Biesecker &amp; Spinner (2013) | Nat Rev Genet | 10.1038/nrg3424 | Landmark review (mozaikliğin klinik/moleküler sınıfları; saptama; yaygınlık) | 12, 17 |
+| 23594909 | Biesecker &amp; Spinner (2013) | Nat Rev Genet | 10.1038/nrg3424 | Landmark review (mozaikliğin klinik/moleküler sınıfları; saptama; yaygınlık) | 12, 18 |
 | 3033033 | Happle (1987) | J Am Acad Dermatol | 10.1016/s0190-9622(87)80249-9 | Landmark kavram (letal-mozaik hipotezi; sporadik segmental sendromlar) | 12 |
 | 3720010 | Happle (1986) | Clin Genet | 10.1111/j.1399-0004.1986.tb01261.x | Landmark (MAS pigmentasyonu Blaschko çizgilerinde; mozaiklik hipotezi) | 12 |
 | 1944469 | Weinstein ve ark. (1991) | N Engl J Med | 10.1056/NEJM199112123252403 | Landmark moleküler doğrulama (GNAS p.Arg201His/Cys; dokular arası değişen yük) | 12, 14 |
 | 21793738 | Lindhurst ve ark. (2011) | N Engl J Med | 10.1056/NEJMoa1104017 | Klinik/mekanizma (Proteus; AKT1 p.Glu17Lys; VAF %1–~50) | 12 |
 | 23656586 | Shirley ve ark. (2013) | N Engl J Med | 10.1056/NEJMoa1213507 | Klinik/mekanizma (Sturge-Weber ve porto-şarabı lekesi; GNAQ p.Arg183Gln; VAF %1–18,1) | 12 |
-| 25557259 | Keppler-Noreuil ve ark. (2015) | Am J Med Genet A | 10.1002/ajmg.a.36836 | Uzlaşı/guideline (PROS şemsiye terimi; tanı ve test uygunluk ölçütleri) | 12, 17 |
-| 25087610 | Campbell ve ark. (2014) | Am J Hum Genet | 10.1016/j.ajhg.2014.07.003 | Metodoloji/danışmanlık (ebeveyn somatik mozaikliği; "de novo" sınırları; tekrar riski; 100 ailede 4 ebeveynde kanda mozaiklik) | 1, 8, 12, 16, 17 |
+| 25557259 | Keppler-Noreuil ve ark. (2015) | Am J Med Genet A | 10.1002/ajmg.a.36836 | Uzlaşı/guideline (PROS şemsiye terimi; tanı ve test uygunluk ölçütleri) | 12, 18 |
+| 25087610 | Campbell ve ark. (2014) | Am J Hum Genet | 10.1016/j.ajhg.2014.07.003 | Metodoloji/danışmanlık (ebeveyn somatik mozaikliği; "de novo" sınırları; tekrar riski; 100 ailede 4 ebeveynde kanda mozaiklik) | 1, 8, 12, 17, 18 |
 | 35163267 | Lee ve ark. (2022) | Int J Mol Sci | 10.3390/ijms23031344 | Mekanizma/klinik (FCD tip II; beyne sınırlı mozaiklik; germline+somatik iki vuruş) | 12 |
 | 23619277 | Pritchard ve ark. (2013) | Genet Med | 10.1038/gim.2013.51 | Metodoloji (Sanger'ın saptama sınırı; %1,7 VAF'lı PTEN mozaikliği yalnız derin dizilemeyle bulundu) | 12 |
 | 30569724 | Urbanova ve ark. (2018) | Neoplasma | 10.4149/neo_2018_180731N559 | Metodoloji (analiz hattı eşiği: ≥%20 okuma süzgeci %17'lik APC mozaikliğini atladı) | 12 |
@@ -178,7 +179,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 9038345 | Jonkman ve ark. (1997) | Cell | 10.1016/s0092-8674(00)81894-2 | Landmark (insanda revertant mozaikliğin ilk moleküler gösterimi; COL17A1 mitotik gen dönüşümü) | 12 |
 | 16252234 | Pasmooij ve ark. (2005) | Am J Hum Genet | 10.1086/497344 | Mekanizma (aynı hastada çoklu bağımsız kurtarma olayları: geri mutasyon, ikinci bölge varyantı, gen dönüşümü) | 12 |
 | 31186537 | Revy, Kannengiesser, Fischer (2019) | Nat Rev Genet | 10.1038/s41576-019-0139-x | Kavram (somatik genetik kurtarma; revertant mozaiklikten farkı; fenotipi hafifletme ve sınırları) | 12 |
-| 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13, 16 |
+| 35850704 | Ellingford ve ark. (2022) | Genome Med | 10.1186/s13073-022-01073-3 | Guideline (kodlamayan varyant yorumlama; element tanımı; ACMG uyarlaması) | 13, 17 |
 | 32461616 | Whiffin ve ark. (2020) | Nat Commun | 10.1038/s41467-019-10717-9 | Mekanizma/metodoloji (5′UTR uORF varyantları; negatif seçilim; NF2) | 13 |
 | 12837695 | Lettice ve ark. (2003) | Hum Mol Genet | 10.1093/hmg/ddg180 | Landmark (ZRS enhancer; 1 Mb uzaktan düzenleme; ektopik SHH → polidaktili) | 13 |
 | 40015278 | Chakraborty ve ark. (2025) | Dev Cell | 10.1016/j.devcel.2025.02.002 | Mekanizma (tek CTCF motifi kaybı sınır delesyonuyla aynı fenotipi verir; motif yönü belirleyici; her motif değil) | 13 |
@@ -189,12 +190,12 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 23785127 | Schäffer (2013) | J Med Genet | 10.1136/jmedgenet-2013-101713 | Ana çerçeve/review (digenik kalıtım; kanıt türleri; PPI ve aday gen bilgisinin rolü) | 15 |
 | 8202715 | Kajiwara, Berson, Dryja (1994) | Science | 10.1126/science.8202715 | Landmark (digenik retinitis pigmentosa; RDS + ROM1 çift heterozigot) | 15 |
 | 11567139 | Katsanis ve ark. (2001) | Science | 10.1126/science.1063525 | Landmark (Bardet-Biedl trialelik kalıtım; kalıtım modelinin sorgulanması) | 15 |
-| 29433793 | Calucho ve ark. (2018) | Neuromuscul Disord | 10.1016/j.nmd.2018.01.003 | Klinik/modifier (SMN2 kopya sayısı → SMA tipi; 3.459 hasta derlemesi) | 15, 17 |
+| 29433793 | Calucho ve ark. (2018) | Neuromuscul Disord | 10.1016/j.nmd.2018.01.003 | Klinik/modifier (SMN2 kopya sayısı → SMA tipi; 3.459 hasta derlemesi) | 15, 18 |
 | 26417704 | Corvol ve ark. (2015) | Nat Commun | 10.1038/ncomms9382 | Klinik/modifier (KF akciğer ağırlığı; GWAS meta-analizi; 5 modifiye edici lokus) | 15 |
 | 15829955 | Emison ve ark. (2005) | Nature | 10.1038/nature03467 | Mekanizma/klinik (RET intron 1 enhancer; kodlamayan modifier; düşük penetrans) | 13, 15 |
 | 37165203 | Li ve ark. (2023) | Rev Endocr Metab Disord | 10.1007/s11154-023-09809-1 | Klinik/kavramsal (monogenik diyabette eksik penetrans; modifiye ediciler; koruyucu varyant) | 15 |
-| 35754516 | Thaxton ve ark. (2022) | Cell Genom | 10.1016/j.xgen.2022.100131 | Guideline (ClinGen ön-küreleme; hastalık varlığının tanımı; birleştirme/ayırma ölçütleri) | 14, 16 |
-| 28552198 | Strande ve ark. (2017) | Am J Hum Genet | 10.1016/j.ajhg.2017.04.015 | Guideline/metodoloji (ClinGen gen–hastalık geçerliliği; Kesin→Çelişkili sınıfları) | 14, 16 |
+| 35754516 | Thaxton ve ark. (2022) | Cell Genom | 10.1016/j.xgen.2022.100131 | Guideline (ClinGen ön-küreleme; hastalık varlığının tanımı; birleştirme/ayırma ölçütleri) | 14, 17 |
+| 28552198 | Strande ve ark. (2017) | Am J Hum Genet | 10.1016/j.ajhg.2017.04.015 | Guideline/metodoloji (ClinGen gen–hastalık geçerliliği; Kesin→Çelişkili sınıfları) | 14, 17 |
 | 17033969 | Toydemir ve ark. (2006) | Am J Hum Genet | 10.1086/508433 | Landmark (FGFR3 kısmi LoF → CATSHL; uzun boy; Fgfr3 nakavt faresiyle örtüşme) | 14 |
 | 12714972 | Eriksson ve ark. (2003) | Nature | 10.1038/nature01629 | Landmark (HGPS; LMNA ekzon 11 G608G; kriptik splice; 50 aa delesyonu → progerin) | 14 |
 | 21953297 | Worman (2012) | J Pathol | 10.1002/path.2999 | Review (laminler her hücrede ifade; hastalıkların doku-seçiciliği açıklanmamış) | 14 |
@@ -210,25 +211,47 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 10053006 | Tavormina ve ark. (1999) | Am J Hum Genet | 10.1086/302275 | Landmark (SADDAN ↔ p.Lys650Met; c.1949A&gt;T vs c.1948A&gt;G ayrımı) | 14 |
 | 33767344 | Johnston ve ark. (2021) | Genet Med | 10.1038/s41436-021-01125-w | Guideline/VCEP (RYR1-MH; PM1 hotspot ölçütünün nicel kalibrasyonu, OR 24:1, orta güç) | 14 |
 | 17078022 | Marini ve ark. (2007) | Hum Mutat | 10.1002/humu.20429 | Metodoloji/klinik (832 tip I kollajen varyantı; letal bölge haritası; MLBR hizalanması) | 14 |
+| 16380907 | Snoeckx ve ark. (2005) | Am J Hum Genet | 10.1086/497996 | Klinik seri (GJB2; 1.531 bialelik olgu; truncating/non-truncating genotip sınıfları ve işitme kaybı ağırlığı) | 14 |
+| 21040787 | Zhang, Scherer &amp; Yum (2011) | Mol Cell Neurosci | 10.1016/j.mcn.2010.10.002 | Birincil işlevsel çalışma (dokuz dominant Cx26 mutantının yabanıl tip Cx26 üzerinde dominant-negatif etkisi) | 14 |
+| 31160754 | Shen ve ark. (2019) | Genet Med | 10.1038/s41436-019-0535-9 | Uzman-panel uzlaşısı (GJB2 p.Met34Thr/p.Val37Ile; AR nonsendromik işitme kaybı, değişken ekspresivite ve eksik penetrans) | 14 |
 | 21221114 | Kaler (2011) | Nat Rev Neurol | 10.1038/nrneurol.2010.180 | Review (ATP7A serisi: Menkes ↔ oksipital boynuz ↔ izole distal motor nöropati) | 14 |
 | 29959430 | Mantovani ve ark. (2018) | Nat Rev Endocrinol | 10.1038/s41574-018-0042-0 | Guideline (PHP ve ilişkili bozukluklar; tipler arası örtüşme; moleküler doğrulama) | 14 |
-| 29300386 | Tavtigian ve ark. (2018) | Genet Med | 10.1038/gim.2017.210 | Metodoloji (ACMG/AMP'nin Bayes çerçevesi; olasılık oranları; 18 kombinasyonun sınanması) | 16 |
-| 32720330 | Tavtigian ve ark. (2020) | Hum Mutat | 10.1002/humu.24088 | Metodoloji (doğal ölçekli puan sistemi; toplanabilir kanıt ağırlıkları) | 16 |
-| 36413997 | Pejaver ve ark. (2022) | Am J Hum Genet | 10.1016/j.ajhg.2022.10.013 | Guideline (PP3/BP4 kalibrasyonu; 13 aracın eşikleri; "çoklu araç uzlaşması" eleştirisi) | 16 |
-| 28518168 | Whiffin ve ark. (2017) | Genet Med | 10.1038/gim.2017.26 | Metodoloji (hastalığa özgü frekans eşiği; prevalans/penetrans/heterojenite) | 16 |
-| 27236918 | Jarvik &amp; Browning (2016) | Am J Hum Genet | 10.1016/j.ajhg.2016.04.003 | Guideline (segregasyonun nicel ölçütleri; PP1/BS4) | 16 |
-| 31862013 | Gelman ve ark. (2019) | Genome Med | 10.1186/s13073-019-0698-7 | Guideline (çoklu-varyant fonksiyonel verinin üretimi ve ACMG'ye dâhil edilmesi) | 16 |
-| 37146589 | Lo ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.03.019 | Klinik/metodoloji (OTC MAVE; 1.570 varyant; PS3 ile 22 VUS→LP) | 16 |
-| 26014595 | Rehm ve ark. (2015) | N Engl J Med | 10.1056/NEJMsr1406261 | Çerçeve (ClinGen; yeniden sınıflandırmanın klinik sonuçları; veri paylaşımı) | 16 |
-| 30002876 | Clark ve ark. (2018) | NPJ Genom Med | 10.1038/s41525-018-0053-8 | Metodoloji (WGS/WES/CMA tanısal getiri meta-analizi; trio OR 2,04) | 17 |
-| 29323667 | Wright ve ark. (2018) | Genet Med | 10.1038/gim.2017.246 | Metodoloji (DDD yeniden analiz; %27 → %40 tanı oranı) | 17 |
-| 34758253 | Smedley ve ark. (2021) | N Engl J Med | 10.1056/NEJMoa2035790 | Klinik (100.000 Genom pilotu; %25 tanı; kodlamayan/SV/mito payı) | 17 |
-| 33264411 | Köhler ve ark. (2021) | Nucleic Acids Res | 10.1093/nar/gkaa1043 | Metodoloji (HPO; derin fenotipleme standardı) | 17 |
-| 28424332 | Cummings ve ark. (2017) | Sci Transl Med | 10.1126/scitranslmed.aal5209 | Klinik/metodoloji (kas RNA-seq; %35 tanı; derin intronik splice) | 17 |
-| 41084864 | Hayeems ve ark. (2025) | Genet Med | 10.1016/j.gim.2025.101605 | Randomize (ES %33,8 vs GS %33,6; n=1.048) — "GS her zaman daha çok tanı koyar" beklentisinin düzeltilmesi | 17 |
-| 40963120 | Kaschta ve ark. (2025) | Genome Med | 10.1186/s13073-025-01516-7 | Prospektif (standart bakım/tek birey GS/trio GS; trio'nun katkısı deneyimi az ekipte belirgin) | 17 |
-| 34791078 | Hiz Kurul ve ark. (2022) | Brain | 10.1093/brain/awab395 | Türkiye akraba kohortu (%72→%86; %82 homozigot; panelin kaçıracağı %52; en yüksek akrabalıkta getiri düşüyor) | 17 |
-| 34211152 | Manickam ve ark. (2021) | Genet Med | 10.1038/s41436-021-01242-6 | Guideline (ACMG: CA/DD/ID'de ES/GS birinci ya da ikinci basamak) | 17 |
+| 5279523 | Knudson (1971) | Proc Natl Acad Sci U S A | 10.1073/pnas.68.4.820 | Landmark (retinoblastomada iki-vuruş modelini kuran 48 olguluk istatistiksel çalışma) | 16 |
+| 21150892 | Lohmann ve ark. (2011) | Eur J Hum Genet | 10.1038/ejhg.2010.200 | Klinik kullanım kartı (RB1; tümör–kan test sırası, dizi/doz/LOH/metilasyon ve mozaiklik) | 16 |
+| 20420947 | Boland &amp; Goel (2010) | Gastroenterology | 10.1053/j.gastro.2009.12.064 | Review/mekanizma (MMR kaybı, MSI ve sporadik–kalıtsal yolların ayrımı) | 16 |
+| 31780574 | Monahan ve ark. (2020) | Gut | 10.1136/gutjnl-2019-319915 | Guideline (kalıtsal kolorektal kanser; tümör taraması, germline analiz ve yönetim sınırı) | 16 |
+| 16461775 | Sieber ve ark. (2006) | Gut | 10.1136/gut.2005.087106 | Mekanizma/klinik (APC ikinci/üçüncü olayları ve optimal artık işlev modeli) | 16 |
+| 27494029 | Giannikou ve ark. (2016) | PLoS Genet | 10.1371/journal.pgen.1006242 | Mekanizma (TSC1/TSC2 bialelik kayıp, kopya-nötr LOH ve bağımsız klonal olaylar) | 16 |
+| 21031597 | Garcia-Linares ve ark. (2011) | Hum Mutat | 10.1002/humu.21387 | Mekanizma (NF1 nörofibromlarında delesyon ve kopya-nötr LOH ayrımı) | 16 |
+| 18984156 | Yang ve ark. (2008) | Cell | 10.1016/j.cell.2008.08.041 | Deneysel mekanizma (Nf1 bialelik kayıp ile heterozigot mikroçevrenin ayrımı) | 16 |
+| 31395785 | Boettcher ve ark. (2019) | Science | 10.1126/science.aax3649 | Deneysel mekanizma (TP53 missense dominant-negatif etki; LOH zorunlu değildir) | 16 |
+| 33300245 | Fortuno ve ark. (2021) | Hum Mutat | 10.1002/humu.24152 | Uzman-panel kılavuzu (ClinGen TP53 VCEP germline ACMG/AMP spesifikasyonu) | 16 |
+| 29189820 | Weitzel ve ark. (2018) | Genet Med | 10.1038/gim.2017.196 | Klinik/metodoloji (kanda düşük VAF TP53; klonal hematopoez–konstitüsyonel mozaiklik ayrımı) | 16 |
+| 26925222 | Brenneman ve ark. (2015) | F1000Res | 10.12688/f1000research.6746.2 | Mekanizma (DICER1 LoF + RNase IIIb hotspot ve olay sırasına bağlı fenotip) | 16 |
+| 29343557 | Schultz ve ark. (2018) | Clin Cancer Res | 10.1158/1078-0432.CCR-17-3089 | Klinik kılavuz (DICER1 spektrumu, mozaiklik ve germline–tümör eşlenik test) | 16 |
+| 38084291 | Hatton ve ark. (2023) | Hum Mutat | 10.1155/2023/9537832 | Uzman-panel kılavuzu (ClinGen DICER1 VCEP; gene özgü varyant sınıflandırması) | 16 |
+| 27993330 | Li ve ark. (2017) | J Mol Diagn | 10.1016/j.jmoldx.2016.10.002 | Konsensüs (somatik varyant yorumlama/raporlama; tümör-only VAF sınırı) | 16 |
+| 31050713 | Mandelker ve ark. (2019) | Ann Oncol | 10.1093/annonc/mdz136 | Öneri (tümör-only dizilemede olası germline bulgunun doğrulanması ve yönlendirme) | 16 |
+| 30929737 | Aref-Eshghi ve ark. (2019) | Am J Hum Genet | 10.1016/j.ajhg.2019.03.008 | Klinik/metodoloji (genom çapında metilasyon testi; episignature/epivaryant ve doku sınırı) | 16 |
+| 38510277 | Olivucci ve ark. (2024) | Front Genet | 10.3389/fgene.2024.1374860 | Review/metodoloji (long-read dizileme; SV, faz, zor bölgeler, metilasyon ve klinik uygulama sınırları) | 16 |
+| 21949787 | Qin ve ark. (2011) | PLoS ONE | 10.1371/journal.pone.0024919 | Mekanizma (anjiyomiyolipomlarda TSC2 varyantları, LOH ve diğer yaygın genomik olayların taranması) | 16 |
+| 29300386 | Tavtigian ve ark. (2018) | Genet Med | 10.1038/gim.2017.210 | Metodoloji (ACMG/AMP'nin Bayes çerçevesi; olasılık oranları; 18 kombinasyonun sınanması) | 17 |
+| 32720330 | Tavtigian ve ark. (2020) | Hum Mutat | 10.1002/humu.24088 | Metodoloji (doğal ölçekli puan sistemi; toplanabilir kanıt ağırlıkları) | 17 |
+| 36413997 | Pejaver ve ark. (2022) | Am J Hum Genet | 10.1016/j.ajhg.2022.10.013 | Guideline (PP3/BP4 kalibrasyonu; 13 aracın eşikleri; "çoklu araç uzlaşması" eleştirisi) | 17 |
+| 28518168 | Whiffin ve ark. (2017) | Genet Med | 10.1038/gim.2017.26 | Metodoloji (hastalığa özgü frekans eşiği; prevalans/penetrans/heterojenite) | 17 |
+| 27236918 | Jarvik &amp; Browning (2016) | Am J Hum Genet | 10.1016/j.ajhg.2016.04.003 | Guideline (segregasyonun nicel ölçütleri; PP1/BS4) | 17 |
+| 31862013 | Gelman ve ark. (2019) | Genome Med | 10.1186/s13073-019-0698-7 | Guideline (çoklu-varyant fonksiyonel verinin üretimi ve ACMG'ye dâhil edilmesi) | 17 |
+| 37146589 | Lo ve ark. (2023) | Am J Hum Genet | 10.1016/j.ajhg.2023.03.019 | Klinik/metodoloji (OTC MAVE; 1.570 varyant; PS3 ile 22 VUS→LP) | 17 |
+| 26014595 | Rehm ve ark. (2015) | N Engl J Med | 10.1056/NEJMsr1406261 | Çerçeve (ClinGen; yeniden sınıflandırmanın klinik sonuçları; veri paylaşımı) | 17 |
+| 30002876 | Clark ve ark. (2018) | NPJ Genom Med | 10.1038/s41525-018-0053-8 | Metodoloji (WGS/WES/CMA tanısal getiri meta-analizi; trio OR 2,04) | 18 |
+| 29323667 | Wright ve ark. (2018) | Genet Med | 10.1038/gim.2017.246 | Metodoloji (DDD yeniden analiz; %27 → %40 tanı oranı) | 18 |
+| 34758253 | Smedley ve ark. (2021) | N Engl J Med | 10.1056/NEJMoa2035790 | Klinik (100.000 Genom pilotu; %25 tanı; kodlamayan/SV/mito payı) | 18 |
+| 33264411 | Köhler ve ark. (2021) | Nucleic Acids Res | 10.1093/nar/gkaa1043 | Metodoloji (HPO; derin fenotipleme standardı) | 18 |
+| 28424332 | Cummings ve ark. (2017) | Sci Transl Med | 10.1126/scitranslmed.aal5209 | Klinik/metodoloji (kas RNA-seq; %35 tanı; derin intronik splice) | 18 |
+| 41084864 | Hayeems ve ark. (2025) | Genet Med | 10.1016/j.gim.2025.101605 | Randomize (ES %33,8 vs GS %33,6; n=1.048) — "GS her zaman daha çok tanı koyar" beklentisinin düzeltilmesi | 18 |
+| 40963120 | Kaschta ve ark. (2025) | Genome Med | 10.1186/s13073-025-01516-7 | Prospektif (standart bakım/tek birey GS/trio GS; trio'nun katkısı deneyimi az ekipte belirgin) | 18 |
+| 34791078 | Hiz Kurul ve ark. (2022) | Brain | 10.1093/brain/awab395 | Türkiye akraba kohortu (%72→%86; %82 homozigot; panelin kaçıracağı %52; en yüksek akrabalıkta getiri düşüyor) | 18 |
+| 34211152 | Manickam ve ark. (2021) | Genet Med | 10.1038/s41436-021-01242-6 | Guideline (ACMG: CA/DD/ID'de ES/GS birinci ya da ikinci basamak) | 18 |
 
 ### 2.1 Kılavuz belgeleri (PubMed'de indekslenmeyen normatif kaynaklar)
 
@@ -238,6 +261,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 |---|---|---|---|
 | ACGS, *Best Practice Guidelines for Constitutional Karyotype Analysis and Targeted Chromosome Analysis* | v1.0 · onay 20.08.2024 | ✅ PDF indirildi; KA/TCA tanımları, TCA endikasyonları, 30/60 hücre eşikleri birebir eşleşti (29.07.2026) | 8 |
 | NHS England, *National Genomic Test Directory — Rare and Inherited Disease* | v9.1 · 20.05.2026 | ✅ PDF indirildi; tekrarlayan gebelik kaybı (üç/beş kayıp) ve infertilite ölçütleri birebir eşleşti (29.07.2026) | 8 |
+| ClinGen DICER1 and miRNA-Processing Gene VCEP, *Specifications to the ACMG/AMP Variant Interpretation Guidelines for DICER1* | v1 · onay 05.05.2022 | ✅ Resmî PDF indirildi; DICER1'e özgü PVS1, PS2 ve tümör ikinci olayına dayalı PP4 koşulları ana metinle eşleştirildi (04.08.2026) | 16 |
 
 ---
 
@@ -301,16 +325,20 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | sekil_51_digenik_pedigri.svg | 15 | Digenik pedigri imzası (RDS+ROM1) · genotip–fenotip tablosu · "iki varyant ≠ digenik" uyarısı |
 | sekil_52_modifier_mekanizmalari.svg | 15 | SMN2 kopya sayısı doz modifier'ı · modifier'ın dört yolu · KF akciğer modifier lokusları |
 | sekil_53_digenik_kanit_hiyerarsisi.svg | 15 | Digenik iddianın altı kanıt basamağı · ACMG/AMP kapsam sınırı · çift-lokus raporlama ve danışma |
-| sekil_54_acmg_kanit_mimarisi.svg | 16 | ACMG kanıt güçleri → olasılık oranı → puan → beş sınıf; patojenik/benign asimetrisi |
-| sekil_55_mekanizma_kriter_matrisi.svg | 16 | Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez, normatif değil); güçlenir/zayıflar/genellikle uygulanmaz |
-| sekil_56_pvs1_mekanizma_kapisi.svg | 16 | PVS1 mekanizma kapısı + dört güç basamağı + splice/RNA özel durumu |
-| sekil_57_vus_cozme_haritasi.svg | 16 | VUS'u çözme haritası: sekiz ek veri türü → açtığı kriter → tipik güç → koşul |
-| sekil_58_klinik_ipucu_mekanizma.svg | 17 | 12 klinik ipucu → aday mekanizma → bölüm → ilk tanısal adım |
-| sekil_59_negatif_ekzom_kor_noktalar.svg | 17 | Ekzomun altı kör noktası + tanısal getiri sayıları + yedinci kör nokta (yorum) |
-| sekil_60_uctan_uca_akis.svg | 17 | Kitabın omurgası: fenotip → mekanizma → test → varyant → yorum → danışma + geri besleme |
-| sekil_61_senaryo_panosu.svg | 17 | Sekiz pediatrik senaryonun özet panosu (başvuru · mekanizma · test · ders) |
+| sekil_54_acmg_kanit_mimarisi.svg | 17 | ACMG kanıt güçleri → olasılık oranı → puan → beş sınıf; patojenik/benign asimetrisi |
+| sekil_55_mekanizma_kriter_matrisi.svg | 17 | Mekanizma × kanıt ailesi ilişki matrisi (pedagojik sentez, normatif değil); güçlenir/zayıflar/genellikle uygulanmaz |
+| sekil_56_pvs1_mekanizma_kapisi.svg | 17 | PVS1 mekanizma kapısı + dört güç basamağı + splice/RNA özel durumu |
+| sekil_57_vus_cozme_haritasi.svg | 17 | VUS'u çözme haritası: sekiz ek veri türü → açtığı kriter → tipik güç → koşul |
+| sekil_58_klinik_ipucu_mekanizma.svg | 18 | 12 klinik ipucu → aday mekanizma → bölüm → ilk tanısal adım |
+| sekil_59_negatif_ekzom_kor_noktalar.svg | 18 | Ekzomun altı kör noktası + tanısal getiri sayıları + yedinci kör nokta (yorum) |
+| sekil_60_uctan_uca_akis.svg | 18 | Kitabın omurgası: fenotip → mekanizma → test → varyant → yorum → danışma + geri besleme |
+| sekil_61_senaryo_panosu.svg | 18 | Sekiz pediatrik senaryonun özet panosu (başvuru · mekanizma · test · ders) |
+| sekil_65_iki_olcek_kanser_yatkinligi.svg | 16 | Ailede dominant yatkınlık ile hücrede ikinci olayın iki ayrı ölçek olarak birlikte okunması |
+| sekil_66_ikinci_vurus_mekanizmalari.svg | 16 | İkinci olayın nokta varyantı, delesyon, kromozom kaybı, kopya-nötr LOH ve epigenetik susturma yolları |
+| sekil_67_kanser_alelik_mimariler.svg | 16 | RB1/APC, TP53 ve DICER1 üzerinden klasik ve değiştirilmiş allelik mimariler |
+| sekil_68_tumor_normal_ornek_haritasi.svg | 16 | Tümör, kan ve alternatif normal dokunun yanıtladığı farklı sorular |
 
-> ✅ **Arşiv notu (final pass'te kapatıldı):** Hiçbir bölümde kullanılmayan üç yetim dosya (`sekil_30_repeat_esik_antisipasyon.svg`, `sekil_31_repeat_mekanizma_turleri.svg`, `sekil_32_fmr1_ornegi.svg`) silindi; bunlar Bölüm 9 için üretilmiş erken sürümlerdi ve numaraları Bölüm 10'un dosyalarıyla çakışıyordu (git geçmişinde `c4f1bc1` commit'inde korunuyorlar). Böylece numara çakışması ortadan kalktı ve `assets/` klasöründeki 64 SVG'nin tamamı bir bölümde kullanılıyor. Bölüm 9, ardışık numara yerine `sekil_09_*` adlandırmasını kullanmayı sürdürüyor; çakışma kalmadığı ve dosya adları okuyucuya görünmediği (kitapta SVG'ler inline gömülüyor) için yeniden numaralandırma yapılmadı.
+> ✅ **Arşiv notu (final pass'te kapatıldı):** Hiçbir bölümde kullanılmayan üç yetim dosya (`sekil_30_repeat_esik_antisipasyon.svg`, `sekil_31_repeat_mekanizma_turleri.svg`, `sekil_32_fmr1_ornegi.svg`) silindi; bunlar Bölüm 9 için üretilmiş erken sürümlerdi ve numaraları Bölüm 10'un dosyalarıyla çakışıyordu (git geçmişinde `c4f1bc1` commit'inde korunuyorlar). Böylece numara çakışması ortadan kalktı; Bölüm 16'ya eklenen dört görselle `assets/` klasöründeki 68 SVG'nin tamamı bir bölümde kullanılıyor. Bölüm 9, ardışık numara yerine `sekil_09_*` adlandırmasını kullanmayı sürdürüyor; çakışma kalmadığı ve dosya adları okuyucuya görünmediği (kitapta SVG'ler inline gömülüyor) için yeniden numaralandırma yapılmadı.
 
 ---
 
@@ -328,48 +356,49 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 6 | Teşekkür | `kitap/04_Tesekkur.md` | ✍️ şablon |
 | 7 | Yazar ve editörler | `kitap/05_Yazar.md` | ✍️ şablon |
 | 8 | İçindekiler | *(build üretir)* | ✅ |
-| 9 | Şekiller listesi (64) | *(build üretir)* | ✅ |
-| 10 | Algoritmalar listesi (49) | *(build üretir)* | ✅ |
-| 11 | Tablolar listesi (78; güncel build eşleşmesi) | *(build üretir)* | ✅ |
+| 9 | Şekiller listesi (68) | *(build üretir)* | ✅ |
+| 10 | Algoritmalar listesi (52) | *(build üretir)* | ✅ |
+| 11 | Tablolar listesi (65 yayın tablosu) | *(build üretir)* | ✅ |
 | 12 | Kısaltmalar | `kitap/06_Kisaltmalar.md` | ✅ |
 | 13 | Terminoloji ve yazım kuralları | `kitap/07_Terminoloji_ve_Yazim_Kurallari.md` | ✅ (HGVS/HGNC/ISCN dahil) |
-| 14 | **Kısım I–VI + mevcut 17 bölüm** | `Bölüm_NN_*.md` | ✅ |
-| 15 | Ekler (A–D) | `kitap/20_Ekler.md` | ✅ |
-| 16 | Sözlük (~105 terim) | `kitap/21_Sozluk.md` | ✅ |
-| 17 | Toplu kaynakça (172 benzersiz PMID) | *(build üretir)* | ✅ |
-| 18 | Gen dizini (79) | `kitap/22_Gen_Dizini.md` | ✅ |
-| 19 | Hastalık dizini (59) | `kitap/23_Hastalik_Dizini.md` | ✅ |
-| 20 | Yazar özgeçmişi | `kitap/24_Ozgecmis.md` | ✍️ şablon |
-| 21 | Arka kapak | `kitap/25_Arka_Kapak.md` | ✅ (künye satırı ✍️) |
+| 14 | **Kısım I–VI + 18 bölüm** | `Bölüm_NN_*.md` | ✅ |
+| 15 | Öz değerlendirme (54 soru + 54 yanıt yaklaşımı) | `kitap/19_Oz_Degerlendirme.md` | ✅ |
+| 16 | Ekler (A–D) | `kitap/20_Ekler.md` | ✅ |
+| 17 | Sözlük (123 terim) | `kitap/21_Sozluk.md` | ✅ |
+| 18 | Toplu kaynakça (194 benzersiz PMID) | *(build üretir)* | ✅ |
+| 19 | Gen dizini (88) | `kitap/22_Gen_Dizini.md` | ✅ |
+| 20 | Hastalık dizini (65) | `kitap/23_Hastalik_Dizini.md` | ✅ |
+| 21 | Yazar özgeçmişi | `kitap/24_Ozgecmis.md` | ✍️ şablon |
+| 22 | Arka kapak | `kitap/25_Arka_Kapak.md` | ✅ (künye satırı ✍️) |
 
-**Mevcut kısım yapısı:** I — Çerçeve (1) · II — Protein düzeyinde mekanizmalar (2–6) · III — Transkript ve genom yapısı (7–9) · IV — Epigenetik, organel ve mozaiklik (10–12) · V — Genomik bağlam ve karmaşık mimari (13–15) · VI — Yorum ve klinik sentez (16–17).
+**Mevcut kısım yapısı:** I — Çerçeve (1) · II — Protein düzeyinde mekanizmalar (2–6) · III — Transkript ve genom yapısı (7–9) · IV — Epigenetik, organel ve mozaiklik (10–12) · V — Genomik bağlam ve karmaşık mimari (13–15) · VI — Yatkınlık, yorum ve klinik sentez (16–18).
 
-**Onaylanan hedef kısım yapısı (kısmen uygulandı):** Bölüm 13 kodlamayan/düzenleyici varyantlar · **Bölüm 14 alelik seri ✅** · **Bölüm 15 digenik/oligogenik/değiştirici mimari ✅** · Bölüm 16 kalıtsal kanser yatkınlığı ve ikinci vuruş · Bölüm 17 ACMG/ClinGen kanıt sentezi · Bölüm 18 klinik sentez. Kitabın sonunda `kitap/19_Oz_Degerlendirme.md` hedeflenir; dosya uygulama paketinde oluşturulacaktır.
+**Onaylanan hedef kısım yapısı (uygulandı):** Bölüm 13 kodlamayan/düzenleyici varyantlar · **Bölüm 14 alelik seri ✅** · **Bölüm 15 digenik/oligogenik/değiştirici mimari ✅** · **Bölüm 16 kalıtsal kanser yatkınlığı ve ikinci vuruş ✅** · **Bölüm 17 ACMG/ClinGen kanıt sentezi ✅** · **Bölüm 18 klinik sentez ✅** · **kitap sonu öz değerlendirme ✅**.
 
 **Numaralandırma:** Şekil/Algoritma/Tablo numaraları `bölüm.sıra` biçimindedir ve metinde ilk anıldıkları sıraya göre verilir. Bölüm 1–8'in eski global şekil numaraları (Şekil 1–29) bu aşamada bölüm.sıra biçimine çevrildi; SVG'lerin iç başlıkları da eşitlendi.
 
 **Nesne listeleri:** Şekiller, algoritmalar ve tablolar listelerindeki bağlantılar bölüm başlığına değil doğrudan ilgili nesneye gider. Akışkan HTML'de sabit sayfa kavramı olmadığından sayfa numarası gösterilmez; nihai sabit PDF'de sayfa numaraları CSS hedef sayacı destekleyen sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
 
-**Kalan iş ve sıra:** Digenik kanıt kontrol listesi; klinik örnek çeşitliliği; kanser yatkınlığı/ikinci vuruş bölümünün kapsamda kalıp kalmayacağına son karar; öz değerlendirme sorularının kitabın sonuna taşınması; bağımsız uzman incelemesi ve yayın kapanışı. Ayrıca ✍️ kişisel/künye bilgileri ile nihai HTML/PDF sayfalama, liste sayfa numarası ve baskı kalite kontrolü tamamlanacaktır. Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu ve Bölüm 14–15 sıra değişimi dahil önceki yapısal/teknik paketler tamamlanmıştır.
+**Kalan iş ve sıra:** Bağımsız uzman incelemesi ve yayın kapanışı. Ayrıca ✍️ kişisel/künye bilgileri ile nihai HTML/PDF sayfalama, liste sayfa numarası ve baskı kalite kontrolü tamamlanacaktır. Bölüm 8 revizyonu, Bölüm 14–15 sıra değişimi, digenik kanıt kontrol listesi, klinik örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve kitap sonu öz değerlendirme paketi tamamlanmıştır.
 
 ---
 
 ## 5. Final pass raporu (tamamlandı)
 
-Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon işlemleri:
+Kitabın ilk 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon işlemleri ve sonraki paketlerin güncel durumu:
 
 | # | İş | Sonuç |
 |---|----|-------|
-| 1 | **Kaynakça standardizasyonu** | Bu tarihsel tur sırasında 114 benzersiz kaynağın 19'unda bölümler arası künye farkı vardı → tümü tek biçime indirildi. Sonraki uzman turları ve Bölüm 8 tam metin revizyonuyla güncel kütük 172 benzersiz PMID'ye ulaştı. 8 içerik düzeltmesi yapıldı (Berecki başlığında eksik *SCN2A*, Webster ve Weinstein yazar listeleri, Walker'da "de la Hoya", Richards/Riggs kısaltılmış başlıkları, Jaganathan/Collins sayfa ekleri). |
+| 1 | **Kaynakça standardizasyonu** | Bu tarihsel tur sırasında 114 benzersiz kaynağın 19'unda bölümler arası künye farkı vardı → tümü tek biçime indirildi. Sonraki uzman turları, Bölüm 8 tam metin revizyonu, klinik örnek çeşitliliği ve Bölüm 16 paketiyle güncel kütük 194 benzersiz PMID'ye ulaştı. 8 içerik düzeltmesi yapıldı (Berecki başlığında eksik *SCN2A*, Webster ve Weinstein yazar listeleri, Walker'da "de la Hoya", Richards/Riggs kısaltılmış başlıkları, Jaganathan/Collins sayfa ekleri). |
 | 2 | **Terminoloji birleştirme** | `nonsense`, `hotspot`, `eksik penetrans`, `dizileme`, `dominant-negatif` sabitlendi; Latince ifade kuralı tanımlandı (de novo düz; *in vitro*/*in silico*/*in cis*/*in trans* italik). 23 düzeltme. |
-| 3 | **Görsel envanteri** | 3 yetim SVG silindi; `assets/` içindeki 64 SVG'nin tamamı kullanılıyor, eksik referans yok. |
-| 4 | **Çapraz gönderme denetimi** | Şekil atıfları (bölüm içi) ve Bölüm N göndermeleri tarandı; geçersiz gönderme yok. 17 bölümün tamamında standart 10 başlık eksiksiz. |
+| 3 | **Görsel envanteri** | 3 yetim SVG silindi; Bölüm 16'ya eklenen 4 SVG ile `assets/` içindeki 68 SVG'nin tamamı kullanılıyor, eksik referans yok. |
+| 4 | **Çapraz gönderme denetimi** | Şekil atıfları (bölüm içi) ve Bölüm N göndermeleri tarandı; geçersiz gönderme yok. 18 bölümün tamamında standart 10 başlık eksiksiz. |
 | 5 | **Toplu kaynakça** | `build_book.py` artık bölüm kaynakçalarından PMID'ye göre tekilleştirilmiş, yazar soyadına göre sıralı ve her kaynağın kullanıldığı bölümleri gösteren bir kaynakça üretiyor (otomatik, elle bakım gerektirmez). |
 | 6 | **Önsöz** | `Önsöz.md` eklendi (kitabın tezi, hedef kitle, okuma yolları, bölüm yapısı, kaynak politikası, sınırlar/sorumluluk notu); build sırasında içindekilerden sonra yerleştiriliyor. |
 | 7 | **Kapak ve içindekiler** | Kapağa bölüm/şekil/kaynak sayısı eklendi; içindekilerdeki "Bölüm N · Bölüm N — …" tekrarı giderildi; önsöz ve toplu kaynakça içindekilere alındı. |
 | 8 | **Stil rehberi** | Alınan kararlar `00_Şablonlar/Stil_Rehberi.md` §4–5'e bağlayıcı kural olarak işlendi. |
 
-**Bu kilometre taşının güncel envanteri:** 17 uygulanmış bölüm · 64 şekil · 49 Mermaid diyagramı · 78 tablo · 172 benzersiz PMID. Onaylanan 18 bölümlük hedef henüz uygulanmamıştır.
+**Bu kilometre taşının güncel envanteri:** 18 uygulanmış bölüm · 68 şekil · 52 Mermaid diyagramı · 65 yayın tablosu · 194 benzersiz PMID · 185 doğrulanmış doğrudan nesne hedefi · 54 soru · 54 yanıt yaklaşımı. Bölüm kaynaklarındaki 18 iç öz-denetim tablosu korunur, yayın envanterine girmez.
 
 ---
 
@@ -378,12 +407,13 @@ Kitabın 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizasyon 
 Uygulama sırası kullanıcı tarafından şöyle onaylandı:
 
 1. **Karar kaydı — tamamlandı:** `README.md`, `CLAUDE.md`, bu dosya ve `Editor_Degerlendirme_Formu_Tur2.md` aynı karar setini taşıyor.
-2. **Düşük riskli teknik temizlik — tamamlandı:** Sayaçlar güncellendi/otomatikleştirildi; aktif SVG terminolojisi ve Kiril karakteri temizlendi; Bölüm 9 ve 12 tablo numaraları kesintisiz hâle getirildi; mutlak yardımcı betik yolu kaldırıldı; build eksik SVG ile geçersiz/mükerrer tablo numarasında duracak biçimde katılaştırıldı. Bölüm 8 revizyonu sonrası güncel build: 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID.
-3. **Doğrudan nesne bağlantıları ve terminoloji/HGVS denetimi — tamamlandı:** Şekil, algoritma ve tablo listeleri 186 nesnenin kendi sabit hedefine bağlandı; numara/hedef bütünlüğü build sırasında doğrulanır. Kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı; okuyucu metnindeki iç karar kodları kaldırıldı. Ayrıntılı kayıt: `Terminoloji_Kaynak_Denetimi.md`. Nihai PDF liste sayfa numaralarının görsel doğrulaması yayın kapanışında yapılacaktır.
-4. **Bilimsel/yapısal paketler:** Her biri ayrı onayla; 14–15 sırası ✅, anöploidi ✅, digenik kanıt listesi ✅, örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler.
-5. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
-6. **Yayın kapanışı:** Künye alanları, son HTML/PDF, uyumlu sayfalama motoru, nesne listelerindeki sayfa numaralarının görsel denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
+2. **Düşük riskli teknik temizlik — tamamlandı:** Sayaçlar güncellendi/otomatikleştirildi; aktif SVG terminolojisi ve Kiril karakteri temizlendi; Bölüm 9 ve 12 tablo numaraları kesintisiz hâle getirildi; mutlak yardımcı betik yolu kaldırıldı; build eksik SVG ile geçersiz/mükerrer tablo numarasında duracak biçimde katılaştırıldı. Güncel build: 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID.
+3. **Doğrudan nesne bağlantıları ve terminoloji/HGVS denetimi — tamamlandı:** Güncel yayın envanterindeki 185 şekil, algoritma ve tablo kendi sabit hedefine bağlandı; numara/hedef bütünlüğü build sırasında doğrulanır. Kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı; okuyucu metnindeki iç karar kodları kaldırıldı. Ayrıntılı kayıt: `Terminoloji_Kaynak_Denetimi.md`. Nihai PDF liste sayfa numaralarının görsel doğrulaması yayın kapanışında yapılacaktır.
+4. **Bilimsel/yapısal paketler — tamamlandı:** 14–15 sırası ✅, anöploidi ✅, digenik kanıt listesi ✅, örnek çeşitliliği ✅, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler ✅.
+5. **Kitap sonu öz değerlendirme — tamamlandı:** 18 bölüm için 54 soru ve ayrı 54 yanıt yaklaşımı eklendi; bölüm sonları kendi soru grubuna bağlandı; iç kalite/doğrulama günlükleri yayından ayrıldı.
+6. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
+7. **Yayın kapanışı:** Künye alanları, son HTML/PDF, uyumlu sayfalama motoru, nesne listelerindeki sayfa numaralarının görsel denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
 
-**Bir sonraki uygulama paketi:** Klinik örnek çeşitliliği (C3/F4). Dosya bazlı kapsam sunulup açık onay alınmadan başlanmayacak.
+**Bir sonraki evre:** Bağımsız insan değerlendirmesi. Yayın kapanışı bundan sonra yapılacak; ✍️ kişisel/künye bilgileri kullanıcıdan alınmadan doldurulmayacak.
 
 **Araçlar arası devir:** Codex veya Claude yeni bir oturuma başladığında önce `git status`, `README.md`, `CLAUDE.md`, bu bölüm, `Editor_Degerlendirme_Formu_Tur2.md`, `Dogrulama_Kutugu.md` ve `Terminoloji_Kaynak_Denetimi.md` okunur. Kararlar yalnız sohbet geçmişinde tutulmaz; her paket ilgili durum belgesini ve doğrulama kaydını günceller. Stage, commit ve push ayrı kullanıcı yetkisi gerektirir.

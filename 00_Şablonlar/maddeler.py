@@ -224,7 +224,7 @@ MADDELER = [
 ("C23", "15", "Hotspot her zaman bir hastalığın hotspot'udur",
  "Hotspot her zaman bir hastalığın hotspot'udur",
  "PM1'in bu şekilde koşullanması doğru mu?"),
-("C24", "16", "Mekanizma yönünü belirlemeden PS3 yorumlamak",
+("C24", "17", "Mekanizma yönünü belirlemeden PS3 yorumlamak",
  "Mekanizma yönünü belirlemeden PS3 yorumlamak",
  "Hızlı-referans tablosundaki \"sık hata\" sütununun tüm satırları doğru mu?"),
 
@@ -238,7 +238,7 @@ MADDELER = [
 ("D3", "15", "altı eksenli çerçeve kitabın pedagojik sentezidir",
  "**\"allelik serinin altı ekseni\" literatürde bu adla yerleşik bir sınıflandırma değildir**",
  "Altı eksen doğru seçilmiş mi? Eksik/fazla eksen var mı? Çerçeve kitapta kalsın mı?"),
-("D4", "16", "Şekil 16.3, bu bölümün ağırlık merkezidir",
+("D4", "17", "Şekil 17.3, bu bölümün ağırlık merkezidir",
  "kitabın on dört mekanizma bölümünün her birinin, sekiz kriter ailesiyle ilişkisini tek matriste özetler",
  "Matris pedagojik olarak sağlam mı? Normatif tabloyla karıştırılma riski yeterince önlenmiş mi?"),
 ("D5", "03", "Şekil 3.4 — Dozaj duyarlılığı spektrumu",

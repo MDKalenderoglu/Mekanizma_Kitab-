@@ -528,11 +528,11 @@ Tekrar genişlemesi WES'in "kör noktalarından biridir." olarak düzelt.
 
 <br>
 
-### A23 · Bölüm 17 — Klinik Senaryolarla Sentez: Hastadan Mekanizmaya
+### A23 · Bölüm 18 — Klinik Senaryolarla Sentez: Hastadan Mekanizmaya
 
-**Yer:** `Bölüm_17_Klinik_Senaryolarla_Sentez.md` · 7. Pediatrik genetikten klinik örnekler: sekiz senaryo · satır 251
+**Yer:** `Bölüm_18_Klinik_Senaryolarla_Sentez.md` · 7. Pediatrik genetikten klinik örnekler: sekiz senaryo · satır 251
 
-> **Senaryo 7 — Sekiz yaşında çocuk, kas güçsüzlüğü ve yüksek kreatin kinaz; panel ve ekzom negatif.** Klinik olarak konjenital kas hastalığı düşünülüyor; geniş panel ve ekzom sonuçsuz. **Mekanizma hipotezi:** kodlayan bölge dışında kalan bir splicing kusuru (Bölüm 7, 13). **Test:** ***kas dokusundan RNA dizileme*** (± WGS). **Yorum:** genetik tanısı konmamış nadir kas hastalıkları kohortunda transkriptom dizileme, aday splice-bozucu varyantların doğrulanmasını ve hem ekzonik hem **derin intronik** bölgelerdeki splice-değiştirici varyantların saptanmasını sağlamış, genel tanı oranı **%35** olmuştur; ayrıca sık tekrarlayan bir de novo intronik varyantın, kollajen VI benzeri distrofi düşünülen ve önceki genetik analizleri negatif olan hastaların yaklaşık dörtte birini açıkladığı gösterilmiştir (Cummings ve ark., 2017). **Öğreti:** RNA analizi burada iki iş birden yapar — tanıyı koyar ve Bölüm 16'da gördüğümüz gibi öngörüyü ölçüme çevirerek PS3'ü açar.
+> **Senaryo 7 — Sekiz yaşında çocuk, kas güçsüzlüğü ve yüksek kreatin kinaz; panel ve ekzom negatif.** Klinik olarak konjenital kas hastalığı düşünülüyor; geniş panel ve ekzom sonuçsuz. **Mekanizma hipotezi:** kodlayan bölge dışında kalan bir splicing kusuru (Bölüm 7, 13). **Test:** ***kas dokusundan RNA dizileme*** (± WGS). **Yorum:** genetik tanısı konmamış nadir kas hastalıkları kohortunda transkriptom dizileme, aday splice-bozucu varyantların doğrulanmasını ve hem ekzonik hem **derin intronik** bölgelerdeki splice-değiştirici varyantların saptanmasını sağlamış, genel tanı oranı **%35** olmuştur; ayrıca sık tekrarlayan bir de novo intronik varyantın, kollajen VI benzeri distrofi düşünülen ve önceki genetik analizleri negatif olan hastaların yaklaşık dörtte birini açıkladığı gösterilmiştir (Cummings ve ark., 2017). **Öğreti:** RNA analizi burada iki iş birden yapar — tanıyı koyar ve Bölüm 17'de gördüğümüz gibi öngörüyü ölçüme çevirerek PS3'ü açar.
 
 **Sorulan:** Bu senaryoda kas biyopsisi önerisi Türkiye koşullarında gerçekçi mi? Fibroblast alternatif olabilir mi?
 
@@ -890,9 +890,9 @@ Net cevap: Zorunlu trialelik BBS modeli bugün büyük ölçüde klinik kullanı
 
 <br>
 
-### B24 · Bölüm 16 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
+### B24 · Bölüm 17 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
 
-**Yer:** `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` · 1. Kavramsal tanım · satır 45
+**Yer:** `Bölüm_17_Mekanizmadan_Varyant_Yorumuna.md` · 1. Kavramsal tanım · satır 45
 
 > **İkincisi, tek bir kriter nadiren yeter.** En güçlü kriter olan PVS1 bile tek başına patojenik sınıfa ulaştırmaz; ***yanına en az bir destekleyici kanıt gerekir***. Bu, çerçevenin muhafazakârlığının kasıtlı bir özelliğidir.
 
@@ -985,9 +985,9 @@ olarak düşürülebilir. Örneğin NMD’den kaçan, biyolojik olarak önemli o
 
 <br>
 
-### B25 · Bölüm 16 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
+### B25 · Bölüm 17 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
 
-**Yer:** `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` · 2.1 Popülasyon kanıtı: "nadir" hastalığa göre tanımlanır · satır 77
+**Yer:** `Bölüm_17_Mekanizmadan_Varyant_Yorumuna.md` · 2.1 Popülasyon kanıtı: "nadir" hastalığa göre tanımlanır · satır 77
 
 > **🟦 Klinikte dikkat — Bir varyantın "gnomAD'de yok" olması ne kadar kanıttır?** Yokluk, PM2'yi (***orta güçte değil, günümüzde çoğu uzman grubunda destekleyici güce indirilmiş biçimde***) destekler; ama tek başına patojenite kanıtı değildir. Her insan genomunda çok sayıda nadir, işlevsel olarak zararsız varyant vardır. Gen düzeyinde kısıt ölçütleri bu kanıtı bağlamlandırır — **pLI** ExAC veri kümesiyle tanımlanmış (Lek ve ark., 2016), **LOEUF** ise gnomAD ile getirilmiştir (Karczewski ve ark., 2020): kısıtlı bir gende nadir bir kesici varyant anlamlıyken, kısıtsız bir gende aynı bulgu çok daha zayıftır.
 
@@ -1076,9 +1076,9 @@ Daha doğru ifade:
 
 <br>
 
-### B26 · Bölüm 16 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
+### B26 · Bölüm 17 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
 
-**Yer:** `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` · 7. Pediatrik genetikten klinik örnekler (çözümlü) · satır 267
+**Yer:** `Bölüm_17_Mekanizmadan_Varyant_Yorumuna.md` · 7. Pediatrik genetikten klinik örnekler (çözümlü) · satır 267
 
 > **Örnek 1 — Yenidoğanda dirençli nöbet; *SCN2A* p.Arg1882Gln (de novo).** Doğumun ilk gününde fokal nöbetlerle başvuran bebekte trio WES ile de novo bir missense varyant saptanır. Kanıt zinciri şöyle kurulur: ebeveynlik doğrulanmış de novo (PS2, +4); popülasyonda yok (PM2, +1); bu kodon *SCN2A*'nın bilinen tekrarlayan varyant konumlarındandır (PM1, +2); elektrofizyolojik çalışmalar bu varyantın **işlev kazanımı** yönünde olduğunu ve dinamik aksiyon potansiyeli çalışmasında ateşlemede dramatik artış öngördüğünü göstermiştir (PS3, +4) (Berecki ve ark., 2018). ***Toplam +11 → patojenik***. **Öğreti:** mekanizma yönü burada yalnız sınıfı değil tedaviyi de belirler; erken başlangıçlı, işlev kazanımı yönündeki sodyum kanalı tablolarında sodyum kanal blokerleri yararlı olabilirken, işlev kaybı tablolarında aynı yaklaşım uygun değildir (Brunklaus ve ark., 2020). Ayrıca dikkat: PS3 burada "fonksiyon bozulmuş" dediği için değil, **yönü gösterdiği** için bu kadar değerlidir.
 
@@ -1326,9 +1326,9 @@ Erken başlangıçlı SCN2A GoF tablolarında sodyum kanal blokerlerinden yarar 
 
 <br>
 
-### B27 · Bölüm 17 — Klinik Senaryolarla Sentez: Hastadan Mekanizmaya
+### B27 · Bölüm 18 — Klinik Senaryolarla Sentez: Hastadan Mekanizmaya
 
-**Yer:** `Bölüm_17_Klinik_Senaryolarla_Sentez.md` · 2.2 "Negatif" ne demektir? Altı kör nokta · satır 75
+**Yer:** `Bölüm_18_Klinik_Senaryolarla_Sentez.md` · 2.2 "Negatif" ne demektir? Altı kör nokta · satır 75
 
 > Şüpheli genetik hastalığı olan çocuklarda tanısal getiriyi karşılaştıran, 37 çalışma ve 20.068 çocuğu kapsayan bir sistematik derleme ve meta-analiz, ***tüm genom dizilemenin tanısal getirisini 0,41, tüm ekzom dizilemeninkini 0,36 ve kromozomal mikroarray'inkini 0,10*** olarak bildirmiştir. Aynı analizde, kohort içi karşılaştırma yapan çalışmalarda **trio** analizinin tek bireye göre tanı olasılığını anlamlı biçimde artırdığı gösterilmiştir (olasılık oranı 2,04). Yazarlar, şüpheli genetik hastalığı olan çocuklarda WGS/WES'in **birinci basamak genomik test** olarak düşünülmesi gerektiği sonucuna varmışlardır (Clark ve ark., 2018).
 
@@ -4925,9 +4925,9 @@ Mevcut ifade yerine:
 
 <br>
 
-### C24 · Bölüm 16 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
+### C24 · Bölüm 17 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
 
-**Yer:** `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` · 3. Varyant tipleri · satır 144
+**Yer:** `Bölüm_17_Mekanizmadan_Varyant_Yorumuna.md` · 3. Varyant tipleri · satır 144
 
 > | Varyant tipi | İlk bakılacak kriterler | Mekanizma kontrolü | Tipik tuzak |
 > |---|---|---|---|
@@ -5710,11 +5710,11 @@ En önemli kavramsal düzeltme de başlıktadır:
 
 <br>
 
-### D4 · Bölüm 16 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
+### D4 · Bölüm 17 — Mekanizmadan Varyant Yorumuna: ACMG/ClinGen Sentezi
 
-**Yer:** `Bölüm_16_Mekanizmadan_Varyant_Yorumuna.md` · 2.6 Bütün kitabı tek tabloda toplamak · satır 123
+**Yer:** `Bölüm_17_Mekanizmadan_Varyant_Yorumuna.md` · 2.6 Bütün kitabı tek tabloda toplamak · satır 123
 
-> Şekil 16.3, bu bölümün ağırlık merkezidir: ***kitabın on dört mekanizma bölümünün her birinin, sekiz kriter ailesiyle ilişkisini tek matriste özetler***.
+> Şekil 17.3, bu bölümün ağırlık merkezidir: ***kitabın on dört mekanizma bölümünün her birinin, sekiz kriter ailesiyle ilişkisini tek matriste özetler***.
 
 **Sorulan:** Matris pedagojik olarak sağlam mı? Normatif tabloyla karıştırılma riski yeterince önlenmiş mi?
 
@@ -5854,7 +5854,7 @@ Bu örnek, okuyucuya matrisin **nasıl okunacağını** gösterir.
 
 Mevcut cümle yerine:
 
-> **Şekil 16.3, bu bölümün sentez haritasıdır: kitabın on dört mekanizma bölümünde ele alınan biyolojik mekanizmaların, sekiz geniş kanıt ailesiyle hangi noktalarda ve hangi koşullarda kesişebildiğini tek matriste gösterir. Bu matris bir ACMG/AMP uygulama algoritması veya resmî ClinGen eşleştirmesi değil, yorumlama sırasında hangi kanıt alanlarının sorgulanabileceğini gösteren pedagojik bir yönlendirme aracıdır.**
+> **Şekil 17.3, bu bölümün sentez haritasıdır: kitabın on dört mekanizma bölümünde ele alınan biyolojik mekanizmaların, sekiz geniş kanıt ailesiyle hangi noktalarda ve hangi koşullarda kesişebildiğini tek matriste gösterir. Bu matris bir ACMG/AMP uygulama algoritması veya resmî ClinGen eşleştirmesi değil, yorumlama sırasında hangi kanıt alanlarının sorgulanabileceğini gösteren pedagojik bir yönlendirme aracıdır.**
 
 ## Son karar
 
@@ -5865,7 +5865,7 @@ Mevcut cümle yerine:
 3. Onay işaretleri yerine koşullu ilişki sembolleri
 4. VCEP ve özel varyant çerçevelerinin önceliğini belirten dipnot
 
-Matrisin hücre bazındaki bilimsel doğruluğunu değerlendirmek için Şekil 16.3’ün kendisinin görülmesi gerekir.
+Matrisin hücre bazındaki bilimsel doğruluğunu değerlendirmek için Şekil 17.3’ün kendisinin görülmesi gerekir.
 
 [1]: https://clinicalgenome.org/tools/clingen-variant-classification-guidance/?utm_source=chatgpt.com "ClinGen Variant Classification Guidance"
 [2]: https://clinicalgenome.org/working-groups/sequence-variant-interpretation/?utm_source=chatgpt.com "Sequence Variant Interpretation"

@@ -7,8 +7,8 @@ Kitap mimarisi (akademik textbook düzeni):
   DIŞ KAPAK · İÇ KAPAK · KÜNYE · İTHAF · ÖNSÖZ · TEŞEKKÜR · YAZAR
   İÇİNDEKİLER · ŞEKİLLER · ALGORİTMALAR · TABLOLAR LİSTESİ
   KISALTMALAR · TERMİNOLOJİ VE YAZIM KURALLARI
-  KISIM I–VI (17 bölüm)
-  EKLER · SÖZLÜK · TOPLU KAYNAKÇA · GEN DİZİNİ · HASTALIK DİZİNİ
+  KISIM I–VI (18 bölüm)
+  ÖZ DEĞERLENDİRME · EKLER · SÖZLÜK · TOPLU KAYNAKÇA · GEN DİZİNİ · HASTALIK DİZİNİ
   ÖZGEÇMİŞ · ARKA KAPAK
 
 Ne yapar:
@@ -48,8 +48,8 @@ PARTS = [
      "Dizide olmayan kusurlar: damga, ikinci genom ve hücre soyları", [10, 11, 12]),
     ("V", "Genomik Bağlam ve Karmaşık Mimari",
      "Kodlamayan genom, alelik seriler ve çok-lokuslu kalıtım", [13, 14, 15]),
-    ("VI", "Yorum ve Klinik Sentez",
-     "Mekanizmadan varyant sınıflandırmasına, oradan hastanın başına", [16, 17]),
+    ("VI", "Yatkınlık, Yorum ve Klinik Sentez",
+     "Germline zeminden somatik tümöre; mekanizmadan sınıflandırmaya ve hastanın başına", [16, 17, 18]),
 ]
 
 FRONT = [
@@ -64,6 +64,7 @@ FRONT_AFTER_TOC = [
     ("07_Terminoloji_ve_Yazim_Kurallari.md", "Terminoloji ve Yazım Kuralları"),
 ]
 BACK = [
+    ("19_Oz_Degerlendirme.md", "Öz Değerlendirme"),
     ("20_Ekler.md", "Ekler"),
     ("21_Sozluk.md", "Sözlük"),
 ]
@@ -182,6 +183,25 @@ def convert(md_text):
     return add_caption_anchors(converted)
 
 
+def public_chapter_text(md_text):
+    """Kaynak dosyadaki iç kalite günlüğünü yayın metninden ayır."""
+    marker = re.search(r"^## ✅ Bölüm öz-denetim tablosu\s*$", md_text, flags=re.MULTILINE)
+    if not marker:
+        raise BuildError("Bölüm iç kalite sınırı bulunamadı: '✅ Bölüm öz-denetim tablosu'")
+    return md_text[:marker.start()].rstrip()
+
+
+def self_assessment_link(chapter_number):
+    """Her yayın bölümünü kitap sonundaki kendi soru grubuna bağla."""
+    return (
+        '<aside class="chapter-self-assessment">'
+        '<strong>Öz değerlendirme</strong><br>'
+        f'<a href="#oz-degerlendirme-bolum-{chapter_number}">'
+        f'Bölüm {chapter_number} sorularına geçin →</a>'
+        '</aside>'
+    )
+
+
 def read_kitap(fname):
     p = os.path.join(KITAP, fname)
     if not os.path.exists(p):
@@ -195,7 +215,7 @@ def collect_lists(chapters):
     figs, algos, tabs = [], [], []
     for n, f in chapters:
         with open(f, encoding="utf-8") as fh:
-            txt = fh.read()
+            txt = public_chapter_text(fh.read())
         groups = (
             ("Şekil", re.findall(r"!\[Şekil ([^\s\]]+) — ([^\]]+)\]\(assets/", txt), figs),
             ("Algoritma", re.findall(r"\*\*Algoritma ([^\s*]+) — ([^*]+)\*\*", txt), algos),
@@ -264,6 +284,23 @@ def validate_object_targets(doc, groups):
                 raise BuildError(
                     f"{label} {no} için tek HTML hedefi bekleniyordu; bulunan: {target_count}"
                 )
+
+
+def validate_self_assessment(doc, chapter_count):
+    """Soru/yanıt hedeflerini, bölüm bağlantılarını ve günlük ayrımını denetle."""
+    if "Bölüm öz-denetim tablosu" in doc or "Bölüm sonu kaynak doğrulama komutu" in doc:
+        raise BuildError("İç kalite/doğrulama günlüğü yayın metnine sızdı")
+    for chapter in range(1, chapter_count + 1):
+        question_anchor = f"oz-degerlendirme-bolum-{chapter}"
+        answer_anchor = f"oz-degerlendirme-yanit-bolum-{chapter}"
+        for anchor in (question_anchor, answer_anchor):
+            count = doc.count(f'id="{anchor}"')
+            if count != 1:
+                raise BuildError(f"Öz değerlendirme hedefi tekil değil: {anchor} ({count})")
+        if doc.count(f'href="#{question_anchor}"') < 2:
+            raise BuildError(f"Bölüm {chapter} soru grubuna bağlantı eksik")
+        if doc.count(f'href="#{answer_anchor}"') != 1:
+            raise BuildError(f"Bölüm {chapter} yanıt yaklaşımına bağlantı eksik")
             if link_count != 2:
                 raise BuildError(
                     f"{label} {no} için liste ve sayfa bağlantıları eksik; bulunan: {link_count}"
@@ -274,7 +311,7 @@ def collect_bibliography(chapters):
     seen, used = {}, {}
     for n, f in chapters:
         with open(f, encoding="utf-8") as fh:
-            for line in fh.read().splitlines():
+            for line in public_chapter_text(fh.read()).splitlines():
                 m = re.match(r"^\d+\.\s+\*\*(.+?)\*\*\s*(.*?\*\*PMID:\s*(\d+)\*\*[^—]*)", line)
                 if not m:
                     continue
@@ -377,6 +414,10 @@ hr{border:none;border-top:1px solid var(--rule);margin:2em 0;}
 .listpage .lpage{display:none;}
 .listpage .intro{color:var(--muted);font-size:.92rem;}
 .chapter{page-break-before:always;}
+.chapter-self-assessment{margin:2.2em 0 0;padding:1em 1.1em;border:1px solid var(--rule);
+  border-left:5px solid var(--gold);background:#fffaf0;border-radius:0 6px 6px 0;
+  font-family:"Helvetica Neue",Arial,sans-serif;page-break-inside:avoid;}
+.chapter-self-assessment strong{color:var(--ink);}
 @media print{
   body{background:#fff;} .page{box-shadow:none;max-width:none;padding:0 12mm;}
   .cover{margin:0;padding:0;background:none;}
@@ -451,7 +492,11 @@ def build():
                          f'Kısım {roma} — {html.escape(pname)}</a></li>')
         for n in nums:
             with open(cmap[n], encoding="utf-8") as fh:
-                bodies.append(f'<section class="chapter" id="bolum-{n}">{convert(fh.read())}</section>')
+                chapter_md = public_chapter_text(fh.read())
+                bodies.append(
+                    f'<section class="chapter" id="bolum-{n}">'
+                    f'{convert(chapter_md)}{self_assessment_link(n)}</section>'
+                )
             toc_lines.append(f'<li class="chline"><a href="#bolum-{n}">{html.escape(titles[n])}</a></li>')
 
     add_files(BACK)
@@ -519,6 +564,7 @@ def build():
 </html>"""
 
     validate_object_targets(doc, (("Şekil", figs), ("Algoritma", algos), ("Tablo", tabs)))
+    validate_self_assessment(doc, len(chapters))
 
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write(doc)
@@ -530,6 +576,7 @@ def build():
     print(f"   {len(chapters)} bölüm · {len(PARTS)} kısım · {len(figs)} şekil · "
           f"{len(algos)} algoritma · {len(tabs)} tablo · {bib_n} benzersiz PMID")
     print(f"   {len(figs) + len(algos) + len(tabs)} doğrudan nesne hedefi doğrulandı")
+    print(f"   {len(chapters)} bölümün soru/yanıt hedefleri ve yayın-günlük ayrımı doğrulandı")
     if missing:
         print("   ⚠️ Henüz yazılmamış ön/arka madde: " + ", ".join(missing))
     print("   Tarayıcıdan değerlendirme PDF'i alınabilir; nihai sayfa numaraları uyumlu sayfalama motorunda doğrulanır.")

@@ -649,34 +649,48 @@ python3 00_Şablonlar/kunye_denetle.py
 |---|---|---|
 | 14.1 | **Bulgu 4.8'in tekrarı:** "*SCN2A*'da işlev kaybı … **otizm spektrum** tablolarıyla ilişkilidir (Berecki ve ark., 2018)" | ⚠️→✅ Berecki'ye yalnız elektrofizyoloji ve başlangıç yaşı/nöbet tipi bırakıldı; OSB/EY için **Sanders ve ark., 2018** eklendi (bölümün 22. kaynağı). Bölüm 4 turunda öngörülen "izlenecek" kalem böylece kapandı |
 | 14.2 | **"Allelik serinin altı ekseni"** çerçevesi — kitabın en görünür özgün sentezi, **etiketsizdi** | 🏷️→✅ §2 girişine ve bölüm sonu işaretli-iddialar notuna etiket eklendi: bileşenler kaynaklı, gruplama editöryal, literatürde bu adla yerleşik sınıflandırma yok (Protokol §1 T5 kuralı) |
-| 14.3 | Bölüm 16 ve 17'de aynı Berecki atfı | ✅ kontrol edildi — oralarda yalnız R1882Q işlev kazanımı bağlamında kullanılmış, OSB iddiası yok |
+| 14.3 | Bölüm 17 ve 18'de aynı Berecki atfı | ✅ kontrol edildi — oralarda yalnız R1882Q işlev kazanımı bağlamında kullanılmış, OSB iddiası yok |
 
-# Bölüm 16 — Mekanizmadan varyant yorumuna (tamamlandı)
+## Bölüm 14 ek tam-metin turu — klinik örnek çeşitliliği / GJB2 (03.08.2026)
+
+Uzman F4 ve editör C3'te işaretlenen temsil alanları güncel kitapta yeniden sayıldı. AR metabolik/enzim (*PAH*, *CFTR*), X'e bağlı (*DMD*, *OTC*), renal (*COL4A3/4*) ve anöploidi/kromozom (yeniden yazılan Bölüm 8) örneklerinin artık mevcut olduğu; kanser yatkınlığının ise onaylı bağımsız Bölüm 16'nın konusu olduğu görüldü. Gerçek açık alan işitme genetiğiydi ve Bölüm 14'e *GJB2* örneği eklendi.
+
+| # | İddia | Ana metin kanıtı | Durum |
+|---|---|---|---|
+| 14.4 | Bialelik *GJB2* varyantları hafiften ileri–çok ileri dereceye uzanan otozomal resesif nonsendromik işitme kaybı oluşturabilir; iki truncating alel, iki non-truncating alelden daha ağırdır | Snoeckx 2005 PMC ana metni: 16 ülke, 1.531 bialelik olgu; 83 varyant, 153 genotip; T/T > T/NT > NT/NT ağırlık sıralaması, sınıflar arası *P*<0,0001 | ✅ |
+| 14.5 | Seçilmiş heterozigot *GJB2* missense varyantları dominant nonsendromik veya palmoplantar keratoderma eşlikli işitme kaybı oluşturabilir; mekanizma dominant-negatiftir | Zhang 2011 PMC ana metni: altı nonsendromik + üç palmoplantar keratoderma ilişkili mutant; dokuzunun tamamı yabanıl tip Cx26 ile birlikte yerleşip immünopresipite oldu ve boya aktarımını baskıladı | ✅ |
+| 14.6 | p.Met34Thr ve p.Val37Ile, “heterozigot bulunduysa dominant” diye yorumlanmamalıdır; AR nonsendromik işitme kaybında değişken ekspresivite ve eksik penetransla değerlendirilir | Shen 2019 ClinGen İşitme Kaybı Uzman Paneli PMC ana metni: olgu–kontrol, allelik, segregasyon ve işlevsel kanıtların uzlaşı sentezi | ✅ |
+
+**Sınır:** Bu üç kaynak “bütün heterozigot *GJB2* varyantları dominanttır” veya “bütün bialelik genotipler aynı ağırlıktadır” sonucunu desteklemez. Bölüm metni bu nedenle varyant-özgü allelik gereksinim ve mekanizma zorunluluğunu açıkça korur.
+
+**Programatik kapanış:** `python3 00_Şablonlar/kunye_denetle.py` → **259/259 kaynak satırı · 175 benzersiz PMID · 0 uyuşmazlık**. `python3 build_book.py` → **17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 175 benzersiz PMID · 191 doğrulanmış doğrudan nesne hedefi**. Üretilen HTML'de yeni paragraf, üç bölüm kaynağı ve üç toplu kaynakça kaydı ayrıca metin eşleştirmesiyle doğrulandı.
+
+# Bölüm 17 — Mekanizmadan varyant yorumuna (tamamlandı)
 
 **Denetim tarihi:** 27.07.2026 · Kitabın **en normatif** bölümü olduğu için T1 odaklı denetlendi.
 
 | # | Bulgu | Eylem |
 |---|---|---|
-| 16.1 | **Bulgu 7.1'in tekrarı — üç ayrı yerde.** Bölüm 16, RNA-splicing kanıtını **PS3** ile eşleştiriyordu: (a) varyant-tipi tablosunda "Kanonik splice → PVS1 → **PS3 (RNA)**", (b) aynı tabloda "Derin intronik/sessiz → PP3 → **PS3 (RNA)**", (c) test tablosunda "RNA-seq **PS3 ve PVS1 için** doğrudan kanıt üretir", (d) uzman-panel özetinde "**PS3'ün RNA verisiyle ilişkilendirilmesi**" | ⚠️→✅ dördü de düzeltildi: RNA-splicing bulgusu → **PVS1_Strength**; etkisizlik → **BP7**; PS3/BS3 → RNA-splicing testinin ölçmediği işlevsel etki (Walker ve ark., 2023) |
-| 16.2 | **Mekanizma × kriter matrisi** (Şekil 16.3) — kitabın ikinci büyük özgün çerçevesi | ✅ **zaten etiketliydi**: metinde, öz-denetim tablosunda ve bölüm sonu notunda "pedagojik özet, normatif değil" uyarısı mevcut. Düzeltme gerekmedi |
-| 16.3 | PM2'nin günümüzde **destekleyici** güce indirilmesi | ✅ ClinGen SVI uygulamasıyla uyumlu; kitap bunu açıkça yazıyor |
-| 16.4 | CNV, mtDNA, splice ve kodlamayan varyantlar için **ayrı spesifikasyonlar** olduğunun listelenmesi (Riggs 2020, McCormick 2020, Walker 2023, Ellingford 2022) | ✅ dördü de doğru kaynağa bağlı |
+| 17.1 | **Bulgu 7.1'in tekrarı — üç ayrı yerde.** Bölüm 17, RNA-splicing kanıtını **PS3** ile eşleştiriyordu: (a) varyant-tipi tablosunda "Kanonik splice → PVS1 → **PS3 (RNA)**", (b) aynı tabloda "Derin intronik/sessiz → PP3 → **PS3 (RNA)**", (c) test tablosunda "RNA-seq **PS3 ve PVS1 için** doğrudan kanıt üretir", (d) uzman-panel özetinde "**PS3'ün RNA verisiyle ilişkilendirilmesi**" | ⚠️→✅ dördü de düzeltildi: RNA-splicing bulgusu → **PVS1_Strength**; etkisizlik → **BP7**; PS3/BS3 → RNA-splicing testinin ölçmediği işlevsel etki (Walker ve ark., 2023) |
+| 17.2 | **Mekanizma × kriter matrisi** (Şekil 16.3) — kitabın ikinci büyük özgün çerçevesi | ✅ **zaten etiketliydi**: metinde, öz-denetim tablosunda ve bölüm sonu notunda "pedagojik özet, normatif değil" uyarısı mevcut. Düzeltme gerekmedi |
+| 17.3 | PM2'nin günümüzde **destekleyici** güce indirilmesi | ✅ ClinGen SVI uygulamasıyla uyumlu; kitap bunu açıkça yazıyor |
+| 17.4 | CNV, mtDNA, splice ve kodlamayan varyantlar için **ayrı spesifikasyonlar** olduğunun listelenmesi (Riggs 2020, McCormick 2020, Walker 2023, Ellingford 2022) | ✅ dördü de doğru kaynağa bağlı |
 
 **Yorum:** 16.1, denetimin en değerli tekrar bulgusudur. Bölüm 7'de düzeltilen kural, kitabın **özet/sentez** bölümünde dört ayrı yerde eski hâliyle duruyordu. Bu, tek bir bölümü düzeltmenin yetmediğini gösterir: normatif bir kural değiştiğinde kitap **genelinde** aranmalıdır. (Aynı ders pLI/Karczewski kalıbında da çıkmıştı.)
 
 ---
 
-# Bölüm 17 — Klinik senaryolarla sentez (tamamlandı)
+# Bölüm 18 — Klinik senaryolarla sentez (tamamlandı)
 
 **Denetim tarihi:** 27.07.2026
 
 | # | İddia (kitapta) | Otoriteden gelen | Durum |
 |---|---|---|---|
-| 17.1 | 100.000 Genom pilotu: **2.183 aileden 4.660 katılımcı**; HPO ile fenotipleme; sanal panel + otomatik önceliklendirme; probandların **%25'inde** tanı; monogenik %35 ↔ kompleks %11; EY/işitme/görme **%40–55**; tanıların **%14'ü** araştırma+otomatik birleşimiyle (kodlamayan, yapısal, mitokondriyal ve ekzomun kötü kapsadığı kodlayan varyantlar); tanıların dörtte biri **anında** klinik sonuç doğurdu | Smedley 2021 (NEJM) özeti — **yedi sayının yedisi de birebir** | ✅ |
-| 17.2 | DDD yeniden analizi: 2014'te **1.133** çocukta %27; iyileştirilmiş varyant çağırma, yeni algoritmalar, güncel anotasyon, kanıta dayalı filtreleme ve **yeni hastalık genleri** ile 182 ek tanı → **454/1.133 (%40)**; 43 kişide (%4) belirsiz bulgu | Wright 2018 özeti — beş yöntem kalemi ve tüm sayılar **birebir** | ✅ |
-| 17.3 | **Bulgu 7.1'in üçüncü tekrarı:** "Yanlış dokudan yapılan RNA analizi **PS3** üretmez" ve Algoritma'da "Splice → **PS3** + PVS1 basamağı" | ⚠️→✅ ikisi de düzeltildi (RNA-splicing → **PVS1_Strength**; etkisizlik → BP7). §7'deki "İşlev kazanımı/DN → PM1 + PS3" kullanımı ise **doğru** ve korundu (gerçek işlevsel test) |
+| 18.1 | 100.000 Genom pilotu: **2.183 aileden 4.660 katılımcı**; HPO ile fenotipleme; sanal panel + otomatik önceliklendirme; probandların **%25'inde** tanı; monogenik %35 ↔ kompleks %11; EY/işitme/görme **%40–55**; tanıların **%14'ü** araştırma+otomatik birleşimiyle (kodlamayan, yapısal, mitokondriyal ve ekzomun kötü kapsadığı kodlayan varyantlar); tanıların dörtte biri **anında** klinik sonuç doğurdu | Smedley 2021 (NEJM) özeti — **yedi sayının yedisi de birebir** | ✅ |
+| 18.2 | DDD yeniden analizi: 2014'te **1.133** çocukta %27; iyileştirilmiş varyant çağırma, yeni algoritmalar, güncel anotasyon, kanıta dayalı filtreleme ve **yeni hastalık genleri** ile 182 ek tanı → **454/1.133 (%40)**; 43 kişide (%4) belirsiz bulgu | Wright 2018 özeti — beş yöntem kalemi ve tüm sayılar **birebir** | ✅ |
+| 18.3 | **Bulgu 7.1'in üçüncü tekrarı:** "Yanlış dokudan yapılan RNA analizi **PS3** üretmez" ve Algoritma'da "Splice → **PS3** + PVS1 basamağı" | ⚠️→✅ ikisi de düzeltildi (RNA-splicing → **PVS1_Strength**; etkisizlik → BP7). §7'deki "İşlev kazanımı/DN → PM1 + PS3" kullanımı ise **doğru** ve korundu (gerçek işlevsel test) |
 
-**Yorum:** Bölüm 17, sayısal disiplin bakımından kitabın en iyi bölümü: iki ulusal ölçekli çalışmadan alınan **on iki ayrı sayının tamamı** kaynak özetleriyle birebir örtüştü. Buna karşılık aynı bölümde PS3/splice kalıbı üçüncü kez göründü — bu kusurun bir "dikkatsizlik" değil, kitabın yazıldığı dönemde **yerleşmiş yanlış bir alışkanlık** olduğunu gösteriyor.
+**Yorum:** Bölüm 18, sayısal disiplin bakımından kitabın en iyi bölümü: iki ulusal ölçekli çalışmadan alınan **on iki ayrı sayının tamamı** kaynak özetleriyle birebir örtüştü. Buna karşılık aynı bölümde PS3/splice kalıbı üçüncü kez göründü — bu kusurun bir "dikkatsizlik" değil, kitabın yazıldığı dönemde **yerleşmiş yanlış bir alışkanlık** olduğunu gösteriyor.
 
 ---
 
@@ -689,7 +703,7 @@ python3 00_Şablonlar/kunye_denetle.py
 | Denetlenen bölüm | **17/17** |
 | Programatik olarak doğrulanan künye satırı | **194/194** (118 benzersiz PMID; 0 uydurma, 0 sapma) |
 | ❌ **Olgusal (bilgi) yanlışı** | **0** |
-| ⚠️ **Normatif (T1) yanlış** | **1 kural, 3 bölümde 7 ayrı yerde** — RNA-splicing kanıtının PS3 ile kodlanması (Böl. 7, 16, 17) |
+| ⚠️ **Normatif (T1) yanlış** | **1 kural, 3 bölümde 7 ayrı yerde** — RNA-splicing kanıtının PS3 ile kodlanması (Böl. 7, 17, 18) |
 | ⚠️ **Atıf kapsamı hatası** (doğru bilgi, yanlış çapa) | **6** (4.8 · 8.6 · 9.8 · 9.9 · 15.1 · 10.5) |
 | ⚠️ Sayı/derece hassaslaştırması | **7** (1.5 · 1.8 · 4.4 · 4.5 · 6.3 · 8.2 · 10.4) |
 | ➕ Kaynakta olup kitaba geçmemiş, eklenen içerik | **12** |
@@ -703,7 +717,7 @@ Denetim, birbirinden bağımsız üç hata kalıbı ortaya çıkardı; üçü de
 
 1. **Atıf kapsamının kayması.** Cümle doğru, kaynak var, künye kusursuz — ama o cümle o kaynakta yok. En net örnek 4.8: *SCN2A* işlev kaybının otizmle ilişkisi Berecki 2018'e atfedilmişti; o makale otizmden hiç söz etmez. Yalnız **kaynak-cümle karşılaştırması** yakalar.
 2. **Belirsizliğin sıkılaştırılması.** Kaynak "ikinci en yüksek" derken kitap "en yüksek", kaynak "yarı yarıya" derken kitap "tipik olarak", kaynak "işaret ediyor" derken kitap "göstermiştir" diyor. Tek tek küçük, toplamda kitabın kesinlik tonunu kaynaklarının üstüne çıkarıyor.
-3. **Düzeltmenin tek bölümde kalması.** Bölüm 7'de bulunan normatif hata, Bölüm 16'da dört, Bölüm 17'de iki yerde daha duruyordu; pLI/Karczewski atfı üç bölümde birden vardı. **Bir kural düzeltildiğinde kitap genelinde aranmalıdır.**
+3. **Düzeltmenin tek bölümde kalması.** Bölüm 7'de bulunan normatif hata, Bölüm 17'de dört, Bölüm 18'de iki yerde daha duruyordu; pLI/Karczewski atfı üç bölümde birden vardı. **Bir kural düzeltildiğinde kitap genelinde aranmalıdır.**
 
 ## Ne iddia edilebilir, ne edilemez
 
@@ -725,17 +739,17 @@ Doğrulama turundan kalan beş "izlenecek" kalemin tamamı kitap geneli taramayl
 |---|---|---|---|
 | K1 | Mermaid etiketlerinde `\n` kullanımı | Tüm `Bölüm_*.md` üzerinde düz metin taraması | ✅ **0 eşleşme** — Bölüm 9 düzeltmesi dışında hiç yokmuş |
 | K2 | Kiril / karışık alfabe bulaşması | Tüm `Bölüm_*.md` + `kitap/*.md` üzerinde `[\x{0400}-\x{04FF}]` taraması | ✅ **0 eşleşme** |
-| K3 | PS3'ün splice bağlamında kullanımı (Böl. 13, 16, 17) | Bölümlerde tüm `PS3` geçişlerinin bağlam okuması | ✅ Splicing kanıtı **PVS1_Strength**, etkisizlik **BP7** olarak kodlanmış (Böl. 16 §hızlı-referans ve §özet). Böl. 13'teki PS3 kullanımı **kodlamayan** varyantların reporter/MPRA kanıtı içindir — doğru. Böl. 17'deki PS3 kullanımları GoF/DN yön testi içindir — doğru |
-| K4 | Berecki 2018'in kapsam dışı kullanımı (Böl. 15, 16, 17) | Üç bölümdeki tüm geçişlerin okunması | ✅ Üçünde de yalnızca **elektrofizyolojik yön ayrımı** için kullanılmış; OSB/EY iddiası Böl. 15'te ayrıca **Sanders 2018**'e bağlanmış ve künyede "Berecki 2018'in kapsamı dışındadır" notu düşülmüş |
-| K5 | pLI'nin Karczewski 2020'ye atfı (doğrusu Lek 2016) | Böl. 16'da `pLI` taraması | ⚠️→✅ **Bulundu ve düzeltildi.** §PM2 klinik kutusunda "pLI/LOEUF; Karczewski ve ark., 2020" duruyordu; metin pLI → **Lek 2016**, LOEUF → Karczewski 2020 olarak ayrıştırıldı, Lek 2016 künyesi Böl. 16 kaynakçasına (no. 25) eklendi ve Bölüm 0 kütüğünde bölüm listesi güncellendi |
+| K3 | PS3'ün splice bağlamında kullanımı (Böl. 13, 17, 18) | Bölümlerde tüm `PS3` geçişlerinin bağlam okuması | ✅ Splicing kanıtı **PVS1_Strength**, etkisizlik **BP7** olarak kodlanmış (Böl. 17 §hızlı-referans ve §özet). Böl. 13'teki PS3 kullanımı **kodlamayan** varyantların reporter/MPRA kanıtı içindir — doğru. Böl. 18'deki PS3 kullanımları GoF/DN yön testi içindir — doğru |
+| K4 | Berecki 2018'in kapsam dışı kullanımı (Böl. 15, 17, 18) | Üç bölümdeki tüm geçişlerin okunması | ✅ Üçünde de yalnızca **elektrofizyolojik yön ayrımı** için kullanılmış; OSB/EY iddiası Böl. 15'te ayrıca **Sanders 2018**'e bağlanmış ve künyede "Berecki 2018'in kapsamı dışındadır" notu düşülmüş |
+| K5 | pLI'nin Karczewski 2020'ye atfı (doğrusu Lek 2016) | Böl. 17'de `pLI` taraması | ⚠️→✅ **Bulundu ve düzeltildi.** §PM2 klinik kutusunda "pLI/LOEUF; Karczewski ve ark., 2020" duruyordu; metin pLI → **Lek 2016**, LOEUF → Karczewski 2020 olarak ayrıştırıldı, Lek 2016 künyesi Böl. 17 kaynakçasına (no. 25) eklendi ve Bölüm 0 kütüğünde bölüm listesi güncellendi |
 
-**Ek düzeltme (biçim):** Bölüm 0 indeksinde Bölüm 16 için "3 Mermaid" yazıyordu; dosyada 2 Mermaid var — indeks düzeltildi.
+**Ek düzeltme (biçim):** Bölüm 0 indeksinde Bölüm 17 için "3 Mermaid" yazıyordu; dosyada 2 Mermaid var — indeks düzeltildi.
 
 **Programatik yeniden doğrulama (28.07.2026):** `python3 00_Şablonlar/kunye_denetle.py` → **196/196 kaynak satırı · 118 benzersiz PMID · 0 uyuşmazlık, 0 eksik.** (Turdaki 194 sayısı, sonradan eklenen künyelerle 196'ya çıkmıştır.)
 
 ## Kapanış turundan çıkan ders
 
-K5, doğrulama turunun üçüncü kalıbını (*"düzeltmenin tek bölümde kalması"*) bir kez daha doğruladı: hata Bölüm 1, 2 ve 3'te düzeltilmiş, Bölüm 16'da kalmıştı — ve orada da metnin gövdesinde değil, bir **klinik kutusunun içinde** duruyordu. Bu, kitap-geneli taramanın yalnızca ana metni değil kutuları, tablo hücrelerini ve künye "kullanım amacı" notlarını da kapsaması gerektiğini gösterir.
+K5, doğrulama turunun üçüncü kalıbını (*"düzeltmenin tek bölümde kalması"*) bir kez daha doğruladı: hata Bölüm 1, 2 ve 3'te düzeltilmiş, Bölüm 17'de kalmıştı — ve orada da metnin gövdesinde değil, bir **klinik kutusunun içinde** duruyordu. Bu, kitap-geneli taramanın yalnızca ana metni değil kutuları, tablo hücrelerini ve künye "kullanım amacı" notlarını da kapsaması gerektiğini gösterir.
 
 Buna karşılık K1–K4'ün temiz çıkması, turda yapılan düzeltmelerin **tek seferde ve tutarlı** biçimde uygulandığını gösteriyor. Kitabın denetlenebilirlik iddiası bu turla birlikte tamamlanmıştır.
 
@@ -790,3 +804,69 @@ Buna karşılık K1–K4'ün temiz çıkması, turda yapılan düzeltmelerin **t
 **Sayfa numarası sınırı:** Akışkan HTML'nin sabit sayfası yoktur. Baskı CSS'sine `target-counter(attr(href), page)` altyapısı eklendi; ancak bu özellik sıradan tarayıcı PDF'inde garanti edilmez. Nihai sabit PDF, uyumlu bir sayfalama motoruyla üretildikten sonra nesne listelerindeki numaralar ile gerçek hedef sayfalar görsel olarak doğrulanmadan bu kalem “yayın kapanışı tamamlandı” sayılmayacaktır.
 
 **Git durumu:** Paket kullanıcı onayıyla uygulandı; Git geçmişi commit düzeyinde korunur, push kullanıcı tarafından yapılır.
+
+---
+
+# Bölüm 16 — Kalıtsal kanser yatkınlığı ve ikinci vuruş (04.08.2026)
+
+**Kapsam:** Yeni bağımsız Bölüm 16; *RB1, APC*, MMR genleri, *TP53, DICER1, TSC1/2, NF1* ve iki-vuruş modelinin *RET* sınır örneği. Eski Bölüm 16–17, içerikleri değiştirilmeden nesne ve çapraz gönderme düzeyinde 17–18'e kaydırıldı.
+
+## Kaynak erişimi ve kanıt haritası
+
+- **Bibliyografik katman:** 20 hakemli kaynağın PMID, DOI, başlık, yıl, dergi ve yazar bilgileri NCBI PubMed XML ile programatik eşleştirildi. Bunların 19'u bu bölüm için yeni; Edery 1997 merkezî kütükten yeniden kullanıldı.
+- **İddia katmanı:** Knudson dahil 19 PMC ana metni indirildi ve ilgili yöntem/sonuç/tartışma bölümleri okundu. ClinGen DICER1 VCEP'nin **v1, 05.05.2022 onaylı** resmî PDF'si indirildi ve metin aranabilirliği doğrulandı.
+- **Textbook çapraz kontrolü:** *Thompson & Thompson Genetics and Genomics in Medicine* (2023), s. 368 ve *Human Molecular Genetics* 5. baskı, s. 621–622; Knudson/iki-vuruş çerçevesi için T4 çapraz kontrolü olarak kullanıldı. Bilimsel ana iddialar yalnız textbook'a dayandırılmadı.
+- **Erişim sorunu:** Bazı Europe PMC XML çıktıları güvenilir tam metin ayrıştırması vermedi; kanıt olarak kullanılmadı. Aynı makalelerin resmî PMC HTML ana metinleri indirildi. Özet veya arama sonucu hiçbir iddianın nihai kanıtı sayılmadı.
+
+| İddia kümesi | Birincil/ana hat | Bağımsız çapraz hat | Sonuç ve sınır |
+|---|---|---|---|
+| Kalıtsal ve sporadik retinoblastomada olay sayısı | Knudson 1971 | Lohmann ve ark. 2011 | ✅ Germline + somatik ile iki somatik yol ayrıldı; 48 olguluk kurucu model açık yazıldı |
+| LOH'nin delesyonla eş anlamlı olmaması | Garcia-Linares ve ark. 2011 | Giannikou ve ark. 2016 | ✅ Delesyon ile mitotik rekombinasyon/kopya-nötr LOH ayrı laboratuvar izleri olarak işlendi |
+| *APC*'de basit “iki tam kayıp” modelinin yetersizliği | Sieber ve ark. 2006 | Monahan ve ark. 2020 | ✅ İkinci/üçüncü olay ve optimal artık işlev; ampirik yönetim sınırı korundu |
+| MMR kaybı, MSI ve sporadik–kalıtsal ayrım | Boland & Goel 2010 | Monahan ve ark. 2020 | ✅ IHC/MSI yolak imzası germline genotiple eşitlenmedi; *MLH1* metilasyon ayrımı belirtildi |
+| *TP53* missense dominant-negatif etki ve LOH sınırı | Boettcher ve ark. 2019 | Fortuno ve ark. 2021 | ✅ LOH sık olabilir fakat zorunlu değildir; germline yorum VCEP ölçütlerine bağlandı |
+| Kanda düşük VAF'li *TP53* bulgusu | Weitzel ve ark. 2018 | Fortuno ve ark. 2021 | ✅ Klonal hematopoez, konstitüsyonel mozaiklik ve alternatif doku ayrımı yazıldı |
+| *DICER1* değiştirilmiş iki-vuruş mimarisi | Brenneman ve ark. 2015 | Schultz 2018 + Hatton 2023 + ClinGen v1 PDF | ✅ LoF + RNase IIIb hotspot; olay sırası/mozaiklik ve PP4'ün gene özgü koşulları sınırlandı |
+| *TSC1/2* bialelik olaylar ve bağımsız lezyonlar | Giannikou ve ark. 2016 | Qin ve ark. 2011 | ✅ İki bağımsız anjiyomiyolipom serisinde TSC2 varyantı/LOH hattı doğrulandı; aynı bireydeki farklı lezyonların bağımsız klonal olayları metastaz varsayımından ayrıldı |
+| *NF1*'de neoplastik hücre ve mikroçevre | Garcia-Linares ve ark. 2011 | Yang ve ark. 2008 | ✅ Bulk tümör saflığı ile heterozigot mikroçevre ayrı kanıt hatları olarak işlendi |
+| Tümör-only bulgudan germline çıkarım sınırı | Li ve ark. 2017 | Mandelker ve ark. 2019 | ✅ VAF tek başına germline köken kanıtı sayılmadı; eşlenik/uygun normal örnek gereği korundu |
+| Yöntem tablosunda long-read ve metilasyon analizi | Olivucci ve ark. 2024 | Aref-Eshghi ve ark. 2019 | ✅ SV/faz/zor bölge avantajları ve rutin klinik sınırlar; genom çapında metilasyonun doku ve doğrulama sınırları ana metinden daraltıldı |
+
+## Çelişki ve kapsam çözümü
+
+Kaynaklar arasında doğrudan çözümsüz olgusal çelişki saptanmadı. Görünür gerilimler model kapsamından doğuyordu: klasik *RB1* iki-vuruş modeli *TP53*'te dominant-negatif etkiyi, *DICER1*'de seçici RNase IIIb işlev değişikliğini ve *APC*'de optimal artık işlev/üçüncü olay seçilimini tek başına açıklamaz. Bunlar “kaynaklardan biri yanlış” biçiminde değil, **gene özgü allelik mimari** olarak ayrıştırıldı. *RET* GoF–MEN2 örneği, iki-vuruş modelinin bütün kanser yatkınlığı genlerine genellenemeyeceği sınırını gösterir.
+
+## Uygulama ve doğrulama sonucu
+
+- Yeni bölüm: 10 standart başlık · 4 SVG · 3 Mermaid · 5 tablo · 20 hakemli kaynak.
+- 🏷️ **T5 etiketi:** “ilk olay → ikinci olay → seçilim bağlamı” kitabın editöryal sentezi olarak açıkça etiketlendi.
+- Kesin sınırlar: LOH ≠ delesyon; iki-vuruş evrensel değildir; tümör VAF'ı germline kökeni kanıtlamaz; kan negatifliği düşük düzey/doku-sınırlı mozaikliği dışlamaz; tümörde ikinci olay germline VUS'u otomatik yükseltmez; bölüm tarama/tedavi protokolü değildir.
+- Programatik künye denetimi: **279/279 kaynak satırı · 194 benzersiz PMID · 0 uyuşmazlık**.
+- Kitap üretimi: **18 bölüm · 68 şekil · 52 algoritma · 83 tablo · 194 benzersiz PMID · 203 doğrudan nesne hedefi**.
+- Stage, commit ve push yapılmadı.
+
+---
+
+# Kitap sonu öz değerlendirme ve yayın–günlük ayrımı (04.08.2026)
+
+**Kapsam ve iddia türü:** Bu paket yeni bir bilimsel mekanizma, normatif eşik veya klinik oran eklemedi. On sekiz bölümün mevcut ve kaynaklı içeriğinden 54 okuyucu sorusu ile ayrı bir kısımda 54 kısa yanıt yaklaşımı türetildi. Her yanıt grubu, dayanağı olan bölüm ve alt başlıklara geri gönderir; yeni bibliyografik kaynak eklenmedi.
+
+**Yayın ayrımı:** Bölüm kaynak dosyalarındaki 18 “✅ Bölüm öz-denetim tablosu” ve bunları izleyen kaynak doğrulama/uzman turu günlükleri silinmedi. `build_book.py`, bu iç blokları yayın metninden ayırır; kitap sonundaki `kitap/19_Oz_Degerlendirme.md` dosyasını ekler ve her bölümün sonuna kendi soru grubuna doğrudan bağlantı yerleştirir. Bu nedenle yayın tablosu sayısı 83'ten 65'e, doğrudan yayın nesnesi sayısı 203'ten 185'e inmiştir; bilimsel içerik veya kaynak dosyalardaki iç tablolar kaybolmamıştır.
+
+| Denetim | Sonuç |
+|---|---|
+| Soru yapısı | ✅ 18 bölüm · bölüm başına 3 soru · toplam 54 soru |
+| Yanıt ayrımı | ✅ 54 yanıt yaklaşımı sorulardan ayrı `II. Yanıt yaklaşımları` kısmında |
+| Bölüm bağlantıları | ✅ 18/18 bölüm sonu kendi soru grubuna bağlı |
+| Hedef bütünlüğü | ✅ 18 soru hedefi + 18 yanıt hedefi tekil; geri bağlantılar mevcut |
+| İç günlük sızıntısı | ✅ Üretilen HTML'de “Bölüm öz-denetim tablosu” veya “Bölüm sonu kaynak doğrulama komutu” yok |
+| Kaynak dosya koruması | ✅ 18/18 kaynak Markdown dosyasında iç öz-denetim sınırı korunuyor |
+| Yeni bilimsel/normatif iddia | ✅ Yok; sorular ve yanıt anahtarları mevcut bölüm içeriğine geri bağlı |
+| Kitap üretimi | ✅ 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID · 185 nesne hedefi |
+| Kitap geneli künye | ✅ 279/279 kaynak satırı · 194 benzersiz PMID · NCBI ile 0 uyuşmazlık |
+| HTML iç bağlantıları | ✅ 716 bağlantı · 262 hedef adı · 0 eksik veya mükerrer bağlantı hedefi |
+| SVG/XML ve diff biçimi | ✅ 68/68 SVG geçerli · `git diff --check` temiz |
+
+**Build koruması:** Derleme; bir bölümde iç kalite sınırı bulunmazsa, iç günlük yayın metnine sızarsa, soru/yanıt hedeflerinden biri eksik veya mükerrer olursa ya da bölüm–soru bağlantısı koparsa `BuildError` ile durur.
+
+**Git durumu:** Paket kullanıcının “go” onayıyla uygulandı. Stage, commit ve push yapılmadı.

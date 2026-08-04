@@ -16,11 +16,11 @@ Kitap, dört okuyucu grubunu aynı anda gözeterek yazıldı:
 
 **Tıp öğrencileri** için her zor kavram, önce sezgisel bir girişle ve benzetmeyle açılır; ardından tanımlanır, sonra klinikte neden önemli olduğu gösterilir. Terimler ilk geçtikleri yerde cümle içinde tanımlanır; ayrı bir sözlük ezberi gerekmez.
 
-**Genel pediatri hekimleri** için her bölümde "hangi klinik ipucu bu mekanizmayı düşündürür" ve "bu şüpheyle hangi testi isterim" soruları açıkça yanıtlanır; 17. bölüm bunu sekiz uçtan uca senaryoyla tekrar eder.
+**Genel pediatri hekimleri** için her bölümde "hangi klinik ipucu bu mekanizmayı düşündürür" ve "bu şüpheyle hangi testi isterim" soruları açıkça yanıtlanır; 18. bölüm bunu sekiz uçtan uca senaryoyla tekrar eder.
 
 **Çocuk genetiği uzmanları ve yandal asistanları** için mekanizmalar nüanslarıyla, tartışmalı noktalarıyla ve landmark çalışmalara dayandırılarak ele alınır; deep-dive kutuları bu okuyucu için yazılmıştır.
 
-**Genomik veri yorumlayanlar** (laboratuvar uzmanları, biyoinformatikçiler, genetik danışmanlar) için her bölümün 6. başlığı ACMG/ClinGen çerçevesiyle doğrudan bağ kurar; 16. bölüm bu bağların tamamını tek bir matriste toplar.
+**Genomik veri yorumlayanlar** (laboratuvar uzmanları, biyoinformatikçiler, genetik danışmanlar) için her bölümün 6. başlığı ACMG/ClinGen çerçevesiyle doğrudan bağ kurar; 17. bölüm bu bağların tamamını tek bir matriste toplar.
 
 ## Kitap nasıl okunmalı?
 
@@ -28,15 +28,15 @@ Kitap, dört okuyucu grubunu aynı anda gözeterek yazıldı:
 
 Zamanı kısıtlı okuyucular için üç kısayol vardır:
 
-- **Klinik kısayol:** Bölüm 1 → Bölüm 17 → oradan senaryoların gönderdiği bölümler.
-- **Laboratuvar kısayolu:** Bölüm 2 → Bölüm 16 → Bölüm 14 → ilgilendiğiniz mekanizma bölümü.
-- **Sınav kısayolu:** her bölümün başındaki *çekirdek tez* ve *öğrenme hedefleri*, sonundaki *öz-denetim tablosu* ve *sık yapılan hatalar* kutusu.
+- **Klinik kısayol:** Bölüm 1 → Bölüm 18 → oradan senaryoların gönderdiği bölümler.
+- **Laboratuvar kısayolu:** Bölüm 2 → Bölüm 17 → Bölüm 14 → ilgilendiğiniz mekanizma bölümü.
+- **Sınav kısayolu:** her bölümün başındaki *çekirdek tez* ve *öğrenme hedefleri*, *sık yapılan hatalar* kutusu ve kitap sonundaki bölüm bazlı *öz değerlendirme soruları*.
 
 ## Her bölümün yapısı
 
 Bölümler aynı iskeleti izler; bu, aradığınızı nerede bulacağınızı bilmenizi sağlar.
 
-Her bölüm bir **çekirdek tez** ve **öğrenme hedefleriyle** açılır. Ardından on standart başlık gelir: kavramsal tanım, moleküler mekanizma, varyant tipleri, klinik fenotipe dönüşüm, tanısal testlerle ilişkisi, varyant yorumlama açısından önemi, pediatrik klinik örnekler, sık yapılan hatalar, klinik karar algoritması ve kaynaklar. Bölüm, bir **öz-denetim tablosu** ve **kaynak doğrulama durumuyla** kapanır.
+Her bölüm bir **çekirdek tez** ve **öğrenme hedefleriyle** açılır. Ardından on standart başlık gelir: kavramsal tanım, moleküler mekanizma, varyant tipleri, klinik fenotipe dönüşüm, tanısal testlerle ilişkisi, varyant yorumlama açısından önemi, pediatrik klinik örnekler, sık yapılan hatalar, klinik karar algoritması ve kaynaklar. Her bölümün sonunda kitap sonundaki ilgili **öz değerlendirme sorularına** bağlantı bulunur; yanıt yaklaşımları sorulardan ayrı tutulur. Ayrıntılı öz-denetim ve kaynak doğrulama kayıtları proje kaynaklarında korunur, yayın metninde gösterilmez.
 
 Metin içinde dört kutu türü kullanılır: **🔬 deep-dive** (mekanizmanın derinine inen, ileri düzey tartışma), **🟦 klinikte dikkat** (pratik uyarı), **🔴 sık yapılan hata** (yaygın yanlışların listesi) ve **🧠 hatırlatıcı** (mnemonik). Doğrulanamamış ya da tartışmalı iddialar **⚠️** ile işaretlenir.
 

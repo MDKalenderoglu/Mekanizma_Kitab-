@@ -1,13 +1,13 @@
-# Bölüm 17 — Klinik Senaryolarla Sentez: Hastadan Mekanizmaya
+# Bölüm 18 — Klinik Senaryolarla Sentez: Hastadan Mekanizmaya
 
 > **Bölümün çekirdek tezi:** Bu kitap on altı bölüm boyunca tek yönde ilerledi: mekanizmadan kliniğe. Önce moleküler kusuru tanımladık, sonra hücresel sonucunu, sonra fenotibi, sonra testi ve yorumu. Klinik pratik ise **ters yönde** çalışır: karşınızda bir hasta vardır ve mekanizmayı bilmezsiniz. Bu bölüm, kitabın bütün içeriğini bu ters yöne çevirir ve tek bir soruya indirger: **elimdeki klinik tablo, hangi mekanizmayı düşündürüyor ve o mekanizmayı hangi test görebilir?** Bölümün ikinci tezi buradan doğar: genetik tanı bir test sonucu değil, bir **akıl yürütme zinciridir** — fenotip, mekanizma hipotezi, test seçimi, varyant, kanıt, sınıflandırma ve danışma halkalarından oluşur; ve zincirin gücü en zayıf halkası kadardır. Üçüncü tez, gündelik pratiğin en yanlış anlaşılan cümlesiyle ilgilidir: **"genetik test negatif" bir tanı değil, bir zaman damgasıdır.** Negatiflik çoğu zaman "genetik neden yok" anlamına gelmez; "kullandığım yöntemin göremediği bir yerde olabilir" anlamına gelir — ve bu kör noktalar, kitabın önceki bölümlerinde tek tek öğrenildiği için önceden bilinebilir ve sırayla kapatılabilir.
 
 > **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** §7'deki sekiz senaryo kitabın tamamının somut özetidir; her senaryonun sonundaki "öğreti" cümlesi ilgili bölüme geri gönderir.
-> · **② Klinik — pediatrist ve klinisyen:** §2, §4 ve §5 ile Şekil 17.1–17.2 doğrudan poliklinik pratiğine aittir.
+> · **② Klinik — pediatrist ve klinisyen:** §2, §4 ve §5 ile Şekil 18.1–17.2 doğrudan poliklinik pratiğine aittir.
 > · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §9'daki ana algoritma, bir olguyu baştan sona götürmenin kontrol listesidir; kitabı baştan okuyan için sınav provası gibi de kullanılabilir.
 
-> 🖼️ **Görseller hakkında not:** Şekil 17.1–17.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
+> 🖼️ **Görseller hakkında not:** Şekil 18.1–17.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
 ---
 
@@ -34,13 +34,13 @@ Klinik genetikte iki farklı düşünme biçimi bir arada kullanılır ve ikisi 
 
 **Mekanizmacı akıl yürütme** ise bu kitabın öğrettiği yoldur ve tam olarak bu iki boşluğu kapatır. Sendromun adını bilmeseniz bile, klinik bulgular size **hangi moleküler mekanizmanın** iş başında olabileceğini söyler; mekanizma da hangi testin o kusuru görebileceğini belirler. Asimetrik, çizgisel bir tutulum gördüğünüzde aklınıza gelen şey bir sendrom adı olmayabilir — ama "postzigotik bir olay olmuş olabilir" düşüncesi, kandan değil **etkilenmiş dokudan** örnek almanızı sağlar ve tanıyı kurtarır.
 
-Şekil 17.1, bu çeviriyi sistematik hâle getirir.
+Şekil 18.1, bu çeviriyi sistematik hâle getirir.
 
-![Şekil 17.1 — Klinik ipucundan mekanizmaya: hastadan geriye doğru okumak](assets/sekil_58_klinik_ipucu_mekanizma.svg)
+![Şekil 18.1 — Klinik ipucundan mekanizmaya: hastadan geriye doğru okumak](assets/sekil_58_klinik_ipucu_mekanizma.svg)
 
 Bu çevirinin ön koşulu **derin fenotiplemedir**. Fenotibi ne kadar ayrıntılı ve ne kadar standart biçimde kaydederseniz, hem mekanizma hipoteziniz o kadar keskinleşir hem de laboratuvarın varyant önceliklendirmesi o kadar isabetli olur. Bu amaçla geliştirilen İnsan Fenotip Ontolojisi (Human Phenotype Ontology, HPO), insan hastalıklarında görülen fenotipik anormallikleri tanımlamak ve hesaplamalı olarak analiz etmek için kapsamlı ve mantıksal bir standart sunmak üzere 2008'de başlatılmış ve bugün fenotip alışverişinde dünya çapında bir standart hâline gelmiştir; nöroloji, nefroloji, immünoloji, pulmonoloji ve yenidoğan taraması gibi alanlarda kapsamı sürekli genişletilmektedir (Köhler ve ark., 2021). Pratik karşılığı şudur: "gelişme geriliği" gibi genel bir ifade yerine standart terimlerle kaydedilmiş ayrıntılı bir fenotip, varyant önceliklendirme algoritmalarının çalışabileceği bir girdiye dönüşür.
 
-**Tablo 17.1 — Klinik akıl yürütmenin temel kavramları**
+**Tablo 18.1 — Klinik akıl yürütmenin temel kavramları**
 
 | Kavram | Tanım | Pratik karşılığı |
 |---|---|---|
@@ -57,7 +57,7 @@ Bu çevirinin ön koşulu **derin fenotiplemedir**. Fenotibi ne kadar ayrıntıl
 
 ### 2.1 Ondan az ipucu, kitabın tamamını kapsar
 
-Şekil 17.1'deki listenin gücü, kısalığındadır. Pediatrik genetik pratiğinde karşılaşılan mekanizmaya-özgü ipuçlarının çoğu bir düzineyi geçmez ve bunların her biri kitabın bir bölümüne karşılık gelir.
+Şekil 18.1'deki listenin gücü, kısalığındadır. Pediatrik genetik pratiğinde karşılaşılan mekanizmaya-özgü ipuçlarının çoğu bir düzineyi geçmez ve bunların her biri kitabın bir bölümüne karşılık gelir.
 
 **Asimetri ve çizgisellik mozaikliği düşündürür.** Blaschko çizgilerini izleyen pigmentasyon, segmental aşırı büyüme veya tek taraflı tutulum, olayın döllenmeden sonra gerçekleştiğini söyler (Bölüm 12). Bu ipucunun tanısal sonucu doğrudandır: kan örneği yanıltıcı olabilir, **etkilenmiş dokudan** örnek gerekir.
 
@@ -89,21 +89,21 @@ Sonraki kanıt, iki noktayı düzeltir. **Birincisi, "genom her zaman ekzomdan d
 
 Bu sayılar iki şey söyler. Birincisi, negatif sonuç **beklenen** bir olaydır — çoğunluk değilse bile büyük bir azınlıktır. İkincisi, aynı hastadan alınacak ek örnek (ebeveynler) tanısal getiriyi belirgin biçimde artırır.
 
-Peki hangi varyantlar kaçar? Şekil 17.2 bu kör noktaları toplar.
+Peki hangi varyantlar kaçar? Şekil 18.2 bu kör noktaları toplar.
 
-![Şekil 17.2 — "Ekzom negatif" ne demektir? Altı kör nokta](assets/sekil_59_negatif_ekzom_kor_noktalar.svg)
+![Şekil 18.2 — "Ekzom negatif" ne demektir? Altı kör nokta](assets/sekil_59_negatif_ekzom_kor_noktalar.svg)
 
 Bu kör noktaların gerçek klinik ağırlığı, ulusal ölçekli programlarda görülebilir. Birleşik Krallık'ta 2.183 aileden 4.660 katılımcıyı kapsayan genom dizileme pilot çalışmasında, fenotip verileri HPO terimleriyle toplanmış, sanal gen panelleri ve fenotipe dayalı otomatik varyant önceliklendirmesi uygulanmış ve probandların **%25'inde** genetik tanı konmuştur. Tanısal getiri, tek gen kökenli olması muhtemel bozukluklarda (%35) karmaşık kökenli olması muhtemel bozukluklara (%11) göre çok daha yüksek; entelektüel yetersizlik, işitme ve görme bozukluklarında %40–55 aralığında bulunmuştur. Bu bölüm açısından en öğretici bulgu şudur: konulan tanıların **%14'ü** araştırma ve otomatik yaklaşımların birleşimiyle elde edilmiştir ve bu birleşim özellikle **kodlamayan, yapısal ve mitokondriyal genom varyantları ile ekzom dizilemenin iyi kapsamadığı kodlayan varyantlar** için belirleyici olmuştur. Ayrıca konulan tanıların dörtte biri, hasta ya da yakınları için klinik karar vermede **anında** sonuç doğurmuştur (Smedley ve ark., 2021).
 
-> **🔬 Deep-dive — Yeniden analiz: yeni örnek almadan tanı kazanmak.** Kör noktaların en ucuz çözümü yeni bir test değil, var olan verinin yeniden değerlendirilmesidir. Birleşik Krallık'taki Deciphering Developmental Disorders çalışmasında, 2014'te 1.133 ağır gelişimsel bozukluğu olan çocuk ve ebeveynlerinde ekzom dizilemeyle **%27** tanı oranı bildirilmişti. Aynı veri; geliştirilmiş varyant çağırma yöntemleri, yeni varyant saptama algoritmaları, güncellenmiş varyant anotasyonu, kanıta dayalı filtreleme stratejileri ve **yeni keşfedilen hastalık genleri** ışığında yeniden analiz edildiğinde 182 kişiye daha tanı konabilmiş ve genel tanı oranı **454/1.133'e (%40)** yükselmiştir; ayrıca 43 kişide (%4) klinik önemi belirsiz bir bulgu saptanmıştır (Wright ve ark., 2018). Bu, kliniğe doğrudan çevrilebilecek bir sonuçtur: **negatif raporlanan bir olgu, kapanmış bir dosya değildir.** Yeni gen keşiflerinin hızı düşünüldüğünde, 12–24 ayda bir yeniden değerlendirme makul bir pratiktir ve bu, ailenin yeniden örnek vermesini gerektirmez. Yeniden analizin bir başka boyutu da yorumdur: aynı varyant, yeni popülasyon verileri, yeni fonksiyonel çalışmalar ya da gen–hastalık ilişkisinin güncellenmiş geçerliliği ışığında farklı sınıflandırılabilir (Bölüm 16).
+> **🔬 Deep-dive — Yeniden analiz: yeni örnek almadan tanı kazanmak.** Kör noktaların en ucuz çözümü yeni bir test değil, var olan verinin yeniden değerlendirilmesidir. Birleşik Krallık'taki Deciphering Developmental Disorders çalışmasında, 2014'te 1.133 ağır gelişimsel bozukluğu olan çocuk ve ebeveynlerinde ekzom dizilemeyle **%27** tanı oranı bildirilmişti. Aynı veri; geliştirilmiş varyant çağırma yöntemleri, yeni varyant saptama algoritmaları, güncellenmiş varyant anotasyonu, kanıta dayalı filtreleme stratejileri ve **yeni keşfedilen hastalık genleri** ışığında yeniden analiz edildiğinde 182 kişiye daha tanı konabilmiş ve genel tanı oranı **454/1.133'e (%40)** yükselmiştir; ayrıca 43 kişide (%4) klinik önemi belirsiz bir bulgu saptanmıştır (Wright ve ark., 2018). Bu, kliniğe doğrudan çevrilebilecek bir sonuçtur: **negatif raporlanan bir olgu, kapanmış bir dosya değildir.** Yeni gen keşiflerinin hızı düşünüldüğünde, 12–24 ayda bir yeniden değerlendirme makul bir pratiktir ve bu, ailenin yeniden örnek vermesini gerektirmez. Yeniden analizin bir başka boyutu da yorumdur: aynı varyant, yeni popülasyon verileri, yeni fonksiyonel çalışmalar ya da gen–hastalık ilişkisinin güncellenmiş geçerliliği ışığında farklı sınıflandırılabilir (Bölüm 17).
 
 ### 2.3 Zincirin bütünü
 
-Şekil 17.3, kitabın tamamını tek bir akış olarak gösterir ve bu bölümün omurgasıdır.
+Şekil 18.3, kitabın tamamını tek bir akış olarak gösterir ve bu bölümün omurgasıdır.
 
-![Şekil 17.3 — Kitabın omurgası: hastadan rapora, rapordan yeniden hastaya](assets/sekil_60_uctan_uca_akis.svg)
+![Şekil 18.3 — Kitabın omurgası: hastadan rapora, rapordan yeniden hastaya](assets/sekil_60_uctan_uca_akis.svg)
 
-Zincirin en sık kırıldığı üç yer, üç farklı bölüme karşılık gelir. **İkinci halka atlandığında** (mekanizma hipotezi kurulmadan geniş test istendiğinde), negatif sonuç gelir ve nedeni anlaşılmaz; oysa kaçan şey, seçilen testin kör noktasıdır. **Beşinci halka mekanizmasız yapıldığında** (kriterler bir kontrol listesi gibi işaretlendiğinde), PVS1 kapısı ya da hastalık varlığı seçimi atlanır ve sınıf yanlış çıkar (Bölüm 16). **Geri besleme kurulmadığında** ise VUS veya negatif sonuç raporlanır, dosya kapanır ve tanı yıllarca gecikir. Üçünün ortak özelliği, teknolojiyle değil **akıl yürütmeyle** ilgili olmalarıdır.
+Zincirin en sık kırıldığı üç yer, üç farklı bölüme karşılık gelir. **İkinci halka atlandığında** (mekanizma hipotezi kurulmadan geniş test istendiğinde), negatif sonuç gelir ve nedeni anlaşılmaz; oysa kaçan şey, seçilen testin kör noktasıdır. **Beşinci halka mekanizmasız yapıldığında** (kriterler bir kontrol listesi gibi işaretlendiğinde), PVS1 kapısı ya da hastalık varlığı seçimi atlanır ve sınıf yanlış çıkar (Bölüm 17). **Geri besleme kurulmadığında** ise VUS veya negatif sonuç raporlanır, dosya kapanır ve tanı yıllarca gecikir. Üçünün ortak özelliği, teknolojiyle değil **akıl yürütmeyle** ilgili olmalarıdır.
 
 ---
 
@@ -111,7 +111,7 @@ Zincirin en sık kırıldığı üç yer, üç farklı bölüme karşılık geli
 
 Bu bölümde varyant tipi sorusu klinikten başlar: **hangi başvuru tablosunda hangi varyant tipini beklemeliyim ve o tipi hangi yöntem görür?**
 
-**Tablo 17.2 — Klinik tablodan beklenen varyant tipine ve yönteme**
+**Tablo 18.2 — Klinik tablodan beklenen varyant tipine ve yönteme**
 
 | Klinik tablo | Beklenen varyant tipi | Görebilen yöntem | İlgili bölüm |
 |---|---|---|---|
@@ -137,7 +137,7 @@ Tablonun okunma biçimi şudur: sol sütun **klinik**, sağ sütun **yöntem**di
 
 Genomik testlerin yaygınlaşması, "hangi testi isteyeyim?" sorusunu ortadan kaldırmadı; yalnızca sorunun biçimini değiştirdi. Bugün asıl soru, **hangi testi ilk sırada isteyeceğim ve negatif gelirse sırada ne var?** biçimindedir.
 
-**Algoritma 17.1 — İlk basamak test seçimi akışı**
+**Algoritma 18.1 — İlk basamak test seçimi akışı**
 
 ```mermaid
 flowchart TD
@@ -162,14 +162,14 @@ flowchart TD
   J --> L
   K --> L
 
-  L -->|"Evet"| M["Bölüm 16: kanıtı tart, sınıflandır,<br/>raporla → danışma ve izlem"]
-  L -->|"Hayır"| N["KÖR NOKTA basamağına geç<br/>(Şekil 17.2): WGS · RNA · tekrar ·<br/>metilasyon · doku · mtDNA"]
+  L -->|"Evet"| M["Bölüm 17: kanıtı tart, sınıflandır,<br/>raporla → danışma ve izlem"]
+  L -->|"Hayır"| N["KÖR NOKTA basamağına geç<br/>(Şekil 18.2): WGS · RNA · tekrar ·<br/>metilasyon · doku · mtDNA"]
   N --> O["Hâlâ negatif → veriyi paylaş,<br/>TAKVİMLİ yeniden analiz planla<br/>(12–24 ay)"]
 ```
 
 ### 4.2 Trio mu, tek birey mi?
 
-Bu, pratikte en çok maliyet tartışması yaratan ve en çok yanlış kararın verildiği sorudur. Kanıt nettir: kohort içi karşılaştırmalarda trio analizi, tek bireye göre tanı olasılığını yaklaşık iki katına çıkarmaktadır (Clark ve ark., 2018); ulusal ölçekli genom programında da tanısal getiri aile yapısına göre değişmiş ve **trio ile daha geniş pedigrili ailelerde en yüksek** bulunmuştur (Smedley ve ark., 2021). Bunun mekanik nedeni Bölüm 16'da açıklanmıştı: trio, de novo kanıtını (PS2/PM6) ve faz bilgisini (PM3) doğrudan üretir; ikisi de tek bireyden elde edilemez.
+Bu, pratikte en çok maliyet tartışması yaratan ve en çok yanlış kararın verildiği sorudur. Kanıt nettir: kohort içi karşılaştırmalarda trio analizi, tek bireye göre tanı olasılığını yaklaşık iki katına çıkarmaktadır (Clark ve ark., 2018); ulusal ölçekli genom programında da tanısal getiri aile yapısına göre değişmiş ve **trio ile daha geniş pedigrili ailelerde en yüksek** bulunmuştur (Smedley ve ark., 2021). Bunun mekanik nedeni Bölüm 17'de açıklanmıştı: trio, de novo kanıtını (PS2/PM6) ve faz bilgisini (PM3) doğrudan üretir; ikisi de tek bireyden elde edilemez.
 
 ### 4.3 Doku seçimi: bazen testten daha önemli
 
@@ -181,7 +181,7 @@ Kitabın üç bölümü aynı uyarıyı verir. Mozaiklikte etkilenmiş doku (Bö
 
 Bu bölümde tablo, **basamaklı strateji** olarak okunmalıdır: hangi test hangi sırada ve hangi kör noktayı kapatmak için istenir.
 
-**Tablo 17.3 — Basamaklı test stratejisi ve kör noktalar**
+**Tablo 18.3 — Basamaklı test stratejisi ve kör noktalar**
 
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
@@ -203,7 +203,7 @@ Bu bölümde tablo, **basamaklı strateji** olarak okunmalıdır: hangi test han
 
 ## 6. Varyant yorumlama açısından önemi
 
-Bu bölümün varyant yorumlamaya katkısı, Bölüm 16'nın çerçevesini **klinik girdiyle beslemektir**. Üç bağlantı özellikle önemlidir.
+Bu bölümün varyant yorumlamaya katkısı, Bölüm 17'nin çerçevesini **klinik girdiyle beslemektir**. Üç bağlantı özellikle önemlidir.
 
 **Birincisi, fenotip kriterin kendisidir.** Derin fenotipleme, PP4'ün kullanılabilirliğini belirler; ama daha önemlisi, Bölüm 14'te gördüğümüz gibi **hangi hastalık varlığı için** değerlendirme yapılacağını seçtirir. Alelik seri taşıyan bir gende bu seçim, bütün kriterlerin anlamını değiştirir.
 
@@ -211,14 +211,14 @@ Bu bölümün varyant yorumlamaya katkısı, Bölüm 16'nın çerçevesini **kli
 
 **Üçüncüsü, doku seçimi kanıtın geçerliliğini belirler.** Yanlış dokudan yapılan RNA analizi kullanılabilir bir kanıt üretmez (splice bulgusu için **PVS1_Strength**, etkisizlik için BP7 — Bölüm 7); yanlış dokudan bakılan heteroplazmi düzeyi yanlış yorumlanır; kandan yapılan analiz mozaik bir varyantı hiç göstermez ve varyant "yok" sayılır.
 
-**Algoritma 17.2 — Klinik senaryodan kanıt üretimine**
+**Algoritma 18.2 — Klinik senaryodan kanıt üretimine**
 
 ```mermaid
 flowchart TD
   A["Klinik senaryo"] --> B["Mekanizma hipotezi"]
   B --> C{"Bu mekanizma hangi<br/>kanıtı ÜRETEBİLİR?"}
 
-  C -->|"İşlev kaybı"| D["PVS1 kapısı açık →<br/>basamak seç (Şekil 16.2)"]
+  C -->|"İşlev kaybı"| D["PVS1 kapısı açık →<br/>basamak seç (Şekil 17.2)"]
   C -->|"İşlev kazanımı / DN"| E["PVS1 KAPALI →<br/>PM1 (hotspot) + PS3 (yön gösteren test)"]
   C -->|"Splice"| F["RNA analizi planla →<br/>PVS1 karar ağacı +<br/>RNA kanıtı = PVS1_Strength"]
   C -->|"Doz / CNV"| G["CNV puanlama çerçevesi"]
@@ -234,34 +234,34 @@ flowchart TD
   I --> K
   J --> K
 
-  K --> L["Kriterleri seç, güçlerini belirle,<br/>TOPLAM AĞIRLIĞI hesapla (Bölüm 16)"]
+  K --> L["Kriterleri seç, güçlerini belirle,<br/>TOPLAM AĞIRLIĞI hesapla (Bölüm 17)"]
   L --> M{"Sınıf?"}
   M -->|"P / LP"| N["Raporla + mekanizma cümlesi<br/>→ izlem/tarama/aile testi"]
   M -->|"VUS"| O["Eksik kanıtı üret:<br/>aile örneği · RNA · fonksiyonel test<br/>→ takvimli yeniden değerlendirme"]
-  M -->|"LB / B"| P["Nedensel değil —<br/>ama TANI DIŞLANMADI:<br/>kör noktalara dön (Şekil 17.2)"]
+  M -->|"LB / B"| P["Nedensel değil —<br/>ama TANI DIŞLANMADI:<br/>kör noktalara dön (Şekil 18.2)"]
 ```
 
 ---
 
 ## 7. Pediatrik genetikten klinik örnekler: sekiz senaryo
 
-Aşağıdaki sekiz senaryo, kitabın bütün bölümlerini hastanın başında tekrar eder. Her senaryo aynı yapıyı izler: **başvuru → mekanizma hipotezi → test → sonuç → yorum → öğreti.** Şekil 17.4 bu sekiz senaryonun omurgasını tek sayfada toplar.
+Aşağıdaki sekiz senaryo, kitabın bütün bölümlerini hastanın başında tekrar eder. Her senaryo aynı yapıyı izler: **başvuru → mekanizma hipotezi → test → sonuç → yorum → öğreti.** Şekil 18.4 bu sekiz senaryonun omurgasını tek sayfada toplar.
 
-![Şekil 17.4 — Sekiz senaryo panosu: başvurudan mekanizmaya, mekanizmadan teste](assets/sekil_61_senaryo_panosu.svg)
+![Şekil 18.4 — Sekiz senaryo panosu: başvurudan mekanizmaya, mekanizmadan teste](assets/sekil_61_senaryo_panosu.svg)
 
 **Senaryo 1 — Yenidoğan, ağır hipotoni ve solunum yetmezliği.** Doğumdan itibaren belirgin hipotoni, zayıf ağlama, dil fasikülasyonları ve derin tendon reflekslerinin alınamaması. **Mekanizma hipotezi:** ön boynuz motor nöronunda işlev kaybı; klasik olarak bialelik *SMN1* kaybı. **Test:** *SMN1* delesyon analizi (MLPA) — ve kritik olarak **aynı testte *SMN2* kopya sayısı**. **Yorum:** ana kusur bütün hastalarda aynıdır; klinik ağırlığı belirleyen esas değişken yedek genin kopya sayısıdır (Bölüm 15), ve bu etki Bölüm 7'de anlatılan bir splicing farkı üzerinden çalışır (Lorson ve ark., 1999). Büyük serilerde kopya sayısı ile hastalık tipi arasındaki ilişki prognostik kurallar hâlinde ortaya konmuştur (Calucho ve ark., 2018). **Öğreti:** modifier ölçümü burada akademik bir ayrıntı değil, prognoz ve tedavi kararının parçasıdır — dizileme yapmadan önce doğru doz testini istemek gerekir.
 
-**Senaryo 2 — Altı aylık bebek, dirençli nöbetler.** Yaşamın ilk günlerinde başlayan, çoklu antiepileptiğe dirençli nöbetler; EEG'de ağır örüntü; gelişimsel duraklama. **Mekanizma hipotezi:** iyon kanalı hastalığı; başlangıç yaşı erken olduğunda **işlev kazanımı** yönü ön planda. **Test:** trio panel/WES; saptanan de novo missense varyantın **yönü** için fonksiyonel veri. **Yorum:** *SCN2A*'da tekrarlayan varyantların bir kısmı işlev kazanımı, bir kısmı işlev kaybı yönündedir ve bu ayrım elektrofizyolojik olarak gösterilebilir (Berecki ve ark., 2018). Yorumlamada bu, PS3'ün yalnızca "işlev bozulmuş" demek için değil **yönü göstermek** için kullanılması demektir (Bölüm 16). **Öğreti:** mekanizma yönü doğrudan tedaviyi değiştirir; erken başlangıçlı ve işlev kazanımı yönündeki sodyum kanalı tablolarında sodyum kanal blokerleri gündeme gelirken, işlev kaybı tablolarında aynı yaklaşım uygun değildir (Brunklaus ve ark., 2020).
+**Senaryo 2 — Altı aylık bebek, dirençli nöbetler.** Yaşamın ilk günlerinde başlayan, çoklu antiepileptiğe dirençli nöbetler; EEG'de ağır örüntü; gelişimsel duraklama. **Mekanizma hipotezi:** iyon kanalı hastalığı; başlangıç yaşı erken olduğunda **işlev kazanımı** yönü ön planda. **Test:** trio panel/WES; saptanan de novo missense varyantın **yönü** için fonksiyonel veri. **Yorum:** *SCN2A*'da tekrarlayan varyantların bir kısmı işlev kazanımı, bir kısmı işlev kaybı yönündedir ve bu ayrım elektrofizyolojik olarak gösterilebilir (Berecki ve ark., 2018). Yorumlamada bu, PS3'ün yalnızca "işlev bozulmuş" demek için değil **yönü göstermek** için kullanılması demektir (Bölüm 17). **Öğreti:** mekanizma yönü doğrudan tedaviyi değiştirir; erken başlangıçlı ve işlev kazanımı yönündeki sodyum kanalı tablolarında sodyum kanal blokerleri gündeme gelirken, işlev kaybı tablolarında aynı yaklaşım uygun değildir (Brunklaus ve ark., 2020).
 
 **Senaryo 3 — İki yaşında çocuk, gelişimsel gerilik ve dismorfik bulgular.** Çoklu minör anomali, büyüme geriliği, tanınabilir bir sendrom örüntüsü yok. **Mekanizma hipotezi:** dozaj dengesizliği — bitişik gen delesyonu ya da tek gen yetersiz dozu (Bölüm 3, 8). **Test:** kromozomal mikroarray (ya da CNV çözünürlüğü güvenilir bir WGS) + trio dizileme. **Yorum:** açıklanamayan gelişimsel gerilik/çoklu konjenital anomali tablolarında mikroarray birinci basamak test olarak yerleşmiştir (Miller ve ark., 2010); saptanan CNV, dizi varyantı kriterleriyle değil kendi puanlama çerçevesiyle değerlendirilir (Riggs ve ark., 2020). **Öğreti:** "ekzom yaptık, negatif" cümlesi bu senaryoda yetersizdir; ekzom verisinden CNV çağrısı güvenilir değildir ve kör nokta tam buradadır.
 
 **Senaryo 4 — Süt çocuğu, asimetrik aşırı büyüme.** Bir ekstremitede aşırı büyüme, ciltte damarsal malformasyon, keskin sınırlı ve orta hatta duran bir dağılım. **Mekanizma hipotezi:** postzigotik (mozaik) aktive edici varyant (Bölüm 12). **Test:** **etkilenmiş dokudan** (deri/yumuşak doku) derin dizileme; kandan bakılan analiz negatif olabilir. **Yorum:** bu grup bozukluklar, mozaik aktive edici varyantların yol açtığı bir spektrum olarak tanımlanmış ve tanı ölçütleri buna göre düzenlenmiştir (Keppler-Noreuil ve ark., 2015); mozaikliğin klinik ve moleküler sınıfları ile saptama zorlukları ayrıntılı biçimde ele alınmıştır (Biesecker ve Spinner, 2013). **Öğreti:** bu senaryoda testten daha önemli olan karar **doku seçimidir**; yanlış dokudan yapılan doğru test yanlış sonuç verir.
 
-**Senaryo 5 — Beş yaşında çocuk, hipotoni ve laktat yüksekliği.** Egzersiz intoleransı, pitozis ve oftalmopleji, işitme kaybı, anne tarafında benzer yakınmalar. **Mekanizma hipotezi:** mitokondriyal hastalık; maternal kalıtım örüntüsü mtDNA'yı düşündürür (Bölüm 11). **Test:** uygun dokudan (idrar epiteli, gerekirse kas) mtDNA dizileme + nükleer gen paneli. **Yorum:** mitokondriyal hastalıklar iki genomdan da kaynaklanabilir ve heteroplazmi düzeyi dokudan dokuya değişir; tanı ve yönetim bu ikili yapıyı hesaba katmalıdır (Gorman ve ark., 2016; Stewart ve Chinnery, 2015). Varyant yorumlaması ise mtDNA'ya özgü uzmanlaştırılmış çerçeveyle yapılır (Bölüm 16). **Öğreti:** kandan bakılan normal bir heteroplazmi düzeyi tanıyı dışlamaz; doku ve eşik bilgisi olmadan sonuç yorumlanamaz.
+**Senaryo 5 — Beş yaşında çocuk, hipotoni ve laktat yüksekliği.** Egzersiz intoleransı, pitozis ve oftalmopleji, işitme kaybı, anne tarafında benzer yakınmalar. **Mekanizma hipotezi:** mitokondriyal hastalık; maternal kalıtım örüntüsü mtDNA'yı düşündürür (Bölüm 11). **Test:** uygun dokudan (idrar epiteli, gerekirse kas) mtDNA dizileme + nükleer gen paneli. **Yorum:** mitokondriyal hastalıklar iki genomdan da kaynaklanabilir ve heteroplazmi düzeyi dokudan dokuya değişir; tanı ve yönetim bu ikili yapıyı hesaba katmalıdır (Gorman ve ark., 2016; Stewart ve Chinnery, 2015). Varyant yorumlaması ise mtDNA'ya özgü uzmanlaştırılmış çerçeveyle yapılır (Bölüm 17). **Öğreti:** kandan bakılan normal bir heteroplazmi düzeyi tanıyı dışlamaz; doku ve eşik bilgisi olmadan sonuç yorumlanamaz.
 
 **Senaryo 6 — Yenidoğan, makrozomi ve hipoglisemi.** Doğum tartısı yüksek, makroglossi, karın duvarı defekti öyküsü, hemihipertrofi. **Mekanizma hipotezi:** imprinting kusuru (Bölüm 10). **Test:** ilgili imprintli bölgenin **metilasyon analizi**; dizileme tek başına yetersizdir. **Yorum:** bu tablo, alt tipleri farklı moleküler mekanizmalara dayanan ve alt tipe göre tümör riski değişen bir bozukluktur; uluslararası uzlaşı, tanının moleküler alt tipe göre netleştirilmesini ve **tarama planının alt tipe göre kurulmasını** önerir (Brioude ve ark., 2018). **Öğreti:** burada moleküler tanı yalnız etiket değildir; doğrudan izlem protokolünü belirler.
 
-**Senaryo 7 — Sekiz yaşında çocuk, kas güçsüzlüğü ve yüksek kreatin kinaz; panel ve ekzom negatif.** Klinik olarak konjenital kas hastalığı düşünülüyor; geniş panel ve ekzom sonuçsuz. **Mekanizma hipotezi:** kodlayan bölge dışında kalan bir splicing kusuru (Bölüm 7, 13). **Test:** burada sıralama, testin kendisi kadar önemlidir. **Önce WGS — erişilebiliyorsa uzun okuma WGS**: kodlayan analiz negatifken derin intronik, tekrar bakımından zengin ve yapısal olaylara gömülü splice-bozucu lezyonları görme şansı en yüksek basamak budur (Bölüm 7, 13). İkinci basamakta doku sorusu sorulur ve burada sık yapılan bir atlama vardır: aday gen belli ya da olası ise, önce o genin **kanda ifade edilip edilmediğine** bakılmalıdır. İfade ediliyorsa **kandan (germline) bulk RNA dizileme** doğrudan yapılabilir; girişimsel olmadığı için **kas biyopsisinin önüne geçmelidir**. Kas biyopsisi + RNA dizileme, ancak bu basamaklar tanı vermediğinde ya da ilgili gen kanda anlamlı düzeyde ifade edilmediğinde gündeme gelir. **Yorum:** genetik tanısı konmamış nadir kas hastalıkları kohortunda transkriptom dizileme, aday splice-bozucu varyantların doğrulanmasını ve hem ekzonik hem **derin intronik** bölgelerdeki splice-değiştirici varyantların saptanmasını sağlamış, genel tanı oranı **%35** olmuştur; ayrıca sık tekrarlayan bir de novo intronik varyantın, kollajen VI benzeri distrofi düşünülen ve önceki genetik analizleri negatif olan hastaların yaklaşık dörtte birini açıkladığı gösterilmiştir (Cummings ve ark., 2017). **Öğreti:** RNA analizi burada iki iş birden yapar — tanıyı koyar ve Bölüm 16'da gördüğümüz gibi öngörüyü ölçüme çevirerek PS3'ü açar. İkinci ve daha az konuşulan öğreti ise doku seçimine ilişkindir: "doğru doku" ilkesi (Bölüm 11, 12, 13) **en girişimsel dokuyu seçmek** anlamına gelmez. Aranan gen kanda ifade ediliyorsa, kandan yapılan RNA dizileme aynı soruyu girişimsiz biçimde yanıtlayabilir; biyopsi, ancak ifade profili buna izin vermediğinde gerekli hâle gelir.
+**Senaryo 7 — Sekiz yaşında çocuk, kas güçsüzlüğü ve yüksek kreatin kinaz; panel ve ekzom negatif.** Klinik olarak konjenital kas hastalığı düşünülüyor; geniş panel ve ekzom sonuçsuz. **Mekanizma hipotezi:** kodlayan bölge dışında kalan bir splicing kusuru (Bölüm 7, 13). **Test:** burada sıralama, testin kendisi kadar önemlidir. **Önce WGS — erişilebiliyorsa uzun okuma WGS**: kodlayan analiz negatifken derin intronik, tekrar bakımından zengin ve yapısal olaylara gömülü splice-bozucu lezyonları görme şansı en yüksek basamak budur (Bölüm 7, 13). İkinci basamakta doku sorusu sorulur ve burada sık yapılan bir atlama vardır: aday gen belli ya da olası ise, önce o genin **kanda ifade edilip edilmediğine** bakılmalıdır. İfade ediliyorsa **kandan (germline) bulk RNA dizileme** doğrudan yapılabilir; girişimsel olmadığı için **kas biyopsisinin önüne geçmelidir**. Kas biyopsisi + RNA dizileme, ancak bu basamaklar tanı vermediğinde ya da ilgili gen kanda anlamlı düzeyde ifade edilmediğinde gündeme gelir. **Yorum:** genetik tanısı konmamış nadir kas hastalıkları kohortunda transkriptom dizileme, aday splice-bozucu varyantların doğrulanmasını ve hem ekzonik hem **derin intronik** bölgelerdeki splice-değiştirici varyantların saptanmasını sağlamış, genel tanı oranı **%35** olmuştur; ayrıca sık tekrarlayan bir de novo intronik varyantın, kollajen VI benzeri distrofi düşünülen ve önceki genetik analizleri negatif olan hastaların yaklaşık dörtte birini açıkladığı gösterilmiştir (Cummings ve ark., 2017). **Öğreti:** RNA analizi burada iki iş birden yapar — tanıyı koyar ve Bölüm 17'de gördüğümüz gibi öngörüyü ölçüme çevirerek PS3'ü açar. İkinci ve daha az konuşulan öğreti ise doku seçimine ilişkindir: "doğru doku" ilkesi (Bölüm 11, 12, 13) **en girişimsel dokuyu seçmek** anlamına gelmez. Aranan gen kanda ifade ediliyorsa, kandan yapılan RNA dizileme aynı soruyu girişimsiz biçimde yanıtlayabilir; biyopsi, ancak ifade profili buna izin vermediğinde gerekli hâle gelir.
 
 **Senaryo 8 — On iki yaşında çocuk, ilerleyici ataksi; ailede erkenleşme.** Dedede erişkin yaşta başlayan yürüme bozukluğu, babada otuzlu yaşlarda, çocukta on iki yaşında; her kuşakta daha erken ve daha ağır. **Mekanizma hipotezi:** tekrar genişlemesi ve anticipasyon (Bölüm 9). **Test:** hedefli tekrar analizi; standart dizileme bu mekanizmayı görmez. **Yorum:** tekrar genişlemesi hastalıkları, tekrar tipine ve konumuna göre farklı patojenik mekanizmalar (işlev kaybı, RNA toksisitesi, protein toksisitesi) üzerinden çalışır ve anticipasyon bu grubun tanımlayıcı klinik imzasıdır (Paulson, 2018). **Öğreti:** aile öyküsündeki tek bir örüntü, doğru testi doğrudan seçtirebilir; burada dizileme ile başlamak zaman ve kaynak kaybıdır.
 
@@ -293,13 +293,13 @@ Aşağıdaki sekiz senaryo, kitabın bütün bölümlerini hastanın başında t
 
 ## 9. Klinik pratikte karar algoritması
 
-**Algoritma 17.3 — Başvurudan danışmaya: ana klinik algoritma**
+**Algoritma 18.3 — Başvurudan danışmaya: ana klinik algoritma**
 
 ```mermaid
 flowchart TD
   A["HASTA — başvuru"] --> B["1. DERİN FENOTİPLEME<br/>ayırt edici bulgular · aile öyküsü · pedigri ·<br/>başlangıç yaşı · seyir · standart terimler"]
 
-  B --> C["2. MEKANİZMA HİPOTEZİ<br/>Şekil 17.1: klinik ipucu → aday mekanizma"]
+  B --> C["2. MEKANİZMA HİPOTEZİ<br/>Şekil 18.1: klinik ipucu → aday mekanizma"]
 
   C --> D{"Mekanizmaya ÖZGÜ<br/>bir ipucu var mı?"}
   D -->|"Var"| E["3a. HEDEFLİ TEST<br/>tekrar analizi · metilasyon · doku örneği ·<br/>mtDNA · kopya sayısı"]
@@ -309,7 +309,7 @@ flowchart TD
   F --> G
 
   G -->|"Var"| H["4. VARYANTI TANI<br/>tip · konum · faz · VAF · kalıtım · ebeveyn kökeni"]
-  G -->|"Yok"| I["KÖR NOKTA BASAMAĞI (Şekil 17.2)<br/>WGS → RNA → tekrar → metilasyon →<br/>doku (mozaiklik) → mtDNA"]
+  G -->|"Yok"| I["KÖR NOKTA BASAMAĞI (Şekil 18.2)<br/>WGS → RNA → tekrar → metilasyon →<br/>doku (mozaiklik) → mtDNA"]
 
   I --> J{"Şimdi tanısal mı?"}
   J -->|"Evet"| H
@@ -319,7 +319,7 @@ flowchart TD
 
   L --> M{"Sınıf?"}
   M -->|"P / LP"| N["6. DANIŞMA VE İZLEM<br/>risk hastalık varlığına göre ·<br/>izlem/tarama planı · tedavi ve üreme seçenekleri"]
-  M -->|"VUS"| O["Eksik kanıtı üret (Şekil 16.4):<br/>aile örneği · RNA · fonksiyonel test<br/>→ yeniden değerlendirme"]
+  M -->|"VUS"| O["Eksik kanıtı üret (Şekil 17.4):<br/>aile örneği · RNA · fonksiyonel test<br/>→ yeniden değerlendirme"]
   M -->|"LB / B"| K
 
   O --> P{"Sınıf değişti mi?"}
@@ -386,7 +386,7 @@ flowchart TD
 
 ## ✅ Bölüm öz-denetim tablosu
 
-**Tablo 17.4 — Bölüm 17 öz-denetim tablosu**
+**Tablo 18.4 — Bölüm 18 öz-denetim tablosu**
 
 | Kriter | Durum | Not |
 |--------|-------|-----|
@@ -395,7 +395,7 @@ flowchart TD
 | Varyant tipi ile mekanizma ilişkilendirildi mi? | ✅ | 11 satırlık "klinik tablo → beklenen varyant tipi → görebilen yöntem" tablosu |
 | Pediatrik örnek verildi mi? | ✅ | Sekiz senaryonun tamamı pediatrik ve kaynaklı (SMA, *SCN2A*, CNV, mozaik aşırı büyüme, mitokondriyal, BWS, RNA/kas, tekrar genişlemesi) |
 | Test seçimi açıklandı mı? | ✅ | Standart 8 satırlık tablo + basamaklı strateji; altı kör nokta ve her biri için ikinci basamak test |
-| ACMG/ClinGen bağlantısı doğru mu? | ✅ | Fenotip → hastalık varlığı seçimi; aile örneğinin kanıt üretmesi; doku seçiminin kanıt geçerliliğine etkisi (Bölüm 16 ile köprü) |
+| ACMG/ClinGen bağlantısı doğru mu? | ✅ | Fenotip → hastalık varlığı seçimi; aile örneğinin kanıt üretmesi; doku seçiminin kanıt geçerliliğine etkisi (Bölüm 17 ile köprü) |
 | Kaynaklar PMID/DOI ile verildi mi? | ✅ | 24/24 kaynak PMID + DOI-link + kullanım amacı ile (5 yeni doğrulama + 15 kütükten yeniden kullanım) |
 | Spekülatif iddialar işaretlendi mi? | ✅ | Senaryoların öğretici kurgu olduğu ve yerel/güncel kılavuzların esas alınması gerektiği açıkça belirtildi |
 | Kaynak uydurma riski var mı? | ✅ Yok | 5 yeni PMID/DOI bu oturumda PubMed MCP ile doğrulandı; 15'i daha önce doğrulanmış kütük kaydı |
@@ -408,4 +408,4 @@ flowchart TD
 >
 > **Bu bölüm için durum:** **24/24 kaynak PMID+DOI doğrulandı** (5'i bu oturumda PubMed MCP ile — Clark 2018, Wright 2018, Smedley 2021, Köhler 2021, Cummings 2017; 15'i Bölüm_00 kaynak kütüğünden yeniden kullanıldı).
 >
-> **İşaretlenen iddialar:** (1) 7. başlıktaki sekiz senaryo **öğretici amaçla kurgulanmış tipik tablolardır**; gerçek olgu değildir. Her senaryodaki mekanizma–test eşleşmesi kaynaklıdır, ancak tanısal yol merkezin olanaklarına ve güncel ulusal kılavuzlara göre değişebilir. (2) Yeniden değerlendirme için önerilen 12–24 aylık aralık, yeni gen keşif hızına dayanan **pratik bir öneridir**; tek bir kılavuzda tanımlanmış bağlayıcı bir süre değildir. (3) Şekil 17.1 ve 17.2'deki eşleştirmeler pedagojik özetlerdir; ayırıcı tanı listesinin tamamını değil, en sık ve en ayırt edici örüntüleri kapsar.
+> **İşaretlenen iddialar:** (1) 7. başlıktaki sekiz senaryo **öğretici amaçla kurgulanmış tipik tablolardır**; gerçek olgu değildir. Her senaryodaki mekanizma–test eşleşmesi kaynaklıdır, ancak tanısal yol merkezin olanaklarına ve güncel ulusal kılavuzlara göre değişebilir. (2) Yeniden değerlendirme için önerilen 12–24 aylık aralık, yeni gen keşif hızına dayanan **pratik bir öneridir**; tek bir kılavuzda tanımlanmış bağlayıcı bir süre değildir. (3) Şekil 18.1 ve 17.2'deki eşleştirmeler pedagojik özetlerdir; ayırıcı tanı listesinin tamamını değil, en sık ve en ayırt edici örüntüleri kapsar.

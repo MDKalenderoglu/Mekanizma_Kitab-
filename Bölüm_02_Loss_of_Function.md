@@ -231,7 +231,7 @@ Mekanizmadan doğan kontroller (özet):
 ## 7. Pediatrik genetikten klinik örnekler
 
 ### 7.1. NF1 — haploinsufficiency ile dominant LoF
-NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice, tam gen/ekzon delesyonu) tek alel kaybıyla **dominant** nörofibromatozis tip 1'e yol açar. *Öğreti:* hem nokta LoF hem büyük delesyonlar aynı gende hastalık yapar → tanıda **dizileme + doz analizi (MLPA/array)** birlikte. (Haploinsufficiency → Bölüm 3; tümör baskılayıcı "ikinci vuruş" → Bölüm 14.)
+NF1 (nörofibromin) bir tümör baskılayıcıdır; heterozigot LoF varyantları (nonsense, frameshift, splice, tam gen/ekzon delesyonu) tek alel kaybıyla **dominant** nörofibromatozis tip 1'e yol açar. *Öğreti:* hem nokta LoF hem büyük delesyonlar aynı gende hastalık yapar → tanıda **dizileme + doz analizi (MLPA/array)** birlikte. (Haploinsufficiency → Bölüm 3; tümör baskılayıcı "ikinci vuruş" → Bölüm 16.)
 
 ### 7.2. DMD — çerçeve kuralı ile Duchenne vs Becker
 Distrofin geninde out-of-frame delesyonlar truncated protein ile ağır **Duchenne**'e; in-frame delesyonlar yarı-işlevsel protein ile daha hafif **Becker**'e yol açar (Monaco ve ark., 1988; [DOI](https://doi.org/10.1016/0888-7543(88)90113-9)). *Öğreti:* aynı gen, aynı "delesyon" tipi — fakat **çerçeve etkisi** fenotip ağırlığını belirler (Şekil 2.2); ekzon-atlama tedavilerinin mantıksal temeli budur.

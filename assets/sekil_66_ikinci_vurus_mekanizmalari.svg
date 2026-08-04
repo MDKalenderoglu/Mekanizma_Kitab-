@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+  <rect width="1200" height="780" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#183153">İkinci olay tek biçimli değildir</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#52657a">Aynı “LOH” sonucu farklı moleküler izler bırakabilir</text>
+
+  <rect x="390" y="115" width="420" height="105" rx="20" fill="#eef6ff" stroke="#4d86c6" stroke-width="3"/>
+  <text x="600" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#245b95">Başlangıç: heterozigot hücre</text>
+  <rect x="485" y="174" width="90" height="24" rx="12" fill="#d9534f"/>
+  <rect x="625" y="174" width="90" height="24" rx="12" fill="#5ba36a"/>
+  <text x="530" y="191" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">mutant</text>
+  <text x="670" y="191" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">normal</text>
+
+  <g font-family="Arial, sans-serif">
+    <line x1="600" y1="220" x2="190" y2="305" stroke="#9aa9b8" stroke-width="2.5"/>
+    <line x1="600" y1="220" x2="395" y2="305" stroke="#9aa9b8" stroke-width="2.5"/>
+    <line x1="600" y1="220" x2="600" y2="305" stroke="#9aa9b8" stroke-width="2.5"/>
+    <line x1="600" y1="220" x2="805" y2="305" stroke="#9aa9b8" stroke-width="2.5"/>
+    <line x1="600" y1="220" x2="1010" y2="305" stroke="#9aa9b8" stroke-width="2.5"/>
+
+    <rect x="70" y="305" width="240" height="285" rx="18" fill="#fff3f0" stroke="#d96a57" stroke-width="2"/>
+    <text x="190" y="342" text-anchor="middle" font-size="18" font-weight="700" fill="#9b3c2e">Dizi olayı</text>
+    <text x="190" y="370" text-anchor="middle" font-size="14" fill="#5f403b">SNV / küçük indel</text>
+    <rect x="105" y="410" width="170" height="22" rx="11" fill="#d9534f"/>
+    <rect x="105" y="458" width="170" height="22" rx="11" fill="#d9534f"/>
+    <text x="190" y="522" text-anchor="middle" font-size="14" fill="#5f403b">İki alel de işlevsiz;</text>
+    <text x="190" y="545" text-anchor="middle" font-size="14" fill="#5f403b">kopya sayısı 2</text>
+
+    <rect x="325" y="305" width="240" height="285" rx="18" fill="#fff8e8" stroke="#d6a23a" stroke-width="2"/>
+    <text x="445" y="342" text-anchor="middle" font-size="18" font-weight="700" fill="#8a651c">Delesyon</text>
+    <text x="445" y="370" text-anchor="middle" font-size="14" fill="#5c4d2e">Normal alel fiziksel kayıp</text>
+    <rect x="360" y="410" width="170" height="22" rx="11" fill="#d9534f"/>
+    <rect x="360" y="458" width="62" height="22" rx="11" fill="#e7e7e7" stroke="#aaaaaa" stroke-dasharray="5 4"/>
+    <text x="445" y="522" text-anchor="middle" font-size="14" fill="#5c4d2e">Kopya kayıplı LOH;</text>
+    <text x="445" y="545" text-anchor="middle" font-size="14" fill="#5c4d2e">CN = 1 olabilir</text>
+
+    <rect x="580" y="305" width="240" height="285" rx="18" fill="#eef8f1" stroke="#5ba36a" stroke-width="2"/>
+    <text x="700" y="342" text-anchor="middle" font-size="18" font-weight="700" fill="#347146">Mitotik rekombinasyon</text>
+    <text x="700" y="370" text-anchor="middle" font-size="14" fill="#385844">Kopya-nötr LOH</text>
+    <rect x="615" y="410" width="170" height="22" rx="11" fill="#d9534f"/>
+    <rect x="615" y="458" width="170" height="22" rx="11" fill="#d9534f"/>
+    <text x="700" y="522" text-anchor="middle" font-size="14" fill="#385844">Mutant alel iki kopya;</text>
+    <text x="700" y="545" text-anchor="middle" font-size="14" fill="#385844">CN = 2 kalır</text>
+
+    <rect x="835" y="305" width="240" height="285" rx="18" fill="#f3f0fb" stroke="#8265b5" stroke-width="2"/>
+    <text x="955" y="342" text-anchor="middle" font-size="18" font-weight="700" fill="#5c428e">Epigenetik susturma</text>
+    <text x="955" y="370" text-anchor="middle" font-size="14" fill="#4f4661">Promotor hipermetilasyonu</text>
+    <rect x="870" y="410" width="170" height="22" rx="11" fill="#d9534f"/>
+    <rect x="870" y="458" width="170" height="22" rx="11" fill="#5ba36a" opacity="0.25"/>
+    <text x="955" y="522" text-anchor="middle" font-size="14" fill="#4f4661">Dizi korunabilir;</text>
+    <text x="955" y="545" text-anchor="middle" font-size="14" fill="#4f4661">ifade kaybolur</text>
+  </g>
+
+  <rect x="110" y="632" width="980" height="94" rx="18" fill="#f4f6f8" stroke="#b8c2cc"/>
+  <text x="600" y="666" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#34495e">Laboratuvar sonucu mekanizmayla birlikte okunur</text>
+  <text x="600" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#52657a">Dizi + kopya sayısı + SNP/allel dengesi + metilasyon · tümör saflığı ve faz bilgisiyle</text>
+  <text x="600" y="718" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8a3c31">“Kopya sayısı normal” ifadesi, normal alelin korunduğunu kanıtlamaz.</text>
+</svg>

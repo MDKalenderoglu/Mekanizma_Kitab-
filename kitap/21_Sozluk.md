@@ -54,7 +54,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 
 - **Gen–hastalık geçerliliği** — Bir genin belirli bir hastalıkla ilişkisinin kanıt gücü; Kesin'den Çelişkili'ye uzanan bir ölçekte sınıflandırılır.
 - **Genomik damgalama (imprinting)** — Bir genin, geldiği ebeveyne göre ifade edilip edilmemesi.
-- **Germline** — Üreme hücresi soyu; buradaki varyantlar sonraki kuşağa aktarılabilir.
+- **Germline (eşey hücresi soyu)** — Gamet yoluyla aktarılabilen hücre soyu. Klinik raporlamada “germline varyant”, çoğunlukla zigottan itibaren çok sayıda dokuda bulunan konstitüsyonel varyantı anlatır; düşük düzey veya doku-sınırlı mozaiklik bu basit eşitliği bozabilir.
 - **Gonadal (germline) mozaiklik** — Varyantın yalnızca üreme hücrelerinin bir bölümünde bulunması; sağlıklı ebeveynde tekrarlanma riski yaratır.
 - **Gonozomal mozaiklik** — Varyantın hem somatik hem germline dokularda bulunması.
 
@@ -63,6 +63,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Haplogrup** — Ortak kökenli mtDNA varyant kümesi; mtDNA varyant yorumlamada bağlam sağlar.
 - **Hemizigot** — Tek kopya bulunması durumu; erkeklerde X kromozomu genleri için geçerlidir.
 - **Heteroplazmi** — Bir hücrede normal ve mutant mtDNA moleküllerinin bir arada bulunması.
+- **Heterozigotluk kaybı (LOH)** — Başlangıçta iki farklı alel taşıyan bir lokusta allelik ayrımın kaybolması. Bir **sonuç örüntüsüdür**; delesyon, kromozom kaybı, mitotik rekombinasyon veya başka yollarla oluşabilir ve tek başına kopya kaybı anlamına gelmez.
 - **Heterozigot** — Bir lokusun iki alelinin farklı olması.
 - **Hipermorf** — İşlevi artmış alel.
 - **Hipomorf** — İşlevi kısmen azalmış alel; rezidüel işlev bırakır.
@@ -73,6 +74,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 **İ**
 
 - **ICR (damgalama kontrol bölgesi)** — Bir damgalı bölgenin ifadesini yöneten düzenleyici merkez.
+- **İkinci vuruş** — Yatkınlık alelini taşıyan hücrede aynı gen/yolağın kalan işlevini azaltan veya gene özgü biçimde değiştiren ek somatik olay. Bütün kanser yatkınlığı genleri klasik iki-vuruş modeline uymaz.
 - **İzodizomi** — UPD'de iki kromozomun aynı ebeveyn kromozomunun kopyası olması; resesif varyantları homozigot hâle getirebilir.
 - **İzoform** — Alternatif kırpılma ya da farklı promotör kullanımıyla oluşan farklı protein sürümleri.
 
@@ -81,8 +83,10 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Kanonik splice bölgesi** — İntron sınırındaki değişmez GT (donör) ve AG (akseptör) dinükleotidleri.
 - **Kalıtım biçimi** — Fenotipin ailede aktarılma örüntüsü (otozomal dominant, otozomal resesif, X'e bağlı…). Alelik gereksinim ve hastalık mekanizmasıyla ilişkilidir ama onlarla aynı şey değildir.
 - **Kimerizm** — İki farklı zigottan köken alan hücre popülasyonlarının bir bireyde bulunması; mozaiklikten köken bakımından ayrılır.
+- **Klonal hematopoez** — Tek bir hematopoetik kök/progenitör hücreden türeyen somatik varyantlı klonun kanda ölçülebilir hâle gelmesi; özellikle düşük VAF'li kan bulgularında konstitüsyonel mozaiklik veya germline sonuçla karıştırılabilir.
 - **Kodlamayan varyant** — Protein kodlamayan bölgelerde (promotör, enhancer, UTR, intron) yer alan varyant.
 - **Konstitütif aktivasyon** — Bir reseptör ya da enzimin uyarı olmaksızın sürekli açık kalması.
+- **Kopya-nötr LOH (CN-LOH)** — Toplam kopya sayısı değişmeden heterozigotluğun kaybolması; mitotik rekombinasyon gibi olaylarla bir alelin iki kopya hâline gelmesi tipik örnektir.
 - **Kopya sayısı varyantı (CNV)** — Genomik bir bölgenin normalden fazla ya da az kopyada bulunması.
 - **Kriptik splice bölgesi** — Normalde kullanılmayan, ancak bir varyantla güçlenerek kullanılmaya başlanan kırpılma bölgesi.
 - **Kurtarma (trizomi/monozomi kurtarma)** — Sayısal anomalinin erken embriyoda düzeltilmesi; uniparental dizominin başlıca oluşum yolu.
@@ -152,6 +156,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Segregasyon** — Bir varyantın ailede hastalıkla birlikte aktarılıp aktarılmadığı; nicel bir kanıt türüdür.
 - **Sessiz (senonim) varyant** — Amino asidi değiştirmeyen varyant; kırpılmayı etkileyerek yine de hastalık yapabilir.
 - **Somatik mozaiklik** — Varyantın yalnızca vücut hücrelerinin bir bölümünde bulunması.
+- **Somatik varyant** — Zigottan sonra bir hücre soyunda oluşan ve o klonun torunlarıyla sınırlı kalan varyant; tümör hücrelerindeki varlığı germline kökeni tek başına göstermez.
 - **Spliceozom** — İntronları çıkaran ribonükleoprotein kompleksi.
 - **Splicing (kırpılma)** — Öncü mRNA'dan intronların çıkarılıp ekzonların birleştirilmesi. Splicing varyantlarında üç düzey birbirinden ayrı tutulur ve birbirinin yerine kullanılmaz: **(1) varyantın konumu** (kanonik ±1/±2, kanonik dışı, derin intronik, ekzonik sessiz); **(2) gözlenen RNA sonucu** (ekzon atlanması, intron tutulumu, kriptik bölge kullanımı, psödoekzon); **(3) protein sonucu** (çerçeve korunuyor mu, NMD bekleniyor mu). Kanıt kodlaması bu üçüne birden bakar: konum tek başına gücü belirlemez.
 - **Somatik genetik kurtarma** — Konstitüsyonel patojenik etkinin, postzigotik ikinci bir olayla hücrelerin bir bölümünde tamamen ya da kısmen ortadan kalkması. Aynı geni/aleli düzelten olaylar **revertant mozaiklik**, patojenik yolu başka yerden telafi edenler ise daha geniş anlamda somatik genetik kurtarmadır.
@@ -165,6 +170,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 - **Trialelik kalıtım** — Fenotipin ortaya çıkması için iki lokusta toplam üç mutant alelin gerekmesi.
 - **Trio analizi** — Hasta ve her iki ebeveyninin birlikte incelenmesi; de novo ve faz bilgisini üretir.
 - **Triplosensitivity (kopya artışına duyarlılık)** — Bir genin ya da bölgenin fazladan kopyasının hastalık yapması. Haploinsufficiency'nin karşıtı değil, **bağımsız** bir özelliktir; ClinGen ikisini ayrı ayrı kürate eder.
+- **Tümör baskılayıcı gen** — Hücre çoğalması, genom bütünlüğü veya hücre ölümünü sınırlayan işlevleriyle tümör gelişimini baskılayan gen. Germline yatkınlık ile tümördeki allelik durum aynı ölçekte değerlendirilmez.
 
 **U**
 

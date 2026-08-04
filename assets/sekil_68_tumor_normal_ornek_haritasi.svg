@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#183153">Üç örnek, üç soru</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#52657a">Tümör, kan ve alternatif normal doku aynı biyolojiyi temsil etmez</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="55" y="125" width="325" height="445" rx="24" fill="#fff3f0" stroke="#d96a57" stroke-width="2.5"/>
+    <circle cx="217" cy="210" r="57" fill="#f7c8bd" stroke="#b95342" stroke-width="3"/>
+    <circle cx="195" cy="194" r="15" fill="#d9534f"/><circle cx="235" cy="225" r="18" fill="#c74449"/><circle cx="240" cy="180" r="11" fill="#e27a67"/>
+    <text x="217" y="300" text-anchor="middle" font-size="22" font-weight="700" fill="#9b3c2e">TÜMÖR</text>
+    <text x="217" y="335" text-anchor="middle" font-size="16" fill="#60443f">Hangi klonal olaylar var?</text>
+    <line x1="105" y1="363" x2="330" y2="363" stroke="#e1b0a6"/>
+    <text x="95" y="400" font-size="15" fill="#60443f">• Somatik sürücüler</text>
+    <text x="95" y="431" font-size="15" fill="#60443f">• İkinci olay / LOH / CN</text>
+    <text x="95" y="462" font-size="15" fill="#60443f">• IHC / MSI / metilasyon</text>
+    <text x="95" y="493" font-size="15" fill="#60443f">• Saflık ve alt-klonalite</text>
+    <rect x="90" y="515" width="255" height="36" rx="12" fill="#d96a57"/>
+    <text x="217" y="538" text-anchor="middle" font-size="13" fill="#ffffff">Tek başına germline kökeni kanıtlamaz</text>
+
+    <rect x="438" y="125" width="325" height="445" rx="24" fill="#eef6ff" stroke="#4d86c6" stroke-width="2.5"/>
+    <path d="M600 160 C555 225 535 258 535 300 C535 342 565 372 600 372 C635 372 665 342 665 300 C665 258 645 225 600 160Z" fill="#c8dff4" stroke="#3d78b2" stroke-width="3"/>
+    <text x="600" y="300" text-anchor="middle" font-size="18" font-weight="700" fill="#245b95">KAN</text>
+    <text x="600" y="335" text-anchor="middle" font-size="16" fill="#3f5f7c">Varyant hematopoetik hücrelerde mi?</text>
+    <line x1="488" y1="363" x2="713" y2="363" stroke="#afc9e2"/>
+    <text x="478" y="400" font-size="15" fill="#3f5f7c">• Konstitüsyonel varyant</text>
+    <text x="478" y="431" font-size="15" fill="#3f5f7c">• Konstitüsyonel mozaiklik</text>
+    <text x="478" y="462" font-size="15" fill="#3f5f7c">• Klonal hematopoez</text>
+    <text x="478" y="493" font-size="15" fill="#3f5f7c">• Alternatif doku gereksinimi</text>
+    <rect x="473" y="515" width="255" height="36" rx="12" fill="#4d86c6"/>
+    <text x="600" y="538" text-anchor="middle" font-size="13" fill="#ffffff">Düşük VAF = otomatik mozaiklik değildir</text>
+
+    <rect x="820" y="125" width="325" height="445" rx="24" fill="#eef8f1" stroke="#5ba36a" stroke-width="2.5"/>
+    <path d="M982 170 C910 220 900 315 955 355 C980 373 1008 373 1033 355 C1088 315 1078 220 1006 170Z" fill="#cde8d4" stroke="#4c9360" stroke-width="3"/>
+    <path d="M964 214 C985 196 1004 196 1024 214" fill="none" stroke="#4c9360" stroke-width="4"/>
+    <text x="982" y="300" text-anchor="middle" font-size="17" font-weight="700" fill="#347146">DERİ / FİBROBLAST</text>
+    <text x="982" y="335" text-anchor="middle" font-size="16" fill="#3e5b48">Hematopoez dışı doğrulama</text>
+    <line x1="870" y1="363" x2="1095" y2="363" stroke="#b4d2bd"/>
+    <text x="860" y="400" font-size="15" fill="#3e5b48">• Klonal hematopoezi ayırır</text>
+    <text x="860" y="431" font-size="15" fill="#3e5b48">• Doku dağılımını sınar</text>
+    <text x="860" y="462" font-size="15" fill="#3e5b48">• Germline kökeni destekler</text>
+    <text x="860" y="493" font-size="15" fill="#3e5b48">• Yine de gonadı ölçmez</text>
+    <rect x="855" y="515" width="255" height="36" rx="12" fill="#5ba36a"/>
+    <text x="982" y="538" text-anchor="middle" font-size="13" fill="#ffffff">Örnek seçimi klinik soruya göre yapılır</text>
+  </g>
+
+  <line x1="380" y1="350" x2="438" y2="350" stroke="#7a8b9c" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="763" y1="350" x2="820" y2="350" stroke="#7a8b9c" stroke-width="3" marker-end="url(#a)"/>
+
+  <rect x="125" y="620" width="950" height="108" rx="20" fill="#f4f6f8" stroke="#b8c2cc"/>
+  <text x="600" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#34495e">Eşlenik yorum için gereken bağlam</text>
+  <text x="600" y="687" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#52657a">VAF · tümör saflığı · lokal kopya sayısı · LOH · faz · doku dağılımı · tedavi/yaş öyküsü</text>
+  <text x="600" y="714" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8a3c31">Yaklaşık %50 VAF, tek başına germline etiketi değildir.</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7a8b9c"/></marker></defs>
+</svg>

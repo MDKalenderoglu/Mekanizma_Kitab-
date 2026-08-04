@@ -18,6 +18,8 @@ Bu listede kitap boyunca kullanılan kısaltmalar toplanmıştır. Her kısaltma
 | CNV | copy-number variant | kopya sayısı varyantı |
 | SNV | single-nucleotide variant | tek nükleotid varyantı |
 | VAF | variant allele fraction | varyant alel fraksiyonu (Türkçe yayınlarda “varyant alel frekansı” da kullanılır) |
+| LOH | loss of heterozygosity | heterozigotluk kaybı |
+| CN-LOH | copy-neutral loss of heterozygosity | kopya-nötr heterozigotluk kaybı |
 | ROH | region of homozygosity | homozigotluk bölgesi |
 
 ## Varyant yorumlama
@@ -61,6 +63,8 @@ Bu listede kitap boyunca kullanılan kısaltmalar toplanmıştır. Her kısaltma
 | RP-PCR | repeat-primed PCR | tekrar-primerli PCR |
 | ddPCR | droplet digital PCR | dijital damlacık PCR |
 | RNA-seq | RNA sequencing | RNA/transkriptom dizilemesi |
+| IHC | immunohistochemistry | immünohistokimya |
+| MSI | microsatellite instability | mikrosatellit instabilitesi |
 | MPRA | massively parallel reporter assay | yüksek ölçekli paralel raportör analizi |
 | MAVE | multiplexed assay of variant effect | çoklanmış varyant etkisi analizi |
 | HPO | Human Phenotype Ontology | İnsan Fenotip Ontolojisi |
@@ -113,6 +117,8 @@ Bu bölümdeki adlar cümle düzeninde yazılır: ilk sözcük ve özel adlar b�
 | MELAS | Mitokondriyal ensefalomiyopati, laktik asidoz ve inme benzeri ataklar |
 | LHON | Leber herediter optik nöropatisi |
 | MEN2 | Multipl endokrin neoplazi tip 2 |
+| FAP | Familyal adenomatöz polipozis |
+| PPB | Pleuropulmoner blastoma |
 | HGPS | Hutchinson–Gilford progeria sendromu |
 | PROS | *PIK3CA* ile ilişkili aşırı büyüme spektrumu |
 | FCD | Fokal kortikal displazi |

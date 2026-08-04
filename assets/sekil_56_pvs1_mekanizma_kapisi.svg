@@ -9,7 +9,7 @@
     </marker>
   </defs>
 
-  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 16.2 — PVS1: önce mekanizma kapısı, sonra güç basamakları</text>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 17.2 — PVS1: önce mekanizma kapısı, sonra güç basamakları</text>
   <text x="32" y="56" font-size="11.5" fill="#64748B">“Null varyant = PVS1” kestirmesi, kitabın en pahalı hatalarından biridir. PVS1 önce bir mekanizma koşuluna, sonra varyantın gen içindeki konumuna bağlıdır.</text>
 
   <!-- PANEL A: kapı -->
@@ -102,7 +102,7 @@
   <text x="44" y="494" font-size="10.5" fill="#2E3440"><tspan font-weight="700">Splice bölgesi varyantları</tspan> doğrudan “null” sayılmaz. Öngörülen sonuç (ekzon atlanması · intron tutulumu · kriptik bölge kullanımı) belirlenir, bunun</text>
   <text x="44" y="510" font-size="10.5" fill="#2E3440">okuma çerçevesine ve NMD'ye etkisi hesaplanır; PVS1'in gücü buna göre ayarlanır. Kanonik ±1,2 pozisyonları bile otomatik olarak tam güç vermez.</text>
   <text x="44" y="532" font-size="10.5" fill="#2E3440"><tspan font-weight="700">RNA analizi</tspan> bu zincirdeki öngörüyü ölçüme çevirir: gerçekleşen transkript sonucu gösterildiğinde hem PVS1'in basamağı netleşir hem de PS3 devreye</text>
-  <text x="44" y="548" font-size="10.5" fill="#2E3440">girebilir. Bu, kitapta “ek veri hangi kriteri açar?” sorusunun en net yanıtlarından biridir (bkz. Şekil 16.4).</text>
+  <text x="44" y="548" font-size="10.5" fill="#2E3440">girebilir. Bu, kitapta “ek veri hangi kriteri açar?” sorusunun en net yanıtlarından biridir (bkz. Şekil 17.4).</text>
 
   <rect x="24" y="574" width="1072" height="30" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
   <text x="560" y="594" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">Öğreti: PVS1 bir varyant tipi etiketi değil, bir mekanizma iddiasıdır. Kapı kapalıysa basamaklara hiç bakılmaz.</text>

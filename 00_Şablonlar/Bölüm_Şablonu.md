@@ -81,6 +81,8 @@ flowchart TD
 
 > **İkincil/destekleyici kaynak notu:** GeneReviews/OMIM/ClinVar/gnomAD yalnız destekleyici bilgi.
 
+> **Yayın notu:** Derleyici, kaynakçanın ardına kitap sonundaki ilgili bölüm sorularına doğrudan bağlantı ekler. Aşağıdaki iç kalite ve doğrulama kayıtları kaynak dosyada korunur, yayımlanan HTML/PDF'ye alınmaz.
+
 ---
 
 ## ✅ Bölüm öz-denetim tablosu

@@ -96,7 +96,7 @@ Aşağıdaki tablo, GoF'a yol açabilen varyant tiplerini ve her birinin ürüne
 >
 > Bunun en öğretici klinik örneği **Hajdu-Cheney sendromudur.** Hastalarda *NOTCH2*'nin **son ekzonundaki (ekzon 34)** kesici varyantlar bulunur; bu varyantlar proteinin C-ucundaki **PEST alanını** — yani proteinin yıkım sinyalini taşıyan bölgeyi — ortadan kaldırır. Yıkım sinyalini kaybeden NOTCH2, hücrede **kararlı hâlde birikir** ve NOTCH sinyalini artırır; sonuç bir işlev kaybı değil, **işlev kazanımıdır** (Canalis &amp; Zanotti, 2014). Bu mekanizmanın moleküler kanıtı, hasta serilerinde tüm varyantların son ekzonda toplanması ve hepsinin PEST kaybına yol açmasıyla gösterilmiştir; yazarlar bunu doğrudan "aktive edici varyantlar" olarak yorumlar (Zhao ve ark., 2013). Klinik tablo — akroosteoliz, ağır osteoporoz, kraniofasiyal bulgular, wormian kemikler, böbrek kistleri — basit bir haploinsufficiency ile açıklanamaz.
 >
-> **Pratik sonuç:** Bir gende kesici varyantların **yalnızca son ekzonda kümelendiğini** görüyorsanız, bu bir rastlantı değil **mekanizma ipucudur**. O gende PVS1'i refleks olarak uygulamadan önce sorulması gereken soru şudur: "Bu kesilme geni susturuyor mu, yoksa proteini **denetimsiz mi bırakıyor**?" Cevap ikincisiyse mekanizma GoF'tur ve kanıt çerçevesi tümüyle değişir (Bölüm 16).
+> **Pratik sonuç:** Bir gende kesici varyantların **yalnızca son ekzonda kümelendiğini** görüyorsanız, bu bir rastlantı değil **mekanizma ipucudur**. O gende PVS1'i refleks olarak uygulamadan önce sorulması gereken soru şudur: "Bu kesilme geni susturuyor mu, yoksa proteini **denetimsiz mi bırakıyor**?" Cevap ikincisiyse mekanizma GoF'tur ve kanıt çerçevesi tümüyle değişir (Bölüm 17).
 
 **Tablo 4.2 — Varyant tipleri ve ürüne işlev kazandırma yolları**
 

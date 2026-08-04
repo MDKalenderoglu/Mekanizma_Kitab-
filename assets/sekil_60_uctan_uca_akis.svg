@@ -12,7 +12,7 @@
     </marker>
   </defs>
 
-  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 17.3 — Kitabın omurgası: hastadan rapora, rapordan yeniden hastaya</text>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 18.3 — Kitabın omurgası: hastadan rapora, rapordan yeniden hastaya</text>
   <text x="32" y="56" font-size="11.5" fill="#64748B">Bu altı adım, kitabın bütün bölümlerinin bir araya geldiği yerdir. Zincir tek yönlü değildir: negatif ya da belirsiz sonuç, akışı ikinci adıma geri döndürür.</text>
 
   <!-- KUTU 1 -->
@@ -44,7 +44,7 @@
   <text x="224" y="190" font-size="9" fill="#2E3440">splice · mozaik · imprint ·</text>
   <text x="224" y="202" font-size="9" fill="#2E3440">tekrar · mitokondriyal.</text>
   <rect x="224" y="228" width="142" height="20" rx="6" fill="#FEE2E2"/>
-  <text x="295" y="242" font-size="9" font-weight="700" fill="#B91C1C" text-anchor="middle">Bölüm 2–15 · Şekil 17.1</text>
+  <text x="295" y="242" font-size="9" font-weight="700" fill="#B91C1C" text-anchor="middle">Bölüm 2–15 · Şekil 18.1</text>
   <text x="295" y="262" font-size="8.5" fill="#94A3B8" text-anchor="middle">"Hangi mekanizma olabilir?"</text>
 
   <path d="M382 179 H386" stroke="#1A2B4A" stroke-width="1.6" fill="none" marker-end="url(#ok60)"/>
@@ -120,7 +120,7 @@
   <path d="M1007 284 V330 H295 V286" stroke="#B45309" stroke-width="1.8" fill="none" stroke-dasharray="7 5" marker-end="url(#okg60)"/>
   <rect x="380" y="312" width="470" height="36" rx="9" fill="#FEF3C7" stroke="#D97706" stroke-width="1.1"/>
   <text x="615" y="329" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="middle">NEGATİF ya da VUS ise akış burada bitmez</text>
-  <text x="615" y="342" font-size="9.5" fill="#B45309" text-anchor="middle">Kör noktaları sırayla kapat, hipotezi güncelle, yeniden analiz et (Şekil 17.2 · Şekil 16.4)</text>
+  <text x="615" y="342" font-size="9.5" fill="#B45309" text-anchor="middle">Kör noktaları sırayla kapat, hipotezi güncelle, yeniden analiz et (Şekil 18.2 · Şekil 17.4)</text>
 
   <!-- Alt şerit -->
   <rect x="32" y="366" width="1060" height="102" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>

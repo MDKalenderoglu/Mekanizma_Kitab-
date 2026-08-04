@@ -17,13 +17,13 @@ Bu formun yayın yönünü belirleyen maddeleri kullanıcıyla tek tek görüş�
 1. Önce HTML + PDF değerlendirme sürümü; bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm.
 2. Birincil hedef kitle: tıbbi genetik ve çocuk genetiği hekimleri/eğitim alanlar, klinik genomik ve varyant yorumlama uzmanları, tıbbi biyoloji uzmanları/araştırmacıları ve moleküler genetik tanı laboratuvarı ekipleri. İkincil hedef: pediatri hekimleri, moleküler biyoloji ve genetik alanında eğitim alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri.
 3. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e alınacak. **✅ 03.08.2026'da uygulandı.**
-4. Kalıtsal kanser yatkınlığı ve ikinci vuruş, mozaiklik içine yerleştirilmeyecek; bağımsız Bölüm 16 olacak. Mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak.
-5. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bağlantı verilecek; yanıt yaklaşımları sorulardan ayrı tutulacak.
+4. Kalıtsal kanser yatkınlığı ve ikinci vuruş, mozaiklik içine yerleştirilmeyecek; bağımsız Bölüm 16 olacak. Mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak. **✅ 04.08.2026'da uygulandı.**
+5. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bağlantı verilecek; yanıt yaklaşımları sorulardan ayrı tutulacak. **✅ 04.08.2026'da uygulandı.**
 6. Ayrıntılı üretim/doğrulama günlükleri proje içinde korunacak; yayımlanan kitapta yalnız kısa, okuyucuya yönelik yöntem açıklaması bulunacak.
 7. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
 8. Uygulama sırası: karar kaydı → düşük riskli teknik temizlik → ayrı bilimsel/yapısal paketler → bağımsız insan değerlendirmesi → yayın kapanışı.
 
-**Uygulama durumu (03.08.2026):** Karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi ve Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu tamamlandı. Güncel derleme 17 bölüm · 64 şekil · 49 algoritma · 78 tablo · 172 benzersiz PMID üretmektedir; 191 şekil/algoritma/tablo hedefi doğrudan bağlanmıştır. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
+**Uygulama durumu (04.08.2026):** Karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu, klinik örnek çeşitliliği, bağımsız Bölüm 16 kanser yatkınlığı/ikinci vuruş ve öz değerlendirme paketleri tamamlandı. Güncel derleme 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID üretmektedir; 185 şekil/algoritma/tablo hedefi doğrudan bağlanmıştır. Kaynak dosyalardaki 18 iç öz-denetim tablosu yayın envanterine girmez. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
 
 ---
 
@@ -34,11 +34,11 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 | # | Nerede | Neydi | Ne yapıldı |
 |---|---|---|---|
 | 0.1 | `assets/` · 4 dosya | "allel → alel" standardizasyonu `.md` içindeki görsel referanslarını değiştirmiş, dosya adları eski kalmıştı. **Şekil 1.4, 6.x, 9.x ve 15.1 HTML kitaba hiç gömülmüyordu** (build sessizce atlıyor, uyarı vermiyor). | Dosyalar yeni adlarına taşındı; güncel 64 SVG'nin tamamı inline. |
-| 0.2 | Böl.01 · Böl.16 öz-denetim | Böl.01 "6 SVG + **4** Mermaid" (gerçek 3), Böl.16 "4 SVG + **3** Mermaid" (gerçek 2). | Gerçek sayılara çekildi. |
-| 0.3 | Böl.08 · Böl.09 · Böl.16 doğrulama blokları | Böl.08 "6/6 kaynak" (kaynakçada 7), Böl.09 "10/10" (13), Böl.16 "24/24" (25). Uzman turlarında eklenen kaynaklar sayıma girmemişti. | Üçü de gerçek sayıya çekildi; Böl.08'de Hook 1977'nin DOI'siz künye biçimi ayrıca belirtildi. |
+| 0.2 | Böl.01 · güncel Böl.17 öz-denetim | Böl.01 "6 SVG + **4** Mermaid" (gerçek 3), o tarihteki Böl.16/güncel Böl.17 "4 SVG + **3** Mermaid" (gerçek 2). | Gerçek sayılara çekildi. |
+| 0.3 | Böl.08 · Böl.09 · güncel Böl.17 doğrulama blokları | Böl.08 "6/6 kaynak" (kaynakçada 7), Böl.09 "10/10" (13), o tarihteki Böl.16/güncel Böl.17 "24/24" (25). Uzman turlarında eklenen kaynaklar sayıma girmemişti. | Üçü de gerçek sayıya çekildi; Böl.08'de Hook 1977'nin DOI'siz künye biçimi ayrıca belirtildi. |
 | 0.4 | `Bölüm_00` kaynak kütüğü | Böl.03'te kullanılan **Birchler & Veitia 2012 (PMID 22908297)** kütükte yoktu. | Kütüğe eklendi. Kütük artık 153 PMID'nin tamamını içeriyor, yetim kayıt yok. |
-| 0.5 | Böl.15 · Böl.16 | Kendi C21–C24 turlarımızda metne "allelik hastalık", "allelik durum", "nonsens varyant" biçimleri kaçmıştı (kitap standardı: *alelik*, *nonsense*). | Düzeltildi. |
-| 0.6 | `kitap/20_Ekler.md` Ek B | Ek B, Şekil 16.3'ün metin hâli. D4 turunda yalnız **şekli** güncellemiştim; Ek B hâlâ "✖ uygulanamaz" diyor ve normatif olmadığı uyarısını taşımıyordu — yani şekille çelişiyordu. | Ek B şekille eşitlendi (pedagojik sentez ibaresi, "genellikle uygulanmaz", VCEP önceliği, PM1_Supporting ve PVS1_Strength(RNA) istisnaları). |
+| 0.5 | Böl.15 · güncel Böl.17 | Kendi C21–C24 turlarımızda metne "allelik hastalık", "allelik durum", "nonsens varyant" biçimleri kaçmıştı (kitap standardı: *alelik*, *nonsense*). | Düzeltildi. |
+| 0.6 | `kitap/20_Ekler.md` Ek B | Ek B, güncel Şekil 17.3'ün metin hâli. D4 turunda yalnız **şekli** güncellemiştim; Ek B hâlâ "✖ uygulanamaz" diyor ve normatif olmadığı uyarısını taşımıyordu — yani şekille çelişiyordu. | Ek B şekille eşitlendi (pedagojik sentez ibaresi, "genellikle uygulanmaz", VCEP önceliği, PM1_Supporting ve PVS1_Strength(RNA) istisnaları). |
 
 ---
 
@@ -147,7 +147,9 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 2. **Kitabın sonuna toplu bir "Doğrulama kaydı" eki**ne taşınsın; bölüm sonunda yalnız kısa öz-denetim tablosu kalsın.
 3. **Yayımlanan sürümden çıkarılsın**, `.md` kaynaklarında ve `Dogrulama_Kutugu.md`'de tutulsun.
 
-**Değerlendirme:** ☐ D ☒ Y ☐ A → Ayrıntılı öz-denetim ve kaynak doğrulama/uzman turu günlükleri yayımlanan sürümden çıkarılacak; proje kaynaklarında ve `Dogrulama_Kutugu.md` içinde korunacak. Okuyucuya yönelik öz değerlendirme soruları ayrı `kitap/19_Oz_Degerlendirme.md` hedefinde bölüm bazında toplanacak; bölüm sonunda yalnız bağlantı bulunacak. Bu dosya ve build davranışı henüz uygulanmadı.
+**Değerlendirme:** ☐ D ☒ Y ☐ A → Ayrıntılı öz-denetim ve kaynak doğrulama/uzman turu günlükleri yayımlanan sürümden çıkarılacak; proje kaynaklarında ve `Dogrulama_Kutugu.md` içinde korunacak. Okuyucuya yönelik öz değerlendirme soruları ayrı `kitap/19_Oz_Degerlendirme.md` hedefinde bölüm bazında toplanacak; bölüm sonunda yalnız bağlantı bulunacak.
+
+**Uygulama durumu (04.08.2026):** ✅ Uygulandı. On sekiz bölüm için 54 soru ile ayrı bir kısımda 54 yanıt yaklaşımı oluşturuldu; her bölüm sonu kendi soru grubuna bağlandı. Derleyici iç öz-denetim/doğrulama bloklarını kaynak Markdown'da koruyup yayın HTML'sinden çıkarır ve bu bloklardan biri yayına sızarsa hata verir.
 
 <br>
 
@@ -173,12 +175,14 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Soru:** Hangi eksikler kapatılsın? Yeni bölüm açmadan, mevcut bölümlerin §7'lerine birer örnek eklenebilir:
 - ☐ AR metabolik/enzim (ör. *GALT* veya *ASS1* — rezidüel aktivite ekseni, Böl.2/15)
-- ☐ X'e bağlı (ör. *OTC* — zaten Böl.16'da var, Böl.1'e kalıtım örneği olarak taşınabilir)
+- ☐ X'e bağlı (ör. *OTC* — güncel Böl.17'de var, Böl.1'e kalıtım örneği olarak taşınabilir)
 - ☐ İşitme (ör. *GJB2* — hem AR hem dominant, hem de kurucu varyant örneği)
 - ☐ Kanser predispozisyonu (ör. *RB1* iki-vuruş — Böl.2'ye)
 - ☐ Anöploidi (ör. 22q11.2 delesyon sendromu — Böl.8'e; kısmen var mı kontrol edilmeli)
 
-**Değerlendirme:** ☐ D ☐ Y ☐ A →
+**Değerlendirme:** ☐ D ☒ Y ☐ A → Güncel envanterde gerçekten eksik kalan işitme genetiği örneği eklensin; kanser yatkınlığı D2'de onaylanan bağımsız Bölüm 16'ya bırakılsın.
+
+**Uygulama durumu (04.08.2026):** ✅ C3/F4 güncel kitap üzerinden yeniden sayıldı. AR metabolik/enzim (*PAH*, *CFTR*), X'e bağlı (*DMD*, *OTC*), renal (*COL4A3/4*) ve anöploidi/kromozom (yeni Bölüm 8) temsili zaten mevcuttu. Bölüm 14 §7'ye *GJB2* için bialelik resesif klinik seri, heterozigot dominant-negatif mekanizma ve ClinGen İşitme Kaybı Uzman Paneli yorumu birlikte eklendi. Kanser yatkınlığı *RB1, APC*, MMR genleri, *TP53, DICER1, TSC1/2* ve *NF1* üzerinden bağımsız Bölüm 16'da tamamlandı.
 
 <br>
 
@@ -202,8 +206,8 @@ Bunlar uzmanın istediği ama **sizin kararınızı beklediğim** kalemler. Kola
 
 | # | Uzman maddesi | Ne gerektirir | Karar |
 |---|---|---|---|
-| D1 | **F1(a)** — Alelik seri, digenik/oligogenik bölümden önce gelmeli | Dosya adları, iki bölümün numaraları, çapraz göndermeler, kütükteki "kullanıldığı bölümler" sütunu, Ek B ve Şekil 16.3 satır sırası. | ☒ Yapıldı — Bölüm 14–15 yapısal paketi, 03.08.2026 |
-| D2 | **F2** — "Kanser yatkınlığı ve somatik ikinci vuruş" bölümü | Tam bir textbook bölümü: *RB1, TP53, DICER1, APC*, MMR, *TSC1/2*, *NF1* üzerinden two-hit, LOH, doku seçiciliği, mozaiklik kesişimi + PubMed doğrulamalı kaynaklar + SVG/Mermaid. Uzun iş. | ☒ Yap ☐ Yapma — bağımsız Bölüm 16; mozaiklik içine yerleştirilmez |
+| D1 | **F1(a)** — Alelik seri, digenik/oligogenik bölümden önce gelmeli | Dosya adları, iki bölümün numaraları, çapraz göndermeler, kütükteki "kullanıldığı bölümler" sütunu, Ek B ve güncel Şekil 17.3 satır sırası. | ☒ Yapıldı — Bölüm 14–15 yapısal paketi, 03.08.2026 |
+| D2 | **F2** — "Kanser yatkınlığı ve somatik ikinci vuruş" bölümü | Tam bir textbook bölümü: *RB1, TP53, DICER1, APC*, MMR, *TSC1/2*, *NF1* üzerinden two-hit, LOH, doku seçiciliği, mozaiklik kesişimi + tam metin doğrulamalı kaynaklar + SVG/Mermaid. | ☒ Yapıldı — bağımsız Bölüm 16; 04.08.2026 |
 | D3 | **F3** — Zorunlu 10 başlık → 6 sabit çekirdek + esnek | `CLAUDE.md` ve şablon değişir; mevcut bölümler olduğu gibi kalabilir. Yalnız **bundan sonra** yazılacak bölümleri etkiler. | ☐ Yap ☐ Yapma |
 | D4 | **F5** — Türkiye eki (sürümlendirilmiş) | Sabit içerik (akrabalık, endogami, kurucu varyant, ROH, resesif test stratejisi) + değişken içerik (SGK, test menüsü) ayrı; tarih ve sürüm numaralı. | ☐ Yap ☒ Yapma — mevcut kapsam dışında; gelecek sürüm taahhüdü yok |
 | D5 | **G2.7** — Bağımsız dış hakem okuması | Klinik genetik uzmanı · moleküler tanı laboratuvarı uzmanı · sitogenetik/CNV uzmanı · Türkçe bilimsel editör. **Bunu ben yapamam**; uzman da modelin bunun yerine geçemeyeceğini açıkça yazdı. | ☒ Planlandı ☐ Değil — bilimsel/yapısal paketlerden sonra |

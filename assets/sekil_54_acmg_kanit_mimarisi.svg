@@ -6,7 +6,7 @@
     </filter>
   </defs>
 
-  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 16.1 — ACMG/AMP kanıt mimarisi: kriterler sayılmaz, tartılır</text>
+  <text x="32" y="34" font-size="17" font-weight="700" fill="#1A2B4A">Şekil 17.1 — ACMG/AMP kanıt mimarisi: kriterler sayılmaz, tartılır</text>
   <text x="32" y="56" font-size="11.5" fill="#64748B">Her kriterin bir ağırlığı vardır; ağırlıklar puana, puanlar patojenite olasılığına çevrilebilir. Sınıf, kriter sayısının değil toplam ağırlığın sonucudur.</text>
 
   <!-- PANEL A -->
