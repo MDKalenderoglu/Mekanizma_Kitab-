@@ -13,7 +13,7 @@ Bu dosya kitabın **canlı içindekiler** sayfası, **ilerleme takibi** ve **do�
 1. Önce HTML + PDF değerlendirme sürümü, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
 2. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e alınacak. **✅ 03.08.2026'da uygulandı.**
 3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak yazılacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak. **✅ 04.08.2026'da uygulandı.**
-4. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bu kısma bağlantı verilecek. Yanıt yaklaşımları sorulardan ayrı tutulacak. **✅ 04.08.2026'da uygulandı.**
+4. Öz değerlendirme materyali `kitap/19_Oz_Degerlendirme.md` içinde ayrı tutulacak; **ana kitap sürümüne girmeyecek**. Gerektiğinde farklı bir eğitim/sınav sürümünde kullanılabilecek. **04.08.2026 son kullanıcı kararı.**
 5. Ayrıntılı üretim/doğrulama günlükleri proje kayıtlarında korunacak, yayımlanan kitapta yalnız kısa okuyucu yöntemi bulunacak.
 6. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
 
@@ -362,24 +362,23 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 12 | Kısaltmalar | `kitap/06_Kisaltmalar.md` | ✅ |
 | 13 | Terminoloji ve yazım kuralları | `kitap/07_Terminoloji_ve_Yazim_Kurallari.md` | ✅ (HGVS/HGNC/ISCN dahil) |
 | 14 | **Kısım I–VI + 18 bölüm** | `Bölüm_NN_*.md` | ✅ |
-| 15 | Öz değerlendirme (54 soru + 54 yanıt yaklaşımı) | `kitap/19_Oz_Degerlendirme.md` | ✅ |
-| 16 | Ekler (A–D) | `kitap/20_Ekler.md` | ✅ |
-| 17 | Sözlük (123 terim) | `kitap/21_Sozluk.md` | ✅ |
-| 18 | Toplu kaynakça (194 benzersiz PMID) | *(build üretir)* | ✅ |
-| 19 | Gen dizini (88) | `kitap/22_Gen_Dizini.md` | ✅ |
-| 20 | Hastalık dizini (65) | `kitap/23_Hastalik_Dizini.md` | ✅ |
-| 21 | Yazar özgeçmişi | `kitap/24_Ozgecmis.md` | ✍️ şablon |
-| 22 | Arka kapak | `kitap/25_Arka_Kapak.md` | ✅ (künye satırı ✍️) |
+| 15 | Ekler (A–D) | `kitap/20_Ekler.md` | ✅ |
+| 16 | Sözlük (123 terim) | `kitap/21_Sozluk.md` | ✅ |
+| 17 | Toplu kaynakça (194 benzersiz PMID) | *(build üretir)* | ✅ |
+| 18 | Gen dizini (88) | `kitap/22_Gen_Dizini.md` | ✅ |
+| 19 | Hastalık dizini (65) | `kitap/23_Hastalik_Dizini.md` | ✅ |
+| 20 | Yazar özgeçmişi | `kitap/24_Ozgecmis.md` | ✍️ şablon |
+| 21 | Arka kapak | `kitap/25_Arka_Kapak.md` | ✅ (künye satırı ✍️) |
 
 **Mevcut kısım yapısı:** I — Çerçeve (1) · II — Protein düzeyinde mekanizmalar (2–6) · III — Transkript ve genom yapısı (7–9) · IV — Epigenetik, organel ve mozaiklik (10–12) · V — Genomik bağlam ve karmaşık mimari (13–15) · VI — Yatkınlık, yorum ve klinik sentez (16–18).
 
-**Onaylanan hedef kısım yapısı (uygulandı):** Bölüm 13 kodlamayan/düzenleyici varyantlar · **Bölüm 14 alelik seri ✅** · **Bölüm 15 digenik/oligogenik/değiştirici mimari ✅** · **Bölüm 16 kalıtsal kanser yatkınlığı ve ikinci vuruş ✅** · **Bölüm 17 ACMG/ClinGen kanıt sentezi ✅** · **Bölüm 18 klinik sentez ✅** · **kitap sonu öz değerlendirme ✅**.
+**Onaylanan hedef kısım yapısı (uygulandı):** Bölüm 13 kodlamayan/düzenleyici varyantlar · **Bölüm 14 alelik seri ✅** · **Bölüm 15 digenik/oligogenik/değiştirici mimari ✅** · **Bölüm 16 kalıtsal kanser yatkınlığı ve ikinci vuruş ✅** · **Bölüm 17 ACMG/ClinGen kanıt sentezi ✅** · **Bölüm 18 klinik sentez ✅**. Öz değerlendirme dosyası bu ana kısım yapısının dışındadır.
 
 **Numaralandırma:** Şekil/Algoritma/Tablo numaraları `bölüm.sıra` biçimindedir ve metinde ilk anıldıkları sıraya göre verilir. Bölüm 1–8'in eski global şekil numaraları (Şekil 1–29) bu aşamada bölüm.sıra biçimine çevrildi; SVG'lerin iç başlıkları da eşitlendi.
 
 **Nesne listeleri:** Şekiller, algoritmalar ve tablolar listelerindeki bağlantılar bölüm başlığına değil doğrudan ilgili nesneye gider. Akışkan HTML'de sabit sayfa kavramı olmadığından sayfa numarası gösterilmez; nihai sabit PDF'de sayfa numaraları CSS hedef sayacı destekleyen sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
 
-**Kalan iş ve sıra:** Bağımsız uzman incelemesi ve yayın kapanışı. Ayrıca ✍️ kişisel/künye bilgileri ile nihai HTML/PDF sayfalama, liste sayfa numarası ve baskı kalite kontrolü tamamlanacaktır. Bölüm 8 revizyonu, Bölüm 14–15 sıra değişimi, digenik kanıt kontrol listesi, klinik örnek çeşitliliği, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve kitap sonu öz değerlendirme paketi tamamlanmıştır.
+**Kalan iş ve sıra:** Bağımsız uzman incelemesi ve yayın kapanışı. Ayrıca ✍️ kişisel/künye bilgileri ile nihai HTML/PDF sayfalama, liste sayfa numarası ve baskı kalite kontrolü tamamlanacaktır. Bölüm 8 revizyonu, Bölüm 14–15 sıra değişimi, digenik kanıt kontrol listesi, klinik örnek çeşitliliği ve bağımsız kanser yatkınlığı/ikinci vuruş bölümü tamamlanmıştır. Öz değerlendirme dosyası ana yayın dışında hazır bekler.
 
 ---
 
@@ -398,7 +397,7 @@ Kitabın ilk 17 bölümü yazıldıktan sonra yapılan birleştirme/standardizas
 | 7 | **Kapak ve içindekiler** | Kapağa bölüm/şekil/kaynak sayısı eklendi; içindekilerdeki "Bölüm N · Bölüm N — …" tekrarı giderildi; önsöz ve toplu kaynakça içindekilere alındı. |
 | 8 | **Stil rehberi** | Alınan kararlar `00_Şablonlar/Stil_Rehberi.md` §4–5'e bağlayıcı kural olarak işlendi. |
 
-**Bu kilometre taşının güncel envanteri:** 18 uygulanmış bölüm · 68 şekil · 52 Mermaid diyagramı · 65 yayın tablosu · 194 benzersiz PMID · 185 doğrulanmış doğrudan nesne hedefi · 54 soru · 54 yanıt yaklaşımı. Bölüm kaynaklarındaki 18 iç öz-denetim tablosu korunur, yayın envanterine girmez.
+**Bu kilometre taşının güncel ana yayın envanteri:** 18 uygulanmış bölüm · 68 şekil · 52 Mermaid diyagramı · 65 yayın tablosu · 194 benzersiz PMID · 185 doğrulanmış doğrudan nesne hedefi. Bölüm kaynaklarındaki 18 iç öz-denetim tablosu ile ayrı dosyadaki 54 soru/54 yanıt yaklaşımı yayın envanterine girmez.
 
 ---
 
@@ -410,7 +409,7 @@ Uygulama sırası kullanıcı tarafından şöyle onaylandı:
 2. **Düşük riskli teknik temizlik — tamamlandı:** Sayaçlar güncellendi/otomatikleştirildi; aktif SVG terminolojisi ve Kiril karakteri temizlendi; Bölüm 9 ve 12 tablo numaraları kesintisiz hâle getirildi; mutlak yardımcı betik yolu kaldırıldı; build eksik SVG ile geçersiz/mükerrer tablo numarasında duracak biçimde katılaştırıldı. Güncel build: 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID.
 3. **Doğrudan nesne bağlantıları ve terminoloji/HGVS denetimi — tamamlandı:** Güncel yayın envanterindeki 185 şekil, algoritma ve tablo kendi sabit hedefine bağlandı; numara/hedef bütünlüğü build sırasında doğrulanır. Kısaltmalar ve seçili hastalık adları Türkçe kaynaklarla denetlendi; HGVS/HGNC kuralları resmî kaynaklara bağlandı; NaV1.2 açıklandı; okuyucu metnindeki iç karar kodları kaldırıldı. Ayrıntılı kayıt: `Terminoloji_Kaynak_Denetimi.md`. Nihai PDF liste sayfa numaralarının görsel doğrulaması yayın kapanışında yapılacaktır.
 4. **Bilimsel/yapısal paketler — tamamlandı:** 14–15 sırası ✅, anöploidi ✅, digenik kanıt listesi ✅, örnek çeşitliliği ✅, bağımsız kanser yatkınlığı/ikinci vuruş bölümü ve gerekli çapraz göndermeler ✅.
-5. **Kitap sonu öz değerlendirme — tamamlandı:** 18 bölüm için 54 soru ve ayrı 54 yanıt yaklaşımı eklendi; bölüm sonları kendi soru grubuna bağlandı; iç kalite/doğrulama günlükleri yayından ayrıldı.
+5. **İsteğe bağlı öz değerlendirme materyali — ana yayında kapalı:** 18 bölüm için 54 soru ve 54 yanıt yaklaşımı ayrı dosyada hazırdır; ana kitapta ve bölüm sonlarında gösterilmez. İç kalite/doğrulama günlükleri de yayından ayrı tutulur.
 6. **Bağımsız insan değerlendirmesi:** Klinik genetik, moleküler tanı, sitogenetik/CNV ve Türkçe bilimsel editörlük bakışları.
 7. **Yayın kapanışı:** Künye alanları, son HTML/PDF, uyumlu sayfalama motoru, nesne listelerindeki sayfa numaralarının görsel denetimi, dizin/kaynak/listeler, sürüm ve yayın işlemleri.
 

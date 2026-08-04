@@ -870,3 +870,14 @@ Kaynaklar arasında doğrudan çözümsüz olgusal çelişki saptanmadı. Görü
 **Build koruması:** Derleme; bir bölümde iç kalite sınırı bulunmazsa, iç günlük yayın metnine sızarsa, soru/yanıt hedeflerinden biri eksik veya mükerrer olursa ya da bölüm–soru bağlantısı koparsa `BuildError` ile durur.
 
 **Git durumu:** Paket kullanıcının “go” onayıyla uygulandı. Stage, commit ve push yapılmadı.
+
+## Ana yayından öz değerlendirmeyi ayırma kararı (04.08.2026)
+
+Kullanıcı, öz değerlendirmenin şu anda ana kitapta bulunmamasına ve gerekirse başka sürümlere eklenmesine karar verdi. `kitap/19_Oz_Degerlendirme.md` silinmedi; 54 soru ve 54 yanıt yaklaşımı isteğe bağlı sürüm materyali olarak korundu. `build_book.py` içindeki `INCLUDE_SELF_ASSESSMENT = False` ana yayın varsayılanıdır. Bu durumda:
+
+- Öz Değerlendirme içindekilerde ve kitap gövdesinde yer almaz.
+- On sekiz bölümün sonunda soru bağlantısı bulunmaz.
+- İç öz-denetim ve kaynak doğrulama günlükleri kaynak Markdown'da korunmaya, ana yayından çıkarılmaya devam eder.
+- Derleme, ayar kapalıyken öz değerlendirme bölümü veya bağlantısı ana HTML'ye sızarsa hata verir.
+
+Bu karar yeni bilimsel veya normatif iddia eklemez; yalnız sürüm kapsamını değiştirir.

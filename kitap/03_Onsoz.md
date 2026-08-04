@@ -30,13 +30,13 @@ Zamanı kısıtlı okuyucular için üç kısayol vardır:
 
 - **Klinik kısayol:** Bölüm 1 → Bölüm 18 → oradan senaryoların gönderdiği bölümler.
 - **Laboratuvar kısayolu:** Bölüm 2 → Bölüm 17 → Bölüm 14 → ilgilendiğiniz mekanizma bölümü.
-- **Sınav kısayolu:** her bölümün başındaki *çekirdek tez* ve *öğrenme hedefleri*, *sık yapılan hatalar* kutusu ve kitap sonundaki bölüm bazlı *öz değerlendirme soruları*.
+- **Hızlı tekrar yolu:** her bölümün başındaki *çekirdek tez* ve *öğrenme hedefleri* ile *sık yapılan hatalar* kutusu.
 
 ## Her bölümün yapısı
 
 Bölümler aynı iskeleti izler; bu, aradığınızı nerede bulacağınızı bilmenizi sağlar.
 
-Her bölüm bir **çekirdek tez** ve **öğrenme hedefleriyle** açılır. Ardından on standart başlık gelir: kavramsal tanım, moleküler mekanizma, varyant tipleri, klinik fenotipe dönüşüm, tanısal testlerle ilişkisi, varyant yorumlama açısından önemi, pediatrik klinik örnekler, sık yapılan hatalar, klinik karar algoritması ve kaynaklar. Her bölümün sonunda kitap sonundaki ilgili **öz değerlendirme sorularına** bağlantı bulunur; yanıt yaklaşımları sorulardan ayrı tutulur. Ayrıntılı öz-denetim ve kaynak doğrulama kayıtları proje kaynaklarında korunur, yayın metninde gösterilmez.
+Her bölüm bir **çekirdek tez** ve **öğrenme hedefleriyle** açılır. Ardından on standart başlık gelir: kavramsal tanım, moleküler mekanizma, varyant tipleri, klinik fenotipe dönüşüm, tanısal testlerle ilişkisi, varyant yorumlama açısından önemi, pediatrik klinik örnekler, sık yapılan hatalar, klinik karar algoritması ve kaynaklar. Ayrıntılı öz-denetim ve kaynak doğrulama kayıtları proje kaynaklarında korunur, yayın metninde gösterilmez. Öz değerlendirme materyali de ana kitap yerine gerektiğinde ayrı bir eğitim/sınav sürümünde kullanılmak üzere proje içinde tutulur.
 
 Metin içinde dört kutu türü kullanılır: **🔬 deep-dive** (mekanizmanın derinine inen, ileri düzey tartışma), **🟦 klinikte dikkat** (pratik uyarı), **🔴 sık yapılan hata** (yaygın yanlışların listesi) ve **🧠 hatırlatıcı** (mnemonik). Doğrulanamamış ya da tartışmalı iddialar **⚠️** ile işaretlenir.
 

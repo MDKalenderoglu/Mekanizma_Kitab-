@@ -34,11 +34,11 @@ Bu kararlar kullanıcı tarafından onaylanmıştır; yeniden tartışma açmada
 - Önce **HTML + PDF değerlendirme sürümü**, bağımsız uzman incelemelerinden sonra dijital ve baskıya hazır nihai sürüm üretilecek.
 - Alelik seri Bölüm 14, digenik/oligogenik/değiştirici mimari Bölüm 15 olacak. **03.08.2026'da uygulandı.**
 - **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olacak; mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak. **04.08.2026'da uygulandı.**
-- Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanır; bölüm sonlarında ilgili kısma bağlantı verilir. Yanıt yaklaşımları sorulardan ayrı tutulur. **04.08.2026'da uygulandı.**
+- Okuyucuya yönelik 54 soru ve ayrı 54 yanıt yaklaşımı `kitap/19_Oz_Degerlendirme.md` içinde korunur; **ana kitap sürümüne girmez**. Gerektiğinde eğitim/sınav gibi farklı bir sürümde derleyici ayarıyla eklenebilir. **04.08.2026 kullanıcı kararıyla ana yayından çıkarıldı.**
 - Ayrıntılı öz-denetim, kaynak doğrulama, araç ve revizyon günlükleri proje kayıtlarında korunacak; yayımlanan HTML/PDF'de yalnız okuyucuya yönelik kısa yöntem açıklaması bulunacak.
 - Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak ve gelecek sürüm için taahhüt edilmeyecek.
 
-**Tamamlanan uygulama paketleri (04.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu, Bölüm 15 altı basamaklı digenik iddia kontrol listesi, klinik örnek çeşitliliği, bağımsız Bölüm 16 kalıtsal kanser yatkınlığı/ikinci vuruş paketi ve kitap sonu öz değerlendirme paketi tamamlandı. Güncel build 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID · 185 doğrudan nesne hedefi üretir. Kaynak dosyalardaki 18 iç öz-denetim tablosu bu sayıya girmez. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası, eksik/mükerrer nesne veya öz değerlendirme hedefi ya da iç günlüğün yayına sızması durumunda hata vererek durur. Sıradaki evre bağımsız insan değerlendirmesi ve yayın kapanışıdır.
+**Tamamlanan uygulama paketleri (04.08.2026):** Editöryal karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu, Bölüm 15 altı basamaklı digenik iddia kontrol listesi, klinik örnek çeşitliliği ve bağımsız Bölüm 16 kalıtsal kanser yatkınlığı/ikinci vuruş paketi tamamlandı. Öz değerlendirme materyali ayrı dosyada hazırdır fakat ana yayında kapalıdır. Güncel build 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID · 185 doğrudan nesne hedefi üretir. Kaynak dosyalardaki 18 iç öz-denetim tablosu bu sayıya girmez. Build; eksik SVG, geçersiz/mükerrer/kesintili şekil-algoritma-tablo numarası, eksik/mükerrer nesne, iç günlüğün yayına sızması veya kapalı öz değerlendirme içeriğinin ana sürüme girmesi durumunda hata vererek durur. Sıradaki evre bağımsız insan değerlendirmesi ve yayın kapanışıdır.
 
 **Codex/Claude devri için bağlayıcı kural:** Kararlar yalnız sohbet geçmişinde bırakılmaz. Güncel durum `README.md` ve `Bölüm_00_İçindekiler_ve_İlerleme.md` içinde, editöryal kararlar `Editor_Degerlendirme_Formu_Tur2.md` içinde, bilimsel doğrulama `Dogrulama_Kutugu.md` içinde, Türkçe terminoloji kaynakları `Terminoloji_Kaynak_Denetimi.md` içinde ve değişiklik gerekçesi Git commitinde tutulur. Her oturum `git status` + bu beş belge okunarak başlar. Commitler tek amaçlıdır ve açıklaması *ne değişti / neden / nasıl doğrulandı* sorularını yanıtlar. Stage, commit ve push için ayrı kullanıcı yetkisi gerekir.
 
@@ -94,7 +94,7 @@ Ardından 10 standart başlık:
 9. **Klinik pratikte karar algoritması** (Mermaid)
 10. **Kaynaklar** (her biri: Yazar, Yıl, Başlık, Dergi, PMID, DOI-link, kullanım amacı)
 
-Bölüm kaynak dosyasında iç kalite güvencesi için **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama durumu** korunur. Bunlar yayımlanan HTML/PDF'de gösterilmez. Okuyucuya yönelik sorular `kitap/19_Oz_Degerlendirme.md` içinde bölüm bazında toplanır; yanıt yaklaşımları ayrı kısımdadır ve her bölüm sonunda kendi soru grubuna yönlendirme bulunur.
+Bölüm kaynak dosyasında iç kalite güvencesi için **✅ öz-denetim tablosu** (10 kriter) + **🔎 kaynak doğrulama durumu** korunur. Bunlar yayımlanan HTML/PDF'de gösterilmez. Okuyucu soru ve yanıtları `kitap/19_Oz_Degerlendirme.md` içinde korunur; ana kitapta gösterilmez ve bölüm sonlarında soru bağlantısı bulunmaz.
 
 **Standart test tablosu satırları:** WES · Short-read WGS · Long-read WGS · Array-CGH/SNP array · MLPA · RNA-seq · Methylation array · Karyotip. Sütunlar: "Bu mekanizmayı yakalar mı?" / "Sınırlılığı".
 
@@ -174,7 +174,7 @@ Güncel ilerleme **Bölüm_00_İçindekiler_ve_İlerleme.md** dosyasındadır.
 - Önce mekanizma, sonra klinik, sonra test, sonra yorum.
 - Yayın biçimi: önce **HTML + PDF değerlendirme sürümü**, sonra dijital ve baskıya hazır nihai sürüm.
 - Türkiye'ye özgü klinik uygulama eki: **mevcut kapsam dışında**; gelecek sürüm taahhüdü yok.
-- Öz değerlendirme: okuyucu soruları kitabın sonunda; bölüm sonlarında bağlantı; iç kalite/doğrulama günlükleri yayın dışı.
+- Öz değerlendirme: soru/yanıt materyali ayrı dosyada korunur, ana kitap sürümüne girmez; iç kalite/doğrulama günlükleri de yayın dışıdır.
 
 ---
 

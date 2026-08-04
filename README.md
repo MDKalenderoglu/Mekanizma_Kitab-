@@ -29,18 +29,18 @@ kitleyi oluşturur.
 - Güncel doğrulanan yayın envanteri: **18 bölüm · 68 şekil · 52 algoritma
   · 65 tablo · 194 benzersiz PMID · 185 doğrudan nesne hedefi**. Kaynak
   dosyalardaki 18 iç öz-denetim tablosu yayın envanterine girmez. Derleme;
-  eksik SVG/nesne/öz değerlendirme hedefinde, numaralandırma hatasında veya iç
-  kalite günlüğü yayına sızarsa hata vererek durur.
+  eksik SVG/nesne hedefinde, numaralandırma hatasında, iç kalite günlüğü yayına
+  sızarsa veya kapalı öz değerlendirme içeriği ana sürüme girerse hata vererek durur.
 - **Bölüm 14–15 sıra değişimi tamamlandı:** Aynı gen → farklı hastalık (alelik seri)
   artık Bölüm 14; digenik/oligogenik/değiştirici mimari artık Bölüm 15'tir. Dosya,
   nesne, çapraz gönderme, kaynak kütüğü ve dizin numaraları yeni sırayla eşitlendi.
 - **Bölüm 16 tamamlandı:** Kalıtsal kanser yatkınlığı ve ikinci vuruş bağımsız
   bölüm olarak eklendi; ACMG/ClinGen sentezi Bölüm 17'ye, klinik senaryolar Bölüm
   18'e kaydırıldı.
-- **Öz değerlendirme tamamlandı:** 18 bölüm için 54 soru kitap sonunda
-  gruplandı; 54 yanıt yaklaşımı ayrı kısma alındı ve her bölüm sonundan kendi
-  soru grubuna doğrudan bağlantı eklendi. İç kalite/doğrulama günlükleri kaynak
-  Markdown dosyalarında korunurken yayın HTML'sinden çıkarıldı.
+- **Öz değerlendirme materyali ayrı tutuluyor:** 18 bölüm için 54 soru ve 54
+  yanıt yaklaşımı proje içinde hazırdır; ana kitapta ve bölüm sonlarında
+  gösterilmez. Gerektiğinde farklı bir eğitim/sınav sürümüne eklenebilir. İç
+  kalite/doğrulama günlükleri de kaynak Markdown'da korunup ana yayından ayrılır.
 
 Güncel durum ve yol haritası için önce
 [`Bölüm_00_İçindekiler_ve_İlerleme.md`](Bölüm_00_İçindekiler_ve_İlerleme.md),
@@ -61,9 +61,9 @@ her madde ayrı paket hâlinde uygulanır ve durumu ayrıca kaydedilir:
 3. **Kalıtsal kanser yatkınlığı ve ikinci vuruş** bağımsız Bölüm 16 olarak
    hazırlanacak; mevcut yorum ve klinik sentez bölümleri 17 ve 18'e kayacak.
    **✅ 4 Ağustos 2026'da uygulandı.**
-4. Okuyucuya yönelik öz değerlendirme soruları bölüm sonlarından ayrı olarak
-   kitabın sonunda, bölüm bazında gruplanmış bir kısımda toplanacak; bölüm
-   sonlarında bu kısma bağlantı verilecek.
+4. Okuyucuya yönelik öz değerlendirme materyali proje içinde ayrı tutulacak;
+   ana kitap sürümüne girmeyecek. Gerektiğinde farklı bir eğitim/sınav
+   sürümünde kullanılabilecek.
 5. Ayrıntılı üretim ve doğrulama günlükleri proje içinde korunacak, yayımlanan
    kitapta yalnız kısa ve okuyucuya yönelik yöntem açıklaması bulunacak.
 6. Türkiye'ye özgü klinik uygulama eki mevcut yayın kapsamına alınmayacak; gelecekte
@@ -98,7 +98,7 @@ sunulmaz.
 |---|---|
 | `Bölüm_01_*.md` – `Bölüm_18_*.md` | Mevcut bilimsel bölüm kaynakları |
 | `kitap/` | Künye, ön/arka madde, ekler, sözlük ve dizinler |
-| `kitap/19_Oz_Degerlendirme.md` | 18 bölümün soru bankası ve ayrı yanıt yaklaşımları |
+| `kitap/19_Oz_Degerlendirme.md` | Ana kitap dışında tutulan, isteğe bağlı soru bankası ve yanıt yaklaşımları |
 | `assets/` | Aktif SVG görseller |
 | `00_Şablonlar/` | Bölüm, stil, görsel, kaynak ve doğrulama protokolleri |
 | `.claude/skills/bolum-yaz/SKILL.md` | Bölüm yazım iş akışı |
@@ -142,6 +142,6 @@ kontrolü, bilimsel ve editöryal revizyonlardan sonra yapılacaktır.
 Tamamlanan sıra: **karar kaydı → düşük riskli teknik temizlik → doğrudan nesne
 bağlantıları ve terminoloji/HGVS denetimi → Bölüm 14–15 sıra değişimi → Bölüm 8
 sayısal/yapısal kromozom anomalileri revizyonu → digenik kanıt kontrol listesi →
-klinik örnek çeşitliliği → bağımsız kanser yatkınlığı/ikinci vuruş Bölüm 16
-→ kitap sonu öz değerlendirme**. Sıradaki evre bağımsız uzman incelemesi ve yayın
-kapanışıdır.
+klinik örnek çeşitliliği → bağımsız kanser yatkınlığı/ikinci vuruş Bölüm 16**.
+Öz değerlendirme materyali ayrı dosyada hazırdır ve ana yayında kapalıdır.
+Sıradaki evre bağımsız uzman incelemesi ve yayın kapanışıdır.

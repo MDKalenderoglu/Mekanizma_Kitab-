@@ -34,6 +34,9 @@ KITAP = os.path.join(ROOT, "kitap")
 MERMAID_JS = os.path.join(ROOT, "build_assets", "mermaid.min.js")
 OUT = os.path.join(ROOT, "Genetik_Hastalık_Mekanizmaları.html")
 
+# Ana yayın sürümünde kapalıdır. Eğitim/sınav sürümü üretilirken True yapılabilir.
+INCLUDE_SELF_ASSESSMENT = False
+
 BOOK_TITLE = "Genetik Hastalık Mekanizmaları"
 BOOK_SUBTITLE = "Mekanizmadan Varyant Yorumuna — Kapsamlı Akademik Ders Kitabı"
 
@@ -63,8 +66,9 @@ FRONT_AFTER_TOC = [
     ("06_Kisaltmalar.md", "Kısaltmalar"),
     ("07_Terminoloji_ve_Yazim_Kurallari.md", "Terminoloji ve Yazım Kuralları"),
 ]
-BACK = [
+BACK = ([
     ("19_Oz_Degerlendirme.md", "Öz Değerlendirme"),
+] if INCLUDE_SELF_ASSESSMENT else []) + [
     ("20_Ekler.md", "Ekler"),
     ("21_Sozluk.md", "Sözlük"),
 ]
@@ -284,12 +288,20 @@ def validate_object_targets(doc, groups):
                 raise BuildError(
                     f"{label} {no} için tek HTML hedefi bekleniyordu; bulunan: {target_count}"
                 )
+            if link_count != 2:
+                raise BuildError(
+                    f"{label} {no} için liste ve sayfa bağlantıları eksik; bulunan: {link_count}"
+                )
 
 
-def validate_self_assessment(doc, chapter_count):
-    """Soru/yanıt hedeflerini, bölüm bağlantılarını ve günlük ayrımını denetle."""
+def validate_publication_separation(doc, chapter_count):
+    """İç günlük ayrımını ve isteğe bağlı soru sürümünü denetle."""
     if "Bölüm öz-denetim tablosu" in doc or "Bölüm sonu kaynak doğrulama komutu" in doc:
         raise BuildError("İç kalite/doğrulama günlüğü yayın metnine sızdı")
+    if not INCLUDE_SELF_ASSESSMENT:
+        if 'id="oz-degerlendirme"' in doc or 'class="chapter-self-assessment"' in doc:
+            raise BuildError("Öz değerlendirme kapalı olduğu halde ana yayına girdi")
+        return
     for chapter in range(1, chapter_count + 1):
         question_anchor = f"oz-degerlendirme-bolum-{chapter}"
         answer_anchor = f"oz-degerlendirme-yanit-bolum-{chapter}"
@@ -301,10 +313,6 @@ def validate_self_assessment(doc, chapter_count):
             raise BuildError(f"Bölüm {chapter} soru grubuna bağlantı eksik")
         if doc.count(f'href="#{answer_anchor}"') != 1:
             raise BuildError(f"Bölüm {chapter} yanıt yaklaşımına bağlantı eksik")
-            if link_count != 2:
-                raise BuildError(
-                    f"{label} {no} için liste ve sayfa bağlantıları eksik; bulunan: {link_count}"
-                )
 
 
 def collect_bibliography(chapters):
@@ -479,7 +487,7 @@ def build():
     bodies.append(list_section("algoritmalar", "Algoritmalar Listesi", algos, "Algoritma",
                                "Karar ağaçları ve klinik akış şemaları; bağlantılar doğrudan algoritmayı açar."))
     bodies.append(list_section("tablolar", "Tablolar Listesi", tabs, "Tablo",
-                               "Kavram, varyant tipi, test ve öz-denetim tabloları; bağlantılar doğrudan tabloyu açar."))
+                               "Kavram, varyant tipi, test ve karşılaştırma tabloları; bağlantılar doğrudan tabloyu açar."))
 
     for roma, pname, pdesc, nums in PARTS:
         chs = " · ".join(f"Bölüm {n}" for n in nums)
@@ -493,9 +501,10 @@ def build():
         for n in nums:
             with open(cmap[n], encoding="utf-8") as fh:
                 chapter_md = public_chapter_text(fh.read())
+                assessment_link = self_assessment_link(n) if INCLUDE_SELF_ASSESSMENT else ""
                 bodies.append(
                     f'<section class="chapter" id="bolum-{n}">'
-                    f'{convert(chapter_md)}{self_assessment_link(n)}</section>'
+                    f'{convert(chapter_md)}{assessment_link}</section>'
                 )
             toc_lines.append(f'<li class="chline"><a href="#bolum-{n}">{html.escape(titles[n])}</a></li>')
 
@@ -564,7 +573,7 @@ def build():
 </html>"""
 
     validate_object_targets(doc, (("Şekil", figs), ("Algoritma", algos), ("Tablo", tabs)))
-    validate_self_assessment(doc, len(chapters))
+    validate_publication_separation(doc, len(chapters))
 
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write(doc)
@@ -576,7 +585,10 @@ def build():
     print(f"   {len(chapters)} bölüm · {len(PARTS)} kısım · {len(figs)} şekil · "
           f"{len(algos)} algoritma · {len(tabs)} tablo · {bib_n} benzersiz PMID")
     print(f"   {len(figs) + len(algos) + len(tabs)} doğrudan nesne hedefi doğrulandı")
-    print(f"   {len(chapters)} bölümün soru/yanıt hedefleri ve yayın-günlük ayrımı doğrulandı")
+    if INCLUDE_SELF_ASSESSMENT:
+        print(f"   {len(chapters)} bölümün soru/yanıt hedefleri ve yayın-günlük ayrımı doğrulandı")
+    else:
+        print("   Öz değerlendirme ana sürümde kapalı; yayın-günlük ayrımı doğrulandı")
     if missing:
         print("   ⚠️ Henüz yazılmamış ön/arka madde: " + ", ".join(missing))
     print("   Tarayıcıdan değerlendirme PDF'i alınabilir; nihai sayfa numaraları uyumlu sayfalama motorunda doğrulanır.")

@@ -18,12 +18,12 @@ Bu formun yayın yönünü belirleyen maddeleri kullanıcıyla tek tek görüş�
 2. Birincil hedef kitle: tıbbi genetik ve çocuk genetiği hekimleri/eğitim alanlar, klinik genomik ve varyant yorumlama uzmanları, tıbbi biyoloji uzmanları/araştırmacıları ve moleküler genetik tanı laboratuvarı ekipleri. İkincil hedef: pediatri hekimleri, moleküler biyoloji ve genetik alanında eğitim alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri.
 3. Alelik seri Bölüm 14'e, digenik/oligogenik/değiştirici mimari Bölüm 15'e alınacak. **✅ 03.08.2026'da uygulandı.**
 4. Kalıtsal kanser yatkınlığı ve ikinci vuruş, mozaiklik içine yerleştirilmeyecek; bağımsız Bölüm 16 olacak. Mevcut Bölüm 16 ve 17 sırasıyla 17 ve 18'e kayacak. **✅ 04.08.2026'da uygulandı.**
-5. Okuyucuya yönelik öz değerlendirme soruları kitabın sonunda bölüm bazında gruplanacak; bölüm sonlarında bağlantı verilecek; yanıt yaklaşımları sorulardan ayrı tutulacak. **✅ 04.08.2026'da uygulandı.**
+5. İlk kararda okuyucuya yönelik öz değerlendirme sorularının kitap sonunda gruplanması ve bölüm sonlarından bağlanması öngörüldü. **04.08.2026 tarihli son kullanıcı kararıyla değiştirildi:** materyal ayrı dosyada korunacak, ana kitaba girmeyecek; gerekirse başka sürümlerde kullanılacak.
 6. Ayrıntılı üretim/doğrulama günlükleri proje içinde korunacak; yayımlanan kitapta yalnız kısa, okuyucuya yönelik yöntem açıklaması bulunacak.
 7. Türkiye'ye özgü klinik uygulama eki mevcut kapsama alınmayacak; gelecek sürüm için taahhüt edilmeyecek.
 8. Uygulama sırası: karar kaydı → düşük riskli teknik temizlik → ayrı bilimsel/yapısal paketler → bağımsız insan değerlendirmesi → yayın kapanışı.
 
-**Uygulama durumu (04.08.2026):** Karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu, klinik örnek çeşitliliği, bağımsız Bölüm 16 kanser yatkınlığı/ikinci vuruş ve öz değerlendirme paketleri tamamlandı. Güncel derleme 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID üretmektedir; 185 şekil/algoritma/tablo hedefi doğrudan bağlanmıştır. Kaynak dosyalardaki 18 iç öz-denetim tablosu yayın envanterine girmez. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
+**Uygulama durumu (04.08.2026):** Karar kaydı, düşük riskli teknik temizlik, doğrudan nesne bağlantıları + terminoloji/HGVS denetimi, Bölüm 14–15 sıra değişimi, Bölüm 8 sayısal/yapısal kromozom anomalileri revizyonu, klinik örnek çeşitliliği ve bağımsız Bölüm 16 kanser yatkınlığı/ikinci vuruş paketi tamamlandı. Öz değerlendirme dosyası hazır fakat ana derlemede kapalıdır. Güncel derleme 18 bölüm · 68 şekil · 52 algoritma · 65 yayın tablosu · 194 benzersiz PMID üretmektedir; 185 şekil/algoritma/tablo hedefi doğrudan bağlanmıştır. Kaynak dosyalardaki 18 iç öz-denetim tablosu yayın envanterine girmez. Ayrıntılı test kaydı `Dogrulama_Kutugu.md`, terminoloji önce/sonra tablosu ve kaynakları `Terminoloji_Kaynak_Denetimi.md` içindedir. Nihai sabit PDF'deki nesne sayfa numaraları yayın kapanışında uyumlu sayfalama motoruyla üretilecek ve görsel olarak doğrulanacaktır.
 
 ---
 
@@ -149,7 +149,7 @@ Bunlar tartışmasız olgusal/iç tutarlılık hatalarıydı; sormadan düzeltti
 
 **Değerlendirme:** ☐ D ☒ Y ☐ A → Ayrıntılı öz-denetim ve kaynak doğrulama/uzman turu günlükleri yayımlanan sürümden çıkarılacak; proje kaynaklarında ve `Dogrulama_Kutugu.md` içinde korunacak. Okuyucuya yönelik öz değerlendirme soruları ayrı `kitap/19_Oz_Degerlendirme.md` hedefinde bölüm bazında toplanacak; bölüm sonunda yalnız bağlantı bulunacak.
 
-**Uygulama durumu (04.08.2026):** ✅ Uygulandı. On sekiz bölüm için 54 soru ile ayrı bir kısımda 54 yanıt yaklaşımı oluşturuldu; her bölüm sonu kendi soru grubuna bağlandı. Derleyici iç öz-denetim/doğrulama bloklarını kaynak Markdown'da koruyup yayın HTML'sinden çıkarır ve bu bloklardan biri yayına sızarsa hata verir.
+**Uygulama durumu (04.08.2026):** ✅ On sekiz bölüm için 54 soru ve 54 yanıt yaklaşımı ayrı dosyada oluşturuldu. **Son karar:** Ana kitapta öz değerlendirme kısmı ve bölüm sonu soru bağlantıları bulunmaz; derleyicide kapalıdır. Dosya ileride farklı bir sürüm için korunur. Derleyici iç öz-denetim/doğrulama bloklarını da kaynak Markdown'da koruyup yayın HTML'sinden çıkarır.
 
 <br>
 
