@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Klinik genetiğin gündelik dili gen adları üzerine kuruludur: "*LMNA* hastası", "*FGFR3* mutasyonu", "*RET* taşıyıcısı". Bu dil pratiktir ama yanıltıcıdır, çünkü **bir gen bir hastalığa karşılık gelmez.** Aynı lokustaki farklı varyantlar, birbirinden klinik olarak tanınmayacak kadar farklı — kimi zaman taban tabana zıt — hastalıklar üretir: *FGFR3*'ün bir varyantı bebeği neonatal dönemde öldüren bir iskelet displazisi yaparken, aynı genin başka bir varyantı uzun boy ve işitme kaybıyla giden tümüyle farklı bir tabloya yol açar. Bu bölüm, bu çokluğun rastgele olmadığını gösterir: **alelik seri**, çoğu zaman tek bir ölçülebilir eksen (aktivite düzeyi, rezidüel işlev, bozulan arayüz) boyunca dizilir ve o eksendeki konum, hastalığın adını belirler. Bölümün ikinci ve yorumlama açısından daha keskin tezi şudur: **değerlendirilen birim gen değil, gen–kalıtım–mekanizma üçlüsüdür.** Bir varyant "*LMNA* için patojen" olamaz; ancak "*LMNA*'ya bağlı otozomal dominant Emery-Dreifuss musküler distrofisi için patojen" olabilir. Bu ayrımı kaçıran her rapor cümlesi, hem yanlış bir tanı hem de yanlış bir tekrarlanma riski taşır.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** §1 ve §2 ile Şekil 14.1–14.2 çekirdeği oluşturur; altı yorumlama ekseni kavranmadan geri kalanı ezber kalır.
 > · **② Klinik — pediatrist ve klinisyen:** §4 ve §7: aynı gende farklı hastalıkların klinik ayrımı ve tekrarlanma riskinin hastalık varlığına bağlanması.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 ve Şekil 14.4: konum-temelli kriterlerin (PS1, PM5, PM1, PP4) hastalık belirtilmeden kullanılamaması. Bölüm 17'ye hazırlıktır.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6 ve Şekil 14.4: konum-temelli kriterlerin (PS1, PM5, PM1, PP4) hastalık belirtilmeden kullanılamaması. Bölüm 17'ye hazırlıktır.
 
 > 🖼️ **Görseller hakkında not:** Şekil 14.1–14.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -361,7 +361,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. (Metin içinde yazar-yıl, kaynakçada DOI-link kullanılır.)
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Nomenklatür ve kılavuz belgeleri ayrıca kurum, belge adı, sürüm, tarih ve kalıcı bağlantıyla tanımlanmıştır. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Thaxton C, Goldstein J, DiStefano M, ve ark. (2022).** Lumping versus splitting: How to approach defining a disease to enable accurate genomic curation. *Cell Genomics* 2(5):100131. **PMID: 35754516** · DOI: [10.1016/j.xgen.2022.100131](https://doi.org/10.1016/j.xgen.2022.100131) — *Kullanım amacı: Bölümün yorumlama omurgası; hastalık varlığının tanımlanması, ön-küreleme, birleştirme/ayırma ölçütleri ve bunların klinik tanı, biyoinformatik ve bakım yönetimine etkileri.*
 

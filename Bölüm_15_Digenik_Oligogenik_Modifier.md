@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Bu kitabın önceki bölümleri, büyük ölçüde tek bir varsayım üzerine kuruluydu: *bir hastalığın bir nedeni vardır.* Bu bölüm o varsayımı gevşetir. **Monogenik ve kompleks kalıtım iki ayrı dünya değil, tek bir eksenin iki ucudur**; arada digenik (iki lokusun ikisi de gerekli), oligogenik (birkaç lokusun eşitsiz katkısı) ve modifiye edici (ana varyantın etkisini hafifleten ya da ağırlaştıran ikinci lokus) senaryoları vardır. Bu eksende bir hastalığı nereye koyduğunuz üç şeyi birden belirler: aileye vereceğiniz **tekrarlanma riskini**, bekleyeceğiniz **penetransı** ve varyantı nasıl **yorumlayacağınızı**. Bölümün ikinci ve klinik olarak daha keskin tezi ise bir uyarıdır: **"iki gende varyant bulmak" ile "hastalık digeniktir" demek aynı şey değildir.** Her sağlıklı genom çok sayıda nadir varyant taşır; digenik iddia, monogenik iddiadan daha yüksek bir kanıt çıtası gerektirir. Bu bölüm ayrıca Bölüm 1'de "eksik penetrans ve değişken ekspresivite" diye adlandırdığımız bulanıklığa somut bir moleküler zemin verir: o bulanıklığın önemli bir kısmı, ana genin etrafındaki **genetik bağlamdır**.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Süreklilik ve eşik modeli (Şekil 15.1) kurulmadan sonraki tartışmalar havada kalır.
 > · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 15.4'ün C paneli; "iki gende varyant bulduk" cümlesinin danışmadaki karşılığı.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: ACMG/AMP çerçevesinin kapsam sınırı, tek-varyant sınıflandırması ile çift-lokus nedenselliği arasındaki ayrım ve digenik iddianın kanıt basamakları.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6: ACMG/AMP çerçevesinin kapsam sınırı, tek-varyant sınıflandırması ile çift-lokus nedenselliği arasındaki ayrım ve digenik iddianın kanıt basamakları.
 
 > 🖼️ **Görseller hakkında not:** Şekil 15.1–15.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -321,7 +321,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. (Metin içinde yazar-yıl, kaynakçada DOI-link kullanılır.)
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Schäffer AA (2013).** Digenic inheritance in medical genetics. *Journal of Medical Genetics* 50(10):641–652. **PMID: 23785127** · DOI: [10.1136/jmedgenet-2013-101713](https://doi.org/10.1136/jmedgenet-2013-101713) — *Kullanım amacı: Bölümün ana çerçeve kaynağı; digenik kalıtımın tanımı, kanıt türleri, aday gen ve protein–protein etkileşim bilgisinin rolü, HTS'nin beklenen katkıyı neden sağlamadığı.*
 

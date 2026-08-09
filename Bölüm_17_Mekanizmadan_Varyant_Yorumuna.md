@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Bu kitabın on dört bölümü boyunca mekanizmaları tek tek öğrendik. Bu bölüm, o bilginin **nereye aktığını** gösterir: klinik laboratuvarda bir varyantın sınıflandırılmasına. ACMG/AMP çerçevesi çoğu zaman bir **kontrol listesi** gibi öğretilir — kriterleri işaretle, kuralı uygula, sınıfı oku. Bu okuma yanlıştır ve bölümün birinci tezi budur: çerçeve bir kontrol listesi değil, bir **kanıt tartma dilidir**; kriterlerin ağırlıkları vardır, ağırlıklar toplanabilir ve toplam ağırlık bir **olasılık** ifade eder. İkinci ve kitabın tamamını bu bölüme bağlayan tez ise şudur: **hangi kriteri hangi güçte kullanabileceğinizi belirleyen şey mekanizmadır.** PVS1'i uygulayabilmek için işlev kaybının o hastalığın mekanizması olduğunu bilmeniz; PM1'i kullanabilmek için hotspot'un hangi mekanizmaya ait olduğunu bilmeniz; PS3'ü kullanabilmek için testin hangi mekanizmayı ölçtüğünü bilmeniz gerekir. Mekanizma bilgisi olmadan yapılan varyant yorumu, doğru kelimeleri yanlış anlamda kullanan bir cümledir. Üçüncü tez pratiktir: **VUS bir sonuç değil, bir eksik-kanıt durumudur** — ve hangi verinin hangi kriteri açtığını bilmek, o durumu çözmenin yoludur.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** §1 ve Şekil 17.1: sınıflandırmanın bir **olasılık ifadesi** olduğunu kavramak geri kalanını taşır.
 > · **② Klinik — pediatrist ve klinisyen:** §4 ve §8 ile Şekil 17.4: "raporda yazan sınıf ne anlama geliyor?" ve "VUS geldiyse ne yapmalıyım?"
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §2 ve §6 ile Şekil 17.3 bölümün ağırlık merkezidir; §7'deki beş çözümlü örnek bütün bölümü olgular üzerinde tekrar eder.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §2 ve §6 ile Şekil 17.3 bölümün ağırlık merkezidir; §7'deki beş çözümlü örnek bütün bölümü olgular üzerinde tekrar eder.
 
 > 🖼️ **Görseller hakkında not:** Şekil 17.1–17.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -376,7 +376,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. (Metin içinde yazar-yıl, kaynakçada DOI-link kullanılır.)
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Nomenklatür ve kılavuz belgeleri ayrıca kurum, belge adı, sürüm, tarih ve kalıcı bağlantıyla tanımlanmıştır. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Kullanım amacı: Bölümün temel çerçevesi; beş sınıflı terminoloji, kanıt kategorileri ve kriter tanımları. Kaynak kütüğünden yeniden kullanılmıştır.*
 

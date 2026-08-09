@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Bir genin kodlayan bilgisi ekzonlara bölünmüştür; aradaki intronların çıkarılıp ekzonların doğru sırayla birleştirilmesi (**splicing/kırpılma**), spliceozom tarafından birkaç kısa "tanıma dizisi" üzerinden yürütülür: 5′ donör (*donor*, GT), 3′ akseptör (*acceptor*, AG), dallanma noktası (*branchpoint*) ve polipirimidin yolu, artı ekzon/intron içindeki düzenleyici diziler (ESE/ESS/ISE/ISS). Bu sinyallerden herhangi birini bozan bir varyant — **kanonik ±1/±2 konumdaki klasik splice varyantından**, bir ekzondaki **"sessiz" (eş anlamlı) değişime** ya da hiçbir proteini değiştirmeyen **derin intronik** bir nükleotide kadar — splicing'i saptırarak ekzon atlamasına, intron tutulmasına veya gizli (**kriptik splice bölgesi**, *cryptic splice site*) bölgelerin/sözde-ekzonların aktive olmasına yol açar. Sonuç çoğu kez okuma çerçevesini kaydırıp erken stop + NMD ile **işlev kaybı** üretir; ama çerçeve korunursa **dominant-negatif veya işlev kazanımı** da olabilir. Bu yüzden splicing, kitabın daha önceki tüm mekanizmalarını (LoF, DN, GoF) tek bir DNA katmanından besleyebilen, "varyantın nerede olduğu kadar RNA'ya ne yaptığı önemlidir" dersinin en saf örneğidir.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Şekil 7.1 ile splicing'in birkaç kısa sinyale bağlı olduğunu görün; Şekil 7.3 (SMN1/SMN2) "sessiz varyant masumdur" sezgisini tek başına yıkar.
 > · **② Klinik — pediatrist ve klinisyen:** §4–§5: RNA analizi ne zaman istenir, hangi doku gerekir, negatif sonuç neyi dışlar.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: ClinGen SVI splice çerçevesi — RNA kanıtının PS3 ile değil **PVS1_Strength** ile kodlanması ve BP7'nin koşulları.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6: ClinGen SVI splice çerçevesi — RNA kanıtının PS3 ile değil **PVS1_Strength** ile kodlanması ve BP7'nin koşulları.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -234,7 +234,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Scotti MM, Swanson MS (2016).** RNA mis-splicing in disease. *Nature Reviews Genetics* 17(1):19–32. **PMID: 26593421** · DOI: [10.1038/nrg.2015.3](https://doi.org/10.1038/nrg.2015.3) — *Kullanım amacı: Splicing mekanizması ve mis-splicing hastalıklarının landmark derlemesi; sinyallerin varyantlara duyarlılığı.*
 2. **Jaganathan K, Kyriazopoulou Panagiotopoulou S, McRae JF, ve ark. (2019).** Predicting Splicing from Primary Sequence with Deep Learning. *Cell* 176(3):535–548.e24. **PMID: 30661751** · DOI: [10.1016/j.cell.2018.12.015](https://doi.org/10.1016/j.cell.2018.12.015) — *Kullanım amacı: SpliceAI; sessiz/derin intronik kriptik splice varyantlarının öngörüsü ve patojen varyantların ~%9–11'ini oluşturması.*

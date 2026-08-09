@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** **Haploinsufficiency (HI) — tek işlevsel kopyanın yetersizliği** —, tek işlevsel alelin sağladığı **%50 gen dozunun, normal işlev için yetmediği** durumdur. Bölüm 2'de gördüğümüz işlev kaybının (LoF) özel ve klinik olarak en sık karşılaşılan dominant hâlidir: kaybın *kendisi* niceliksel olarak aynı kalır (bir alel sustu), ama **fenotip, genin "doz duyarlılığına" (eşiğine) bağlıdır**. Aynı %50 kayıp doza duyarlı bir gende ağır gelişimsel hastalık yaparken, tamponlu bir gende tamamen sessiz kalır. Bu bölüm, "neden bazı genlerde yarım yetmez?" sorusunu doz–yanıt eğrisi, eşik ve stokiyometri üzerinden kurar; oradan dominant kalıtıma, değişken penetransa, tanıda **dizileme + doz analizinin birlikteliği** zorunluluğuna ve ACMG/ClinGen'in dozaj (CNV) yorumlamasına bağlar.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Omurga tek sorudur: *bir alel yeterli mi?* (§2, Şekil 3.1). Cevabın gene göre değiştiğini görün.
 > · **② Klinik — pediatrist ve klinisyen:** §4–§5 ve §7'deki pediatrik HI genleri; "delesyon bulundu, doza duyarlı mı?" sorusunun pratik yanıtı.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 (ClinGen dozaj puanlaması ve PVS1'in HI'ye özgü uygulanışı) ile Şekil 3.4'teki üç kanıt katmanının ayrımı.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6 (ClinGen dozaj puanlaması ve PVS1'in HI'ye özgü uygulanışı) ile Şekil 3.4'teki üç kanıt katmanının ayrımı.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -282,7 +282,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden alınmış ve doğrulanmıştır; her kaynağın PMID **ve** DOI'si bu oturumda tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Seidman JG, Seidman C (2002).** Transcription factor haploinsufficiency: when half a loaf is not enough. *Journal of Clinical Investigation* 109(4):451–455. **PMID: 11854316** · DOI: [10.1172/JCI15043](https://doi.org/10.1172/JCI15043) — *Landmark/kavramsal: TF haploinsufficiency'sinin doz-eşik temeli.*
 2. **Bruneau BG, Nemer G, Schmitt JP, ve ark. (2001).** A murine model of Holt-Oram syndrome defines roles of the T-box transcription factor Tbx5 in cardiogenesis and disease. *Cell* 106(6):709–721. **PMID: 11572777** · DOI: [10.1016/s0092-8674(01)00493-7](https://doi.org/10.1016/s0092-8674(01)00493-7) — *Mekanizma/klinik: TBX5 HI deneysel kanıtı, hedef gen ifadesi, Holt-Oram.*

@@ -1,63 +1,65 @@
-# Önsöz — Bu kitap neden yazıldı, nasıl okunmalı?
+# Önsöz
 
-## Kitabın tezi
+## Neden bu kitap?
 
-Tıbbi genetik eğitiminin çoğu, hastalık adları üzerine kuruludur: hangi sendromun hangi geni, hangi genin hangi fenotibi. Bu bilgi gereklidir ama tek başına kırılgandır, çünkü hızla eskir ve tanımadığınız bir tabloyla karşılaştığınızda size yol göstermez.
+Genetik hastalıkları öğrenmenin alışılmış yolu adlar üzerinden geçer: hangi sendrom hangi gen, hangi gen hangi bulgu. Bu bilgi gereklidir. Ama tek başına bırakıldığında iki kusuru vardır. Birincisi hızla eskir; her yıl yeni gen–hastalık ilişkileri tanımlanır, eskilerin bir kısmı yeniden sınıflandırılır. İkincisi, ki daha önemlisidir, listede olmayan hastanın karşısında işe yaramaz.
 
-Bu kitap başka bir omurga önerir: **mekanizma**. Bir varyantın hastalığa nasıl yol açtığını — proteini yok mu ediyor, azaltıyor mu, bozuyor mu, ona yeni bir iş mi yaptırıyor, komşu genin ifadesini mi değiştiriyor — anladığınızda üç şey birden çözülür. Hastanın **hangi test**e ihtiyacı olduğu, laboratuvarın bulduğu varyantın **nasıl yorumlanacağı** ve aileye verilecek **riskin nasıl hesaplanacağı**. Kitabın her bölümü bu nedenle aynı zinciri kurar:
+Klinikte asıl zorlanılan an da zaten budur. Elinizde bir rapor vardır, gen tanıdıktır, ama rapor "klinik önemi belirsiz varyant" der ve orada durur. Ya da tanı bellidir de ailenin sorduğu soru başkadır: bir çocuğumuzda daha olur mu? Bu iki soruya sendrom listesi cevap vermez. Cevabı veren şey, o varyantın hücrede ne yaptığıdır.
+
+Kitabın önerdiği omurga bu: **mekanizma**. Varyant proteini ortadan mı kaldırıyor, azaltıyor mu, bozuyor mu? Ona olmadık bir iş mi yaptırıyor? Yoksa proteine hiç dokunmadan, genin ne zaman ve nerede açılacağını mı değiştiriyor? Bu soruyu yanıtladığınızda üç şey birden yerine oturur: hastadan hangi testi isteyeceğiniz, laboratuvarın bulduğu varyantı nasıl yorumlayacağınız ve aileye söyleyeceğiniz riskin nereden geldiği.
+
+Her bölüm bu nedenle aynı zinciri kurar:
 
 > **mekanizma → varyant tipi → hücresel sonuç → klinik fenotip → tanısal test → varyant yorumu**
 
-Bu zincir, kitabın hem içindekiler listesini hem de her bölümün iç yapısını belirler.
+Zincir yalnız bölümlerin içini değil, kitabın sırasını da belirledi.
 
 ## Kimler için?
 
-Kitap, dört okuyucu grubunu aynı anda gözeterek yazıldı:
+Yazarken önümde belirli bir okuyucu vardı: mekanizmayı günlük işinin tam ortasında kullanan kişi. Tıbbi genetik ve çocuk genetiği uzmanları ile bu alanlarda eğitim alanlar; klinik genomik ve varyant yorumlama yapan hekimler; tıbbi biyoloji uzmanları ve araştırmacıları; moleküler genetik tanı laboratuvarlarının ekipleri. Mekanizmaları nüanslarıyla, tartışmalı yerleriyle ve dayandıkları landmark çalışmalarla ele almamın nedeni bu okuyucudur. Her bölümün altıncı başlığı ACMG/ClinGen çerçevesiyle doğrudan bağ kurar, 17. bölüm bu bağların tamamını tek bir matriste toplar; deep-dive kutuları da öncelikle buraya bakar.
 
-**Tıp öğrencileri** için her zor kavram, önce sezgisel bir girişle ve benzetmeyle açılır; ardından tanımlanır, sonra klinikte neden önemli olduğu gösterilir. Terimler ilk geçtikleri yerde cümle içinde tanımlanır; ayrı bir sözlük ezberi gerekmez.
+İkinci bir okuyucu grubu daha var ki onları gözetmeden yazmak anlamsız olurdu: pediatri hekimleri, moleküler biyoloji ve genetik eğitimi alanlar, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri. Pediatri hekimi için her bölüm iki soruyu açık açık yanıtlar — hangi klinik ipucu bu mekanizmayı düşündürür, bu şüpheyle hangi testi isterim; 18. bölüm bunu sekiz uçtan uca senaryoyla bir kez daha yapar. Eğitim aşamasındaki okuyucu için ise her zor kavram önce sezgiyle ve bir benzetmeyle açılır, sonra tanımlanır, en sonunda klinikte niçin önemli olduğu gösterilir. Terimleri ilk geçtikleri cümlenin içinde tanımladım; ayrı bir sözlük ezberi gerekmesin diye.
 
-**Genel pediatri hekimleri** için her bölümde "hangi klinik ipucu bu mekanizmayı düşündürür" ve "bu şüpheyle hangi testi isterim" soruları açıkça yanıtlanır; 18. bölüm bunu sekiz uçtan uca senaryoyla tekrar eder.
-
-**Çocuk genetiği uzmanları ve yandal asistanları** için mekanizmalar nüanslarıyla, tartışmalı noktalarıyla ve landmark çalışmalara dayandırılarak ele alınır; deep-dive kutuları bu okuyucu için yazılmıştır.
-
-**Genomik veri yorumlayanlar** (laboratuvar uzmanları, biyoinformatikçiler, genetik danışmanlar) için her bölümün 6. başlığı ACMG/ClinGen çerçevesiyle doğrudan bağ kurar; 17. bölüm bu bağların tamamını tek bir matriste toplar.
+Bu ayrım kimseyi dışarıda bırakmak için değil. Hangi bölümün hangi kısmının sizin için çekirdek olduğunu, bölüm başlarındaki okuma katmanları söyler. Hiçbir bölümü bir katman uğruna basitleştirmedim; katmanlar metni değil, yolu gösterir.
 
 ## Kitap nasıl okunmalı?
 
-**Baştan sona okuma** en çok kazandıran yoldur, çünkü bölümler birbirinin üzerine kurulur: Bölüm 2'deki işlev kaybı kavramı olmadan Bölüm 3'teki doz–eşik mantığı, o olmadan Bölüm 5'teki dominant-negatif matematiği anlaşılmaz.
+En çok kazandıran yol baştan sona okumaktır, çünkü bölümler birbirinin üstüne biner: Bölüm 2'deki işlev kaybını görmeden Bölüm 3'teki doz–eşik mantığı, onu görmeden Bölüm 5'teki dominant-negatif hesabı havada kalır.
 
-Zamanı kısıtlı okuyucular için üç kısayol vardır:
+Zamanı olmayan için üç kısayol bıraktım. **Klinik kısayol:** Bölüm 1, ardından Bölüm 18, oradan da senaryoların gönderdiği bölümler. **Laboratuvar kısayolu:** Bölüm 2, Bölüm 17, Bölüm 14 ve ilgilendiğiniz mekanizma bölümü. **Hızlı tekrar için:** her bölümün başındaki çekirdek tez ve öğrenme hedefleriyle sonundaki sık yapılan hatalar kutusu genelde yeter.
 
-- **Klinik kısayol:** Bölüm 1 → Bölüm 18 → oradan senaryoların gönderdiği bölümler.
-- **Laboratuvar kısayolu:** Bölüm 2 → Bölüm 17 → Bölüm 14 → ilgilendiğiniz mekanizma bölümü.
-- **Hızlı tekrar yolu:** her bölümün başındaki *çekirdek tez* ve *öğrenme hedefleri* ile *sık yapılan hatalar* kutusu.
+## Bölümlerin yapısı
 
-## Her bölümün yapısı
+Bütün bölümler aynı iskeleti izler; aradığınızı nerede bulacağınızı bilmeniz için. Her bölüm bir çekirdek tez ve öğrenme hedefleriyle açılır; ardından on başlık gelir: kavramsal tanım, moleküler mekanizma, varyant tipleri, klinik fenotipe dönüşüm, tanısal testlerle ilişkisi, varyant yorumlama açısından önemi, pediatrik klinik örnekler, sık yapılan hatalar, klinik karar algoritması ve kaynaklar.
 
-Bölümler aynı iskeleti izler; bu, aradığınızı nerede bulacağınızı bilmenizi sağlar.
+Metin içinde dört kutu kullandım. **🔬 Deep-dive** mekanizmanın derinine iner. **🟦 Klinikte dikkat** doğrudan pratiğe dokunan bir uyarı verir. **🔴 Sık yapılan hata** yaygın yanlışları bir arada toplar. **🧠 Hatırlatıcı** ise akılda kalması gerekeni tek cümleye indirir. Tartışmalı ya da doğrulanamamış bir iddiaya rastlarsanız yanında **⚠️** görürsünüz.
 
-Her bölüm bir **çekirdek tez** ve **öğrenme hedefleriyle** açılır. Ardından on standart başlık gelir: kavramsal tanım, moleküler mekanizma, varyant tipleri, klinik fenotipe dönüşüm, tanısal testlerle ilişkisi, varyant yorumlama açısından önemi, pediatrik klinik örnekler, sık yapılan hatalar, klinik karar algoritması ve kaynaklar. Ayrıntılı öz-denetim ve kaynak doğrulama kayıtları proje kaynaklarında korunur, yayın metninde gösterilmez. Öz değerlendirme materyali de ana kitap yerine gerektiğinde ayrı bir eğitim/sınav sürümünde kullanılmak üzere proje içinde tutulur.
+Yazım sırasında tuttuğum ayrıntılı öz-denetim ve doğrulama kayıtları bu metne girmedi; proje dosyalarında duruyorlar. Okuyucunun önüne çıkması gereken şey kaydın kendisi değil, sonucu.
 
-Metin içinde dört kutu türü kullanılır: **🔬 deep-dive** (mekanizmanın derinine inen, ileri düzey tartışma), **🟦 klinikte dikkat** (pratik uyarı), **🔴 sık yapılan hata** (yaygın yanlışların listesi) ve **🧠 hatırlatıcı** (mnemonik). Doğrulanamamış ya da tartışmalı iddialar **⚠️** ile işaretlenir.
+## Kaynakları nasıl seçtim ve doğruladım?
 
-## Kaynak politikası
+Baştan tek bir kural koydum: iddia taşıyan her cümlenin arkasında, kimliğini kendim doğruladığım bir kaynak olsun. Doğrulamanın nasıl yapılacağı ise kaynağın türüne göre değişti.
 
-Bu kitaptaki her mekanizma ve yorumlama iddiası, bibliyografik verisi **PubMed üzerinden tek tek doğrulanmış** kaynaklara dayanır; her kaynağın PMID'si ve DOI bağlantısı verilir. Metin içinde yazar-yıl biçimi kullanılır, tam künyeler bölüm sonlarındaki kaynakçalarda ve kitabın sonundaki **toplu kaynakçada** yer alır.
+Hakemli makalelerde künyeyi PubMed üzerinden tek tek teyit ettim, PMID ve DOI'yi kaynakçaya işledim. Mekanizma ve yöntem iddialarını, erişebildiğim her durumda özetten değil tam metinden okudum; çünkü bir özet, çalışmanın hangi koşulda tam olarak neyi gösterdiğini çoğu zaman taşımaz.
 
-GeneReviews, OMIM, ClinVar ve gnomAD gibi ikincil kaynaklar yalnızca destekleyici bilgi olarak anılır; hiçbiri ana mekanizma kaynağı olarak kullanılmaz. Bir iddia doğrulanamadığında ya çıkarılmış ya da açıkça işaretlenmiştir.
+Nomenklatür kuralları, uzman panel spesifikasyonları, teknik standartlar ve mesleki kılavuzlar farklı bir kimlikle anıldı: kurum, belge adı, sürüm, tarih ve kalıcı bağlantı. HGVS ve ISCN nomenklatürü, ClinGen SVI ile VCEP/CSpec kayıtları, ACMG teknik standartları, ACGS ve EMQN kılavuzları bu gruptadır. Bunların bir bölümü dergi makalesi olarak yayımlanmadı; buna karşılık varyant yorumlamada bağlayıcı otorite çoğu zaman tam olarak bu belgelerdir. Sürüm ve tarih yazmayı bu yüzden zorunlu tuttum: hangi sürüme dayandığınız kayıtlı değilse, bugün doğru olan bir cümle birkaç yıl içinde sessizce yanlışa döner. Veri tabanlarından aldığım sayılarda da veri sürümünü ve sorgu tarihini belirttim.
 
-## Görseller hakkında
+Metin içinde yazar-yıl biçimi kullanıldı; tam künyeler bölüm sonlarındaki kaynakçalarda ve kitabın sonundaki **toplu kaynakçada** toplandı.
 
-Kitaptaki şekiller dekorasyon değil, anlatının taşıyıcısıdır; her biri tek başına okunabilecek biçimde tasarlandı: başlık, panel yapısı ve tek cümlelik bir "öğreti" satırı içerir. Renkler anlam taşır — mavi işlev kaybı ve normal-kontrollü durumu, kırmızı işlev kazanımı ve patojen ağırlığı, amber klinik dikkat noktalarını, sarı yıldız ise "varyant burada" işaretini gösterir.
+GeneReviews, OMIM, ClinVar ve gnomAD gibi ikincil kaynaklar yalnızca destekleyici bilgi olarak ele alındı; hiçbiri ana mekanizma kaynağı olarak kullanılmadı. Kitabın kendi pedagojik çerçevelerini — literatürde bu adla yerleşik olmayan, öğretmeyi kolaylaştırmak için kurduğum gruplamaları — doğrulanacak bir iddia gibi sunmadım; onları **🏷️** ile etiketledim. Doğrulayamadığım iddiaları ya çıkardım ya da **⚠️** ile işaretledim.
 
-Karar ağaçları ve algoritmalar Mermaid diyagramı olarak gömülmüştür; kitabın HTML sürümü çevrimdışı olarak da bunları çizer.
+Savunduğum şey hatasızlık değil, denetlenebilirliktir. Denetlenebilirliği artırmak için her iddianın hangi otoriteye karşı nasıl denetlendiğini kayıt altına aldım. Bağımsız uzman incelemesi bu kaydın yerine geçmez; onu sınar.
 
-## Sınırlar ve sorumluluk
+## Şekiller
 
-Bu bir **eğitim metnidir**, klinik kılavuz değildir. Tanısal ve tedaviye yönelik kararlar; hastanın kendi klinik bağlamına, merkezin olanaklarına ve **güncel ulusal/uluslararası kılavuzlar ile ilgili uzman panel önerilerine** göre verilmelidir. Varyant sınıflandırma kuralları ve gen–hastalık ilişkileri zamanla değişir; kitapta verilen eşikler, puanlar ve örnek yorumlar öğretici amaçlıdır.
+Şekiller süs değil, anlatının taşıyıcısıdır. Her birini tek başına okunabilecek biçimde tasarladım: başlığı, panel yapısı ve altında tek cümlelik bir öğreti satırı var. Renkler de anlam taşır — mavi işlev kaybını ve normal ya da kontrollü durumu, kırmızı işlev kazanımını ve patojen ağırlığı, amber klinik dikkat gerektiren noktayı, sarı yıldız ise "varyant burada" işaretini gösterir. Karar ağaçlarını ve algoritmaları da metnin içine yerleştirdim; kitabın elektronik sürümü bunları çevrimdışıyken de çizer.
 
-Klinik senaryolar ve çözümlü örnekler **kurgudur**; gerçek hasta verisi içermez.
+## Sınırlar
+
+Bu bir eğitim metnidir, klinik kılavuz değildir. Tanıya ve tedaviye yönelik kararlar hastanın kendi klinik bağlamına, merkezin olanaklarına ve güncel ulusal/uluslararası kılavuzlarla ilgili uzman panel önerilerine göre verilir. Varyant sınıflandırma kuralları ve gen–hastalık ilişkileri zamanla değişir; buradaki eşikler, puanlar ve örnek yorumlar öğreticidir, referans değildir.
+
+Klinik senaryolar ve çözümlü örnekler kurgudur; gerçek hasta verisi içermez.
 
 ---
 
-> **Bir cümlede kitap:** Gen adlarını ezberlemek yerine mekanizmayı anlayın; mekanizma size testi de, yorumu da, aileye söyleyeceğiniz cümleyi de verir.
+> **Bir cümlede:** Gen adlarını ezberlemek yerine mekanizmayı anlayın; mekanizma size hem testi, hem yorumu, hem de aileye söyleyeceğiniz cümleyi verir.

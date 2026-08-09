@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Tıbbi genetiğin en sessiz varsayımı, bir kişinin tek bir genomu olduğu ve bu genomun her hücresinde aynı bulunduğudur. **Mozaiklik** bu varsayımı yıkar: döllenmeden *sonra* ortaya çıkan bir varyant, yalnızca kendi soyundan gelen hücrelerde bulunur. Buradan bu bölümün bütün mantığı türer — varyantın **ne zaman** oluştuğu **nerede** bulunacağını belirler; nerede bulunduğu ise aynı anda üç şeyi birden belirler: **fenotipi** (hangi doku etkilenmiş), **hangi dokunun test edileceğini** (kan çoğu zaman yanlış dokudur) ve **tekrarlanma riskini** (germ hücreleri tutulmuş mu?). Mozaiklik, Bölüm 11'deki heteroplazminin nükleer kardeşidir: ikisinde de varyant "var/yok" değil **yüzde** olarak taşınır, ikisinde de doku seçimi tanının kendisidir. Fark şudur: heteroplazmi organel genomundadır ve maternal kalıtılır; mozaiklik nükleer genomdadır ve postzigotiktir.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Zaman ekseni sezgisi (Şekil 12.1) kurulmadan tekrarlanma riski tabloları ezber kalır.
 > · **② Klinik — pediatrist ve klinisyen:** "Klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı; **§2.2 ve Tablo 12.2** danışmanın en kritik iki sayfasıdır.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: mozaik varyantta de novo kriterleri (PS2/PM6), VAF raporlama zorunluluğu ve klonal hematopoez tuzağı.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6: mozaik varyantta de novo kriterleri (PS2/PM6), VAF raporlama zorunluluğu ve klonal hematopoez tuzağı.
 
 > 🖼️ **Görseller hakkında not:** Şekil 12.1–12.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -349,7 +349,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. (Metin içinde yazar-yıl, kaynakçada DOI-link kullanılır.)
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Nomenklatür ve kılavuz belgeleri ayrıca kurum, belge adı, sürüm, tarih ve kalıcı bağlantıyla tanımlanmıştır. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Biesecker LG, Spinner NB (2013).** A genomic view of mosaicism and human disease. *Nature Reviews Genetics* 14(5):307–320. **PMID: 23594909** · DOI: [10.1038/nrg3424](https://doi.org/10.1038/nrg3424) — *Kullanım amacı: Bölümün ana çerçeve kaynağı; mozaikliğin klinik ve moleküler sınıfları, saptama yöntemleri, sağlıklı bireylerde yaygınlığı.*
 

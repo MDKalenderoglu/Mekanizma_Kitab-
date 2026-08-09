@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Tekrar dizisi genişlemesi hastalıkları, genomdaki kısa tekrarlayan DNA birimlerinin (genellikle tri-, hexa- veya diğer nükleotid tekrarları) patolojik eşiğin ötesine geçmesiyle ortaya çıkan dinamik mutasyonlardır. Bu bölüm, tekrarın konumuna ve boyutuna göre nasıl üç farklı patojenik yol (LoF, RNA GoF, protein GoF) yarattığını açıklamakta; aynı hastalığa özgü eşik değerlerinin neden klinik çıktıyı belirlediğini, anticipasyon olgusunun genetik danışmanlıktaki ağırlığını ve standart NGS yöntemlerinin bu mutasyon sınıfını neden sistematik olarak kaçırdığını göstermektedir. Önceki bölümlerde incelenen LoF, GoF, dominant-negatif ve splicing mekanizmaları ile karşılaştırıldığında, tekrar genişlemesi hastalıkları hem birbiriyle örtüşen hem de kendine özgü ayrı biyolojik mantıklar barındırır.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Doğrusal okuyun; tekrar bölgesinin kararsızlığı ve anticipasyon sezgisi kurulmadan eşik tabloları ezber kalır.
 > · **② Klinik — pediatrist ve klinisyen:** §4–§5 ve **Tablo 9.3**: normal / ara alel / premutasyon / tam mutasyon bantları ve bunların danışmadaki karşılığı.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 ve laboratuvar notları: eşiklerin kılavuz sürümüne bağlı olması, motif kesintileri ve metilasyonun yorumu.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6 ve laboratuvar notları: eşiklerin kılavuz sürümüne bağlı olması, motif kesintileri ve metilasyonun yorumu.
 
 > 🖼️ **Görseller hakkında not:** Şekil 9.1–9.3 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -281,7 +281,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl kullanılmış, kaynakçada DOI linkleri verilmiştir.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Nomenklatür ve kılavuz belgeleri ayrıca kurum, belge adı, sürüm, tarih ve kalıcı bağlantıyla tanımlanmıştır. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Paulson H (2018).** Repeat expansion diseases. *Handbook of Clinical Neurology* 147:105–123. **PMID: 29325606** · DOI: [10.1016/B978-0-444-63233-3.00009-9](https://doi.org/10.1016/B978-0-444-63233-3.00009-9) — *Kullanım amacı: Genel landmark review; tüm tekrar genişlemesi hastalıkları, mekanizma sınıflaması, anticipasyon ve klinik çeşitlilik.*
 

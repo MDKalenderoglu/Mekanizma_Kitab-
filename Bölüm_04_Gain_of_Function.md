@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Gain-of-function (GoF, "işlev kazanımı"), bir varyantın gen ürününe **eksiltmek yerine fazlalık** katmasıdır: protein normalden daha aktif, yanlış zamanda/yerde aktif, sürekli (konstitütif) açık ya da tamamen yeni/zararlı bir iş yapar hâle gelir. Bölüm 2–3'te işlediğimiz işlev kaybının (LoF/haploinsufficiency) tam **ayna görüntüsüdür**: orada sorun "yeterince yok"tu, burada sorun "fazlası/yanlışı var". Tek bir patojen alelin ürünü kendi başına zarar verdiği için GoF tipik olarak **dominanttır** ve bu, bölümün en kritik klinik sonucunu doğurur: GoF mekanizmalı bir gende **işlev kaybını patojenite kanıtı sayan kurallar (PVS1) uygulanamaz**, çünkü hastalığı yapan null değil, *aşırı/yeni* aktivitedir. Bu bölüm GoF'u doz–yanıt ekseninde LoF'un karşısına koyar; oradan dominant kalıtıma, **hotspot (sıcak nokta)** kümelenmesine, "aynı gen → zıt yön → zıt tedavi" olgusuna ve ACMG/ClinGen'in fonksiyonel kanıt (PS3) ile hotspot (PM1) kriterlerine bağlar.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Omurga şudur: *bir varyant her zaman bir şeyi bozmaz — bazen fazla yaptırır.* Şekil 4.3 ve 4.4 bu ayrımı kurar.
 > · **② Klinik — pediatrist ve klinisyen:** §7'deki RET ve SCN2A örnekleri: mekanizma yönünün doğrudan **tedavi yönünü** belirlediği yer.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: GoF gende PVS1'in neden uygulanmadığı, PM1 ve PS3'ün rolü.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6: GoF gende PVS1'in neden uygulanmadığı, PM1 ve PS3'ün rolü.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -271,7 +271,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden alınmış ve doğrulanmıştır; her kaynağın PMID **ve** DOI'si bu oturumda tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Wilkie AOM (1994).** The molecular basis of genetic dominance. *Journal of Medical Genetics* 31(2):89–98. **PMID: 8182727** · DOI: [10.1136/jmg.31.2.89](https://doi.org/10.1136/jmg.31.2.89) — *Landmark/kavramsal: dominant varyant mekanizmalarının (artmış/konstitütif aktivite, ektopik ifade, yeni işlev) sınıflandırması.*
 2. **Webster MK, D'Avis PY, Robertson SC, Donoghue DJ (1996).** Profound ligand-independent kinase activation of fibroblast growth factor receptor 3 by the activation loop mutation responsible for a lethal skeletal dysplasia, thanatophoric dysplasia type II. *Molecular and Cellular Biology* 16(8):4081–4087. **PMID: 8754806** · DOI: [10.1128/MCB.16.8.4081](https://doi.org/10.1128/MCB.16.8.4081) — *Mekanizma landmark: FGFR3 konstitütif (ligand-bağımsız) aktivasyonu, ~100 kat aktivite artışı.*

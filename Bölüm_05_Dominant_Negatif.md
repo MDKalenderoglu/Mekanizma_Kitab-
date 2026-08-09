@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Dominant-negatif (DN, "baskın-olumsuz"), bir varyant alelin ürettiği **bozuk ürünün, sağlam alelin ürettiği normal ürünü de işlevsiz bırakması**dır. Burada sorun ne basit bir eksiklik (Bölüm 2–3, LoF/haploinsufficiency) ne de zararlı bir fazlalıktır (Bölüm 4, GoF): varyant ürün üretilir, ortamda kalır ve normal ürünle **etkileşip onu sabote eder** — bir tür "moleküler zehirlenme". Bu yüzden DN, işlev kaybının dominant bir alt türüdür ve haploinsufficiency'den **sıklıkla daha ağır** seyreder: tek varyant alel, tümüyle sağlam kompleks oranını %50'ye değil, kompleks büyüklüğüne göre %25'e, %12,5'e ya da daha aşağıya çekebilir. (Bu bir olasılık hesabıdır, rezidüel işlevin ölçüsü değildir; sınırları §2.2'de.) DN'in en güçlü ayırt edici imzası şudur: o gende **tam delesyon/null genellikle daha hafif (hatta sağlıklı) bir tablo yaparken, varyant ürün üreten missense/in-frame değişiklikler ağır hastalık yapar**. Bu "delesyon testi" hem mekanizmayı çözer hem de doğrudan varyant yorumunu (PVS1'in neden dikkatli kullanılması gerektiğini) belirler.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Tek cümlelik omurga: *bazı varyantlar sağlam kopyanın ürününü de bozar.* Şekil 5.1 ve 5.2 (multimer matematiği) bunu sayısallaştırır.
 > · **② Klinik — pediatrist ve klinisyen:** §7: osteogenezis imperfekta ve Li-Fraumeni; ayrıca §9'daki "delesyon ne yapıyor?" karar akışı.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: dominant-negatif gende PVS1 tuzakları ve null-delesyon karşılaştırmasının kanıt değeri.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6: dominant-negatif gende PVS1 tuzakları ve null-delesyon karşılaştırmasının kanıt değeri.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -259,7 +259,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Herskowitz I (1987).** Functional inactivation of genes by dominant negative mutations. *Nature* 329(6136):219–222. **PMID: 2442619** · DOI: [10.1038/329219a0](https://doi.org/10.1038/329219a0) — *Kullanım amacı: Dominant-negatif kavramının landmark tanımı (mutant ürün yabanıl-tip işlevini bozar).*
 2. **Wilkie AOM (1994).** The molecular basis of genetic dominance. *Journal of Medical Genetics* 31(2):89–98. **PMID: 8182727** · DOI: [10.1136/jmg.31.2.89](https://doi.org/10.1136/jmg.31.2.89) — *Kullanım amacı: Dominant mekanizmaların sınıflaması; DN'in haploinsufficiency ve GoF'tan ayrı kategori olarak konumlandırılması.*

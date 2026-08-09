@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Mitokondriyal hastalıklar, tıbbi genetiğin standart kurallarının aynı anda geçersizleştiği tek alandır: hücrede genin iki değil binlerce kopyası vardır, bu yüzden doz "kaç alel" değil **mutant mtDNA yüzdesi (heteroplazmi)** olarak ölçülür; etki doğrusal değil **eşik-bağımlıdır**; kalıtım Mendel değil **maternaldir**; ve yüzde hem kuşaklar arasında (germline darboğaz) hem yaşam boyu (mitotik segregasyon) kayar. Ancak bu bölümün ikinci ve klinik olarak daha sık gözden kaçan tezi şudur: **mitokondriyal hastalıkların çoğu aslında nükleer gen hastalığıdır ve Mendel kurallarıyla kalıtılır.** "Mitokondriyal" sözcüğü bir kalıtım kalıbını değil, bir organel yetmezliğini tanımlar. Bu bölüm, Bölüm 3'te kurulan doz–eşik mantığını sürekli bir değişkene taşır ve Bölüm 10'daki "ebeveyn kökeni" eksenine, ondan tümüyle farklı bir mekanizmayla kurulan ikinci bir ebeveyn asimetrisi ekler.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Poliplazmi–heteroplazmi–eşik zinciri (Şekil 11.1 ve 11.2) kurulmadan test seçimi ezber kalır.
 > · **② Klinik — pediatrist ve klinisyen:** "Klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı; darboğaz ve segregasyon (Şekil 11.3) danışma öncesi zorunludur.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6: mtDNA'ya özgü ACMG spesifikasyonu, heteroplazmi düzeyinin ve doku seçiminin kanıta etkisi.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6: mtDNA'ya özgü ACMG spesifikasyonu, heteroplazmi düzeyinin ve doku seçiminin kanıta etkisi.
 
 > 🖼️ **Görseller hakkında not:** Şekil 11.1–11.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -315,7 +315,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. (Metin içinde yazar-yıl, kaynakçada DOI-link kullanılır.)
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Gorman GS, Chinnery PF, DiMauro S, ve ark. (2016).** Mitochondrial diseases. *Nature Reviews Disease Primers* 2:16080. **PMID: 27775730** · DOI: [10.1038/nrdp.2016.80](https://doi.org/10.1038/nrdp.2016.80) — *Kullanım amacı: Bölümün ana çerçeve kaynağı; çift genom kontrolü, heteroplazmi, klinik heterojenite, tanı ve üreme seçenekleri.*
 

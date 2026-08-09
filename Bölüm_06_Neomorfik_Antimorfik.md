@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Bu bölüm, mekanizma bölümlerini birleştiren **Muller'in klasik alel serisini** tamamlar. Bir varyant gen ürününü altı yoldan biriyle değiştirebilir: ürünü yok eder (**amorf** = null/LoF), azaltır (**hipomorf** = kısmi LoF), aynı işin fazlasını yaptırır (**hipermorf** = GoF), sağlam ürünü sabote eder (**antimorf** = dominant-negatif) veya ona **normalde hiç yapmadığı yepyeni bir iş** kazandırır (**neomorf**). İlk üçünü Bölüm 2–4'te, antimorfu (DN) Bölüm 5'te işledik; bu bölüm bu çerçeveyi tamamlar ve özellikle **neomorfik** etkiye odaklanır. Neomorfizmin özü, GoF'un en radikal ucudur: protein artık eski işini "daha çok" yapmaz, **bambaşka** bir aktivite kazanır — yeni bir metabolit üretir (IDH → 2-hidroksiglutarat), bir enzimi yeni biçimde inhibe eder (histon H3 K27M → PRC2) veya toksik bir ürüne dönüşür. Hem neomorf hem antimorf **dominanttır** ve ikisi de "varyant ürünün varlığından" doğduğu için, ikisinde de **tam delesyon/null çoğu kez hastalığı kopyalamaz** — bu da varyant yorumunun (PVS1'in uygulanmaması) ortak sonucudur. Bir adlandırma notu: **antimorf, dominant-negatif etkinin Muller serisindeki tarihsel adıdır** ve ayrı bir modern mekanizma değildir; bu yüzden mekanizmanın kendisi Bölüm 5'te işlenir ve burada yalnızca seriyi tamamlayan konumuyla anılır. Bu bölümün asıl konusu **neomorfizmdir**.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Şekil 6.1 (Muller alel serisi): altı sınıfı tek haritada görün ve her birini bir mekanizma bölümüne bağlayın.
 > · **② Klinik — pediatrist ve klinisyen:** §7: IDH/Ollier-Maffucci ve H3 K27M/DIPG — neomorfizmin pediatrik karşılıkları.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §2.2–§6: neomorfizmin moleküler ayrıntısı ve neomorfik varyantların ACMG yorumu (PM1 hotspot, PS3).
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §2.2–§6: neomorfizmin moleküler ayrıntısı ve neomorfik varyantların ACMG yorumu (PM1 hotspot, PS3).
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -237,7 +237,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl, kaynakçada DOI-link kullanılmıştır.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Wilkie AOM (1994).** The molecular basis of genetic dominance. *Journal of Medical Genetics* 31(2):89–98. **PMID: 8182727** · DOI: [10.1136/jmg.31.2.89](https://doi.org/10.1136/jmg.31.2.89) — *Kullanım amacı: Muller alel serisinin modern çerçevesi; neomorf/antimorf/hipermorfun dominant mekanizma olarak konumlandırılması.*
 2. **Herskowitz I (1987).** Functional inactivation of genes by dominant negative mutations. *Nature* 329(6136):219–222. **PMID: 2442619** · DOI: [10.1038/329219a0](https://doi.org/10.1038/329219a0) — *Kullanım amacı: Antimorfik (dominant-negatif) etkinin kavramsal temeli; neomorf ile karşıtlık.*

@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Genomik imprinting, bir genin iki alelinden yalnızca birinin — hangi ebeveynden geldiğine bağlı olarak — ifade edildiği epigenetik bir olgudur; bu nedenle imprintli lokuslarda hastalık, DNA dizisinin kendisinden çok **hangi ebeveyn kopyasının işlevsel olduğuna** bağlıdır. Bu bölüm, imprinting kontrol bölgelerindeki (ICR) metilasyonun tek-alel ifadeyi nasıl kurduğunu; delesyon, uniparental dizomi (UPD), imprinting defekti ve nokta varyantının aynı bölgede nasıl **aynı son yola** yakınsadığını; ve tek bir bölgedeki zıt yönlü epigenetik kusurların (15q11-q13'te Prader-Willi ↔ Angelman, 11p15.5'te Beckwith-Wiedemann ↔ Silver-Russell) neden zıt hastalıklar yarattığını gösterir. Önceki bölümlerdeki doz (Bölüm 3), toksik kazanım (Bölüm 6) ve metilasyon-susturma (Bölüm 9, FMR1) mekanizmalarını, "ebeveyn kökeni" ekseniyle birleştirir.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** Şekil 10.1'deki damgalama sezgisi kurulmadan klinik tablolar ezber kalır; doğrusal okuyun.
 > · **② Klinik — pediatrist ve klinisyen:** "Kavramsal tanım → klinik fenotipe dönüşüm → tanısal testler → karar algoritması" hattı.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** 15q11-q13 ve 11p15.5 alt-tip tabloları, UPD oluşum mekanizmaları (Şekil 10.2), metilasyon sonucunun yorumu ve tümör tarama notları.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** 15q11-q13 ve 11p15.5 alt-tip tabloları, UPD oluşum mekanizmaları (Şekil 10.2), metilasyon sonucunun yorumu ve tümör tarama notları.
 
 > 🖼️ **Görseller hakkında not:** Şekil 10.1–10.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 
@@ -258,7 +258,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; her kaynağın PMID ve DOI'si tek tek teyit edilmiştir. Metin içinde yazar-yıl biçimi kullanılmış, DOI linkleri kaynakçada verilmiştir.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Reik W, Walter J. (2001).** Genomic imprinting: parental influence on the genome. *Nature Reviews Genetics* 2(1):21–32. **PMID: 11253064** · DOI: [10.1038/35047554](https://doi.org/10.1038/35047554) — *Kullanım amacı: İmprinting kavramı, epigenetik işaret, ebeveyn-çatışması hipotezi ve büyüme geni asimetrisinin landmark derlemesi.*
 
