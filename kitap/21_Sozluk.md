@@ -113,7 +113,7 @@ Kitapta geçen terimlerin kısa tanımları. Her terim ilgili bölümde ayrınt�
 
 - **NAHR** — Tekrarlayan dizeler arasındaki alelik olmayan homolog rekombinasyon; tekrarlayan CNV'lerin başlıca nedeni.
 - **Neomorf** — Ürüne normalde bulunmayan **yeni** bir işlev kazandıran alel.
-- **NMD (anlamsız aracılı mRNA yıkımı)** — Erken sonlanma kodonu taşıyan transkriptlerin hücre tarafından yıkılması.
+- **NMD (nonsense aracılı mRNA yıkımı)** — Erken sonlanma kodonu taşıyan transkriptlerin hücre tarafından yıkılması.
 - **Nonsense varyant** — Erken sonlanma kodonu oluşturan varyant.
 - **Null alel** — Hiç işlevsel ürün vermeyen alel.
 

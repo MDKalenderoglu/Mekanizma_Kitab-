@@ -2,12 +2,12 @@
 
 > **Bölümün çekirdek tezi:** Kalıtsal kanser yatkınlığında çocuk, çoğu zaman tümörle değil **tümöre giden yolun bir basamağı önceden aşılmış olarak** doğar. Konstitüsyonel varyant ailede otozomal dominant aktarılabilir; fakat klasik tümör baskılayıcı modelinde tek bir hücrenin tümöre yönelmesi, kalan işlevsel aleli etkileyen somatik bir olay ve çoğu kez ek klonal değişimler gerektirir. Bu nedenle doğru okuma, “hangi gen?” sorusunun ötesine geçip **ilk olay nerede, ikinci olay hangi hücrede, hangi mekanizmayla ve hangi örnekte gösterildi?** sorularını birlikte yanıtlamalıdır (Knudson, 1971; Li ve ark., 2017).
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** §1–2 ve Şekil 16.1–16.2; aile düzeyindeki dominant aktarım ile hücre düzeyindeki iki olayın neden çelişmediğini kavrayın.
 > · **② Klinik — pediatrist ve klinisyen:** §4–5, §7 ve Şekil 16.4; erken yaş, çoklu primer, bilateral/multifokal tümör ve tümör raporundaki olası germline bulgunun nasıl ele alınacağını izleyin.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §2.3, §5–6 ve Tablo 16.3–16.5; LOH'nin moleküler biçimlerini, *TP53* ve *DICER1* istisnalarını, tümör–normal eşlenik analizi ve kan örneğindeki klonal hematopoez tuzağını çözümleyin.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §2.3, §5–6 ve Tablo 16.3–16.5; LOH'nin moleküler biçimlerini, *TP53* ve *DICER1* istisnalarını, tümör–normal eşlenik analizi ve kan örneğindeki klonal hematopoez tuzağını çözümleyin.
 
-> **Bu bölüm nasıl okunmalı?** Bölüm bir kanser tarama protokolü değildir. Yaşa ve gene özgü izlem aralıkları hızla güncellendiği ve sağlık sistemi bağlamına göre değiştiği için burada sabit programlar verilmez; amaç, germline yatkınlıktan somatik ürüne uzanan mekanizmayı, doğru örnek seçimini ve rapor mantığını öğretmektir (Monahan ve ark., 2020; Schultz ve ark., 2018).
+> **⚠️ Kapsam notu.** Bu bölüm bir kanser tarama protokolü değildir. Yaşa ve gene özgü izlem aralıkları hızla güncellendiği ve sağlık sistemi bağlamına göre değiştiği için burada sabit programlar verilmez; amaç, germline yatkınlıktan somatik ürüne uzanan mekanizmayı, doğru örnek seçimini ve rapor mantığını öğretmektir (Monahan ve ark., 2020; Schultz ve ark., 2018).
 
 > 🖼️ **Görseller hakkında not:** Şekil 16.1–16.4 `assets/` klasöründe SVG olarak bulunur. Mermaid diyagramları metin içine gömülüdür.
 

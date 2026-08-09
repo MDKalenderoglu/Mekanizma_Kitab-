@@ -37,6 +37,13 @@ OUT = os.path.join(ROOT, "Genetik_Hastalık_Mekanizmaları.html")
 # Ana yayın sürümünde kapalıdır. Eğitim/sınav sürümü üretilirken True yapılabilir.
 INCLUDE_SELF_ASSESSMENT = False
 
+# Yazım ortamına ait not: kaynak Markdown ile çalışan için anlamlıdır, okuyucunun
+# elindeki tek dosyalık HTML/PDF'de karşılığı yoktur (assets/ klasörü ve Mermaid
+# çalışma zamanı zaten gömülüdür). Yayın metninden çıkarılır; kaynakta korunur.
+AUTHORING_NOTE_RE = re.compile(
+    r"^> 🖼️ \*\*Görseller hakkında not:\*\*.*(?:\n>.*)*\n?", flags=re.MULTILINE
+)
+
 BOOK_TITLE = "Genetik Hastalık Mekanizmaları"
 BOOK_SUBTITLE = "Mekanizmadan Varyant Yorumuna — Kapsamlı Akademik Ders Kitabı"
 
@@ -188,11 +195,15 @@ def convert(md_text):
 
 
 def public_chapter_text(md_text):
-    """Kaynak dosyadaki iç kalite günlüğünü yayın metninden ayır."""
+    """Kaynak dosyadaki iç kalite günlüğünü ve yazım ortamı notlarını yayın metninden ayır."""
     marker = re.search(r"^## ✅ Bölüm öz-denetim tablosu\s*$", md_text, flags=re.MULTILINE)
     if not marker:
         raise BuildError("Bölüm iç kalite sınırı bulunamadı: '✅ Bölüm öz-denetim tablosu'")
-    return md_text[:marker.start()].rstrip()
+    body = md_text[:marker.start()].rstrip()
+    # Yazım ortamına ait not (assets/ klasörü, Mermaid) okuyucunun ürününde karşılığı
+    # olmadığı için yayın metnine girmez; kaynak Markdown'da korunur.
+    body = AUTHORING_NOTE_RE.sub("", body)
+    return re.sub(r"\n{3,}", "\n\n", body).rstrip()
 
 
 def self_assessment_link(chapter_number):
@@ -298,6 +309,8 @@ def validate_publication_separation(doc, chapter_count):
     """İç günlük ayrımını ve isteğe bağlı soru sürümünü denetle."""
     if "Bölüm öz-denetim tablosu" in doc or "Bölüm sonu kaynak doğrulama komutu" in doc:
         raise BuildError("İç kalite/doğrulama günlüğü yayın metnine sızdı")
+    if "Görseller hakkında not" in doc or "klasöründe SVG" in doc:
+        raise BuildError("Yazım ortamı notu (assets/Mermaid) yayın metnine sızdı")
     if not INCLUDE_SELF_ASSESSMENT:
         if 'id="oz-degerlendirme"' in doc or 'class="chapter-self-assessment"' in doc:
             raise BuildError("Öz değerlendirme kapalı olduğu halde ana yayına girdi")

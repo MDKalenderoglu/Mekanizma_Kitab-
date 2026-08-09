@@ -2,10 +2,10 @@
 
 > **Bölümün çekirdek tezi:** Bir kromozom raporu oluşum olayının filmi değil, olaydan sonra kalan **ürünün yöntemle görülebilen fotoğrafıdır**. Doğru yorum; önce normal mayoz ve mitozu kurmayı, sonra hatanın nerede oluşabileceğini, hangi kromozomal ürünü yarattığını, doz ve mimariyi nasıl değiştirdiğini ve kullanılan testin neyi görebildiğini birlikte düşünmeyi gerektirir. Bu nedenle rapordan mekanizmaya geri dönüş kesin bir denklem değil, ek moleküler ve ebeveyn verileriyle daraltılan olasılıksal bir çıkarımdır.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **tıbbi genetik/çocuk genetiği eğitimi alan hekimler ile klinik genomik çalışan uzmanlardır**; pediatrist ve ileri düzey tıp öğrencisi ikincil hedef kitledir.
-> · **① Temel:** §1–3 ve Şekil 8.1–8.2 ile normal ayrılma → hata → ürün zincirini kurun.
-> · **② Klinik:** §4–5 ile ürünün fenotipe ve test sonucuna nasıl dönüştüğünü izleyin.
-> · **③ İleri düzey:** §6–9 ile ISCN raporunu geriye doğru okuyun; ebeveyn taşıyıcılığı ve yineleme riskinin sınırlarını değerlendirin.
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> · **① Temel — tıp öğrencisi:** §1–3 ve Şekil 8.1–8.2 ile normal ayrılma → hata → ürün zincirini kurun.
+> · **② Klinik — pediatrist ve klinisyen:** §4–5 ile ürünün fenotipe ve test sonucuna nasıl dönüştüğünü izleyin.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6–9 ile ISCN raporunu geriye doğru okuyun; ebeveyn taşıyıcılığı ve yineleme riskinin sınırlarını değerlendirin.
 
 > 🖼️ **Görseller hakkında not:** Şekiller `assets/` klasöründe SVG, akış diyagramları Mermaid olarak gömülüdür.
 
@@ -168,12 +168,12 @@ Test seçimi “en gelişmiş yöntem hangisi?” sorusu değil, **hangi bilinme
 | **CMA/array-CGH** | Genom çapında kopya kaybı/kazancı var mı? | Dengeli SV'yi, yön/konumu ve bazı düşük mozaikleri göstermez |
 | **SNP-array** | Kopya sayısına ek olarak allel dengesi/AOH/UPD ipucu var mı? | Heterodizomik UPD ve düşük düzey/karmaşık olaylar kaçabilir; parental doğrulama gerekebilir |
 | **MLPA** | Seçilmiş ekzon/lokuslarda göreli doz değişikliği var mı? | Hedefe yöneliktir; konum, yön ve genom çapını göstermez |
-| **Kısa-okuma WGS** | CNV ve birçok breakpointi read-depth/read-pair/split-read ile çözebilir mi? | Tekrarlar, sentromer/telomer ve bazı dengeli/karmaşık olaylar; pipeline'a bağımlılık |
+| **Short-read WGS** | CNV ve birçok breakpointi read-depth/read-pair/split-read ile çözebilir mi? | Tekrarlar, sentromer/telomer ve bazı dengeli/karmaşık olaylar; pipeline'a bağımlılık |
 | **OGM** | Büyük dengeli/dengesiz SV mimarisi genom çapında nedir? | Centromerik/Robertsonian yapılar, bazı LCR breakpointleri ve düşük mozaiklik; sekans düzeyi vermez |
 
 CMA için tarihsel “birinci basamak” kanıtı, açıklanamayan DD/ID/ASD/MCA olgularında ve tanınabilir kromozom sendromları dışlanmış kohortlarda elde edilmiştir; tüm klinik sorulara evrensel test sırası olarak genellenemez (Miller ve ark., 2010). MLPA hedef-prob temelli göreli doz ölçer ve genom çapında tarama değildir (Schouten ve ark., 2002). OGM'nin çok merkezli validasyonu yüksek uyum göstermiştir; ancak çalışma Robertsonian/sentromerik dengeli translokasyonları, büyük düşük-kopya tekrarları içindeki bazı breakpointleri ve düşük düzey mozaikleri dışlamıştır. Bu nedenle “karyotipin evrensel yerine geçer” sonucu kurulamaz (Iqbal ve ark., 2023).
 
-QF-PCR yaygın anöploidiler ve triploidi için hızlı, hedefli bir testtir. Allel örüntüsü maternal hücre kontaminasyonu veya mozaiklik için ipucu verebilir; normal sonuç genom çapındaki diğer anomalileri veya yapısal düzenlenmeyi dışlamaz (ACGS QF-PCR v4, 2018). Kısa-okuma WGS'de read-depth, read-pair ve split-read sinyalleri farklı SV sınıflarını tamamlar; yalnız read-depth kullanan bir iş akışı dengeli olayları kaçırabilir. Tekrar bölgeleri ve referans kör noktaları sürer (ACGS WGS-SV Guidance, iç sürüm 2026 v0.1; dosya adı v1.2 — sürüm uyuşmazlığı aşağıda belirtilmiştir).
+QF-PCR yaygın anöploidiler ve triploidi için hızlı, hedefli bir testtir. Allel örüntüsü maternal hücre kontaminasyonu veya mozaiklik için ipucu verebilir; normal sonuç genom çapındaki diğer anomalileri veya yapısal düzenlenmeyi dışlamaz (ACGS QF-PCR v4, 2018). Short-read WGS'de read-depth, read-pair ve split-read sinyalleri farklı SV sınıflarını tamamlar; yalnız read-depth kullanan bir iş akışı dengeli olayları kaçırabilir. Tekrar bölgeleri ve referans kör noktaları sürer (ACGS WGS-SV Guidance, iç sürüm 2026 v0.1; dosya adı v1.2 — sürüm uyuşmazlığı aşağıda belirtilmiştir).
 
 Karyotipte “mozaiklik saptanmadı” ifadesi sayılan hücre sayısıyla sınırlıdır. Binom temelli klasik çerçevede 30 hücrenin incelenmesi yaklaşık %10 ve üzerindeki bir hattı, 60 hücrenin incelenmesi yaklaşık %5 ve üzerindeki bir hattı %95 güven düzeyinde dışlamaya yöneliktir (Hook, 1977; ACGS KA/TCA v1.0, 2024). Bu eşikler incelenen örnek içindir; düşük düzeyi, kültür seçilimini, gonadal mozaikliği veya başka dokudaki bir hattı tümüyle dışlamaz.
 

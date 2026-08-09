@@ -39,6 +39,9 @@ Bu bölümü tamamlayan okuyucu:
 <Bölümün "anahtar sorularını" başlıklar hâlinde yanıtla. Mermaid karar akışı eklenebilir.>
 
 ## 5. Tanısal testlerle ilişkisi
+
+> **Esneklik:** Aşağıdaki sekiz satır **çekirdektir, kota değil.** Mekanizmayla gerçekten ilgisiz bir satır çıkarılabilir; bölüme özgü araçlar eklenebilir; konu gerektiriyorsa tablo o alanın araç setine göre yeniden kurulabilir (bkz. `CLAUDE.md` §4 esneklik kuralı ve Bölüm 8'in sitogenetik tablosu). Değişmeyen iki kural: her satır **bir soruyu ve bir sınırlılığı** birlikte verir; araç adları kitap genelinde **tek biçimde** yazılır.
+
 | Test | Bu mekanizmayı yakalar mı? | Sınırlılığı |
 |------|----------------------------|-------------|
 | WES | | |
@@ -49,6 +52,7 @@ Bu bölümü tamamlayan okuyucu:
 | RNA-seq | | |
 | Methylation array | | |
 | Karyotip | | |
+| *(bölüme özgü araç — gerekiyorsa)* | | |
 
 > **Bu mekanizmayı hangi test yakalar? (özet):** <1-2 cümle pratik sonuç.>
 

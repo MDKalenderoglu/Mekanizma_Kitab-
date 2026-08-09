@@ -58,13 +58,13 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 
 | PMID | Yazar (yıl) | Dergi | DOI | Tip / kullanım | Kullanıldığı bölümler |
 |------|-------------|-------|-----|----------------|------------------------|
-| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 11, 12, 13, 14, 15, 17, 18 |
-| 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 2, 15, 17 |
+| 25741868 | Richards ve ark. (2015) | Genet Med | 10.1038/gim.2015.30 | Guideline (ACMG/AMP sınıflandırma) | 1, 2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 17, 18 |
+| 24759409 | MacArthur ve ark. (2014) | Nature | 10.1038/nature13127 | Metodoloji (gen-hastalık geçerliliği/nedensellik) | 1, 15, 17 |
 | 32461654 | Karczewski ve ark. (2020) | Nature | 10.1038/s41586-020-2308-7 | Metodoloji (gnomAD constraint; **LOEUF**) | 1, 2, 3, 17 |
 | 27535533 | Lek ve ark. (2016) | Nature | 10.1038/nature19057 | Metodoloji (ExAC; **pLI** metriğinin tanımlandığı çalışma) | 1, 2, 3, 17 |
 | 7297851 | Kacser &amp; Burns (1981) | Genetics | 10.1093/genetics/97.3-4.639 | Landmark kuram (metabolik kontrol; resesifliğin moleküler temeli) | 2, 3 |
 | 23820649 | Cooper ve ark. (2013) | Hum Genet | 10.1007/s00439-013-1331-2 | Review (eksik penetrans / ekspresivite) | 1, 15 |
-| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI; NMD kuralı: son ekzon + sondan bir öncekinin son 50 nt'si) | 1, 2, 4, 5, 14, 17 |
+| 30192042 | Abou Tayoun ve ark. (2018) | Hum Mutat | 10.1002/humu.23626 | Guideline (PVS1 / ClinGen SVI; NMD kuralı: son ekzon + sondan bir öncekinin son 50 nt'si) | 1, 2, 4, 5, 7, 14, 17 |
 | 16757948 | Khajavi, Inoue, Lupski (2006) | Eur J Hum Genet | 10.1038/sj.ejhg.5201649 | Review/mekanizma (NMD ve genotip-fenotip; NMD'den kaçan PTC → DN/GoF riski) | 2, 4, 7 |
 | 3384440 | Monaco ve ark. (1988) | Genomics | 10.1016/0888-7543(88)90113-9 | Landmark mekanizma (okuma çerçevesi; DMD/BMD) | 2, 14 |
 | 23974870 | Sosnay ve ark. (2013) | Nat Genet | 10.1038/ng.2745 | Klinik örnek (CFTR alelik heterojenite) | 2, 15 |
@@ -192,7 +192,7 @@ Durum kodları: ✅ Tamam · 🟡 Devam ediyor · ⬜ Bekliyor
 | 11567139 | Katsanis ve ark. (2001) | Science | 10.1126/science.1063525 | Landmark (Bardet-Biedl trialelik kalıtım; kalıtım modelinin sorgulanması) | 15 |
 | 29433793 | Calucho ve ark. (2018) | Neuromuscul Disord | 10.1016/j.nmd.2018.01.003 | Klinik/modifier (SMN2 kopya sayısı → SMA tipi; 3.459 hasta derlemesi) | 15, 18 |
 | 26417704 | Corvol ve ark. (2015) | Nat Commun | 10.1038/ncomms9382 | Klinik/modifier (KF akciğer ağırlığı; GWAS meta-analizi; 5 modifiye edici lokus) | 15 |
-| 15829955 | Emison ve ark. (2005) | Nature | 10.1038/nature03467 | Mekanizma/klinik (RET intron 1 enhancer; kodlamayan modifier; düşük penetrans) | 13, 15 |
+| 15829955 | Emison ve ark. (2005) | Nature | 10.1038/nature03467 | Mekanizma/klinik (RET intron 1 enhancer; kodlamayan modifier; düşük penetrans) | 15 |
 | 37165203 | Li ve ark. (2023) | Rev Endocr Metab Disord | 10.1007/s11154-023-09809-1 | Klinik/kavramsal (monogenik diyabette eksik penetrans; modifiye ediciler; koruyucu varyant) | 15 |
 | 35754516 | Thaxton ve ark. (2022) | Cell Genom | 10.1016/j.xgen.2022.100131 | Guideline (ClinGen ön-küreleme; hastalık varlığının tanımı; birleştirme/ayırma ölçütleri) | 14, 17 |
 | 28552198 | Strande ve ark. (2017) | Am J Hum Genet | 10.1016/j.ajhg.2017.04.015 | Guideline/metodoloji (ClinGen gen–hastalık geçerliliği; Kesin→Çelişkili sınıfları) | 14, 17 |

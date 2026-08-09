@@ -2,16 +2,22 @@
 
 > **Bölümün çekirdek tezi:** Genetik hastalık, "bir gende varyant bulunması" olayına indirgenemez. Bir varyantın hastalığa yol açıp açmaması; o değişikliğin gen ürününü, hücrenin biyolojisini, dokunun gelişimini ve nihayetinde fizyolojik bir sistemi nasıl etkilediğine bağlıdır. Bu bölüm, kitabın tamamında tekrar tekrar başvuracağımız temel düşünme çerçevesini — yani **varyanttan klinik fenotipe uzanan nedensellik zincirini** — kurar ve bu zinciri konuşurken kullanacağımız kelime dağarcığını, bir ezber listesi olarak değil, birbirine bağlı kavramlar bütünü olarak öğretir.
 
-> **📘 Okuma katmanları.** Bu kitabın birincil hedefi **yandal asistanı ve klinik genomik çalışan hekimdir**; genel pediatrist ve tıp öğrencisi ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
+> **📘 Okuma katmanları.** Kitabın birincil hedefi **tıbbi genetik ve çocuk genetiği hekimleri, klinik genomik/varyant yorumlama uzmanları, tıbbi biyoloji uzmanları ve moleküler tanı laboratuvarı ekipleridir**; pediatri hekimleri, genetik danışmanlık ekipleri ve ileri düzey tıp öğrencileri ikincil hedef kitledir. Bölümü kendi katmanınızdan okuyabilirsiniz:
 > · **① Temel — tıp öğrencisi:** §1 ve §2'yi sırayla okuyun — genetik düşünmenin grameri buradadır; penetrans ile ekspresivite ayrımını (§1.I) atlamayın.
 > · **② Klinik — pediatrist ve klinisyen:** §4 (klinik fenotipe dönüşüm), §5 (test seçimi) ve §9'daki karar algoritması doğrudan poliklinik pratiğine aittir.
-> · **③ İleri düzey — yandal asistanı, laboratuvar, varyant yorumlayan:** §6 (varyant yorumu) ile constraint metriklerinin ne söyleyip ne söylemediği ve §8'deki hata listesi; PVS1'in mekanizma kapısı burada kurulur.
+> · **③ İleri düzey — genetik uzmanı, laboratuvar, varyant yorumlayan:** §6 (varyant yorumu) ile constraint metriklerinin ne söyleyip ne söylemediği ve §8'deki hata listesi; PVS1'in mekanizma kapısı burada kurulur.
 
 ---
 
 ## Öğrenme hedefleri
 
-Bu bölümü bitiren okuyucu; genetik bilginin DNA'dan kromozoma uzanan fiziksel organizasyonunu ve bunun gen ifadesiyle ilişkisini açıklayabilmeli; bir genin yapısal ögelerini tanıyıp santral dogmanın her basamağında varyantların nasıl "süzüldüğünü" izleyebilmeli; zigotluk, faz, kalıtım kalıpları ve varyant kökeni gibi kavramları klinik kararla ilişkilendirebilmeli; penetrans ile ekspresiviteyi kesin biçimde ayırt edebilmeli; alelik ve lokus heterojenitesini test stratejisine bağlayabilmeli; ve mekanizma bilgisinin varyant yorumlamadaki önceliğini gerekçelendirebilmelidir.
+Bu bölümü tamamlayan okuyucu:
+1. Genetik bilginin DNA'dan kromozoma uzanan fiziksel organizasyonunu ve bunun gen ifadesiyle ilişkisini açıklar.
+2. Bir genin yapısal ögelerini tanır ve santral dogmanın her basamağında varyantların nasıl "süzüldüğünü" izler.
+3. Zigotluk, faz, kalıtım kalıpları ve varyant kökeni kavramlarını klinik kararla ilişkilendirir.
+4. Penetrans ile ekspresiviteyi kesin biçimde ayırt eder.
+5. Alelik ve lokus heterojenitesini test stratejisine bağlar.
+6. Mekanizma bilgisinin varyant yorumlamadaki önceliğini gerekçelendirir.
 
 ---
 
@@ -302,7 +308,7 @@ flowchart TD
 
 ## 10. Kaynaklar
 
-> **Atıf / doğrulama notu:** Bu bölümün bibliyografik verileri PubMed üzerinden doğrulanmıştır; aşağıdaki altı kaynağın da PMID ve DOI bilgisi tek tek teyit edilmiştir (son tur: 27.07.2026). Metin içinde yazar-yıl biçimi kullanılmış, DOI linkleri bu bölümde verilmiştir. §1'deki temel anatomik/terminolojik anlatım tartışmasız ders kitabı bilgisidir ve ek atıf gerektirmez; yorum ve mekanizma içeren ifadeler aşağıdaki hakemli kaynaklara dayanır.
+> **Atıf / doğrulama notu:** Bu bölümdeki hakemli kaynakların bibliyografik verileri PubMed üzerinden tek tek doğrulanmış, PMID ve DOI'leri teyit edilmiştir; mekanizma ve yöntem iddiaları erişim sağlanabilen her durumda özet yerine tam metinden kontrol edilmiştir. Metin içinde yazar-yıl biçimi kullanılır; DOI bağlantıları kaynakçada verilir.
 
 1. **Richards S, Aziz N, Bale S, ve ark. (2015).** Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine* 17(5):405–424. **PMID: 25741868** · DOI: [10.1038/gim.2015.30](https://doi.org/10.1038/gim.2015.30) — *Varyant sınıflandırma çerçevesi ve VUS kavramı.*
 2. **MacArthur DG, Manolio TA, Dimmock DP, ve ark. (2014).** Guidelines for investigating causality of sequence variants in human disease. *Nature* 508(7497):469–476. **PMID: 24759409** · DOI: [10.1038/nature13127](https://doi.org/10.1038/nature13127) — *Gen-hastalık geçerliliği ve nedensellik.*

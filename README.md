@@ -20,7 +20,9 @@ kitleyi oluşturur.
   yayım ön koşulu olarak beklemektedir.
 - Güncel derleme **68 SVG şekil**, **52 Mermaid algoritması** ve **194 benzersiz
   PMID** içerir.
-- Son commit: `b004c2b`; Bölüm 16 uygulama paketi henüz stage/commit edilmemiştir.
+- Son commit: `221a509`. Bölüm 16 paketi, öz değerlendirme ayrımı ve editöryal tutarlılık
+  paketi commitlenmiştir; çalışma kopyasında bekleyen değişiklik varsa `git status`
+  ile doğrulanır.
 - Yerel güvenlik etiketi: `pre-editorial-round-2`.
 - Editöryal karar kaydı, düşük riskli teknik temizlik ve doğrudan nesne
   bağlantıları + terminoloji/HGVS denetimi tamamlanmıştır. Proje artık **ayrı
@@ -78,6 +80,7 @@ bırakılmaz; kalıcı kayıt sırası şöyledir:
 
 | Kayıt | İşlev |
 |---|---|
+| `DEVIR_NOTU.md` | **Araç/oturum devri: ilk okunacak dosya.** Son oturumun yaptığı iş, bilinen tuzaklar, oturum başı denetim komutu |
 | `README.md` | Projenin kısa güncel durumu ve başlangıç noktası |
 | `CLAUDE.md` | Bağlayıcı çalışma, bilimsel doğrulama ve devamlılık kuralları |
 | `Bölüm_00_İçindekiler_ve_İlerleme.md` | Canlı bölüm/görsel/kaynak envanteri ve yol haritası |
@@ -86,7 +89,7 @@ bırakılmaz; kalıcı kayıt sırası şöyledir:
 | `Terminoloji_Kaynak_Denetimi.md` | Türkçe terim kararları, önce/sonra tablosu ve kaynakları |
 | Git geçmişi | Her değişikliğin ne, neden ve nasıl yapıldığı |
 
-Her yeni oturumda bu belgeler ve `git status` okunmalıdır. Yapılmamış bir karar,
+Her yeni oturumda **önce `DEVIR_NOTU.md`**, sonra bu belgeler ve `git status` okunmalıdır. Yapılmamış bir karar,
 belgelerde **“onaylandı — uygulanmadı”** olarak belirtilir; tamamlanmış gibi
 sunulmaz.
 
