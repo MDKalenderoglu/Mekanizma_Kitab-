@@ -1,0 +1,10 @@
+{
+  "name": "figure-review-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SVG→PNG renderer (aspect-preserving) for the figure-review skill's multimodal Codex input.",
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.34.4"
+  }
+}
