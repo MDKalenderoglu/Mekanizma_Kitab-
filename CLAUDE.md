@@ -65,9 +65,14 @@ Mekanizma_Kitabı/
 ├── Dogrulama_Kutugu.md                    # iddia ve kaynak doğrulama kaydı
 ├── 00_Şablonlar/
 │   ├── Bölüm_Şablonu.md                   # kopyalanacak bölüm iskeleti
-│   ├── Stil_Rehberi.md                    # ton, biçim, kutular, görsel standardı
-│   └── Kaynak_Protokolü.md                # PubMed doğrulama iş akışı
-├── .claude/skills/bolum-yaz/SKILL.md      # /bolum-yaz skill'i
+│   ├── Stil_Rehberi.md                    # genel yazım rehberi: ton, anlatı, biçim, atıf (görsel için yalnız yönlendirme)
+│   ├── Görsel_Doktrini_v2.md              # görsel standardı — TEK bağlayıcı source-of-truth
+│   ├── Dogrulama_Protokolu.md             # T1–T5 iddia türleri ve doğrulama otoriteleri
+│   └── Kaynak_Protokolü.md                # kaynak türüne uygun kalıcı kimlik + doğrulama iş akışı
+├── .claude/skills/
+│   ├── bolum-yaz/                         # bölüm yazım iş akışı
+│   ├── academic-review/                   # Codex salt-okunur bilimsel/editöryal inceleme
+│   └── figure-review/                     # Codex salt-okunur şekil incelemesi + proje renderer'ı
 ├── assets/                                # tüm SVG görseller (sekil_XX_*.svg)
 └── Bölüm_NN_<Konu>.md                     # bölüm dosyaları
 ```
@@ -106,9 +111,9 @@ Bölüm kaynak dosyasında iç kalite güvencesi için **✅ öz-denetim tablosu
 
 ## 5. Görsel standardı
 
-- **SVG (assets/):** Beyaz zemin (`fill="#ffffff"`), açık renk paleti, Türkçe etiketler, başlık + alt-not. CSS değişkeni KULLANMA (img olarak izole render edilir). Mekanizma şemaları, anatomiler, eğriler, pedigriler için.
-- **Mermaid (kod bloğu):** Karar ağaçları, akış/algoritmalar, sınıflandırma için. Etiketleri `"..."` içine al; satır sonu `<br/>`.
-- Her bölümde en az: 1 mekanizma SVG'si + 1 karar/algoritma Mermaid'i + konuya özgü ek görseller.
+- **Bağlayıcı tanım:** `00_Şablonlar/Görsel_Doktrini_v2.md` — görsel standardının **tek source-of-truth'u** (palet, tipografi, çakışma yasağı, yapısal iskelet, teknik kurallar, render + gözle denetim). Diğer belgeler bu ayrıntıyı kopyalamaz, ona yönlendirir; uyuşmazlıkta doktrin geçerlidir.
+- **Araç ayrımı:** mekanizma şeması, anatomi, eğri, pedigri → SVG (`assets/`); karar ağacı, algoritma, sınıflandırma → Mermaid (yazım kuralları: `Stil_Rehberi.md` §3.3).
+- **Minimum sayı:** §2.6.
 
 ---
 
@@ -182,9 +187,9 @@ Güncel ilerleme **Bölüm_00_İçindekiler_ve_İlerleme.md** dosyasındadır.
 
 ## 10. Araç notları
 
-- **PubMed MCP** mevcut: `search_articles`, `lookup_article_by_citation`, `get_article_metadata`, `convert_article_ids`, `get_full_text_article`. Kaynak doğrulamasının tek meşru yolu budur (eğitim verisinden PMID "hatırlama" → uydurma riski; YAPMA).
+- **Kaynak doğrulama yolu kaynak türüne göre değişir** (ayrıntı ve source-of-truth: `00_Şablonlar/Kaynak_Protokolü.md`): dergi makalesinin bibliyografik doğrulaması **PubMed MCP** ile (`search_articles`, `lookup_article_by_citation`, `get_article_metadata`, `convert_article_ids`, `get_full_text_article`); normatif kılavuz/standart kendi resmî belge·sürüm·tarih kimliğiyle; veri tabanı iddiası yetkili veri tabanından programatik sorgu/eşleştirmeyle. Bibliyografik doğrulama ile iddia düzeyi doğrulama ayrı denetimlerdir. PMID/DOI asla bellekten yazılmaz.
 - Görseller `assets/`'e **SVG dosyası** olarak yazılır (sohbet widget'ı değil), çünkü kalıcı kitap dosyasına gömülecek.
-- **SVG'lerde `&` doğrudan KULLANMA → `&amp;` yaz** (kaçırılmamış `&` SVG'yi bozar, render edilmez). Yeni SVG ekledikten sonra geçerliliği `xmllint --noout assets/*.svg` ile kontrol et.
+- SVG teknik kuralları ve zorunlu QA adımları (XML geçerliliği, render, gözle denetim): `00_Şablonlar/Görsel_Doktrini_v2.md`.
 
 ---
 

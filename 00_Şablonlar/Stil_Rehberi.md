@@ -31,62 +31,44 @@ Bu rehber, tüm bölümlerde tutarlı ton, biçim ve görsel standardını sağl
 - **Hatırlatıcı / mnemonik:** `> **🧠 …**` (uygun olduğunda).
 - Bol **yayın tablosu**: kavram tabloları, varyant-tipi tabloları, test tablosu ve karşılaştırma tabloları. Kaynak Markdown'daki iç öz-denetim tablosu korunur ancak derlenen HTML/PDF'ye ve Tablolar Listesi'ne girmez.
 
-## 3. Görsel standardı (v2 — editöryal textbook standardı)
+## 3. Görsel standardı (v2)
 
-> **Felsefe:** Görsel bir "şema" değil, bir **ders sayfasıdır**: sakin, editöryal, anlatıyı taşıyan. Renk dekorasyon değil **anlam** taşır (semantik). Az sayıda renk, tutarlı anlamla — gökkuşağı palet yok. Her figür tek başına okunabilir: başlık + panel yapısı + bir "öğreti" satırı.
+> **⚠️ Bağlayıcı tanım burada değil:** görsel standardının **tek source-of-truth'u** `00_Şablonlar/Görsel_Doktrini_v2.md` dosyasıdır. Palet hex değerleri, tipografi ölçüleri, zorunlu yapısal iskelet, ince işçilik, ok-ucu (`markerUnits`) tuzağı, render + gözle denetim yordamı ve kırılmaz teknik kurallar **orada** tanımlıdır. Bu bölüm o ayrıntıyı **tekrarlamaz**; yalnız yönlendirir. Bir uyuşmazlık görürsen doktrin geçerlidir.
 
-### 3.1 Renk paleti (v2 — tek kaynak; eski doygun palet emekli)
-**Nötr/yapı (slate ölçeği):** mürekkep/başlık `#1A2B4A`, gövde metin `#2E3440`, ikincil `#475569`/`#64748B`, çizgi/kenar `#CBD5E1`/`#94A3B8`, dolgu `#E2E8F0`/`#F1F5F9`/`#F8FAFC`.
+**Felsefe:** Görsel bir "şema" değil, bir **ders sayfasıdır**: sakin, editöryal, anlatıyı taşıyan. Renk dekorasyon değil **anlam** taşır (semantik). Az sayıda renk, tutarlı anlamla — gökkuşağı palet yok. Her figür tek başına okunabilir: başlık + panel yapısı + bir "öğreti" satırı.
 
-**Semantik renkler (sabit anlam — değiştirme):**
-| Renk | Ana / dolgu / koyu | Anlam |
-|---|---|---|
-| 🔵 Mavi | `#2563EB` / `#DBEAFE` / `#1D4ED8` | LoF, normal-kontrollü, "Senaryo 1", yapı/protein |
-| 🔴 Kırmızı | `#B91C1C` / `#FEE2E2` / `#FEF6F5` | GoF, patojen/ağır, "Senaryo 2", aşırı aktivite |
-| 🟠 Amber | `#D97706` / `#FEF3C7` / `#B45309` | Vurgu, klinik dikkat, fosforilasyon (P), öğreti kutusu |
-| 🟡 Sarı yıldız | `#FCD34D` + kenar `#92400E` | "varyant burada" işareti (★) |
+### 3.1 Nereye bakılır
 
-> Eski palet (#e74c3c, #27ae60, #2980b9, #8e44ad …) artık KULLANILMAZ.
+| Konu | Bağlayıcı kaynak |
+|---|---|
+| Semantik palet (tam hex listesi) ve emekli eski palet | `Görsel_Doktrini_v2.md` → "Palet" |
+| Tipografi ve punto hiyerarşisi | aynı → "Tipografi" |
+| Okunurluk ve **çakışma yasağı** | aynı → "OKUNURLUK + ÇAKIŞMA YASAĞI" |
+| Zorunlu yapısal iskelet (panel rozeti, başlık, öğreti footer'ı, kaynak notu) | aynı → "Yapısal iskelet" |
+| Ok-ucu / `markerUnits` tuzağı | aynı → "OK-UCU (marker) TUZAĞI" |
+| **Render + gözle denetim yordamı** | aynı → "RENDER + GÖZLE DENETİM ZORUNLU" |
+| Teknik kurallar (`viewBox`, beyaz zemin, CSS değişkeni yasağı, `&amp;`) | aynı → "Teknik kurallar" |
 
-### 3.2 Tipografi
-`font-family="Inter, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif"`. Hiyerarşi: panel başlığı ~14px/700, etiket ~11–12px/600-700, alt-not/öğreti ~9.5–10.5px, italik kaynak/nüans notu `#64748B`/`#94A3B8`.
+### 3.2 Yönelim için kısa özet (ayrıntı doktrinde)
 
-### 3.3 Okunurluk ve çakışma YASAĞI (zorunlu kalite kuralı)
-- **Hiçbir metin başka metnin, çizginin veya kutunun üzerine binmez.** Öğeleri yerleştirmeden önce koordinatları/boyutları hesapla; metin kutusunun içine sığdığını doğrula.
-- **Metin daima okunur:** görselde minimum yazı **≥9px** (tercihen ≥10px); kritik etiketler daha büyük. Düşük kontrastlı metni açık zemine koyma.
-- **Uzun metni böl:** tek satıra sığmayan ifadeyi `<tspan>` ile alt satıra al; kutu genişliğini metne göre ayarla (taşma yok).
-- **Ferah boşluk:** kutular/oklar arası nefes payı bırak; sıkışık yığma yok. `text-anchor` (start/middle/end) ile hizala.
-- **Doğrulama (zorunlu — gözle bak):** `xmllint` yalnız XML geçerliliğini test eder, görsel çakışmayı GÖSTERMEZ. Her SVG yazıldıktan sonra **PNG'ye render edilip gözle denetlenir:** `qlmanage -t -s 1300 -o /tmp/svgcheck assets/sekil_NN_*.svg` → PNG'yi aç ve bak. Çakışma/taşma/metnin şekil arkasında kaybolması varsa düzelt, yeniden render et, tekrar bak. Körlemesine bırakma.
+- **Renk anlam taşır:** nötr/yapı = slate · mavi = LoF / normal-kontrollü / yapı · kırmızı = GoF / patojen / aşırı aktivite · amber = vurgu ve klinik dikkat · sarı yıldız (★) = "varyant burada". Eski doygun web paleti **kullanılmaz.** Tam hex değerleri doktrinde.
+- **Hiçbir metin başka metnin, çizginin veya kutunun üzerine binmez**; minimum punto ≥9px. Bu bir zevk kuralı değil, kalite kapısıdır.
+- **Beyaz zemin + `viewBox` + CSS değişkeni yok + `&` yerine `&amp;`** — figürler `img` olarak izole render edilir.
+- **Bitirmeden önce zorunlu üç adım:** `xmllint --noout` → en-boy oranını koruyan proje renderer'ı → **PNG'ye gözle bak.** Yordam, tek render standardı ve `qlmanage` yasağının gerekçesi doktrindedir.
 
-### 3.4 Zorunlu yapısal iskelet
-- **Panel rozeti:** köşeye `#1A2B4A` yuvarlatılmış kare + beyaz harf (A, B, C…) — çok panelli figürlerde.
-- **Panel başlığı:** her panel üstünde semantik renkli, 700 ağırlık başlık.
-- **Karşılaştırma figürü:** sol = mavi (normal/LoF), sağ = kırmızı (patojen/GoF); ortada kesik dikey ayraç.
-- **"Mekanizma → test → yorum" şeridi** (uygun figürlerde alt bant) — kitabın çekirdek pedagojisini tekrarlar.
-- **Öğreti satırı (footer):** en altta tek cümlelik ders.
-- **Kaynak notu:** kaynaklı figürde alt köşede küçük `#64748B` "Kaynaklar: Yazar (yıl)…".
+### 3.3 Mermaid (kod bloğu) — bu bölümde tanımlı
 
-### 3.5 İnce işçilik
-- `<defs>` içinde **yumuşak gölge** (`feDropShadow dy=1.5 stdDeviation=2 opacity=0.10`) ve **ok-uçları (marker)**; ok renkleri semantik (mavi/kırmızı ayrı).
-- Yuvarlatılmış kutular (`rx≈8–14`), hizalı grid, nicel gösterim (az P vs çok P, ★ varyant).
-
-### 3.6 Teknik kurallar (kırılmaz)
-- `viewBox` ile ölçeklenir; ilk eleman `<rect ... fill="#ffffff"/>` (beyaz zemin).
-- **CSS değişkeni kullanma** (img olarak izole render edilir → renkler sabit verilir).
-- **`&` asla doğrudan → `&amp;`** (kaçırılmamış `&` SVG'yi bozar).
-- Türkçe etiketler; her şekilde başlık + öğreti satırı.
-- Çizimden sonra `xmllint --noout assets/*.svg` ile doğrula.
-- Mekanizma şeması, anatomi, eğri, pedigri, spektrum için kullanılır.
-
-### Mermaid (kod bloğu)
-- Karar ağaçları/algoritmalar/sınıflandırma için.
-- Etiketleri `"..."` içine al; satır sonu `<br/>`; parantez/özel karakterleri tırnak içinde kullan.
+- Karar ağaçları / algoritmalar / sınıflandırma için kullanılır; mekanizma şeması, anatomi, eğri, pedigri ve spektrum için SVG kullanılır.
+- Etiketleri `"..."` içine al; satır sonu `<br/>`; parantez ve özel karakterleri tırnak içinde kullan.
 - `flowchart TD` (yukarıdan aşağı) varsayılan.
 
-### Minimum sayı
-- Bölüm başına **≥3 SVG** + **≥2 Mermaid**.
+### 3.4 Minimum sayı — bu bölümde tanımlı
+
+Bölüm başına **≥3 SVG** + **≥2 Mermaid**. Üst sınır yoktur; konu gerektiriyorsa daha fazlası yapılır (CLAUDE.md §2.6).
 
 ## 4. Atıf biçimi (final pass'te standardize edildi — bu biçim bağlayıcıdır)
+> **Kaynak türü makale değilse:** kılavuz / uzman panel spesifikasyonu (HGVS, ClinGen SVI, VCEP/CSpec, ACMG teknik standardı, ACGS, EMQN) **kurum + belge + sürüm + tarih + kalıcı bağlantı + erişim tarihi** ile; veri tabanı kaydı **veri sürümü + sorgu tarihi** ile künyelenir. Aşağıdaki biçim dergi makalesi içindir; diğer türler için bağlayıcı tanım `Kaynak_Protokolü.md` §1 ve CLAUDE.md §2.4'tedir (PMID/DOI verilemeyen kaynak bu yüzden **çıkarılmaz** — kimlik biçimi esner, titizlik esnemez).
+
 - **Metin içi:** yazar-yıl → "… (Richards ve ark., 2015)". Cümleyi "Based on articles retrieved from PubMed" ile BAŞLATMA; bu yükümlülük Kaynaklar bölümündeki doğrulama notu + her maddedeki DOI linki ile karşılanır.
 - **Kaynakça maddesi (tek biçim):**
   `N. **Yazar1 XX, Yazar2 YY, Yazar3 ZZ, ve ark. (Yıl).** Tam başlık. *Derginin tam adı* cilt(sayı):sayfa–sayfa. **PMID: …** · DOI: [10.xxxx/…](https://doi.org/10.xxxx/…) — *Kullanım amacı: …*`
@@ -108,4 +90,6 @@ Bu rehber, tüm bölümlerde tutarlı ton, biçim ve görsel standardını sağl
 - Mekanizma → varyant → hücre → fenotip → test → yorum zinciri kurulmuş mu?
 - En az 2-3 somut, kaynaklı pediatrik örnek var mı?
 - Görsel ve algoritma minimumları karşılanmış mı?
-- Tüm kaynaklar PMID+DOI doğrulanmış mı? Spekülasyon işaretli mi?
+- **Bibliyografik doğrulama:** her künye kaynak türüne uygun kalıcı kimliğiyle doğrulandı mı (makale: PMID+DOI; kılavuz: belge+sürüm+tarih; veri tabanı: sürüm+sorgu tarihi)?
+- **İddia düzeyi doğrulama (ayrı denetim):** her iddia T1–T5 türüne göre kendi otoritesiyle karşılaştırıldı mı? "X/X künye doğrulandı" cümlesi bunun yerine **geçmez** (`Dogrulama_Protokolu.md` §0 · CLAUDE.md §2.5).
+- Spekülasyon ⚠️ ile, kitabın özgün pedagojik çerçeveleri 🏷️ ile işaretli mi?

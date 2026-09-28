@@ -15,7 +15,6 @@ __pycache__/
 *.log
 scratchpad/
 /tmp/
-svgcheck/
 
 # NOT: Bölüm_*.md, assets/, 00_Şablonlar/, build_assets/, CLAUDE.md,
 # Bölüm_00_*.md, README.md ve derlenmiş HTML BİLEREK dahil edilir — bunları ASLA ignore etme.

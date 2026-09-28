@@ -1,6 +1,6 @@
 # Kaynak Protokolü — Mekanizma Kitabı
 
-Bu protokolün tek amacı: **kaynak uydurmayı imkânsız kılmak.** Hiçbir PMID/DOI bellekten yazılmaz; her biri PubMed MCP ile doğrulanır.
+Bu protokolün tek amacı: **kaynak uydurmayı imkânsız kılmak.** Hiçbir PMID/DOI bellekten yazılmaz. Her kaynak, türüne uygun yetkili doğrulama yolu ile doğrulanır; ayrıntılı kimlik ve doğrulama kuralları §1 ve §2B'de tanımlanmıştır.
 
 ---
 

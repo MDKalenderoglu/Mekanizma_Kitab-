@@ -1,6 +1,8 @@
 # Görsel Doktrini v2 — SVG Çizim Standardı (kalıcı)
 
-> **Bu dosya neden var?** Bu doktrin başlangıçta Claude Code'un proje-dışı hafızasında (`~/.claude/.../memory/gorsel-doktrini-v2.md`) tutuluyordu. O hafıza **git ile taşınmaz** ve farklı bir PC'de kaybolur. Bu yüzden doktrin buraya, **repo içinde izlenen bir dosyaya** taşınmıştır. Yeni bir oturumda/PC'de SVG çizerken bu dosya + `Stil_Rehberi.md` §3 birlikte bağlayıcıdır. Kullanıcı bu doktrini 2026-06-20'de onayladı.
+> **Bu dosya neden var?** Bu doktrin başlangıçta Claude Code'un proje-dışı hafızasında (`~/.claude/.../memory/gorsel-doktrini-v2.md`) tutuluyordu. O hafıza **git ile taşınmaz** ve farklı bir PC'de kaybolur. Bu yüzden doktrin buraya, **repo içinde izlenen bir dosyaya** taşınmıştır. Kullanıcı bu doktrini 2026-06-20'de onayladı.
+
+> **⚠️ TEK SOURCE-OF-TRUTH.** Görsel standardının bağlayıcı tanımı **yalnız bu dosyadır.** `Stil_Rehberi.md` §3 ayrıntıyı tekrarlamaz, buraya referans verir; proje-dışı hafızadaki özet yalnız bir işaretçidir. Palet, tipografi, iskelet, okunurluk ve doğrulama kuralları arasında bir uyuşmazlık görürsen **bu dosya geçerlidir** ve diğer kopya hatalıdır — düzeltilmesi gerekir.
 
 Mekanizma Kitabı'ndaki (Genetik Hastalık Mekanizmaları textbook) tüm görseller **v2 editöryal textbook standardıyla** çizilir.
 
@@ -18,13 +20,31 @@ Mekanizma Kitabı'ndaki (Genetik Hastalık Mekanizmaları textbook) tüm görsel
 Marker'larda `markerUnits` belirtmezsen varsayılan `strokeWidth`'tir → ok-ucu boyutu çizgi kalınlığıyla **ÇARPILIR**. 11px tanımladığın ok-ucu, stroke-width 2.5 olunca ~28px DEV üçgen olur ve yanındaki etiketin üstüne çıkar. Bu, ok'lu figürlerde tekrar tekrar çakışmaya yol açtı.
 **ÇÖZÜM:** her `<marker>` tanımına `markerUnits="userSpaceOnUse"` ekle → ok-ucu markerWidth/Height değeri kadar (gerçek px) çizilir, kalınlıktan bağımsız. Etiketi ok'un üstüne koyarken ok-ucunun gerçek boyutunu hesaba kat.
 
-## ⚠️ GÖZLE DENETİM ZORUNLU (en kritik kural)
-SVG'yi yazdıktan sonra **körlemesine bırakma.** Her figürü PNG'ye render et ve **gözünle bak**:
+## ⚠️ RENDER + GÖZLE DENETİM ZORUNLU (en kritik kural)
+
+SVG'yi yazdıktan sonra **körlemesine bırakma.** Her figür sırayla üç adımdan geçer:
+
+**1. XML geçerliliği**
 ```
-qlmanage -t -s 1300 -o <çıktı_klasörü> assets/sekil_NN_*.svg
+xmllint --noout assets/sekil_NN_*.svg
 ```
-Sonra üretilen PNG'yi Read ile aç ve incele. Çakışma/taşma/metnin şekil arkasında kaybolması varsa düzelt, yeniden render et, tekrar bak. **`xmllint` yalnız XML geçerliliğini test eder, görsel çakışmayı GÖSTERMEZ.**
-> Not: `qlmanage` yalnızca macOS'ta vardır. Farklı bir işletim sisteminde `rsvg-convert`, `inkscape` veya tarayıcı ile PNG'ye çevirip gözle denetle.
+
+**2. En-boy oranını koruyan render — tek standart**
+```
+node .claude/skills/figure-review/render_svg.mjs assets/sekil_NN_*.svg <çıktı.png> 1600
+```
+İlk kullanımda bir kez: `cd .claude/skills/figure-review && npm ci` (sharp; prebuilt, sistem bağımlılığı yok). Çıktıyı **projeye değil**, oturum scratchpad'ine yaz.
+
+**3. Gözle bak** — üretilen PNG'yi Read ile aç ve incele. Çakışma / taşma / metnin şekil arkasında kaybolması varsa düzelt, yeniden render et, **tekrar bak**.
+
+### ⛔ `qlmanage` KULLANILMAZ
+`qlmanage`, geniş veya standart dışı en-boy oranlı SVG'lerde kaynak `viewBox` oranını güvenilir biçimde korumadığı ve kırpma oluşturabildiği için **figür QA renderer'ı olarak kullanılmaz.** En-boy oranını koruyan proje renderer'ı (yukarıda, adım 2) **tek standarttır.** Diğer belgeler bu gerekçeyi tekrarlamaz, buraya referans verir.
+
+### Zorunlu render ön kontrolü
+- Çıktı PNG'nin en-boy oranı, kaynak SVG'nin **`viewBox` oranıyla** eşleşmeli. Eşleşmiyorsa sorun figürde değil **render'dadır**; önce onu düzelt.
+- Çıktı yüksekliği `viewBox` yüksekliğinin **altına düşmemeli.** Kitabın minimum puntosu 9px olduğundan küçültme doğrudan okunmazlık üretir ve incelemede yapay "etiket yanlış/eksik" bulgusuna yol açar.
+
+**`xmllint` yalnız XML geçerliliğini test eder; görsel çakışmayı GÖSTERMEZ.** İki adım birbirinin yerine geçmez.
 
 Geçmiş hatalar (hepsi render edilip bakılsaydı baştan yakalanırdı): metin etiketinin reseptör/şekil gövdesine binmesi; nokta/işaretin yazının ortasına gelmesi; dar alana sıkıştırılmış etiket+ikon.
 
@@ -32,7 +52,7 @@ Geçmiş hatalar (hepsi render edilip bakılsaydı baştan yakalanırdı): metin
 - `viewBox` + ilk eleman beyaz `<rect fill="#ffffff"/>`; **CSS değişkeni YOK** (img olarak izole render edilir).
 - **`&` asla doğrudan → `&amp;`** (kaçırılmamış `&` SVG'yi bozar).
 - Türkçe etiketler; her şekilde başlık + öğreti satırı.
-- Bitince `xmllint --noout assets/*.svg` ile XML geçerliliğini doğrula (ama gözle denetimin YERİNE GEÇMEZ).
+- Bitince `xmllint --noout assets/*.svg` ile XML geçerliliğini doğrula — sonra yukarıdaki **render + gözle denetim** adımlarını uygula; biri diğerinin yerine geçmez.
 
 ## Referans örnekler (bu standardın canlı uygulaması)
 `assets/sekil_07_nmd_karar.svg`, `sekil_16_konstitutif_aktivasyon_reseptor.svg`, `sekil_17_ayni_gen_gof_lof.svg`, ve Bölüm 10 figürleri `sekil_30`–`sekil_33`.
